@@ -1,10 +1,10 @@
 # Source report
 
-Built 2026-10-18 04:52 UTC.
+Built 2026-10-18 11:29 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4260** (4928 KB) |
+| Apps in `source.json` | **4260** (4937 KB) |
 | Apps in `curated.json` | **728** (709 KB) |
 | Listings read | 23747 |
 | Apps listed by more than one source (newest kept) | 1802 |
@@ -26,7 +26,7 @@ Built 2026-10-18 04:52 UTC.
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json) | cached | 156 | 8 | 0 | 2026-10-14 | discovered |
 | [iDevPatcher](https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json) | ok | 20 | 8 | 1 | 2025-12-12 | discovered |
-| [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 9 | 8 | 0 | 2026-10-17 | discovered |
+| [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 9 | 8 | 0 | 2026-10-18 | discovered |
 | [RipeStore](https://bit.ly/RipeStore) | ok | 11 | 6 | 0 | 2026-07-01 | discovered |
 | [CyPwn IPA Library](https://repos.gabrx.eu.org/cypwn.json) | ok | 203 | 4 | 6 | 2026-07-23 | curated |
 | [AltStore Complete](https://bit.ly/Altstore-complete) | ok | 8 | 4 | 0 | 2025-05-12 | discovered |
@@ -35,7 +35,7 @@ Built 2026-10-18 04:52 UTC.
 | [Provenance Emulator](https://provenance-emu.com/apps.json) | ok | 4 | 3 | 0 | 2026-10-18 | discovered |
 | [Quantum Source++](https://quarksources.github.io/dist/quantumsource%2B%2B.min.json) | ok | 32 | 2 | 3 | 2025-05-20 | curated |
 | [FrizzleM's AltSource](https://raw.githubusercontent.com/FrizzleM/SideInstaller/main/frizzlem.json) | ok | 2 | 2 | 0 | 2026-10-16 | discovered |
-| [iAnyFeature's Source](https://raw.githubusercontent.com/Leo7247/iAnyFeature/main/source.json) | ok | 2 | 2 | 0 | 2026-10-09 | discovered |
+| [iAnyFeature's Source](https://raw.githubusercontent.com/Leo7247/iAnyFeature/main/source.json) | ok | 2 | 2 | 0 | 2026-10-18 | discovered |
 | [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9389 | 1 | 161 | 2026-10-18 | discovered |
 | [CyPwn IPA Library](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/CyPwn%20iPA%20Library/source.json) | ok | 193 | 1 | 6 | 2025-09-01 | discovered |
 | [Sideloading Hub](https://raw.githubusercontent.com/SimoGHcoder/iosrepo/main/apps.json) | ok | 5 | 1 | 0 | 2026-10-17 | discovered |
@@ -193,6 +193,7 @@ Built 2026-10-18 04:52 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
+| Activity Moniter | 11.00 | 2026-10-18 | raw.githubusercontent.com |
 | Accretion | 1.0.35 | 2026-10-18 | raw.githubusercontent.com |
 | Messenger | 584.0.0 | 2026-10-18 | raw.githubusercontent.com |
 | Aidoku | 0.9-4 | 2026-10-18 | raw.githubusercontent.com |
@@ -217,4 +218,3 @@ Built 2026-10-18 04:52 UTC.
 | ScannerAir | 2026.10.6 | 2026-10-18 | raw.githubusercontent.com |
 | Daygram | 5.9.5 | 2026-10-18 | raw.githubusercontent.com |
 | Reframe | 3.9.96 | 2026-10-18 | raw.githubusercontent.com |
-| Imprint | 6.0.2 | 2026-10-18 | raw.githubusercontent.com |
