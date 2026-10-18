@@ -1,10 +1,10 @@
 # Source report
 
-Built 2026-10-17 20:50 UTC.
+Built 2026-10-18 01:50 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4254** (4917 KB) |
+| Apps in `source.json` | **4254** (4918 KB) |
 | Apps in `curated.json` | **728** (709 KB) |
 | Listings read | 23735 |
 | Apps listed by more than one source (newest kept) | 1798 |
@@ -32,7 +32,7 @@ Built 2026-10-17 20:50 UTC.
 | [AltStore Complete](https://bit.ly/Altstore-complete) | ok | 8 | 4 | 0 | 2025-05-12 | discovered |
 | [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 43 | 3 | 0 | 2026-10-17 | discovered |
 | [Quantum Source](https://bit.ly/Quantumsource) | ok | 35 | 3 | 3 | 2025-12-30 | discovered |
-| [Provenance Emulator](https://provenance-emu.com/apps.json) | ok | 4 | 3 | 0 | 2026-10-17 | discovered |
+| [Provenance Emulator](https://provenance-emu.com/apps.json) | ok | 4 | 3 | 0 | 2026-10-18 | discovered |
 | [Quantum Source++](https://quarksources.github.io/dist/quantumsource%2B%2B.min.json) | ok | 32 | 2 | 3 | 2025-05-20 | curated |
 | [FrizzleM's AltSource](https://raw.githubusercontent.com/FrizzleM/SideInstaller/main/frizzlem.json) | ok | 2 | 2 | 0 | 2026-10-16 | discovered |
 | [iAnyFeature's Source](https://raw.githubusercontent.com/Leo7247/iAnyFeature/main/source.json) | ok | 2 | 2 | 0 | 2026-10-09 | discovered |
@@ -50,7 +50,7 @@ Built 2026-10-17 20:50 UTC.
 | [Apollo for Reddit](https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/apps.json) | ok | 1 | 1 | 0 | 2026-10-09 | curated |
 | [EPIC's source](https://raw.githubusercontent.com/Epyke/plezy-sidestore-source/master/apps.json) | ok | 1 | 1 | 0 | 2026-10-11 | discovered |
 | [FriesI23's Source](https://raw.githubusercontent.com/FriesI23/altstore-repo/master/_site/repo/source.json) | ok | 1 | 1 | 0 | 2026-10-10 | discovered |
-| [Accretion App](https://raw.githubusercontent.com/GETAccretion/accretion-app/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-16 | curated |
+| [Accretion App](https://raw.githubusercontent.com/GETAccretion/accretion-app/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-18 | curated |
 | [Lumisound](https://raw.githubusercontent.com/HeavenlyXenusVR/Lumisound/main/ios/altstore-source.json) | ok | 1 | 1 | 0 | 2026-10-11 | discovered |
 | [Nightshift](https://raw.githubusercontent.com/Jannehy/nightshift-ios/main/altstore.json) | ok | 1 | 1 | 0 | 2026-10-02 | discovered |
 | [MuffinEMU](https://raw.githubusercontent.com/MuffinEMU/Muffin-EMU/main/docs/apps.json) | ok | 1 | 1 | 0 | 2026-10-15 | discovered |
@@ -193,6 +193,8 @@ Built 2026-10-17 20:50 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
+| Accretion | 1.0.35 | 2026-10-18 | raw.githubusercontent.com |
+| Provenance Alpha | 3.4.0 | 2026-10-18 | provenance-emu.com |
 | UTM | 5.0.8 | 2026-10-17 | raw.githubusercontent.com |
 | UTM SE | 5.0.8 | 2026-10-17 | raw.githubusercontent.com |
 | fGet | 1.7.0 | 2026-10-17 | raw.githubusercontent.com |
@@ -203,7 +205,6 @@ Built 2026-10-17 20:50 UTC.
 | ScannerPro | 9.0.2 | 2026-10-17 | raw.githubusercontent.com |
 | FitnessAI | 25.2 | 2026-10-17 | raw.githubusercontent.com |
 | Buddy | 13.49.1 | 2026-10-17 | raw.githubusercontent.com |
-| Provenance Alpha | 3.4.0 | 2026-10-17 | provenance-emu.com |
 | iCube | 1.0.0-beta9-ios | 2026-10-17 | provenance-emu.com |
 | Nuvio Enhanced | 0.6.1 | 2026-10-17 | raw.githubusercontent.com |
 | ColorPop | 2.67.01 | 2026-10-17 | raw.githubusercontent.com |
@@ -217,4 +218,3 @@ Built 2026-10-17 20:50 UTC.
 | Calendars | 5.39.6 | 2026-10-17 | raw.githubusercontent.com |
 | Endel | 4.49.290 | 2026-10-17 | raw.githubusercontent.com |
 | HeavyBagPro | 2.6.4 | 2026-10-17 | raw.githubusercontent.com |
-| NutriCoach | 2.5.1 | 2026-10-17 | raw.githubusercontent.com |
