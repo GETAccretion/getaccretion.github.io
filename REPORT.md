@@ -1,16 +1,16 @@
 # Source report
 
-Built 2026-10-18 16:05 UTC.
+Built 2026-10-18 20:59 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4259** (4937 KB) |
+| Apps in `source.json` | **4257** (4935 KB) |
 | Apps in `curated.json` | **728** (709 KB) |
-| Listings read | 23744 |
+| Listings read | 23743 |
 | Apps listed by more than one source (newest kept) | 1801 |
-| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6626 |
+| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6628 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 57 |
-| Dead download links held back (retested every build) | 8906 |
+| Dead download links held back (retested every build) | 8908 |
 | Links on hold (whole host failing, kept for now) | 0 |
 | Sources | 163: 160 ok, 3 from cache, 0 failed |
 
@@ -20,14 +20,14 @@ Built 2026-10-18 16:05 UTC.
 
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
-| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3720 | 3522 | 4539 | 2026-10-18 | discovered |
+| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3718 | 3519 | 4541 | 2026-10-18 | discovered |
 | [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1626 | 533 | 331 | 2026-10-18 | discovered |
 | [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 100 | 13 | 2025-01-01 | curated |
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json) | cached | 155 | 8 | 1 | 2026-10-14 | discovered |
 | [iDevPatcher](https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json) | ok | 20 | 8 | 1 | 2025-12-12 | discovered |
 | [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 9 | 8 | 0 | 2026-10-18 | discovered |
-| [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 43 | 6 | 0 | 2026-10-18 | discovered |
+| [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 43 | 7 | 0 | 2026-10-18 | discovered |
 | [RipeStore](https://bit.ly/RipeStore) | ok | 11 | 6 | 0 | 2026-07-01 | discovered |
 | [CyPwn IPA Library](https://repos.gabrx.eu.org/cypwn.json) | ok | 203 | 4 | 6 | 2026-07-23 | curated |
 | [AltStore Complete](https://bit.ly/Altstore-complete) | ok | 8 | 4 | 0 | 2025-05-12 | discovered |
@@ -36,11 +36,11 @@ Built 2026-10-18 16:05 UTC.
 | [Quantum Source++](https://quarksources.github.io/dist/quantumsource%2B%2B.min.json) | ok | 32 | 2 | 3 | 2025-05-20 | curated |
 | [FrizzleM's AltSource](https://raw.githubusercontent.com/FrizzleM/SideInstaller/main/frizzlem.json) | ok | 2 | 2 | 0 | 2026-10-16 | discovered |
 | [iAnyFeature's Source](https://raw.githubusercontent.com/Leo7247/iAnyFeature/main/source.json) | ok | 2 | 2 | 0 | 2026-10-18 | discovered |
-| [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9389 | 1 | 161 | 2026-10-18 | discovered |
+| [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9390 | 1 | 161 | 2026-10-19 | discovered |
 | [CyPwn IPA Library](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/CyPwn%20iPA%20Library/source.json) | ok | 193 | 1 | 6 | 2025-09-01 | discovered |
 | [Sideloading Hub](https://raw.githubusercontent.com/SimoGHcoder/iosrepo/main/apps.json) | ok | 5 | 1 | 0 | 2026-10-17 | discovered |
 | [Quark Source Testing](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource-testing.json) | ok | 4 | 1 | 1 | 2021-08-03 | discovered |
-| [ARMSX2 iOS](https://raw.githubusercontent.com/RipeStore/repos/main/armsx2.json) | ok | 2 | 1 | 0 | 2026-10-16 | discovered |
+| [ARMSX2 iOS](https://raw.githubusercontent.com/RipeStore/repos/main/armsx2.json) | ok | 2 | 1 | 0 | 2026-10-18 | discovered |
 | [Resonance Team](https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/ResonanceTeamRepo.json) | ok | 2 | 1 | 0 | 2024-08-27 | discovered |
 | [Toshiaki Shirakura](https://polymorph-distribution.netlify.app/source.json) | ok | 1 | 1 | 0 | 2025-12-18 | discovered |
 | [BatSign Source](https://raw.githubusercontent.com/8yy/BatSign/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-10 | discovered |
@@ -208,6 +208,7 @@ Built 2026-10-18 16:05 UTC.
 | UTM SE | 5.0.8 | 2026-10-18 | raw.githubusercontent.com |
 | Provenance Alpha | 3.4.0 | 2026-10-18 | provenance-emu.com |
 | iCube | 1.0.0-beta9-ios | 2026-10-18 | provenance-emu.com |
+| Musly | 2.0.3 | 2026-10-18 | raw.githubusercontent.com |
 | Husk | 3.0.0 | 2026-10-18 | raw.githubusercontent.com |
 | Crsel | 1.5.7 | 2026-10-18 | raw.githubusercontent.com |
 | superagent | 4.7.0 | 2026-10-18 | raw.githubusercontent.com |
@@ -218,4 +219,3 @@ Built 2026-10-18 16:05 UTC.
 | Block Blast! | 7.5.3 | 2026-10-18 | raw.githubusercontent.com |
 | ScannerAir | 2026.10.6 | 2026-10-18 | raw.githubusercontent.com |
 | Daygram | 5.9.5 | 2026-10-18 | raw.githubusercontent.com |
-| Reframe | 3.9.96 | 2026-10-18 | raw.githubusercontent.com |
