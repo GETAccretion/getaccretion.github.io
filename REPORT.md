@@ -1,6 +1,6 @@
 # Source report
 
-Built 2026-10-19 16:53 UTC.
+Built 2026-10-19 19:04 UTC.
 
 | | |
 |---|---|
@@ -50,7 +50,7 @@ Built 2026-10-19 16:53 UTC.
 | [Apollo for Reddit](https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/apps.json) | ok | 1 | 1 | 0 | 2026-10-09 | curated |
 | [EPIC's source](https://raw.githubusercontent.com/Epyke/plezy-sidestore-source/master/apps.json) | ok | 1 | 1 | 0 | 2026-10-11 | discovered |
 | [FriesI23's Source](https://raw.githubusercontent.com/FriesI23/altstore-repo/master/_site/repo/source.json) | ok | 1 | 1 | 0 | 2026-10-19 | discovered |
-| [Accretion App](https://raw.githubusercontent.com/GETAccretion/accretion-app/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-18 | curated |
+| [Accretion App](https://raw.githubusercontent.com/GETAccretion/accretion-app/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-19 | curated |
 | [Nightshift](https://raw.githubusercontent.com/Jannehy/nightshift-ios/main/altstore.json) | ok | 1 | 1 | 0 | 2026-10-02 | discovered |
 | [IW4 Pocket](https://raw.githubusercontent.com/MarkusSela/IW4-Pocket/main/source.json) | ok | 1 | 1 | 0 | 2026-10-15 | discovered |
 | [MuffinEMU](https://raw.githubusercontent.com/MuffinEMU/Muffin-EMU/main/docs/apps.json) | ok | 1 | 1 | 0 | 2026-10-15 | discovered |
@@ -200,6 +200,7 @@ Built 2026-10-19 16:53 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
+| Accretion | 1.0.36 | 2026-10-19 | raw.githubusercontent.com |
 | EngiNote | 1.0 | 2026-10-19 | raw.githubusercontent.com |
 | OwLens | 2.0 | 2026-10-19 | raw.githubusercontent.com |
 | Kinbits | 2.0 | 2026-10-19 | raw.githubusercontent.com |
@@ -224,4 +225,3 @@ Built 2026-10-19 16:53 UTC.
 | MeleePad | 0.2.3 | 2026-10-19 | raw.githubusercontent.com |
 | Neechan X | 2.5.3 | 2026-10-19 | raw.githubusercontent.com |
 | SunPad | 0.2.2 | 2026-10-19 | raw.githubusercontent.com |
-| Bird Chaser | 1.162.2 | 2026-10-19 | raw.githubusercontent.com |
