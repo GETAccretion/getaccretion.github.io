@@ -468,6 +468,10 @@
     box.replaceChildren(
       ...[
         shelf("Most popular", "this week", popular, homeHash({ ...state.f, s: "popular", l: true }), { ranked: true }),
+        (() => {
+          const card = sponsorCard(null);
+          return card && h("div", { class: "sponsor-slot" }, card);
+        })(),
         shelf("Made by Accretion", "our own mods", mods.slice(0, SHELF), mods.length > SHELF ? homeHash({ ...state.f, src: modSrc, s: "updated", l: true }) : null),
         shelf("Updates for your saved apps", `${savedUpd.length}`, savedUpd.slice(0, SHELF), "#/saved"),
         shelf("Fresh today", `${fmt(fresh.length)} updated`, fresh.slice(0, SHELF), homeHash({ ...state.f, s: "updated", l: true })),
@@ -772,6 +776,45 @@
   const wallets = () => (state.support.crypto || []).filter((w) => w && w.name && w.address);
   const kofi = () => safeUrl(state.support.kofi || "");
   const hasSupport = () => Boolean(kofi() || wallets().length || certs().length);
+
+  // ---- ads by page type ---------------------------------------------------------------------
+  // Google's ads run only on pages with Accretion's own content: our own app and mod pages, Sign
+  // your own apps and Support (social.js loads them). Pages that list other sources' apps (home,
+  // search, their app pages) get a sponsor card instead: support.json "sponsors" first, then the
+  // certificate offers, then Ko-fi, in the same order as the iOS app's sponsor card.
+  const OWN_PREFIXES = ["io.github.getaccretion.", "io.github.accretionmods."];
+  const isOwnApp = (id) => OWN_PREFIXES.some((p) => String(id || "").startsWith(p));
+  function adRoute(r = parse()) {
+    return r.view === "sign" || r.view === "support" || (r.view === "app" && isOwnApp(r.bid));
+  }
+  const localIcon = (src) => (/^assets\/[\w.-]+$/.test(src || "") ? src : safeUrl(src || ""));
+  function sponsorOffer(a) {
+    const paid = [
+      ...(state.support.sponsors || [])
+        .filter((s) => s && s.name && safeUrl(s.url))
+        .map((s) => ({ name: s.name, text: s.text || s.note || "", url: safeUrl(s.url), icon: localIcon(s.icon), own: false })),
+      ...certs().map((c) => ({ name: c.name, text: c.note || "Signing certificate", url: certUrl(c, a), icon: localIcon(c.icon), own: false })),
+    ];
+    if (paid.length) return paid[Math.floor(Math.random() * paid.length)];
+    if (kofi()) return { name: "Support Accretion", text: "Accretion is free. A coffee on Ko-fi keeps it running.", url: kofi(), icon: null, own: true };
+    return null;
+  }
+  function sponsorCard(a) {
+    const o = sponsorOffer(a);
+    if (!o) return null;
+    return h(
+      "a",
+      { class: "sponsor-card", href: o.url, target: "_blank", rel: "sponsored noopener" },
+      o.icon ? logo(o.icon) : h("span", { class: "sponsor-mark", "aria-hidden": "true" }, o.own ? "♥" : "✓"),
+      h(
+        "span",
+        { class: "sponsor-body" },
+        h("span", { class: "sponsor-name" }, h("span", {}, o.name), h("span", { class: "badge" }, o.own ? "Accretion" : "Sponsored")),
+        h("span", { class: "sponsor-text" }, o.text),
+      ),
+      h("span", { class: "sponsor-go", "aria-hidden": "true" }, "›"),
+    );
+  }
 
   // ---- status: the whole index at a glance (data/stats.json, rebuilt every 6 hours) ------------
   // The live dot's colour: green within 8 hours of the last build (it runs every 6), amber within
@@ -1155,6 +1198,7 @@
         fact("Category", CATEGORY_NAMES[a.c] || a.c),
       ),
     ];
+    if (!isOwnApp(a.i)) out.push(sponsorCard(a));
     if (latest.notes) out.push(h("section", { class: "sec" }, h("h2", {}, "What's new"), h("p", { class: "prose" }, latest.notes)));
     const shots = (d.shots || []).map(safeUrl).filter(Boolean);
     if (shots.length) out.push(h("section", { class: "sec" }, h("h2", {}, "Screenshots"), h("div", { class: "shots" }, shots.map(shot))));
@@ -1298,7 +1342,7 @@
     auth.require();
   }, true);
 
-  window.Acc = { h, toast, copy, fmt, ago, icon, safeUrl, shelf, homeHash, CATEGORY_NAMES, growthChart, app: (id) => state.byId.get(id), apps: () => state.apps, route, setTrending };
+  window.Acc = { h, toast, copy, fmt, ago, icon, safeUrl, shelf, homeHash, CATEGORY_NAMES, growthChart, app: (id) => state.byId.get(id), apps: () => state.apps, route, setTrending, adRoute };
 
   // ---- boot -------------------------------------------------------------------------------
   Promise.all([

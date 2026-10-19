@@ -163,12 +163,16 @@
   }
 
   // Google AdSense on the real domain only (not mirrors or local tests), skipped for supporters,
-  // moderators and admins. Google's own consent message (AdSense Privacy & messaging) runs first
+  // moderators and admins, and only on pages with Accretion's own content (A.adRoute: our own app
+  // and mod pages, Sign your own apps, Support). Pages that list other sources' apps show a sponsor
+  // card instead (app.js). Google's own consent message (AdSense Privacy & messaging) runs first
   // in regions that need it.
   function loadAds() {
     const p = me.profile;
+    const adFree = Boolean(p && (p.supporter || ["mod", "admin"].includes(p.role)));
+    document.documentElement.classList.toggle("ad-free", adFree);
     if (location.hostname !== "getaccretion.app" || document.getElementById("adsbygoogle-js")) return;
-    if (p && (p.supporter || ["mod", "admin"].includes(p.role))) return;
+    if (adFree || !A.adRoute()) return;
     const s = document.createElement("script");
     s.id = "adsbygoogle-js";
     s.async = true;
@@ -917,6 +921,13 @@
   document.addEventListener("acc:app", (e) => whenReady(() => renderAppSocial(e.detail)));
   document.addEventListener("acc:home", (e) => whenReady(() => renderHomeShelves(e.detail)));
   document.addEventListener("acc:track", (e) => whenReady(() => api.track(e.detail).catch(() => {})));
+  // Google's script can't be taken out of a page once loaded, so leaving a page with Google's ads
+  // for one that lists other sources' apps loads that page fresh, without it.
+  window.addEventListener("hashchange", () => {
+    if (!ready) return;
+    if (document.getElementById("adsbygoogle-js") && !A.adRoute()) return location.reload();
+    loadAds();
+  });
   document.addEventListener("acc:auth", () => {
     const r = location.hash;
     if (/^#\/(feed|u\/|notifications|mod|me|status)/.test(r) || r.startsWith("#/app/")) A.route();
