@@ -393,6 +393,23 @@
    "subscription"
   ]
  },
+ "app.molinete.aerio": {
+  "category": "entertainment",
+  "date": "2026-10-19",
+  "description": "AerioTV is a native IPTV streaming application for iOS, iPadOS, tvOS, and macOS. It connects to Dispatcharr via API Key, Xtream Codes, and M3U playlist servers to deliver live TV, movies, and series with a full electronic program guide when supplied by the user. The Apple and Android apps share one design and feature set. Users can cast from an iPhone to AerioTV on Android TV or use AirPlay to an Apple TV.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b5174cb407458e92d3725fbdb2212c034066f5acd66ab702ef07c92b18dbbbb7",
+  "subtitle": "Native IPTV streaming app for Apple devices",
+  "tags": [
+   "iptv",
+   "streaming",
+   "live tv",
+   "m3u",
+   "player",
+   "media"
+  ]
+ },
  "appcake2.iphonecake.com": {
   "category": "other",
   "date": "2026-10-15",
@@ -446,6 +463,27 @@
    "utilities"
   ]
  },
+ "au.ingo.betterattend": {
+  "category": "utilities",
+  "date": "2026-10-19",
+  "description": "BetterAttend is an unofficial native rewrite of Hack Club's Attend app for Android and iOS. The Android version uses Kotlin, Jetpack Compose, and Material 3 Expressive. The iOS version uses Swift, SwiftUI (iOS 18+, Liquid Glass on iOS 26), and includes WidgetKit widgets. Both apps share the same backend (hackclub/attend) and sign in with the same Hack Club OAuth client as the official app, so existing accounts work. They appear as BetterAttend and can be installed alongside the official app. The apps are faster, native, and offline-first.",
+  "features": [
+   "Offline-first",
+   "WidgetKit widgets",
+   "Native rewrite"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "160879f29ac480d4549fa4c7c66dc9883b4fc26107d2350c0ff387fd7ef90565",
+  "subtitle": "Native Hack Club Attend client",
+  "tags": [
+   "attend",
+   "hackclub",
+   "android",
+   "ios",
+   "offline",
+   "widget"
+  ]
+ },
  "blog.blurt.blurt": {
   "category": "other",
   "date": "2026-10-15",
@@ -478,6 +516,27 @@
    "talking",
    "editing",
    "premium"
+  ]
+ },
+ "br.com.lucasliet.arrmate": {
+  "category": "utilities",
+  "date": "2026-10-19",
+  "description": "Arrmate is a companion app for Radarr and Sonarr that lets you browse, search, and manage your movies and series in one place. It includes integrated qBittorrent support to monitor downloads. The app is built with Flutter and uses Riverpod for state management. On Android it is distributed as an APK with automatic update checking.",
+  "features": [
+   "qBittorrent Integration",
+   "Auto Updates",
+   "Flutter UI"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "541b5e690e5091f0bc0ea1b347f910aa46a5348158864138dad671eede65fdd0",
+  "subtitle": "Companion for Radarr & Sonarr",
+  "tags": [
+   "radarr",
+   "sonarr",
+   "media",
+   "qbittorrent",
+   "flutter",
+   "companion"
   ]
  },
  "br.com.tapps.bidwars2": {
@@ -1030,6 +1089,23 @@
    "ttjb"
   ]
  },
+ "com.HappyPlanTech.SnapWords": {
+  "category": "lifestyle",
+  "date": "2026-10-19",
+  "description": "CapWords uses AI to help you learn languages by snapping photos. Requires iOS 17.0 or later. Current version 2.0.0.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6c3d1a098ffa19a2f45110961879a48580185fa5e4b7273d695057a063f97d98",
+  "subtitle": "AI snap language learning",
+  "tags": [
+   "ai",
+   "language",
+   "learning",
+   "snap",
+   "ios",
+   "capwords"
+  ]
+ },
  "com.JindoBlu.FourPlayersIOS": {
   "category": "games",
   "date": "2026-10-14",
@@ -1504,6 +1580,29 @@
    "game"
   ]
  },
+ "com.aero.aerostore.S32Z3HMYVQ": {
+  "category": "developer",
+  "date": "2026-10-19",
+  "description": "AeroStore is a community-driven alternative app store for iOS that lets you sideload, manage, and refresh apps on your device without a jailbreak. On first launch, AeroStore requires a pairing file to communicate with your device for installing and refreshing apps. You can generate or obtain a pairing file using AltServer, MobileDevicePairing tools like idevicepair, iLoader, or by exporting one from SideStore. Alternatively, you can browse available sources without pairing and add your pairing file later in the settings when you are ready to install or refresh apps.",
+  "features": [
+   "No jailbreak required",
+   "Sideload apps",
+   "Refresh apps",
+   "Manage apps",
+   "Browse sources"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e1b1773b41546d5aeff02e5e11ddcc175e71f180883a90e7260f2fba08280c4e",
+  "subtitle": "Community-driven alternative app store for iOS",
+  "tags": [
+   "sideload",
+   "appstore",
+   "manager",
+   "utility",
+   "developer",
+   "community"
+  ]
+ },
  "com.aether.ps4ios": {
   "category": "developer",
   "date": "2026-10-14",
@@ -1750,6 +1849,28 @@
    "certfish",
    "apps",
    "utilities"
+  ]
+ },
+ "com.air-devs.air": {
+  "category": "games",
+  "date": "2026-10-19",
+  "description": "A premium Minecraft Java Edition launcher for iOS and iPadOS, rebuilt from the ground up on the official Amethyst project. It delivers a refined mobile experience with comprehensive mod management, intelligent renderer selection, and deep platform integration. Enjoy a modern UI redesign, direct ZIP modpack importing, complete Chinese localization, and multi-account support for Microsoft, local, and third-party authentication.",
+  "features": [
+   "Modern UI Redesign",
+   "Modpack Import",
+   "Chinese Localization",
+   "Multi-Account Support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7cb9b7b6ee90c528d025064ff32ffe405e78fe474f5eec21e554869d47ee8831",
+  "subtitle": "Minecraft Java Edition launcher for iOS and iPadOS",
+  "tags": [
+   "minecraft",
+   "launcher",
+   "java",
+   "modpack",
+   "gaming",
+   "amethyst"
   ]
  },
  "com.airnav.radarbox": {
@@ -2630,19 +2751,24 @@
   ]
  },
  "com.barnabas.absorb": {
-  "category": "utilities",
-  "date": "2026-10-14",
-  "description": "Absorb is a modern audiobookshelf client featuring a card-based player experience. Developed by a human with AI assistance.",
-  "features": [],
+  "category": "entertainment",
+  "date": "2026-10-19",
+  "description": "Absorb is a modern audiobookshelf client featuring a card-based player experience. Connect to your self-hosted audiobookshelf server to listen to your audiobooks and podcasts. Enjoy chaptered podcasts with rich HTML descriptions. The app replaces traditional player screens with full-screen absorbing cards.",
+  "features": [
+   "Card-based player",
+   "Audiobookshelf integration",
+   "Podcast support",
+   "Rich HTML descriptions"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "3f388aaabc61e8be85f1e1ea65059de2c776f845d628b3febd37efbe14eab3c5",
+  "src_hash": "6df6b8c04c70847087e1c926404ff5fc98eedf17a2faaac39479e9eeb50237e0",
   "subtitle": "Modern audiobookshelf client",
   "tags": [
    "audiobook",
-   "player",
    "audiobookshelf",
-   "client",
-   "audio"
+   "podcast",
+   "player",
+   "streaming"
   ]
  },
  "com.basenji.mood": {
@@ -2936,6 +3062,29 @@
    "business",
    "finance",
    "market"
+  ]
+ },
+ "com.bootiemashup.radio": {
+  "category": "entertainment",
+  "date": "2026-10-19",
+  "description": "Bootie Mashup Radio is a native iOS and tvOS application that streams mashup music 24/7. It provides high\u2011quality audio with automatic failover to a secondary stream, live now\u2011playing and upcoming track information updated every five seconds, real\u2011time album artwork fetched from the stream, and basic playback controls including mute, unmute, play, and pause. An Android version is available on GitHub.",
+  "features": [
+   "24/7 Streaming",
+   "iOS & tvOS Support",
+   "Live Track Info",
+   "Album Artwork",
+   "Playback Controls"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bc5fd459458d181e1b6f08be9126b6c4af6a1f3671384a7d5218d3f27f9af6b4",
+  "subtitle": "24/7 mashup radio streaming on iOS & tvOS",
+  "tags": [
+   "mashup",
+   "radio",
+   "streaming",
+   "ios",
+   "tvos",
+   "music"
   ]
  },
  "com.bowery-digital.bend": {
@@ -3667,25 +3816,49 @@
    "developer"
   ]
  },
- "com.crispstrobe.crisperweaver": {
-  "category": "developer",
-  "date": "2026-10-18",
-  "description": "CrisperWeaver provides on-device speech recognition and text-to-speech without requiring cloud connectivity. Access over 40 model families within a single application.",
+ "com.cresca.app": {
+  "category": "entertainment",
+  "date": "2026-10-19",
+  "description": "Cresca is a free music player powered by live YouTube data. Search millions of songs, stream instantly, sing along with synced karaoke lyrics, build playlists, download for offline listening, and sign in with your YouTube session. Everything stays on your device with no account, no analytics, and no server. Enjoy real YouTube audio with search plus signature deciphered streams, gapless queue playback, smart shuffle, repeat, and a multi gigabyte predictive cache for instant skips. The vibe queue matches the Up Next list to the song mood through YouTube related data, filtering out same name clones, one singer loops, mixes, and hour long uploads.",
   "features": [
-   "On-device speech recognition",
-   "Text-to-speech",
-   "No cloud required",
-   "40+ model families"
+   "Real YouTube audio",
+   "Synced karaoke lyrics",
+   "Download for offline listening",
+   "Gapless queue playback",
+   "Vibe queue"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "077c8ad444d3e4e19346a5c01830d4f8e39f416cead6be6617c1a2ce0dfa5d69",
+  "src_hash": "c73df3e2b0c724420a652b2d77591a9aaa76303f480c03a7ce05a4635e3d6431",
+  "subtitle": "Apple Music styled player powered by live YouTube data",
+  "tags": [
+   "music",
+   "player",
+   "streaming",
+   "youtube",
+   "offline",
+   "playlists"
+  ]
+ },
+ "com.crispstrobe.crisperweaver": {
+  "category": "utilities",
+  "date": "2026-10-19",
+  "description": "CrisperWeaver provides on-device speech recognition and text-to-speech without requiring cloud access or ffmpeg. Choose from over 40 model families within a single application. Transcribe audio files including WAV, MP3 and FLAC formats, or record live audio directly from your microphone. Process multiple files simultaneously using the batch queue and access past transcriptions in the history log. Import files via drag and drop or receive shared audio directly from the operating system share sheet.",
+  "features": [
+   "On-device processing",
+   "Batch processing",
+   "Live recording",
+   "Drag and drop support",
+   "Share sheet integration"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "4c850641e96f00370529f0ba6530cdd3b8defba1484335b8ffd90ad0e014f476",
   "subtitle": "On-device speech recognition and text-to-speech",
   "tags": [
-   "speech recognition",
-   "text to speech",
-   "ai",
+   "transcription",
+   "speech",
    "audio",
-   "offline"
+   "tts",
+   "recorder"
   ]
  },
  "com.crunchyroll.bleachsoulres": {
@@ -4218,6 +4391,29 @@
    "streaming"
   ]
  },
+ "com.emirgn.anker": {
+  "category": "utilities",
+  "date": "2026-10-19",
+  "description": "Anker anchors words in your memory using a proper spaced repetition system. It features FSRS scheduling with learning and relearning steps, desired retention, daily limits, sibling burying, undo, and leech detection. Note types include German vocabulary, basic, basic with reversed sides, type the answer with letter-by-letter diff and umlaut awareness, and cloze deletions. Search your collection using Anki-style syntax. Import your data from Anki package files including decks, tags, images, and review history, or use CSV, TSV, and JSON backups. The app is specifically designed for German vocabulary learning.",
+  "features": [
+   "FSRS scheduling",
+   "German vocabulary notes",
+   "Type the answer",
+   "Cloze deletions",
+   "Anki import support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2b1590a8643ed351331f35f85bdc43a8f732c977a6c2b1796ae993556958c13b",
+  "subtitle": "Spaced repetition flashcards with FSRS scheduling",
+  "tags": [
+   "flashcards",
+   "german",
+   "vocabulary",
+   "spaced repetition",
+   "anki",
+   "study"
+  ]
+ },
  "com.endavomedia.dmiondemand": {
   "category": "entertainment",
   "date": "2026-10-15",
@@ -4440,19 +4636,19 @@
  },
  "com.flingex.brainnotes": {
   "category": "utilities",
-  "date": "2026-10-15",
-  "description": "Brainnotes is a note-taking application injected with premium features.",
-  "features": [
-   "Premium"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2917c7901426e72187b84e6e03d845540cdc885b04531d7d494fcf32bd26fe4a",
-  "subtitle": "Brainnotes note-taking application",
+  "date": "2026-10-19",
+  "description": "Brainnotes is a summarizer app that helps you condense notes. Requires iOS 16.2 or later. Current version 4.1.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a795403cb51ac346fdd7d8a125f10ac49073a323b11c8592681caa948c37821c",
+  "subtitle": "AI summarizer for notes",
   "tags": [
+   "summarizer",
    "brainnotes",
    "notes",
    "productivity",
-   "utility"
+   "utility",
+   "ios"
   ]
  },
  "com.fourwalls.app": {
@@ -4653,19 +4849,22 @@
  },
  "com.gameloft.AmazingSpiderMan2": {
   "category": "utilities",
-  "date": "2026-10-14",
-  "description": "TASM2 offline patch for The Amazing Spider-Man 2 iOS version 1.3.1. Since Gameloft servers are no longer active, the game hangs on downloading profile. This patch enables the game to launch, play, and save entirely offline. It includes nine instructions in the arm64 slice, derived from disassembly and verified on the binary. There is no new save format, no injected code, and no size change. Verified on device with continuous playthroughs through the prologue, chapter 1, and chapter 2, including force-quits. Settings, trophies, exploration, skills, position, tutorial state, and the story cursor all save properly.",
-  "features": [],
+  "date": "2026-10-19",
+  "description": "An offline patch for The Amazing Spider-Man 2 iOS version 1.3.1 that bypasses dead servers so the game launches, plays, and saves entirely offline. This patch modifies nine instructions in the arm64 slice derived from binary disassembly, with no new save format, no injected code, and no size change. Confirmed working on device with continuous playthroughs through the prologue, chapter 1, and into chapter 2. Game settings, trophies, exploration, skills, position, tutorial state, and the story cursor all save properly.",
+  "features": [
+   "Offline play",
+   "No server required",
+   "Working saves"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c0003ffaf3e0ba61adf329bc98498495d9b9c27c6f6e454cc56eb188b4893865",
-  "subtitle": "Offline patch for The Amazing Spider-Man 2",
+  "src_hash": "b8a8fff1dec783754c45858d741ce027d54e7877683579421ce6086b9f7f5f77",
+  "subtitle": "Offline patch for The Amazing Spider-Man 2 iOS",
   "tags": [
+   "spider-man",
    "patch",
    "offline",
    "game",
-   "utility",
-   "fix",
-   "tools"
+   "utility"
   ]
  },
  "com.gamoper.candysweetstory.ios": {
@@ -4683,6 +4882,22 @@
    "game",
    "ios",
    "colorful"
+  ]
+ },
+ "com.gigaionllc.airclone": {
+  "category": "utilities",
+  "date": "2026-10-19",
+  "description": "Airclone is currently in beta and under active development. The software allows you to set up remotes, suggest features, and build projects. Issues and bug reports are welcomed and encouraged through the settings diagnostics menu, which automatically strips sensitive secrets. For security vulnerabilities, please use the security tab instead of public issues. Discussions are available for questions, ideas, and sharing your setups.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ae310943c07a7e3472e7966c6323f7514713e9df683f820fe821e52be161f39e",
+  "subtitle": "Beta software for remote sync and project building",
+  "tags": [
+   "beta",
+   "sync",
+   "remote",
+   "utilities",
+   "developer"
   ]
  },
  "com.github.auties00.artemis": {
@@ -6303,6 +6518,28 @@
    "free"
   ]
  },
+ "com.iptvnator.arc": {
+  "category": "entertainment",
+  "date": "2026-10-19",
+  "description": "Arc TV is a free player for live TV, movies and series from your own IPTV provider. The app does not include any channels or playlists. Arc TV 2.0 helps you find something to watch and makes your data safe to move between devices. Browse and filter your matched movies and series by genre on Mac, iPhone, iPad and Android. The Mac version also filters by decade, rating and language.",
+  "features": [
+   "Free player",
+   "Genre browsing",
+   "Data migration",
+   "Cross-platform"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "cbef3cd6982853119d10cf9f1098f221ff7569fc1575afc9e152c5ee2ffd33c1",
+  "subtitle": "Free IPTV player for live TV, movies and series",
+  "tags": [
+   "iptv",
+   "player",
+   "live tv",
+   "movies",
+   "series",
+   "streaming"
+  ]
+ },
  "com.itranslate.itranslateone": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -6465,6 +6702,29 @@
    "monitor",
    "home",
    "streaming"
+  ]
+ },
+ "com.karelian.aventura": {
+  "category": "entertainment",
+  "date": "2026-10-19",
+  "description": "Aventuras is an interactive fiction app where an AI remembers your story. Play text adventures with multiple-choice actions and world tracking, or write collaboratively in freeform mode with AI suggestions. Choose first, second, or third person in past or present tense. Connect to any LLM provider \u2014 cloud or local. The app summarizes chapters as you play, maintains a lorebook that feeds relevant entries per scene, and tracks world state including characters, locations, and inventory turn by turn.",
+  "features": [
+   "Two modes: Adventure & Creativ",
+   "Any LLM provider (cloud or loc",
+   "Persistent world state trackin",
+   "Automatic chapter summaries",
+   "Dynamic lorebook system"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cb3a63e8f32a2ae1ea3ae725e1052dfaee0dd301e60d763e4bc173dd1cf858dc",
+  "subtitle": "AI-powered interactive fiction with persistent memory",
+  "tags": [
+   "interactive-fiction",
+   "ai-storytelling",
+   "text-adventure",
+   "creative-writing",
+   "llm",
+   "roleplay"
   ]
  },
  "com.kawsar.artgenerator": {
@@ -6809,27 +7069,53 @@
    "device"
   ]
  },
+ "com.leviidev.aetherx": {
+  "category": "games",
+  "date": "2026-10-19",
+  "description": "AetherX is a multi-system emulator designed for iOS devices. Please note that source code distribution is managed independently and is not available on GitHub.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f1ee107e918b30bbe2d04570d4d6fce0dcc2ae0a224152bd3d2afb73d6955d59",
+  "subtitle": "A multi-system emulator for iOS",
+  "tags": [
+   "emulator",
+   "gaming",
+   "system",
+   "retro",
+   "ios"
+  ]
+ },
+ "com.leviidev.cascade": {
+  "category": "games",
+  "date": "2026-10-19",
+  "description": "Cascade is a PlayStation 2 emulator for iOS that runs PS2 game images directly on iPhone or iPad with a native Liquid Glass UI. It emphasizes accuracy, performance, and a polished user experience. The app supports sideloading on iOS 16 and later via TrollStore, AltStore, or Sideloadly. Users must provide a legally dumped PS2 BIOS (e.g., SCPH-70012.bin) through Settings \u2192 BIOS for the emulator to detect the region and run games.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+  "src_hash": "4723a03d85129c7487e93231cbaf685cc39f5dc79bc27d1ebb61d37c47cc3854",
+  "subtitle": "PlayStation 2 emulator for iOS",
+  "tags": [
+   "ps2",
+   "emulator",
+   "ios",
+   "games",
+   "trollstore",
+   "altstore"
+  ]
+ },
  "com.ligg.anime_flow": {
   "category": "entertainment",
-  "date": "2026-10-18",
-  "description": "AnimeFlow is a cross-platform anime video player available for Android, iOS, Windows, macOS and Linux. It features built-in multiple data sources and custom XPath crawler configuration. It supports real-time video 4K super resolution based on Anime4K, integrates with Bangumi to synchronize favorites and tracking data, and includes multi-platform Danmaku sources with rich display settings.",
-  "features": [
-   "Cross-platform",
-   "Anime4K support",
-   "Bangumi integration",
-   "Custom XPath crawler",
-   "Multi-platform Danmaku"
-  ],
+  "date": "2026-10-19",
+  "description": "AnimeFlow is a cross-platform anime video player supporting Android, iOS, Windows, macOS, and Linux. It includes multiple data sources and custom XPath crawler configurations, supports real-time video 4K upscale based on Anime4K, connects to Bangumi to sync collections and tracking data, and supports multi-platform bullet comment sources with rich settings.",
+  "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "cf697e936525daffc8c109425be4a7fd0f98a16e10cd9911d6152997095566f8",
-  "subtitle": "Cross-platform anime video streaming app",
+  "src_hash": "2622d0d824ecd770b335298e81741a2c1944852018e74185db2a635c57a306d4",
+  "subtitle": "Cross-platform anime video streaming application",
   "tags": [
    "anime",
-   "video",
    "player",
+   "video",
    "streaming",
-   "bangumi",
-   "danmaku"
+   "bangumi"
   ]
  },
  "com.lilucat.applock.us": {
@@ -7412,6 +7698,27 @@
    "collector",
    "feline",
    "pets"
+  ]
+ },
+ "com.mirazbakis.altload": {
+  "category": "developer",
+  "date": "2026-10-19",
+  "description": "AltLoad pairs your iPhone with itself, signs AltStore, SideStore or LiveContainer with your Apple ID, and installs it. No Mac, no PC, no subscription required.",
+  "features": [
+   "No Mac",
+   "No PC",
+   "No subscription"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "fd7f9707d9ff092abd37612ef759f449d558d27b749ba57e00c2d5657d31fe66",
+  "subtitle": "Sign and install AltStore on your iPhone without a PC",
+  "tags": [
+   "altstore",
+   "sidestore",
+   "livecontainer",
+   "sideload",
+   "apple id",
+   "installer"
   ]
  },
  "com.mmt.bookvo": {
@@ -8441,6 +8748,22 @@
    "odyssey"
   ]
  },
+ "com.poppingmoon.aria": {
+  "category": "social",
+  "date": "2026-10-19",
+  "description": "Aria is a Misskey client application forked from Miria.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "5963b8f89784697662499d4f3a2aefb50ff1faba1eb497521828224ee941f3cf",
+  "subtitle": "Misskey client app forked from Miria",
+  "tags": [
+   "aria",
+   "misskey",
+   "client",
+   "miria",
+   "social"
+  ]
+ },
  "com.pungme.combyne": {
   "category": "lifestyle",
   "date": "2026-10-18",
@@ -8644,6 +8967,23 @@
    "emulator",
    "iphone",
    "vision pro"
+  ]
+ },
+ "com.rebelancap.apotris": {
+  "category": "games",
+  "date": "2026-10-19",
+  "description": "Play Apotris natively on your iPhone, iPad, and Apple Vision Pro. Enjoy game modes including Marathon, Sprint, Ultra, Dig, Blitz, and Zen, featuring responsive controls and deep customization. Built on the original game by akouzoukos and running natively through Metal without an emulator, with the game's engine rebuilt specifically for Apple platforms. Control the game using touch gestures where the whole screen acts as the surface: drag left or right to move, drag down for a soft drop, flick down for a hard drop, tap to rotate, use two fingers for 180-degree rotation, swipe up to hold, and long-press for Zone.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "72a7a1caa9e1aa59be5b73f041b71801141f2f0a61bc4c62d6aa9bf78c533117",
+  "subtitle": "Fast and feature-packed native block-stacking game",
+  "tags": [
+   "puzzle",
+   "block",
+   "stacking",
+   "arcade",
+   "retro",
+   "native"
   ]
  },
  "com.redfalcon.basketballgoat.ios": {
@@ -9664,6 +10004,28 @@
    "design",
    "ideas",
    "art"
+  ]
+ },
+ "com.torbox.atba": {
+  "category": "entertainment",
+  "date": "2026-10-19",
+  "description": "ATBA provides automations similar to TBM, more integrations, fully cross\u2011platform support, and a responsive design.",
+  "features": [
+   "Automations",
+   "Integrations",
+   "Cross\u2011platform",
+   "Responsive design"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ca986a2eb0866ff3bc25b791819d9c05b2845ac37b1d2aa93ec981a977fee1f1",
+  "subtitle": "Cross\u2011platform automation & integrations",
+  "tags": [
+   "automation",
+   "integrations",
+   "cross-platform",
+   "responsive",
+   "entertainment",
+   "app"
   ]
  },
  "com.totoventures.blend": {
@@ -10948,6 +11310,26 @@
    "education"
   ]
  },
+ "com.veikkaheiskanen.Cuda": {
+  "category": "entertainment",
+  "date": "2026-10-19",
+  "description": "Cuda is a music player featuring a native SwiftUI interface. It brings together Spotify, YouTube, YouTube Music, SoundCloud, optional Audius, and local audio files into one place. Device sync connects Mac and iPhone via an authenticated encrypted local connection using a QR code or link. Sync supports automatic offline audio transfer, two-way playlists, and favorites. Home screen recommendations, recently played tracks, and playlists are tailored to your listening history.",
+  "features": [
+   "Device Sync",
+   "Offline Transfer"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "753ee52c7e52afb2720f54c21f68272198163b60f2109fbcfd16bfeb3b290c79",
+  "subtitle": "Music player for streaming services and local files",
+  "tags": [
+   "cuda",
+   "music",
+   "player",
+   "streaming",
+   "spotify",
+   "youtube"
+  ]
+ },
  "com.vertigo.criticalforce": {
   "category": "games",
   "date": "2026-10-18",
@@ -11186,6 +11568,29 @@
    "game",
    "ios",
    "virtual"
+  ]
+ },
+ "com.wyatthoutz.birding": {
+  "category": "developer",
+  "date": "2026-10-19",
+  "description": "Bird Chaser is a self-contained iPhone app for personal eBird target tracking. Built with Capacitor, it runs as a native app that you sideload onto your own device. No App Store distribution and no paid Apple Developer account required.",
+  "features": [
+   "Self-contained",
+   "Sideload only",
+   "No App Store",
+   "No paid developer account",
+   "Capacitor"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3cbdcc95fb0cbd0d12cd830a14b4a55cb280be565e0a8a23a251c88baea4fe78",
+  "subtitle": "Personal eBird target tracking app",
+  "tags": [
+   "ebird",
+   "birding",
+   "tracking",
+   "capacitor",
+   "sideload",
+   "ios"
   ]
  },
  "com.xq.archeroii": {
@@ -12369,6 +12774,46 @@
    "retro"
   ]
  },
+ "io.github.saschb2b.cyberworldendless": {
+  "category": "games",
+  "date": "2026-10-19",
+  "description": "Cyberworld requires your own unmodified Mega Man Battle Network 6: Cybeast Gregar (USA) ROM to run. Mega Man Battle Network 5: Team Colonel (USA) is optionally supported alongside it. The app does not provide ROM downloads or contain Capcom game data. You must supply your own ROM file for the game to function.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "99029074f60367af15a3022eade7f86cbf026ecb06867ccdd3123ed8e0d5577c",
+  "subtitle": "Requires Mega Man Battle Network 6 ROM",
+  "tags": [
+   "cyberworld",
+   "megaman",
+   "battle",
+   "network",
+   "gregar",
+   "rom"
+  ]
+ },
+ "io.github.thomasthanos.An1me-Tracker": {
+  "category": "entertainment",
+  "date": "2026-10-19",
+  "description": "Track what you watch and resume at your saved timestamp. Keep your anime library with you on your device. Open an episode, play it, and let the tracker save your progress. The continue watching feature brings you back to your saved timestamp, and episodes become marked as watched at 85 percent playback.\n\nManage your collection with cover artwork, search, custom categories, episode counters, and filler tags. View your progress through saved playback positions, watch statistics, goals, and JSON backup and restore. Use the integrated speed boost and outro skipping player features. Optional Firebase library and resume sync, plus desktop integration and new-episode alerts, are available.",
+  "features": [
+   "Playback resume",
+   "Filler tags",
+   "Watch statistics",
+   "JSON backup",
+   "Outro skipping"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8e07243caa42f16e252f5e092edf213beec64df96d97789d1f3eb5358f6991b7",
+  "subtitle": "Track your anime watch history and playback progress",
+  "tags": [
+   "anime",
+   "tracker",
+   "watchlist",
+   "statistics",
+   "episodes",
+   "sync"
+  ]
+ },
  "io.github.utopiacosmica.abstract-color-wheel-ios": {
   "category": "developer",
   "date": "2026-10-18",
@@ -12384,6 +12829,29 @@
    "creativity",
    "tool",
    "design"
+  ]
+ },
+ "io.github.vandosketch.camgrid": {
+  "category": "photo-video",
+  "date": "2026-10-19",
+  "description": "CamGrid displays every connected camera in a single grid that runs continuously on a TV, tablet, or monitor. Dropped streams reconnect automatically and the screen remains on. Tapping a tile or pressing OK on a remote opens that camera full\u2011screen at full resolution with audio. Left and right controls step through the other cameras.",
+  "features": [
+   "Auto Reconnect",
+   "Screen Stay On",
+   "Full\u2011Resolution View",
+   "Remote Control Support",
+   "Swipe Navigation"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f815f5c8523fbccc07167c29b49f6048425e3681750d010da26d7e561795f5a2",
+  "subtitle": "View all cameras in a live grid",
+  "tags": [
+   "camera",
+   "grid",
+   "multi-camera",
+   "auto-reconnect",
+   "full-resolution",
+   "remote"
   ]
  },
  "io.konveier.timo": {
@@ -12636,6 +13104,38 @@
    "ttjb"
   ]
  },
+ "local.agepad.device-de-probe": {
+  "category": "entertainment",
+  "date": "2026-10-19",
+  "description": "AgePad modifies local copies of Steam client and SDK files to run on iPadOS and uses internal client interfaces. Steam compatibility and account safety are unconfirmed. It is not confirmed whether this integration complies with Steam terms or what consequences using it could have for your account, including restrictions or bans. Interoperability changes are being investigated to make the port compliant, but that outcome is not established or guaranteed. Consider this uncertainty before signing in.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b0b6e3055ae2aa6ed113c8b7dbe45788c8367f034b2d4903305f0485e7c09c0e",
+  "subtitle": "Run Steam client files on iPadOS",
+  "tags": [
+   "steam",
+   "ipados",
+   "client",
+   "sdk",
+   "compatibility"
+  ]
+ },
+ "me.cranci.AnimeGen": {
+  "category": "entertainment",
+  "date": "2026-10-19",
+  "description": "AnimeGen is an open source app that relies on public APIs provided by various developers. You can install the app using an IPA file via TrollStore, AltStore, or Sideloadly, or through the TestFlight beta build, which is recommended because nightly IPA files may be unstable. The project source code is available for those who want to build it themselves using Xcode.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4700edc104394cbb840fd8ac4034be04f81e2ca8a142a0bd4388604ff1568540",
+  "subtitle": "An open source app utilizing public anime APIs",
+  "tags": [
+   "anime",
+   "open source",
+   "testflight",
+   "trollstore",
+   "development"
+  ]
+ },
  "me.gmoran.ClassicPlayer": {
   "category": "entertainment",
   "date": "2026-10-18",
@@ -12666,6 +13166,23 @@
    "manager",
    "copylog",
    "utilities"
+  ]
+ },
+ "moe.ampersand.track.sideload": {
+  "category": "developer",
+  "date": "2026-10-19",
+  "description": "Ampersand is a research project and app designed for tracking and journaling for people with complex dissociative symptoms such as DID and OSDD. Please note that Ampersand is not a medical product and does not constitute medical advice.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9d2a817fc9a0feecd2d9d8ee9c079323dd6dabe97ada422f7dd692be839d919f",
+  "subtitle": "Tracking and journaling for dissociative symptoms",
+  "tags": [
+   "dissociation",
+   "did",
+   "osdd",
+   "tracking",
+   "journaling",
+   "research"
   ]
  },
  "myndarc.newFitnessApp": {
@@ -12840,6 +13357,29 @@
    "ios12",
    "flooder",
    "airtroller"
+  ]
+ },
+ "net.yukh.xui.ios": {
+  "category": "utilities",
+  "date": "2026-10-19",
+  "description": "Native mobile client for managing 3x-ui panels over the REST API. Access your dashboard, inbounds, clients with QR sharing, nodes, and Xray config on the go. Connect to several panels and switch between them from one app with multi-instance support. Compatible with 3x-ui panels up to v3.10.0 using the panel stable REST API. Panel v3.10.0 requires app v0.15.1 or newer for creating Shadowsocks inbounds and MASQUE support.",
+  "features": [
+   "Dashboard access",
+   "Inbounds management",
+   "QR code sharing",
+   "Multi-instance support",
+   "REST API connection"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "00ee012b6fe604f32d7198a17f131798b118fd88e52893caf1e046bb688549cd",
+  "subtitle": "Native mobile client for managing 3x-ui panels",
+  "tags": [
+   "manager",
+   "panel",
+   "rest",
+   "api",
+   "network",
+   "utility"
   ]
  },
  "no.agens.bukkenebruse": {
@@ -13181,6 +13721,23 @@
    "puzzle",
    "game",
    "vocabulary"
+  ]
+ },
+ "sg.bamboozled.bamboozled": {
+  "category": "other",
+  "date": "2026-10-19",
+  "description": "BamBoozled is a panda-themed note\u2011taking and task app that works on Android, iPhone, desktop and the web with automatic sync. It uses large buttons (minimum 48\u202fpx), chips and pickers instead of typed commands, and has no command\u2011line interface. The welcome page shows a calendar with week and month views, filter, search and color\u2011coded categories, priority leaf badges, and a banner that indicates active filters with a clear\u2011filters button. The \"This week\" section displays due, done and overdue tasks as clickable boxes.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fe4b0d1290e7c12fe61486ead508d594ead832445ecbe7aa49ce1792488fb924",
+  "subtitle": "Panda-themed notes & tasks sync across devices",
+  "tags": [
+   "notes",
+   "tasks",
+   "sync",
+   "panda",
+   "cross-platform",
+   "simple"
   ]
  },
  "so.amie.ios-app": {
