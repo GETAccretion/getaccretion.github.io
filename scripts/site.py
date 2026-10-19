@@ -10,7 +10,8 @@ Copies the static storefront from site/ and adds data generated from the build:
   data/stats.json       the numbers merge.py collected
   source.json, curated.json and the card images, so the store has short links too
   app/<bundle id>/      a tiny page per app with link-preview tags (Discord, iMessage,
-                        forums) that forwards to the app's page in the store
+                        forums) that forwards to the app's page in the store; Accretion's own
+                        apps (OWN_PREFIXES) get a full page search engines can read instead
   sitemap.xml, robots.txt  every per-app page with its newest version date (SITE_URL, else the default)
 
 Run after merge.py. Reads _build/origins.json for where each app came from.
@@ -109,9 +110,11 @@ def screenshot_urls(app):
 SAFE_ID = re.compile(r"^[A-Za-z0-9][A-Za-z0-9.\-_]*$")
 
 
-def share_pages(apps, gone=None):
+def share_pages(apps, gone=None, extras=None, site_url=None):
     """One small page per app so shared links show a name, icon and description. Apps with no
-    working download left (gone) keep a page that opens the store's closest matches."""
+    working download left (gone) keep a page that opens the store's closest matches. Accretion's
+    own apps get a full, crawlable page (app_page_html) instead of the forwarding one."""
+    extras, site_url = extras or {}, (site_url or SITE_URL).rstrip("/")
     for bid, g in (gone or {}).items():
         if SAFE_ID.match(bid):
             write_share_page(
@@ -125,9 +128,173 @@ def share_pages(apps, gone=None):
         bid = a["bundleIdentifier"]
         if not SAFE_ID.match(bid):
             continue
+        if is_own(bid):
+            write_page(bid, app_page_html(a, extras.get(bid, {}), site_url))
+            continue
         latest = a["versions"][0]
         desc = (a.get("subtitle") or a.get("localizedDescription") or "")[:180].replace("\n", " ")
         write_share_page(bid, f"{a['name']} {latest['version']}", desc, a["iconURL"], a["name"])
+
+
+def write_page(bid, page):
+    folder = os.path.join(OUT, "app", bid)
+    os.makedirs(folder, exist_ok=True)
+    with open(os.path.join(folder, "index.html"), "w", encoding="utf-8") as f:
+        f.write(page)
+
+
+# Accretion's own apps (same list as OWN_PREFIXES in site/app.js): their pages carry Google ads
+OWN_PREFIXES = ("io.github.getaccretion.", "io.github.accretionmods.")
+# same policy as site/install-without-computer.html: own scripts plus Google's ad hosts
+PAGE_CSP = (
+    "script-src 'self' https://pagead2.googlesyndication.com https://*.googlesyndication.com "
+    "https://*.adtrafficquality.google https://fundingchoicesmessages.google.com https://*.doubleclick.net "
+    "https://www.google.com https://www.gstatic.com; object-src 'none'; base-uri 'self'; form-action 'self'"
+)
+ADSENSE = (
+    '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+    '?client=ca-pub-4500603236648893" crossorigin="anonymous"></script>'
+)
+CATEGORY_NAMES = {
+    "games": "Games",
+    "utilities": "Utilities",
+    "photo-video": "Photo & Video",
+    "entertainment": "Entertainment",
+    "social": "Social",
+    "lifestyle": "Lifestyle",
+    "developer": "Developer",
+    "other": "Other",
+}
+
+
+def is_own(bid):
+    return bid.startswith(OWN_PREFIXES)
+
+
+def https_url(url):
+    """The URL when it is https, else '' (pages never load from plain http)"""
+    url = str(url or "")
+    return url if url.startswith("https://") else ""
+
+
+def text_html(text):
+    """Plain text as HTML paragraphs: blank lines split paragraphs, single newlines become <br>"""
+    paras = [p.strip() for p in re.split(r"\n\s*\n", str(text or "").replace("\r\n", "\n")) if p.strip()]
+    return "".join(f"<p>{html.escape(p).replace(chr(10), '<br>')}</p>" for p in paras)
+
+
+def app_page_html(app, extra, site_url):
+    """A full page for one of Accretion's own apps: what search engines index for the app. It has
+    no redirect; installing happens in the store (signed-in downloads), linked from the page."""
+    e = html.escape
+    bid, name = app["bundleIdentifier"], app["name"]
+    versions = app.get("versions") or []
+    latest = versions[0] if versions else {}
+    version, date = latest.get("version", ""), str(latest.get("date") or "")[:10]
+    min_os = latest.get("minOSVersion", "")
+    about = app.get("localizedDescription") or ""
+    desc = clip(app.get("subtitle") or about, 160)
+    url = f"{site_url.rstrip('/')}/app/{bid}/"
+    icon = https_url(app.get("iconURL"))
+    category = CATEGORY_NAMES.get(app.get("category", ""), "Other")
+    title = f"{name} {version} for iPhone · Accretion" if version else f"{name} for iPhone · Accretion"
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": name,
+        "description": desc,
+        "url": url,
+        "softwareVersion": version,
+        "datePublished": date,
+        "operatingSystem": f"iOS {min_os} or later" if min_os else "iOS",
+        "applicationCategory": "GameApplication"
+        if app.get("category") == "games"
+        else "UtilitiesApplication",
+        "author": {"@type": "Organization", "name": app.get("developerName", "")},
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+    }
+    if icon:
+        ld["image"] = icon
+    ld_json = json.dumps(ld, ensure_ascii=False).replace("<", "\\u003c")  # text can't open or close a tag
+
+    facts = [("Version", version), ("Updated", date)]
+    size = latest.get("size") or 0
+    if size:
+        facts.append(("Size", f"{size / 1_000_000:.1f} MB"))
+    if min_os:
+        facts.append(("Requires", f"iOS {min_os} or later"))
+    parts = [
+        '<p><a class="btn back" href="../../#/">← Accretion</a></p>',
+        f'<p><img src="{e(icon)}" width="96" height="96" alt="" style="border-radius:22%"></p>'
+        if icon
+        else "",
+        f'<h1 class="view-title">{e(name)}</h1>',
+        f'<p class="muted">{e(app.get("developerName", ""))} · {e(category)}</p>',
+        f"<p>{e(app['subtitle'])}</p>" if app.get("subtitle") else "",
+        f'<p><a class="btn primary" href="../../#/app/{e(bid)}">Open in the store to install</a></p>',
+        "<ul>" + "".join(f"<li><b>{k}:</b> {e(v)}</li>" for k, v in facts if v) + "</ul>",
+    ]
+    notes = latest.get("localizedDescription") or ""
+    if notes.strip():
+        parts.append(f"<h2>What's new in {e(version)}</h2>{text_html(notes)}")
+    if about.strip():
+        parts.append(f"<h2>About</h2>{text_html(about)}")
+    features = [f for f in (extra or {}).get("features", []) if str(f).strip()]
+    if features:
+        parts.append("<h2>Features</h2><ul>" + "".join(f"<li>{e(str(f))}</li>" for f in features) + "</ul>")
+    shots = [s for s in (https_url(u) for u in screenshot_urls(app)) if s][:5]
+    if shots:
+        parts.append(
+            "<h2>Screenshots</h2><p>"
+            + " ".join(
+                f'<img src="{e(s)}" loading="lazy" width="230" alt="{e(name)} screenshot {n}">'
+                for n, s in enumerate(shots, 1)
+            )
+            + "</p>"
+        )
+    if versions:
+        parts.append(
+            "<h2>Versions</h2><ul>"
+            + "".join(
+                f"<li>{e(v.get('version', ''))} · {e(str(v.get('date') or '')[:10])}</li>"
+                for v in versions[:10]
+            )
+            + "</ul>"
+        )
+    parts.append(
+        '<p class="muted small"><a href="../../install-without-computer.html">Install without a computer</a>'
+        ' · <a href="../../privacy.html">Privacy</a></p>'
+    )
+    body = "\n".join(p for p in parts if p)
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="{PAGE_CSP}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{e(title)}</title>
+<meta name="description" content="{e(desc)}">
+<link rel="canonical" href="{e(url)}">
+<meta property="og:site_name" content="Accretion">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{e(title)}">
+<meta property="og:description" content="{e(desc)}">
+<meta property="og:url" content="{e(url)}">
+{f'<meta property="og:image" content="{e(icon)}">' if icon else ""}
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#07070D">
+<link rel="icon" href="../../icon-192.png">
+<link rel="stylesheet" href="../../style.css">
+{ADSENSE}
+<script type="application/ld+json">{ld_json}</script>
+</head>
+<body>
+<main class="view doc">
+{body}
+</main>
+</body>
+</html>
+"""
 
 
 def write_share_page(bid, title, desc, icon, name):
@@ -152,10 +319,7 @@ def write_share_page(bid, title, desc, icon, name):
 <p><a style="color:#22D3EE" href="{target}">Open {html.escape(name)} in Accretion</a></p>
 </body></html>
 """
-    folder = os.path.join(OUT, "app", bid)
-    os.makedirs(folder, exist_ok=True)
-    with open(os.path.join(folder, "index.html"), "w") as f:
-        f.write(page)
+    write_page(bid, page)
 
 
 SITE_URL = "https://getaccretion.app"  # used for the sitemap when SITE_URL is not set
@@ -377,8 +541,9 @@ def main():
         if b not in {a["bundleIdentifier"] for a in source["apps"]}
     }
     dump("data/gone.json", gone)
-    share_pages(source["apps"], gone)
-    sitemap(os.environ.get("SITE_URL", "").strip() or SITE_URL, source["apps"])
+    site_url = os.environ.get("SITE_URL", "").strip() or SITE_URL
+    share_pages(source["apps"], gone, extras, site_url)
+    sitemap(site_url, source["apps"])
 
     # the store used to live at /Accretion/: send old links and saved home screen icons home
     legacy = os.path.join(OUT, "Accretion")

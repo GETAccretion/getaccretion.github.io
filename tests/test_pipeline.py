@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import sys
 import unittest
 from unittest import mock
@@ -653,6 +654,86 @@ class SitemapTest(unittest.TestCase):
             files = sorted(f for f in os.listdir(out) if f.startswith("sitemap-"))
         self.assertIn("<sitemapindex", index)
         self.assertEqual(files, ["sitemap-1.xml", "sitemap-2.xml", "sitemap-3.xml"])
+
+
+class AppPages(unittest.TestCase):
+    """Accretion's own apps get a full, crawlable page; every other app keeps the forwarding one."""
+
+    load_site = SitemapTest.load_site
+
+    @staticmethod
+    def app(bid="io.github.accretionmods.radio", **over):
+        a = {
+            "bundleIdentifier": bid,
+            "name": "Radio+",
+            "developerName": "AccretionMods",
+            "subtitle": "Internet radio",
+            "localizedDescription": "First paragraph.\n\nSecond line one\nline two",
+            "category": "entertainment",
+            "iconURL": "https://getaccretion.app/icons/abc.jpg",
+            "screenshots": ["https://example.com/1.png", "http://example.com/2.png"],
+            "versions": [
+                {
+                    "version": "1.2",
+                    "date": "2026-10-01T10:00:00",
+                    "size": 2_500_000,
+                    "minOSVersion": "15.0",
+                    "localizedDescription": "Fixes",
+                },
+                {"version": "1.1", "date": "2026-09-01"},
+            ],
+        }
+        a.update(over)
+        return a
+
+    @staticmethod
+    def json_ld(page):
+        return json.loads(
+            re.search(r'<script type="application/ld\+json">(.*?)</script>', page, re.S).group(1)
+        )
+
+    def test_own_app_page_has_content_and_no_redirect(self):
+        store = self.load_site()
+        page = store.app_page_html(self.app(), {"features": ["Presets"]}, "https://getaccretion.app/")
+        self.assertIn(
+            '<link rel="canonical" href="https://getaccretion.app/app/io.github.accretionmods.radio/">', page
+        )
+        self.assertIn('<h1 class="view-title">Radio+</h1>', page)
+        self.assertNotIn('http-equiv="refresh"', page)
+        self.assertNotIn("location.replace", page)
+        self.assertIn("<p>First paragraph.</p><p>Second line one<br>line two</p>", page)
+        self.assertIn("<li>Presets</li>", page)
+        self.assertIn("<li><b>Size:</b> 2.5 MB</li>", page)
+        ld = self.json_ld(page)
+        self.assertEqual((ld["@type"], ld["softwareVersion"]), ("SoftwareApplication", "1.2"))
+        self.assertEqual(ld["operatingSystem"], "iOS 15.0 or later")
+
+    def test_escapes_text_and_drops_plain_http_images(self):
+        store = self.load_site()
+        page = store.app_page_html(
+            self.app(name="A<b>", subtitle="</script><script>alert(1)</script>"), {}, "https://x.example"
+        )
+        self.assertNotIn("<script>alert", page)
+        self.assertIn("A&lt;b&gt;", page)
+        self.assertEqual(self.json_ld(page)["name"], "A<b>")
+        self.assertIn('src="https://example.com/1.png"', page)
+        self.assertNotIn("http://example.com/2.png", page)
+
+    def test_share_pages_only_change_own_apps(self):
+        import tempfile
+
+        store = self.load_site()
+        apps = [self.app(), self.app("com.example.other", name="Other")]
+        with tempfile.TemporaryDirectory() as out, mock.patch.object(store, "OUT", out):
+            store.share_pages(apps, {}, {}, "https://getaccretion.app")
+
+            def read(bid):
+                with open(os.path.join(out, "app", bid, "index.html"), encoding="utf-8") as f:
+                    return f.read()
+
+            own, other = read("io.github.accretionmods.radio"), read("com.example.other")
+        self.assertNotIn('http-equiv="refresh"', own)
+        self.assertIn('http-equiv="refresh"', other)
 
 
 class SupabaseSetup(unittest.TestCase):
