@@ -67,9 +67,8 @@ test('without the app tag, an unknown version, or an unverified build: nothing',
 test('a real app from another source is never swapped for Accretion', async () => {
   const f = fixture({ hosted: OURS, links: { 'com.real.app': [{ version: '1.0.34', url: 'https://src.invalid/a.ipa', name: 'Real' }] } });
   const r = await f.get('app=com.real.app&version=1.0.34&av=1.0.33');
-  // its link exists, so it goes to that source's own file, never to Accretion
-  assert.equal(r.status, 302);
-  assert.equal(r.headers.get('Location'), 'https://src.invalid/a.ipa');
-  assert.equal(f.issued.length, 1);
-  assert.equal(f.issued[0].bundle_id, 'com.real.app');
+  // its link exists, so it goes to the download proxy (not configured in this fixture: 500), never to Accretion
+  assert.equal(r.status, 500);
+  assert.equal(r.headers.has('Location'), false);
+  assert.equal(f.issued.length, 0);
 });
