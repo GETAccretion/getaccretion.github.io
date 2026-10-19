@@ -75,20 +75,13 @@ Colours reach both surfaces from one file, `design/tokens.json` in the store rep
 
 ## Changes from the live site
 
-These tokens refine what the code ships today, so text and controls pass WCAG AA in both themes. The site and app keep their current values until `design/tokens.json` and the hard-coded colours below are updated.
+Applied: the contrast colours (`link`, `accent-text`, `accent-fill` and `accent-fill-end`, `rose` and `rose-fill`, `line-strong`, `avatar-ink`, and the light `good`, `warn`, `bad` and `star`) and the 14% badge tint at weight 500 shipped in app 1.0.34 and on the site (store pull request #12, app pull request #10). They are in `design/tokens.json`, `site/style.css` and the app's `AccretionTokens.swift`, so text and controls pass WCAG AA in both themes.
+
+Not applied yet; the site keeps its current values:
 
 | Token or rule | Live code | Here | Why |
 |---|---|---|---|
-| `link` (new) | `accent-2` as text | light `#0a6880` | `#0e8fb0` is 3.5:1 on light grounds |
-| `good`, `warn`, `bad` (light) | `#078a5e`, `#b76a00`, `#c2410c` | `#066d4a`, `#8c5100`, `#aa390b` | under 4.5:1 on grounds or badge tints |
-| `accent-text` (new) | `accent` as text | dark `#a07af7` | 3.6:1 on its badge tint in dark |
-| `accent-fill`, `accent-fill-end` | `accent` → mix `#5c93f2` | dark `#7c4dee` → `#3a6fe6` | white button text was 4.2:1 and 3.0:1 |
-| `rose`, `rose-fill` (new) | hard-coded `#f43f5e` | per-theme `rose`; `#e11d48` fill | 3.4:1 in light; white count 3.7:1 |
-| `star` (light) | `#f5b83b` | `#b87f09` | 1.8:1 on white |
-| `line-strong` (new) | fields use `line` | `#6458af` / `#8f7ed2` | field edges were 1.3:1 |
-| `avatar-ink` (new) | white initials | `#0f0e1a` | white was 1.5:1 to 4.2:1 |
-| Badge tint and weight | 18–22%, 600 | 14%, 500 | 600 isn't loaded, so it's faked |
-| Radii | 15 values, 5–26px | 8 steps + `radius-icon` | one scale |
+| Radii | 15 values, 4–40px | 8 steps + `radius-icon` | one scale |
 | Spacing, type | 11.5px meta, 650 names | 12px, 600 | one scale; app already uses these |
 
 Also out of step, left as is: the README index card (`assets/Images`) draws its own 24px grid, `#0e0e1a` tiles with 9px corners, and the system fonts instead of Sora and JetBrains Mono.

@@ -26,7 +26,7 @@ harmful, follow [SECURITY.md](SECURITY.md) instead.
 2. Add or update a test in `tests/`.
 3. Run the checks:
    ```sh
-   pip install ruff
+   pip install ruff pillow boto3 cryptography
    ruff check . && ruff format --check .
    python -m unittest discover -s tests
    python scripts/merge.py && python scripts/validate.py
@@ -38,6 +38,8 @@ Do not commit generated files (`source.json`, `curated.json`, `stats.json`, `his
 
 ## Style
 
-- Python 3.10+, standard library only. The pipeline must run without installing packages.
+- Python 3.10+. The pipeline (discover, check links, merge) uses the standard library only and
+  must run without installing packages. Icon hosting (`scripts/icons.py`) needs Pillow; the
+  backend scripts use boto3 and cryptography (pinned versions in `.github/workflows/ci.yml`).
 - Formatted with `ruff format`, linted with `ruff check` (config in `pyproject.toml`).
 - Network failures must never break a build: log them and fall back to the cached copy.

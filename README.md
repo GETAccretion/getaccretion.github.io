@@ -59,7 +59,8 @@ setup. Without it, the store works as before, with nothing gated.
 
 ## Accretion's own builds
 
-The ~4,250 third-party apps from 160+ sources are only listed and linked, never hosted.
+The third-party apps from the merged sources (current counts in [`stats.json`](stats.json)) are only
+listed and linked, never hosted.
 Accretion's **own** builds are the exception: the Accretion app (`io.github.getaccretion.Accretion`)
 and [Accretion Mods](https://github.com/AccretionMods/mods). Their files sit in a private Supabase
 Storage bucket and are served by the Edge Functions in [`supabase/functions/`](supabase/functions):
@@ -92,10 +93,12 @@ stays hidden until it is filled in:
 ```
 
 The store then shows a ♥ Support page, a certificate line under the install buttons on every
-app page (marked as affiliate links), and a short download screen: tapping **Download IPA**
-shows the certificate offers and the support link while the download starts by itself after 4
-seconds (or at once with **Download now**). AltStore, SideStore and TrollStore buttons, and the
-sources themselves, always link straight to the file. Admins give donors the ♥ supporter badge from
+app page ("Need a signing certificate?" with the seller links, tagged `rel="sponsored"`), and a
+short download screen: tapping **Download IPA** shows the certificate offers and the support link
+while the download starts by itself after 4 seconds (or at once with **Download now**). The
+Support page, the sign guide and the download screen say that the certificate links are affiliate
+links. AltStore, SideStore and TrollStore buttons, and the sources themselves, always link
+straight to the file. Admins give donors the ♥ supporter badge from
 Moderation → Supporters.
 
 ## Add the source
@@ -210,7 +213,10 @@ Yes. [Open a source request](../../issues/new?template=add-source.yml), or see
 
 ## Run it yourself
 
-The pipeline needs only Python 3.10 or newer, with no third-party packages.
+The pipeline (discover, check links, merge) needs only Python 3.10 or newer, with no third-party
+packages. Hosting the icons (`scripts/icons.py`) needs Pillow, and the tests and backend scripts
+also use boto3 and cryptography (CI installs the versions pinned in
+[`ci.yml`](.github/workflows/ci.yml)).
 
 ```sh
 python scripts/discover.py     # optional: find sources (set GITHUB_TOKEN for the GitHub scan)
