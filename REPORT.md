@@ -1,18 +1,18 @@
 # Source report
 
-Built 2026-10-18 20:59 UTC.
+Built 2026-10-19 05:00 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4257** (4935 KB) |
+| Apps in `source.json` | **4263** (4937 KB) |
 | Apps in `curated.json` | **728** (709 KB) |
-| Listings read | 23743 |
+| Listings read | 23751 |
 | Apps listed by more than one source (newest kept) | 1801 |
-| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6628 |
+| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6625 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 57 |
-| Dead download links held back (retested every build) | 8908 |
+| Dead download links held back (retested every build) | 8927 |
 | Links on hold (whole host failing, kept for now) | 0 |
-| Sources | 163: 160 ok, 3 from cache, 0 failed |
+| Sources | 163: 161 ok, 2 from cache, 0 failed |
 
 ## Sources
 
@@ -20,17 +20,17 @@ Built 2026-10-18 20:59 UTC.
 
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
-| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3718 | 3519 | 4541 | 2026-10-18 | discovered |
-| [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1626 | 533 | 331 | 2026-10-18 | discovered |
+| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3724 | 3530 | 4539 | 2026-10-19 | discovered |
+| [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1626 | 531 | 331 | 2026-10-18 | discovered |
 | [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 100 | 13 | 2025-01-01 | curated |
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json) | cached | 155 | 8 | 1 | 2026-10-14 | discovered |
 | [iDevPatcher](https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json) | ok | 20 | 8 | 1 | 2025-12-12 | discovered |
 | [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 9 | 8 | 0 | 2026-10-18 | discovered |
-| [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 43 | 7 | 0 | 2026-10-18 | discovered |
 | [RipeStore](https://bit.ly/RipeStore) | ok | 11 | 6 | 0 | 2026-07-01 | discovered |
-| [CyPwn IPA Library](https://repos.gabrx.eu.org/cypwn.json) | ok | 203 | 4 | 6 | 2026-07-23 | curated |
+| [CyPwn IPA Library](https://repos.gabrx.eu.org/cypwn.json) | ok | 204 | 4 | 6 | 2026-08-28 | curated |
 | [AltStore Complete](https://bit.ly/Altstore-complete) | ok | 8 | 4 | 0 | 2025-05-12 | discovered |
+| [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 43 | 3 | 0 | 2026-10-18 | discovered |
 | [Quantum Source](https://bit.ly/Quantumsource) | ok | 35 | 3 | 3 | 2025-12-30 | discovered |
 | [Provenance Emulator](https://provenance-emu.com/apps.json) | ok | 4 | 3 | 0 | 2026-10-18 | discovered |
 | [Quantum Source++](https://quarksources.github.io/dist/quantumsource%2B%2B.min.json) | ok | 32 | 2 | 3 | 2025-05-20 | curated |
@@ -42,13 +42,14 @@ Built 2026-10-18 20:59 UTC.
 | [Quark Source Testing](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource-testing.json) | ok | 4 | 1 | 1 | 2021-08-03 | discovered |
 | [ARMSX2 iOS](https://raw.githubusercontent.com/RipeStore/repos/main/armsx2.json) | ok | 2 | 1 | 0 | 2026-10-18 | discovered |
 | [Resonance Team](https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/ResonanceTeamRepo.json) | ok | 2 | 1 | 0 | 2024-08-27 | discovered |
+| [Stremio Library](https://gablilli.github.io/stremiorepo/index.json) | ok | 1 | 1 | 1 | 2025-02-26 | curated |
 | [Toshiaki Shirakura](https://polymorph-distribution.netlify.app/source.json) | ok | 1 | 1 | 0 | 2025-12-18 | discovered |
 | [BatSign Source](https://raw.githubusercontent.com/8yy/BatSign/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-10 | discovered |
 | [A29 Repository](https://raw.githubusercontent.com/Aayush9029/AltApps/main/apps.json) | ok | 1 | 1 | 1 | 2020-11-10 | discovered |
 | [Accretion Mods](https://raw.githubusercontent.com/AccretionMods/mods/main/mods.json) | ok | 1 | 1 | 0 | 2026-10-15 | curated |
 | [Apollo for Reddit](https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/apps.json) | ok | 1 | 1 | 0 | 2026-10-09 | curated |
 | [EPIC's source](https://raw.githubusercontent.com/Epyke/plezy-sidestore-source/master/apps.json) | ok | 1 | 1 | 0 | 2026-10-11 | discovered |
-| [FriesI23's Source](https://raw.githubusercontent.com/FriesI23/altstore-repo/master/_site/repo/source.json) | ok | 1 | 1 | 0 | 2026-10-10 | discovered |
+| [FriesI23's Source](https://raw.githubusercontent.com/FriesI23/altstore-repo/master/_site/repo/source.json) | ok | 1 | 1 | 0 | 2026-10-19 | discovered |
 | [Accretion App](https://raw.githubusercontent.com/GETAccretion/accretion-app/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-18 | curated |
 | [Lumisound](https://raw.githubusercontent.com/HeavenlyXenusVR/Lumisound/main/ios/altstore-source.json) | ok | 1 | 1 | 0 | 2026-10-11 | discovered |
 | [Nightshift](https://raw.githubusercontent.com/Jannehy/nightshift-ios/main/altstore.json) | ok | 1 | 1 | 0 | 2026-10-02 | discovered |
@@ -162,9 +163,8 @@ Built 2026-10-18 20:59 UTC.
 | [Spicy Sparks](https://esound.app/downloads/source.json) | ok | 0 | 0 | 1 |  | discovered |
 | [Flyinghead](https://flyinghead.github.io/flycast-builds/altstore.json) | ok | 0 | 0 | 1 |  | curated |
 | [Foxxoccino & Hoojao's Source](https://foxxoccino.github.io/PALSource.json) | ok | 0 | 0 | 1 |  | discovered |
-| [Stremio Library](https://gablilli.github.io/stremiorepo/index.json) | ok | 0 | 0 | 2 |  | curated |
 | [Ceylo's Apps Hub](https://get.furaffinity.app/altstore) | ok | 0 | 0 | 1 |  | discovered |
-| [Cizzuk Source](https://i.cizzuk.net/altstore/source.pal.json) | cached | 0 | 0 | 6 |  | discovered |
+| [Cizzuk Source](https://i.cizzuk.net/altstore/source.pal.json) | ok | 0 | 0 | 6 |  | discovered |
 | [AltStore](https://marketplace.altstore.io) | ok | 0 | 0 | 10 |  | discovered |
 | [UTM Repository (AltStore PAL)](https://pal.getutm.app/config.json) | ok | 0 | 0 | 1 |  | discovered |
 | [Party Knights - Drinking Game](https://partyknights.app/source) | ok | 0 | 0 | 1 |  | discovered |
@@ -187,35 +187,34 @@ Built 2026-10-18 20:59 UTC.
 ## Problems
 
 - `https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json`: cached (HTTPError: HTTP Error 404: Not Found)
-- `https://i.cizzuk.net/altstore/source.pal.json`: cached (HTTPError: HTTP Error 404: Not Found)
 - `https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json`: cached (HTTPError: HTTP Error 404: Not Found)
 
 ## Recently updated
 
 | App | Version | Date | From |
 |---|---|---|---|
-| Activity Moniter | 11.00 | 2026-10-18 | raw.githubusercontent.com |
-| Accretion | 1.0.35 | 2026-10-18 | raw.githubusercontent.com |
-| Messenger | 584.0.0 | 2026-10-18 | raw.githubusercontent.com |
-| Aidoku | 0.9-4 | 2026-10-18 | raw.githubusercontent.com |
-| UTM | 5.0.8 | 2026-10-18 | raw.githubusercontent.com |
-| Truecaller | 26.40.5 | 2026-10-18 | raw.githubusercontent.com |
-| Paste | 7.0.3 | 2026-10-18 | raw.githubusercontent.com |
-| Oniri | 6.1.3 | 2026-10-18 | raw.githubusercontent.com |
-| Locket | 2.69.0 | 2026-10-18 | raw.githubusercontent.com |
-| Dark Noise | 3.6.1 | 2026-10-18 | raw.githubusercontent.com |
-| Minipaper | 6.1 | 2026-10-18 | raw.githubusercontent.com |
-| UTM SE | 5.0.8 | 2026-10-18 | raw.githubusercontent.com |
-| Provenance Alpha | 3.4.0 | 2026-10-18 | provenance-emu.com |
-| iCube | 1.0.0-beta9-ios | 2026-10-18 | provenance-emu.com |
-| Musly | 2.0.3 | 2026-10-18 | raw.githubusercontent.com |
-| Husk | 3.0.0 | 2026-10-18 | raw.githubusercontent.com |
-| Crsel | 1.5.7 | 2026-10-18 | raw.githubusercontent.com |
-| superagent | 4.7.0 | 2026-10-18 | raw.githubusercontent.com |
-| LUT-Studio | 4.1.0 | 2026-10-18 | raw.githubusercontent.com |
-| GrowMe | 1.4.2 | 2026-10-18 | raw.githubusercontent.com |
-| ProCCD | 6.9.1 | 2026-10-18 | raw.githubusercontent.com |
-| wpsoffice | 26.10.0 | 2026-10-18 | raw.githubusercontent.com |
-| Block Blast! | 7.5.3 | 2026-10-18 | raw.githubusercontent.com |
-| ScannerAir | 2026.10.6 | 2026-10-18 | raw.githubusercontent.com |
-| Daygram | 5.9.5 | 2026-10-18 | raw.githubusercontent.com |
+| Table Habit | 1.27.15 | 2026-10-19 | raw.githubusercontent.com |
+| YouTube Music | 9.42.2 | 2026-10-19 | raw.githubusercontent.com |
+| Bazaart | 27.0.5 | 2026-10-19 | raw.githubusercontent.com |
+| Facebook | 584.0.0 | 2026-10-19 | raw.githubusercontent.com |
+| Buddy | 13.50 | 2026-10-19 | raw.githubusercontent.com |
+| Musly | 2.0.3 | 2026-10-19 | raw.githubusercontent.com |
+| CollaNote | 5.0.7 | 2026-10-19 | raw.githubusercontent.com |
+| Crsel | 1.5.8 | 2026-10-19 | raw.githubusercontent.com |
+| OfflineMusic | 3.9.7 | 2026-10-19 | raw.githubusercontent.com |
+| SimplyDraw | 1.18.0 | 2026-10-19 | raw.githubusercontent.com |
+| Busuu | 30.30.0 | 2026-10-19 | raw.githubusercontent.com |
+| StressWatch | 3.4.3 | 2026-10-19 | raw.githubusercontent.com |
+| DiamondFinder | 9.2.6 | 2026-10-19 | raw.githubusercontent.com |
+| SimplyGuitar | 10.31 | 2026-10-19 | raw.githubusercontent.com |
+| SimplySing | 3.1.3 | 2026-10-19 | raw.githubusercontent.com |
+| Sketchar | 10.9.2 | 2026-10-19 | raw.githubusercontent.com |
+| Tripsy | 3.10.4 | 2026-10-19 | raw.githubusercontent.com |
+| PowerThesaurus | 2.15.1 | 2026-10-19 | raw.githubusercontent.com |
+| DeviceMonitor | 27.0.1 | 2026-10-19 | raw.githubusercontent.com |
+| FotMob | 1244.0 | 2026-10-19 | raw.githubusercontent.com |
+| JournalCircle | 3.6.3 | 2026-10-19 | raw.githubusercontent.com |
+| NoteCircle | 4.91 | 2026-10-19 | raw.githubusercontent.com |
+| Forza Football | 7.1.6 | 2026-10-19 | raw.githubusercontent.com |
+| Shape | 3.37 | 2026-10-19 | raw.githubusercontent.com |
+| Alpenglow | 12.1.1 | 2026-10-19 | raw.githubusercontent.com |
