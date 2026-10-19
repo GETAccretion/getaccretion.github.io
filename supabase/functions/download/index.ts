@@ -1,11 +1,12 @@
 // download: hands out Accretion's own builds (Accretion Mods, the Accretion app) to account holders,
-// and every other source's apps through the download proxy (source URLs stay private; see proxyLink).
+// and sends every other source's apps straight to that source's file (see PROXY_OTHER_SOURCES).
 //
 //   GET /functions/v1/download?app=<bundle id>             with "Authorization: Bearer <user JWT>"
 //   GET /functions/v1/download?app=<bundle id>&key=<key>   for AltStore, SideStore and Feather
 //   add &version=<x> for a particular version (sources list every version); newest otherwise
 //
-// Answers with a redirect to a 10-minute link (through the download proxy when it is set up), or a short
+// Answers with a redirect (our builds: a 10-minute link, through the download proxy when it is set up;
+// other sources' apps: the source's own file), or a short
 // explanation (401 not signed in, 404 not in the store, 426 Accretion too old). A browser that isn't
 // signed in is sent to the app's store page instead. Deployed with --no-verify-jwt so the key
 // form works without a login; the function checks the login itself.
@@ -107,9 +108,12 @@ async function signedLink(path: string, name: string): Promise<string | null> {
 }
 
 // Apps from other sources: their file links live only in the private upstream_links table (filled by
-// the store build, never public). The download goes through the download proxy (workers/download-proxy),
-// which streams the file as "<App>_<version>.ipa"; the link to it carries the source's URL encrypted
-// (AES-256-GCM, DOWNLOAD_PROXY_KEY), so the person downloading never sees where it comes from.
+// the store build, never public). By default the download is a redirect to the source's own file, so
+// other sources' files never pass through our servers. With PROXY_OTHER_SOURCES = "1" they go through
+// the download proxy (workers/download-proxy) instead, which streams the file as "<App>_<version>.ipa";
+// the link to it carries the source's URL encrypted (AES-256-GCM, DOWNLOAD_PROXY_KEY), so the person
+// downloading never sees where it comes from. Our own builds always use the proxy when it is set up.
+const PROXY_OTHER_SOURCES = Deno.env.get("PROXY_OTHER_SOURCES") === "1";
 const PROXY_ORIGIN = Deno.env.get("DOWNLOAD_PROXY_ORIGIN") ?? ""; // e.g. https://dl.getaccretion.app
 const PROXY_KEY = Deno.env.get("DOWNLOAD_PROXY_KEY") ?? ""; // 32 random bytes, base64url
 const PROXY_TTL = 10 * 60_000; // long enough to start, and to resume a dropped download
@@ -231,7 +235,7 @@ Deno.serve(async (req) => {
   if (build) {
     location = await signedLink(build.path, fileName(app, build.version));
   } else {
-    // another source's app: its private link, through the download proxy
+    // another source's app: its private link, as a redirect (or through the download proxy)
     const { data: links, error: linksError } = await admin.from("upstream_links").select("version,url,name").eq("bundle_id", app);
     if (linksError) return reply(503, "Couldn't check available downloads. Try again.");
     const list = (links ?? []) as { version: string; url: string; name: string | null }[];
@@ -239,7 +243,12 @@ Deno.serve(async (req) => {
       ? list.find((l) => l.version === version)
       : list.sort((a, b) => (older(a.version, b.version) ? 1 : older(b.version, a.version) ? -1 : 0))[0];
     if (pick) {
-      location = await proxyLink(pick.url, fileName(app, pick.version, pick.name ?? ""));
+      if (PROXY_OTHER_SOURCES) {
+        location = await proxyLink(pick.url, fileName(app, pick.version, pick.name ?? ""));
+      } else {
+        if (!/^https:\/\//i.test(pick.url)) return reply(404, "This version can't be downloaded here.");
+        location = pick.url;
+      }
     } else {
       // Accretion 1.0.33 asks for its own update under its own bundle ID, which differs when a signer
       // re-signed it (fixed in the app afterwards). The app tags its requests with av=: an unknown app

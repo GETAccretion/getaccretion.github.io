@@ -1,6 +1,7 @@
-// The download function and the download proxy together: links for other sources' apps carry the
-// source URL only encrypted, the proxy streams the file under "<App>_<version>.ipa", and changed,
-// expired or made-up links are refused.
+// The download function and the download proxy together. By default other sources' apps redirect to
+// the source's own file. With PROXY_OTHER_SOURCES = "1" their links carry the source URL only
+// encrypted, the proxy streams the file under "<App>_<version>.ipa", and changed, expired or made-up
+// links are refused. Our own builds go through the proxy either way.
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
@@ -13,7 +14,7 @@ const KEY = Buffer.alloc(32, 7).toString('base64url'); // fictional test key
 const ORIGIN = 'https://dl.fictional.invalid';
 const UPSTREAM = 'https://source.fictional.invalid/files/ASJTube_21.40.5_1.4.ipa';
 
-function downloadFunction(links, hosted = []) {
+function downloadFunction(links, hosted = [], proxyOtherSources = '1') {
   let handler;
   const issued = [];
   const admin = {
@@ -34,7 +35,7 @@ function downloadFunction(links, hosted = []) {
       return query;
     },
   };
-  const env = { DOWNLOAD_PROXY_ORIGIN: ORIGIN, DOWNLOAD_PROXY_KEY: KEY };
+  const env = { DOWNLOAD_PROXY_ORIGIN: ORIGIN, DOWNLOAD_PROXY_KEY: KEY, PROXY_OTHER_SOURCES: proxyOtherSources };
   const source = fs.readFileSync(path.join(__dirname, '../../supabase/functions/download/index.ts'), 'utf8')
     .replace(/^import[^\n]+\r?\n/gm, '');
   vm.runInNewContext(stripTypeScriptTypes(source), {
@@ -65,7 +66,29 @@ const LINKS = [
   { version: '21.39.4', url: 'https://source.fictional.invalid/files/old.ipa', name: 'ASJTube + Bonus Tweaks (1.4.0 - mrdrvt99)' },
 ];
 
-test('other sources: the redirect names the file and never shows the source URL', async () => {
+test('by default other sources\' apps redirect to the source\'s own file, never through our servers', async () => {
+  const f = downloadFunction(LINKS, [], '');
+  const response = await f.get('app=com.google.ios.youtube.asjtube.1.4.0');
+  assert.equal(response.status, 302);
+  assert.equal(response.headers.get('Location'), UPSTREAM);
+  assert.equal(response.headers.get('Referrer-Policy'), 'no-referrer');
+  assert.equal(f.issued.length, 1, 'the download is logged and counted');
+  const old = await f.get('app=com.fixture&version=21.39.4');
+  assert.equal(old.headers.get('Location'), 'https://source.fictional.invalid/files/old.ipa');
+  const plain = downloadFunction([{ version: '1.0', url: 'http://source.fictional.invalid/a.ipa', name: 'A' }], [], '');
+  const refused = await plain.get('app=com.fixture');
+  assert.equal(refused.status, 404, 'a non-https file is never handed out');
+  assert.equal(refused.headers.has('Location'), false);
+  assert.equal(plain.issued.length, 0);
+});
+
+test('by default our own builds still go through the proxy', async () => {
+  const hosted = [{ path: 'com.fixture/1.0-abc.ipa', version: '1.0', sha256: 'a'.repeat(64) }];
+  const location = (await downloadFunction([], hosted, '').get('app=com.fixture')).headers.get('Location');
+  assert.ok(location.startsWith(`${ORIGIN}/`), location);
+});
+
+test('proxied: the redirect names the file and never shows the source URL', async () => {
   const f = downloadFunction(LINKS);
   const response = await f.get('app=com.google.ios.youtube.asjtube.1.4.0');
   assert.equal(response.status, 302);
