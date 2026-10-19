@@ -9,9 +9,10 @@ Copies the static storefront from site/ and adds data generated from the build:
                         the slice that holds the app it opens
   data/stats.json       the numbers merge.py collected
   source.json, curated.json and the card images, so the store has short links too
-  app/<bundle id>/      a tiny page per app with link-preview tags (Discord, iMessage,
-                        forums) that forwards to the app's page in the store; Accretion's own
-                        apps (OWN_PREFIXES) get a full page search engines can read instead
+  app/<bundle id>/      a full page per app that search engines can read, with link-preview
+                        tags (Discord, iMessage, forums); only Accretion's own apps (OWN_PREFIXES)
+                        load Google ads. Apps with no working link keep a page that forwards
+                        to the store's closest matches
   sitemap.xml, robots.txt  every per-app page with its newest version date (SITE_URL, else the default)
 
 Run after merge.py. Reads _build/origins.json for where each app came from.
@@ -110,10 +111,10 @@ def screenshot_urls(app):
 SAFE_ID = re.compile(r"^[A-Za-z0-9][A-Za-z0-9.\-_]*$")
 
 
-def share_pages(apps, gone=None, extras=None, site_url=None):
-    """One small page per app so shared links show a name, icon and description. Apps with no
-    working download left (gone) keep a page that opens the store's closest matches. Accretion's
-    own apps get a full, crawlable page (app_page_html) instead of the forwarding one."""
+def share_pages(apps, gone=None, extras=None, site_url=None, certificates=()):
+    """A full, crawlable page per app (app_page_html) that also gives shared links a name, icon and
+    description. Apps with no working download left (gone) keep a small page that forwards to the
+    store's closest matches."""
     extras, site_url = extras or {}, (site_url or SITE_URL).rstrip("/")
     for bid, g in (gone or {}).items():
         if SAFE_ID.match(bid):
@@ -128,12 +129,7 @@ def share_pages(apps, gone=None, extras=None, site_url=None):
         bid = a["bundleIdentifier"]
         if not SAFE_ID.match(bid):
             continue
-        if is_own(bid):
-            write_page(bid, app_page_html(a, extras.get(bid, {}), site_url))
-            continue
-        latest = a["versions"][0]
-        desc = (a.get("subtitle") or a.get("localizedDescription") or "")[:180].replace("\n", " ")
-        write_share_page(bid, f"{a['name']} {latest['version']}", desc, a["iconURL"], a["name"])
+        write_page(bid, app_page_html(a, extras.get(bid, {}), site_url, certificates))
 
 
 def write_page(bid, page):
@@ -143,14 +139,16 @@ def write_page(bid, page):
         f.write(page)
 
 
-# Accretion's own apps (same list as OWN_PREFIXES in site/app.js): their pages carry Google ads
+# Accretion's own apps (same list as OWN_PREFIXES in site/app.js): only their pages carry Google ads
 OWN_PREFIXES = ("io.github.getaccretion.", "io.github.accretionmods.")
-# same policy as site/install-without-computer.html: own scripts plus Google's ad hosts
-PAGE_CSP = (
+# own pages: same policy as site/install-without-computer.html (own scripts plus Google's ad hosts)
+ADS_CSP = (
     "script-src 'self' https://pagead2.googlesyndication.com https://*.googlesyndication.com "
     "https://*.adtrafficquality.google https://fundingchoicesmessages.google.com https://*.doubleclick.net "
     "https://www.google.com https://www.gstatic.com; object-src 'none'; base-uri 'self'; form-action 'self'"
 )
+# other sources' apps: no ads, so no outside scripts at all
+PLAIN_CSP = "script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"
 ADSENSE = (
     '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
     '?client=ca-pub-4500603236648893" crossorigin="anonymous"></script>'
@@ -183,11 +181,37 @@ def text_html(text):
     return "".join(f"<p>{html.escape(p).replace(chr(10), '<br>')}</p>" for p in paras)
 
 
-def app_page_html(app, extra, site_url):
-    """A full page for one of Accretion's own apps: what search engines index for the app. It has
-    no redirect; installing happens in the store (signed-in downloads), linked from the page."""
+def cert_url(cert, name, icon):
+    """A certificate seller's link for one app: its app_url with {name}/{icon} filled (as
+    certUrl() in site/app.js), else its plain url; '' unless https"""
+    tpl = cert.get("app_url")
+    if isinstance(tpl, str) and tpl:
+        url = tpl.replace("{name}", urllib.parse.quote(name, safe="")).replace(
+            "{icon}", urllib.parse.quote(icon, safe="")
+        )
+        if https_url(url):
+            return url
+    return https_url(cert.get("url"))
+
+
+def cert_line(certificates, name, icon):
+    """'Need a signing certificate?' with each seller's per-app link, as certLine() in site/app.js"""
+    links = [
+        f'<a href="{html.escape(url)}" target="_blank" rel="sponsored noopener">'
+        f"{html.escape(c.get('name', ''))}</a>"
+        for c in certificates or ()
+        if isinstance(c, dict) and (url := cert_url(c, name, icon))
+    ]
+    return f'<p class="cert-line">Need a signing certificate? {" · ".join(links)}</p>' if links else ""
+
+
+def app_page_html(app, extra, site_url, certificates=()):
+    """A full page for one app: what search engines index for it. It has no redirect; installing
+    happens in the store (signed-in downloads), linked from the page. Only Accretion's own apps
+    load Google ads and say they are free (other sources' apps may be paid on the App Store)."""
     e = html.escape
     bid, name = app["bundleIdentifier"], app["name"]
+    own = is_own(bid)
     versions = app.get("versions") or []
     latest = versions[0] if versions else {}
     version, date = latest.get("version", ""), str(latest.get("date") or "")[:10]
@@ -211,8 +235,9 @@ def app_page_html(app, extra, site_url):
         if app.get("category") == "games"
         else "UtilitiesApplication",
         "author": {"@type": "Organization", "name": app.get("developerName", "")},
-        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
     }
+    if own:
+        ld["offers"] = {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
     if icon:
         ld["image"] = icon
     ld_json = json.dumps(ld, ensure_ascii=False).replace("<", "\\u003c")  # text can't open or close a tag
@@ -232,6 +257,7 @@ def app_page_html(app, extra, site_url):
         f'<p class="muted">{e(app.get("developerName", ""))} · {e(category)}</p>',
         f"<p>{e(app['subtitle'])}</p>" if app.get("subtitle") else "",
         f'<p><a class="btn primary" href="../../#/app/{e(bid)}">Open in the store to install</a></p>',
+        cert_line(certificates, name, icon),
         "<ul>" + "".join(f"<li><b>{k}:</b> {e(v)}</li>" for k, v in facts if v) + "</ul>",
     ]
     notes = latest.get("localizedDescription") or ""
@@ -270,7 +296,7 @@ def app_page_html(app, extra, site_url):
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="{PAGE_CSP}">
+<meta http-equiv="Content-Security-Policy" content="{ADS_CSP if own else PLAIN_CSP}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
@@ -285,7 +311,7 @@ def app_page_html(app, extra, site_url):
 <meta name="theme-color" content="#07070D">
 <link rel="icon" href="../../icon-192.png">
 <link rel="stylesheet" href="../../style.css">
-{ADSENSE}
+{ADSENSE if own else ""}
 <script type="application/ld+json">{ld_json}</script>
 </head>
 <body>
@@ -542,7 +568,7 @@ def main():
     }
     dump("data/gone.json", gone)
     site_url = os.environ.get("SITE_URL", "").strip() or SITE_URL
-    share_pages(source["apps"], gone, extras, site_url)
+    share_pages(source["apps"], gone, extras, site_url, support.get("certificates") or [])
     sitemap(site_url, source["apps"])
 
     # the store used to live at /Accretion/: send old links and saved home screen icons home

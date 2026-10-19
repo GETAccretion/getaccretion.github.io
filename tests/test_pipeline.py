@@ -719,21 +719,45 @@ class AppPages(unittest.TestCase):
         self.assertIn('src="https://example.com/1.png"', page)
         self.assertNotIn("http://example.com/2.png", page)
 
-    def test_share_pages_only_change_own_apps(self):
+    def test_every_app_gets_a_full_page_but_only_own_apps_load_ads(self):
         import tempfile
 
         store = self.load_site()
         apps = [self.app(), self.app("com.example.other", name="Other")]
+        gone = {"com.example.gone": {"n": "Gone", "ic": "https://x.example/i.jpg"}}
+        certs = [
+            {"name": "Seller", "url": "https://s.example/", "app_url": "https://s.example/?n={name}&i={icon}"}
+        ]
         with tempfile.TemporaryDirectory() as out, mock.patch.object(store, "OUT", out):
-            store.share_pages(apps, {}, {}, "https://getaccretion.app")
+            store.share_pages(apps, gone, {}, "https://getaccretion.app", certs)
 
             def read(bid):
                 with open(os.path.join(out, "app", bid, "index.html"), encoding="utf-8") as f:
                     return f.read()
 
-            own, other = read("io.github.accretionmods.radio"), read("com.example.other")
-        self.assertNotIn('http-equiv="refresh"', own)
-        self.assertIn('http-equiv="refresh"', other)
+            own, other, lost = (
+                read("io.github.accretionmods.radio"),
+                read("com.example.other"),
+                read("com.example.gone"),
+            )
+        for page in (own, other):
+            self.assertNotIn('http-equiv="refresh"', page)
+            self.assertIn('<p class="cert-line">Need a signing certificate?', page)
+        self.assertIn("adsbygoogle", own)
+        self.assertNotIn("adsbygoogle", other)
+        self.assertNotIn("googlesyndication", other)  # its CSP allows no outside scripts either
+        self.assertIn("offers", self.json_ld(own))
+        self.assertNotIn("offers", self.json_ld(other))  # other sources' apps may be paid
+        self.assertIn(
+            "https://s.example/?n=Other&amp;i=https%3A%2F%2Fgetaccretion.app%2Ficons%2Fabc.jpg", other
+        )
+        self.assertIn('http-equiv="refresh"', lost)  # no working link: still forwards to closest matches
+
+    def test_cert_url_falls_back_to_the_plain_https_link(self):
+        store = self.load_site()
+        self.assertEqual(store.cert_url({"url": "https://s.example/"}, "A", ""), "https://s.example/")
+        self.assertEqual(store.cert_url({"url": "http://s.example/"}, "A", ""), "")
+        self.assertEqual(store.cert_line([], "A", ""), "")
 
 
 class SupabaseSetup(unittest.TestCase):
