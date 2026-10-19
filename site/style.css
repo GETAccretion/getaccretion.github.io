@@ -610,3 +610,17 @@ h1, .stats dd { background: linear-gradient(100deg, var(--fg) 30%, color-mix(in 
 .mod-stats .st-growth-head { align-items: center; gap: 10px; justify-content: flex-start; }
 .feats { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
 .feat { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 3px 10px; font: 500 12px var(--body); color: var(--muted); }
+
+/* Phones: the live index card's text is too small to read under 480px; the stat tiles carry its numbers. */
+@media (max-width: 479px) {
+  .hero-card { display: none; }
+}
+/* Touch screens: fields at 16px (iOS Safari zooms into a focused field below that), and small
+   links and buttons get an invisible 44px hit area (Apple's minimum) without changing their look. */
+@media (pointer: coarse) {
+  .search input, .sort select, .input, .sign-field .input { font-size: 16px; }
+  .nav a, .shelf-head a, .add-top, .account .signin, .bell { position: relative; }
+  .nav a::after, .shelf-head a::after, .add-top::after, .account .signin::after, .bell::after { content: ""; position: absolute; inset: -6px -2px; }
+  .shelf-head a::after { inset: -12px -4px; }
+  .bell::after { inset: -6px -4px; }
+}

@@ -391,17 +391,20 @@
       try { await api.likeApp(app.i, !liked); liked = !liked; likeCount += liked ? 1 : -1; paintLike(); } catch (e) { A.toast(e.message); }
     });
     const starsBox = h("div", { class: "stars", role: "radiogroup", "aria-label": "Your rating" });
+    // outlined stars until you rate, so five empty stars don't read as a five-star score
+    const rateLabel = h("span", { class: "muted small" }, "Rate");
     const paintStars = () => {
+      rateLabel.hidden = stars > 0;
       starsBox.replaceChildren(...[1, 2, 3, 4, 5].map((n) => h("button", { type: "button", class: `star${n <= stars ? " on" : ""}`, role: "radio", "aria-checked": String(n === stars), "aria-label": `${n} star${n > 1 ? "s" : ""}`, onclick: async () => {
         if (!requireUser()) return;
         try { await api.rateApp(app.i, n); stars = n; paintStars(); A.toast("Thanks for rating"); } catch (e) { A.toast(e.message); }
-      } }, "★")));
+      } }, n <= stars ? "★" : "☆")));
     };
     paintStars();
     const summary = h("span", { class: "muted small" }, avg ? `${Number(avg).toFixed(1)} ★ from ${A.fmt(data.stats.ratings)} rating${data.stats.ratings > 1 ? "s" : ""}` : "No ratings yet");
     const list = h("div", { class: "thread" });
     const top = h("section", { class: "sec community" },
-      h("div", { class: "community-top" }, likeBtn, h("div", { class: "rate" }, starsBox, summary)));
+      h("div", { class: "community-top" }, likeBtn, h("div", { class: "rate" }, rateLabel, starsBox, summary)));
     const talk = h("section", { class: "sec community comments", id: "comments" },
       h("h2", {}, `Comments${data.stats.comments ? ` · ${A.fmt(data.stats.comments)}` : ""}`),
       composer({ placeholder: `Say something about ${app.n}…`, onSubmit: async (body) => { await api.createPost({ body, appId: app.i }); await loadThread(); } }),
