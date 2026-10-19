@@ -1036,7 +1036,8 @@
     }
     return (await shardCache.get(n))[bid];
   }
-  const fact = (label, value) => h("div", {}, h("dt", {}, label), h("dd", {}, value || "–"));
+  // a fact the source doesn't give is left out instead of shown as "–"
+  const fact = (label, value) => (value ? h("div", {}, h("dt", {}, label), h("dd", {}, value)) : null);
   const shareUrl = (bid) => new URL(`app/${bid}/`, location.href.split("#")[0]).href;
   const desktop = () => window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 
@@ -1193,15 +1194,16 @@
         fact("Version", latest.v),
         fact("Build", latest.b),
         fact("Released", a.u ? "Unknown (the source gives no date)" : latest.t ? `${latest.t} · ${ago(latest.t)}` : ""),
-        fact("Size", bytes(latest.z)),
+        fact("Size", latest.z ? bytes(latest.z) : ""),
         fact("Min iOS", latest.min),
         fact("Category", CATEGORY_NAMES[a.c] || a.c),
       ),
     ];
     if (!isOwnApp(a.i)) out.push(sponsorCard(a));
-    if (latest.notes) out.push(h("section", { class: "sec" }, h("h2", {}, "What's new"), h("p", { class: "prose" }, latest.notes)));
+    // screenshots first, like the App Store: they show what the app is before the release notes
     const shots = (d.shots || []).map(safeUrl).filter(Boolean);
     if (shots.length) out.push(h("section", { class: "sec" }, h("h2", {}, "Screenshots"), h("div", { class: "shots" }, shots.map(shot))));
+    if (latest.notes) out.push(h("section", { class: "sec" }, h("h2", {}, "What's new"), h("p", { class: "prose" }, latest.notes)));
     if (d.feat && d.feat.length) out.push(h("div", { class: "feats" }, d.feat.map((f) => h("span", { class: "feat" }, f))));
     if (d.desc) out.push(h("section", { class: "sec" }, h("h2", {}, "About"), h("p", { class: "prose" }, d.desc)));
     out.push(

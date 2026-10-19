@@ -90,6 +90,15 @@ def shard_of(bundle_id):
     return fnv1a(bundle_id) % SHARDS
 
 
+def clip(text, limit):
+    """At most `limit` characters, cut at a word with an ellipsis instead of mid-word."""
+    text = " ".join(text.split())
+    if len(text) <= limit:
+        return text
+    cut = text[: limit - 1].rsplit(" ", 1)[0].rstrip(" ,.;:|-")
+    return (cut or text[: limit - 1]) + "…"
+
+
 def screenshot_urls(app):
     shots = app.get("screenshots") or []
     if isinstance(shots, dict):
@@ -277,7 +286,7 @@ def main():
                 "i": bid,
                 "n": a["name"],
                 "d": a["developerName"],
-                "s": (a.get("subtitle") or "")[:90],
+                "s": clip(a.get("subtitle") or "", 90),
                 "c": a["category"],
                 "v": latest["version"],
                 "t": latest["date"][:10],

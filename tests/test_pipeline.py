@@ -578,6 +578,20 @@ class WebStore(unittest.TestCase):
         self.assertEqual(store.fnv1a("a"), 0xE40C292C)
         self.assertLess(store.shard_of("com.example.app"), store.SHARDS)
 
+    def test_subtitles_are_cut_at_a_word(self):
+        import importlib.util
+
+        spec = importlib.util.spec_from_file_location(
+            "store_site", os.path.join(os.path.dirname(__file__), "..", "scripts", "site.py")
+        )
+        store = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(store)
+        self.assertEqual(store.clip("Short one", 90), "Short one")
+        long = "Control and manage a Commodore 64 from your phone"
+        self.assertEqual(store.clip(long, 30), "Control and manage a…")
+        self.assertLessEqual(len(store.clip("word " * 40, 90)), 90)
+        self.assertEqual(store.clip("Averyveryverylongsingleword", 10), "Averyvery…")
+
 
 class SitemapTest(unittest.TestCase):
     def load_site(self):
