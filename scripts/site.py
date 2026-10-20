@@ -172,9 +172,12 @@ ADS_CSP = (
 )
 # other sources' apps: no ads, so no outside scripts at all
 PLAIN_CSP = "script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"
-ADSENSE = (
+# AdSense accounts loaded on own pages (same list in site/social.js loadAds; each has a line in site/ads.txt)
+ADSENSE_CLIENTS = ("ca-pub-4500603236648893", "ca-pub-1352971207491342")
+ADSENSE = "\n".join(
     '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
-    '?client=ca-pub-4500603236648893" crossorigin="anonymous"></script>'
+    f'?client={client}" crossorigin="anonymous"></script>'
+    for client in ADSENSE_CLIENTS
 )
 CATEGORY_NAMES = {
     "games": "Games",

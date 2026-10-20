@@ -825,6 +825,15 @@ class AppPages(unittest.TestCase):
             self.assertNotIn('http-equiv="refresh"', page)
             self.assertIn('<p class="cert-line">Need a signing certificate?', page)
         self.assertIn("adsbygoogle", own)
+        root = os.path.join(os.path.dirname(__file__), "..", "site")
+        with open(os.path.join(root, "ads.txt"), encoding="utf-8") as f:
+            ads_txt = f.read()
+        with open(os.path.join(root, "social.js"), encoding="utf-8") as f:
+            social = f.read()
+        for client in store.ADSENSE_CLIENTS:  # every account loads on own pages and is declared
+            self.assertIn(f"?client={client}", own)
+            self.assertIn(f"google.com, {client.removeprefix('ca-')}, DIRECT", ads_txt)
+            self.assertIn(f'"{client}"', social)
         self.assertNotIn("adsbygoogle", other)
         self.assertNotIn("googlesyndication", other)  # its CSP allows no outside scripts either
         self.assertIn("offers", self.json_ld(own))
