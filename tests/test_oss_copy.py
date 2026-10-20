@@ -33,12 +33,13 @@ class OssCopy(unittest.TestCase):
         with mock.patch.dict(os.environ, FULL, clear=True):
             client, bucket = copy_builds_to_s3.oss_client()
         self.assertEqual(bucket, "example-builds")
-        self.assertEqual(client.meta.endpoint_url, "https://oss-ap-southeast-1.aliyuncs.com")
+        self.assertEqual(client.meta.endpoint_url, "https://s3.oss-ap-southeast-1.aliyuncs.com")
         link = client.generate_presigned_url(
             "head_object", Params={"Bucket": bucket, "Key": "a/b.ipa"}, ExpiresIn=60
         )
-        self.assertTrue(link.startswith("https://example-builds.oss-ap-southeast-1.aliyuncs.com/a/b.ipa?"))
-        self.assertIn("X-Amz-Algorithm=AWS4-HMAC-SHA256", link)
+        self.assertTrue(link.startswith("https://example-builds.s3.oss-ap-southeast-1.aliyuncs.com/a/b.ipa?"))
+        self.assertIn("Signature=", link)
+        self.assertIn("AWSAccessKeyId=FICTIONAL_KEY_ID", link)
 
 
 if __name__ == "__main__":

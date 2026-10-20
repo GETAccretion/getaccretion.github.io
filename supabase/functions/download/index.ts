@@ -22,7 +22,6 @@
 // if AWS is down, stopped or missing the file, the Supabase copy is served instead.
 import { createClient } from "npm:@supabase/supabase-js@2.117.2";
 import { getSignedUrl } from "npm:@aws-sdk/cloudfront-signer@3.1149.0";
-import { AwsClient } from "npm:aws4fetch@1.0.20";
 import { createHash } from "node:crypto";
 
 const admin = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!);
@@ -91,20 +90,30 @@ async function ociLink(path: string, name: string): Promise<string | null> {
 }
 
 // The fourth copy: an Alibaba Cloud OSS bucket (private) filled from S3 by copy_builds_to_s3.py,
-// served with a presigned S3-compatible (SigV4) link. Off until all four OSS_* secrets are set.
+// served with a presigned link on its S3-compatible endpoint (s3.oss-<region>.aliyuncs.com, signature
+// version 2, as Alibaba documents for S3 tools). Off until all four OSS_* secrets are set.
 const OSS_BUCKET = Deno.env.get("OSS_BUCKET") ?? "";
 const OSS_REGION = Deno.env.get("OSS_REGION") ?? ""; // e.g. ap-southeast-1
 const OSS_KEY_ID = Deno.env.get("OSS_KEY_ID") ?? "";
 const OSS_SECRET = Deno.env.get("OSS_SECRET") ?? "";
 
+// S3 query-string authentication (V2): Signature = base64(HMAC-SHA1(secret, "GET\n\n\n<expires>\n/<bucket>/<key>[?sub]")),
+// where a response-content-disposition override is part of the signed resource, unencoded
+async function v2Link(host: string, bucket: string, key: string, keyId: string, secret: string, expires: number, disposition = ""): Promise<string> {
+  const encodedKey = key.split("/").map(encodeURIComponent).join("/");
+  const resource = `/${bucket}/${encodedKey}` + (disposition ? `?response-content-disposition=${disposition}` : "");
+  const hmac = await crypto.subtle.importKey("raw", new TextEncoder().encode(secret), { name: "HMAC", hash: "SHA-1" }, false, ["sign"]);
+  const digest = new Uint8Array(await crypto.subtle.sign("HMAC", hmac, new TextEncoder().encode(`GET\n\n\n${expires}\n${resource}`)));
+  const signature = btoa(String.fromCharCode(...digest));
+  return `https://${host}/${encodedKey}?AWSAccessKeyId=${encodeURIComponent(keyId)}&Expires=${expires}&Signature=${encodeURIComponent(signature)}` +
+    (disposition ? `&response-content-disposition=${encodeURIComponent(disposition)}` : "");
+}
+
 async function ossLink(path: string, name: string): Promise<string | null> {
   if (!OSS_BUCKET || !OSS_REGION || !OSS_KEY_ID || !OSS_SECRET) return null;
   try {
-    const client = new AwsClient({ accessKeyId: OSS_KEY_ID, secretAccessKey: OSS_SECRET, service: "s3", region: OSS_REGION });
-    const url = new URL(`https://${OSS_BUCKET}.oss-${OSS_REGION}.aliyuncs.com/${path.split("/").map(encodeURIComponent).join("/")}`);
-    url.searchParams.set("response-content-disposition", `attachment; filename="${name}"`);
-    url.searchParams.set("X-Amz-Expires", String(LINK_SECONDS));
-    const link = (await client.sign(url.href, { method: "GET", aws: { signQuery: true } })).url;
+    const expires = Math.floor(Date.now() / 1000) + LINK_SECONDS;
+    const link = await v2Link(`${OSS_BUCKET}.s3.oss-${OSS_REGION}.aliyuncs.com`, OSS_BUCKET, path, OSS_KEY_ID, OSS_SECRET, expires, `attachment; filename="${name}"`);
     // a presigned GET can't answer HEAD, so the check asks for the first byte
     const check = await fetch(link, { headers: { Range: "bytes=0-0" }, signal: AbortSignal.timeout(4000) });
     await check.body?.cancel();
