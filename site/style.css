@@ -638,3 +638,19 @@ h1, .stats dd { background: linear-gradient(100deg, var(--fg) 30%, color-mix(in 
   .shelf-head a::after { inset: -12px -4px; }
   .bell::after { inset: -6px -4px; }
 }
+/* Loading placeholders: the shape of what's coming, in the raised colour, with a soft shimmer */
+.skel { background: var(--raised); border-radius: 8px; position: relative; overflow: hidden; }
+.skel-shelf { margin: 8px 0 22px; }
+.skel-title { width: 180px; height: 20px; margin-bottom: 12px; }
+.skel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+.skel-card { display: grid; grid-template-columns: 60px minmax(0, 1fr); gap: 13px; align-items: center; padding: 13px; border: 1px solid var(--line); border-radius: var(--radius); }
+.skel-icon { width: 60px; height: 60px; border-radius: 14px; }
+.skel-lines { display: grid; gap: 9px; }
+.skel-line { height: 12px; }
+.skel-shots { display: flex; gap: 10px; overflow: hidden; margin: 14px 0; }
+.skel-shot { flex: none; width: 166px; height: 360px; border-radius: 14px; }
+@media (max-width: 640px) { .skel-shot { width: 138px; height: 300px; } }
+@media (prefers-reduced-motion: no-preference) {
+  .skel::after { content: ""; position: absolute; inset: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--fg) 7%, transparent), transparent); animation: shimmer 1.4s infinite; }
+}
+@keyframes shimmer { to { transform: translateX(100%); } }

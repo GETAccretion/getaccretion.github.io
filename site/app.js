@@ -1041,6 +1041,25 @@
   const shareUrl = (bid) => new URL(`app/${bid}/`, location.href.split("#")[0]).href;
   const desktop = () => window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 
+  // Loading placeholders: the shape of what's coming, with a soft shimmer (style.css .skel)
+  const skelLines = (...widths) => h("div", { class: "skel-lines" }, widths.map((w) => h("div", { class: "skel skel-line", style: `width:${w}` })));
+  function detailSkeleton() {
+    return h(
+      "div",
+      { class: "skel-detail" },
+      h("p", { class: "sr" }, "Loading details…"),
+      h("div", { class: "skel-shots", "aria-hidden": "true" }, h("div", { class: "skel skel-shot" }), h("div", { class: "skel skel-shot" }), h("div", { class: "skel skel-shot" })),
+      h("div", { "aria-hidden": "true" }, skelLines("100%", "92%", "60%")),
+    );
+  }
+  function shelvesSkeleton() {
+    const row = () => h("div", { class: "skel-card" }, h("div", { class: "skel skel-icon" }), skelLines("70%", "45%"));
+    const one = () => h("section", { class: "skel-shelf", "aria-hidden": "true" }, h("div", { class: "skel skel-title" }), h("div", { class: "skel-grid" }, row(), row(), row(), row()));
+    const box = $("shelves");
+    box.setAttribute("aria-busy", "true");
+    box.replaceChildren(one(), one());
+  }
+
   async function openApp(bid) {
     const a = state.byId.get(bid);
     const view = $("detail");
@@ -1073,7 +1092,7 @@
     if (state.from === "search") track("search", a.i);
     state.from = null;
     track("view", a.i);
-    view.replaceChildren(back, head(a, null), h("p", { class: "muted" }, "Loading details…"));
+    view.replaceChildren(back, head(a, null), detailSkeleton());
     const d = await details(bid);
     if (parse().bid !== bid) return;
     const social = h("div", { id: "social-app" }); // like + rating, under the header
@@ -1347,6 +1366,7 @@
   window.Acc = { h, toast, copy, fmt, ago, icon, safeUrl, shelf, homeHash, CATEGORY_NAMES, growthChart, app: (id) => state.byId.get(id), apps: () => state.apps, route, setTrending, adRoute };
 
   // ---- boot -------------------------------------------------------------------------------
+  shelvesSkeleton();
   Promise.all([
     fetch("data/store.json").then((r) => r.json()),
     fetch("data/stats.json").then((r) => r.json()).catch(() => ({})),
@@ -1373,10 +1393,14 @@
       }
       buildChips();
       updateSavedCount();
+      $("shelves").removeAttribute("aria-busy");
+      $("shelves").replaceChildren();
       document.dispatchEvent(new CustomEvent("acc:ready"));
       route();
     })
     .catch(() => {
+      $("shelves").removeAttribute("aria-busy");
+      $("shelves").replaceChildren();
       $("count").textContent = "Couldn't load the app list. Refresh to try again.";
     });
 })();
