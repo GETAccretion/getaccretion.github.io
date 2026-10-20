@@ -68,10 +68,11 @@ def publish(profile, *, repo, cwd=None, runner=subprocess.run, timeout=2400, pol
             raise RuntimeError(f"Validation timed out; retained {branch}")
         time.sleep(min(poll, remaining))
 
-    for workflow in PROFILES[profile]:
-        gh("workflow", "run", workflow, "--ref", branch)
+    # One workflow at a time: when macOS runners are scarce, a second Mac job queued alongside
+    # the first is cancelled unstarted, so each run is dispatched only after the previous passed.
     runs = {}
     for workflow in PROFILES[profile]:
+        gh("workflow", "run", workflow, "--ref", branch)
         while True:
             listed = json.loads(
                 gh(
@@ -98,8 +99,6 @@ def publish(profile, *, repo, cwd=None, runner=subprocess.run, timeout=2400, pol
                 runs[workflow] = identifier
                 break
             wait()
-
-    for workflow, identifier in runs.items():
         while True:
             run = json.loads(
                 gh(

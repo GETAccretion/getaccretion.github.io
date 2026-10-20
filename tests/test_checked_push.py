@@ -44,6 +44,7 @@ class CheckedPush(unittest.TestCase):
         self.git("commit", "-m", "Generated")
         self.sha = self.git("rev-parse", "HEAD").strip()
         self.dispatched = []
+        self.calls = []
         self.failure = False
         self.bad_sha = False
         self.race = False
@@ -80,6 +81,7 @@ class CheckedPush(unittest.TestCase):
             return subprocess.run(args, **kwargs)
         self.assertEqual(args[0], "gh")
         if args[1:3] == ["workflow", "run"]:
+            self.calls.append(("dispatch", args[3]))
             self.dispatched.append((args[3], args[args.index("--ref") + 1]))
             data = ""
         elif args[1:3] == ["run", "list"]:
@@ -89,6 +91,7 @@ class CheckedPush(unittest.TestCase):
         elif args[1:3] == ["run", "view"]:
             identifier = int(args[3])
             workflow, branch = self.dispatched[identifier - 1]
+            self.calls.append(("view", workflow))
             required = self.module.PROFILES[self.profile][workflow]
             if self.missing_job:
                 required = set()
@@ -216,6 +219,18 @@ class CheckedPush(unittest.TestCase):
                 "core": "https://github.com/Example/project/actions/runs/2",
                 "scripts": "https://github.com/Example/project/actions/runs/2",
             },
+        )
+
+    def test_app_workflows_run_one_after_another(self):
+        self.publish("app")
+        self.assertEqual(
+            self.calls,
+            [
+                ("dispatch", "release.yml"),
+                ("view", "release.yml"),
+                ("dispatch", "tests.yml"),
+                ("view", "tests.yml"),
+            ],
         )
 
     def test_mods_validates_its_ci_workflow(self):
