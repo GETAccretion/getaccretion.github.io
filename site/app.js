@@ -1041,6 +1041,25 @@
   const shareUrl = (bid) => new URL(`app/${bid}/`, location.href.split("#")[0]).href;
   const desktop = () => window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 
+  // Loading placeholders: the shape of what's coming, with a soft shimmer (style.css .skel)
+  const skelLines = (...widths) => h("div", { class: "skel-lines" }, widths.map((w) => h("div", { class: "skel skel-line", style: `width:${w}` })));
+  function detailSkeleton() {
+    return h(
+      "div",
+      { class: "skel-detail" },
+      h("p", { class: "sr" }, "Loading details…"),
+      h("div", { class: "skel-shots", "aria-hidden": "true" }, h("div", { class: "skel skel-shot" }), h("div", { class: "skel skel-shot" }), h("div", { class: "skel skel-shot" })),
+      h("div", { "aria-hidden": "true" }, skelLines("100%", "92%", "60%")),
+    );
+  }
+  function shelvesSkeleton() {
+    const row = () => h("div", { class: "skel-card" }, h("div", { class: "skel skel-icon" }), skelLines("70%", "45%"));
+    const one = () => h("section", { class: "skel-shelf", "aria-hidden": "true" }, h("div", { class: "skel skel-title" }), h("div", { class: "skel-grid" }, row(), row(), row(), row()));
+    const box = $("shelves");
+    box.setAttribute("aria-busy", "true");
+    box.replaceChildren(one(), one());
+  }
+
   async function openApp(bid) {
     const a = state.byId.get(bid);
     const view = $("detail");
@@ -1073,7 +1092,7 @@
     if (state.from === "search") track("search", a.i);
     state.from = null;
     track("view", a.i);
-    view.replaceChildren(back, head(a, null), h("p", { class: "muted" }, "Loading details…"));
+    view.replaceChildren(back, head(a, null), detailSkeleton());
     const d = await details(bid);
     if (parse().bid !== bid) return;
     const social = h("div", { id: "social-app" }); // like + rating, under the header
@@ -1312,7 +1331,47 @@
   if ("IntersectionObserver" in window) {
     new IntersectionObserver((entries) => entries.some((x) => x.isIntersecting) && !$("more").hidden && showMore(), { rootMargin: "800px" }).observe($("more"));
   }
-  window.addEventListener("hashchange", route);
+  // Page changes cross-fade and an app's icon grows into its page, and back (browsers with View
+  // Transitions, not with Reduce Motion). The icon a visitor clicked is remembered on click.
+  let shown = null;
+  let clickedIcon = null;
+  document.addEventListener("click", (e) => {
+    const link = e.target.closest && e.target.closest('a[href^="#/app/"]');
+    clickedIcon = link ? link.querySelector("img, .icon") : null;
+  }, true);
+  function navigate() {
+    const to = parse();
+    const from = shown;
+    shown = to;
+    if (!from || !document.startViewTransition || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return route();
+    const named = [];
+    const name = (el) => { if (el) { el.style.viewTransitionName = "app-icon"; named.push(el); } };
+    const opening = to.view === "app" && from.view !== "app";
+    const closing = from.view === "app" && to.view !== "app";
+    const source = opening ? (clickedIcon && clickedIcon.isConnected ? clickedIcon : null) : closing ? $("detail").querySelector(".d-icon") : null;
+    clickedIcon = null;
+    name(source);
+    const t = document.startViewTransition(() => {
+      for (const el of named.splice(0)) el.style.viewTransitionName = "";
+      route(); // not awaited: an app page's details keep loading after the transition
+      if (!source) return;
+      if (opening) return name($("detail").querySelector(".d-icon"));
+      const link = `#home a[href="#/app/${encodeURIComponent(from.bid)}"]`;
+      name(document.querySelector(`${link} img, ${link} .icon`));
+    });
+    t.finished.finally(() => { for (const el of named) el.style.viewTransitionName = ""; });
+  }
+  window.addEventListener("hashchange", navigate);
+  // Likes, Save and other toggles pop when switched on (style.css .pop)
+  new MutationObserver((changes) => {
+    for (const c of changes) {
+      const el = c.target;
+      if (el.getAttribute("aria-pressed") !== "true" || c.oldValue === "true") continue;
+      el.classList.remove("pop");
+      void el.offsetWidth; // restart the animation
+      el.classList.add("pop");
+    }
+  }).observe(document.body, { subtree: true, attributes: true, attributeFilter: ["aria-pressed"], attributeOldValue: true });
   if ("serviceWorker" in navigator && location.protocol === "https:") {
     navigator.serviceWorker.register("sw.js").catch(() => {});
   }
@@ -1347,6 +1406,17 @@
   window.Acc = { h, toast, copy, fmt, ago, icon, safeUrl, shelf, homeHash, CATEGORY_NAMES, growthChart, app: (id) => state.byId.get(id), apps: () => state.apps, route, setTrending, adRoute };
 
   // ---- boot -------------------------------------------------------------------------------
+  // The hero logo plays the app's launch animation once per visitor (style.css .hero-mark.pull)
+  const mark = document.querySelector(".hero-mark");
+  if (mark) {
+    let seen = false;
+    try {
+      seen = localStorage.getItem("acc.markSeen") === "1";
+      localStorage.setItem("acc.markSeen", "1");
+    } catch {}
+    if (!seen) mark.classList.add("pull");
+  }
+  shelvesSkeleton();
   Promise.all([
     fetch("data/store.json").then((r) => r.json()),
     fetch("data/stats.json").then((r) => r.json()).catch(() => ({})),
@@ -1373,10 +1443,15 @@
       }
       buildChips();
       updateSavedCount();
+      $("shelves").removeAttribute("aria-busy");
+      $("shelves").replaceChildren();
       document.dispatchEvent(new CustomEvent("acc:ready"));
       route();
+      shown = parse();
     })
     .catch(() => {
+      $("shelves").removeAttribute("aria-busy");
+      $("shelves").replaceChildren();
       $("count").textContent = "Couldn't load the app list. Refresh to try again.";
     });
 })();
