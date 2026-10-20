@@ -105,7 +105,9 @@ def oss_link(p, name):
 def first_byte(url):
     """(HTTP status, OSS error code) of a GET for the first byte; (0, "?") when unreachable"""
     try:
-        request = urllib.request.Request(url, headers={"Range": "bytes=0-0"})
+        # Cloudflare (in front of oss.getaccretion.app) blocks Python's default user agent
+        headers = {"Range": "bytes=0-0", "User-Agent": "AccretionHealth/1.0 (+https://getaccretion.app)"}
+        request = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(request, timeout=15) as r:
             return r.status, ""
     except urllib.error.HTTPError as e:
