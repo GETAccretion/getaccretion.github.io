@@ -107,6 +107,10 @@ jobs:
           BUILDS_AWS_KEY_ID: ${{ secrets.BUILDS_AWS_KEY_ID }}
           BUILDS_AWS_SECRET: ${{ secrets.BUILDS_AWS_SECRET }}
           PRUNE_SUPABASE: ${{ inputs.prune_supabase }}
+          OSS_BUCKET: ${{ vars.OSS_BUCKET }}
+          OSS_REGION: ${{ vars.OSS_REGION }}
+          OSS_KEY_ID: ${{ secrets.OSS_KEY_ID }}
+          OSS_SECRET: ${{ secrets.OSS_SECRET }}
         run: |
           pip install "boto3==1.43.111"
           python scripts/copy_builds_to_s3.py
@@ -124,6 +128,10 @@ jobs:
           CDN_PRIVATE_KEY: ${{ secrets.CDN_PRIVATE_KEY }}
           OCI_BUILDS_HOST: ${{ vars.OCI_BUILDS_HOST }}
           OCI_LINK_SECRET: ${{ secrets.OCI_LINK_SECRET }}
+          OSS_BUCKET: ${{ vars.OSS_BUCKET }}
+          OSS_REGION: ${{ vars.OSS_REGION }}
+          OSS_KEY_ID: ${{ secrets.OSS_KEY_ID }}
+          OSS_SECRET: ${{ secrets.OSS_SECRET }}
           DOWNLOAD_PROXY_KEY: ${{ secrets.DOWNLOAD_PROXY_KEY }}
           DOWNLOAD_PROXY_ORIGIN: ${{ vars.DOWNLOAD_PROXY_ORIGIN }}
         run: |
@@ -142,6 +150,10 @@ jobs:
           if [ -n "$OCI_BUILDS_HOST" ] && [ -n "$OCI_LINK_SECRET" ]; then
             # the third download copy (Oracle Cloud server, handbook infra/)
             npx --yes supabase@2.120.0 secrets set --project-ref "$ref"               OCI_BUILDS_HOST="$OCI_BUILDS_HOST" OCI_LINK_SECRET="$OCI_LINK_SECRET"
+          fi
+          if [ -n "$OSS_BUCKET" ] && [ -n "$OSS_REGION" ] && [ -n "$OSS_KEY_ID" ] && [ -n "$OSS_SECRET" ]; then
+            # the fourth download copy (Alibaba Cloud OSS, filled from S3 by copy_builds_to_s3.py)
+            npx --yes supabase@2.120.0 secrets set --project-ref "$ref"               OSS_BUCKET="$OSS_BUCKET" OSS_REGION="$OSS_REGION" OSS_KEY_ID="$OSS_KEY_ID" OSS_SECRET="$OSS_SECRET"
           fi
           if [ -n "$DOWNLOAD_PROXY_KEY" ] && [ -n "$DOWNLOAD_PROXY_ORIGIN" ]; then
             # other sources' apps go through the download proxy (workers/download-proxy)
