@@ -174,8 +174,8 @@
     if (cfg.ezoic === "1" && window.AccretionEzoic) return ezoicView(adFree);
     if (location.hostname !== "getaccretion.app" || document.getElementById("adsbygoogle-js")) return;
     if (adFree || !A.adRoute()) return;
-    // two AdSense accounts (owner's call, 2026-10-19); same list in scripts/site.py ADSENSE_CLIENTS
-    ["ca-pub-4500603236648893", "ca-pub-1352971207491342"].forEach((client, i) => {
+    // AdSense account(s): same list in scripts/site.py ADSENSE_CLIENTS (one since 2026-10-19, owner's call)
+    ["ca-pub-1352971207491342"].forEach((client, i) => {
       const s = document.createElement("script");
       s.id = i ? `adsbygoogle-js-${i + 1}` : "adsbygoogle-js";
       s.async = true;
