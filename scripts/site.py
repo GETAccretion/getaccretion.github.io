@@ -739,6 +739,7 @@ def main():
             s["mod"] = True
     carriers = info.get("carriers", {})
     undated = set(info.get("undated", []))
+    opened = set(info.get("opened", []))
     picks = set(read_list("popular.txt"))
     stats = load_json("stats.json", {})
     extras = load_json("_build/ai_extras.json", {})  # features and tags from ai/listings.json
@@ -786,6 +787,8 @@ def main():
             rows[-1]["p"] = pop
         if bid in undated:
             rows[-1]["u"] = 1  # release date unknown
+        if bid in opened:
+            rows[-1]["fo"] = 1  # listed since the store opened; how old it is isn't known
         shards[shard_of(bid)].append(
             {
                 "i": bid,

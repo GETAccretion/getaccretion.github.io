@@ -29,7 +29,17 @@ from concurrent.futures import ThreadPoolExecutor
 import sanitize
 from card import render_cards
 from check_links import check_many, dead_after
-from common import date_key, fetch_source, is_blocked, load_json, path, read_list, today, version_key
+from common import (
+    date_key,
+    fetch_source,
+    is_blocked,
+    load_json,
+    path,
+    plausible_day,
+    read_list,
+    today,
+    version_key,
+)
 from sanitize import clean_app, clean_news, skip_reason, validate
 
 OWNER = "GETAccretion"
@@ -243,7 +253,14 @@ def pick(loaded, dead, gone=None, icons=None):
             listings.setdefault(bid, set()).add(url)
             if icons is not None:
                 icons.setdefault(bid, []).append(app["iconURL"])
-            dates = [d for d in (date_key(v.get("date")) for v in versions) if d]
+            # the cleaned versions' dates: placeholders (2000-01-01) are repaired or left out, and
+            # a link dated only by the day Accretion saw it says nothing about the app's age
+            dates = [
+                date_key(v["date"])
+                for v in app["versions"]
+                if v["downloadURL"] not in sanitize.UNDATED and plausible_day(v["date"])
+            ]
+            dates = [d for d in dates if d]
             if dates:
                 firsts[bid] = min(firsts.get(bid, dates[0]), *dates)
             r = rank(app, priority)
@@ -344,8 +361,12 @@ def main():
     ok = sum(1 for s in stats if not s["status"].startswith("failed"))
     now = dt.datetime.now(dt.timezone.utc)
     numbers = metrics(now, stats, best, listings, sizes, cur_best, len(found), len(dead), held)
-    numbers.update(timeline(now, {b: firsts[b] for b in best if b in firsts}))
-    write_build_info(stats, best, firsts, set(manual), listings, gone, undated)
+    listed = first_listed(best, load_json("first_seen.json", {}))
+    with open(path("first_seen.json"), "w") as f:
+        json.dump(listed, f, indent=1)
+    firsts, opened = first_dates(firsts, listed)
+    numbers.update(timeline(now, {b: firsts[b] for b in best if b in firsts and b not in opened}))
+    write_build_info(stats, best, firsts, set(manual), listings, gone, undated, opened)
     with open(path("stats.json"), "w") as f:
         json.dump(numbers, f, indent=1, ensure_ascii=False)
     history = update_history(numbers)
@@ -408,7 +429,33 @@ def metrics(now, stats, best, listings, sizes, cur_best, discovered, dead, held)
     }
 
 
-def write_build_info(stats, best, firsts, manual=frozenset(), listings=None, gone=None, undated=()):
+STORE_OPENED = "2026-10-10"  # the store's first build; first_seen.json starts here
+
+
+def first_listed(best, seen, day=None):
+    """Bundle ID -> the day the store first listed it (first_seen.json). Apps that leave the
+    store keep their day, so one that comes back isn't shown as new."""
+    day = day or today().isoformat()
+    return dict(sorted({**dict.fromkeys(best, day), **seen}.items()))
+
+
+def first_dates(firsts, listed):
+    """Each app's first-seen day: its oldest real release date or the day the store first listed
+    it, whichever is earlier. Also returns the apps known only from the store's first build:
+    nothing tells how old they are, so they are not counted or shown as new."""
+    out, opened = {}, set()
+    for bid in set(firsts) | set(listed):
+        release, seen = (firsts.get(bid) or "")[:10], (listed.get(bid) or "")[:10]
+        out[bid] = min(d for d in (release, seen) if d)
+        if seen == STORE_OPENED and not (release and release < STORE_OPENED):
+            out[bid] = STORE_OPENED
+            opened.add(bid)
+    return out, opened
+
+
+def write_build_info(
+    stats, best, firsts, manual=frozenset(), listings=None, gone=None, undated=(), opened=()
+):
     """Where each app came from, when it first appeared and how many sources carry it, for the
     website (not committed). Source maintainers add what their users ask for, so an app carried
     by many independent sources is one people want."""
@@ -426,6 +473,7 @@ def write_build_info(stats, best, firsts, manual=frozenset(), listings=None, gon
         },
         "gone": gone or {},
         "undated": sorted(undated),  # release date unknown: not shown as new or fresh
+        "opened": sorted(b for b in opened if b in best),  # listed since the store opened
     }
     os.makedirs(path("_build"), exist_ok=True)
     with open(path("_build/origins.json"), "w") as f:

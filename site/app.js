@@ -108,7 +108,8 @@
   let saved = store.get("acc.saved", {});          // bundle id -> version when saved
   const lastVisit = store.get("acc.visit", null);  // YYYY-MM-DD of the previous visit
   store.set("acc.visit", new Date().toISOString().slice(0, 10));
-  const isNew = (a) => !a.u && Date.now() - dayMs(a.f) < 30 * DAY;
+  // fo: listed since the store opened, with no older release date, so its age is unknown
+  const isNew = (a) => !a.u && !a.fo && Date.now() - dayMs(a.f) < 30 * DAY;
   // apps whose source gives no real release date sort as oldest and never count as fresh
   const when = (a) => (a.u ? "" : a.t);
   const since = (a) => (a.u ? "date unknown" : ago(a.t));
@@ -305,7 +306,10 @@
     );
     const by = {
       updated: (a, b) => (when(a) < when(b) ? 1 : when(a) > when(b) ? -1 : a.n.localeCompare(b.n)),
-      new: (a, b) => (a.f < b.f ? 1 : a.f > b.f ? -1 : a.n.localeCompare(b.n)),
+      new: (a, b) => {
+        const fa = a.fo ? "" : a.f, fb = b.fo ? "" : b.f; // unknown age sorts last
+        return fa < fb ? 1 : fa > fb ? -1 : a.n.localeCompare(b.n);
+      },
       name: (a, b) => a.n.localeCompare(b.n, undefined, { sensitivity: "base" }),
       size: (a, b) => (b.z || 0) - (a.z || 0),
       popular: (a, b) => popScore(b) - popScore(a) || (a.t < b.t ? 1 : -1),
@@ -1267,7 +1271,7 @@
           { class: "facts" },
           fact("Bundle ID", a.i),
           fact("Listed by", src ? h("a", { href: homeHash({ q: "", c: "all", s: "updated", src: a.o, fit: state.f.fit, saved: false }) }, src.name) : "–"),
-          fact("First seen", a.f),
+          fact("First seen", a.fo ? `Since the store opened (${a.f})` : a.f),
         ),
         isMod(a)
           ? h("p", { class: "muted small" }, modBadge(), " Built by Accretion from a free or open-source app. Unsigned: sign it with your own tool. Source and build scripts: ", h("a", { href: "https://github.com/AccretionMods/mods", rel: "noopener" }, "AccretionMods/mods"), ".")

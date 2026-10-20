@@ -464,6 +464,38 @@ class Growth(unittest.TestCase):
         _, _, _, _, firsts = merge.pick(loaded, frozenset())
         self.assertEqual(firsts["com.example.app"][:10], "2021-05-01")
 
+    def test_placeholder_dates_are_not_first_dates(self):
+        real = app(version="2.0", date="2025-05-01")
+        fake = app(version="1.0", date="2000-01-01", url="https://example.com/no-stamp-1.0.ipa")
+        only_fake = app(bid="com.example.other", date="2000-01-01", url="https://example.com/other.ipa")
+        loaded = [("https://a/x.json", {"name": "A", "apps": [real, fake, only_fake]}, "ok", 0)]
+        _, _, _, _, firsts = merge.pick(loaded, frozenset())
+        self.assertEqual(firsts["com.example.app"][:10], "2025-05-01")
+        self.assertNotIn("com.example.other", firsts)
+
+    def test_first_listed_keeps_known_days(self):
+        best = {"a": None, "b": None}
+        out = merge.first_listed(best, {"a": "2026-10-12", "gone": "2026-10-11"}, day="2026-10-20")
+        self.assertEqual(out, {"a": "2026-10-12", "b": "2026-10-20", "gone": "2026-10-11"})
+
+    def test_first_dates(self):
+        opened = merge.STORE_OPENED
+        firsts = {"old": "2021-05-01T00:00", "fresh": "2026-10-19T00:00", "relisted": "2026-10-15"}
+        listed = {
+            "old": opened,
+            "fresh": "2026-10-18",
+            "relisted": opened,
+            "bare": opened,
+            "late": "2026-10-16",
+        }
+        out, unknown = merge.first_dates(firsts, listed)
+        self.assertEqual(out["old"], "2021-05-01")  # a real release date older than the store
+        self.assertEqual(out["fresh"], "2026-10-18")  # listed before its oldest listed version
+        self.assertEqual(out["late"], "2026-10-16")  # source lists only the newest version
+        self.assertEqual(out["relisted"], opened)
+        self.assertEqual(out["bare"], opened)
+        self.assertEqual(unknown, {"relisted", "bare"})  # age unknown: not shown as new
+
 
 class Cards(unittest.TestCase):
     def test_cards_are_valid_svg(self):
