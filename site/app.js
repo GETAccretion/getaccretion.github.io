@@ -1331,7 +1331,37 @@
   if ("IntersectionObserver" in window) {
     new IntersectionObserver((entries) => entries.some((x) => x.isIntersecting) && !$("more").hidden && showMore(), { rootMargin: "800px" }).observe($("more"));
   }
-  window.addEventListener("hashchange", route);
+  // Page changes cross-fade and an app's icon grows into its page, and back (browsers with View
+  // Transitions, not with Reduce Motion). The icon a visitor clicked is remembered on click.
+  let shown = null;
+  let clickedIcon = null;
+  document.addEventListener("click", (e) => {
+    const link = e.target.closest && e.target.closest('a[href^="#/app/"]');
+    clickedIcon = link ? link.querySelector("img, .icon") : null;
+  }, true);
+  function navigate() {
+    const to = parse();
+    const from = shown;
+    shown = to;
+    if (!from || !document.startViewTransition || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return route();
+    const named = [];
+    const name = (el) => { if (el) { el.style.viewTransitionName = "app-icon"; named.push(el); } };
+    const opening = to.view === "app" && from.view !== "app";
+    const closing = from.view === "app" && to.view !== "app";
+    const source = opening ? (clickedIcon && clickedIcon.isConnected ? clickedIcon : null) : closing ? $("detail").querySelector(".d-icon") : null;
+    clickedIcon = null;
+    name(source);
+    const t = document.startViewTransition(() => {
+      for (const el of named.splice(0)) el.style.viewTransitionName = "";
+      route(); // not awaited: an app page's details keep loading after the transition
+      if (!source) return;
+      if (opening) return name($("detail").querySelector(".d-icon"));
+      const link = `#home a[href="#/app/${encodeURIComponent(from.bid)}"]`;
+      name(document.querySelector(`${link} img, ${link} .icon`));
+    });
+    t.finished.finally(() => { for (const el of named) el.style.viewTransitionName = ""; });
+  }
+  window.addEventListener("hashchange", navigate);
   if ("serviceWorker" in navigator && location.protocol === "https:") {
     navigator.serviceWorker.register("sw.js").catch(() => {});
   }
@@ -1397,6 +1427,7 @@
       $("shelves").replaceChildren();
       document.dispatchEvent(new CustomEvent("acc:ready"));
       route();
+      shown = parse();
     })
     .catch(() => {
       $("shelves").removeAttribute("aria-busy");
