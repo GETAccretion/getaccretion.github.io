@@ -367,8 +367,9 @@ h1, .stats dd { background: linear-gradient(100deg, var(--fg) 30%, color-mix(in 
 
 .community-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
 .rate { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-.stars { display: flex; gap: 2px; }
-.star { background: none; border: 0; padding: 2px; font-size: 24px; line-height: 1; color: var(--line-strong); cursor: pointer; }
+.stars { display: flex; gap: 0; }
+/* 40x44 tap area per star (same 24px glyph) so a thumb doesn't hit the neighbour */
+.star { background: none; border: 0; padding: 0; min-width: 40px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; font-size: 24px; line-height: 1; color: var(--line-strong); cursor: pointer; }
 .star.on { color: var(--star); }
 .star:hover, .star:focus-visible { color: var(--star); }
 

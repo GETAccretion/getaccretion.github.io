@@ -161,12 +161,26 @@
     const p = new URLSearchParams();
     if (f.q) p.set("q", f.q);
     if (f.c && f.c !== "all") p.set("c", f.c);
-    if (f.s && f.s !== "updated") p.set("s", f.s);
+    if (f.s && f.s !== "updated" && !(f.s === "recent" && !f.q)) p.set("s", f.s);
     if (f.src !== null && f.src !== undefined) p.set("src", f.src);
     if (deviceIOS && !f.fit) p.set("fit", "0");
     if (f.l) p.set("l", "1");
     const qs = p.toString();
     return `#${f.saved ? "/saved" : "/"}${qs ? `?${qs}` : ""}`;
+  }
+  // The sort menu: "Best match" exists only while searching (iOS ignores hidden options)
+  function syncSort(f) {
+    const sel = $("sort");
+    let match = sel.querySelector('option[value="match"]');
+    if (f.q && !match) {
+      match = document.createElement("option");
+      match.value = "match";
+      match.textContent = "Best match";
+      sel.prepend(match);
+    } else if (!f.q && match) {
+      match.remove();
+    }
+    sel.value = f.q ? (f.s === "updated" ? "match" : f.s === "recent" ? "updated" : f.s) : f.s === "recent" ? "updated" : f.s;
   }
   function go(partial, { replace = false } = {}) {
     const next = homeHash({ ...state.f, ...partial });
@@ -195,6 +209,8 @@
     $("status").hidden = r.view !== "status";
     $("sign").hidden = r.view !== "sign";
     $("social").hidden = r.view !== "social";
+    // the search text belongs to the results; Back brings it back from the address
+    if (r.view !== "home" && document.activeElement !== $("q")) $("q").value = "";
     if (r.view === "social") {
       window.scrollTo(0, 0);
       document.dispatchEvent(new CustomEvent("acc:route", { detail: r }));
@@ -226,7 +242,7 @@
     const leavingHome = changed && state.f.view === "home" && defaultView(state.f) && !defaultView(r) && !r.q;
     state.f = r;
     if ($("q").value !== r.q && document.activeElement !== $("q")) $("q").value = r.q;
-    $("sort").value = r.s;
+    syncSort(r);
     if (changed || !state.list.length) apply();
     if (leavingHome && state.scroll === undefined) window.scrollTo(0, 0);
     if (state.scroll !== undefined) {
@@ -291,7 +307,7 @@
 
   // ---- home: shelves + grid -----------------------------------------------------
   const defaultView = (f) => !f.q && f.c === "all" && f.src === null && !f.saved && !f.l;
-  const LIST_TITLES = { popular: "Most popular", updated: "Recently updated", new: "Newest apps", name: "All apps A–Z", size: "Largest apps" };
+  const LIST_TITLES = { popular: "Most popular", updated: "Recently updated", recent: "Recently updated", new: "Newest apps", name: "All apps A–Z", size: "Largest apps" };
 
   function apply() {
     const f = state.f;
@@ -304,8 +320,10 @@
         (!f.fit || fits(a)) &&
         words.every((w) => a._s.includes(w)),
     );
+    const byDate = (a, b) => (when(a) < when(b) ? 1 : when(a) > when(b) ? -1 : a.n.localeCompare(b.n));
     const by = {
-      updated: (a, b) => (when(a) < when(b) ? 1 : when(a) > when(b) ? -1 : a.n.localeCompare(b.n)),
+      updated: byDate,
+      recent: byDate, // "Recently updated" picked during a search (updated is then Best match)
       new: (a, b) => {
         const fa = a.fo ? "" : a.f, fb = b.fo ? "" : b.f; // unknown age sorts last
         return fa < fb ? 1 : fa > fb ? -1 : a.n.localeCompare(b.n);
@@ -316,7 +334,8 @@
     }[f.s] || ((a, b) => (a.t < b.t ? 1 : -1));
     if (f.saved) {
       list.sort((a, b) => hasUpdate(b) - hasUpdate(a) || by(a, b));
-    } else if (words.length) {
+    } else if (words.length && f.s === "updated") {
+      // Best match, the default while searching; any sort picked in the menu wins
       const rank = (a) => (a.n.toLowerCase().startsWith(words[0]) ? 0 : a.n.toLowerCase().includes(words[0]) ? 1 : 2);
       list.sort((a, b) => rank(a) - rank(b) || popScore(b) - popScore(a) || by(a, b));
     } else {
@@ -340,7 +359,16 @@
             : f.l
               ? LIST_TITLES[f.s] || "All apps"
               : "All apps";
-    for (const el of $("cats").children) el.setAttribute("aria-selected", String(el.dataset.cat === f.c));
+    // chip counts: matches for the search, or the whole store without one
+    const counts = { all: 0 };
+    for (const a of words.length ? state.apps.filter((a) => words.every((w) => a._s.includes(w))) : state.apps) {
+      counts.all++;
+      counts[a.c] = (counts[a.c] || 0) + 1;
+    }
+    for (const el of $("cats").children) {
+      el.setAttribute("aria-selected", String(el.dataset.cat === f.c));
+      el.lastChild.textContent = fmt(counts[el.dataset.cat] || 0);
+    }
     renderFit();
     renderGrid();
   }
@@ -459,8 +487,17 @@
     const box = $("shelves");
     if (!show) return box.replaceChildren();
     const pool = state.apps.filter((a) => !state.f.fit || fits(a));
-    const byUpdated = [...pool].sort((a, b) => (when(a) < when(b) ? 1 : -1));
-    const byNew = [...pool].sort((a, b) => (a.f < b.f ? 1 : -1)).filter(isNew);
+    // dates are whole days: same-day apps go by popularity, then name
+    const tie = (a, b) => popScore(b) - popScore(a) || a.n.localeCompare(b.n);
+    const byUpdated = [...pool].sort((a, b) => (when(a) < when(b) ? 1 : when(a) > when(b) ? -1 : tie(a, b)));
+    const byNew = [...pool].filter(isNew).sort((a, b) => (a.f < b.f ? 1 : a.f > b.f ? -1 : tie(a, b)));
+    // one app per name family on a shelf ("X (Patched - A)", "X (Patched - B)", "X+" show once)
+    const family = (a) => a.n.toLowerCase().replace(/\([^)]*\)|\[[^\]]*\]/g, "").replace(/[^a-z0-9]/g, "") || a.i;
+    const varied = (list) => {
+      const seen = new Set();
+      return list.filter((a) => !seen.has(family(a)) && seen.add(family(a)));
+    };
+    const top = (list) => varied(list).slice(0, SHELF);
     const core = byUpdated.filter((a) => (state.sources[a.o] || {}).core);
     const mods = byUpdated.filter(isMod);
     const modSrc = state.sources.findIndex((s) => s.mod);
@@ -478,12 +515,12 @@
         })(),
         shelf("Made by Accretion", "our own mods", mods.slice(0, SHELF), mods.length > SHELF ? homeHash({ ...state.f, src: modSrc, s: "updated", l: true }) : null),
         shelf("Updates for your saved apps", `${savedUpd.length}`, savedUpd.slice(0, SHELF), "#/saved"),
-        shelf("Fresh today", `${fmt(fresh.length)} updated`, fresh.slice(0, SHELF), homeHash({ ...state.f, s: "updated", l: true })),
-        shelf("New this month", `${fmt(byNew.length)} apps`, byNew.slice(0, SHELF), homeHash({ ...state.f, s: "new", l: true })),
-        shelf("From Accretion Core", "hand-picked sources", core.slice(0, SHELF), null),
-        shelf("Games", "just updated", byUpdated.filter((a) => a.c === "games").slice(0, SHELF), homeHash({ ...state.f, c: "games" })),
+        shelf("Fresh today", `${fmt(fresh.length)} updated`, top(fresh), homeHash({ ...state.f, s: "updated", l: true })),
+        shelf("New this month", `${fmt(byNew.length)} apps`, top(byNew), homeHash({ ...state.f, s: "new", l: true })),
+        shelf("From Accretion Core", "hand-picked sources", top(core), null),
+        shelf("Games", "just updated", top(byUpdated.filter((a) => a.c === "games")), homeHash({ ...state.f, c: "games" })),
         socialShelves,
-        shelf("Utilities", "just updated", byUpdated.filter((a) => a.c === "utilities").slice(0, SHELF), homeHash({ ...state.f, c: "utilities" })),
+        shelf("Utilities", "just updated", top(byUpdated.filter((a) => a.c === "utilities")), homeHash({ ...state.f, c: "utilities" })),
       ].filter(Boolean),
     );
     document.dispatchEvent(new CustomEvent("acc:home", { detail: { mount: socialShelves } }));
@@ -1269,7 +1306,8 @@
         h(
           "dl",
           { class: "facts" },
-          fact("Bundle ID", a.i),
+          // line breaks only after a dot: io.github. / getaccretion. / Accretion
+          fact("Bundle ID", h("span", {}, ...a.i.split(".").flatMap((p, n, all) => (n < all.length - 1 ? [`${p}.`, h("wbr")] : [p])))),
           fact("Listed by", src ? h("a", { href: homeHash({ q: "", c: "all", s: "updated", src: a.o, fit: state.f.fit, saved: false }) }, src.name) : "–"),
           fact("First seen", a.fo ? `Since the store opened (${a.f})` : a.f),
         ),
@@ -1329,7 +1367,11 @@
       $("q").focus();
     }
   });
-  $("sort").addEventListener("change", (e) => go({ s: e.target.value }));
+  // while searching, the default sort is Best match (s=updated) and "Recently updated" is s=recent
+  $("sort").addEventListener("change", (e) => {
+    const v = e.target.value;
+    go({ s: v === "match" ? "updated" : v === "updated" && state.f.q ? "recent" : v });
+  });
   $("fit").addEventListener("click", () => go({ fit: !state.f.fit }));
   $("more-btn").addEventListener("click", showMore);
   if ("IntersectionObserver" in window) {
