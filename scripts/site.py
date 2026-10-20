@@ -111,11 +111,34 @@ def screenshot_urls(app):
 SAFE_ID = re.compile(r"^[A-Za-z0-9][A-Za-z0-9.\-_]*$")
 
 
-def share_pages(apps, gone=None, extras=None, site_url=None, certificates=()):
+RELATED = 6  # similar apps linked from each app page
+
+
+def related_apps(apps, similar=None, limit=RELATED):
+    """bundle id -> up to `limit` (bid, name, icon) to link from its page: the AI's similar apps
+    first, then the newest other apps of the same category, so every page links onward."""
+    by_id = {a["bundleIdentifier"]: a for a in apps if SAFE_ID.match(a["bundleIdentifier"])}
+    by_cat = {}
+    for a in sorted(by_id.values(), key=newest_date, reverse=True):
+        by_cat.setdefault(category_slug(a), []).append(a["bundleIdentifier"])
+    out = {}
+    for bid, a in by_id.items():
+        picks = []
+        for other in list((similar or {}).get(bid, [])) + by_cat[category_slug(a)][: limit * 2]:
+            if other != bid and other in by_id and other not in picks:
+                picks.append(other)
+            if len(picks) == limit:
+                break
+        out[bid] = [(b, by_id[b]["name"], https_url(by_id[b].get("iconURL"))) for b in picks]
+    return out
+
+
+def share_pages(apps, gone=None, extras=None, site_url=None, certificates=(), similar=None):
     """A full, crawlable page per app (app_page_html) that also gives shared links a name, icon and
     description. Apps with no working download left (gone) keep a small page that forwards to the
     store's closest matches."""
     extras, site_url = extras or {}, (site_url or SITE_URL).rstrip("/")
+    related = related_apps(apps, similar)
     for bid, g in (gone or {}).items():
         if SAFE_ID.match(bid):
             write_share_page(
@@ -129,7 +152,7 @@ def share_pages(apps, gone=None, extras=None, site_url=None, certificates=()):
         bid = a["bundleIdentifier"]
         if not SAFE_ID.match(bid):
             continue
-        write_page(bid, app_page_html(a, extras.get(bid, {}), site_url, certificates))
+        write_page(bid, app_page_html(a, extras.get(bid, {}), site_url, certificates, related.get(bid)))
 
 
 def write_page(bid, page):
@@ -169,6 +192,50 @@ def is_own(bid):
     return bid.startswith(OWN_PREFIXES)
 
 
+def category_slug(app):
+    """The app's category key (the /apps/<slug>/ page it is listed on); unknown ones are 'other'"""
+    cat = app.get("category", "")
+    return cat if cat in CATEGORY_NAMES else "other"
+
+
+def crumbs(site_url, category, slug, name=None):
+    """Visible breadcrumb links plus the matching schema.org BreadcrumbList"""
+    e = html.escape
+    items = [("Accretion", f"{site_url}/"), (category, f"{site_url}/apps/{slug}/")]
+    if name:
+        items.append((name, None))
+    nav = " › ".join(f'<a href="{e(u)}">{e(n)}</a>' if u else e(n) for n, u in items)
+    ld = {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": i, "name": n, **({"item": u} if u else {})}
+            for i, (n, u) in enumerate(items, 1)
+        ],
+    }
+    return f'<nav class="crumbs muted small" aria-label="Breadcrumb">{nav}</nav>', ld
+
+
+def ld_script(*nodes):
+    """One JSON-LD script with an @graph; text can't open or close a tag"""
+    data = json.dumps({"@context": "https://schema.org", "@graph": list(nodes)}, ensure_ascii=False)
+    return f'<script type="application/ld+json">{data.replace("<", chr(92) + "u003c")}</script>'
+
+
+def app_links(items):
+    """A list of app links with small icons (similar apps, category pages)"""
+    e = html.escape
+    return (
+        '<ul class="app-links">'
+        + "".join(
+            f'<li><a href="/app/{e(bid)}/">'
+            + (f'<img src="{e(icon)}" width="40" height="40" loading="lazy" alt="">' if icon else "")
+            + f"<span>{e(name)}{f'<small>{e(sub)}</small>' if sub else ''}</span></a></li>"
+            for bid, name, icon, sub in items
+        )
+        + "</ul>"
+    )
+
+
 def https_url(url):
     """The URL when it is https, else '' (pages never load from plain http)"""
     url = str(url or "")
@@ -205,7 +272,7 @@ def cert_line(certificates, name, icon):
     return f'<p class="cert-line">Need a signing certificate? {" · ".join(links)}</p>' if links else ""
 
 
-def app_page_html(app, extra, site_url, certificates=()):
+def app_page_html(app, extra, site_url, certificates=(), related=None):
     """A full page for one app: what search engines index for it. It has no redirect; installing
     happens in the store (signed-in downloads), linked from the page. Only Accretion's own apps
     load Google ads and say they are free (other sources' apps may be paid on the App Store)."""
@@ -218,12 +285,14 @@ def app_page_html(app, extra, site_url, certificates=()):
     min_os = latest.get("minOSVersion", "")
     about = app.get("localizedDescription") or ""
     desc = clip(app.get("subtitle") or about, 160)
-    url = f"{site_url.rstrip('/')}/app/{bid}/"
+    site_url = site_url.rstrip("/")
+    url = f"{site_url}/app/{bid}/"
     icon = https_url(app.get("iconURL"))
-    category = CATEGORY_NAMES.get(app.get("category", ""), "Other")
+    slug = category_slug(app)
+    category = CATEGORY_NAMES[slug]
+    crumb_nav, crumb_ld = crumbs(site_url, category, slug, name)
     title = f"{name} {version} for iPhone · Accretion" if version else f"{name} for iPhone · Accretion"
     ld = {
-        "@context": "https://schema.org",
         "@type": "SoftwareApplication",
         "name": name,
         "description": desc,
@@ -240,7 +309,6 @@ def app_page_html(app, extra, site_url, certificates=()):
         ld["offers"] = {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
     if icon:
         ld["image"] = icon
-    ld_json = json.dumps(ld, ensure_ascii=False).replace("<", "\\u003c")  # text can't open or close a tag
 
     facts = [("Version", version), ("Updated", date)]
     size = latest.get("size") or 0
@@ -249,8 +317,8 @@ def app_page_html(app, extra, site_url, certificates=()):
     if min_os:
         facts.append(("Requires", f"iOS {min_os} or later"))
     parts = [
-        '<p><a class="btn back" href="../../#/">← Accretion</a></p>',
-        f'<p><img src="{e(icon)}" width="96" height="96" alt="" style="border-radius:22%"></p>'
+        crumb_nav,
+        f'<p><img src="{e(icon)}" width="96" height="96" alt="{e(name)} icon" style="border-radius:22%"></p>'
         if icon
         else "",
         f'<h1 class="view-title">{e(name)}</h1>',
@@ -287,6 +355,8 @@ def app_page_html(app, extra, site_url, certificates=()):
             )
             + "</ul>"
         )
+    if related:
+        parts.append("<h2>Similar apps</h2>" + app_links((b, n, i, "") for b, n, i in related))
     parts.append(
         '<p class="muted small"><a href="../../install-without-computer.html">Install without a computer</a>'
         ' · <a href="../../privacy.html">Privacy</a></p>'
@@ -312,7 +382,7 @@ def app_page_html(app, extra, site_url, certificates=()):
 <link rel="icon" href="../../icon-192.png">
 <link rel="stylesheet" href="../../style.css">
 {ADSENSE if own else ""}
-<script type="application/ld+json">{ld_json}</script>
+{ld_script(ld, crumb_ld)}
 </head>
 <body>
 <main class="view doc">
@@ -359,14 +429,117 @@ def newest_date(app):
     return max((d for d in dates if re.match(r"^\d{4}-\d{2}-\d{2}$", d)), default="")
 
 
-def sitemap(site_url, apps, out=None):
+CATEGORY_PAGE = 200  # apps per category page
+
+
+def category_pages(apps, site_url, out=None):
+    """Crawlable catalogue: /apps/ lists the categories, /apps/<slug>/ (then /apps/<slug>/<n>/) lists
+    that category's apps, newest first, 200 a page. Returns (url, lastmod) pairs for the sitemap."""
+    out, site_url, e = out or OUT, site_url.rstrip("/"), html.escape
+    groups = {slug: [] for slug in CATEGORY_NAMES}
+    for a in sorted(apps, key=newest_date, reverse=True):
+        if SAFE_ID.match(a["bundleIdentifier"]):
+            groups[category_slug(a)].append(a)
+
+    def page(rel, title, desc, body, lds):
+        url = f"{site_url}/{rel}"
+        folder = os.path.join(out, *rel.strip("/").split("/"))
+        os.makedirs(folder, exist_ok=True)
+        with open(os.path.join(folder, "index.html"), "w", encoding="utf-8") as f:
+            f.write(f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="{PLAIN_CSP}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{e(title)}</title>
+<meta name="description" content="{e(desc)}">
+<link rel="canonical" href="{e(url)}">
+<meta property="og:site_name" content="Accretion">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{e(title)}">
+<meta property="og:description" content="{e(desc)}">
+<meta property="og:url" content="{e(url)}">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#07070D">
+<link rel="icon" href="/icon-192.png">
+<link rel="stylesheet" href="/style.css">
+{ld_script({"@type": "CollectionPage", "name": title, "url": url}, *lds)}
+</head>
+<body>
+<main class="view doc">
+{body}
+</main>
+</body>
+</html>
+""")
+        return url
+
+    entries, hub = [], []
+    for slug, items in groups.items():
+        if not items:
+            continue
+        name = CATEGORY_NAMES[slug]
+        hub.append(f'<li><a href="/apps/{slug}/">{e(name)}</a> <span class="muted">{len(items)}</span></li>')
+        pages = [items[i : i + CATEGORY_PAGE] for i in range(0, len(items), CATEGORY_PAGE)]
+        for n, chunk in enumerate(pages, 1):
+            rel = f"apps/{slug}/" if n == 1 else f"apps/{slug}/{n}/"
+            nav, crumb_ld = crumbs(site_url, name, slug)
+            more = [
+                f'<a href="/apps/{slug}/{"" if n == 2 else f"{n - 1}/"}">← Newer</a>' if n > 1 else "",
+                f'<a href="/apps/{slug}/{n + 1}/">Older →</a>' if n < len(pages) else "",
+            ]
+            body = (
+                f'{nav}\n<h1 class="view-title">{e(name)}</h1>\n'
+                f'<p class="muted">{len(items)} apps, newest first'
+                + (f" · page {n} of {len(pages)}" if len(pages) > 1 else "")
+                + "</p>\n"
+                + app_links(
+                    (
+                        a["bundleIdentifier"],
+                        a["name"],
+                        https_url(a.get("iconURL")),
+                        clip(a.get("subtitle") or "", 90),
+                    )
+                    for a in chunk
+                )
+                + (f'\n<p class="pager">{" ".join(m for m in more if m)}</p>' if len(pages) > 1 else "")
+            )
+            title = f"iPhone {name} apps · Accretion" + (f" (page {n})" if n > 1 else "")
+            desc = f"{len(items)} {name} apps for iPhone from AltStore and SideStore sources, newest first."
+            url = page(rel, title, desc, body, [crumb_ld])
+            entries.append((url, max((newest_date(a) for a in chunk), default="")))
+    hub_body = (
+        '<nav class="crumbs muted small" aria-label="Breadcrumb">'
+        '<a href="/">Accretion</a> › Categories</nav>\n'
+        '<h1 class="view-title">All categories</h1>\n<ul class="cats">' + "".join(hub) + "</ul>"
+    )
+    entries.insert(
+        0,
+        (
+            page(
+                "apps/",
+                "iPhone apps by category · Accretion",
+                "Every app in Accretion by category.",
+                hub_body,
+                [],
+            ),
+            "",
+        ),
+    )
+    return entries
+
+
+def sitemap(site_url, apps, out=None, extra=()):
     """sitemap.xml (a sitemap index plus sitemap-N.xml files above 50,000 URLs) and robots.txt.
-    Lists the store, the guide pages and every per-app page; nothing public is blocked."""
+    Lists the store, the guide pages, the category pages (extra) and every per-app page; nothing
+    public is blocked."""
     out = out or OUT
     site_url = site_url.rstrip("/")
     entries = (
         [(f"{site_url}/", "")]
         + [(f"{site_url}/{page}", "") for page in STATIC_PAGES]
+        + list(extra)
         + [
             (f"{site_url}/app/{a['bundleIdentifier']}/", newest_date(a))
             for a in apps
@@ -568,8 +741,8 @@ def main():
     }
     dump("data/gone.json", gone)
     site_url = os.environ.get("SITE_URL", "").strip() or SITE_URL
-    share_pages(source["apps"], gone, extras, site_url, support.get("certificates") or [])
-    sitemap(site_url, source["apps"])
+    share_pages(source["apps"], gone, extras, site_url, support.get("certificates") or [], similar)
+    sitemap(site_url, source["apps"], extra=category_pages(source["apps"], site_url))
 
     # the store used to live at /Accretion/: send old links and saved home screen icons home
     legacy = os.path.join(OUT, "Accretion")
