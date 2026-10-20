@@ -85,6 +85,22 @@
    "account"
   ]
  },
+ "Ed0ardo.CyPwn-Store": {
+  "category": "developer",
+  "date": "2026-10-20",
+  "description": "CyPwnStore allows you to browse the CyPwn IPA Library, including regular and TrollStore releases. Access and explore available applications directly through the app.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "758e7f9b061a2d1c27474334bcf0dc15c2a84637f4c561359250ee32fd34929e",
+  "subtitle": "Browse the CyPwn IPA Library",
+  "tags": [
+   "cypwn",
+   "ipa",
+   "library",
+   "trollstore",
+   "apps"
+  ]
+ },
  "Ed0ardo.CyPwnStore": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -205,23 +221,24 @@
  },
  "ai.devl.aurora": {
   "category": "games",
-  "date": "2026-10-15",
-  "description": "Aurora lets you play RPG Maker games on your iPhone and iPad. Supports XP, VX, VX Ace, MV, and MZ versions. Features multiplayer, overlays, upscaling, and full save management to enhance your gameplay experience.",
+  "date": "2026-10-20",
+  "description": "Play RPG Maker games on your iPhone and iPad across XP, VX, VX Ace, MV, and MZ engines. Features multiplayer support with chat, trading, and battles nearby, online, or in always-on Realms. Enjoy built-in overlays including a quick menu, fast-forward, screenshots, and button mapping. Enhance visuals with upscaling using FSR, xBRZ, and shader presets. Manage your saves easily and play using MFi game controllers, PlayStation or Xbox Bluetooth controllers, or the customizable touch layout editor.",
   "features": [
+   "Multi-Engine Support",
    "Multiplayer",
-   "Overlays",
-   "Upscaling",
+   "Overlays and Upscaling",
+   "Controller Support",
    "Save Management"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d855cdda113567542cc6be021676f4edd168f155208c12e9885a989dbfb810fd",
+  "src_hash": "9ea003208cb8371797b24a0c9be04266e3c4c68cc1d0bd25e6509fc3bb1cb487",
   "subtitle": "Play RPG Maker games on iPhone and iPad",
   "tags": [
+   "rpg maker",
    "rpg",
-   "maker",
    "games",
-   "emulator",
-   "play"
+   "multiplayer",
+   "emulator"
   ]
  },
  "alexgerrese.summarize": {
@@ -375,6 +392,25 @@
    "food",
    "chef",
    "utilities"
+  ]
+ },
+ "app.concat.editor": {
+  "category": "photo-video",
+  "date": "2026-10-20",
+  "description": "Concat is a free, open-source video editor and alternative for macOS, Windows, Linux, and Android. It includes auto-captions, text-to-speech, background removal, keyframe animation, effects and titles, multi-track cutting, and 4K export. It operates with no watermark, no account, no subscription, and no file uploads. The application runs locally using a native Rust engine and a GPU compositor. AI models for captions, voices, and cutout download once from settings and function offline afterward, keeping your footage on your disk. Suitable for TikTok, Reels, Shorts, YouTube videos, tutorials, screen recordings, podcast clips, and memes.",
+  "features": [
+   "No Ads",
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0180f0e2a15a03519037854af4fe6365976d77b33570582cde0cb384031b0c39",
+  "subtitle": "Open-source local video editor",
+  "tags": [
+   "video editor",
+   "open source",
+   "captions",
+   "rust",
+   "video editing"
   ]
  },
  "app.cranberry.cure": {
@@ -682,6 +718,25 @@
    "cypwn"
   ]
  },
+ "co.airapps.dictionary": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "DictionaryAir is a dictionary application with subscription features unlocked. The app provides dictionary functionality without requiring a paid subscription.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "204ef9c874639296a1d4380eb9452f1b667ac26dab57aed9acfb44c3a1461b27",
+  "subtitle": "Dictionary with unlocked subscription",
+  "tags": [
+   "dictionary",
+   "reference",
+   "education",
+   "unlocked",
+   "subscription",
+   "free"
+  ]
+ },
  "co.appnation.geniechat.watchapp": {
   "category": "utilities",
   "date": "2026-10-14",
@@ -731,6 +786,24 @@
    "edit"
   ]
  },
+ "co.bergen.Darkroom": {
+  "category": "photo-video",
+  "date": "2026-10-20",
+  "description": "Darkroom is a photo and video editor developed by blatants. Edit your photos and videos with this application requiring iOS 18.4 or later.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4da3395a6e07364df6933da0dd356ac4a610c51e328ddf22c02bc5532b7388d6",
+  "subtitle": "Photo and video editor",
+  "tags": [
+   "darkroom",
+   "photo",
+   "video",
+   "editor",
+   "blatants"
+  ]
+ },
  "co.codeleap.bearable": {
   "category": "lifestyle",
   "date": "2026-10-15",
@@ -747,6 +820,25 @@
    "tracker",
    "wellness",
    "medical"
+  ]
+ },
+ "co.detail.duo": {
+  "category": "photo-video",
+  "date": "2026-10-20",
+  "description": "Detail is an AI-powered video editor for iOS 17.0 and later. Version 5.7.1 includes a patched build with subscription features unlocked. The app provides video editing capabilities enhanced by artificial intelligence.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f200834d134cf7ce9dd70b6e73f6acea805cc578a62c461c820d4896587444da",
+  "subtitle": "AI video editor with subscription unlocked",
+  "tags": [
+   "ai",
+   "video",
+   "editor",
+   "subscription",
+   "unlocked",
+   "ios"
   ]
  },
  "co.imba.archero": {
@@ -1181,6 +1273,22 @@
    "casual"
   ]
  },
+ "com.LiberalDust.DarkSurvival": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "DarkSurvival is an action survival game developed by Karbin-Store.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "083516920d46c44ff50c2f4850c85862cd408b9843f2dc23a04e6b6a92620dc0",
+  "subtitle": "DarkSurvival action game",
+  "tags": [
+   "survival",
+   "action",
+   "game",
+   "dark",
+   "darksurvival"
+  ]
+ },
  "com.MISHIKinc.Caucasus-Parking": {
   "category": "games",
   "date": "2026-10-15",
@@ -1347,6 +1455,23 @@
    "combat",
    "action",
    "game"
+  ]
+ },
+ "com.TornadoBear.DinoKing": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dino King \u2013 Jurassic Hunt is an action-packed mobile game that transports players back to the prehistoric era.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f128f07503e0ece719ca8a3513366cf7d3b76e061cb3a06809b9a8b4022d7980",
+  "subtitle": "Prehistoric action game with dinosaurs",
+  "tags": [
+   "dinosaur",
+   "action",
+   "game",
+   "prehistoric",
+   "jurassic",
+   "hunt"
   ]
  },
  "com.ViewPassion.CatvsCucumber": {
@@ -1657,6 +1782,23 @@
    "lifestyle"
   ]
  },
+ "com.ahmedbafkir.dlipa": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "Allows downgrading app versions on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f532c7896a5a59b452aefbd29fa07c8a03d66b435ab05e376b400817fd756ef3",
+  "subtitle": "Downgrade apps on the App Store",
+  "tags": [
+   "downgrade",
+   "app",
+   "version",
+   "app store",
+   "ios",
+   "utility"
+  ]
+ },
  "com.ai.logo.animation.ios.app": {
   "category": "other",
   "date": "2026-10-14",
@@ -1922,6 +2064,26 @@
    "utility"
   ]
  },
+ "com.algoriddim.djay-iphone-free": {
+  "category": "entertainment",
+  "date": "2026-10-20",
+  "description": "djay is a DJ app and AI mixer. This version has subscription unlocked and is patched. Version 5.6.8.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "942a026bbfb6411fb7787fd054399f4e948a07a6ad75c87654dfdd041d6cd9fc",
+  "subtitle": "DJ App & AI Mixer with subscription unlocked",
+  "tags": [
+   "dj",
+   "mixer",
+   "ai",
+   "music",
+   "unlocked",
+   "patched"
+  ]
+ },
  "com.alightcreative.motion": {
   "category": "other",
   "date": "2026-10-14",
@@ -2059,6 +2221,27 @@
    "client",
    "gaming",
    "utilities"
+  ]
+ },
+ "com.aminewallah.colon3": {
+  "category": "entertainment",
+  "date": "2026-10-20",
+  "description": "colon3 is a native Soulseek client and music player for iOS. Search the Soulseek network, download straight to the phone, and play from a local library without a server or desktop client in between. The library includes a 2-column grid for albums and loose songs, A-Z side scrubber, Songs, Artists and Playlists views, favourites, multi-select, and import from Files or other apps. Manage playlists with reorder, rename, .m3u8 import and export, plus Favorite Songs and Most Played. The player features an Apple Music-style full screen with synced lyrics from .lrc files or LRCLIB, queue editing, shuffle and repeat, playback speed, AirPlay, and a mini player.",
+  "features": [
+   "Native Soulseek client",
+   "Direct downloads",
+   "Synced lyrics",
+   "Playlist support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "957bd8d5007b59164799bd50674e0c4885e2c17e4c0ccd8470b4083ffd2cc25e",
+  "subtitle": "Soulseek client and music player for iOS",
+  "tags": [
+   "soulseek",
+   "music",
+   "player",
+   "downloader",
+   "audio"
   ]
  },
  "com.andydev.alpenglow": {
@@ -2317,6 +2500,23 @@
    "customization"
   ]
  },
+ "com.apperto.piclabhd": {
+  "category": "photo-video",
+  "date": "2026-10-20",
+  "description": "DesignLab is a creative-focused iOS application for designing logos, graphics, and visual content. The app provides tools for users to create custom logos and graphic designs on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b7ac01b178e20b53b4a4d168a8975dec0a0028431933d48e19c3d98e5b35d47a",
+  "subtitle": "Logo and graphic design creator",
+  "tags": [
+   "logo",
+   "design",
+   "graphics",
+   "creator",
+   "visual",
+   "maker"
+  ]
+ },
  "com.appitate.callrecorder": {
   "category": "photo-video",
   "date": "2026-10-15",
@@ -2445,22 +2645,20 @@
  },
  "com.armsx2.ios": {
   "category": "games",
-  "date": "2026-10-18",
-  "description": "ARMSX2 is a free and open-source PlayStation 2 emulator based on PCSX2, featuring native ARM64 JIT recompilers. It allows you to play PS2 games on your phone, PC, or gaming handheld.",
+  "date": "2026-10-20",
+  "description": "ARMSX2 is a free and open-source PlayStation 2 emulator based on PCSX2. It features native ARM64 JIT recompilers, allowing you to play PS2 games on your phone, PC, or gaming handheld.",
   "features": [
    "Open Source",
-   "ARM64 JIT Recompilers",
-   "Multi-Platform Support"
+   "ARM64 JIT"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "9f5e1707676c63fb3d9abf5ceeda9f0c66c9ee9673d0866fdc96ccc7f0d2977e",
-  "subtitle": "PlayStation 2 emulator for ARM64",
+  "src_hash": "9af5120cffc8a0eb838ece37212eccd6444a72dcef16f4497db0ab4396e9ade2",
+  "subtitle": "Play PlayStation 2 games on your devices",
   "tags": [
    "emulator",
-   "playstation",
    "ps2",
+   "playstation",
    "gaming",
-   "arm64",
    "pcsx2"
   ]
  },
@@ -2501,6 +2699,22 @@
    "combat"
   ]
  },
+ "com.arumgames.darkwizard": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dark Mage Defense is an iOS installation package for a dark fantasy tower defense game. Defend against enemy waves using dark magic and tactical placement in this dark fantasy setting.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "88ac33e80a8cc830037b4feba56e2617c9b92771de86305963c0b6b135226b12",
+  "subtitle": "Dark fantasy tower defense game",
+  "tags": [
+   "dark mage",
+   "tower defense",
+   "fantasy",
+   "strategy",
+   "game"
+  ]
+ },
  "com.atebits.Tweetie1": {
   "category": "social",
   "date": "2026-10-15",
@@ -2516,6 +2730,23 @@
    "classic",
    "theme",
    "social"
+  ]
+ },
+ "com.ates.DELTARUNE": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "This app provides Deltarune chapters 1 through 4.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ea376e78498d8cbe6c2841cfdc06ac849172808d46f7cd3fd402d940fd2fb042",
+  "subtitle": "Deltarune chapters 1\u20114",
+  "tags": [
+   "deltarune",
+   "chapter",
+   "1",
+   "2",
+   "3",
+   "4"
   ]
  },
  "com.atrasis.original": {
@@ -2732,6 +2963,23 @@
    "utilities"
   ]
  },
+ "com.bailing.lark.roll.dev": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dicero! is a casual puzzle game built around dice mechanics and strategic thinking. The app is distributed as an iOS installation file.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "392d1bc05f729726282917a8955938344f9fdc6e2ac68b4b53b9267a99f3024e",
+  "subtitle": "Casual puzzle game with dice mechanics and strategy",
+  "tags": [
+   "casual",
+   "puzzle",
+   "dice",
+   "strategy",
+   "ios",
+   "game"
+  ]
+ },
  "com.bandlab.bandlab.iphone": {
   "category": "other",
   "date": "2026-10-15",
@@ -2932,6 +3180,28 @@
    "game"
   ]
  },
+ "com.bettermifitness.sync": {
+  "category": "lifestyle",
+  "date": "2026-10-20",
+  "description": "Sync your Mi Fitness data directly to Apple Health. The app signs in to your Mi Fitness account and transfers steps, heart rate, sleep, SpO, weight, workouts including GPS routes when available, and other health metrics. Features optional auto-sync on a schedule. Your login details and health data remain strictly on your device.",
+  "features": [
+   "Optional auto-sync",
+   "Local data storage",
+   "GPS routes support",
+   "Background sync"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8fc5515005bcf3af661b323f3dfa94c74aebc6136b2c038a1ab9d588f098a970",
+  "subtitle": "Sync Mi Fitness data to Apple Health",
+  "tags": [
+   "mi fitness",
+   "apple health",
+   "sync",
+   "health data",
+   "fitness tracker",
+   "steps"
+  ]
+ },
  "com.bgames.ageofrun": {
   "category": "games",
   "date": "2026-10-14",
@@ -3064,6 +3334,41 @@
    "market"
   ]
  },
+ "com.bloombuilt.dayone-ios": {
+  "category": "lifestyle",
+  "date": "2026-10-20",
+  "description": "Day One is a daily journal and diary iOS application that allows users to install the app on their devices. Record your daily thoughts, memories, and moments in a digital journal format.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ab4e218d61af114075f16ebedc8ecb1be592ac4d75347eeecb344d21683a9caa",
+  "subtitle": "Daily Journal and Diary iOS app",
+  "tags": [
+   "journal",
+   "diary",
+   "daily",
+   "notes",
+   "memories",
+   "writing"
+  ]
+ },
+ "com.boombitgames.DartsClub": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Darts Club brings the classic pub game of darts to your fingertips. Enjoy an engaging iOS gaming experience focused on the traditional sport of darts.",
+  "features": [
+   "Unlimited Currencies"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "1c0766a0247edf2889ad96e6fab155b662f0450d3bbef2f26afaf80aac0c0e16",
+  "subtitle": "Pub darts game for iOS",
+  "tags": [
+   "darts",
+   "sports",
+   "pub",
+   "game",
+   "ios"
+  ]
+ },
  "com.bootiemashup.radio": {
   "category": "entertainment",
   "date": "2026-10-19",
@@ -3160,6 +3465,23 @@
    "audio"
   ]
  },
+ "com.brand175.DolphiniOS-njb": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "DolphiniOS is a GameCube and Wii emulator for iOS that runs without a JIT compiler, though performance may be slightly slower.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9f453e94a0c355ac384b409afb8e0f5a81d21fe071e44abeea32cce47acc8356",
+  "subtitle": "GameCube/Wii emulator without JIT",
+  "tags": [
+   "gamecube",
+   "wii",
+   "emulator",
+   "non-jit",
+   "ios",
+   "oatmealdome"
+  ]
+ },
  "com.breathwrk.ios": {
   "category": "lifestyle",
   "date": "2026-10-15",
@@ -3176,6 +3498,29 @@
    "relaxation",
    "wellness",
    "health"
+  ]
+ },
+ "com.brewlog.app": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "BrewLog is a pour-over brewing companion for your coffee routine. It features a live BOOKOO scale connection, a guided brew assistant with soft audio cues, a complete brew journal, and rule-based taste feedback that tells you what to adjust for your next cup, down to the grinder click. Get started quickly with a setup assistant that guides you through your brewer, filter papers, grinder, beans, and scale selection. Every step can be skipped for quick weighing.",
+  "features": [
+   "Live scale connection",
+   "Guided brew assistant",
+   "Brew journal",
+   "Rule-based taste feedback",
+   "First-launch setup assistant"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "dd547f199f5c5d34d9571505db69db6ff0e1f46c82b85320184f87ec623cca05",
+  "subtitle": "Pour-over brewing companion for coffee enthusiasts",
+  "tags": [
+   "coffee",
+   "pour-over",
+   "brewing",
+   "scale",
+   "journal",
+   "companion"
   ]
  },
  "com.brotato.shooting.survivors.action.games.bullethell.ios": {
@@ -3196,6 +3541,29 @@
    "game",
    "action",
    "ios"
+  ]
+ },
+ "com.brownbear.app": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "BrownBear is an iOS browser designed for advanced userscripts and extensions. It features background script execution, crontab scheduling, a sandboxed GM API, and support for real Chrome Web Store extensions. Enjoy a Chromium-inspired interface built to handle power userscript runtimes on mobile devices, allowing scripts to continue working in the background on a schedule without keeping a tab open.",
+  "features": [
+   "Background execution",
+   "Crontab scheduling",
+   "Sandboxed GM API",
+   "Chrome Web Store extensions",
+   "Chromium-inspired interface"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a7eb2e382e69396c548dc4f8cc80689f4b64b373a5f1cfee0a165b4b5e93e4cb",
+  "subtitle": "Chromium-inspired browser with advanced userscripts",
+  "tags": [
+   "browser",
+   "userscripts",
+   "extensions",
+   "chromium",
+   "automation",
+   "tools"
   ]
  },
  "com.busuu.english.app": {
@@ -3385,6 +3753,23 @@
    "soccer"
   ]
  },
+ "com.charliemchapman.dark-noise": {
+  "category": "lifestyle",
+  "date": "2026-10-20",
+  "description": "Dark Noise provides ambient soundscapes designed to help you focus, relax, and sleep better. Use soundscapes to improve your daily routine, whether you need concentration for work or calming sounds for rest.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "927c7535f3a6bad97b2f1a9173443146fe032da1eb802e901b414fcce8e7da6b",
+  "subtitle": "Ambient soundscapes for focus, relaxation, and sleep",
+  "tags": [
+   "ambient",
+   "sounds",
+   "focus",
+   "relaxation",
+   "sleep",
+   "noise"
+  ]
+ },
  "com.chatgtp.gpt-3.Chat-GPT": {
   "category": "utilities",
   "date": "2026-10-14",
@@ -3466,6 +3851,62 @@
    "game",
    "visual",
    "novel"
+  ]
+ },
+ "com.chrissotraidis.caesarpad": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "CaesarPad packages the open-source Augustus engine as a landscape iPadOS app. It adds direct touch and Apple Pencil input, readable interface scaling, visible cursor feedback, map gestures, lifecycle recovery, and repeatable build and Simulator automation. This repository contains the mobile integration and build scripts. It does not contain Caesar III or any of its game data; you supply your own legally purchased files locally.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7f1f57fb2da212d519357b3c19d28752c71a8d4b7d28786e61913cac40f73e6a",
+  "subtitle": "Augustus engine for iPadOS",
+  "tags": [
+   "augustus",
+   "strategy",
+   "engine",
+   "ipados",
+   "retro",
+   "game"
+  ]
+ },
+ "com.chrissotraidis.daggerpad": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "DaggerPad brings Daggerfall Unity as a native iPadOS app. It features native landscape gameplay, contextual controls, and the original Daggerfall world. Built with Metal rendering, it imports classic Daggerfall files through the Files app and includes a landscape touch interface designed for movement, looking, combat, conversations, inventory, and the original game dense user interface. The mobile baseline originates from Vwing Daggerfall Unity Android fork with iPadOS integration, native pointer input, Files import, lifecycle handling, and DaggerPad touch layouts. Note that it does not contain Daggerfall, Bethesda game data, or a prepared playable archive.",
+  "features": [
+   "Metal rendering",
+   "Files import",
+   "Touch layouts",
+   "Pointer input"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e06cc62a4083f70d40f22810c6207a4ef1b492372cdfae2b2d908217a86f0325",
+  "subtitle": "Play Daggerfall Unity natively on iPadOS",
+  "tags": [
+   "daggerfall",
+   "unity",
+   "rpg",
+   "ipad",
+   "gaming",
+   "retro"
+  ]
+ },
+ "com.chrissotraidis.deviltouch": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "DevilTouch is a native iPad integration for DevilutionX, the modern source port of the original Diablo engine. It is not an emulator, streamed desktop session, or repackaged copy. Requires a Mac with Xcode, CMake 3.21 or newer, Git, an Apple ID configured for development signing, and a paired iPad with Developer Mode enabled. The project uses substantial AI assistance for code, tests, documentation, debugging, and maintenance; some support replies and maintenance tasks are automated. There is no audited percentage of AI-generated code. Build, test, and device records describe what was checked. This disclosure concerns the workflow, not the authorship of upstream projects.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5f569839ef4b561a35fee42c5825eef812f89c73677a09b9db552e4a09e7ef27",
+  "subtitle": "iPad integration for DevilutionX Diablo port",
+  "tags": [
+   "devilutionx",
+   "diablo",
+   "ipad",
+   "native",
+   "port",
+   "development"
   ]
  },
  "com.christianselig.Apollo": {
@@ -3677,6 +4118,22 @@
    "editor",
    "image",
    "unlocked"
+  ]
+ },
+ "com.colossi.survival.samurai": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Daisho Survival of a Samurai is a captivating samurai survival game that transports players to the heart of feudal Japan.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "604b71a0ff8ab8391b356ce335ccf4a8dcfeed26b628b7810a19df87070a70b3",
+  "subtitle": "A samurai survival game in feudal Japan",
+  "tags": [
+   "samurai",
+   "survival",
+   "action",
+   "japan",
+   "game"
   ]
  },
  "com.commsource.BeautyPlus": {
@@ -3962,6 +4419,23 @@
    "entertainment"
   ]
  },
+ "com.cumbemg.davinci": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "Da Vinci Eye is an augmented reality application designed to revolutionize the way artists and hobbyists approach drawing and sketching. It combines advanced AR technology with traditional drawing techniques to help you create accurate sketches and artwork directly from your iOS device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c5994fc84470cdc8ecfe5d345f4321fe37c207124bfc89c8b32ba1f40f8752f9",
+  "subtitle": "AR Trace and Draw for artists and hobbyists",
+  "tags": [
+   "drawing",
+   "sketching",
+   "art",
+   "ar",
+   "trace",
+   "hobby"
+  ]
+ },
  "com.curiousminds.chunkapp": {
   "category": "games",
   "date": "2026-10-15",
@@ -3981,6 +4455,39 @@
    "games"
   ]
  },
+ "com.dailymotion.dailymotion": {
+  "category": "photo-video",
+  "date": "2026-10-20",
+  "description": "Dailymotion is a popular iOS application that brings endless video content to users at their fingertips on iPhone and iPad.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "81b40605be133bcfe9feb6a4ef616e628603836ec5de09bddee415d397227ab9",
+  "subtitle": "Endless video content for iPhone and iPad",
+  "tags": [
+   "dailymotion",
+   "video",
+   "streaming",
+   "iphone",
+   "ipad",
+   "media"
+  ]
+ },
+ "com.danielmiller.dailyworkoutfree": {
+  "category": "lifestyle",
+  "date": "2026-10-20",
+  "description": "Daily Workouts is a comprehensive fitness app designed to help iPhone users build healthy habits.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "36855863a6a533a17745fdc45e51a7dc9d8fa3e07014354838e15711d6b41620",
+  "subtitle": "Comprehensive fitness app for healthy habits",
+  "tags": [
+   "fitness",
+   "workouts",
+   "health",
+   "habits",
+   "exercise"
+  ]
+ },
  "com.darkpigeon.awaken": {
   "category": "games",
   "date": "2026-10-15",
@@ -3995,6 +4502,23 @@
    "action",
    "adventure",
    "game",
+   "ios"
+  ]
+ },
+ "com.datacamp": {
+  "category": "lifestyle",
+  "date": "2026-10-20",
+  "description": "DataCamp is an educational iOS application designed to help users learn data science and artificial intelligence.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f558e820ab4b2401acc2d22529941d6fb694d823960a2b027b96e661d1be5bea",
+  "subtitle": "Learn data science and artificial intelligence",
+  "tags": [
+   "datacamp",
+   "education",
+   "data science",
+   "ai",
+   "learning",
    "ios"
   ]
  },
@@ -4032,6 +4556,69 @@
    "ipa"
   ]
  },
+ "com.deadroad.zhighway": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dead Road: Zombie Highway is an action-packed survival driving game on iPhone.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a5cdeb23eb3d88c9c87c911de7b6daa0b48fe011d8855aec2137d7bd6d8e4e9e",
+  "subtitle": "Action-packed survival driving game",
+  "tags": [
+   "survival",
+   "driving",
+   "action",
+   "zombie",
+   "highway",
+   "game"
+  ]
+ },
+ "com.deepseek.chat": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "DeepSeek is a conversational artificial intelligence application designed to help users solve problems and generate content.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "69a0f2b584db6f38cc7f291b62bc213c50655fdace0b97439a3b8f2c0247dcc1",
+  "subtitle": "AI conversational assistant for iOS",
+  "tags": [
+   "ai",
+   "assistant",
+   "conversational",
+   "ios",
+   "deepseek"
+  ]
+ },
+ "com.deepstash.application": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "No description provided.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cdefcbf657cf5f2198bd7c42048b3dc8cd0c94f485562633d9ecc7b6d548aa61",
+  "subtitle": "From @binnichtaktivsipas",
+  "tags": [
+   "deepstash",
+   "binnichtaktivsipas"
+  ]
+ },
+ "com.deezer.Deezer": {
+  "category": "entertainment",
+  "date": "2026-10-20",
+  "description": "Deezer is a music streaming platform that enables you to match The Power of Music to your lifestyle and identity. Enjoy a massive music catalog that",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "868f2c57f730838eaf514f0158daf9038668f29f145d980466ca0cd02745eca7",
+  "subtitle": "Music streaming platform",
+  "tags": [
+   "deezer",
+   "music",
+   "streaming",
+   "platform",
+   "lifestyle",
+   "catalog"
+  ]
+ },
  "com.degenk.boorusama": {
   "category": "other",
   "date": "2026-10-15",
@@ -4048,6 +4635,44 @@
    "photos"
   ]
  },
+ "com.dehancer.film.ios-app": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "Dehancer is an app with subscription features unlocked. The source indicates the subscription is unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "769ae2b352904450eeb67beef51955ea5905dce210b9ab2758ca30c40e7e490f",
+  "subtitle": "Subscription unlocked photo editor",
+  "tags": [
+   "dehancer",
+   "photo",
+   "editor",
+   "subscription",
+   "unlocked"
+  ]
+ },
+ "com.demomusic.demo": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "Demo is a songwriting studio app. Version 3.5.2 includes a tweak that unlocks the subscription. The build is patched. Created by @riftysIPAlibrary.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e028ba18ecbd403f0385bbd524b03eabb75eef7f25284daaa5c367cbdc379aca",
+  "subtitle": "Songwriting studio with subscription unlocked",
+  "tags": [
+   "songwriting",
+   "studio",
+   "demo",
+   "subscription",
+   "unlocked",
+   "patched"
+  ]
+ },
  "com.dencreak.dlcalculator": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -4062,6 +4687,39 @@
    "utilities",
    "compute",
    "tools"
+  ]
+ },
+ "com.desertwarrior.joygame": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Desert Warrior RPG is an iOS game package for iPhone that lets players experience a desert-themed adventure.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6e68d08bee5e25ab31d72974a812f4eab0695e6d66ceac55735b9e6207eea232",
+  "subtitle": "Desert-themed RPG for iPhone",
+  "tags": [
+   "desert",
+   "rpg",
+   "game",
+   "iphone",
+   "ipa"
+  ]
+ },
+ "com.deus.myth": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Deus Myth Game is a groundbreaking adventure RPG designed exclusively for iOS devices, bringing mythological storytelling to your",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "02952fab24f92c4aa1eb221d5c7e87ab440599b4f9e27d35fed314e8c67bd07d",
+  "subtitle": "Adventure RPG with mythological storytelling",
+  "tags": [
+   "adventure",
+   "rpg",
+   "mythological",
+   "ios",
+   "storytelling",
+   "groundbreaking"
   ]
  },
  "com.developlab.AnimationSpeed": {
@@ -4114,18 +4772,24 @@
  },
  "com.devz.cod4ios": {
   "category": "games",
-  "date": "2026-10-18",
-  "description": "COD4iOS brings Call of Duty 4: Modern Warfare to iPhone and iPad. This application is based on KisakCOD and currently includes singleplayer functionality. Experience the classic tactical shooter directly on your mobile device.",
-  "features": [],
+  "date": "2026-10-20",
+  "description": "Call of Duty 4: Modern Warfare on iPhone and iPad, based on KisakCOD. COD4iOS includes single-player and CoD4x multiplayer in one app, with touch controls and Xbox-style controller support. This source release is 1.0.3, build 4. The port is still in development, so expect bugs and differences between devices and servers. You need your own copy of the original PC game, Call of Duty 4: Modern Warfare (2007). Modern Warfare Remastered files will not work. The source and IPA do not include the retail game data. Requires an iPhone or iPad running iOS or iPadOS 17 or later.",
+  "features": [
+   "Single-player",
+   "Multiplayer",
+   "Touch controls",
+   "Controller support"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "8281ecaa211098dad74a4be58c7bc7e52d8e056e9494090736df07d2373cbcb1",
+  "src_hash": "9da9381b382cce672728bcb2c2e9d43afabda76b9c697c4e1b3eaf3b47ece7fc",
   "subtitle": "Play Call of Duty 4 on iPhone and iPad",
   "tags": [
    "cod4",
+   "fps",
    "shooter",
-   "game",
-   "modern warfare",
-   "mobile"
+   "action",
+   "multiplayer",
+   "game"
   ]
  },
  "com.dino.bus.out": {
@@ -4445,6 +5109,23 @@
    "assistant"
   ]
  },
+ "com.entizgames.deadwatch": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dead Watcher is a suspense-driven horror game for iOS that focuses on survival and observation. The game delivers a tense atmospheric experience where players must navigate frightening scenarios while managing limited resources and avoiding threats.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "42d9098d78289d2eddaa3ec403989ce7c929521c8327264235fdd4da33ebdb8d",
+  "subtitle": "Suspense-driven horror survival game",
+  "tags": [
+   "horror",
+   "survival",
+   "suspense",
+   "atmospheric",
+   "single-player",
+   "thriller"
+  ]
+ },
  "com.epicoro.castleclashers": {
   "category": "games",
   "date": "2026-10-15",
@@ -4547,6 +5228,22 @@
    "beta"
   ]
  },
+ "com.example.cyport": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "CyPort contains no game files. You need your own legally bought copy of Cyberpunk 2077 for Mac, specifically GOG version 2.3.1. The app is built on your Mac from that copy. CyPort is an independent fan project and is not affiliated with or endorsed by CD PROJEKT RED. Cyberpunk 2077 is a trademark of CD PROJEKT S.A.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a4a431666c8cef9c8e204f369f21d0a42bb59b32fc8af1588d4a00534efa9d20",
+  "subtitle": "Build your Mac game copy for iOS devices",
+  "tags": [
+   "cyport",
+   "mac",
+   "gog",
+   "builder",
+   "tool"
+  ]
+ },
  "com.f1shy-dev.ControlConfig": {
   "category": "other",
   "date": "2026-10-18",
@@ -4632,6 +5329,26 @@
    "info",
    "device",
    "diagnostics"
+  ]
+ },
+ "com.firsttouch.dls7": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "Processed IPA file that unlocks subscriptions and in-app purchases for applications using RevenueCat. The tool modifies app binaries to bypass payment verification for RevenueCat-powered services.",
+  "features": [
+   "Unlocks Subscriptions",
+   "Unlocks In-App Purchases",
+   "RevenueCat Support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bce0b8b24c315bcfce8889ad50d055ed0eae536dcdf81986a5d07918a6b62f69",
+  "subtitle": "RevenueCat subscription unlocker for iOS apps",
+  "tags": [
+   "revenuecat",
+   "subscription",
+   "in-app purchase",
+   "ipa",
+   "unlock"
   ]
  },
  "com.flingex.brainnotes": {
@@ -4884,6 +5601,61 @@
    "colorful"
   ]
  },
+ "com.getdieter.ios": {
+  "category": "developer",
+  "date": "2026-10-20",
+  "description": "Dieter runs coding agents (Codex, Claude Code, Pi, Oh My Pi, DeepSeek Harness) on your own computers. A daemon starts each agent beside your Git checkout with your tools and provider accounts, keeping it alive when you close the app or sleep your laptop. Native apps unify boards, conversations, files, terminals, and screens across machines so you can start a task on a Mac, run it on a Linux workstation, and review results from your phone. Check out the same project on multiple hosts; each conversation runs on the machine you choose. Review files, Git changes, terminals, background processes, and an authenticated remote screen next to the conversation.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b73b68c20c5ea81b955a6e1ea9fd6414df9aa565134eb7238c4f59b257e7a572",
+  "subtitle": "Workspace for coding agents on your machines",
+  "tags": [
+   "coding",
+   "agents",
+   "workspace",
+   "git",
+   "remote",
+   "development"
+  ]
+ },
+ "com.gibiergames.deeeersimulator2": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "DEEER Simulator is a deer simulation game originally from the App Store but not available in most regions. This version has no advertisements and includes Satella injection. Premium and DLC content are unlocked by tapping the premium/DLC button. Also available on Steam.",
+  "features": [
+   "No Ads",
+   "Premium Unlocked",
+   "DLC Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3f95b594a29e7efc0d11b769d18dd0faea5bed2895e2b18d79071c5c4477cc03",
+  "subtitle": "Deer simulator with no ads and unlocked content",
+  "tags": [
+   "simulator",
+   "deer",
+   "no-ads",
+   "unlocked",
+   "game",
+   "satella"
+  ]
+ },
+ "com.gibygames.digimerge": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Digi Merge is a number-based puzzle game for iOS. Players merge matching numbers to create higher values and progress through levels. The game features simple mechanics combined with strategic thinking.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c12ae55e3d39c0b4c15852044655a4a64b7e69316e3cf9e84c471a712611c664",
+  "subtitle": "Number-based puzzle merging game",
+  "tags": [
+   "puzzle",
+   "numbers",
+   "merge",
+   "strategy",
+   "casual",
+   "ios"
+  ]
+ },
  "com.gigaionllc.airclone": {
   "category": "utilities",
   "date": "2026-10-19",
@@ -4979,6 +5751,26 @@
    "video",
    "mod",
    "media"
+  ]
+ },
+ "com.google.ios.youtube.dltube.cracked.2.16.3.patched": {
+  "category": "photo-video",
+  "date": "2026-10-20",
+  "description": "This is a cracked version of the DLTube tweak for YouTube. It does not work with Sidestore or Altstore.",
+  "features": [
+   "Cracked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d97e30f7cf48fd4b1bcf2efdd9a1f2753ea0a50ec5716fcda9944497daab8ca2",
+  "subtitle": "Cracked DLTube tweak for YouTube",
+  "tags": [
+   "youtube",
+   "dltube",
+   "cracked",
+   "tweak",
+   "patched",
+   "ipa"
   ]
  },
  "com.gorilla.brass": {
@@ -5432,6 +6224,23 @@
    "mobile"
   ]
  },
+ "com.hook.defensefactory": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Defense Factory is a mobile strategy game on iOS. It is a strategic tower defense game built for mobile players.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "02bce5a1cae80ef1d74c8d8487b225dc921bf7ab657c2d6a629dc0de1f8d5dc7",
+  "subtitle": "Strategic tower defense for mobile",
+  "tags": [
+   "tower",
+   "defense",
+   "strategy",
+   "mobile",
+   "ios",
+   "game"
+  ]
+ },
  "com.hortor.juliancysj": {
   "category": "games",
   "date": "2026-10-15",
@@ -5462,6 +6271,22 @@
    "human",
    "body",
    "medical"
+  ]
+ },
+ "com.hubx.imagination": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "DaVinci is available with injected subscription unlocked. Access all features directly through the app without any additional purchase or subscription process required.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7a42d58eab2d4cad1e82d9a1fe93f250e3a8002d272c44acea081f9f7e9dbba2",
+  "subtitle": "Subscription Unlocked",
+  "tags": [
+   "davinci",
+   "unlocked",
+   "subscription"
   ]
  },
  "com.hwy.screenshot": {
@@ -5528,6 +6353,40 @@
    "premium",
    "ipa",
    "app"
+  ]
+ },
+ "com.ianclawson.DeltaPacEdition": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "This version of Delta is essentially the base version of Delta, but with a large number of popular and highly anticipated Pull Requests merged in. Keep in mind there are some bugs and graphical glitches.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4b5147eb59f09dc8627bdf56d972623dec9af591455c235d3608e543c976da31",
+  "subtitle": "Delta with merged community PRs",
+  "tags": [
+   "delta",
+   "ipac",
+   "pull-requests",
+   "bugs",
+   "glitches",
+   "emulator"
+  ]
+ },
+ "com.idle.dog.hotel.tycoon": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dog Hotel Tycoon: Pet Game delivers a heartwarming and strategic experience for iPhone.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d47ea3809b177b76a37980f1123b484c008913b7583bdcd9e4c1b79909ae8949",
+  "subtitle": "Heartwarming strategic pet hotel game",
+  "tags": [
+   "dog",
+   "hotel",
+   "tycoon",
+   "pet",
+   "game",
+   "strategy"
   ]
  },
  "com.ignm.animalmafia": {
@@ -6502,6 +7361,74 @@
    "tools"
   ]
  },
+ "com.ipaomtk.defengo.random.defense.156909": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "DefenGo : Random Defense is a strategy-focused tower defense game for iOS. Build and upgrade towers to defend against waves of enemies in randomized scenarios. Plan your defenses strategically as each playthrough presents different challenges and enemy paths.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ced92607c66e4beeebe7a7acd8f8c28a795f25f4ec0df26be6a06d3ebdd8c23f",
+  "subtitle": "Strategy tower defense game",
+  "tags": [
+   "tower defense",
+   "strategy",
+   "random",
+   "defense",
+   "game",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.diamond.jewels.gfal.puzzle.151980": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Diamond Jewels GFAL Puzzle IPA is an iOS puzzle game package designed for iPhone users who want",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0f102111e514ce2636bf67a3cf74186fe574c6e1ceaab34ce5c90b462f611789",
+  "subtitle": "iOS puzzle game package for iPhone",
+  "tags": [
+   "diamond",
+   "jewels",
+   "gfal",
+   "puzzle",
+   "ios",
+   "iphone"
+  ]
+ },
+ "com.ipaomtk.dietx.ai.calorie.tracker.152537": {
+  "category": "lifestyle",
+  "date": "2026-10-20",
+  "description": "DietX AI: Calorie Tracker is an iOS application package (IPA) designed for iPhone and iPad. The app uses artificial intelligence to help users track calories and manage nutrition. Available as an IPA file for installation on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f754acf6c35476710974a8b47c90a2a9d8beb71e346c5d85a156727a30d2377d",
+  "subtitle": "AI-powered calorie tracking for iOS",
+  "tags": [
+   "calorie",
+   "tracker",
+   "ai",
+   "nutrition",
+   "health",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.dino.merge.jurassic.zoo.159974": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dino Merge: Jurassic Zoo is an iOS game where players merge dinosaurs to build a jurassic zoo. The game package allows installation on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f13acf4aa3a59fc1c753d4dc6b7c12b6cb7d73c09e2f4411b1fb439e9459ac00",
+  "subtitle": "Merge dinosaurs in a jurassic zoo",
+  "tags": [
+   "dinosaur",
+   "merge",
+   "jurassic",
+   "zoo",
+   "simulation",
+   "casual"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -6624,6 +7551,23 @@
    "creative",
    "toolkit",
    "iphone"
+  ]
+ },
+ "com.jockelholm.undertaledr": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "Fight or spare alongside new characters in UNDERTALE's parallel story, DELTARUNE. Developed by Toby Fox and jockeholm.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "50d470b966624751cda3f3ee02d5a3f53dca22c03c4e8cd2f6576ac3b9378836",
+  "subtitle": "Play the first chapter of Deltarune",
+  "tags": [
+   "deltarune",
+   "undertale",
+   "rpg",
+   "chapter1",
+   "tobyfox",
+   "jockeholm"
   ]
  },
  "com.joincarbon.nutrition": {
@@ -6897,6 +7841,24 @@
    "battery",
    "tracker",
    "trollstore",
+   "utilities"
+  ]
+ },
+ "com.languageinnovation.clozemaster": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Clozemaster unlocks in-app purchases in some apps and games. Successfully processed IPA file.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9ee3617cd45699f2317b007bce5b708fcadffc2af05374d1c3a551ee02c04d9b",
+  "subtitle": "Unlocks in-app purchases in supported apps and games",
+  "tags": [
+   "games",
+   "unlocks",
+   "purchases",
+   "ipa",
    "utilities"
   ]
  },
@@ -7365,6 +8327,25 @@
    "game"
   ]
  },
+ "com.madfingergames.deadtrigger2": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dead Trigger 2 is a recently released game for iOS that provides an exciting and intense first-person shooter experience.",
+  "features": [
+   "First-person shooter",
+   "Recently released"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fbf6a5b855bd02b98fdc2f5daf7ab84017fbaad00be46ca97cd15045d9999d2e",
+  "subtitle": "Intense first-person shooter for iOS",
+  "tags": [
+   "dead trigger 2",
+   "fps",
+   "ios",
+   "shooter",
+   "action"
+  ]
+ },
  "com.maf.BackpackRush": {
   "category": "games",
   "date": "2026-10-15",
@@ -7508,6 +8489,23 @@
    "ipad"
   ]
  },
+ "com.mcdiamondfinder.app": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "DiamondFinder is an iOS app from AppTesters IPA Repo. The build is injected with Pro features.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d80f74f39259e25cc83e2efafe4c186ae62cc19f0c6417ba181a26fd5d203257",
+  "subtitle": "DiamondFinder \u2013 Injected with Pro",
+  "tags": [
+   "diamondfinder",
+   "ipa",
+   "pro",
+   "injected",
+   "apptesters",
+   "repo"
+  ]
+ },
  "com.meal.plan.ios": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -7634,6 +8632,23 @@
    "noads"
   ]
  },
+ "com.mineek.dirtycow": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "This app provides a collection of tweaks compatible with iOS versions 15 through 16.1.2. It was last updated on 8 December 2023 and is currently functional.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "375dba56427bae1fbc52a99a4296e0d4e6f85a408f8424d7fd07ea191c547033",
+  "subtitle": "All-in-one tweaks for iOS 15-16.1.2",
+  "tags": [
+   "tweaks",
+   "ios",
+   "15",
+   "16",
+   "all-in-one",
+   "utility"
+  ]
+ },
  "com.miniclip.8ballpoolmult": {
   "category": "games",
   "date": "2026-10-14",
@@ -7668,6 +8683,23 @@
    "action"
   ]
  },
+ "com.minidragon.randomdungeon": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Introduction to Darkest Hero! Mobile gaming has evolved to offer players deeply immersive adventures.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ab9c44b6a1848727d4fba9e6dfb348beb3ec8bed43468cb90484a5aa361c9952",
+  "subtitle": "Immersive mobile gaming adventure",
+  "tags": [
+   "darkest",
+   "hero",
+   "mobile",
+   "gaming",
+   "adventure",
+   "mod"
+  ]
+ },
  "com.minigamelab.bouncedefense": {
   "category": "games",
   "date": "2026-10-15",
@@ -7700,6 +8732,26 @@
    "pets"
   ]
  },
+ "com.mintrocket.drmobile": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dave the Diver modified version featuring God mode to take no damage while diving, a fish damage multiplier to scale your catch power, and swim speed modification.",
+  "features": [
+   "God Mode",
+   "Fish Damage Multiplier",
+   "Swim Speed Multiplier"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8dfc70063a5fd5757b7d87acdce85fdd80110f71bd501e385d3238bb66dec1ac",
+  "subtitle": "Dive hack features and multipliers",
+  "tags": [
+   "diver",
+   "hack",
+   "godmode",
+   "multiplier",
+   "game"
+  ]
+ },
  "com.mirazbakis.altload": {
   "category": "developer",
   "date": "2026-10-19",
@@ -7719,6 +8771,23 @@
    "sideload",
    "apple id",
    "installer"
+  ]
+ },
+ "com.mkapps.logoMakerApp": {
+  "category": "photo-video",
+  "date": "2026-10-20",
+  "description": "Design Logo is an iOS app that allows users to create professional logos and flyers instantly on iPhone. It offers logo maker and flyer maker tools for graphic design.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "62d400330071f800c42f22d17afeccadda79211e9f31143d7259f578c035ca35",
+  "subtitle": "Logo & Flyer Maker for iPhone",
+  "tags": [
+   "logo maker",
+   "flyer maker",
+   "graphic design",
+   "iphone",
+   "professional graphics",
+   "instant design"
   ]
  },
  "com.mmt.bookvo": {
@@ -7754,6 +8823,24 @@
    "hack",
    "igamegod",
    "speed"
+  ]
+ },
+ "com.mobisystems.OxfordDictionaryOfEnglishFree": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "Dictionary app with premium features injected. Provides word definitions, translations, and reference tools without subscription requirements.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "feab84dd365c8b9ac29e50efee7e18386a51d901737fed2e9546ddbc977d9ba1",
+  "subtitle": "Premium dictionary with unlocked features",
+  "tags": [
+   "dictionary",
+   "premium",
+   "reference",
+   "language",
+   "tools"
   ]
  },
  "com.mobivio.cutecutpro": {
@@ -7871,6 +8958,23 @@
    "game"
   ]
  },
+ "com.multicastgames.devour": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Devour Idle RPG is an iOS idle role\u2011playing game package that allows iPhone users to experience a progressive idle game. The app is distributed as an IPA file for sideloading.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "236af1e32784960e6614aec02b78f7eaaff01d9187b0c55c1a963b34257a8bf6",
+  "subtitle": "Idle RPG for iPhone",
+  "tags": [
+   "idle",
+   "rpg",
+   "iphone",
+   "ipa",
+   "game",
+   "offline"
+  ]
+ },
  "com.mwm.bananai": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -7958,6 +9062,29 @@
    "game"
   ]
  },
+ "com.naine.doer": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "Doer is a native iOS app for browsing Linux.do. View latest topics, top posts, categories, and tags. Search content and read topic details with rendered HTML. Built with UIKit for a native interface.",
+  "features": [
+   "Linux.do Browsing",
+   "Native UIKit",
+   "Topic Details",
+   "Search & Filter",
+   "Categories & Tags"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "be7ae1dd911a3758504453f80c7164032d8e9cabc54cc9ede0e443a50a9944ac",
+  "subtitle": "Native Linux.do client for iOS",
+  "tags": [
+   "linuxdo",
+   "client",
+   "browsing",
+   "forum",
+   "native",
+   "uikit"
+  ]
+ },
  "com.nanotribe.games.cashier3d": {
   "category": "games",
   "date": "2026-10-15",
@@ -7989,6 +9116,23 @@
    "action",
    "3d",
    "game"
+  ]
+ },
+ "com.nathan.deltarune": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "Fight or spare alongside new characters in UNDERTALE's parallel story, DELTARUNE. Developed by Toby Fox and Nathan.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "24692e36c28cd77ece0bed03d985a24669848575604dc89ae387f6302323a3f1",
+  "subtitle": "Continue the parallel story of Undertale",
+  "tags": [
+   "deltarune",
+   "chapter-2",
+   "undertale",
+   "rpg",
+   "toby-fox",
+   "nathan"
   ]
  },
  "com.naturalmotion.csrclassics": {
@@ -8059,6 +9203,25 @@
    "timer",
    "fictional",
    "app"
+  ]
+ },
+ "com.neptune.darkstar": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Darkstar Idle RPG is a mobile role-playing game designed for iOS devices. This version includes modified gameplay elements featuring a damage multiplier and a never die option, allowing players to progress through the game with enhanced combat capabilities.",
+  "features": [
+   "Damage Multiplier",
+   "Never Die"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "19497db527b437dbb9070fed986b3b09c3bf8459ce029f2ae12a24bae1dc2864",
+  "subtitle": "Idle RPG with Damage Multiplier and Never Die features",
+  "tags": [
+   "rpg",
+   "idle",
+   "game",
+   "action",
+   "strategy"
   ]
  },
  "com.netflix.NGP.BloonsTDSix": {
@@ -8176,6 +9339,29 @@
    "tower",
    "defense",
    "game"
+  ]
+ },
+ "com.nirobhaq.DaylineCloud": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "Dayline is a personal daily dashboard for iPhone and Mac. Manage tasks in named sections with a Pinned section on top, quick-add, drag or menu to move tasks, colour tags shared with Mac, and notifications with Mark Complete and Dismiss actions. Save links and notes with rich previews, comments, and tags in a searchable library fed by a Safari share extension. Every change syncs to your own Cloudflare Worker server and fans out live over a WebSocket. Works offline and reconciles when online. No iCloud, no third-party services, and no analytics.",
+  "features": [
+   "Sync server support",
+   "Offline mode",
+   "Share extension",
+   "Task management",
+   "Bookmark library"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d628166c1307b9aec8e5f5f9b723f454886b47d49950001b4375c936ccf8ebce",
+  "subtitle": "Personal daily dashboard for iPhone and Mac",
+  "tags": [
+   "dashboard",
+   "tasks",
+   "bookmarks",
+   "sync",
+   "notes",
+   "widgets"
   ]
  },
  "com.nitrogames.boltgunboom": {
@@ -8405,6 +9591,40 @@
    "utilities"
   ]
  },
+ "com.owenselles.CloudNow2": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "CloudNow is a native cloud gaming app for Apple TV that runs GeForce NOW and Xbox Cloud Gaming as separate provider modes behind one tvOS interface. Each provider maintains its own account, catalog, settings, session, signaling, quality, and input behavior. This is an independent, unofficial client and is not affiliated with, endorsed by, or sponsored by NVIDIA or Microsoft. CloudNow is distributed through TestFlight, release IPA files, and source builds, and is not available from the App Store.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7efd9157fcb679969628b1606dd4e7523c192f5ca50a6d49195a223ec40b032c",
+  "subtitle": "Native cloud gaming client for Apple TV",
+  "tags": [
+   "cloud",
+   "gaming",
+   "appletv",
+   "geforce",
+   "xbox",
+   "client"
+  ]
+ },
+ "com.oxvgames.dicelords": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dice Lords IPA MOD brings a unique mix of strategy, luck and tactical decision\u2011making for iOS players.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "48054b9ee494fee73caa39326c67858d59a06ea0801e3826763104c3729fc06a",
+  "subtitle": "Strategy dice game with luck and tactics",
+  "tags": [
+   "dice",
+   "lords",
+   "strategy",
+   "luck",
+   "tactical",
+   "ios"
+  ]
+ },
  "com.panicbyte.byephotos": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -8453,6 +9673,23 @@
    "survival",
    "shooter",
    "game"
+  ]
+ },
+ "com.perblue.disneyheroes.ios": {
+  "category": "entertainment",
+  "date": "2026-10-20",
+  "description": "In the constantly evolving world of mobile gaming, Disney Heroes Battle Mode offers a vibrant and engaging experience.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b2104d3a13f8e1674bd0ae79e3b78c0c4d4c4ef38b20c2ebbf4a22a2a1b6af3e",
+  "subtitle": "Disney Heroes Battle Mode",
+  "tags": [
+   "disney",
+   "heroes",
+   "battle",
+   "mode",
+   "mobile",
+   "gaming"
   ]
  },
  "com.perfectcorp.yat": {
@@ -8648,6 +9885,39 @@
    "game"
   ]
  },
+ "com.playdigious.deadcells": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dead Cells IPA for iOS is an action platformer rogue-lite game that has grabbed the attention of gamers everywhere. Explore a sprawling, ever-changing castle, master fast-paced combat, and face ruthless bosses in this acclaimed gaming experience.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "69f4250e40a103c7a10cedd6a245749e91e887e4d0c557d1e98f66c3057aa816",
+  "subtitle": "Action platformer rogue-lite game for iOS",
+  "tags": [
+   "dead cells",
+   "action",
+   "platformer",
+   "roguelite",
+   "game",
+   "ios"
+  ]
+ },
+ "com.playdigious.deadcells.applearcade": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dead Cells is a roguelike-Metroidvania game where you take the role of an amorphous creature called the Prisoner. As the Prisoner, you must fight your way out of a diseased island in order to slay the island's King.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "0ca2a69976a9436370925d4f28ebe75103f58ec54866a4c735875e648a41de71",
+  "subtitle": "Fight your way out of a diseased island",
+  "tags": [
+   "roguelike",
+   "metroidvania",
+   "action",
+   "platformer",
+   "indie"
+  ]
+ },
  "com.playgendary.bowmasters": {
   "category": "games",
   "date": "2026-10-15",
@@ -8764,6 +10034,43 @@
    "social"
   ]
  },
+ "com.popve.dicevmonster": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dice vs Monsters is an idle defense game for iOS. The modified version includes frozen gold and diamonds, and removes advertisements.",
+  "features": [
+   "Freeze Gold",
+   "Freeze Diamonds",
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "428d1dacf73e3414c656a295d03de21c292d1317c49f4a3aa9884311f334d97f",
+  "subtitle": "Idle defense with frozen resources, no ads",
+  "tags": [
+   "idle",
+   "defense",
+   "dice",
+   "monsters",
+   "mod",
+   "noads"
+  ]
+ },
+ "com.porksphere.comical": {
+  "category": "entertainment",
+  "date": "2026-10-20",
+  "description": "Comical allows you to browse and read series using a registry of bridges that you add in settings. Public bridges are available on GitHub. On iOS and Android, bridges run directly on your device with no server involved. For Windows and Linux, installers are available, though Windows SmartScreen will show a warning on first run since they are not code-signed. On the web, the frontend and backend can be run as two Docker containers.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "795b26a903f7937773cf1c580f7ce52c0a8b6209ff7fdbebbebafa0d7272877e",
+  "subtitle": "Browse and read series using custom bridges",
+  "tags": [
+   "reader",
+   "series",
+   "registry",
+   "bridges",
+   "docker"
+  ]
+ },
  "com.pungme.combyne": {
   "category": "lifestyle",
   "date": "2026-10-18",
@@ -8838,6 +10145,23 @@
    "utilities"
   ]
  },
+ "com.quocphan.datrack": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "DaTrack is a daily expense tracker designed to help you keep track of your daily spending. This version requires iOS 17.0 or later.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f1e89cb69dc563fdbb7a59c7c9bafbc4bd32d5ef33055c5e583d690b45c2db2d",
+  "subtitle": "Daily Expense Tracker",
+  "tags": [
+   "expense",
+   "tracker",
+   "budget",
+   "finance",
+   "daily",
+   "money"
+  ]
+ },
  "com.ray.games.ancient.defense": {
   "category": "games",
   "date": "2026-10-14",
@@ -8852,6 +10176,23 @@
    "defense",
    "game",
    "adventure"
+  ]
+ },
+ "com.rayark.pluto": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "DEEMO IPA MOD iOS is a captivating rhythm game that has captured the hearts of mobile gamers worldwide. Originally developed for PC and",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7fac0c4c960f8f4d8e715c896375db43ce2e7c4572490831baa2cd2c9bb25822",
+  "subtitle": "Rhythm game with piano melodies",
+  "tags": [
+   "rhythm",
+   "game",
+   "deemo",
+   "ipa",
+   "mod",
+   "ios"
   ]
  },
  "com.readdle.CalendarsLite": {
@@ -8870,6 +10211,24 @@
    "schedule",
    "events",
    "organizer"
+  ]
+ },
+ "com.readdle.ReaddleDocsIPad": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "This version of Documents has been injected with Plus features. Provided by AppTesters IPA Repo.",
+  "features": [
+   "Plus Features"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9c356735f4038aeed4385ca09a759f7a16f8ce472d7149c399c9cf8dfab84479",
+  "subtitle": "Document viewer with Plus features injected",
+  "tags": [
+   "documents",
+   "plus",
+   "viewer",
+   "ipa",
+   "modified"
   ]
  },
  "com.realmzer.allflexing": {
@@ -9085,6 +10444,25 @@
    "utility"
   ]
  },
+ "com.retrocatcher.dk": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dark Knight Idle is an idle game featuring hack modifications. Boost your attack output significantly with the damage multiplier and increase your survivability using the defense multiplier.",
+  "features": [
+   "Damage Multiplier",
+   "Defense Multiplier"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a51cfbe9a2c9dd2568e93eff3021b0919f35c9dcdd1e76fd4b465da9fb3e6e2b",
+  "subtitle": "Idle game with damage and defense multipliers",
+  "tags": [
+   "idle",
+   "rpg",
+   "knight",
+   "action",
+   "game"
+  ]
+ },
  "com.retrytech.TimeTag": {
   "category": "photo-video",
   "date": "2026-10-15",
@@ -9228,6 +10606,23 @@
    "utility"
   ]
  },
+ "com.rileytestut.Delta.Lite.Beta": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Delta Lite Beta is an emulator that runs Nintendo Entertainment System and Game Boy Color games on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "64a009ee79f35919f34116ec0116c8c95185ceef08b812cf9280235accaaf465",
+  "subtitle": "NES and GBC emulator for iOS",
+  "tags": [
+   "nes",
+   "gbc",
+   "emulator",
+   "ios",
+   "retro",
+   "gaming"
+  ]
+ },
  "com.ristretto.comboclash": {
   "category": "games",
   "date": "2026-10-18",
@@ -9243,6 +10638,23 @@
    "game",
    "era",
    "wars"
+  ]
+ },
+ "com.rocketdigitals.aiinteriordesign": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "DecorAI is an iOS application that uses AI to provide interior design for iPhone, transforming spaces with smart visual technology.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3692cf1cffc152634320baafa951cb88ba1e227af2f1fd6c2e7b338ec44f9ee3",
+  "subtitle": "AI interior design for iPhone",
+  "tags": [
+   "ai",
+   "interior",
+   "design",
+   "iphone",
+   "visual",
+   "technology"
   ]
  },
  "com.rockstargames.bully": {
@@ -9363,6 +10775,46 @@
    "action",
    "game",
    "mobile"
+  ]
+ },
+ "com.sablostudio.dig.tycoon.idle.game": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dig Tycoon - Idle Game version 3.4 includes tweaks: unlimited currencies, VIP unlocked, no ads, and other modifications. This is a modified IPA build.",
+  "features": [
+   "Unlimited currencies",
+   "VIP unlocked",
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fda3e9240b6d8d007776b652c07026c65adcd7d484a824af7be313de648889c0",
+  "subtitle": "Idle mining tycoon with unlimited resources",
+  "tags": [
+   "idle",
+   "tycoon",
+   "dig",
+   "game",
+   "tweak",
+   "ipa"
+  ]
+ },
+ "com.saltycrackers.daygram": {
+  "category": "lifestyle",
+  "date": "2026-10-20",
+  "description": "Daygram is a daily journal application. This version features premium unlocked content. Record your daily thoughts and memories in a clean interface.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "cb1702dd8f8b6d3ecd6d4d2676a9dcdbc27863c2e996b951b0b6243acc1a9a28",
+  "subtitle": "Daily Journal with premium unlocked",
+  "tags": [
+   "journal",
+   "diary",
+   "daily",
+   "notes",
+   "writing",
+   "lifestyle"
   ]
  },
  "com.saulawa.areaandvolumecalc.lite": {
@@ -9505,6 +10957,23 @@
    "ipa"
   ]
  },
+ "com.skypaw.decibel": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "Decibel X is a sound level meter that turns your iPhone into a professional sound analyzer. It measures decibel levels for noise monitoring and analysis.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5d8f9412e9dbe90d54bd71d30a2164baa825d04f0b25c2e6c98ac42fb8eaf054",
+  "subtitle": "Professional sound level meter for iPhone",
+  "tags": [
+   "sound",
+   "meter",
+   "decibel",
+   "noise",
+   "measure",
+   "analyzer"
+  ]
+ },
  "com.snowman.altos-adventure.the-spirit-of-the-mountain": {
   "category": "games",
   "date": "2026-10-14",
@@ -9552,6 +11021,44 @@
    "fitness",
    "workout",
    "soccer"
+  ]
+ },
+ "com.softwings.DigitalPlanner": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "Digital Planner \u2013 Task Journal is an iOS app for productivity-focused planning and task management. It is distributed as an IPA installation file.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d442bc0164b810fb2e49515367a8513ddb6f0b173f2b6249c08cc519d9d6ab73",
+  "subtitle": "Productivity-focused task journal",
+  "tags": [
+   "planner",
+   "task",
+   "journal",
+   "productivity",
+   "ipa",
+   "ios"
+  ]
+ },
+ "com.soltheman.pocketlab": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "Bo1ZPocket is a port of the open-source IW4L engine for iOS. The app does not contain the game and reads the game files you already own on PC, functioning as a player for files you have. It runs natively on iPhone using Rust, Bevy, and Metal. It reaches the main menu, supports touch as a click, and works with a PS4 controller. On an iPhone 17 Pro Max with 6 GB granted to the app, full matches with bots can run.",
+  "features": [
+   "Runs natively on iPhone",
+   "Supports touch and PS4 control",
+   "Runs matches with bots"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f11c4352a3fef7ba883cec10e4953bcb4af6cd52b9b1a3d53abb882d2dad52ba",
+  "subtitle": "Port of the open-source IW4L engine to iOS",
+  "tags": [
+   "engine",
+   "port",
+   "gaming",
+   "rust",
+   "metal",
+   "controller"
   ]
  },
  "com.sozap.badmen": {
@@ -9718,6 +11225,23 @@
    "walking"
   ]
  },
+ "com.squareenixmontreal.deusexgo": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Deus Ex GO on iOS offers a thoughtful and cerebral experience that stands apart from typical mobile games. Designed as a turn-based puzzle infiltration game set in the Deus Ex universe.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2f5e47b7ff9fbb0f4a8387b6e74d9077c3dcbf5cdb2bcac36925ca1bdb3ab23f",
+  "subtitle": "Turn-based puzzle infiltration game",
+  "tags": [
+   "deus ex",
+   "puzzle",
+   "turn-based",
+   "infiltration",
+   "strategy",
+   "cyberpunk"
+  ]
+ },
  "com.steinberg.cubasis3": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -9734,6 +11258,39 @@
    "workstation",
    "studio",
    "recording"
+  ]
+ },
+ "com.straight-tamago.DockTransparent": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "This TrollStore app makes your home screen dock transparent using TrollStore and CVE-2022-46689.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6f67377e50740007a0d806ed06b982ae1176a420c38e8c0e6399583b425aaee4",
+  "subtitle": "Make your dock transparent with TrollStore",
+  "tags": [
+   "dock",
+   "transparent",
+   "trollstore",
+   "cve-2022-46689",
+   "home-screen",
+   "ios"
+  ]
+ },
+ "com.stratospheregames.dawnofages": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dawn of Ages: total war battle is a medieval-era strategy game available for iPhone and iPad. Engage in tactical warfare and strategic combat set in the medieval period.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c71367389bc8f026810675058e26ab58f523fe658bbf53f27045150efd6cd77f",
+  "subtitle": "Medieval-era strategy game for iPhone and iPad",
+  "tags": [
+   "strategy",
+   "medieval",
+   "battle",
+   "war",
+   "tactics"
   ]
  },
  "com.studiolico.woodenstick": {
@@ -9823,6 +11380,44 @@
    "game",
    "mod",
    "ios"
+  ]
+ },
+ "com.superplaystudios.dicedreams": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "This is a modified version of the Dice Dreams game. It provides unlimited coins that can be spent regardless of the current balance, unlimited dice rolls, and the option to purchase a custom certificate. The modification is distributed by @kamohacks.",
+  "features": [
+   "Unlimited Coins",
+   "Unlimited Rolls",
+   "Custom Certificate"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f4914cffa5ca40b854c12219980f25f8a4dea38a729fb8aa04fc34570c438b2c",
+  "subtitle": "Hacked Dice Dreams with unlimited coins and rolls",
+  "tags": [
+   "dice",
+   "dreams",
+   "hack",
+   "unlimited",
+   "coins",
+   "rolls"
+  ]
+ },
+ "com.superplaystudios.disneysolitairedreams": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Disney Solitaire offers a delightful escape into the enchanting realm of beloved characters and whimsical gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dd68325f44f97a44fcd1f888c8ea2b1159148aac5a2e72b60d9af23af00a5cd3",
+  "subtitle": "Play solitaire with Disney characters",
+  "tags": [
+   "disney",
+   "solitaire",
+   "card",
+   "game",
+   "characters",
+   "gameplay"
   ]
  },
  "com.sybogames.brim": {
@@ -9927,6 +11522,23 @@
    "feline",
    "rpg",
    "game"
+  ]
+ },
+ "com.thomasyoung.dailydadish": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Daily Dadish is a game version available as a modified tweak. This release is version 1.0.8 and includes the removal of advertisements for a clean gameplay experience.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "009cae971e9465bd99a3f41261e59be1629c8aa14bc8a9e54892bacba458ffad",
+  "subtitle": "Play Daily Dadish with no ads",
+  "tags": [
+   "dadish",
+   "daily",
+   "game",
+   "no ads"
   ]
  },
  "com.tigisoftware.ADManager": {
@@ -10061,6 +11673,21 @@
    "game"
   ]
  },
+ "com.tree.godown": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "In the ever-evolving landscape of mobile gaming, unique and engaging titles continuously capture the attention of players. DDDigger is one such game available for mobile devices.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "57250f05908458e2d329cdd32b3f1d13ef6c25c84fe10f7e5238812f8fa16918",
+  "subtitle": "Unique and engaging mobile gaming title",
+  "tags": [
+   "game",
+   "mobile",
+   "dddigger",
+   "gaming"
+  ]
+ },
  "com.tree.idle.cat.city": {
   "category": "games",
   "date": "2026-10-15",
@@ -10091,6 +11718,39 @@
    "idle",
    "simulation",
    "tycoon"
+  ]
+ },
+ "com.twopence.vd.dicearmypvp.ios": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dice Army PVP is an iOS game where players command dice-driven armies in player-versus-player battles. The IPA package allows installation on iPhone and iPad.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dfc557a4720afb5b9d906b97078745b07fde4c76d4d86e3033783a2897c879ca",
+  "subtitle": "Dice-based army battle game for iOS",
+  "tags": [
+   "dice",
+   "army",
+   "pvp",
+   "game",
+   "ios",
+   "ipad"
+  ]
+ },
+ "com.ugi.designfamilylife": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Design Family Life is a simulation game that combines home design, family management, and storytelling elements. Players engage in creating and customizing living spaces while managing family dynamics and progressing through narrative-driven content.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ef2da6c9ddc46f2a037d31bd99e61bffa8dd132cae22332a6675141d1d222ea0",
+  "subtitle": "Simulation game with home design and family management",
+  "tags": [
+   "simulation",
+   "home design",
+   "family management",
+   "storytelling",
+   "game"
   ]
  },
  "com.unicostudio.braintest": {
@@ -11209,6 +12869,98 @@
    "app"
   ]
  },
+ "com.unknown.darkroom": {
+  "category": "photo-video",
+  "date": "2026-10-20",
+  "description": "Darkroom is an application designed for editing videos and photos. All paid features are unlocked.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "55467e58db3c56a5d045626412ce9debf2c097a9476bf2465e219f1d65c36b2d",
+  "subtitle": "Video and photo editing app",
+  "tags": [
+   "darkroom",
+   "photo",
+   "video",
+   "editor",
+   "editing",
+   "karbin"
+  ]
+ },
+ "com.unknown.deadraidzombie": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dead Raid Zombie is an action game featuring zombie battles.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "792ad1e90456ee0b888f413149eef169182215b0c0d318e786c7f7b3c85e769c",
+  "subtitle": "Zombie action game",
+  "tags": [
+   "dead",
+   "raid",
+   "zombie",
+   "game",
+   "action"
+  ]
+ },
+ "com.unknown.deltaroblox": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Delta Roblox is an executor for Roblox developed by Karbin-Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ba656a4f25665a93ac426ced3242c9852e1fa3a8aed30adca303e789c9fa5d19",
+  "subtitle": "Roblox executor by Karbin-Store",
+  "tags": [
+   "delta",
+   "roblox",
+   "executor",
+   "karbin-store",
+   "games"
+  ]
+ },
+ "com.unknown.documentsfilemanager": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "Documents-FileManager handles upload and storage of various file types from computer and FTP servers. It also downloads different files via direct links. The app provides file management capabilities for transferring and organizing documents across multiple sources.",
+  "features": [
+   "FTP Support",
+   "Link Downloads",
+   "File Upload",
+   "Multi-source Management"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "91f3e0b339fb147cdad6d66dcd77be31fac8ada2c334226f286885906912062b",
+  "subtitle": "File manager with FTP and link downloads",
+  "tags": [
+   "file manager",
+   "ftp",
+   "download",
+   "documents",
+   "storage",
+   "transfer"
+  ]
+ },
+ "com.unknown.dofuplayer": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "Dofu Player lets you browse sports channels. If channels do not load, a VPN may be required. The app has no advertisements.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b78737698f6e83261b5223aaee818008dd278295d62b8585d312a5ff3bc89d17",
+  "subtitle": "Sports channel streaming app",
+  "tags": [
+   "sports",
+   "streaming",
+   "channels",
+   "vpn",
+   "no-ads",
+   "player"
+  ]
+ },
  "com.unofficial.balatro": {
   "category": "games",
   "date": "2026-10-15",
@@ -11290,6 +13042,25 @@
    "education",
    "utilities",
    "homework"
+  ]
+ },
+ "com.vectorink.formscanner": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "Documa is a tweak that unlocks subscription features. Version 1.0.9. Created by riftysIPAlibrary.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "326881caa931580476f774efebbac1ba466e2c9d2bd682f2dee55dbc96cbb2ab",
+  "subtitle": "Subscription unlocked tweak for Documa",
+  "tags": [
+   "documa",
+   "subscription",
+   "unlocked",
+   "tweak",
+   "ipa",
+   "riftys"
   ]
  },
  "com.vedasapps.flashcards": {
@@ -11486,6 +13257,23 @@
    "streaming",
    "pro",
    "video"
+  ]
+ },
+ "com.wb.dc.dcwc": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "A guide for iOS gamers in a universe where heroes and villains clash and the fate of worlds hangs in the balance.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "c1c98c6e68412f76a94513befe7d136fe2a8a20506f7a5d6fc0b24435cea82f0",
+  "subtitle": "A guide for iOS gamers in the DC universe",
+  "tags": [
+   "dc",
+   "worlds",
+   "collide",
+   "guide",
+   "ios",
+   "games"
   ]
  },
  "com.wellocution.iosapp": {
@@ -12323,6 +14111,71 @@
    "utility"
   ]
  },
+ "cypwn.DarkCloud_6.16.1.6.16.1": {
+  "category": "entertainment",
+  "date": "2026-10-20",
+  "description": "SoundCloud client featuring DarkCloud by CodeyMoore.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c0387740d9618dd25b4b2a1305ee21c27d3794fa052a782a6bf17c68504d92e4",
+  "subtitle": "SoundCloud client with DarkCloud integration",
+  "tags": [
+   "soundcloud",
+   "audio",
+   "music",
+   "streaming",
+   "darkcloud"
+  ]
+ },
+ "cypwn.Dead_Cells_plus_v3.2.2.3.2.2": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "Death is not the end.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "880931d63bc9e7d380a579a5291067e468ba84bce2bdeaa7f2030f4576a86f42",
+  "subtitle": "Death is not the end",
+  "tags": [
+   "dead cells",
+   "mod",
+   "v3.2.2",
+   "cypwn"
+  ]
+ },
+ "cypwn.DebToIPA_TS.1.0.2": {
+  "category": "developer",
+  "date": "2026-10-20",
+  "description": "DebToIPA_TS converts .deb packages to .ipa files for installation via TrollStore. The tool only processes .deb files that contain iOS applications. Version 1.0.2.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2d21082fbe723c20a12829a432f490dedee3e5a4134c71969b5990ef87bd1955",
+  "subtitle": "Convert .deb files to .ipa for TrollStore",
+  "tags": [
+   "deb",
+   "ipa",
+   "trollstore",
+   "convert",
+   "developer",
+   "tool"
+  ]
+ },
+ "cypwn.Delta_TS.1.3": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Nintendo DS emulator.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "930faceecf512448b093edf5de24169749f3036fe2e4e10d9105082630d13644",
+  "subtitle": "Nintendo DS emulator",
+  "tags": [
+   "nintendo",
+   "ds",
+   "emulator",
+   "delta",
+   "ts",
+   "cypwn"
+  ]
+ },
  "cypwn.cl1m4x.1.3": {
   "category": "other",
   "date": "2026-10-18",
@@ -12335,6 +14188,41 @@
    "cl1m4x",
    "kanji",
    "cypwn"
+  ]
+ },
+ "dance.fitness.app": {
+  "category": "lifestyle",
+  "date": "2026-10-20",
+  "description": "Dancebit is a lifestyle application. This version includes premium features, and the IPA has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Premium"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "af977bed62a6b6a127c3e235d7e29a6a79dbdc3321fe451ce867894620c06a57",
+  "subtitle": "Dancebit lifestyle app",
+  "tags": [
+   "dancebit",
+   "lifestyle",
+   "premium",
+   "ttjb"
+  ]
+ },
+ "dazz.camera.vintagecamera": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Play Dazz with full access to all features through the premium unlocked version.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "34d86b81aaf6494ca82affdcbc2e1adddca7b1c2a835403014e74b47d84a4337",
+  "subtitle": "Premium Unlocked game",
+  "tags": [
+   "dazz",
+   "game",
+   "premium",
+   "unlocked",
+   "kamohacks"
   ]
  },
  "de.BodyFast.BodyFast2": {
@@ -12369,6 +14257,23 @@
    "design",
    "wheel",
    "utility"
+  ]
+ },
+ "dev.bluewake.BlueWake": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "BlueWake requires your own legally obtained copy of The Wind Waker for GameCube, USA version (GZLE01, revision 0). The app contains no disc image, game assets or saves. You build the app using code translated from your disc, which remains yours alone to never share or upload. Available for Mac, iPhone, iPad, Linux and Android. This project replaces Wind Waker Recomp 0.4.0, maintained by Elliott and Chris. Smooth Motion is off by default and can be enabled by pressing F10, while the experimental 60 FPS game logic from version 0.4.0 is removed.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "10bb7d51757400f3655d67825d3ab0e1b91bf7bb7bcb9c9a13da7651263dae98",
+  "subtitle": "Play your copy of the game on Mac, iPhone, iPad and more",
+  "tags": [
+   "bluewake",
+   "gamecube",
+   "wind waker",
+   "emulator",
+   "recomp",
+   "gaming"
   ]
  },
  "dev.leoestremadoyro.AnimeTracker": {
@@ -12550,6 +14455,23 @@
    "ios"
   ]
  },
+ "games.synthez.zombie.survival.multiplayer": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Dead Impact is a survival MMORPG for iOS gamers seeking a thrilling combination of intense combat and survival gameplay. Enter a dangerous world where you must fight to stay alive, manage your resources, and navigate challenging environments. Experience action-packed multiplayer encounters and test your survival skills against various threats in this engaging mobile role-playing game.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "ba7001f93fa5164a3fd80e44fb791a635737be8c5be21cc471b83ec225eed25d",
+  "subtitle": "Survival MMORPG with intense combat",
+  "tags": [
+   "survival",
+   "mmorpg",
+   "combat",
+   "action",
+   "multiplayer",
+   "rpg"
+  ]
+ },
  "games.war.strategy.dragon.clash.aaw.hourgames": {
   "category": "games",
   "date": "2026-10-14",
@@ -12717,6 +14639,25 @@
    "tracker",
    "visits",
    "map"
+  ]
+ },
+ "io.adisoft.bugsquadtactics": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "BugSquad offers tactics gameplay with integrated hack features. Earn more in-game currency per battle using the currency multiplier, or instantly add currency to your account.",
+  "features": [
+   "Currency Multiplier",
+   "Add Currency"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9955d47e413f8ce6629837fa176a24285d0f3478cd5d2e715351456b2bc3537d",
+  "subtitle": "Bug Squad Tactics hack features and currency tools",
+  "tags": [
+   "bugsquad",
+   "tactics",
+   "games",
+   "strategy",
+   "currency"
   ]
  },
  "io.blocktackle.bcg": {
@@ -12971,6 +14912,47 @@
    "casual"
   ]
  },
+ "jp.co.bandainamcoent.BNEI0333": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "DBLEGENDS is a modified IPA file tested and compiled by the TTJB Team. This app provides game modifications and has been thoroughly checked by the developers for your device.",
+  "features": [
+   "Mods",
+   "Checked by TTJB Team"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "32dc36ad6f6c67b35ca4c7ea071ad71e1ff3414d700f00ef9324d2eaa43f4045",
+  "subtitle": "Modified IPA collection for DBLEGENDS",
+  "tags": [
+   "dblegends",
+   "mods",
+   "ipa",
+   "ttjb",
+   "games"
+  ]
+ },
+ "jp.co.bandainamcoent.BNEI0334": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "Dragon Ball Legends tool offering specific modification features for the game. Includes one hit kill, no ki cost, no character swap cooldown, no vanish cooldown, and auto complete functionality.",
+  "features": [
+   "One Hit Kill",
+   "No Ki Cost",
+   "No Swap CoolDown",
+   "No Vanish CoolDown",
+   "Auto Complete"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "977cd387b8441fbc63b401cb75840f13cd6f057d920db55e70256fc79189b464",
+  "subtitle": "Dragon Ball Legends hack features",
+  "tags": [
+   "dragon",
+   "ball",
+   "legends",
+   "hack",
+   "cheat"
+  ]
+ },
  "jp.co.gcgames.bc": {
   "category": "games",
   "date": "2026-10-15",
@@ -13120,6 +15102,25 @@
    "compatibility"
   ]
  },
+ "mansuri.aidrumpadbeatsdjmixer.com": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "DJDrumPad is a drum pad application. The provided version has been modified with premium features injected.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "995eed8efe06bb68185108d75c09e5ebfbf2b3d16c990e88c4b6dc83df0d04c7",
+  "subtitle": "Drum pad with premium features unlocked",
+  "tags": [
+   "drum",
+   "pad",
+   "dj",
+   "music",
+   "beat",
+   "premium"
+  ]
+ },
  "me.cranci.AnimeGen": {
   "category": "entertainment",
   "date": "2026-10-19",
@@ -13152,6 +15153,61 @@
    "offline"
   ]
  },
+ "me.oatmealdome.DolphiniOS-njb-patreon-beta": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "DolphiniOS is a GameCube and Wii emulator for iPhone and iPad. It brings the Dolphin emulator to iOS devices, allowing users to play GameCube and Wii games on their mobile devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "98f1eb8d212d3d8b0c9f94c1edbcaaa2903f19ceec1b4da0ef60c390bf67fea7",
+  "subtitle": "GameCube and Wii emulator for iOS",
+  "tags": [
+   "emulator",
+   "gamecube",
+   "wii",
+   "dolphin",
+   "ios",
+   "gaming"
+  ]
+ },
+ "me.oatmealdome.DolphiniOS-ts-patreon-beta": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "DolphiniOS is a GameCube and Wii emulator for iOS. It allows users to run GameCube and Wii games on supported iOS devices. The app is in beta development.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "55369659fb79e5deb6e57919e91c59e570b5916ba96dcc0eed74eb1f5a310466",
+  "subtitle": "GameCube & Wii Emulator",
+  "tags": [
+   "gamecube",
+   "wii",
+   "emulator",
+   "ios",
+   "gaming",
+   "retro"
+  ]
+ },
+ "me.oatmealdome.dolphinios-njb": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "DolphiniOS is a port of the Dolphin emulator to iOS. It allows playing GameCube and Wii software with enhancements such as higher resolution and performance improvements.",
+  "features": [
+   "GameCube support",
+   "Wii support",
+   "iOS port"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "20dfa430ff2e393cbd6a0c7d0504cdb13a201ec454e0b99b597ad74a25a67214",
+  "subtitle": "GameCube & Wii emulator for iOS",
+  "tags": [
+   "emulator",
+   "gamecube",
+   "wii",
+   "ios",
+   "dolphin",
+   "retro"
+  ]
+ },
  "me.tomt000.ts.copylog": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -13166,6 +15222,23 @@
    "manager",
    "copylog",
    "utilities"
+  ]
+ },
+ "media.conduit.mobile": {
+  "category": "entertainment",
+  "date": "2026-10-20",
+  "description": "Conduit is a self-hosted film and television application built around Stremio-compatible add-ons. It allows you to share household profiles, libraries, and watch progress across your devices. Clients fetch catalogs and media directly from add-ons and sources. Features include shared household profiles with independent libraries and watch history, Stremio-compatible catalogs, metadata, streams, and subtitles, web and Electron desktop clients backed by a shared interface, and Android and iOS clients with a shared Compose UI and native playback. This is pre-release software.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "57e5d224063f1a6d45579c4801cbfd8161686e3a4a477f82afa4850bc81e72d4",
+  "subtitle": "Self-hosted film and television app",
+  "tags": [
+   "streaming",
+   "media",
+   "television",
+   "films",
+   "stremio",
+   "self-hosted"
   ]
  },
  "moe.ampersand.track.sideload": {
@@ -13256,6 +15329,23 @@
    "education"
   ]
  },
+ "net.kairosoft.iOS.demoncastle": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Demon Castle Story is a simulation and management game for iOS with classic pixel\u2011art visuals and deep strategy.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5d7bc5b1e5d40bde74725ea61f3d8733590d0a8acdd5b6959e98ce0ec85ba42b",
+  "subtitle": "Pixel\u2011art simulation & management game",
+  "tags": [
+   "simulation",
+   "management",
+   "pixel-art",
+   "ios",
+   "game",
+   "strategy"
+  ]
+ },
  "net.limneos.AudioRecorder": {
   "category": "photo-video",
   "date": "2026-10-15",
@@ -13289,6 +15379,23 @@
    "audio",
    "trollstore",
    "recorder"
+  ]
+ },
+ "net.mattdavenport.daysuntil": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "Days is an event countdown application. This version includes premium features unlocked.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "2dac14d81e3f0c9918b9c3326dd23913c3ccbb56ec86314dd54eb68a5fbb1031",
+  "subtitle": "Event countdown app",
+  "tags": [
+   "countdown",
+   "events",
+   "days",
+   "timer"
   ]
  },
  "net.quochuywdm.collanote496": {
@@ -13357,6 +15464,23 @@
    "ios12",
    "flooder",
    "airtroller"
+  ]
+ },
+ "net.sourceloc.deb-to-ipa-app": {
+  "category": "developer",
+  "date": "2026-10-20",
+  "description": "DebToIPA converts .deb packages into IPA files for iOS, provided the .deb contains a GUI application. Examples of supported packages include Filza, Apps Manager, and Sonic.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "432d01f6813a2837250af075eca3eac6e6decc48bf41d26a27f1071c47fc1e62",
+  "subtitle": "Convert .deb files to IPA",
+  "tags": [
+   "deb",
+   "ipa",
+   "converter",
+   "ios",
+   "app",
+   "tool"
   ]
  },
  "net.yukh.xui.ios": {
@@ -13519,6 +15643,37 @@
    "web"
   ]
  },
+ "org.d2rmobile.app": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Play Diablo II: Resurrected offline on iPhone, iPad and Apple silicon Mac.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "cadce5ccf6480e7520963897d990206cea8e75479d50bdf4316dbb09360c7da1",
+  "subtitle": "Play Diablo II: Resurrected offline",
+  "tags": [
+   "diablo",
+   "rpg",
+   "offline",
+   "gaming",
+   "action"
+  ]
+ },
+ "org.darkreader.DarkReaderSafari": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "This application package has been tested and compiled by the TTJB Team.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "dc9bace3d6007240f267254ad68af944c7abada108e4ef5e148a2c4b516b0782",
+  "subtitle": "DarkReader IPA",
+  "tags": [
+   "darkreader",
+   "ipa",
+   "ttjb",
+   "utility"
+  ]
+ },
  "org.ericbetts.CattleGrid": {
   "category": "developer",
   "date": "2026-10-15",
@@ -13534,6 +15689,24 @@
    "trollstore",
    "creator",
    "developer"
+  ]
+ },
+ "org.fastdevsproject.altervista.Device-Monitor": {
+  "category": "other",
+  "date": "2026-10-20",
+  "description": "DeviceMonitor is an app from AppTesters IPA Repo. It comes with subscription unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1a09028e28457625303added84d419c987b4de305c05674da765a1364e8e2706",
+  "subtitle": "Device monitoring with subscription unlocked",
+  "tags": [
+   "devicemonitor",
+   "subscription",
+   "unlocked",
+   "ipa",
+   "testers"
   ]
  },
  "org.htf65jud.balatro": {
@@ -13773,6 +15946,25 @@
    "utilities"
   ]
  },
+ "studio.wannaplay.bowlingjb": {
+  "category": "utilities",
+  "date": "2026-10-20",
+  "description": "BowlingPlus is a tweak for Bowling by Jason Belmonte, made for version 1.907. It fixes two long-running bugs and adds a menu for offline Practice. The app works on a normal, non-jailbroken iPhone. Nothing shows on screen until you shake your phone. Shake again or tap outside the menu to close it. The practice features turn themselves off in online matches, tournaments, and the tutorial. To use, shake to open the menu grouped into cards, tap a card title to fold it, and tap the info icon or a row title to view descriptions.",
+  "features": [
+   "Bug fixes",
+   "Offline practice menu"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "18cc7a532f0ffe4413ea5dd51fddba12b1f19b8355463bc224142ada8869cc4c",
+  "subtitle": "A tweak for Bowling by Jason Belmonte",
+  "tags": [
+   "bowling",
+   "tweak",
+   "practice",
+   "offline",
+   "tools"
+  ]
+ },
  "thebaselab.VS-Code": {
   "category": "developer",
   "date": "2026-10-18",
@@ -13844,22 +16036,48 @@
   ]
  },
  "uk.gleissner.c64commander": {
-  "category": "utilities",
-  "date": "2026-10-15",
-  "description": "C64 Commander allows you to control and manage a Commodore 64 Ultimate from your device on your local network. Connect to your hardware and manage it directly.",
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "Control and manage a Commodore 64 Ultimate from your device on your local network. Find any page, setting, action, tune or disk by name using search with multiple access methods. Control the machine, drives, printer, SID mixer, lighting, and streams from a single dashboard. Play programs and SID music from local files, device storage, HVSC, or CommoServe using playlists and SID Radio. Use remote input features including an on-screen joystick and keyboard, and stream audio or video directly from the running machine.",
   "features": [
-   "Dev"
+   "Device support",
+   "Search",
+   "Dashboard",
+   "Playlists and SID Radio",
+   "Remote Input and Live View"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "60d6b427a3a69d04382d7d946b332c1265a378f2705df360d4b990944b8f22ce",
-  "subtitle": "Control and manage a Commodore 64 Ultimate",
+  "src_hash": "76694e7a4546fe40416f951b9c720f02f4ce669d9c580667f927b27394bcb373",
+  "subtitle": "Control and manage your Commodore 64 Ultimate",
   "tags": [
-   "c64",
    "commodore",
-   "ultimate",
-   "controller",
-   "manager",
-   "retro"
+   "c64",
+   "retro",
+   "emulator",
+   "gaming",
+   "sid"
+  ]
+ },
+ "us.kr.baseballnine": {
+  "category": "games",
+  "date": "2026-10-20",
+  "description": "BASEBALL 9 modded version with unlimited coins, unlimited stamina, unlimited gems, unlimited recruit tickets, and unlimited gold badges.",
+  "features": [
+   "Unlimited Coins",
+   "Unlimited Stamina",
+   "Unlimited Gems",
+   "Unlimited Recruit Tickets",
+   "Unlimited Gold Badges"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8089ed24b62de56dce01e3a714d176992b7194fa322d24e8ddb3dede34bbf80c",
+  "subtitle": "BASEBALL 9 modded version",
+  "tags": [
+   "baseball",
+   "sports",
+   "game",
+   "mod",
+   "arcade"
   ]
  },
  "wiki.qaq.Asspp": {
