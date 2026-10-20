@@ -173,12 +173,15 @@
     document.documentElement.classList.toggle("ad-free", adFree);
     if (location.hostname !== "getaccretion.app" || document.getElementById("adsbygoogle-js")) return;
     if (adFree || !A.adRoute()) return;
-    const s = document.createElement("script");
-    s.id = "adsbygoogle-js";
-    s.async = true;
-    s.crossOrigin = "anonymous";
-    s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4500603236648893";
-    document.head.append(s);
+    // two AdSense accounts (owner's call, 2026-10-19); same list in scripts/site.py ADSENSE_CLIENTS
+    ["ca-pub-4500603236648893", "ca-pub-1352971207491342"].forEach((client, i) => {
+      const s = document.createElement("script");
+      s.id = i ? `adsbygoogle-js-${i + 1}` : "adsbygoogle-js";
+      s.async = true;
+      s.crossOrigin = "anonymous";
+      s.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}`;
+      document.head.append(s);
+    });
   }
 
   async function refreshUnread() {
