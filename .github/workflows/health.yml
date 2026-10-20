@@ -37,6 +37,7 @@ jobs:
           OSS_REGION: ${{ vars.OSS_REGION }}
           OSS_KEY_ID: ${{ secrets.OSS_KEY_ID }}
           OSS_SECRET: ${{ secrets.OSS_SECRET }}
+          OSS_HOST: ${{ vars.OSS_HOST }}
           ADMOB_CLIENT_ID: ${{ secrets.ADMOB_CLIENT_ID }}
           ADMOB_CLIENT_SECRET: ${{ secrets.ADMOB_CLIENT_SECRET }}
           ADMOB_REFRESH_TOKEN: ${{ secrets.ADMOB_REFRESH_TOKEN }}

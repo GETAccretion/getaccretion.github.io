@@ -40,3 +40,9 @@ test('the Alibaba Cloud link uses the S3-compatible host and names the file', as
   assert.match(link, /^https:\/\/example-builds\.s3\.oss-ap-southeast-1\.aliyuncs\.com\/io\.github\.getaccretion\.Accretion\/1\.0\.39\.ipa\?AWSAccessKeyId=FICTIONAL&Expires=\d+&Signature=[^&]+&response-content-disposition=attachment%3B%20filename%3D%22Accretion_1\.0\.39\.ipa%22$/);
   assert.equal(fetched[0].init.headers.Range, 'bytes=0-0');
 });
+
+test('with OSS_HOST the link uses our domain and OSS signing', async () => {
+  const { context } = load({ OSS_BUCKET: 'example-builds', OSS_REGION: 'ap-southeast-1', OSS_KEY_ID: 'FICTIONAL', OSS_SECRET: 'fictional', OSS_HOST: 'oss.example.invalid' });
+  const link = await context.ossLink('a/b.ipa', 'B_1.ipa');
+  assert.match(link, /^https:\/\/oss\.example\.invalid\/a\/b\.ipa\?OSSAccessKeyId=FICTIONAL&Expires=\d+&Signature=[^&]+&response-content-disposition=/);
+});
