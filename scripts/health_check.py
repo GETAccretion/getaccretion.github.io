@@ -16,6 +16,7 @@ OSS_SECRET are set.
 import base64
 import datetime
 import hashlib
+import hmac
 import json
 import os
 import re
@@ -77,6 +78,39 @@ def oracle_link(p):
     raw = hashlib.md5(f"{expires}{uri} {env('OCI_LINK_SECRET')}".encode()).digest()
     digest = base64.urlsafe_b64encode(raw).decode().rstrip("=")
     return f"https://{env('OCI_BUILDS_HOST')}/builds/{quoted(p)}?md5={digest}&expires={expires}"
+
+
+def oss_link(p, name):
+    """Signature version 2 query link on OSS's S3-compatible host, as ossLink() in the download
+    function makes it (response-content-disposition is part of the signed resource, unencoded)"""
+    bucket, region = env("OSS_BUCKET"), env("OSS_REGION")
+    expires = int(time.time()) + 300
+    disposition = f'attachment; filename="{name}"'
+    resource = f"/{bucket}/{quoted(p)}?response-content-disposition={disposition}"
+    to_sign = f"GET\n\n\n{expires}\n{resource}".encode()
+    digest = hmac.new(env("OSS_SECRET").encode(), to_sign, hashlib.sha1).digest()
+    query = urllib.parse.urlencode(
+        {
+            "AWSAccessKeyId": env("OSS_KEY_ID"),
+            "Expires": expires,
+            "Signature": base64.b64encode(digest).decode(),
+            "response-content-disposition": disposition,
+        },
+        quote_via=urllib.parse.quote,
+    )
+    return f"https://{bucket}.s3.oss-{region}.aliyuncs.com/{quoted(p)}?{query}"
+
+
+def first_byte(url):
+    """(HTTP status, OSS error code) of a GET for the first byte; (0, "?") when unreachable"""
+    try:
+        request = urllib.request.Request(url, headers={"Range": "bytes=0-0"})
+        with urllib.request.urlopen(request, timeout=15) as r:
+            return r.status, ""
+    except urllib.error.HTTPError as e:
+        return e.code, e.headers.get("x-oss-ec", "?")
+    except OSError:
+        return 0, "?"
 
 
 def supabase_link(url, key, p):
@@ -180,17 +214,14 @@ def main():
             sources.append(("Oracle copy", lambda: oracle_link(p)))
         else:
             lines.append("FAIL: Oracle copy configuration is incomplete")
-        oss = oss_client()
-        if oss:
-            # presigned for HEAD, which is what answers() sends
-            sources.append(
-                (
-                    "Alibaba Cloud copy",
-                    lambda: oss[0].generate_presigned_url(
-                        "head_object", Params={"Bucket": oss[1], "Key": p}, ExpiresIn=300
-                    ),
-                )
-            )
+        if oss_client():
+            # the same link the download function makes (ossLink in supabase/functions/download),
+            # asked for its first byte, with Alibaba's error code when it refuses
+            status, code = first_byte(oss_link(p, "check.ipa"))
+            ok = status in (200, 206)
+            note = "" if ok else f" (x-oss-ec {code})"
+            mark = "- ok" if ok else "FAIL"
+            lines.append(f"{mark}: Alibaba Cloud copy answered {status or 'nothing'}{note}")
         for name, link in sources:
             try:
                 status = answers(link())
