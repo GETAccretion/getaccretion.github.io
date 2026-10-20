@@ -687,10 +687,91 @@ class AppPages(unittest.TestCase):
         return a
 
     @staticmethod
-    def json_ld(page):
-        return json.loads(
+    def json_ld(page, kind="SoftwareApplication"):
+        data = json.loads(
             re.search(r'<script type="application/ld\+json">(.*?)</script>', page, re.S).group(1)
         )
+        return next(n for n in data["@graph"] if n["@type"] == kind)
+
+    def test_app_page_breadcrumb_icon_alt_and_similar_apps(self):
+        import tempfile
+
+        store = self.load_site()
+        apps = [
+            self.app("com.a.one", name="One", category="games"),
+            self.app("com.a.two", name="Two", category="games"),
+            self.app("com.a.three", name="Three", category="games"),
+            self.app("com.b.util", name="Util", category="nonsense"),  # listed under Other
+        ]
+        with tempfile.TemporaryDirectory() as out, mock.patch.object(store, "OUT", out):
+            store.share_pages(
+                apps, {}, {}, "https://getaccretion.app", (), {"com.a.one": ["com.b.util", "gone.x"]}
+            )
+            with open(os.path.join(out, "app", "com.a.one", "index.html"), encoding="utf-8") as f:
+                page = f.read()
+        self.assertIn('alt="One icon"', page)
+        self.assertIn('<a href="https://getaccretion.app/apps/games/">Games</a> › One', page)
+        crumbs = self.json_ld(page, "BreadcrumbList")["itemListElement"]
+        self.assertEqual([c["name"] for c in crumbs], ["Accretion", "Games", "One"])
+        self.assertEqual(self.json_ld(page)["name"], "One")
+        similar = page.split("<h2>Similar apps</h2>")[1]
+        # the AI's pick first (unknown ids dropped), then the same category, never itself
+        self.assertLess(similar.index("/app/com.b.util/"), similar.index("/app/com.a.two/"))
+        self.assertIn("/app/com.a.three/", similar)
+        self.assertNotIn("/app/com.a.one/", similar)
+        self.assertNotIn("gone.x", similar)
+
+    def test_category_pages_paginate_and_go_in_the_sitemap(self):
+        import tempfile
+
+        store = self.load_site()
+        apps = []
+        for n in range(201):
+            a = self.app(f"com.g.app{n}", name=f"Game {n}")
+            a["category"] = "games"
+            a["versions"][0]["date"] = f"2026-01-{1 + n % 28:02d}"
+            apps.append(a)
+        apps.append(self.app("com.o.x", name="Odd"))
+        apps[-1]["category"] = "weird"
+        with tempfile.TemporaryDirectory() as out, mock.patch.object(store, "OUT", out):
+            entries = store.category_pages(apps, "https://getaccretion.app/")
+            urls = [u for u, _ in entries]
+            self.assertEqual(
+                urls,
+                [
+                    "https://getaccretion.app/apps/",
+                    "https://getaccretion.app/apps/games/",
+                    "https://getaccretion.app/apps/games/2/",
+                    "https://getaccretion.app/apps/other/",
+                ],
+            )
+
+            def read(*rel):
+                with open(os.path.join(out, *rel, "index.html"), encoding="utf-8") as f:
+                    return f.read()
+
+            first, second, hub = read("apps", "games"), read("apps", "games", "2"), read("apps")
+            store.sitemap("https://getaccretion.app", apps, out=out, extra=entries)
+            with open(os.path.join(out, "sitemap.xml"), encoding="utf-8") as f:
+                smap = f.read()
+        self.assertEqual(first.count('<li><a href="/app/'), 200)
+        self.assertEqual(second.count('<li><a href="/app/'), 1)
+        self.assertIn('<a href="/apps/games/2/">Older →</a>', first)
+        self.assertIn('<a href="/apps/games/">← Newer</a>', second)
+        self.assertIn('<link rel="canonical" href="https://getaccretion.app/apps/games/2/">', second)
+        self.assertIn('<a href="/apps/games/">Games</a> <span class="muted">201</span>', hub)
+        self.assertNotIn("<script src", first)
+        for u in urls:
+            self.assertIn(f"<loc>{u}</loc>", smap)
+
+    def test_home_page_has_canonical_and_absolute_share_image(self):
+        with open(os.path.join(os.path.dirname(__file__), "..", "site", "index.html"), encoding="utf-8") as f:
+            home = f.read()
+        self.assertIn('<link rel="canonical" href="https://getaccretion.app/">', home)
+        self.assertIn(
+            '<meta property="og:image" content="https://getaccretion.app/assets/source-header.png">', home
+        )
+        self.assertIn('<a href="apps/games/">Games</a>', home)
 
     def test_own_app_page_has_content_and_no_redirect(self):
         store = self.load_site()

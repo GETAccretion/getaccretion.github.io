@@ -220,7 +220,7 @@
       window.scrollTo(0, 0);
       return renderStatus();
     }
-    document.title = r.saved ? "Saved · Accretion" : "Accretion";
+    document.title = r.saved ? "Saved · Accretion" : "Accretion: every AltStore & SideStore app in one store";
     const changed = JSON.stringify(r) !== JSON.stringify(state.f);
     const leavingHome = changed && state.f.view === "home" && defaultView(state.f) && !defaultView(r) && !r.q;
     state.f = r;

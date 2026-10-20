@@ -453,6 +453,17 @@ h1, .stats dd { background: linear-gradient(100deg, var(--fg) 30%, color-mix(in 
 .doc h2 { font: 700 18px var(--display); margin: 26px 0 6px; }
 .doc p, .doc li { max-width: 68ch; }
 .doc ul { padding-left: 20px; display: grid; gap: 4px; }
+/* static app and category pages: breadcrumb, app link lists, pager */
+.crumbs { margin: 4px 0 14px; }
+.crumbs a { color: var(--link); }
+.doc ul.app-links { list-style: none; padding: 0; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; }
+.app-links a { display: flex; align-items: center; gap: 10px; padding: 6px; border-radius: var(--radius); color: var(--fg); text-decoration: none; }
+.app-links a:hover { background: var(--raised); }
+.app-links img { border-radius: 22%; flex: none; }
+.app-links span { display: grid; min-width: 0; }
+.app-links small { color: var(--muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pager { display: flex; gap: 16px; margin-top: 18px; }
+.pager a, .cats a { color: var(--link); }
 
 /* sign in with Apple / Google / GitHub / Discord */
 .oauth { display: grid; gap: 8px; margin-bottom: 4px; }
