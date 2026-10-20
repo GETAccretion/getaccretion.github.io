@@ -177,7 +177,7 @@ Resources:
         Comment: Accretion builds
         HttpVersion: http2and3
         IPV6Enabled: true
-        PriceClass: PriceClass_100
+        PriceClass: PriceClass_200 # Asia, Middle East and Africa edges too (owner 2026-10-20)
         Origins:
           - Id: builds
             DomainName: !GetAtt BuildsBucket.RegionalDomainName

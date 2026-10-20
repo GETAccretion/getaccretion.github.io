@@ -22,6 +22,7 @@
 // if AWS is down, stopped or missing the file, the Supabase copy is served instead.
 import { createClient } from "npm:@supabase/supabase-js@2.117.2";
 import { getSignedUrl } from "npm:@aws-sdk/cloudfront-signer@3.1149.0";
+import { AwsClient } from "npm:aws4fetch@1.0.20";
 import { createHash } from "node:crypto";
 
 const admin = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!);
@@ -89,14 +90,41 @@ async function ociLink(path: string, name: string): Promise<string | null> {
   return null;
 }
 
-// a link to one build: CloudFront when it's healthy, then the Supabase copy, then the Oracle copy
+// The fourth copy: an Alibaba Cloud OSS bucket (private) filled from S3 by copy_builds_to_s3.py,
+// served with a presigned S3-compatible (SigV4) link. Off until all four OSS_* secrets are set.
+const OSS_BUCKET = Deno.env.get("OSS_BUCKET") ?? "";
+const OSS_REGION = Deno.env.get("OSS_REGION") ?? ""; // e.g. ap-southeast-1
+const OSS_KEY_ID = Deno.env.get("OSS_KEY_ID") ?? "";
+const OSS_SECRET = Deno.env.get("OSS_SECRET") ?? "";
+
+async function ossLink(path: string, name: string): Promise<string | null> {
+  if (!OSS_BUCKET || !OSS_REGION || !OSS_KEY_ID || !OSS_SECRET) return null;
+  try {
+    const client = new AwsClient({ accessKeyId: OSS_KEY_ID, secretAccessKey: OSS_SECRET, service: "s3", region: OSS_REGION });
+    const url = new URL(`https://${OSS_BUCKET}.oss-${OSS_REGION}.aliyuncs.com/${path.split("/").map(encodeURIComponent).join("/")}`);
+    url.searchParams.set("response-content-disposition", `attachment; filename="${name}"`);
+    url.searchParams.set("X-Amz-Expires", String(LINK_SECONDS));
+    const link = (await client.sign(url.href, { method: "GET", aws: { signQuery: true } })).url;
+    // a presigned GET can't answer HEAD, so the check asks for the first byte
+    const check = await fetch(link, { headers: { Range: "bytes=0-0" }, signal: AbortSignal.timeout(4000) });
+    await check.body?.cancel();
+    if (check.ok) return link;
+    console.warn(`The Alibaba Cloud copy answered ${check.status} for ${path}`);
+  } catch (e) {
+    console.warn(`The Alibaba Cloud copy is unreachable for ${path} (${e instanceof Error ? e.message : e})`);
+  }
+  return null;
+}
+
+// a link to one build: CloudFront when it's healthy, then the Supabase copy, then the Oracle copy,
+// then the Alibaba Cloud copy
 async function copyLink(path: string, name: string): Promise<string | null> {
   const cdn = await cdnLink(path, name);
   if (cdn) return cdn;
   const { data, error } = await admin.storage.from("builds").createSignedUrl(path, LINK_SECONDS, { download: name });
   if (!error && data) return data.signedUrl;
   console.warn(`No Supabase copy of ${path} (${error?.message ?? "unknown"}); trying the Oracle copy`);
-  return await ociLink(path, name);
+  return (await ociLink(path, name)) ?? (await ossLink(path, name));
 }
 
 // Our own builds go through the download proxy as well, so the person downloading sees only

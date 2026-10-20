@@ -9,7 +9,8 @@ Prints Markdown. Lines that need action start with "FAIL" or "WARN"; the workflo
 one issue when there are any.
 
 Needs SUPABASE_ACCESS_TOKEN, CDN_DOMAIN, CDN_KEY_PAIR_ID, CDN_PRIVATE_KEY, OCI_BUILDS_HOST,
-OCI_LINK_SECRET.
+OCI_LINK_SECRET. The Alibaba Cloud copy is checked once OSS_BUCKET, OSS_REGION, OSS_KEY_ID and
+OSS_SECRET are set.
 """
 
 import base64
@@ -29,7 +30,7 @@ from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import padding
 
 from common import path, version_key
-from copy_builds_to_s3 import service_key
+from copy_builds_to_s3 import oss_client, service_key
 from supabase_setup import sql
 
 ACCRETION = "io.github.getaccretion.Accretion"
@@ -179,6 +180,17 @@ def main():
             sources.append(("Oracle copy", lambda: oracle_link(p)))
         else:
             lines.append("FAIL: Oracle copy configuration is incomplete")
+        oss = oss_client()
+        if oss:
+            # presigned for HEAD, which is what answers() sends
+            sources.append(
+                (
+                    "Alibaba Cloud copy",
+                    lambda: oss[0].generate_presigned_url(
+                        "head_object", Params={"Bucket": oss[1], "Key": p}, ExpiresIn=300
+                    ),
+                )
+            )
         for name, link in sources:
             try:
                 status = answers(link())

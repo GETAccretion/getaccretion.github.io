@@ -8,6 +8,8 @@ copies are only listed, and removed when PRUNE_SUPABASE=true (the workflow's Pru
 once S3 has them. Copies only what's missing; safe to run again.
 
 Needs SUPABASE_ACCESS_TOKEN, BUILDS_BUCKET, BUILDS_REGION, BUILDS_AWS_KEY_ID, BUILDS_AWS_SECRET.
+With OSS_BUCKET, OSS_REGION, OSS_KEY_ID and OSS_SECRET it also fills the Alibaba Cloud OSS backup
+copy (every build, from S3); without them that copy is skipped.
 """
 
 import json
@@ -117,6 +119,8 @@ def main():
         aws_secret_access_key=env("BUILDS_AWS_SECRET"),
     )
     supabase = Supabase(url, service_key(ref))
+    oss = oss_client()
+    to_oss = 0
     rows = sql(ref, "select bundle_id, version, path from public.hosted_builds order by created_at") or []
     keep = mirrored(rows, KEEP_IN_SUPABASE)
     prune = os.environ.get("PRUNE_SUPABASE", "").strip().lower() == "true"
@@ -135,6 +139,14 @@ def main():
             to_s3 += 1
             there_s3 = True
             print(f"Copied {name} to S3")
+        if oss and not in_s3(oss[0], oss[1], name):
+            # the Alibaba Cloud copy keeps every build, like S3
+            with tempfile.TemporaryFile() as tmp:
+                s3.download_fileobj(bucket, name, tmp)
+                tmp.seek(0)
+                oss[0].upload_fileobj(tmp, oss[1], name)
+            to_oss += 1
+            print(f"Copied {name} to Alibaba Cloud OSS")
         if name in keep and not there_supabase:
             with tempfile.TemporaryFile() as tmp:
                 s3.download_fileobj(bucket, name, tmp)
@@ -153,7 +165,28 @@ def main():
     print(
         f"Builds: {len(rows)} total, {to_s3} copied to S3, {to_supabase} copied to Supabase, "
         f"{pruned} old Supabase copies removed (Supabase keeps the newest {KEEP_IN_SUPABASE} per app)"
+        + (f", {to_oss} copied to Alibaba Cloud OSS" if oss else "")
     )
+
+
+def oss_client():
+    """The Alibaba Cloud OSS backup copy through its S3-compatible API, or None while OSS_BUCKET,
+    OSS_REGION (e.g. ap-southeast-1), OSS_KEY_ID and OSS_SECRET aren't all set."""
+    names = ("OSS_BUCKET", "OSS_REGION", "OSS_KEY_ID", "OSS_SECRET")
+    if not all(os.environ.get(n, "").strip() for n in names):
+        return None
+    from botocore.config import Config
+
+    region = os.environ["OSS_REGION"].strip()
+    client = boto3.client(
+        "s3",
+        endpoint_url=f"https://oss-{region}.aliyuncs.com",
+        region_name=region,
+        aws_access_key_id=os.environ["OSS_KEY_ID"].strip(),
+        aws_secret_access_key=os.environ["OSS_SECRET"].strip(),
+        config=Config(signature_version="s3v4", s3={"addressing_style": "virtual"}),
+    )
+    return client, os.environ["OSS_BUCKET"].strip()
 
 
 def mirrored(rows, keep):
