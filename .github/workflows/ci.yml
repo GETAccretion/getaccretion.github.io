@@ -19,10 +19,16 @@ jobs:
     steps:
       - name: Check out the code
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0 # the commit check reads the commits this push or pull request adds
       - name: Set up Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.12"
+      # no AI attribution and no private owner address in new commits or the PR description
+      - name: Check new commits
+        id: commit-check
+        run: python scripts/commit_check.py
       - name: Install tools
         id: install-tools
         run: pip install ruff==0.16.8 pillow==11.3.0 boto3==1.43.111 cryptography==46.0.3
