@@ -41,8 +41,9 @@ class Dns(unittest.TestCase):
     def test_repo_config_loads_github_pages_records(self):
         zone, wanted = dns.load(ROOT / "dns.json")
         self.assertEqual(zone, "getaccretion.app")
-        self.assertEqual(sum(w["type"] == "A" for w in wanted), 4)
-        self.assertEqual(sum(w["type"] == "AAAA" for w in wanted), 4)
+        apex = [w for w in wanted if w["name"] == zone]
+        self.assertEqual(sum(w["type"] == "A" for w in apex), 4)
+        self.assertEqual(sum(w["type"] == "AAAA" for w in apex), 4)
         self.assertTrue(all(not w["proxied"] for w in wanted))
 
     def test_matching_records_need_no_changes(self):
