@@ -1,12 +1,12 @@
 # Source report
 
-Built 2026-10-19 22:35 UTC.
+Built 2026-10-20 00:31 UTC.
 
 | | |
 |---|---|
 | Apps in `source.json` | **4507** (5514 KB) |
 | Apps in `curated.json` | **728** (709 KB) |
-| Listings read | 24169 |
+| Listings read | 24168 |
 | Apps listed by more than one source (newest kept) | 1812 |
 | Listings skipped (http-only, no icon, no date, bad bundle ID) | 6635 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
@@ -32,7 +32,7 @@ Built 2026-10-19 22:35 UTC.
 | [CyPwn IPA Library](https://repos.gabrx.eu.org/cypwn.json) | ok | 204 | 4 | 6 | 2026-08-28 | curated |
 | [AltStore Complete](https://bit.ly/Altstore-complete) | ok | 8 | 4 | 0 | 2025-05-12 | discovered |
 | [Quantum Source](https://bit.ly/Quantumsource) | ok | 35 | 3 | 3 | 2025-12-30 | discovered |
-| [Provenance Emulator](https://provenance-emu.com/apps.json) | ok | 4 | 3 | 0 | 2026-10-18 | discovered |
+| [Provenance Emulator](https://provenance-emu.com/apps.json) | ok | 4 | 3 | 0 | 2026-10-19 | discovered |
 | [Quantum Source++](https://quarksources.github.io/dist/quantumsource%2B%2B.min.json) | ok | 32 | 2 | 3 | 2025-05-20 | curated |
 | [FrizzleM's AltSource](https://raw.githubusercontent.com/FrizzleM/SideInstaller/main/frizzlem.json) | ok | 2 | 2 | 0 | 2026-10-16 | discovered |
 | [iAnyFeature's Source](https://raw.githubusercontent.com/Leo7247/iAnyFeature/main/source.json) | ok | 2 | 2 | 0 | 2026-10-18 | discovered |
@@ -79,7 +79,7 @@ Built 2026-10-19 22:35 UTC.
 | [AppTesters IPA Repo](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/source.json) | ok | 4599 | 0 | 228 | 2025-09-05 | discovered |
 | [Neoncat-OG IPA Library](https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/apps_esign.json) | ok | 1988 | 0 | 0 | 2026-04-11 | curated |
 | [swaggyP36000 IPA Library](https://raw.githubusercontent.com/swaggyP36000/TrollStore-IPAs/main/apps_esign.json) | ok | 623 | 0 | 0 | 2023-12-27 | curated |
-| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 204 | 0 | 6 | 2026-08-28 | discovered |
+| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 203 | 0 | 6 | 2026-07-23 | discovered |
 | [OwO Source](https://repo.owo.network/) | ok | 159 | 0 | 0 | 2026-10-17 | curated |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json) | cached | 155 | 0 | 1 | 2026-10-14 | discovered |
 | [Omni-Development IPA Repo](https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json) | ok | 103 | 0 | 13 | 2024-11-17 | discovered |
