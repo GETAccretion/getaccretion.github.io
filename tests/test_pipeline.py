@@ -784,8 +784,9 @@ class AppPages(unittest.TestCase):
             self.assertLess(
                 page.index("gatekeeperconsent.com/min.js"), page.index("ezojs.com/ezoic/sa.min.js")
             )
-        self.assertIn("https://www.ezojs.com", store.EZOIC_CSP)
-        self.assertNotIn("unsafe-inline", store.EZOIC_CSP)
+        self.assertIn("script-src 'self' https:", store.EZOIC_CSP)  # Ezoic's partners: any https host
+        self.assertIn("object-src 'none'", store.EZOIC_CSP)
+        self.assertNotIn("unsafe", store.ADS_CSP + store.PLAIN_CSP)  # pages without Ezoic stay strict
         self.assertEqual(store.public_config("u", "k", ezoic=True)["ezoic"], "1")
         self.assertNotIn("ezoic", store.public_config("u", "k"))
         apps = [self.app(f"com.g.a{n}", category="games") for n in range(3)]

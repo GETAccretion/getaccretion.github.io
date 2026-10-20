@@ -206,14 +206,11 @@ EZOIC_HEAD = (
     '<script src="/ezoic.js"></script>\n'
     '<script src="https://ezoicanalytics.com/analytics.js"></script>'
 )
-EZOIC_HOSTS = (
-    "https://cmp.gatekeeperconsent.com https://the.gatekeeperconsent.com https://www.ezojs.com "
-    "https://ezoicanalytics.com https://ezoic.net https://*.ezoic.net https://ezodn.com https://*.ezodn.com"
-)
-# script-src only (no default-src), so bidders' frames, images and requests are not restricted.
-# 'unsafe-eval': ezoicanalytics.com/analytics.js evaluates strings (blocked without it, seen 2026-10-19);
-# inline scripts stay blocked.
-EZOIC_CSP = ADS_CSP.replace("script-src 'self'", f"script-src 'self' 'unsafe-eval' {EZOIC_HOSTS}", 1)
+# Pages with Ezoic (owner's call 2026-10-19): Ezoic's stack loads scripts from changing demand-partner
+# hosts (e.g. cdn.id5-sync.com), injects inline scripts and evaluates strings, and publishes no host list,
+# so script-src allows any https host plus inline and eval. Plugins, <base> and form targets stay locked;
+# pages without the EZOIC switch keep ADS_CSP / PLAIN_CSP. Our own code still escapes all source text.
+EZOIC_CSP = "script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; object-src 'none'; base-uri 'self'; form-action 'self'"
 EZOIC_SLOT = '<div class="ezoicad"></div>'
 EZOIC_ADSTXT = "https://srv.adstxtmanager.com/{id}/getaccretion.app"  # Ezoic's Ads.txt Manager file
 # AdSense accounts loaded on own pages (same list in site/social.js loadAds; each has a line in site/ads.txt)
