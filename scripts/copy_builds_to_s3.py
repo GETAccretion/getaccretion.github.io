@@ -139,14 +139,27 @@ def main():
             to_s3 += 1
             there_s3 = True
             print(f"Copied {name} to S3")
-        if oss and not in_s3(oss[0], oss[1], name):
-            # the Alibaba Cloud copy keeps every build, like S3
-            with tempfile.TemporaryFile() as tmp:
-                s3.download_fileobj(bucket, name, tmp)
-                tmp.seek(0)
-                oss[0].upload_fileobj(tmp, oss[1], name)
-            to_oss += 1
-            print(f"Copied {name} to Alibaba Cloud OSS")
+        if oss:
+            # the Alibaba Cloud copy keeps every build, like S3. It's a backup: when Alibaba refuses,
+            # say why (its error code, never a key) and skip it for this run instead of stopping setup
+            try:
+                if not in_s3(oss[0], oss[1], name):
+                    with tempfile.TemporaryFile() as tmp:
+                        s3.download_fileobj(bucket, name, tmp)
+                        tmp.seek(0)
+                        oss[0].upload_fileobj(tmp, oss[1], name)
+                    to_oss += 1
+                    print(f"Copied {name} to Alibaba Cloud OSS")
+            except ClientError as e:
+                headers = e.response.get("ResponseMetadata", {}).get("HTTPHeaders", {})
+                code = e.response.get("Error", {}).get("Code", "?")
+                detail = headers.get("x-oss-ec", "?")
+                request = headers.get("x-oss-request-id", "?")
+                print(
+                    f"::warning::Alibaba Cloud OSS refused {name}: {code}, x-oss-ec {detail}, "
+                    f"request {request}; skipping that copy for this run"
+                )
+                oss = None
         if name in keep and not there_supabase:
             with tempfile.TemporaryFile() as tmp:
                 s3.download_fileobj(bucket, name, tmp)
