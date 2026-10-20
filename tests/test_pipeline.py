@@ -796,6 +796,28 @@ class AppPages(unittest.TestCase):
         self.assertEqual(cat.count('<div class="ezoicad"></div>'), 2)
         self.assertIn("ezojs.com", cat)
 
+    def test_ezoic_header_mode_keeps_adsense_and_places_no_spots(self):
+        store = self.load_site()
+        with mock.patch.dict(os.environ, {"EZOIC": "header"}):
+            self.assertEqual(store.ezoic_mode(), "header")
+            self.assertFalse(store.ezoic_on())
+        for bid in ("io.github.accretionmods.radio", "com.example.other"):
+            page = store.app_page_html(self.app(bid), {}, "https://getaccretion.app", (), None, "header")
+            self.assertIn("ezojs.com/ezoic/sa.min.js", page)
+            self.assertIn(store.EZOIC_CSP, page)
+            self.assertNotIn('class="ezoicad"', page)
+            self.assertEqual(
+                "adsbygoogle.js?client" in page, bid.startswith("io.github.")
+            )  # AdSense as before
+        with open(
+            os.path.join(os.path.dirname(__file__), "..", "site", "install-without-computer.html"),
+            encoding="utf-8",
+        ) as f:
+            guide = store.ezoic_static(f.read(), full=False)
+        self.assertIn("ezojs.com/ezoic/sa.min.js", guide)
+        self.assertIn("adsbygoogle.js?client", guide)
+        self.assertNotIn('class="ezoicad"', guide)
+
     def test_ezoic_static_pages_and_ads_txt(self):
         store = self.load_site()
         root = os.path.join(os.path.dirname(__file__), "..", "site")
