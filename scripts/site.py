@@ -217,7 +217,7 @@ EZOIC_CSP = (
 EZOIC_SLOT = '<div class="ezoicad"></div>'
 EZOIC_ADSTXT = "https://srv.adstxtmanager.com/{id}/getaccretion.app"  # Ezoic's Ads.txt Manager file
 # AdSense accounts loaded on own pages (same list in site/social.js loadAds; each has a line in site/ads.txt)
-ADSENSE_CLIENTS = ("ca-pub-4500603236648893", "ca-pub-1352971207491342")
+ADSENSE_CLIENTS = ("ca-pub-1352971207491342",)
 ADSENSE = "\n".join(
     '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
     f'?client={client}" crossorigin="anonymous"></script>'
