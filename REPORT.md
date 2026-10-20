@@ -1,14 +1,14 @@
 # Source report
 
-Built 2026-10-20 00:31 UTC.
+Built 2026-10-20 02:56 UTC.
 
 | | |
 |---|---|
 | Apps in `source.json` | **4507** (5514 KB) |
-| Apps in `curated.json` | **728** (709 KB) |
-| Listings read | 24168 |
+| Apps in `curated.json` | **726** (708 KB) |
+| Listings read | 24164 |
 | Apps listed by more than one source (newest kept) | 1812 |
-| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6635 |
+| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6636 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
 | Dead download links held back (retested every build) | 8941 |
 | Links on hold (whole host failing, kept for now) | 0 |
@@ -29,7 +29,7 @@ Built 2026-10-20 00:31 UTC.
 | [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 9 | 8 | 0 | 2026-10-18 | discovered |
 | [RipeStore](https://bit.ly/RipeStore) | ok | 11 | 6 | 0 | 2026-07-01 | discovered |
 | [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 43 | 5 | 0 | 2026-10-19 | discovered |
-| [CyPwn IPA Library](https://repos.gabrx.eu.org/cypwn.json) | ok | 204 | 4 | 6 | 2026-08-28 | curated |
+| [CyPwn IPA Library](https://repos.gabrx.eu.org/cypwn.json) | ok | 200 | 4 | 7 | 2026-04-17 | curated |
 | [AltStore Complete](https://bit.ly/Altstore-complete) | ok | 8 | 4 | 0 | 2025-05-12 | discovered |
 | [Quantum Source](https://bit.ly/Quantumsource) | ok | 35 | 3 | 3 | 2025-12-30 | discovered |
 | [Provenance Emulator](https://provenance-emu.com/apps.json) | ok | 4 | 3 | 0 | 2026-10-19 | discovered |
@@ -49,7 +49,7 @@ Built 2026-10-20 00:31 UTC.
 | [Apollo for Reddit](https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/apps.json) | ok | 1 | 1 | 0 | 2026-10-09 | curated |
 | [EPIC's source](https://raw.githubusercontent.com/Epyke/plezy-sidestore-source/master/apps.json) | ok | 1 | 1 | 0 | 2026-10-11 | discovered |
 | [FriesI23's Source](https://raw.githubusercontent.com/FriesI23/altstore-repo/master/_site/repo/source.json) | ok | 1 | 1 | 0 | 2026-10-19 | discovered |
-| [Accretion App](https://raw.githubusercontent.com/GETAccretion/accretion-app/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-19 | curated |
+| [Accretion App](https://raw.githubusercontent.com/GETAccretion/accretion-app/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-20 | curated |
 | [Nightshift](https://raw.githubusercontent.com/Jannehy/nightshift-ios/main/altstore.json) | ok | 1 | 1 | 0 | 2026-10-02 | discovered |
 | [IW4 Pocket](https://raw.githubusercontent.com/MarkusSela/IW4-Pocket/main/source.json) | ok | 1 | 1 | 0 | 2026-10-15 | discovered |
 | [MuffinEMU](https://raw.githubusercontent.com/MuffinEMU/Muffin-EMU/main/docs/apps.json) | ok | 1 | 1 | 0 | 2026-10-15 | discovered |
@@ -200,6 +200,7 @@ Built 2026-10-20 00:31 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
+| Accretion | 1.0.37 | 2026-10-20 | raw.githubusercontent.com |
 | Arc TV | 2.5.1 | 2026-10-19 | raw.githubusercontent.com |
 | Paper Comic | 1.4.2 | 2026-10-19 | raw.githubusercontent.com |
 | ISPlayer | 0.9.54 | 2026-10-19 | raw.githubusercontent.com |
@@ -207,7 +208,6 @@ Built 2026-10-20 00:31 UTC.
 | Scripta | 1.0.0 | 2026-10-19 | raw.githubusercontent.com |
 | OpenAgentd | 3.20.0 | 2026-10-19 | raw.githubusercontent.com |
 | MiruShin | 2.9.22 | 2026-10-19 | raw.githubusercontent.com |
-| Accretion | 1.0.36 | 2026-10-19 | raw.githubusercontent.com |
 | Yaabsa | 1.15.0 | 2026-10-19 | raw.githubusercontent.com |
 | NBA Showtime - NBA on NBC | 0.4.6 | 2026-10-19 | raw.githubusercontent.com |
 | Slam’n’Jam 96 | 0.4.6 | 2026-10-19 | raw.githubusercontent.com |
