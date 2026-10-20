@@ -182,7 +182,7 @@ h1, .stats dd { background: linear-gradient(100deg, var(--fg) 30%, color-mix(in 
 .card {
   display: grid; grid-template-columns: 60px minmax(0, 1fr); gap: 13px; align-items: center; padding: 13px;
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); color: var(--fg); text-decoration: none;
-  transition: border-color .15s, transform .15s;
+  transition: border-color .15s, transform .15s, box-shadow .15s;
 }
 .card:hover { border-color: color-mix(in srgb, var(--accent) 60%, var(--line)); }
 @media (prefers-reduced-motion: no-preference) { .card:hover { transform: translateY(-1px); } }
@@ -678,3 +678,10 @@ h1, .stats dd { background: linear-gradient(100deg, var(--fg) 30%, color-mix(in 
 @keyframes hm-pull { from { transform: scale(2.4) rotate(-25deg); opacity: 0; } to { transform: none; opacity: 1; } }
 @keyframes hm-flash { 0%, 45% { transform: scale(.35); opacity: .45; } 75% { transform: scale(1.4); opacity: 1; } 100% { transform: none; opacity: 1; } }
 @keyframes hm-glow { 0%, 55% { opacity: 0; } 78% { opacity: 1; } 100% { opacity: .85; } }
+/* Small touches: cards glow on hover, buttons press in, Like and Save pop when switched on (app.js) */
+@media (hover: hover) { .card:hover { box-shadow: 0 8px 24px color-mix(in srgb, var(--accent) 16%, transparent); } }
+@media (prefers-reduced-motion: no-preference) {
+  .btn:active { transform: scale(.98); }
+  .pop { animation: pop .28s cubic-bezier(.2, .8, .2, 1); }
+}
+@keyframes pop { 40% { transform: scale(1.18); } }

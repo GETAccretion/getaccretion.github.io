@@ -1362,6 +1362,16 @@
     t.finished.finally(() => { for (const el of named) el.style.viewTransitionName = ""; });
   }
   window.addEventListener("hashchange", navigate);
+  // Likes, Save and other toggles pop when switched on (style.css .pop)
+  new MutationObserver((changes) => {
+    for (const c of changes) {
+      const el = c.target;
+      if (el.getAttribute("aria-pressed") !== "true" || c.oldValue === "true") continue;
+      el.classList.remove("pop");
+      void el.offsetWidth; // restart the animation
+      el.classList.add("pop");
+    }
+  }).observe(document.body, { subtree: true, attributes: true, attributeFilter: ["aria-pressed"], attributeOldValue: true });
   if ("serviceWorker" in navigator && location.protocol === "https:") {
     navigator.serviceWorker.register("sw.js").catch(() => {});
   }
