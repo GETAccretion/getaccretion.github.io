@@ -44,7 +44,10 @@ class Dns(unittest.TestCase):
         apex = [w for w in wanted if w["name"] == zone]
         self.assertEqual(sum(w["type"] == "A" for w in apex), 4)
         self.assertEqual(sum(w["type"] == "AAAA" for w in apex), 4)
-        self.assertTrue(all(not w["proxied"] for w in wanted))
+        # GitHub Pages and the Oracle server stay DNS only; only the Alibaba Cloud copy's domain goes
+        # through Cloudflare (HTTPS in front of OSS, whose own endpoints refuse .ipa files)
+        proxied = {w["name"] for w in wanted if w["proxied"]}
+        self.assertEqual(proxied, {f"oss.{zone}"})
 
     def test_matching_records_need_no_changes(self):
         _, wanted = self.config([{"type": "CNAME", "name": "www", "content": "a.github.io"}])

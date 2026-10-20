@@ -90,22 +90,27 @@ async function ociLink(path: string, name: string): Promise<string | null> {
 }
 
 // The fourth copy: an Alibaba Cloud OSS bucket (private) filled from S3 by copy_builds_to_s3.py,
-// served with a presigned link on its S3-compatible endpoint (s3.oss-<region>.aliyuncs.com, signature
-// version 2, as Alibaba documents for S3 tools). Off until all four OSS_* secrets are set.
+// served with a presigned link. OSS refuses .ipa files on its own endpoints for buckets made after
+// 2023-08, so links use our domain mapped to the bucket (OSS_HOST, e.g. oss.getaccretion.app, behind
+// Cloudflare) with OSS's own query signing; without OSS_HOST, the S3-compatible endpoint. The same
+// HMAC-SHA1 signature either way. Off until OSS_BUCKET, OSS_REGION, OSS_KEY_ID and OSS_SECRET are set.
 const OSS_BUCKET = Deno.env.get("OSS_BUCKET") ?? "";
 const OSS_REGION = Deno.env.get("OSS_REGION") ?? ""; // e.g. ap-southeast-1
 const OSS_KEY_ID = Deno.env.get("OSS_KEY_ID") ?? "";
 const OSS_SECRET = Deno.env.get("OSS_SECRET") ?? "";
+const OSS_HOST = Deno.env.get("OSS_HOST") ?? "";
 
-// S3 query-string authentication (V2): Signature = base64(HMAC-SHA1(secret, "GET\n\n\n<expires>\n/<bucket>/<key>[?sub]")),
-// where a response-content-disposition override is part of the signed resource, unencoded
-async function v2Link(host: string, bucket: string, key: string, keyId: string, secret: string, expires: number, disposition = ""): Promise<string> {
+// Query-string signing shared by S3 (version 2) and OSS (version 1):
+// Signature = base64(HMAC-SHA1(secret, "GET\n\n\n<expires>\n/<bucket>/<key>[?sub]")), where a
+// response-content-disposition override is part of the signed resource, unencoded. Only the name of
+// the key parameter differs: AWSAccessKeyId (S3) or OSSAccessKeyId (OSS).
+async function v2Link(host: string, bucket: string, key: string, keyId: string, secret: string, expires: number, disposition = "", keyParam = "AWSAccessKeyId"): Promise<string> {
   const encodedKey = key.split("/").map(encodeURIComponent).join("/");
   const resource = `/${bucket}/${encodedKey}` + (disposition ? `?response-content-disposition=${disposition}` : "");
   const hmac = await crypto.subtle.importKey("raw", new TextEncoder().encode(secret), { name: "HMAC", hash: "SHA-1" }, false, ["sign"]);
   const digest = new Uint8Array(await crypto.subtle.sign("HMAC", hmac, new TextEncoder().encode(`GET\n\n\n${expires}\n${resource}`)));
   const signature = btoa(String.fromCharCode(...digest));
-  return `https://${host}/${encodedKey}?AWSAccessKeyId=${encodeURIComponent(keyId)}&Expires=${expires}&Signature=${encodeURIComponent(signature)}` +
+  return `https://${host}/${encodedKey}?${keyParam}=${encodeURIComponent(keyId)}&Expires=${expires}&Signature=${encodeURIComponent(signature)}` +
     (disposition ? `&response-content-disposition=${encodeURIComponent(disposition)}` : "");
 }
 
@@ -113,7 +118,10 @@ async function ossLink(path: string, name: string): Promise<string | null> {
   if (!OSS_BUCKET || !OSS_REGION || !OSS_KEY_ID || !OSS_SECRET) return null;
   try {
     const expires = Math.floor(Date.now() / 1000) + LINK_SECONDS;
-    const link = await v2Link(`${OSS_BUCKET}.s3.oss-${OSS_REGION}.aliyuncs.com`, OSS_BUCKET, path, OSS_KEY_ID, OSS_SECRET, expires, `attachment; filename="${name}"`);
+    const disposition = `attachment; filename="${name}"`;
+    const link = OSS_HOST
+      ? await v2Link(OSS_HOST, OSS_BUCKET, path, OSS_KEY_ID, OSS_SECRET, expires, disposition, "OSSAccessKeyId")
+      : await v2Link(`${OSS_BUCKET}.s3.oss-${OSS_REGION}.aliyuncs.com`, OSS_BUCKET, path, OSS_KEY_ID, OSS_SECRET, expires, disposition);
     // a presigned GET can't answer HEAD, so the check asks for the first byte
     const check = await fetch(link, { headers: { Range: "bytes=0-0" }, signal: AbortSignal.timeout(4000) });
     await check.body?.cancel();

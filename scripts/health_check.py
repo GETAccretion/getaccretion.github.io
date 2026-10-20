@@ -81,9 +81,10 @@ def oracle_link(p):
 
 
 def oss_link(p, name):
-    """Signature version 2 query link on OSS's S3-compatible host, as ossLink() in the download
-    function makes it (response-content-disposition is part of the signed resource, unencoded)"""
-    bucket, region = env("OSS_BUCKET"), env("OSS_REGION")
+    """The link ossLink() in the download function makes: on OSS_HOST (our domain mapped to the
+    bucket, OSS signing) when set, else on the S3-compatible host (S3 signature version 2). Same
+    HMAC-SHA1 signature; response-content-disposition is part of the signed resource, unencoded."""
+    bucket, region, host = env("OSS_BUCKET"), env("OSS_REGION"), env("OSS_HOST")
     expires = int(time.time()) + 300
     disposition = f'attachment; filename="{name}"'
     resource = f"/{bucket}/{quoted(p)}?response-content-disposition={disposition}"
@@ -91,14 +92,14 @@ def oss_link(p, name):
     digest = hmac.new(env("OSS_SECRET").encode(), to_sign, hashlib.sha1).digest()
     query = urllib.parse.urlencode(
         {
-            "AWSAccessKeyId": env("OSS_KEY_ID"),
+            ("OSSAccessKeyId" if host else "AWSAccessKeyId"): env("OSS_KEY_ID"),
             "Expires": expires,
             "Signature": base64.b64encode(digest).decode(),
             "response-content-disposition": disposition,
         },
         quote_via=urllib.parse.quote,
     )
-    return f"https://{bucket}.s3.oss-{region}.aliyuncs.com/{quoted(p)}?{query}"
+    return f"https://{host or f'{bucket}.s3.oss-{region}.aliyuncs.com'}/{quoted(p)}?{query}"
 
 
 def first_byte(url):

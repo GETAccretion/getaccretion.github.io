@@ -11,6 +11,8 @@
     {"type": "AAAA", "name": "@", "content": "2606:50c0:8003::153"},
     {"type": "CNAME", "name": "www", "content": "getaccretion.github.io"},
     {"type": "A", "name": "ani", "content": "129.153.176.234"},
+    {"type": "CNAME", "name": "oss", "content": "accretion-builds-sg.oss-ap-southeast-1.aliyuncs.com", "proxied": true},
+    {"type": "TXT", "name": "_dnsauth.oss", "content": "ddb5792b84c551e0c7889f761223a549"},
     {"type": "TXT", "name": "@", "content": "google-site-verification=ZFmXWwLhE5Q5E2Yb5ZvgOyj7sqt7T1I-4mVWxD6r2s0"}
   ]
 }

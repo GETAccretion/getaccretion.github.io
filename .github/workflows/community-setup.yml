@@ -111,6 +111,7 @@ jobs:
           OSS_REGION: ${{ vars.OSS_REGION }}
           OSS_KEY_ID: ${{ secrets.OSS_KEY_ID }}
           OSS_SECRET: ${{ secrets.OSS_SECRET }}
+          OSS_HOST: ${{ vars.OSS_HOST }}
         run: |
           pip install "boto3==1.43.111"
           python scripts/copy_builds_to_s3.py
@@ -132,6 +133,7 @@ jobs:
           OSS_REGION: ${{ vars.OSS_REGION }}
           OSS_KEY_ID: ${{ secrets.OSS_KEY_ID }}
           OSS_SECRET: ${{ secrets.OSS_SECRET }}
+          OSS_HOST: ${{ vars.OSS_HOST }}
           DOWNLOAD_PROXY_KEY: ${{ secrets.DOWNLOAD_PROXY_KEY }}
           DOWNLOAD_PROXY_ORIGIN: ${{ vars.DOWNLOAD_PROXY_ORIGIN }}
         run: |
@@ -153,7 +155,11 @@ jobs:
           fi
           if [ -n "$OSS_BUCKET" ] && [ -n "$OSS_REGION" ] && [ -n "$OSS_KEY_ID" ] && [ -n "$OSS_SECRET" ]; then
             # the fourth download copy (Alibaba Cloud OSS, filled from S3 by copy_builds_to_s3.py)
-            npx --yes supabase@2.120.0 secrets set --project-ref "$ref"               OSS_BUCKET="$OSS_BUCKET" OSS_REGION="$OSS_REGION" OSS_KEY_ID="$OSS_KEY_ID" OSS_SECRET="$OSS_SECRET"
+            npx --yes supabase@2.120.0 secrets set --project-ref "$ref" OSS_BUCKET="$OSS_BUCKET" OSS_REGION="$OSS_REGION" OSS_KEY_ID="$OSS_KEY_ID" OSS_SECRET="$OSS_SECRET"
+            if [ -n "$OSS_HOST" ]; then
+              # our domain mapped to the bucket (OSS refuses .ipa files on its own endpoints)
+              npx --yes supabase@2.120.0 secrets set --project-ref "$ref" OSS_HOST="$OSS_HOST"
+            fi
           fi
           if [ -n "$DOWNLOAD_PROXY_KEY" ] && [ -n "$DOWNLOAD_PROXY_ORIGIN" ]; then
             # other sources' apps go through the download proxy (workers/download-proxy)
