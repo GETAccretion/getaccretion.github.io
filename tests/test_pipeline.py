@@ -764,6 +764,64 @@ class AppPages(unittest.TestCase):
         for u in urls:
             self.assertIn(f"<loc>{u}</loc>", smap)
 
+    def test_ezoic_switch_off_by_default_and_on_for_every_page(self):
+        import tempfile
+
+        store = self.load_site()
+        with mock.patch.dict(os.environ, {"EZOIC": ""}):
+            self.assertFalse(store.ezoic_on())
+        with mock.patch.dict(os.environ, {"EZOIC": "1"}):
+            self.assertTrue(store.ezoic_on())
+        off = store.app_page_html(self.app(), {}, "https://getaccretion.app")
+        self.assertNotIn("ezojs", off)
+        self.assertIn("adsbygoogle", off)  # own page keeps AdSense while the switch is off
+        for bid in ("io.github.accretionmods.radio", "com.example.other"):  # own and catalogue pages
+            page = store.app_page_html(self.app(bid), {}, "https://getaccretion.app", (), None, True)
+            self.assertNotIn("adsbygoogle.js?client", page)
+            self.assertEqual(page.count('<div class="ezoicad"></div>'), 2)
+            csp = page.index(store.EZOIC_CSP)
+            self.assertLess(csp, page.index("gatekeeperconsent.com/min.js"))  # CSP first, then Ezoic
+            self.assertLess(
+                page.index("gatekeeperconsent.com/min.js"), page.index("ezojs.com/ezoic/sa.min.js")
+            )
+        self.assertIn("https://www.ezojs.com", store.EZOIC_CSP)
+        self.assertNotIn("unsafe-inline", store.EZOIC_CSP)
+        self.assertEqual(store.public_config("u", "k", ezoic=True)["ezoic"], "1")
+        self.assertNotIn("ezoic", store.public_config("u", "k"))
+        apps = [self.app(f"com.g.a{n}", category="games") for n in range(3)]
+        with tempfile.TemporaryDirectory() as out, mock.patch.object(store, "OUT", out):
+            store.category_pages(apps, "https://getaccretion.app", ezoic=True)
+            with open(os.path.join(out, "apps", "games", "index.html"), encoding="utf-8") as f:
+                cat = f.read()
+        self.assertEqual(cat.count('<div class="ezoicad"></div>'), 2)
+        self.assertIn("ezojs.com", cat)
+
+    def test_ezoic_static_pages_and_ads_txt(self):
+        store = self.load_site()
+        root = os.path.join(os.path.dirname(__file__), "..", "site")
+
+        def page(name):
+            with open(os.path.join(root, name), encoding="utf-8") as f:
+                return store.ezoic_static(f.read())
+
+        guide, privacy, home = page("install-without-computer.html"), page("privacy.html"), page("index.html")
+        for text in (guide, privacy, home):
+            self.assertNotIn("adsbygoogle.js?client", text)
+            self.assertEqual(text.count("Content-Security-Policy"), 1)
+            self.assertLess(text.index(store.EZOIC_CSP), text.index("gatekeeperconsent.com/min.js"))
+        self.assertIn('<div class="ezoicad"></div>\n</main>', guide)
+        self.assertNotIn('class="ezoicad"', home)  # the store places its own spot (social.js)
+        self.assertIn('id="ad-slot"', home)
+        managed = "ezoic.ai, 1, DIRECT\ngoogle.com, pub-4500603236648893, DIRECT, f08c47fec0942fa0\n"
+        ours = (
+            "google.com, pub-4500603236648893, DIRECT, f08c47fec0942fa0\n"
+            "google.com, pub-1352971207491342, DIRECT, f08c47fec0942fa0\n"
+        )
+        merged = store.merge_ads_txt(managed, ours)
+        self.assertEqual(merged.count("pub-4500603236648893"), 1)
+        self.assertIn("pub-1352971207491342", merged)
+        self.assertTrue(merged.startswith("ezoic.ai, 1, DIRECT\n"))
+
     def test_home_page_has_canonical_and_absolute_share_image(self):
         with open(os.path.join(os.path.dirname(__file__), "..", "site", "index.html"), encoding="utf-8") as f:
             home = f.read()

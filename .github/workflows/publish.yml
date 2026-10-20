@@ -111,6 +111,10 @@ jobs:
           DOWNLOAD_PROXY_ORIGIN: ${{ vars.DOWNLOAD_PROXY_ORIGIN }}
           # on: publish download-server links instead of source URLs (handbook issue #25, phase 2)
           PRIVATE_LINKS: ${{ vars.PRIVATE_LINKS }}
+          # EZOIC_ADSTXT_ID set: ads.txt from Ezoic's Ads.txt Manager (+ our lines), needed before Google MCM.
+          # EZOIC on: Ezoic serves the ads on every page instead of the AdSense tags.
+          EZOIC: ${{ vars.EZOIC }}
+          EZOIC_ADSTXT_ID: ${{ vars.EZOIC_ADSTXT_ID }}
 
       # Every version's file link into the private table the download function reads (never fails the build)
       - name: Save private download links

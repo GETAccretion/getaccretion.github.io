@@ -171,6 +171,7 @@
     const p = me.profile;
     const adFree = Boolean(p && (p.supporter || ["mod", "admin"].includes(p.role)));
     document.documentElement.classList.toggle("ad-free", adFree);
+    if (cfg.ezoic === "1" && window.AccretionEzoic) return ezoicView(adFree);
     if (location.hostname !== "getaccretion.app" || document.getElementById("adsbygoogle-js")) return;
     if (adFree || !A.adRoute()) return;
     // two AdSense accounts (owner's call, 2026-10-19); same list in scripts/site.py ADSENSE_CLIENTS
@@ -182,6 +183,23 @@
       s.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}`;
       document.head.append(s);
     });
+  }
+
+  // Ezoic instead of the AdSense tags when the build's EZOIC switch is on (config.js "ezoic"; AdSense
+  // then bids inside Ezoic). Every view, catalogue pages included, gets one fresh ad spot below it.
+  // Supporters, moderators and admins get the acc_adfree cookie: site/ezoic.js switches every format
+  // off for them, and an Ezoic cookie page rule does the same.
+  let ezoicShown = false;
+  function ezoicView(adFree) {
+    if (location.hostname !== "getaccretion.app") return;
+    document.cookie = `acc_adfree=${adFree ? 1 : 0}; path=/; max-age=31536000; SameSite=Lax; Secure`;
+    const slot = $("ad-slot");
+    if (slot) {
+      slot.hidden = adFree;
+      slot.replaceChildren(A.h("div", { class: "ezoicad" }));
+    }
+    window.AccretionEzoic.show(!ezoicShown);
+    ezoicShown = true;
   }
 
   async function refreshUnread() {
