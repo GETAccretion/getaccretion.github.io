@@ -210,8 +210,10 @@ EZOIC_HOSTS = (
     "https://cmp.gatekeeperconsent.com https://the.gatekeeperconsent.com https://www.ezojs.com "
     "https://ezoicanalytics.com https://ezoic.net https://*.ezoic.net https://ezodn.com https://*.ezodn.com"
 )
-# script-src only (no default-src), so bidders' frames, images and requests are not restricted
-EZOIC_CSP = ADS_CSP.replace("script-src 'self'", f"script-src 'self' {EZOIC_HOSTS}", 1)
+# script-src only (no default-src), so bidders' frames, images and requests are not restricted.
+# 'unsafe-eval': ezoicanalytics.com/analytics.js evaluates strings (blocked without it, seen 2026-10-19);
+# inline scripts stay blocked.
+EZOIC_CSP = ADS_CSP.replace("script-src 'self'", f"script-src 'self' 'unsafe-eval' {EZOIC_HOSTS}", 1)
 EZOIC_SLOT = '<div class="ezoicad"></div>'
 EZOIC_ADSTXT = "https://srv.adstxtmanager.com/{id}/getaccretion.app"  # Ezoic's Ads.txt Manager file
 # AdSense accounts loaded on own pages (same list in site/social.js loadAds; each has a line in site/ads.txt)
