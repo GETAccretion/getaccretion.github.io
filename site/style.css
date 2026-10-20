@@ -463,6 +463,9 @@ h1, .stats dd { background: linear-gradient(100deg, var(--fg) 30%, color-mix(in 
 .app-links span { display: grid; min-width: 0; }
 .app-links small { color: var(--muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .pager { display: flex; gap: 16px; margin-top: 18px; }
+/* Ezoic ad spots (build switch EZOIC): the store's one spot below each view, static pages' markers */
+.ad-slot { margin: 24px 0 0; min-height: 0; }
+.ezoicad { margin: 18px 0; }
 .pager a, .cats a { color: var(--link); }
 
 /* sign in with Apple / Google / GitHub / Discord */
