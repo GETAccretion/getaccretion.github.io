@@ -43,5 +43,10 @@
   }
 
   window.AccretionEzoic = { show: show, adFree: adFree };
-  if (!store) document.addEventListener("DOMContentLoaded", function () { show(true); });
+  // static pages place their spots on load; header-only pages (EZOIC=header) have none and stay untouched
+  if (!store) {
+    document.addEventListener("DOMContentLoaded", function () {
+      if (document.querySelector(".ezoicad")) show(true);
+    });
+  }
 })();

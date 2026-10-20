@@ -177,10 +177,24 @@ ADS_CSP = (
 PLAIN_CSP = "script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"
 
 
+def ezoic_mode():
+    """EZOIC (GitHub variable). "header": Ezoic's header scripts on every page next to the unchanged
+    AdSense setup, with no Ezoic ad spots (lets Ezoic detect the integration before approval). On
+    ("1"/"on"): Ezoic serves the ads on every page instead of the AdSense tags (AdSense bids inside
+    Ezoic). Unset: the AdSense setup below, unchanged."""
+    value = os.environ.get("EZOIC", "").strip().lower()
+    if value == "header":
+        return "header"
+    return "on" if value in ("1", "true", "yes", "on") else ""
+
+
 def ezoic_on():
-    """EZOIC (GitHub variable): Ezoic serves the ads on every page instead of the AdSense tags (AdSense
-    bids inside Ezoic). Off: the AdSense setup below, unchanged."""
-    return os.environ.get("EZOIC", "").strip().lower() in ("1", "true", "yes", "on")
+    return ezoic_mode() == "on"
+
+
+def ezoic_full(mode):
+    """True when Ezoic replaces the AdSense tags and places its spots (mode "on"; True in tests)"""
+    return mode is True or mode == "on"
 
 
 # Ezoic's consent (Gatekeeper) and header scripts, first in <head> right after the CSP; the queue stub
@@ -358,7 +372,7 @@ def app_page_html(app, extra, site_url, certificates=(), related=None, ezoic=Fal
         f'<p><a class="btn primary" href="../../#/app/{e(bid)}">Open in the store to install</a></p>',
         cert_line(certificates, name, icon),
         "<ul>" + "".join(f"<li><b>{k}:</b> {e(v)}</li>" for k, v in facts if v) + "</ul>",
-        EZOIC_SLOT if ezoic else "",
+        EZOIC_SLOT if ezoic_full(ezoic) else "",
     ]
     notes = latest.get("localizedDescription") or ""
     if notes.strip():
@@ -387,7 +401,7 @@ def app_page_html(app, extra, site_url, certificates=(), related=None, ezoic=Fal
             )
             + "</ul>"
         )
-    if ezoic:
+    if ezoic_full(ezoic):
         parts.append(EZOIC_SLOT)
     if related:
         parts.append("<h2>Similar apps</h2>" + app_links((b, n, i, "") for b, n, i in related))
@@ -416,7 +430,7 @@ def app_page_html(app, extra, site_url, certificates=(), related=None, ezoic=Fal
 <meta name="theme-color" content="#07070D">
 <link rel="icon" href="../../icon-192.png">
 <link rel="stylesheet" href="../../style.css">
-{ADSENSE if own and not ezoic else ""}
+{ADSENSE if own and not ezoic_full(ezoic) else ""}
 {ld_script(ld, crumb_ld)}
 </head>
 <body>
@@ -543,7 +557,7 @@ def category_pages(apps, site_url, out=None, ezoic=False):
             )
             title = f"iPhone {name} apps · Accretion" + (f" (page {n})" if n > 1 else "")
             desc = f"{len(items)} {name} apps for iPhone from AltStore and SideStore sources, newest first."
-            if ezoic:
+            if ezoic_full(ezoic):
                 body = body.replace("</p>\n", f"</p>\n{EZOIC_SLOT}\n", 1) + f"\n{EZOIC_SLOT}"
             url = page(rel, title, desc, body, [crumb_ld])
             entries.append((url, max((newest_date(a) for a in chunk), default="")))
@@ -646,17 +660,17 @@ ADSENSE_TAG = re.compile(
 )
 
 
-def ezoic_static(html_text):
+def ezoic_static(html_text, full=True):
     """A page from site/ with Ezoic: its CSP allows Ezoic, Ezoic's tags come right after the CSP (or
     after <meta charset> when there is none), the AdSense tags go, and a page with a <main> gets an ad
     spot at its end. The store page (index.html) places its own spots (site/social.js)."""
-    text = ADSENSE_TAG.sub("", html_text)
+    text = ADSENSE_TAG.sub("", html_text) if full else html_text
     csp = f'<meta http-equiv="Content-Security-Policy" content="{EZOIC_CSP}">'
     if CSP_META.search(text):
         text = CSP_META.sub(lambda _: f"{csp}\n{EZOIC_HEAD}", text, count=1)
     else:
         text = text.replace('<meta charset="utf-8">', f'<meta charset="utf-8">\n{csp}\n{EZOIC_HEAD}', 1)
-    if 'id="home"' not in text and "</main>" in text:
+    if full and 'id="home"' not in text and "</main>" in text:
         text = text.replace("</main>", f"{EZOIC_SLOT}\n</main>", 1)
     return text
 
@@ -669,7 +683,7 @@ def merge_ads_txt(managed, ours):
     return managed.rstrip("\n") + "\n" + "".join(f"{line}\n" for line in extra)
 
 
-def ezoic_pages(out):
+def ezoic_pages(out, full=True):
     """Turn the copied site/ pages (home, guide, legal pages) over to Ezoic"""
     for name in os.listdir(out):
         if name.endswith(".html") and not name.startswith("google"):
@@ -677,7 +691,7 @@ def ezoic_pages(out):
             with open(file, encoding="utf-8") as f:
                 text = f.read()
             with open(file, "w", encoding="utf-8") as f:
-                f.write(ezoic_static(text))
+                f.write(ezoic_static(text, full))
 
 
 def ezoic_ads_txt(out, adstxt_id):
@@ -844,11 +858,11 @@ def main():
     }
     dump("data/gone.json", gone)
     site_url = os.environ.get("SITE_URL", "").strip() or SITE_URL
-    ezoic = ezoic_on()
+    ezoic = ezoic_mode()
     share_pages(source["apps"], gone, extras, site_url, support.get("certificates") or [], similar, ezoic)
     sitemap(site_url, source["apps"], extra=category_pages(source["apps"], site_url, ezoic=ezoic))
     if ezoic:
-        ezoic_pages(OUT)
+        ezoic_pages(OUT, full=ezoic == "on")
     adstxt_id = os.environ.get("EZOIC_ADSTXT_ID", "").strip()
     if adstxt_id or ezoic:
         ezoic_ads_txt(OUT, adstxt_id or "19390")
