@@ -210,7 +210,10 @@ EZOIC_HEAD = (
 # hosts (e.g. cdn.id5-sync.com), injects inline scripts and evaluates strings, and publishes no host list,
 # so script-src allows any https host plus inline and eval. Plugins, <base> and form targets stay locked;
 # pages without the EZOIC switch keep ADS_CSP / PLAIN_CSP. Our own code still escapes all source text.
-EZOIC_CSP = "script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; object-src 'none'; base-uri 'self'; form-action 'self'"
+EZOIC_CSP = (
+    "script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; "
+    "object-src 'none'; base-uri 'self'; form-action 'self'"
+)
 EZOIC_SLOT = '<div class="ezoicad"></div>'
 EZOIC_ADSTXT = "https://srv.adstxtmanager.com/{id}/getaccretion.app"  # Ezoic's Ads.txt Manager file
 # AdSense accounts loaded on own pages (same list in site/social.js loadAds; each has a line in site/ads.txt)
