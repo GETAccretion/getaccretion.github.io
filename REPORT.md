@@ -1,13 +1,13 @@
 # Source report
 
-Built 2026-10-20 21:50 UTC.
+Built 2026-10-20 23:34 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4520** (5528 KB) |
+| Apps in `source.json` | **4519** (5530 KB) |
 | Apps in `curated.json` | **726** (720 KB) |
 | Listings read | 24174 |
-| Apps listed by more than one source (newest kept) | 1810 |
+| Apps listed by more than one source (newest kept) | 1811 |
 | Listings skipped (http-only, no icon, no date, bad bundle ID) | 6633 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
 | Dead download links held back (retested every build) | 8969 |
@@ -20,9 +20,9 @@ Built 2026-10-20 21:50 UTC.
 
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
-| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3728 | 3491 | 4543 | 2026-10-20 | discovered |
+| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3728 | 3488 | 4543 | 2026-10-20 | discovered |
 | [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1625 | 536 | 332 | 2026-10-20 | discovered |
-| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 422 | 296 | 0 | 2026-10-20 | discovered |
+| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 422 | 298 | 0 | 2026-10-20 | discovered |
 | [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 100 | 13 | 2025-01-01 | curated |
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
 | [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 44 | 8 | 0 | 2026-10-20 | discovered |
@@ -200,28 +200,28 @@ Built 2026-10-20 21:50 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
+| Familiar | 1.6.0 | 2026-10-20 | raw.githubusercontent.com |
+| TinyFrens | 1.0 | 2026-10-20 | raw.githubusercontent.com |
+| E1547 | 21.1.0 | 2026-10-20 | raw.githubusercontent.com |
+| JSRF Unleashed | 0.4.9 | 2026-10-20 | raw.githubusercontent.com |
+| gen1recomp++ | 0.3.93 | 2026-10-20 | raw.githubusercontent.com |
+| Manatan | 6.2.5 | 2026-10-20 | raw.githubusercontent.com |
+| LastStats | 4.2.1 | 2026-10-20 | raw.githubusercontent.com |
+| TwitchUnblock | 1.6.0 | 2026-10-20 | raw.githubusercontent.com |
+| ISPlayer | 0.9.56 | 2026-10-20 | raw.githubusercontent.com |
+| Resonus | 0.8.4 | 2026-10-20 | raw.githubusercontent.com |
+| Netfish | 0.7.19 | 2026-10-20 | raw.githubusercontent.com |
+| Paperand | 0.0.31 | 2026-10-20 | raw.githubusercontent.com |
+| RuneMobile | 0.2.5 | 2026-10-20 | raw.githubusercontent.com |
+| Ghost Remote | 1.6.17 | 2026-10-20 | raw.githubusercontent.com |
+| Roam Control | 0.9.9 | 2026-10-20 | raw.githubusercontent.com |
+| ICO | 0.8.2 | 2026-10-20 | raw.githubusercontent.com |
 | Floe Agent | 1.7.41 | 2026-10-20 | raw.githubusercontent.com |
 | Tour Planner | 1.11.3 | 2026-10-20 | raw.githubusercontent.com |
-| Netfish | 0.7.18 | 2026-10-20 | raw.githubusercontent.com |
-| Paperand | 0.0.28 | 2026-10-20 | raw.githubusercontent.com |
 | Hand Mouse | 1.1.0 | 2026-10-20 | raw.githubusercontent.com |
 | Hand Tracker | 1.1.0 | 2026-10-20 | raw.githubusercontent.com |
-| TU Test | 1.5.34 | 2026-10-20 | raw.githubusercontent.com |
 | SealSkin | 0.4.0 | 2026-10-20 | raw.githubusercontent.com |
 | OpenAgentd | 3.22.0 | 2026-10-20 | raw.githubusercontent.com |
-| gen1recomp++ | 0.3.92 | 2026-10-20 | raw.githubusercontent.com |
 | Softify | 2.9.1 | 2026-10-20 | raw.githubusercontent.com |
 | C64 Commander | 1.1.1 | 2026-10-20 | raw.githubusercontent.com |
 | Mi Remote | 2.1.0 | 2026-10-20 | raw.githubusercontent.com |
-| Tsumiru | 1.5.0 | 2026-10-20 | raw.githubusercontent.com |
-| CloudNow2 | 2026.10.20 | 2026-10-20 | raw.githubusercontent.com |
-| Modu | 1.3.0 | 2026-10-20 | raw.githubusercontent.com |
-| Bird Chaser | 1.164.0 | 2026-10-20 | raw.githubusercontent.com |
-| JSRF Unleashed | 0.4.8 | 2026-10-20 | raw.githubusercontent.com |
-| DKR-R | 1.0.8 | 2026-10-20 | raw.githubusercontent.com |
-| Star Fox Enhanced | 0.0.8.8 | 2026-10-20 | raw.githubusercontent.com |
-| Rigs of Rods | rtss28 | 2026-10-20 | raw.githubusercontent.com |
-| GitWriter | 1.0.2 | 2026-10-20 | raw.githubusercontent.com |
-| Pageturner | 2.18.0 | 2026-10-20 | raw.githubusercontent.com |
-| BrownBear | 0.1.0 | 2026-10-20 | raw.githubusercontent.com |
-| Empo | 0.7.4 | 2026-10-20 | raw.githubusercontent.com |
