@@ -56,6 +56,17 @@
 <main id="home">
   <section class="hero" id="hero">
     <div class="hero-text">
+      <svg class="hero-mark" viewBox="0 0 200 100" width="120" height="60" aria-hidden="true" focusable="false">
+        <defs><radialGradient id="hm-glow"><stop offset="0" stop-color="#FFDDB3" stop-opacity=".75"/><stop offset="1" stop-color="#FFDDB3" stop-opacity="0"/></radialGradient></defs>
+        <circle class="hm-glow" cx="100" cy="50" r="42" fill="url(#hm-glow)"/>
+        <g transform="rotate(21 100 50)">
+          <ellipse class="hm-ring" cx="100" cy="50" rx="88" ry="28" fill="none" stroke="#956FFF" stroke-width="2.8"/>
+          <ellipse class="hm-ring" cx="100" cy="50" rx="76" ry="25.2" fill="none" stroke="#D195FF" stroke-width="2.8"/>
+          <ellipse class="hm-ring" cx="100" cy="50" rx="64" ry="22.4" fill="none" stroke="#FFD9FF" stroke-width="2.8"/>
+          <ellipse class="hm-ring" cx="100" cy="50" rx="52" ry="19.6" fill="none" stroke="#FEFECD" stroke-width="2.8"/>
+        </g>
+        <circle class="hm-star" cx="100" cy="50" r="12.8" fill="#FFF8EE"/>
+      </svg>
       <p class="eyebrow"><span class="live" id="live-dot" aria-hidden="true"></span> live index · <span id="built">loading</span></p>
       <h1>Every source, pulled into one.</h1>
       <p class="lede">Apps from <b id="h-sources">160+</b> public AltStore and SideStore sources, merged and cleaned. One entry per app, always the newest version.</p>

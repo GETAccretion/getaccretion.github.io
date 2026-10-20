@@ -659,3 +659,22 @@ h1, .stats dd { background: linear-gradient(100deg, var(--fg) 30%, color-mix(in 
   ::view-transition-old(root), ::view-transition-new(root) { animation-duration: .2s; }
   ::view-transition-group(app-icon) { animation-duration: .35s; animation-timing-function: cubic-bezier(.2, .8, .2, 1); }
 }
+/* Hero logo: the app icon's rings and star; plays the app's launch animation once per visitor
+   (app.js adds .pull), shown finished with Reduce Motion. Pale rings get a night backing in light mode. */
+.hero-mark { display: block; width: 120px; height: 60px; margin: 0 0 12px; overflow: visible; }
+.hero-mark .hm-ring, .hero-mark .hm-star, .hero-mark .hm-glow { transform-box: fill-box; transform-origin: center; }
+:root[data-theme="light"] .hero-mark { background: color-mix(in srgb, var(--fg) 94%, var(--accent)); border-radius: 16px; padding: 6px 12px; }
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) .hero-mark { background: color-mix(in srgb, var(--fg) 94%, var(--accent)); border-radius: 16px; padding: 6px 12px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-mark.pull .hm-ring { animation: hm-pull .56s cubic-bezier(.2, .8, .2, 1) both; }
+  .hero-mark.pull .hm-ring:nth-child(3) { animation-delay: .06s; }
+  .hero-mark.pull .hm-ring:nth-child(2) { animation-delay: .12s; }
+  .hero-mark.pull .hm-ring:nth-child(1) { animation-delay: .18s; }
+  .hero-mark.pull .hm-star { animation: hm-flash .82s cubic-bezier(.2, .8, .2, 1) both; }
+  .hero-mark.pull .hm-glow { animation: hm-glow .9s ease-out both; }
+}
+@keyframes hm-pull { from { transform: scale(2.4) rotate(-25deg); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes hm-flash { 0%, 45% { transform: scale(.35); opacity: .45; } 75% { transform: scale(1.4); opacity: 1; } 100% { transform: none; opacity: 1; } }
+@keyframes hm-glow { 0%, 55% { opacity: 0; } 78% { opacity: 1; } 100% { opacity: .85; } }

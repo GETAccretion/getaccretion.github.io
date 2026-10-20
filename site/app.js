@@ -1396,6 +1396,16 @@
   window.Acc = { h, toast, copy, fmt, ago, icon, safeUrl, shelf, homeHash, CATEGORY_NAMES, growthChart, app: (id) => state.byId.get(id), apps: () => state.apps, route, setTrending, adRoute };
 
   // ---- boot -------------------------------------------------------------------------------
+  // The hero logo plays the app's launch animation once per visitor (style.css .hero-mark.pull)
+  const mark = document.querySelector(".hero-mark");
+  if (mark) {
+    let seen = false;
+    try {
+      seen = localStorage.getItem("acc.markSeen") === "1";
+      localStorage.setItem("acc.markSeen", "1");
+    } catch {}
+    if (!seen) mark.classList.add("pull");
+  }
   shelvesSkeleton();
   Promise.all([
     fetch("data/store.json").then((r) => r.json()),
