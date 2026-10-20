@@ -1389,7 +1389,7 @@
     const to = parse();
     const from = shown;
     shown = to;
-    if (!from || !document.startViewTransition || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return route();
+    if (!from || !document.startViewTransition || document.hidden || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return route();
     const named = [];
     const name = (el) => { if (el) { el.style.viewTransitionName = "app-icon"; named.push(el); } };
     const opening = to.view === "app" && from.view !== "app";
@@ -1397,7 +1397,13 @@
     const source = opening ? (clickedIcon && clickedIcon.isConnected ? clickedIcon : null) : closing ? $("detail").querySelector(".d-icon") : null;
     clickedIcon = null;
     name(source);
+    // The page must always change, animated or not: a transition that is aborted, or never
+    // starts because the page isn't drawing frames, would leave the old view. After 400 ms
+    // without the update the transition is skipped and the page routes directly.
+    let routed = false;
     const t = document.startViewTransition(() => {
+      if (routed) return;
+      routed = true;
       for (const el of named.splice(0)) el.style.viewTransitionName = "";
       route(); // not awaited: an app page's details keep loading after the transition
       if (!source) return;
@@ -1405,7 +1411,21 @@
       const link = `#home a[href="#/app/${encodeURIComponent(from.bid)}"]`;
       name(document.querySelector(`${link} img, ${link} .icon`));
     });
-    t.finished.finally(() => { for (const el of named) el.style.viewTransitionName = ""; });
+    setTimeout(() => {
+      if (routed || shown !== to) return;
+      routed = true;
+      t.skipTransition();
+      for (const el of named.splice(0)) el.style.viewTransitionName = "";
+      route();
+    }, 400);
+    t.ready.catch(() => {}); // an aborted transition is not an error
+    t.updateCallbackDone.catch(() => {});
+    t.finished
+      .catch(() => {})
+      .finally(() => {
+        for (const el of named) el.style.viewTransitionName = "";
+        if (!routed && shown === to) route();
+      });
   }
   window.addEventListener("hashchange", navigate);
   // Likes, Save and other toggles pop when switched on (style.css .pop)
