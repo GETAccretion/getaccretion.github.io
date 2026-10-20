@@ -178,13 +178,14 @@ def oss_client():
     from botocore.config import Config
 
     region = os.environ["OSS_REGION"].strip()
+    # Alibaba's S3-compatible endpoint, with signature version 2: boto3's version 4 sends chunked
+    # uploads, which OSS refuses
     client = boto3.client(
         "s3",
-        endpoint_url=f"https://oss-{region}.aliyuncs.com",
-        region_name=region,
+        endpoint_url=f"https://s3.oss-{region}.aliyuncs.com",
         aws_access_key_id=os.environ["OSS_KEY_ID"].strip(),
         aws_secret_access_key=os.environ["OSS_SECRET"].strip(),
-        config=Config(signature_version="s3v4", s3={"addressing_style": "virtual"}),
+        config=Config(signature_version="s3", s3={"addressing_style": "virtual"}),
     )
     return client, os.environ["OSS_BUCKET"].strip()
 
