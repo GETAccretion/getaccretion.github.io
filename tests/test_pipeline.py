@@ -1232,3 +1232,66 @@ class Discovery(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class OwnTweaksTest(unittest.TestCase):
+    def load_site(self):
+        return SitemapTest.load_site(self)
+
+    def test_own_tweaks_join_the_mods_without_a_download(self):
+        store = self.load_site()
+        tweaks = {
+            "tweaks": [
+                {
+                    "id": "io.github.accretionmods.game-plus",
+                    "name": "Game+",
+                    "description": "Switches for Game.",
+                    "targets": ["com.example.game"],
+                    "version": "2.1.0",
+                    "date": "2026-10-21",
+                    "debURL": "https://github.com/AccretionMods/mods/releases/download/v2.1.0/GamePlus.dylib",
+                    "projectURL": "https://github.com/AccretionMods/mods",
+                    "author": "Accretion",
+                },
+                {"id": "me.someone.other", "name": "Other", "version": "1", "debURL": "https://x.test/o.deb"},
+                {
+                    "id": "io.github.accretionmods.no-link",
+                    "name": "No link",
+                    "version": "1",
+                    "debURL": "http://x.test/a",
+                },
+            ]
+        }
+        apps = [
+            {
+                "bundleIdentifier": "com.example.game",
+                "name": "Game",
+                "category": "games",
+                "iconURL": "https://x.test/g.png",
+            }
+        ]
+        rows, details = store.own_tweaks(tweaks, apps, 3, "2026-10-22")
+        self.assertEqual([r["i"] for r in rows], ["io.github.accretionmods.game-plus"])
+        row, detail = rows[0], details[0]
+        self.assertEqual((row["o"], row["tw"], row["c"], row["ic"]), (3, 1, "games", "https://x.test/g.png"))
+        self.assertEqual((row["t"], row["f"]), ("2026-10-21", "2026-10-21"))
+        self.assertNotIn("u", row)
+        self.assertEqual(detail["versions"][0]["url"], "")
+        self.assertEqual(detail["tweak"]["game"], "Game")
+        self.assertTrue(detail["tweak"]["deb"].endswith("GamePlus.dylib"))
+
+    def test_undated_tweak_uses_today_and_is_marked(self):
+        store = self.load_site()
+        tweaks = {
+            "tweaks": [
+                {
+                    "id": "io.github.accretionmods.x",
+                    "name": "X",
+                    "version": "1",
+                    "debURL": "https://x.test/x.dylib",
+                }
+            ]
+        }
+        rows, details = store.own_tweaks(tweaks, [], 0, "2026-10-22")
+        self.assertEqual((rows[0]["t"], rows[0]["u"], rows[0]["ic"]), ("2026-10-22", 1, store.ACCRETION_ICON))
+        self.assertEqual(details[0]["tweak"]["game"], "")

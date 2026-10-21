@@ -26,7 +26,7 @@ import shutil
 import urllib.parse
 import urllib.request
 
-from common import hide_nsfw_icons, load_json, nsfw_icon_keys, path, read_list
+from common import hide_nsfw_icons, load_json, nsfw_icon_keys, path, read_list, today
 from merge import PLACEHOLDER_ICON
 
 SHARDS = 128
@@ -78,6 +78,12 @@ def private_source(source, base):
 
 # Apps from this source are built by Accretion: the store shows them with an "Accretion Mod" badge.
 MODS_SOURCE = "https://raw.githubusercontent.com/AccretionMods/mods/main/mods.json"
+# The mods repo's tweak library. Our own tweaks there (ids under OWN_TWEAK_PREFIX) have no .ipa of their own:
+# people inject them into their own copy of the game in Accretion. The store lists them with the mods
+# ("Made by Accretion", "Accretion Tweak" badge); source.json, which the app reads, doesn't carry them.
+TWEAKS_SOURCE = "https://raw.githubusercontent.com/AccretionMods/mods/main/tweaks.json"
+OWN_TWEAK_PREFIX = "io.github.accretionmods."
+ACCRETION_ICON = "https://getaccretion.github.io/assets/icon.png"
 
 
 def fnv1a(text):
@@ -91,6 +97,74 @@ def fnv1a(text):
 
 def shard_of(bundle_id):
     return fnv1a(bundle_id) % SHARDS
+
+
+def fetch_json(url):
+    """A JSON file from the web, or {} with a warning when it can't be read (the build goes on without it)."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Accretion store build"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.loads(r.read().decode("utf-8"))
+    except (OSError, ValueError) as exc:
+        print(f"warning: {url} not read ({exc})")
+        return {}
+
+
+def own_tweaks(tweaks, apps, mods_index, fallback_date):
+    """Our own tweak-library entries as store rows and detail records, under the mods source.
+
+    The game a tweak targets lends its name, category and icon when the catalogue has it. A tweak's row has
+    "tw": 1; its detail record has no download link ("url" empty, so no Install button) and a "tweak" block
+    with the .dylib and project links the app page shows instead. Entries without a release date are
+    marked undated ("u")."""
+    by_bid = {a["bundleIdentifier"]: a for a in apps}
+    rows, details = [], []
+    for t in tweaks.get("tweaks", []):
+        tid = t.get("id", "")
+        deb = t.get("debURL", "")
+        if not tid.startswith(OWN_TWEAK_PREFIX) or not deb.startswith("https://") or not t.get("version"):
+            continue
+        game = next((by_bid[b] for b in t.get("targets", []) if b in by_bid), {})
+        date = t.get("date") or fallback_date
+        row = {
+            "i": tid,
+            "n": t.get("name") or tid,
+            "d": t.get("author") or "Accretion",
+            "s": clip(t.get("description", ""), 90),
+            "c": game.get("category") or "games",
+            "v": t["version"],
+            "t": date,
+            "z": 0,
+            "ic": game.get("iconURL") or ACCRETION_ICON,
+            "o": mods_index,
+            "m": "",
+            "f": date,
+            "tw": 1,
+        }
+        if not t.get("date"):
+            row["u"] = 1
+        rows.append(row)
+        details.append(
+            {
+                "i": tid,
+                "desc": t.get("description", ""),
+                "feat": [],
+                "sim": [],
+                "tint": "",
+                "shots": [],
+                "perms": {},
+                "versions": [
+                    {"v": t["version"], "b": "", "t": date, "z": 0, "min": "", "notes": "", "url": ""}
+                ],
+                "tweak": {
+                    "deb": deb,
+                    "project": t.get("projectURL", ""),
+                    "game": game.get("name", ""),
+                    "targets": t.get("targets", []),
+                },
+            }
+        )
+    return rows, details
 
 
 def clip(text, limit):
@@ -812,6 +886,15 @@ def main():
                 ],
             }
         )
+
+    mods_index = next((n for n, s in enumerate(info["sources"]) if s.get("mod")), -1)
+    if mods_index >= 0:  # tweaks show with the mods, so only when the mods source is listed
+        tweak_rows, tweak_details = own_tweaks(
+            fetch_json(TWEAKS_SOURCE), source["apps"], mods_index, today().isoformat()
+        )
+        rows += tweak_rows
+        for d in tweak_details:
+            shards[shard_of(d["i"])].append(d)
 
     def dump(rel, data):
         with open(os.path.join(OUT, rel), "w") as f:
