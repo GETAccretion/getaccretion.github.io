@@ -19,6 +19,8 @@ on:
         required: false
       SUPABASE_ACCESS_TOKEN:
         required: false
+      TELEGRAM_BOT_TOKEN:
+        required: false
 
 permissions:
   actions: write
@@ -143,6 +145,16 @@ jobs:
             --only hosting --project accretion-72875 --non-interactive --message "Store build ${GITHUB_SHA::7}"
           rm -f "$creds"
 
+      # Own releases and a daily digest of new safe apps to the Telegram channel (scripts/telegram.py).
+      # Never fails the build; prints instead of posting until TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT are set.
+      - name: Post to Telegram
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python scripts/telegram.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT: ${{ vars.TELEGRAM_CHAT }}
+
       - name: Summary
         run: cat REPORT.md >> "$GITHUB_STEP_SUMMARY"
 
@@ -150,10 +162,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          files="source.json curated.json stats.json history.json REPORT.md discovered.txt discovered.json dead_links.json link_dates.json first_seen.json assets/card-dark.svg assets/card-light.svg assets/recent-dark.svg assets/recent-light.svg assets/card-dark.png assets/recent-dark.png"
+          files="source.json curated.json stats.json history.json REPORT.md discovered.txt discovered.json dead_links.json link_dates.json first_seen.json telegram.json assets/card-dark.svg assets/card-light.svg assets/recent-dark.svg assets/recent-light.svg assets/card-dark.png assets/recent-dark.png"
           existing=$(for f in $files; do if [ -e "$f" ]; then echo "$f"; fi; done)
           # skip commits that would only change the build time
-          if [ -z "$(git status --porcelain -- source.json curated.json discovered.txt dead_links.json link_dates.json first_seen.json)" ]; then
+          if [ -z "$(git status --porcelain -- source.json curated.json discovered.txt dead_links.json link_dates.json first_seen.json telegram.json)" ]; then
             echo "No content changes."
             exit 0
           fi
