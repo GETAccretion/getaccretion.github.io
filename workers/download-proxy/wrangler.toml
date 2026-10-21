@@ -10,5 +10,11 @@ routes = [{ pattern = "dl.getaccretion.app", custom_domain = true }]
 # /download passes requests on to this (the store's download function)
 DOWNLOAD_FUNCTION = "https://bbcjpinhvlxocjxlyplt.supabase.co/functions/v1/download"
 
+# /get/<mod> (public post links for our own mods): at most 10 a minute per visitor
+[[ratelimits]]
+name = "POST_LINKS"
+namespace_id = "1001"
+simple = { limit = 10, period = 60 }
+
 [observability]
 enabled = false
