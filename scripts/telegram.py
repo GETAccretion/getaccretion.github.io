@@ -1,7 +1,8 @@
 """Posts the store's news to the Telegram channel (publish.yml, after the site build).
 
 - A release of one of Accretion's own apps (the app, mods): one photo post with the icon, version and
-  What's new, linking to the app page. Each version is posted once.
+  What's new, linking to the app page; a mod also lists its cheats (the "•" lines of its description,
+  under their headings; "Mod menu" for mods that are not games). Each version is posted once.
 - Once a day: the catalogue apps first listed the day before, cracked, unlocked, modded and NSFW apps
   left out (channels get taken down over those), at most DIGEST_LIMIT names with links.
 
@@ -28,8 +29,11 @@ SITE = "https://getaccretion.app"
 STATE = "telegram.json"
 # Same list as OWN_PREFIXES in scripts/site.py and site/app.js
 OWN_PREFIXES = ("io.github.getaccretion.", "io.github.accretionmods.")
+MOD_PREFIX = "io.github.accretionmods."
 DIGEST_LIMIT = 10
-NOTES_LIMIT = 600  # characters of What's new in a release caption (Telegram allows 1024 in all)
+NOTES_LIMIT = 600  # characters of What's new in a release post
+CAPTION_LIMIT = 1024  # Telegram's photo caption limit; a longer post (a mod with many cheats) goes as text
+TEXT_LIMIT = 4096  # Telegram's message limit
 RISKY_WORDS = re.compile(
     r"crack|unlock|premium|hack|\+\+|\bmod(s|ded)?\b|ttjb|\bvip\b|patched|no ads|jailbreak|nsfw|18\+",
     re.IGNORECASE,
@@ -51,6 +55,28 @@ def icon_key(url):
     return match.group(1) if match else None
 
 
+def cheat_list(app):
+    """A mod's cheats as [(heading, [cheat, ...])], read from its description: the "•" or "-" lines, grouped
+    under the line ending in ":" above them (e.g. "Work on any phone, no JIT needed:"). Not a mod -> []."""
+    if not app.get("bundleIdentifier", "").startswith(MOD_PREFIX):
+        return []
+    groups, heading = [], None
+    for raw in (app.get("localizedDescription") or "").splitlines():
+        line = raw.strip()
+        if line.startswith(("•", "- ", "* ")):
+            item = line.lstrip("•-* ").strip()
+            if not item:
+                continue
+            if not groups or groups[-1][0] != heading:
+                groups.append((heading, []))
+            groups[-1][1].append(item)
+        elif line.endswith(":"):
+            heading = line[:-1].strip()
+        elif line:
+            heading = None
+    return groups
+
+
 def release_caption(app):
     name = html.escape(app.get("name") or app["bundleIdentifier"])
     version = html.escape(str(app.get("version") or ""))
@@ -58,13 +84,32 @@ def release_caption(app):
     notes = (versions[0].get("localizedDescription") or "").strip()
     if len(notes) > NOTES_LIMIT:
         notes = notes[:NOTES_LIMIT].rsplit(" ", 1)[0] + "..."
-    lines = [f"<b>{name} {version}</b>"]
+    head = [f"<b>{name} {version}</b>"]
     if app.get("subtitle"):
-        lines.append(html.escape(app["subtitle"]))
-    if notes:
-        lines += ["", html.escape(notes)]
-    lines += ["", f'<a href="{app_url(app["bundleIdentifier"])}">Get it on Accretion</a>']
-    return "\n".join(lines)
+        head.append(html.escape(app["subtitle"]))
+    tail = (["", html.escape(notes)] if notes else []) + [
+        "",
+        f'<a href="{app_url(app["bundleIdentifier"])}">Get it on Accretion</a>',
+    ]
+    groups = cheat_list(app)
+    count = sum(len(items) for _, items in groups)
+    cheats = []  # (line, is a cheat)
+    for heading, items in groups:
+        if heading:
+            cheats.append((f"<i>{html.escape(heading)}</i>", False))
+        cheats += [(f"• {html.escape(item)}", True) for item in items]
+    title = "Cheats" if app.get("category") == "games" else "Mod menu"
+    shown = len(cheats)
+    while True:
+        body = [line for line, _ in cheats[:shown]]
+        left = count - sum(is_cheat for _, is_cheat in cheats[:shown])
+        if left:
+            body.append(f"… and {left} more on the app page")
+        lines = head + (["", f"<b>{title} ({count})</b>", *body] if groups else []) + tail
+        text = "\n".join(lines)
+        if len(text) <= TEXT_LIMIT or shown == 0:
+            return text
+        shown -= 1
 
 
 def releases(apps, posted):
@@ -167,10 +212,14 @@ def run(today, token, chat, dry_run):
         if not live:
             print(caption)
             continue
-        ok = app.get("iconURL") and send(
-            token,
-            "sendPhoto",
-            {"chat_id": chat, "photo": app["iconURL"], "caption": caption, "parse_mode": "HTML"},
+        ok = (
+            app.get("iconURL")
+            and len(caption) <= CAPTION_LIMIT
+            and send(
+                token,
+                "sendPhoto",
+                {"chat_id": chat, "photo": app["iconURL"], "caption": caption, "parse_mode": "HTML"},
+            )
         )
         ok = ok or send(
             token,
