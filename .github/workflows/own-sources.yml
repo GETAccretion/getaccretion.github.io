@@ -1,0 +1,55 @@
+name: "Store: rebuild on own releases"
+
+# Every 15 minutes (or on demand): when the mods source (AccretionMods/mods mods.json) or the app source
+# (GETAccretion/accretion-app app-repo.json) changed after the last store build, starts build.yml once,
+# so a new mod or app release reaches the store and the Telegram channel without waiting for the
+# six-hourly build (scripts/own_sources_check.py).
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: own-sources
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          sparse-checkout: scripts
+      - name: Start a build if an own source changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/own_sources_check.py | tee -a "$GITHUB_STEP_SUMMARY"
+
+  alert:
+    # Scheduled runs only: opens one issue when the check fails, closes it when a later run passes.
+    needs: [check]
+    if: always() && github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    # an alert that cannot be sent must not turn a good run red
+    continue-on-error: true
+    permissions:
+      actions: read
+      contents: read
+      issues: write
+    steps:
+      - name: Check out the alert action
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          sparse-checkout: .github/actions
+      - name: Open or close the failure issue
+        uses: ./.github/actions/alert
+        with:
+          status: ${{ contains(needs.*.result, 'failure') && 'failure' || contains(needs.*.result, 'cancelled') && 'cancelled' || 'success' }}
+          workflow: "Store: rebuild on own releases"
