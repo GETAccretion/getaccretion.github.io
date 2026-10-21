@@ -464,6 +464,21 @@
   "real": true,
   "reason": "Valid GitHub raw URL pointing directly to an AltStore JSON app source catalog."
  },
+ "https://raw.githubusercontent.com/bebound/AltGallery/master/apps/DolphiniOS/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a direct raw GitHub link to an official app source JSON file for DolphiniOS, compatible with AltStore and SideStore."
+ },
+ "https://raw.githubusercontent.com/bebound/AltGallery/master/apps/DukeX/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This URL points directly to a raw JSON file on GitHub hosted by a developer (bebound) specifically functioning as an AltStore app source (AltGallery/DukeX/apps.json)."
+ },
+ "https://raw.githubusercontent.com/bebound/AltGallery/master/apps/EhPanda/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a direct raw GitHub link to a valid AltStore JSON source containing the EhPanda app."
+ },
  "https://raw.githubusercontent.com/cbruegg/altstore-source/refs/heads/main/source.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
@@ -474,15 +489,55 @@
   "real": true,
   "reason": "The URL points to a raw JSON file on GitHub that serves as an AltStore/SideStore source containing a catalog of apps."
  },
+ "https://raw.githubusercontent.com/darthkubox/Tagpin/main/docs/templates/altstore-source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid raw GitHub JSON file formatted as an AltStore app source for Tagpin."
+ },
+ "https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": false,
+  "reason": "This is a massive automatically generated repository containing over 8,000 apps (likely scraped or pirated), which is characteristic of unauthorized mirror/repack farms rather than a legitimate develo"
+ },
+ "https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "Valid AltStore source hosted on GitHub containing a large catalogue of apps."
+ },
+ "https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/selected.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a genuine AltStore source hosted on GitHub, containing a curated list of apps in the required JSON format."
+ },
  "https://raw.githubusercontent.com/fuckmmw-afk/edge-eloquent/main/feather-source.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
   "reason": "The URL points to a JSON file hosted on GitHub that appears to be a legitimate AltStore/SideStore app source (catalog of iOS apps)."
  },
+ "https://raw.githubusercontent.com/hesm4tt/framewise-ipa/main/framewise.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid raw JSON GitHub link serving as an AltStore source for a specific iOS app repository."
+ },
+ "https://raw.githubusercontent.com/hesm4tt/swipewipe-cleanup/main/docs/AltStoreSource.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate AltStore source hosted on GitHub providing a specific developer tool/app repository JSON."
+ },
+ "https://raw.githubusercontent.com/ihateios/SignOs/main/app-repo.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a raw GitHub JSON file configured as an AltStore/SideStore app source repository."
+ },
  "https://raw.githubusercontent.com/ilyassbourass/Scan2WA/main/apps.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
   "reason": "The URL points to a raw JSON file (apps.json) that contains an app catalog with metadata, which matches the expected format of an AltStore/SideStore source."
+ },
+ "https://raw.githubusercontent.com/jorgepb96/scankit/main/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "Valid GitHub raw JSON source for AltStore/SideStore."
  },
  "https://raw.githubusercontent.com/laincat/AltStore/main/apps.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
@@ -493,6 +548,51 @@
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
   "reason": "The URL is a raw JSON file hosted on GitHub under a repository named SideStoreAndAltStore-Sources, containing a catalog of 199 apps, which matches the format expected for an AltStore or SideStore app "
+ },
+ "https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/Qn_%E2%80%99s%20AltStore%20Repo/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid raw JSON repository hosted on GitHub for AltStore and SideStore, containing multiple apps."
+ },
+ "https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/iSH%20AltStore%20Repo/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate developer or specific application source (iSH) hosted on GitHub raw."
+ },
+ "https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate GitHub raw URL hosting a valid JSON app source for AltStore and SideStore."
+ },
+ "https://raw.githubusercontent.com/lyjj0912/NightFox_Repository-fork/main/NightFox.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "The URL points to a raw JSON file on GitHub hosted by a user, functioning as a community app source/repository for AltStore/SideStore containing multiple apps."
+ },
+ "https://raw.githubusercontent.com/matfantinel/iphanpy/refs/heads/main/altstore/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate developer-hosted AltStore source for the iPhanpy iOS app on GitHub."
+ },
+ "https://raw.githubusercontent.com/maxchang3/ani-altstore-source/main/generated/apps-old.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate raw GitHub JSON source file for an AltStore repository, specifically hosting OpenAni (Legacy)."
+ },
+ "https://raw.githubusercontent.com/mirazbakis/AltLoad/main/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "The URL points directly to a raw JSON source file on GitHub named source.json, hosted by user mirazbakis for AltLoad, which is characteristic of a legitimate community AltStore app source."
+ },
+ "https://raw.githubusercontent.com/nirobhaq/dayline-store/main/store.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate GitHub raw JSON link serving as a developer app source for the Dayline app for AltStore/SideStore."
+ },
+ "https://raw.githubusercontent.com/nkoporcova1/my-weather-updates/main/apps.json": {
+  "model": "gemini:gemini-3.5-flash",
+  "real": true,
+  "reason": "Valid AltStore/SideStore JSON source hosted on GitHub for an individual app."
  },
  "https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource-testing.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
