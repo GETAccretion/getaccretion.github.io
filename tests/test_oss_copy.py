@@ -44,3 +44,23 @@ class OssCopy(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SupabaseTooLarge(unittest.TestCase):
+    def test_a_build_over_the_size_limit_is_skipped_not_fatal(self):
+        import io
+        import urllib.error
+
+        error = urllib.error.HTTPError(
+            "https://x.invalid",
+            400,
+            "Bad Request",
+            {},
+            io.BytesIO(b'{"statusCode":"413","error":"Payload too large"}'),
+        )
+        store = copy_builds_to_s3.Supabase("https://x.invalid", "fictional-key")
+        with mock.patch("urllib.request.urlopen", side_effect=error):
+            self.assertFalse(store.upload("app/1.0.ipa", io.BytesIO(b"ipa")))
+        other = urllib.error.HTTPError("https://x.invalid", 500, "Error", {}, io.BytesIO(b"boom"))
+        with mock.patch("urllib.request.urlopen", side_effect=other), self.assertRaises(SystemExit):
+            store.upload("app/1.0.ipa", io.BytesIO(b"ipa"))

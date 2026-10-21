@@ -93,7 +93,13 @@ class Supabase:
                 pass
         except urllib.error.HTTPError as e:
             detail = e.read().decode("utf-8", "replace")[:300]
+            if e.code == 413 or '"statusCode":"413"' in detail:
+                # over the project's file size limit: the build stays in S3 (and the other copies), only
+                # this fallback copy is skipped
+                print(f"::warning::{name} is larger than Supabase Storage accepts; kept in S3 only")
+                return False
             raise SystemExit(f"Supabase upload of {name} failed ({e.code}): {detail}") from None
+        return True
 
 
 def in_s3(s3, bucket, name):
@@ -164,9 +170,10 @@ def main():
             with tempfile.TemporaryFile() as tmp:
                 s3.download_fileobj(bucket, name, tmp)
                 tmp.seek(0)
-                supabase.upload(name, tmp)
-            to_supabase += 1
-            print(f"Copied {name} to Supabase")
+                copied = supabase.upload(name, tmp)
+            if copied:
+                to_supabase += 1
+                print(f"Copied {name} to Supabase")
         elif name not in keep and there_supabase:
             # older than the newest KEEP_IN_SUPABASE of its app: S3 has it, so the fallback copy can go
             if prune:
