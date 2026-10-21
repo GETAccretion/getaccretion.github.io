@@ -181,6 +181,7 @@ const reply = (status: number, message: string) =>
   new Response(JSON.stringify({ message }), { status, headers: { ...cors, "Content-Type": "application/json" } });
 
 const ACCRETION = "io.github.getaccretion.Accretion";
+const OWN_MODS = "io.github.accretionmods."; // our own mods: public post links (?public=1)
 const STORE = "https://getaccretion.app/";
 
 // "1.0.10" > "1.0.9": every number in order, like the app and the store pipeline: "4.0.0-mod1.10.0" > "4.0.0-mod1.9.0" > "4.0.0"
@@ -224,6 +225,11 @@ Deno.serve(async (req) => {
     }
   }
 
+  // Our own mods may be fetched without an account through the download proxy's public post link
+  // (dl.getaccretion.app/get/<mod>, which adds public=1): no login, quota or download log; the proxy
+  // rate-limits per visitor. Anything else still needs a login or a personal key.
+  const publicMod = url.searchParams.get("public") === "1" && app.startsWith(OWN_MODS);
+
   // who is asking: a signed-in user, or the owner of a personal key
   let owner: string | null = null;
   let via: "login" | "key" = "login";
@@ -237,7 +243,7 @@ Deno.serve(async (req) => {
     owner = data?.owner ?? null;
     via = "key";
   }
-  if (!owner) {
+  if (!owner && !publicMod) {
     // someone opened the link in a browser: send them to the store page to sign in there
     if ((req.headers.get("Accept") ?? "").includes("text/html")) {
       return new Response(null, { status: 302, headers: { ...cors, Location: `${STORE}#/app/${encodeURIComponent(app)}` } });
@@ -246,14 +252,16 @@ Deno.serve(async (req) => {
   }
 
   // banned accounts don't download, and nobody gets more than 30 downloads in 10 minutes
-  const { data: profile, error: profileError } = await admin.from("profiles").select("banned").eq("id", owner).maybeSingle();
-  if (profileError) return reply(503, "Couldn't check account access. Try again.");
-  if (!profile || profile.banned) return reply(403, "This account can't download right now.");
-  const since = new Date(Date.now() - 10 * 60_000).toISOString();
-  const { count, error: quotaError } = await admin.from("download_log").select("id", { count: "exact", head: true })
-    .eq("owner", owner).gte("at", since);
-  if (quotaError || count === null) return reply(503, "Couldn't check download limits. Try again.");
-  if ((count ?? 0) >= 30) return reply(429, "Too many downloads. Try again in a few minutes.");
+  if (owner) {
+    const { data: profile, error: profileError } = await admin.from("profiles").select("banned").eq("id", owner).maybeSingle();
+    if (profileError) return reply(503, "Couldn't check account access. Try again.");
+    if (!profile || profile.banned) return reply(403, "This account can't download right now.");
+    const since = new Date(Date.now() - 10 * 60_000).toISOString();
+    const { count, error: quotaError } = await admin.from("download_log").select("id", { count: "exact", head: true })
+      .eq("owner", owner).gte("at", since);
+    if (quotaError || count === null) return reply(503, "Couldn't check download limits. Try again.");
+    if ((count ?? 0) >= 30) return reply(429, "Too many downloads. Try again in a few minutes.");
+  }
 
   // newest by version number, not upload time (an old version re-uploaded can't become "newest");
   // Accretion itself is always served at its newest version
@@ -275,6 +283,8 @@ Deno.serve(async (req) => {
   let served = app;
   if (build) {
     location = await signedLink(build.path, fileName(app, build.version));
+  } else if (!owner) {
+    return reply(404, "This mod has no build to download yet.");
   } else {
     // another source's app: its private link, through the download proxy
     const { data: links, error: linksError } = await admin.from("upstream_links").select("version,url,name").eq("bundle_id", app);
@@ -300,6 +310,12 @@ Deno.serve(async (req) => {
   }
   if (!location) return reply(500, "Couldn't prepare the download. Try again.");
 
+  if (!owner) {  // a public mod link: nothing to log against an account
+    return new Response(null, {
+      status: 302,
+      headers: { ...cors, Location: location, "Cache-Control": "no-store", "Referrer-Policy": "no-referrer" },
+    });
+  }
   const { error: logError } = await admin.from("download_log").insert({ owner, bundle_id: served, via });
   if (logError?.code === "PT403") return reply(403, "This account can't download right now.");
   if (logError?.code === "PT429") return reply(429, "Too many downloads. Try again in a few minutes.");
