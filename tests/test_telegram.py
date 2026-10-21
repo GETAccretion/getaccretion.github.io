@@ -50,7 +50,18 @@ class Fixture(unittest.TestCase):
         sender = mock.patch.object(telegram, "send", side_effect=self.fake_send)
         sender.start()
         self.addCleanup(sender.stop)
+        uploader = mock.patch.object(telegram, "send_file", side_effect=self.fake_send_file)
+        uploader.start()
+        self.addCleanup(uploader.stop)
+        self.card = None  # no animated card unless a test sets one
+        maker = mock.patch.object(telegram, "card", side_effect=lambda *a: self.card)
+        maker.start()
+        self.addCleanup(maker.stop)
         self.ok = True
+
+    def fake_send_file(self, token, method, fields, field, filename, data, mime):
+        self.sent.append((method, {**fields, field: data}))
+        return self.ok
 
     def fake_send(self, token, method, payload):
         self.sent.append((method, payload))
@@ -179,3 +190,60 @@ class Cheats(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class AnimatedCards(Fixture):
+    def setUp(self):
+        super().setUp()
+        self.write(
+            telegram.STATE,
+            {
+                "posted": {OWN["bundleIdentifier"]: "1.0.39", MOD["bundleIdentifier"]: "2.0"},
+                "digest": "2026-10-20",
+            },
+        )
+        self.card = b"mp4"
+
+    def test_release_and_digest_go_with_the_card(self):
+        telegram.run(TODAY, "token", "@chan", dry_run=False)
+        methods = [m for m, _ in self.sent]
+        self.assertEqual(methods, ["sendAnimation", "sendAnimation", "sendMessage"])
+        release = self.sent[0][1]
+        self.assertEqual(release["animation"], b"mp4")
+        self.assertIn("Accretion 1.0.40", release["caption"])
+        self.assertIn("Reader", self.sent[2][1]["text"])
+        self.assertEqual(self.state()["digest"], YESTERDAY)
+
+    def test_without_a_card_the_release_goes_as_a_photo(self):
+        self.card = None
+        telegram.run(TODAY, "token", "@chan", dry_run=False)
+        self.assertEqual([m for m, _ in self.sent], ["sendPhoto", "sendMessage"])
+
+
+class CardHelpers(unittest.TestCase):
+    def test_badge(self):
+        self.assertEqual(telegram.release_badge(MOD), "ACCRETION MOD")
+        self.assertEqual(telegram.release_badge(OWN), "NEW VERSION")
+
+    def test_card_failure_is_not_fatal(self):
+        def broken(*args):
+            raise OSError("no ffmpeg")
+
+        with mock.patch.object(telegram, "telegram_card", object()):
+            self.assertIsNone(telegram.card(broken, OWN))
+
+    def test_frames_render(self):
+        try:
+            import telegram_card
+        except ImportError:
+            self.skipTest("Pillow not installed")
+        from PIL import Image
+
+        icon = Image.new("RGBA", (64, 64), (200, 80, 40, 255))
+        frames = telegram_card.release_frames(
+            icon, "A very long app name that will not fit on the card", "1.2.3", "NEW"
+        )
+        first = next(frames)
+        self.assertEqual(first.size, (telegram_card.W, telegram_card.H))
+        digest = telegram_card.digest_frames([icon, None, icon], "New on Accretion", "3 new apps")
+        self.assertEqual(next(digest).mode, "RGB")
