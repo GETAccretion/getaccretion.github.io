@@ -31,6 +31,8 @@ appears on the store as soon as its provider is switched on. Set up any you want
 The same sign-in works in the Accretion app (email, Google, GitHub and Discord). The app returns
 to `accretion://auth-callback`, which **Store: set up backend** adds to the allowed redirect URLs
 ([`scripts/supabase_setup.py`](../scripts/supabase_setup.py)). The providers need nothing extra.
+That workflow replaces the whole list, so `https://link.getaccretion.app/auth/callback` (Accretion
+Link's sign-in) is in the script too: add any other return address there, not only in the dashboard.
 
 **Callback URL** for every provider:
 

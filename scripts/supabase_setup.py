@@ -31,6 +31,7 @@ NAME = os.environ.get("PROJECT_NAME", "accretion").strip() or "accretion"
 REGION = os.environ.get("SUPABASE_REGION", "us-east-1").strip() or "us-east-1"
 ORG = os.environ.get("SUPABASE_ORG", "").strip()
 SITE_URL = os.environ.get("SITE_URL", "").strip()
+LINK_CALLBACK = "https://link.getaccretion.app/auth/callback"
 ADMIN = os.environ.get("ADMIN_USERNAME", "").strip()
 
 
@@ -330,8 +331,9 @@ def main():
         auth.update(
             {
                 "site_url": SITE_URL,
-                # the Accretion app signs in with Google, GitHub and Discord through its own scheme
-                "uri_allow_list": f"{SITE_URL},{SITE_URL}**,accretion://auth-callback",
+                # the Accretion app signs in with Google, GitHub and Discord through its own scheme;
+                # Accretion Link (link.getaccretion.app) shares this project's sign-in
+                "uri_allow_list": f"{SITE_URL},{SITE_URL}**,accretion://auth-callback,{LINK_CALLBACK}",
                 "mailer_autoconfirm": False,
             }
         )
