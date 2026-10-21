@@ -1,14 +1,14 @@
 # Source report
 
-Built 2026-10-21 18:21 UTC.
+Built 2026-10-21 18:47 UTC.
 
 | | |
 |---|---|
 | Apps in `source.json` | **4525** (5497 KB) |
 | Apps in `curated.json` | **729** (723 KB) |
-| Listings read | 24323 |
+| Listings read | 24326 |
 | Apps listed by more than one source (newest kept) | 1812 |
-| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6647 |
+| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6646 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
 | Dead download links held back (retested every build) | 9097 |
 | Links on hold (whole host failing, kept for now) | 0 |
@@ -80,7 +80,7 @@ Built 2026-10-21 18:21 UTC.
 | [AppTesters IPA Repo](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/source.json) | ok | 4599 | 0 | 228 | 2025-09-05 | discovered |
 | [Neoncat-OG IPA Library](https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/apps_esign.json) | ok | 1988 | 0 | 0 | 2026-04-11 | curated |
 | [swaggyP36000 IPA Library](https://raw.githubusercontent.com/swaggyP36000/TrollStore-IPAs/main/apps_esign.json) | ok | 623 | 0 | 0 | 2023-12-27 | curated |
-| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 200 | 0 | 7 | 2026-04-17 | discovered |
+| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 203 | 0 | 6 | 2026-07-23 | discovered |
 | [OwO Source](https://repo.owo.network/) | ok | 159 | 0 | 0 | 2026-10-17 | curated |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json) | cached | 155 | 0 | 1 | 2026-10-14 | discovered |
 | [Omni-Development IPA Repo](https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json) | ok | 103 | 0 | 13 | 2024-11-17 | discovered |
