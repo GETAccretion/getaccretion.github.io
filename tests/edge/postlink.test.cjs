@@ -1,5 +1,6 @@
-// Public post links for our own mods: dl.getaccretion.app/get/<mod> serves the newest build of one of
-// our mods without an account (the download function's public=1 mode), and nothing else.
+// Public post links for our own mods and Accretion: dl.getaccretion.app/get/<mod> serves the newest build
+// of one of our mods, /get/accretion Accretion's (Telegram update posts), without an account (the download
+// function's public=1 mode), and nothing else.
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
@@ -54,11 +55,19 @@ test('public=1 serves our newest mod build without an account and logs nothing',
   assert.equal(f.issued.length, 0);
 });
 
-test('public=1 does not open other apps, and our mods still need it', async () => {
+test('public=1 does not open other apps, and our mods and Accretion still need it', async () => {
   const f = downloadFunction();
   assert.equal((await f.get('app=com.example.other&public=1')).status, 401);
-  assert.equal((await f.get('app=io.github.getaccretion.Accretion&public=1')).status, 401);
+  assert.equal((await f.get('app=io.github.getaccretion.Accretion.evil&public=1')).status, 401);
   assert.equal((await f.get('app=io.github.accretionmods.gameplus')).status, 401);
+  assert.equal((await f.get('app=io.github.getaccretion.Accretion')).status, 401);
+});
+
+test('public=1 serves Accretion itself without an account and logs nothing', async () => {
+  const f = downloadFunction();
+  const response = await f.get('app=io.github.getaccretion.Accretion&public=1');
+  assert.equal(response.status, 302);
+  assert.equal(f.issued.length, 0);
 });
 
 async function worker() {
@@ -81,6 +90,16 @@ test('/get/<mod> asks for our mod in public mode and passes the redirect on', as
     assert.equal(response.headers.get('Location'), `${ORIGIN}/The-Wanderer_10.1.ipa?t=x`);
     assert.equal(seen[0].url, 'https://fn.fictional.invalid/download?app=io.github.accretionmods.thewandererplus&public=1');
   }, () => new Response(null, { status: 302, headers: { Location: `${ORIGIN}/The-Wanderer_10.1.ipa?t=x` } }));
+});
+
+test('/get/accretion asks for Accretion itself in public mode', async () => {
+  const w = await worker();
+  const env = { DOWNLOAD_FUNCTION: 'https://fn.fictional.invalid/download' };
+  await withUpstream(async (seen) => {
+    const response = await w.fetch(new Request('https://dl.fictional.invalid/get/accretion'), env);
+    assert.equal(response.status, 302);
+    assert.equal(seen[0].url, 'https://fn.fictional.invalid/download?app=io.github.getaccretion.Accretion&public=1');
+  }, () => new Response(null, { status: 302, headers: { Location: `${ORIGIN}/Accretion_1.0.41.ipa?t=x` } }));
 });
 
 test('/get/ refuses odd names, reports a missing build, and rate-limits', async () => {
