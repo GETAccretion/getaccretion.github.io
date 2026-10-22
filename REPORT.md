@@ -1,12 +1,12 @@
 # Source report
 
-Built 2026-10-22 21:54 UTC.
+Built 2026-10-22 22:50 UTC.
 
 | | |
 |---|---|
 | Apps in `source.json` | **4545** (5540 KB) |
 | Apps in `curated.json` | **731** (725 KB) |
-| Listings read | 24389 |
+| Listings read | 24393 |
 | Apps listed by more than one source (newest kept) | 1815 |
 | Listings skipped (http-only, no icon, no date, bad bundle ID) | 6650 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
@@ -37,7 +37,7 @@ Built 2026-10-22 21:54 UTC.
 | [Accretion Mods](https://raw.githubusercontent.com/AccretionMods/mods/main/mods.json) | ok | 2 | 2 | 0 | 2026-10-22 | curated |
 | [FrizzleM's AltSource](https://raw.githubusercontent.com/FrizzleM/SideInstaller/main/frizzlem.json) | ok | 2 | 2 | 0 | 2026-10-16 | discovered |
 | [iAnyFeature's Source](https://raw.githubusercontent.com/Leo7247/iAnyFeature/main/source.json) | ok | 2 | 2 | 0 | 2026-10-18 | discovered |
-| [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9580 | 1 | 164 | 2026-10-22 | discovered |
+| [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9584 | 1 | 164 | 2026-10-23 | discovered |
 | [CyPwn IPA Library](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/CyPwn%20iPA%20Library/source.json) | ok | 193 | 1 | 6 | 2025-09-01 | discovered |
 | [OwO Source](https://repo.owo.network/) | ok | 161 | 1 | 0 | 2026-10-22 | curated |
 | [Sideloading Hub](https://raw.githubusercontent.com/SimoGHcoder/iosrepo/main/apps.json) | ok | 5 | 1 | 0 | 2026-10-22 | discovered |
@@ -200,12 +200,12 @@ Built 2026-10-22 21:54 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
-| QrCode | 2026.10.10 | 2026-10-23 | raw.githubusercontent.com |
 | LookUp | 13.1 | 2026-10-23 | raw.githubusercontent.com |
 | Balance | 1.213.0 | 2026-10-23 | raw.githubusercontent.com |
+| QrCode | 2026.10.10 | 2026-10-23 | raw.githubusercontent.com |
 | FindAir | 2026.10.5 | 2026-10-23 | raw.githubusercontent.com |
+| Lumisound | 1.9.0.104 | 2026-10-22 | raw.githubusercontent.com |
 | Accretion | 1.0.45 | 2026-10-22 | raw.githubusercontent.com |
-| Lumisound | 1.9.0.103 | 2026-10-22 | raw.githubusercontent.com |
 | Hand Mouse | 1.1.0 | 2026-10-22 | raw.githubusercontent.com |
 | Hand Tracker | 1.1.0 | 2026-10-22 | raw.githubusercontent.com |
 | EspressU | 1.2 | 2026-10-22 | raw.githubusercontent.com |
