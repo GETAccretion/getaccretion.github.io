@@ -57,10 +57,18 @@ class Fixture(unittest.TestCase):
         maker = mock.patch.object(telegram, "card", side_effect=lambda *a: self.card)
         maker.start()
         self.addCleanup(maker.stop)
+        self.document = None  # no .ipa upload unless a test sets one
+        patches = [
+            mock.patch.object(telegram, "ipa_document", side_effect=lambda app: self.document),
+            mock.patch.object(telegram, "thumbnail", return_value=b"jpg"),
+        ]
+        for patcher in patches:
+            patcher.start()
+            self.addCleanup(patcher.stop)
         self.ok = True
 
-    def fake_send_file(self, token, method, fields, field, filename, data, mime):
-        self.sent.append((method, {**fields, field: data}))
+    def fake_send_file(self, token, method, fields, files):
+        self.sent.append((method, {**fields, **{field: data for field, _, data, _ in files}}))
         return self.ok
 
     def fake_send(self, token, method, payload):
@@ -168,15 +176,26 @@ class Cheats(unittest.TestCase):
 
     def test_caption_lists_the_cheats(self):
         caption = telegram.release_caption(self.mod(WANDERER_TEXT))
-        self.assertIn("<b>Cheats (3)</b>", caption)
-        self.assertIn("<i>With JIT</i>\n• One-hit kills", caption)
+        self.assertIn("<b>⚙️ Cheats (3)</b>", caption)
+        self.assertIn("<i>With JIT</i>\n✅ One-hit kills", caption)
         self.assertNotIn("Installs next", caption)
 
     def test_accretion_posts_carry_a_direct_download(self):
         caption = telegram.release_caption(OWN)
-        self.assertIn('<a href="https://dl.getaccretion.app/get/accretion">Download the .ipa</a>', caption)
+        self.assertIn('<a href="https://dl.getaccretion.app/get/accretion">Download .ipa</a>', caption)
         self.assertIn("Get it on Accretion", caption)
-        self.assertNotIn("dl.getaccretion.app", telegram.release_caption(self.mod(WANDERER_TEXT)))
+        self.assertNotIn("dl.getaccretion.app", telegram.release_caption(FREE))
+
+    def test_caption_in_the_channel_style(self):
+        latest = {"size": 22_261_537, "minOSVersion": "16.0", "localizedDescription": "Smoother opening."}
+        caption = telegram.release_caption(dict(OWN, versions=[latest]))
+        self.assertTrue(caption.startswith("🪐 <b>ACCRETION · NEW VERSION</b>\n<b>Accretion 1.0.40</b>"))
+        self.assertIn("<blockquote>• Bundle ID: <code>io.github.getaccretion.Accretion</code>", caption)
+        self.assertIn("• Minimum iOS: 16.0\n• Size: 22.3 MB</blockquote>", caption)
+        self.assertIn("<blockquote expandable>Smoother opening.</blockquote>", caption)
+        mod = telegram.release_caption(self.mod(WANDERER_TEXT))
+        self.assertTrue(mod.startswith("🪐 <b>ACCRETION MOD</b>"))
+        self.assertIn("https://dl.getaccretion.app/get/thewandererplus", mod)
 
     def test_apps_that_are_not_mods_have_no_cheat_list(self):
         self.assertEqual(telegram.cheat_list(dict(FREE, localizedDescription=WANDERER_TEXT)), [])
@@ -184,13 +203,13 @@ class Cheats(unittest.TestCase):
 
     def test_mods_that_are_not_games_list_a_mod_menu(self):
         caption = telegram.release_caption(dict(self.mod(WANDERER_TEXT), category="entertainment"))
-        self.assertIn("<b>Mod menu (3)</b>", caption)
+        self.assertIn("<b>⚙️ Mod menu (3)</b>", caption)
 
-    def test_long_lists_are_cut_to_the_message_limit(self):
+    def test_long_lists_are_cut_to_the_caption_limit(self):
         many = "Cheats:\n" + "\n".join(f"• Cheat number {i} " + "x" * 60 for i in range(120))
         caption = telegram.release_caption(self.mod(many))
-        self.assertLessEqual(len(caption), telegram.TEXT_LIMIT)
-        self.assertIn("<b>Cheats (120)</b>", caption)
+        self.assertLessEqual(telegram.visible_length(caption), telegram.CAPTION_LIMIT)
+        self.assertIn("<b>⚙️ Cheats (120)</b>", caption)
         self.assertRegex(caption, r"and \d+ more on the app page")
 
 
@@ -219,6 +238,15 @@ class AnimatedCards(Fixture):
         self.assertIn("Accretion 1.0.40", release["caption"])
         self.assertIn("Reader", self.sent[2][1]["text"])
         self.assertEqual(self.state()["digest"], YESTERDAY)
+
+    def test_small_own_builds_go_up_as_the_ipa_with_the_icon(self):
+        self.document = ("Accretion_1.0.40.ipa", b"PK-ipa")
+        telegram.run(TODAY, "token", "@chan", dry_run=False)
+        method, release = self.sent[0]
+        self.assertEqual(method, "sendDocument")
+        self.assertEqual(release["document"], b"PK-ipa")
+        self.assertEqual(release["thumbnail"], b"jpg")
+        self.assertIn("Download .ipa", release["caption"])
 
     def test_without_a_card_the_release_goes_as_a_photo(self):
         self.card = None
