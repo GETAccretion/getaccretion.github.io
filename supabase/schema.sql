@@ -232,7 +232,7 @@ begin
     new.app_id := old.app_id;
     new.parent_id := old.parent_id;
     new.created_at := old.created_at;
-    if not public.is_mod() then
+    if not public.is_mod() and coalesce(current_setting('accretion.studio_actor', true), '') = '' then
       new.hidden := old.hidden;
     end if;
     if new.body is distinct from old.body then
@@ -352,7 +352,8 @@ begin
     new.post_id := old.post_id;
     new.profile_id := old.profile_id;
     new.reason := old.reason;
-    new.resolved_by := auth.uid();
+    -- Mod Studio acts through public.studio_moderate, which names the admin
+    new.resolved_by := coalesce(nullif(current_setting('accretion.studio_actor', true), '')::uuid, auth.uid());
   end if;
   return new;
 end;
@@ -1090,3 +1091,43 @@ grant select, delete on public.save_devices, public.save_backups to authenticate
 --   update public.profiles set role = 'admin' where username = 'your_username';
 -- Give a trusted user moderator rights:
 --   update public.profiles set role = 'mod' where username = 'their_username';
+
+-- ---------------------------------------------------------------- Mod Studio moderation
+-- Mod Studio (linked as an admin's device, see functions/studio) moderates through this one function with the
+-- server key: it checks the admin itself and names them as the one who resolved a report.
+create or replace function public.studio_moderate(p_actor uuid, p_action text, p_target text,
+  p_flag boolean default null, p_value text default null) returns jsonb
+language plpgsql security definer set search_path = public as $$
+declare
+  result jsonb;
+begin
+  if not exists (select 1 from public.profiles where id = p_actor and role = 'admin' and not banned) then
+    raise exception 'Admins only';
+  end if;
+  perform set_config('accretion.studio_actor', p_actor::text, true);
+  if p_action = 'hide' then
+    update public.posts set hidden = coalesce(p_flag, true) where id = p_target::bigint
+      returning jsonb_build_object('id', id, 'hidden', hidden) into result;
+  elsif p_action = 'resolve' then
+    if p_value not in ('resolved', 'dismissed', 'open') then raise exception 'Unknown report status'; end if;
+    update public.reports set status = p_value where id = p_target::bigint
+      returning jsonb_build_object('id', id, 'status', status) into result;
+  elsif p_action = 'ban' then
+    update public.profiles set banned = coalesce(p_flag, true) where id = p_target::uuid and role <> 'admin'
+      returning jsonb_build_object('username', username, 'banned', banned) into result;
+  elsif p_action = 'role' then
+    if p_value not in ('user', 'mod', 'admin') then raise exception 'Unknown role'; end if;
+    update public.profiles set role = p_value where username = p_target and id <> p_actor
+      returning jsonb_build_object('username', username, 'role', role) into result;
+  elsif p_action = 'supporter' then
+    update public.profiles set supporter = coalesce(p_flag, true) where username = p_target
+      returning jsonb_build_object('username', username, 'supporter', supporter) into result;
+  else
+    raise exception 'Unknown action';
+  end if;
+  perform set_config('accretion.studio_actor', '', true);
+  return result;
+end;
+$$;
+revoke all on function public.studio_moderate(uuid, text, text, boolean, text) from public, anon, authenticated;
+grant execute on function public.studio_moderate(uuid, text, text, boolean, text) to service_role;
