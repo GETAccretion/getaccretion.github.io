@@ -131,6 +131,20 @@ test('create, renew (same id, new expiry), revoke, and renewing a revoked link i
   assert.equal(listed.body.links.length, 1);
 });
 
+test('update points the same link at another stored file', async () => {
+  const other = 'd'.repeat(64);
+  const f = uploadFunction([], [SHA, other]);
+  const made = await f.call('create', { sha256: SHA, name: NAME, days: 30 });
+  const updated = await f.call('update', { id: made.body.id, sha256: other, name: 'Wanderer-Plus_1.0.16.ipa' });
+  assert.equal(updated.status, 200);
+  assert.equal(f.table.get(made.body.id).sha256, other);
+  assert.equal(f.table.get(made.body.id).name, 'Wanderer-Plus_1.0.16.ipa');
+  assert.equal((await f.call('update', { id: made.body.id, sha256: 'e'.repeat(64), name: NAME })).status, 404);  // not stored
+  assert.equal((await f.call('update', { id: made.body.id, sha256: other, name: 'bad name' })).status, 400);
+  await f.call('revoke', { id: made.body.id });
+  assert.equal((await f.call('update', { id: made.body.id, sha256: other, name: NAME })).status, 409);
+});
+
 test('share modes check the key, the file, the name and the days', async () => {
   const f = uploadFunction([], []);
   assert.equal((await f.call('create', { sha256: SHA, name: NAME, days: 30 }, 'wrong-key')).status, 401);

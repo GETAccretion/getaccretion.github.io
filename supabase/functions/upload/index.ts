@@ -10,6 +10,7 @@
 //   POST /functions/v1/upload?share=create  {sha256, name, days, note?} → {id, expires_at}  a share link for a
 //        stored base-style file (dl.getaccretion.app/s/<id>, served by the download function)
 //   POST /functions/v1/upload?share=renew   {id, days} → {id, expires_at}   same link, new expiry (from now)
+//   POST /functions/v1/upload?share=update  {id, sha256, name} → {id}       same link, another stored file (a new build)
 //   POST /functions/v1/upload?share=revoke  {id}       → {id}               the link stops working for good
 //   POST /functions/v1/upload?share=list    {}         → {links: [...]}
 //
@@ -198,11 +199,26 @@ async function shareLinks(mode: string, body: Record<string, unknown>): Promise<
     const { error } = await admin.from("share_links").update({ expires_at }).eq("id", id);
     return error ? reply(503, { message: "Couldn't renew the link." }) : reply(200, { id, expires_at });
   }
+  if (mode === "update") {
+    const sha = String(body.sha256 ?? "");
+    const name = String(body.name ?? "");
+    if (!/^[0-9a-f]{64}$/.test(sha)) return reply(400, { message: "Send sha256: 64 lowercase hex characters." });
+    if (!SHARE_NAME.test(name)) return reply(400, { message: "name must look like App-Name_1.0.ipa." });
+    if (found.revoked) return reply(409, { message: "This link was revoked; make a new one." });
+    if (!s3 || !(await s3Healthy())) return reply(503, { message: "S3 isn't available right now." });
+    try {
+      await s3.send(new HeadObjectCommand({ Bucket: BUCKET, Key: `bases/${sha}` }));
+    } catch {
+      return reply(404, { message: "No stored file with that sha256: upload it first (base=put)." });
+    }
+    const { error } = await admin.from("share_links").update({ sha256: sha, name }).eq("id", id);
+    return error ? reply(503, { message: "Couldn't update the link." }) : reply(200, { id });
+  }
   if (mode === "revoke") {
     const { error } = await admin.from("share_links").update({ revoked: true }).eq("id", id);
     return error ? reply(503, { message: "Couldn't revoke the link." }) : reply(200, { id });
   }
-  return reply(400, { message: "share must be create, renew, revoke or list." });
+  return reply(400, { message: "share must be create, renew, update, revoke or list." });
 }
 
 Deno.serve(async (req) => {
