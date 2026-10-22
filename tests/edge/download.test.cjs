@@ -35,7 +35,8 @@ function fixture(options = {}) {
   });
   return {
     issued,
-    request: () => handler(new Request('https://fictional.invalid/download?app=io.github.getaccretion.Accretion', { headers: { Authorization: 'Bearer fictional' } })),
+    // Accretion itself is public (signed out too); `app` picks another app to test sign-in rules
+    request: () => handler(new Request(`https://fictional.invalid/download?app=${options.app ?? 'io.github.getaccretion.Accretion'}`, { headers: { Authorization: 'Bearer fictional' } })),
   };
 }
 
@@ -50,7 +51,7 @@ test('authorized downloads redirect only after recording issuance', async () => 
 
 test('access, catalogue and quota failures never disclose a signed redirect', async () => {
   for (const [options, expected] of [
-    [{ anonymous: true }, 401], [{ banned: true }, 403], [{ missingProfile: true }, 403],
+    [{ anonymous: true, app: 'com.example.other' }, 401], [{ banned: true }, 403], [{ missingProfile: true }, 403],
     [{ profileError: true }, 503], [{ quotaError: true }, 503], [{ buildsError: true }, 503],
     [{ count: 30 }, 429], [{ logError: 'PT403' }, 403], [{ logError: 'PT429' }, 429], [{ logError: 'offline' }, 503],
   ]) {

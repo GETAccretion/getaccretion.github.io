@@ -225,11 +225,12 @@ Deno.serve(async (req) => {
     }
   }
 
-  // Our own mods and Accretion itself may be fetched without an account through the download proxy's
-  // public post links (dl.getaccretion.app/get/<mod>, /get/accretion for Telegram's update posts; the
-  // proxy adds public=1): no login, quota or download log; the proxy rate-limits per visitor. Anything
-  // else still needs a login or a personal key.
-  const publicMod = url.searchParams.get("public") === "1" && (app.startsWith(OWN_MODS) || app === ACCRETION);
+  // Accretion itself is free to download for anyone (its own Get Update and the app source link work
+  // signed out; Telegram's /get/accretion), and our own mods through the download proxy's public post
+  // links (dl.getaccretion.app/get/<mod>, which adds public=1; the proxy rate-limits per visitor): no
+  // login, quota or download log. A signed-in request is still logged. Anything else needs a login or
+  // a personal key.
+  const publicMod = app === ACCRETION || (url.searchParams.get("public") === "1" && app.startsWith(OWN_MODS));
 
   // who is asking: a signed-in user, or the owner of a personal key
   let owner: string | null = null;
