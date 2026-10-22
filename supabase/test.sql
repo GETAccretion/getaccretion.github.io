@@ -428,4 +428,40 @@ do $$ begin
   assert not has_function_privilege('authenticated', 'public.check_install_report()', 'execute'), 'trigger helper is not a direct RPC';
 end $$;
 
+-- Cloud saves: only the function writes; owners see and delete only their own devices and backups.
+begin;
+set local role service_role;
+insert into public.save_links (code, bundle) values ('ABCDEFG', 'io.fixture.game');
+insert into public.save_devices (id, owner, bundle, token_hash) values
+  ('00000000-0000-0000-0000-0000000000d1', '00000000-0000-0000-0000-00000000000a', 'io.fixture.game', repeat('a', 64)),
+  ('00000000-0000-0000-0000-0000000000d2', '00000000-0000-0000-0000-00000000000c', 'io.fixture.game', repeat('b', 64));
+insert into public.save_backups (owner, bundle, size, path, finished) values
+  ('00000000-0000-0000-0000-00000000000a', 'io.fixture.game', 10, 'a/io.fixture.game/1.zip', true),
+  ('00000000-0000-0000-0000-00000000000c', 'io.fixture.game', 10, 'b/io.fixture.game/2.zip', true);
+reset role;
+select pg_temp.as_user(null);
+do $$ begin
+  assert pg_temp.fails($q$select * from public.save_backups$q$), 'anon cannot read saves';
+  assert pg_temp.fails($q$select * from public.save_links$q$), 'anon cannot read link codes';
+end $$;
+reset role;
+select pg_temp.as_user('00000000-0000-0000-0000-00000000000a');
+do $$ begin
+  assert (select count(*) from public.save_backups) = 1, 'alice sees only her backup';
+  assert (select count(*) from public.save_devices) = 1, 'alice sees only her device';
+  assert pg_temp.fails($q$select * from public.save_links$q$), 'signed-in users cannot read link codes';
+  assert pg_temp.fails($q$insert into public.save_backups (owner, bundle, size, path)
+    values ('00000000-0000-0000-0000-00000000000a', 'io.fixture.game', 1, 'x')$q$), 'users cannot write backups directly';
+  assert pg_temp.fails($q$update public.save_devices set owner = '00000000-0000-0000-0000-00000000000a'$q$), 'users cannot take devices';
+end $$;
+delete from public.save_backups where path like 'b/%';
+delete from public.save_backups where path like 'a/%';
+reset role;
+do $$ begin
+  assert (select count(*) from public.save_backups) = 1, 'alice deleted her backup, not carol''s';
+  assert pg_temp.fails($q$insert into public.save_backups (owner, bundle, size, path)
+    values ('00000000-0000-0000-0000-00000000000a', 'io.fixture.game', 52428801, 'x')$q$), 'a backup is 50 MB at most';
+end $$;
+rollback;
+
 \echo 'all database checks passed'

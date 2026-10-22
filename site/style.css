@@ -708,3 +708,15 @@ h1, .stats dd { background: linear-gradient(100deg, var(--fg) 30%, color-mix(in 
   .pop { animation: pop .28s cubic-bezier(.2, .8, .2, 1); }
 }
 @keyframes pop { 40% { transform: scale(1.18); } }
+
+/* cloud saves (#/link): link a game's menu, then the account's saves per game */
+.saves-card { border: 1px solid var(--line); border-radius: 14px; background: var(--surface); padding: 16px; margin: 0 0 14px; }
+.saves-card h2 { font-size: 16px; margin: 0 0 4px; }
+.saves-card .row { display: flex; gap: 8px; margin-top: 10px; }
+.link-code { flex: 1; min-width: 0; height: 42px; border: 1.5px solid var(--line-strong, var(--line)); border-radius: 10px;
+  background: transparent; color: inherit; font: 700 20px ui-monospace, Menlo, monospace; letter-spacing: 4px; text-align: center; text-transform: uppercase; }
+.saves-card .ok { color: var(--accent-2, #22D3EE); }
+.saves-card .bad { color: var(--bad, #F87171); }
+.save-game h3 { font-size: 14px; margin: 14px 0 4px; }
+.save-row { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-top: 1px solid var(--line); flex-wrap: wrap; }
+.save-row > span:first-child { flex: 1; min-width: 140px; }

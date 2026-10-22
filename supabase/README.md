@@ -219,4 +219,10 @@ what code runs in the browser:
 - The download log (`download_log`) is readable by admins only.
 - Only holders of the upload key can add builds; the functions check it themselves.
 
+- Cloud saves (`save_links`, `save_devices`, `save_backups`, the private `saves` bucket, the `saves` function):
+  a mod's menu links to the signed-in owner with a one-time code approved at `#/link`, then backs up and restores
+  the game's save (a zip, 50 MB at most, the newest 5 per account and game). Only the function writes; owners
+  can list and delete their own devices and backups, nobody else sees them. Only a sha256 of a device's token
+  is stored.
+
 `test.sql` checks all of the above on a plain Postgres. CI runs it on every change.

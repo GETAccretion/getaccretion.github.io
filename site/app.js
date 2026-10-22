@@ -145,7 +145,7 @@
     if (pathPart === "/support") return { view: "support" };
     if (pathPart === "/status") return { view: "status" };
     if (pathPart === "/sign") return { view: "sign" };
-    if (/^\/(feed|u\/.+|notifications|mod|me|signin)$/.test(pathPart)) return { view: "social", path: pathPart, params: Object.fromEntries(p) };
+    if (/^\/(feed|u\/.+|notifications|mod|me|signin|link)$/.test(pathPart)) return { view: "social", path: pathPart, params: Object.fromEntries(p) };
     return {
       view: "home",
       saved: pathPart === "/saved",

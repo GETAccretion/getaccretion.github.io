@@ -1015,6 +1015,76 @@ revoke execute on function public.handle_new_user(), public.check_post(), public
 revoke execute on function public.mod_stats(), public.my_download_key(boolean),
   public.delete_my_account() from public, anon;
 
+-- ---------------------------------------------------------------- cloud saves
+-- Mods back up a game's save to the owner's account (supabase/functions/saves). A device links once with a
+-- one-time code the owner approves on the site; it then holds a token for that game only (only its sha256 is
+-- kept here). Saves sit in the private "saves" bucket. Everything is written by the function (service role);
+-- signed-in owners can list and delete their own devices and backups, nobody else can see them.
+
+do $$
+begin
+  if to_regclass('storage.buckets') is not null then
+    insert into storage.buckets (id, name, public) values ('saves', 'saves', false)
+    on conflict (id) do update set public = false;
+  end if;
+end;
+$$;
+
+create table if not exists public.save_links (
+  code text primary key check (char_length(code) = 7),
+  bundle text not null check (char_length(bundle) between 1 and 200),
+  game text not null default '' check (char_length(game) <= 80),
+  device text not null default '' check (char_length(device) <= 80),
+  ip text not null default '' check (char_length(ip) <= 64),
+  owner uuid references auth.users (id) on delete cascade,
+  created_at timestamptz not null default now(),
+  expires_at timestamptz not null default now() + interval '10 minutes'
+);
+create index if not exists save_links_ip on public.save_links (ip, created_at);
+
+create table if not exists public.save_devices (
+  id uuid primary key default gen_random_uuid(),
+  owner uuid not null references auth.users (id) on delete cascade,
+  bundle text not null check (char_length(bundle) between 1 and 200),
+  game text not null default '' check (char_length(game) <= 80),
+  device text not null default '' check (char_length(device) <= 80),
+  token_hash text not null unique check (char_length(token_hash) = 64),
+  created_at timestamptz not null default now(),
+  last_seen timestamptz
+);
+create index if not exists save_devices_owner on public.save_devices (owner);
+
+create table if not exists public.save_backups (
+  id uuid primary key default gen_random_uuid(),
+  owner uuid not null references auth.users (id) on delete cascade,
+  bundle text not null check (char_length(bundle) between 1 and 200),
+  game text not null default '' check (char_length(game) <= 80),
+  device_id uuid references public.save_devices (id) on delete set null,
+  device text not null default '' check (char_length(device) <= 80),
+  mod_version text not null default '' check (char_length(mod_version) <= 40),
+  game_version text not null default '' check (char_length(game_version) <= 40),
+  size bigint not null check (size between 1 and 52428800),
+  path text not null check (char_length(path) <= 400),
+  finished boolean not null default false,
+  created_at timestamptz not null default now()
+);
+create index if not exists save_backups_owner on public.save_backups (owner, bundle, created_at desc);
+
+alter table public.save_links enable row level security;  -- no policies: the function only
+alter table public.save_devices enable row level security;
+alter table public.save_backups enable row level security;
+drop policy if exists "own save devices" on public.save_devices;
+create policy "own save devices" on public.save_devices for select to authenticated using (owner = (select auth.uid()));
+drop policy if exists "forget own save devices" on public.save_devices;
+create policy "forget own save devices" on public.save_devices for delete to authenticated using (owner = (select auth.uid()));
+drop policy if exists "own save backups" on public.save_backups;
+create policy "own save backups" on public.save_backups for select to authenticated using (owner = (select auth.uid()));
+drop policy if exists "delete own save backups" on public.save_backups;
+create policy "delete own save backups" on public.save_backups for delete to authenticated using (owner = (select auth.uid()));
+
+revoke all on public.save_links, public.save_devices, public.save_backups from anon, authenticated;
+grant select, delete on public.save_devices, public.save_backups to authenticated;
+
 -- ---------------------------------------------------------------- make yourself admin
 -- After you sign up on the site, run this once with your username:
 --   update public.profiles set role = 'admin' where username = 'your_username';
