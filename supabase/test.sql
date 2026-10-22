@@ -434,10 +434,10 @@ set local role service_role;
 insert into public.save_links (code, bundle) values ('ABCDEFG', 'io.fixture.game');
 insert into public.save_devices (id, owner, bundle, token_hash) values
   ('00000000-0000-0000-0000-0000000000d1', '00000000-0000-0000-0000-00000000000a', 'io.fixture.game', repeat('a', 64)),
-  ('00000000-0000-0000-0000-0000000000d2', '00000000-0000-0000-0000-00000000000b', 'io.fixture.game', repeat('b', 64));
+  ('00000000-0000-0000-0000-0000000000d2', '00000000-0000-0000-0000-00000000000c', 'io.fixture.game', repeat('b', 64));
 insert into public.save_backups (owner, bundle, size, path, finished) values
   ('00000000-0000-0000-0000-00000000000a', 'io.fixture.game', 10, 'a/io.fixture.game/1.zip', true),
-  ('00000000-0000-0000-0000-00000000000b', 'io.fixture.game', 10, 'b/io.fixture.game/2.zip', true);
+  ('00000000-0000-0000-0000-00000000000c', 'io.fixture.game', 10, 'b/io.fixture.game/2.zip', true);
 reset role;
 select pg_temp.as_user(null);
 do $$ begin
@@ -458,7 +458,7 @@ delete from public.save_backups where path like 'b/%';
 delete from public.save_backups where path like 'a/%';
 reset role;
 do $$ begin
-  assert (select count(*) from public.save_backups) = 1, 'alice deleted her backup, not bob''s';
+  assert (select count(*) from public.save_backups) = 1, 'alice deleted her backup, not carol''s';
   assert pg_temp.fails($q$insert into public.save_backups (owner, bundle, size, path)
     values ('00000000-0000-0000-0000-00000000000a', 'io.fixture.game', 52428801, 'x')$q$), 'a backup is 50 MB at most';
 end $$;
