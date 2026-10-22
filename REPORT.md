@@ -1,6 +1,6 @@
 # Source report
 
-Built 2026-10-22 06:58 UTC.
+Built 2026-10-22 07:46 UTC.
 
 | | |
 |---|---|
@@ -200,7 +200,7 @@ Built 2026-10-22 06:58 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
-| Accretion | 1.0.41 | 2026-10-22 | raw.githubusercontent.com |
+| Accretion | 1.0.42 | 2026-10-22 | raw.githubusercontent.com |
 | OpenAgentd | 3.24.0 | 2026-10-22 | raw.githubusercontent.com |
 | Keka | 1.6.8 | 2026-10-22 | raw.githubusercontent.com |
 | Delight Games Premium Library | 4.8 | 2026-10-22 | raw.githubusercontent.com |
