@@ -1,12 +1,12 @@
 # Source report
 
-Built 2026-10-22 07:46 UTC.
+Built 2026-10-22 10:09 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4554** (5554 KB) |
-| Apps in `curated.json` | **730** (724 KB) |
-| Listings read | 24380 |
+| Apps in `source.json` | **4555** (5553 KB) |
+| Apps in `curated.json` | **731** (725 KB) |
+| Listings read | 24387 |
 | Apps listed by more than one source (newest kept) | 1814 |
 | Listings skipped (http-only, no icon, no date, bad bundle ID) | 6641 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
@@ -20,13 +20,14 @@ Built 2026-10-22 07:46 UTC.
 
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
-| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3735 | 3401 | 4548 | 2026-10-22 | discovered |
-| [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1625 | 635 | 332 | 2026-10-22 | discovered |
+| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3735 | 3399 | 4548 | 2026-10-22 | discovered |
+| [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1625 | 631 | 332 | 2026-10-22 | discovered |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 447 | 324 | 1 | 2026-10-22 | discovered |
 | [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 100 | 13 | 2025-01-01 | curated |
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
 | [iDevPatcher](https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json) | ok | 20 | 8 | 1 | 2025-12-12 | discovered |
 | [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 9 | 8 | 0 | 2026-10-18 | discovered |
+| [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9568 | 7 | 164 | 2026-10-22 | discovered |
 | [CyPwn IPA Library](https://repos.gabrx.eu.org/cypwn.json) | ok | 204 | 4 | 6 | 2026-08-28 | curated |
 | [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 45 | 4 | 0 | 2026-10-22 | discovered |
 | [RipeStore](https://bit.ly/RipeStore) | ok | 9 | 4 | 0 | 2025-12-17 | discovered |
@@ -37,8 +38,8 @@ Built 2026-10-22 07:46 UTC.
 | [Accretion Mods](https://raw.githubusercontent.com/AccretionMods/mods/main/mods.json) | ok | 2 | 2 | 0 | 2026-10-21 | curated |
 | [FrizzleM's AltSource](https://raw.githubusercontent.com/FrizzleM/SideInstaller/main/frizzlem.json) | ok | 2 | 2 | 0 | 2026-10-16 | discovered |
 | [iAnyFeature's Source](https://raw.githubusercontent.com/Leo7247/iAnyFeature/main/source.json) | ok | 2 | 2 | 0 | 2026-10-18 | discovered |
-| [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9562 | 1 | 164 | 2026-10-22 | discovered |
 | [CyPwn IPA Library](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/CyPwn%20iPA%20Library/source.json) | ok | 193 | 1 | 6 | 2025-09-01 | discovered |
+| [OwO Source](https://repo.owo.network/) | ok | 161 | 1 | 0 | 2026-10-22 | curated |
 | [Sideloading Hub](https://raw.githubusercontent.com/SimoGHcoder/iosrepo/main/apps.json) | ok | 5 | 1 | 0 | 2026-10-22 | discovered |
 | [Quark Source Testing](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource-testing.json) | ok | 4 | 1 | 1 | 2021-08-03 | discovered |
 | [ARMSX2 iOS](https://raw.githubusercontent.com/RipeStore/repos/main/armsx2.json) | ok | 2 | 1 | 0 | 2026-10-20 | discovered |
@@ -80,7 +81,6 @@ Built 2026-10-22 07:46 UTC.
 | [Neoncat-OG IPA Library](https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/apps_esign.json) | ok | 1988 | 0 | 0 | 2026-04-11 | curated |
 | [swaggyP36000 IPA Library](https://raw.githubusercontent.com/swaggyP36000/TrollStore-IPAs/main/apps_esign.json) | ok | 623 | 0 | 0 | 2023-12-27 | curated |
 | [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 203 | 0 | 6 | 2026-07-23 | discovered |
-| [OwO Source](https://repo.owo.network/) | ok | 160 | 0 | 0 | 2026-10-22 | curated |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json) | cached | 154 | 0 | 2 | 2026-10-14 | discovered |
 | [Omni-Development IPA Repo](https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json) | ok | 103 | 0 | 13 | 2024-11-17 | discovered |
 | [Sidelix App Store](https://repos.gabrx.eu.org/nabzclan.json) | ok | 37 | 0 | 1275 | 2026-09-30 | curated |
@@ -200,7 +200,7 @@ Built 2026-10-22 07:46 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
-| Accretion | 1.0.42 | 2026-10-22 | raw.githubusercontent.com |
+| Accretion | 1.0.43 | 2026-10-22 | raw.githubusercontent.com |
 | OpenAgentd | 3.24.0 | 2026-10-22 | raw.githubusercontent.com |
 | Keka | 1.6.8 | 2026-10-22 | raw.githubusercontent.com |
 | Delight Games Premium Library | 4.8 | 2026-10-22 | raw.githubusercontent.com |
@@ -219,9 +219,9 @@ Built 2026-10-22 07:46 UTC.
 | Picsew | 3.19.3 | 2026-10-22 | raw.githubusercontent.com |
 | Duolingo | 7.145.1 | 2026-10-22 | raw.githubusercontent.com |
 | VlogNow | 2.23.1 | 2026-10-22 | raw.githubusercontent.com |
+| 真果鉴 | 0.2.64+71 | 2026-10-22 | repo.owo.network |
 | Mori | 4.5.1 | 2026-10-22 | raw.githubusercontent.com |
 | Reddit | 2026.42.1 | 2026-10-22 | raw.githubusercontent.com |
 | HiWidget | 5.1.20 | 2026-10-22 | raw.githubusercontent.com |
 | Stemz | 6.00.00 | 2026-10-22 | raw.githubusercontent.com |
 | Notability | 16.13.2 | 2026-10-22 | raw.githubusercontent.com |
-| Hevy | 3.2.2 | 2026-10-22 | raw.githubusercontent.com |
