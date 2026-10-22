@@ -1,16 +1,16 @@
 # Source report
 
-Built 2026-10-22 11:53 UTC.
+Built 2026-10-22 12:12 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4555** (5556 KB) |
+| Apps in `source.json` | **4542** (5540 KB) |
 | Apps in `curated.json` | **731** (725 KB) |
-| Listings read | 24388 |
+| Listings read | 24375 |
 | Apps listed by more than one source (newest kept) | 1814 |
-| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6641 |
+| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6654 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
-| Dead download links held back (retested every build) | 9104 |
+| Dead download links held back (retested every build) | 9118 |
 | Links on hold (whole host failing, kept for now) | 0 |
 | Sources | 170: 168 ok, 2 from cache, 0 failed |
 
@@ -20,9 +20,9 @@ Built 2026-10-22 11:53 UTC.
 
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
-| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3735 | 3395 | 4548 | 2026-10-22 | discovered |
+| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3723 | 3383 | 4560 | 2026-10-22 | discovered |
 | [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1625 | 638 | 332 | 2026-10-22 | discovered |
-| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 447 | 325 | 1 | 2026-10-22 | discovered |
+| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 446 | 324 | 2 | 2026-10-22 | discovered |
 | [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 100 | 13 | 2025-01-01 | curated |
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
 | [iDevPatcher](https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json) | ok | 20 | 8 | 1 | 2025-12-12 | discovered |
