@@ -55,6 +55,11 @@
     const uid = () => me.user && me.user.id;
     const feedCols = "id,author,app_id,parent_id,body,hidden,created_at,edited_at,username,display_name,color,role,likes,replies,supporter";
     return {
+      // the signed-in user's access token, for our own functions (cloud saves)
+      async accessToken() {
+        const { data } = await sb().auth.getSession();
+        return data.session ? data.session.access_token : null;
+      },
       async load() {
         if (!window.supabase) {
           await new Promise((res, rej) => {
@@ -711,6 +716,77 @@
     return box;
   }
 
+  // ---------------------------------------------------------------- cloud saves (supabase/functions/saves)
+  // #/link?code=K7Q-4XMP: a mod's menu opens this inside the game; signed in, Link gives that game a device
+  // token (the menu notices by itself). Below: every save of the account, per game, with Delete and Forget.
+  async function savesCall(op, body = {}) {
+    const token = api.accessToken ? await api.accessToken() : null;
+    if (!token) throw new Error("Sign in first");
+    const r = await fetch(`${cfg.supabaseUrl}/functions/v1/saves?op=${op}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+      body: JSON.stringify(body),
+    });
+    const json = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(json.error || "Accretion could not do that right now");
+    return json;
+  }
+
+  async function renderLink(params) {
+    const { h } = A;
+    if (!me.user) { rememberSpot(); return renderSignIn(); }
+    const field = h("input", { class: "link-code", value: params.code || "", placeholder: "K7Q-4XMP", maxlength: "9",
+      autocomplete: "off", autocapitalize: "characters", spellcheck: "false", "aria-label": "Code from the game" });
+    const status = h("p", { class: "muted small", role: "status" });
+    const go = h("button", { class: "btn primary", type: "button" }, "Link");
+    const saves = h("div", { class: "saves" }, h("p", { class: "muted" }, "Loading your saves…"));
+    go.addEventListener("click", async () => {
+      go.disabled = true;
+      status.textContent = "Linking…";
+      try {
+        const r = await savesCall("approve", { code: field.value });
+        status.textContent = `Linked ${r.game || "the game"}. Back in the game, the menu finishes on its own.`;
+        status.className = "ok small";
+        loadSaves();
+      } catch (e) { status.textContent = e.message; status.className = "bad small"; go.disabled = false; }
+    });
+    page("Cloud saves",
+      h("div", { class: "view-head" }, h("h1", { class: "view-title" }, "Cloud saves")),
+      h("section", { class: "saves-card" },
+        h("h2", {}, "Link a game"),
+        h("p", { class: "muted small" }, "Type the code the mod menu shows. Only your account can see the saves it uploads."),
+        h("div", { class: "row" }, field, go), status),
+      h("section", { class: "saves-card" }, h("h2", {}, "Your saves"), h("p", { class: "muted small" }, "The last 5 per game. Delete any time."), saves));
+    if (params.code) field.focus();
+    async function loadSaves() {
+      let data;
+      try { data = await savesCall("mine"); } catch (e) { saves.replaceChildren(h("p", { class: "muted" }, e.message)); return; }
+      if (!data.games.length) { saves.replaceChildren(h("p", { class: "muted empty-thread" }, "No saves yet. In a mod's menu: Log in, then Back up now.")); return; }
+      const size = (n) => (n >= 1048576 ? `${(n / 1048576).toFixed(1)} MB` : `${Math.max(1, Math.round(n / 1024))} KB`);
+      saves.replaceChildren(...data.games.map((g) => h("div", { class: "save-game" },
+        h("h3", {}, g.game || g.bundle),
+        ...g.backups.map((b) => {
+          const del = h("button", { class: "btn ghost small", type: "button" }, "Delete");
+          del.addEventListener("click", async () => {
+            if (!confirm("Delete this backup? It cannot be undone.")) return;
+            try { await savesCall("delete", { id: b.id }); loadSaves(); } catch (e) { A.toast(e.message); }
+          });
+          return h("div", { class: "save-row" }, h("span", {}, new Date(b.created_at).toLocaleString()),
+            h("span", { class: "muted small" }, `${b.device || "device"} · mod ${b.mod_version || "?"} · ${size(b.size)}`), del);
+        }),
+        ...g.devices.map((d) => {
+          const forget = h("button", { class: "btn ghost small", type: "button" }, "Forget");
+          forget.addEventListener("click", async () => {
+            if (!confirm(`Forget ${d.device || "this device"}? It stops backing up until it logs in again.`)) return;
+            try { await savesCall("forget-device", { device_id: d.id }); loadSaves(); } catch (e) { A.toast(e.message); }
+          });
+          return h("div", { class: "save-row device" }, h("span", {}, `📱 ${d.device || "device"}`),
+            h("span", { class: "muted small" }, `linked ${timeAgo(d.created_at)}`), forget);
+        }))));
+    }
+    loadSaves();
+  }
+
   async function renderNotifications() {
     const { h } = A;
     if (!me.user) return renderSignIn();
@@ -934,6 +1010,7 @@
     if (path === "/signin") return renderSignIn(r.params || {});
     if (path === "/me") return renderSettings();
     if (path === "/notifications") return renderNotifications();
+    if (path === "/link") return renderLink(r.params || {});
     if (path === "/mod") return renderMod();
     const u = path.match(/^\/u\/(.+)$/);
     if (u) return renderProfile(decodeURIComponent(u[1]));
