@@ -375,11 +375,11 @@
 
   // apps built by Accretion itself (the AccretionMods/mods source; site.py marks it)
   const isMod = (a) => !!(state.sources[a.o] || {}).mod;
-  const modBadge = () => h("em", { class: "badge mod" }, "Accretion Mod");
+  const modBadge = (a) => h("em", { class: "badge mod" }, a && a.tw ? "Accretion Tweak" : "Accretion Mod");
 
   function card(a) {
     const badges = [];
-    if (isMod(a)) badges.push(modBadge());
+    if (isMod(a)) badges.push(modBadge(a));
     if (hasUpdate(a)) badges.push(h("em", { class: "badge hot" }, "update"));
     else if (isNew(a)) badges.push(h("em", { class: "badge" }, "new"));
     return h(
@@ -452,7 +452,7 @@
           "span",
           { class: "row-body" },
           h("span", { class: "row-name" }, a.n),
-          h("span", { class: "row-meta" }, isMod(a) ? modBadge() : null, [`v${a.v}`, CATEGORY_NAMES[a.c], since(a)].filter(Boolean).join(" · ")),
+          h("span", { class: "row-meta" }, isMod(a) ? modBadge(a) : null, [`v${a.v}`, CATEGORY_NAMES[a.c], since(a)].filter(Boolean).join(" · ")),
         ),
         h("span", { class: "row-go", "aria-hidden": "true" }, "›"),
       ),
@@ -824,7 +824,8 @@
   // search, their app pages) get a sponsor card instead: support.json "sponsors" first, then the
   // certificate offers, then Ko-fi, in the same order as the iOS app's sponsor card.
   const OWN_PREFIXES = ["io.github.getaccretion.", "io.github.accretionmods."];
-  const isOwnApp = (id) => OWN_PREFIXES.some((p) => String(id || "").startsWith(p));
+  // Our own tweaks (row "tw") are cheats for other people's games: their pages are treated like catalogue pages
+  const isOwnApp = (id) => OWN_PREFIXES.some((p) => String(id || "").startsWith(p)) && !((state.byId && state.byId.get(id)) || {}).tw;
   function adRoute(r = parse()) {
     return r.view === "sign" || r.view === "support" || (r.view === "app" && isOwnApp(r.bid));
   }
@@ -1243,6 +1244,31 @@
     return img;
   }
 
+  // Our own tweaks have no .ipa: people inject them into their own copy of the game in Accretion
+  function tweakHow(a, t) {
+    const game = t.game || "the game";
+    const deb = safeUrl(t.deb);
+    const project = safeUrl(t.project);
+    return h(
+      "section",
+      { class: "sec" },
+      h("h2", {}, "How to get it"),
+      h(
+        "ol",
+        { class: "prose" },
+        h("li", {}, `Bring your own decrypted copy of ${game}.`),
+        h("li", {}, "In Accretion, sign it and open Advanced → Modify → Tweaks."),
+        h("li", {}, `Pick ${a.n}: Accretion injects it, then installs ${game}.`),
+      ),
+      h(
+        "div",
+        { class: "actions" },
+        deb ? h("a", { class: "btn", href: deb, rel: "nofollow noopener" }, "Download .dylib") : null,
+        project ? h("a", { class: "btn ghost", href: project, rel: "noopener" }, "Source") : null,
+      ),
+    );
+  }
+
   function body(a, d) {
     if (!d) return [h("p", { class: "muted" }, "Details couldn't load. Check your connection and refresh.")];
     const latest = d.versions[0] || {};
@@ -1259,6 +1285,7 @@
         fact("Category", CATEGORY_NAMES[a.c] || a.c),
       ),
     ];
+    if (d.tweak) out.push(tweakHow(a, d.tweak));
     if (!isOwnApp(a.i)) out.push(sponsorCard(a));
     // screenshots first, like the App Store: they show what the app is before the release notes
     const shots = (d.shots || []).map(safeUrl).filter(Boolean);
@@ -1266,7 +1293,7 @@
     if (latest.notes) out.push(h("section", { class: "sec" }, h("h2", {}, "What's new"), h("p", { class: "prose" }, latest.notes)));
     if (d.feat && d.feat.length) out.push(h("div", { class: "feats" }, d.feat.map((f) => h("span", { class: "feat" }, f))));
     if (d.desc) out.push(h("section", { class: "sec" }, h("h2", {}, "About"), h("p", { class: "prose" }, d.desc)));
-    out.push(
+    if (!d.tweak) out.push(
       h(
         "section",
         { class: "sec" },
@@ -1312,7 +1339,7 @@
           fact("First seen", a.fo ? `Since the store opened (${a.f})` : a.f),
         ),
         isMod(a)
-          ? h("p", { class: "muted small" }, modBadge(), " Built by Accretion from a free or open-source app. Unsigned: sign it with your own tool. Source and build scripts: ", h("a", { href: "https://github.com/AccretionMods/mods", rel: "noopener" }, "AccretionMods/mods"), ".")
+          ? h("p", { class: "muted small" }, modBadge(a), a.tw ? " A tweak by Accretion: no game files are hosted here, you inject it into your own copy. Source and build scripts: " : " Built by Accretion from a free or open-source app. Unsigned: sign it with your own tool. Source and build scripts: ", h("a", { href: "https://github.com/AccretionMods/mods", rel: "noopener" }, "AccretionMods/mods"), ".")
           : h("p", { class: "muted small" }, a.i === "io.github.getaccretion.Accretion"
             ? "This build is hosted privately by Accretion. Sign in to download it."
             : "Files are hosted by the source above. Install what you trust."),
