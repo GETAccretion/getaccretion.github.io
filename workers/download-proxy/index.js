@@ -15,6 +15,9 @@
 //   GET https://dl.getaccretion.app/s/<id>
 //     a share link the owner made for one privately stored build (mods/scripts/dev.py share): the same link
 //     until its expiry (renewable), then 410; revoked, 404. Same rate limit as /get/.
+//   GET https://dl.getaccretion.app/robots.txt
+//     keeps crawlers out: every address here is a redirect or a file, never a page to index (Search Console
+//     listed /get/ links under "Page with redirect"), and share links stay out of crawls.
 //   GET https://dl.getaccretion.app/manifest?bundleid=…&name=…&version=…&fetchurl=<local .ipa URL>
 //     the install manifest for Semi Local installs (same as supabase/functions/manifest), so iOS
 //     asks "dl.getaccretion.app would like to install …".
@@ -214,6 +217,13 @@ const say = (status, message) =>
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (url.pathname === "/robots.txt") {
+      return new Response("User-agent: *
+Disallow: /
+", {
+        headers: { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "public, max-age=86400" },
+      });
+    }
     if (url.pathname === "/download") return download(request, env, url);
     if (url.pathname.startsWith("/s/")) {
       if (request.method !== "GET" && request.method !== "HEAD") return say(405, "Only downloads here.");

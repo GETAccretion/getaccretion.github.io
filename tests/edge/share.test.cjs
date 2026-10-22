@@ -185,3 +185,12 @@ test('/s/<id> passes the share redirect on and explains expired or turned-off li
     globalThis.fetch = real;
   }
 });
+
+test('robots.txt keeps crawlers off the download host', async () => {
+  const w = await worker();
+  const response = await w.fetch(new Request('https://dl.fictional.invalid/robots.txt'), {});
+  assert.equal(response.status, 200);
+  assert.equal(await response.text(), 'User-agent: *
+Disallow: /
+');
+});
