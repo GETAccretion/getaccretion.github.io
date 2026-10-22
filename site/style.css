@@ -214,13 +214,13 @@ h1, .stats dd { background: linear-gradient(100deg, var(--fg) 30%, color-mix(in 
 .detail { padding-block: 20px 40px; }
 .back { margin-bottom: 14px; }
 .d-head { position: relative; display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 20px; align-items: center; padding: 22px; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; background: var(--surface); }
-/* corner brackets, as on the live index, in the app logo's own shade (--tint, set from the icon) */
-.d-head::after { --b: color-mix(in srgb, var(--tint, var(--accent-2)) 85%, white); content: ""; position: absolute; inset: 7px; pointer-events: none; border-radius: 12px;
+/* corner brackets as on the live index: Accretion's violet on the left, cyan on the right (the glow follows the logo) */
+.d-head::after { --l: var(--accent); --r: var(--accent-2); content: ""; position: absolute; inset: 7px; pointer-events: none; border-radius: 12px;
   background:
-    linear-gradient(var(--b), var(--b)) top left / 14px 2px no-repeat, linear-gradient(var(--b), var(--b)) top left / 2px 14px no-repeat,
-    linear-gradient(var(--b), var(--b)) top right / 14px 2px no-repeat, linear-gradient(var(--b), var(--b)) top right / 2px 14px no-repeat,
-    linear-gradient(var(--b), var(--b)) bottom left / 14px 2px no-repeat, linear-gradient(var(--b), var(--b)) bottom left / 2px 14px no-repeat,
-    linear-gradient(var(--b), var(--b)) bottom right / 14px 2px no-repeat, linear-gradient(var(--b), var(--b)) bottom right / 2px 14px no-repeat; }
+    linear-gradient(var(--l), var(--l)) top left / 14px 2px no-repeat, linear-gradient(var(--l), var(--l)) top left / 2px 14px no-repeat,
+    linear-gradient(var(--r), var(--r)) top right / 14px 2px no-repeat, linear-gradient(var(--r), var(--r)) top right / 2px 14px no-repeat,
+    linear-gradient(var(--l), var(--l)) bottom left / 14px 2px no-repeat, linear-gradient(var(--l), var(--l)) bottom left / 2px 14px no-repeat,
+    linear-gradient(var(--r), var(--r)) bottom right / 14px 2px no-repeat, linear-gradient(var(--r), var(--r)) bottom right / 2px 14px no-repeat; }
 @media (prefers-reduced-motion: no-preference) { .d-head::after { animation: pulse-b 2.4s ease-in-out infinite; } }
 @keyframes pulse-b { 50% { opacity: .45; } }
 .d-head::before { content: ""; position: absolute; inset: -40% -10% auto auto; width: 70%; height: 180%; background: radial-gradient(closest-side, color-mix(in srgb, var(--tint, var(--accent)) 30%, transparent), transparent); pointer-events: none; }
