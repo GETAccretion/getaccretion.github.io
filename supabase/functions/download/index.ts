@@ -4,6 +4,8 @@
 //   GET /functions/v1/download?app=<bundle id>             with "Authorization: Bearer <user JWT>"
 //   GET /functions/v1/download?app=<bundle id>&key=<key>   for AltStore, SideStore and Feather
 //   add &version=<x> for a particular version (sources list every version); newest otherwise
+//   GET /functions/v1/download?share=<id>                  a share link (public.share_links, made with the
+//                                                          upload function's share modes), no account
 //
 // Answers with a redirect to a 10-minute link (through the download proxy when it is set up), or a short
 // explanation (401 not signed in, 404 not in the store, 426 Accretion too old). A browser that isn't
@@ -208,9 +210,29 @@ async function minimumVersion(): Promise<string> {
   return minimum.version;
 }
 
+// A share link: one privately stored file (bases/<sha256> in S3, through CloudFront) under its own name,
+// until the link's expiry. Renewing keeps the link; revoking ends it. Each download is counted.
+async function shareLink(id: string): Promise<Response> {
+  if (!/^[A-Za-z0-9_-]{16,32}$/.test(id)) return reply(404, "This link doesn't exist.");
+  const { data, error } = await admin.from("share_links").select("sha256,name,expires_at,revoked,downloads").eq("id", id).maybeSingle();
+  if (error) return reply(503, "Couldn't check this link. Try again.");
+  if (!data || data.revoked) return reply(404, "This link doesn't exist or was turned off.");
+  if (Date.parse(data.expires_at) <= Date.now()) return reply(410, "This link has expired.");
+  const copy = await cdnLink(`bases/${data.sha256}`, data.name);
+  const location = copy && ((await proxyLink(copy, data.name)) ?? copy);
+  if (!location) return reply(503, "Couldn't prepare the download. Try again.");
+  await admin.from("share_links").update({ downloads: (data.downloads ?? 0) + 1, last_download_at: new Date().toISOString() }).eq("id", id);
+  return new Response(null, {
+    status: 302,
+    headers: { ...cors, Location: location, "Cache-Control": "no-store", "Referrer-Policy": "no-referrer" },
+  });
+}
+
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response(null, { headers: cors });
   const url = new URL(req.url);
+  const share = url.searchParams.get("share");
+  if (share !== null) return await shareLink(share);
   const app = url.searchParams.get("app") ?? "";
   const key = url.searchParams.get("key") ?? "";
   const version = url.searchParams.get("version") ?? "";

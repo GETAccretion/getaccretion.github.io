@@ -12,6 +12,9 @@
 //     or of Accretion itself for /get/accretion (Telegram's update posts),
 //     no account, as a redirect to a /<App>_<version>.ipa link above. Rate-limited per visitor
 //     (wrangler.toml [[ratelimits]] POST_LINKS); other sources' apps are never served this way.
+//   GET https://dl.getaccretion.app/s/<id>
+//     a share link the owner made for one privately stored build (mods/scripts/dev.py share): the same link
+//     until its expiry (renewable), then 410; revoked, 404. Same rate limit as /get/.
 //   GET https://dl.getaccretion.app/manifest?bundleid=…&name=…&version=…&fetchurl=<local .ipa URL>
 //     the install manifest for Semi Local installs (same as supabase/functions/manifest), so iOS
 //     asks "dl.getaccretion.app would like to install …".
@@ -101,6 +104,36 @@ async function modLink(request, env, url) {
   });
 }
 
+// /s/<id>: a share link, through the download function's share mode
+const SHARE = /^[A-Za-z0-9_-]{16,32}$/;
+
+async function shareLink(request, env, url) {
+  const id = url.pathname.slice("/s/".length).replace(/\/$/, "");
+  if (!SHARE.test(id)) return say(404, "This link doesn't exist.");
+  if (!env.DOWNLOAD_FUNCTION) return say(503, "Downloads are not set up yet.");
+  if (env.POST_LINKS) {
+    const who = request.headers.get("cf-connecting-ip") ?? "unknown";
+    const { success } = await env.POST_LINKS.limit({ key: who });
+    if (!success) return say(429, "Too many downloads. Try again in a minute.");
+  }
+  let answer;
+  try {
+    answer = await fetch(`${env.DOWNLOAD_FUNCTION}?share=${encodeURIComponent(id)}`, { redirect: "manual" });
+  } catch {
+    return say(502, "The download server didn't answer. Try again later.");
+  }
+  const location = answer.headers.get("location");
+  if (answer.status === 302 && location) {
+    return new Response(null, {
+      status: 302,
+      headers: { Location: location, "Cache-Control": "no-store", "Referrer-Policy": "no-referrer", "X-Robots-Tag": "noindex" },
+    });
+  }
+  if (answer.status === 404) return say(404, "This link doesn't exist or was turned off.");
+  if (answer.status === 410) return say(410, "This link has expired.");
+  return say(502, "Couldn't prepare the download. Try again.");
+}
+
 const escapeXML = (text) =>
   text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
 
@@ -182,6 +215,10 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname === "/download") return download(request, env, url);
+    if (url.pathname.startsWith("/s/")) {
+      if (request.method !== "GET" && request.method !== "HEAD") return say(405, "Only downloads here.");
+      return shareLink(request, env, url);
+    }
     if (url.pathname.startsWith("/get/")) {
       if (request.method !== "GET" && request.method !== "HEAD") return say(405, "Only downloads here.");
       return modLink(request, env, url);

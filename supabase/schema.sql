@@ -775,6 +775,23 @@ create table if not exists public.upstream_links (
 alter table public.upstream_links enable row level security;
 revoke all on public.upstream_links from public, anon, authenticated;
 
+-- Share links: dl.getaccretion.app/s/<id> for one privately stored file (bases/<sha256> in S3), made by the
+-- owner's mods/scripts/dev.py share through the upload function. The link stays the same; its expiry can be
+-- renewed, and revoking ends it. Only the functions (service role) read or write it.
+create table if not exists public.share_links (
+  id text primary key check (id ~ '^[A-Za-z0-9_-]{16,32}$'),
+  sha256 text not null check (sha256 ~ '^[0-9a-f]{64}$'),
+  name text not null check (name ~ '^[A-Za-z0-9-]{1,64}_[A-Za-z0-9.-]{1,32}\.ipa$'),
+  note text check (char_length(note) <= 200),
+  expires_at timestamptz not null,
+  revoked boolean not null default false,
+  downloads integer not null default 0,
+  last_download_at timestamptz,
+  created_at timestamptz not null default now()
+);
+alter table public.share_links enable row level security;
+revoke all on public.share_links from public, anon, authenticated;
+
 alter table public.hosted_builds enable row level security;
 alter table public.download_keys enable row level security;
 alter table public.download_log enable row level security;

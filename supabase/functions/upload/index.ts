@@ -7,6 +7,11 @@
 //        also posts "<name> <version>" with the notes to the What's new feed (announce: false skips it)
 //   POST /functions/v1/upload?base=put   {sha256}  → {signedUrl}  PUT a mod's private base .ipa
 //   POST /functions/v1/upload?base=get   {sha256}  → {signedUrl}  GET it back (15 minutes)
+//   POST /functions/v1/upload?share=create  {sha256, name, days, note?} → {id, expires_at}  a share link for a
+//        stored base-style file (dl.getaccretion.app/s/<id>, served by the download function)
+//   POST /functions/v1/upload?share=renew   {id, days} → {id, expires_at}   same link, new expiry (from now)
+//   POST /functions/v1/upload?share=revoke  {id}       → {id}               the link stops working for good
+//   POST /functions/v1/upload?share=list    {}         → {links: [...]}
 //
 // Every call needs "x-upload-key: <UPLOAD_KEY>", a secret only the release workflows and the
 // mods publish script hold. Deployed with --no-verify-jwt; the key is the check.
@@ -20,6 +25,7 @@ import {
   DeleteObjectCommand,
   GetObjectCommand,
   HeadBucketCommand,
+  HeadObjectCommand,
   PutObjectCommand,
   S3Client,
 } from "npm:@aws-sdk/client-s3@3.1149.0";
@@ -141,6 +147,64 @@ function same(a: string, b: string): boolean {
   return diff === 0;
 }
 
+// Share links (public.share_links): one id per file, its expiry 1 to 400 days from now, renewable.
+const SHARE_ID = /^[A-Za-z0-9_-]{16,32}$/;
+const SHARE_NAME = /^[A-Za-z0-9-]{1,64}_[A-Za-z0-9.-]{1,32}\.ipa$/;  // the download proxy's file-name rule
+
+function shareDays(value: unknown): number | null {
+  return typeof value === "number" && Number.isInteger(value) && value >= 1 && value <= 400 ? value : null;
+}
+
+function newShareId(): string {
+  const bytes = crypto.getRandomValues(new Uint8Array(15));
+  return btoa(String.fromCharCode(...bytes)).replace(/\+/g, "-").replace(/\//g, "_");  // 20 characters
+}
+
+async function shareLinks(mode: string, body: Record<string, unknown>): Promise<Response> {
+  const until = (days: number) => new Date(Date.now() + days * 86_400_000).toISOString();
+  if (mode === "list") {
+    const { data, error } = await admin.from("share_links")
+      .select("id,name,note,expires_at,revoked,downloads,last_download_at,created_at").order("created_at", { ascending: false });
+    return error ? reply(503, { message: "Couldn't read share links." }) : reply(200, { links: data ?? [] });
+  }
+  if (mode === "create") {
+    const sha = String(body.sha256 ?? "");
+    const name = String(body.name ?? "");
+    const days = shareDays(body.days);
+    const note = body.note === undefined ? null : String(body.note).slice(0, 200);
+    if (!/^[0-9a-f]{64}$/.test(sha)) return reply(400, { message: "Send sha256: 64 lowercase hex characters." });
+    if (!SHARE_NAME.test(name)) return reply(400, { message: "name must look like App-Name_1.0.ipa." });
+    if (!days) return reply(400, { message: "days must be a whole number from 1 to 400." });
+    if (!s3 || !(await s3Healthy())) return reply(503, { message: "S3 isn't available right now." });
+    try {
+      await s3.send(new HeadObjectCommand({ Bucket: BUCKET, Key: `bases/${sha}` }));
+    } catch {
+      return reply(404, { message: "No stored file with that sha256: upload it first (base=put)." });
+    }
+    const row = { id: newShareId(), sha256: sha, name, note, expires_at: until(days) };
+    const { error } = await admin.from("share_links").insert(row);
+    return error ? reply(503, { message: "Couldn't save the share link." }) : reply(200, { id: row.id, expires_at: row.expires_at });
+  }
+  const id = String(body.id ?? "");
+  if (!SHARE_ID.test(id)) return reply(400, { message: "Send the link's id." });
+  const { data: found, error: findError } = await admin.from("share_links").select("id,revoked").eq("id", id).maybeSingle();
+  if (findError) return reply(503, { message: "Couldn't read the share link." });
+  if (!found) return reply(404, { message: "No share link with that id." });
+  if (mode === "renew") {
+    const days = shareDays(body.days);
+    if (!days) return reply(400, { message: "days must be a whole number from 1 to 400." });
+    if (found.revoked) return reply(409, { message: "This link was revoked; make a new one." });
+    const expires_at = until(days);
+    const { error } = await admin.from("share_links").update({ expires_at }).eq("id", id);
+    return error ? reply(503, { message: "Couldn't renew the link." }) : reply(200, { id, expires_at });
+  }
+  if (mode === "revoke") {
+    const { error } = await admin.from("share_links").update({ revoked: true }).eq("id", id);
+    return error ? reply(503, { message: "Couldn't revoke the link." }) : reply(200, { id });
+  }
+  return reply(400, { message: "share must be create, renew, revoke or list." });
+}
+
 Deno.serve(async (req) => {
   if (req.method !== "POST") return reply(405, { message: "Use POST." });
   const expected = Deno.env.get("UPLOAD_KEY") ?? "";
@@ -159,6 +223,9 @@ Deno.serve(async (req) => {
   // private base apps for mods (mods/scripts/base.py). Kept in S3 only, under bases/<sha256> (no
   // .ipa ending, so the Oracle mirror and the store copy script skip them), never listed anywhere
   // public. The mod build checks the file's sha256 itself.
+  const shareMode = new URL(req.url).searchParams.get("share");
+  if (shareMode) return await shareLinks(shareMode, body as Record<string, unknown>);
+
   const baseMode = new URL(req.url).searchParams.get("base");
   if (baseMode === "put" || baseMode === "get") {
     const sha = String((body as { sha256?: string }).sha256 ?? "");
