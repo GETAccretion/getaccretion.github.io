@@ -138,7 +138,7 @@ jobs:
         run: node --test tests/edge/*.test.cjs
       - name: Type-check the edge functions
         id: type-check
-        run: npx --yes deno@2.9.6 check supabase/functions/download/index.ts supabase/functions/source/index.ts supabase/functions/upload/index.ts supabase/functions/manifest/index.ts supabase/functions/saves/index.ts
+        run: npx --yes deno@2.9.6 check supabase/functions/download/index.ts supabase/functions/source/index.ts supabase/functions/upload/index.ts supabase/functions/manifest/index.ts supabase/functions/saves/index.ts supabase/functions/studio/index.ts
       - name: Summary
         if: always()
         env:
