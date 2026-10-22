@@ -1,13 +1,13 @@
 # Source report
 
-Built 2026-10-22 06:29 UTC.
+Built 2026-10-22 06:40 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4530** (5495 KB) |
+| Apps in `source.json` | **4554** (5554 KB) |
 | Apps in `curated.json` | **730** (724 KB) |
-| Listings read | 24355 |
-| Apps listed by more than one source (newest kept) | 1813 |
+| Listings read | 24381 |
+| Apps listed by more than one source (newest kept) | 1814 |
 | Listings skipped (http-only, no icon, no date, bad bundle ID) | 6641 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
 | Dead download links held back (retested every build) | 9104 |
@@ -20,9 +20,9 @@ Built 2026-10-22 06:29 UTC.
 
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
-| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3735 | 3402 | 4548 | 2026-10-22 | discovered |
+| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3735 | 3401 | 4548 | 2026-10-22 | discovered |
 | [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1625 | 635 | 332 | 2026-10-22 | discovered |
-| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 422 | 299 | 1 | 2026-10-22 | discovered |
+| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 447 | 324 | 1 | 2026-10-22 | discovered |
 | [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 100 | 13 | 2025-01-01 | curated |
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
 | [iDevPatcher](https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json) | ok | 20 | 8 | 1 | 2025-12-12 | discovered |
@@ -79,7 +79,7 @@ Built 2026-10-22 06:29 UTC.
 | [AppTesters IPA Repo](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/source.json) | ok | 4599 | 0 | 228 | 2025-09-05 | discovered |
 | [Neoncat-OG IPA Library](https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/apps_esign.json) | ok | 1988 | 0 | 0 | 2026-04-11 | curated |
 | [swaggyP36000 IPA Library](https://raw.githubusercontent.com/swaggyP36000/TrollStore-IPAs/main/apps_esign.json) | ok | 623 | 0 | 0 | 2023-12-27 | curated |
-| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 203 | 0 | 6 | 2026-07-23 | discovered |
+| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 204 | 0 | 6 | 2026-08-28 | discovered |
 | [OwO Source](https://repo.owo.network/) | ok | 160 | 0 | 0 | 2026-10-22 | curated |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json) | cached | 154 | 0 | 2 | 2026-10-14 | discovered |
 | [Omni-Development IPA Repo](https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json) | ok | 103 | 0 | 13 | 2024-11-17 | discovered |
@@ -200,7 +200,12 @@ Built 2026-10-22 06:29 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
+| OpenAgentd | 3.24.0 | 2026-10-22 | raw.githubusercontent.com |
+| Keka | 1.6.8 | 2026-10-22 | raw.githubusercontent.com |
 | Accretion | 1.0.40 | 2026-10-22 | raw.githubusercontent.com |
+| Delight Games Premium Library | 4.8 | 2026-10-22 | raw.githubusercontent.com |
+| MovieClaw | 0.10.0 | 2026-10-22 | raw.githubusercontent.com |
+| Bird Chaser | 1.167.0 | 2026-10-22 | raw.githubusercontent.com |
 | Rimba | 0.2.0 | 2026-10-22 | raw.githubusercontent.com |
 | Hand Mouse | 1.1.0 | 2026-10-22 | raw.githubusercontent.com |
 | Hand Tracker | 1.1.0 | 2026-10-22 | raw.githubusercontent.com |
@@ -220,8 +225,3 @@ Built 2026-10-22 06:29 UTC.
 | Stemz | 6.00.00 | 2026-10-22 | raw.githubusercontent.com |
 | Notability | 16.13.2 | 2026-10-22 | raw.githubusercontent.com |
 | Hevy | 3.2.2 | 2026-10-22 | raw.githubusercontent.com |
-| Aloha | 8.12.0 | 2026-10-22 | raw.githubusercontent.com |
-| Tsumiru | 1.5.1 | 2026-10-22 | raw.githubusercontent.com |
-| Nuvio Enhanced | 0.6.3 | 2026-10-22 | raw.githubusercontent.com |
-| CollaNote | 5.0.9 | 2026-10-22 | raw.githubusercontent.com |
-| SkyGuide | 13.1.1 | 2026-10-22 | raw.githubusercontent.com |
