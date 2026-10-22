@@ -1,13 +1,13 @@
 # Source report
 
-Built 2026-10-22 19:15 UTC.
+Built 2026-10-22 19:54 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4545** (5537 KB) |
+| Apps in `source.json` | **4545** (5538 KB) |
 | Apps in `curated.json` | **726** (721 KB) |
-| Listings read | 24329 |
-| Apps listed by more than one source (newest kept) | 1805 |
+| Listings read | 24330 |
+| Apps listed by more than one source (newest kept) | 1806 |
 | Listings skipped (http-only, no icon, no date, bad bundle ID) | 6662 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
 | Dead download links held back (retested every build) | 9115 |
@@ -21,8 +21,8 @@ Built 2026-10-22 19:15 UTC.
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
 | [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3727 | 3385 | 4556 | 2026-10-22 | discovered |
-| [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1625 | 637 | 332 | 2026-10-22 | discovered |
-| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 444 | 321 | 2 | 2026-10-22 | discovered |
+| [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1625 | 636 | 332 | 2026-10-22 | discovered |
+| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 445 | 322 | 2 | 2026-10-22 | discovered |
 | [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 100 | 13 | 2025-01-01 | curated |
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
 | [iDevPatcher](https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json) | ok | 20 | 8 | 1 | 2025-12-12 | discovered |
@@ -200,28 +200,28 @@ Built 2026-10-22 19:15 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
-| Lumisound | 1.9.0.101 | 2026-10-22 | raw.githubusercontent.com |
+| Lumisound | 1.9.0.103 | 2026-10-22 | raw.githubusercontent.com |
+| Hand Mouse | 1.1.0 | 2026-10-22 | raw.githubusercontent.com |
+| Hand Tracker | 1.1.0 | 2026-10-22 | raw.githubusercontent.com |
+| EspressU | 1.2 | 2026-10-22 | raw.githubusercontent.com |
+| RuneMobile | 0.2.6 | 2026-10-22 | raw.githubusercontent.com |
 | The Wanderer+ | 10.1-mod1.0.8 | 2026-10-22 | raw.githubusercontent.com |
+| NicotinD | 0.8.114 | 2026-10-22 | raw.githubusercontent.com |
+| Floe Agent | 1.7.47 | 2026-10-22 | raw.githubusercontent.com |
+| Kikoto | 0.9.3 | 2026-10-22 | raw.githubusercontent.com |
+| OpenAgentd | 3.26.0 | 2026-10-22 | raw.githubusercontent.com |
+| EngiNote | 1.0 | 2026-10-22 | raw.githubusercontent.com |
+| Softify | 2.9.6 | 2026-10-22 | raw.githubusercontent.com |
+| Discord | 352.0 | 2026-10-22 | raw.githubusercontent.com |
+| Waypage | 1.40.1 | 2026-10-22 | raw.githubusercontent.com |
+| ISPlayer | 0.9.61 | 2026-10-22 | raw.githubusercontent.com |
+| SpeedBreaker | 0.1.8 | 2026-10-22 | raw.githubusercontent.com |
 | VortX | 0.5.6 | 2026-10-22 | raw.githubusercontent.com |
 | I.K.E.M.E.N-Go | 1.1 | 2026-10-22 | raw.githubusercontent.com |
 | Seed Seeker | 0.22.1 | 2026-10-22 | raw.githubusercontent.com |
+| ICO | 0.8.4 | 2026-10-22 | raw.githubusercontent.com |
 | Accretion | 1.0.44 | 2026-10-22 | raw.githubusercontent.com |
-| OpenAgentd | 3.25.1 | 2026-10-22 | raw.githubusercontent.com |
+| Sonara | 1.2.4 | 2026-10-22 | raw.githubusercontent.com |
+| BrownBear | 0.1.0 | 2026-10-22 | raw.githubusercontent.com |
 | Streets of Roanoke | 2.1.0 | 2026-10-22 | raw.githubusercontent.com |
-| Mornye | 5.2.5 | 2026-10-22 | raw.githubusercontent.com |
-| Manatan | 6.2.7 | 2026-10-22 | raw.githubusercontent.com |
-| Ito | 1.2.0 | 2026-10-22 | raw.githubusercontent.com |
-| 3X-UI Manager | 26.10.22.79 | 2026-10-22 | raw.githubusercontent.com |
-| Floe Agent | 1.7.46 | 2026-10-22 | raw.githubusercontent.com |
-| Modu | 1.3.1 | 2026-10-22 | raw.githubusercontent.com |
-| Opentify | 0.1.99 | 2026-10-22 | raw.githubusercontent.com |
-| Keka | 1.6.8 | 2026-10-22 | raw.githubusercontent.com |
-| Delight Games Premium Library | 4.8 | 2026-10-22 | raw.githubusercontent.com |
-| MovieClaw | 0.10.0 | 2026-10-22 | raw.githubusercontent.com |
-| Bird Chaser | 1.167.0 | 2026-10-22 | raw.githubusercontent.com |
-| Rimba | 0.2.0 | 2026-10-22 | raw.githubusercontent.com |
-| Hand Mouse | 1.1.0 | 2026-10-22 | raw.githubusercontent.com |
-| Hand Tracker | 1.1.0 | 2026-10-22 | raw.githubusercontent.com |
-| NeoBili | 1.3.0 | 2026-10-22 | raw.githubusercontent.com |
-| nikcli | 1.434.0 | 2026-10-22 | raw.githubusercontent.com |
-| Screen Sharing | 1.0.3 | 2026-10-22 | raw.githubusercontent.com |
+| CamGrid | 1.0.0 | 2026-10-22 | raw.githubusercontent.com |
