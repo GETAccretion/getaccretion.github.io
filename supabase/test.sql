@@ -464,4 +464,34 @@ do $$ begin
 end $$;
 rollback;
 
+-- Mod Studio moderation: only through the server key, only for an admin, and it names the admin
+begin;
+update public.profiles set role = 'user' where id = '00000000-0000-0000-0000-00000000000c';
+select pg_temp.as_user('00000000-0000-0000-0000-00000000000c');
+insert into public.posts (body) values ('studio moderation fixture');
+insert into public.reports (post_id, reason) values ((select max(id) from public.posts), 'rude');
+do $$ begin
+  assert pg_temp.fails($q$select public.studio_moderate('00000000-0000-0000-0000-00000000000a', 'hide', '1')$q$), 'users cannot call studio_moderate';
+end $$;
+reset role;
+set local role service_role;
+do $$ begin
+  assert pg_temp.fails($q$select public.studio_moderate('00000000-0000-0000-0000-00000000000c', 'hide', (select max(id) from public.posts)::text)$q$), 'only admins moderate from Studio';
+end $$;
+reset role;
+update public.profiles set role = 'admin' where id = '00000000-0000-0000-0000-00000000000a';
+set local role service_role;
+select public.studio_moderate('00000000-0000-0000-0000-00000000000a', 'hide', (select max(id) from public.posts)::text, true);
+select public.studio_moderate('00000000-0000-0000-0000-00000000000a', 'resolve', (select max(id) from public.reports)::text, null, 'resolved');
+select public.studio_moderate('00000000-0000-0000-0000-00000000000a', 'ban', '00000000-0000-0000-0000-00000000000c', true);
+reset role;
+do $$ begin
+  assert (select hidden from public.posts where id = (select max(id) from public.posts)), 'Studio hid the post';
+  assert (select status from public.reports where id = (select max(id) from public.reports)) = 'resolved', 'Studio resolved the report';
+  assert (select resolved_by from public.reports where id = (select max(id) from public.reports)) = '00000000-0000-0000-0000-00000000000a', 'the admin is named';
+  assert (select banned from public.profiles where id = '00000000-0000-0000-0000-00000000000c'), 'Studio banned the user';
+  assert coalesce(current_setting('accretion.studio_actor', true), '') = '', 'the actor is cleared';
+end $$;
+rollback;
+
 \echo 'all database checks passed'

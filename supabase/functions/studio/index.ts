@@ -1,12 +1,15 @@
-// studio: the admin numbers for Mod Studio's Store tab, in one call. Mod Studio links once like a game's cloud saves
+// studio: the admin numbers and moderation for Mod Studio's Store tab. Mod Studio links once like a game's cloud saves
 // (saves?op=link-start with bundle "accretion.studio", approved at #/link while signed in); its device token is
 // accepted here only when the linked account is an admin.
 //
 //   POST /functions/v1/studio?op=summary {apps?: ["io.github.accretionmods.x", ...]} with x-save-token
 //     → {account, generated_at, sections: {accounts, downloads, apps, community, searches, share_links, cloud_saves,
 //        builds}}; a section that fails carries {error} instead, so one slow table never hides the rest.
+//   POST ?op=moderation → {reports (open, oldest first), recent posts, hidden posts, banned, team}
+//   POST ?op=act {action: hide|resolve|ban|role|supporter, target, flag?, value?} → one action through
+//     public.studio_moderate (server key only; it checks the admin again and records them on resolved reports).
 //
-// Read only. Deployed with --no-verify-jwt like the others; the token and the admin role are the check.
+// Deployed with --no-verify-jwt like the others; the token and the admin role are the check.
 import { createClient } from "npm:@supabase/supabase-js@2.117.2";
 
 const admin = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!);
@@ -151,6 +154,23 @@ const builds = () => section(async () => {
   return { latest };
 });
 
+// the moderation queue and lists, like the site's #/mod page
+async function moderation() {
+  const { data: reports, error } = await admin.from("reports")
+    .select("id,reason,status,created_at,post:posts(id,body,app_id,hidden,created_at,author_p:profiles!posts_author_fkey(id,username,banned,role)),profile:profiles!reports_profile_id_fkey(id,username,banned,role),reporter_p:profiles!reports_reporter_fkey(username)")
+    .eq("status", "open").order("created_at", { ascending: true }).limit(100);
+  if (error) throw new Error(`reports: ${error.message}`);
+  const recent = await section(async () => (await rows("posts", "id,body,app_id,hidden,created_at,parent_id,author_p:profiles!posts_author_fkey(id,username,banned,role)",
+    (q) => q.order("created_at", { ascending: false }), 40)).slice(0, 40));
+  const hidden = await section(async () => (await rows("posts", "id,body,app_id,created_at,author_p:profiles!posts_author_fkey(id,username,banned,role)",
+    (q) => q.eq("hidden", true).order("created_at", { ascending: false }), 30)).slice(0, 30));
+  const banned = await section(() => rows("profiles", "id,username,created_at", (q) => q.eq("banned", true).order("created_at", { ascending: false }), 200));
+  const team = await section(() => rows("profiles", "id,username,role,supporter", (q) => q.or("role.in.(mod,admin),supporter.eq.true").order("username"), 200));
+  return { reports: reports ?? [], recent, hidden, banned, team };
+}
+
+const ACTIONS = new Set(["hide", "resolve", "ban", "role", "supporter"]);
+
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
   if (req.method !== "POST") return answer(405, { error: "Use POST" });
@@ -162,9 +182,23 @@ Deno.serve(async (req) => {
   const { data: profile } = await admin.from("profiles").select("role, banned").eq("id", device.owner).maybeSingle();
   if (!profile || profile.role !== "admin" || profile.banned) return answer(403, { error: "This account is not an admin" });
   await admin.from("save_devices").update({ last_seen: new Date().toISOString() }).eq("id", device.id);
-  if (op !== "summary") return answer(404, { error: "Unknown request" });
   let body: any = {};
   try { body = await req.json(); } catch { /* {} */ }
+  if (op === "moderation") {
+    try { return answer(200, await moderation()); } catch (e) { return answer(500, { error: e instanceof Error ? e.message : String(e) }); }
+  }
+  if (op === "act") {
+    // one moderation action, through public.studio_moderate (it checks the admin again and names them)
+    const action = String(body.action ?? "");
+    const target = String(body.target ?? "").slice(0, 100);
+    if (!ACTIONS.has(action) || !target) return answer(400, { error: "Unknown action" });
+    const { data, error } = await admin.rpc("studio_moderate", { p_actor: device.owner, p_action: action, p_target: target,
+      p_flag: typeof body.flag === "boolean" ? body.flag : null, p_value: typeof body.value === "string" ? body.value : null });
+    if (error) return answer(400, { error: error.message });
+    if (!data) return answer(404, { error: "Nothing matched (already gone, or an admin)" });
+    return answer(200, { ok: true, result: data });
+  }
+  if (op !== "summary") return answer(404, { error: "Unknown request" });
   const ids = Array.isArray(body.apps) ? body.apps.filter((x: unknown) => typeof x === "string").slice(0, 30) : [];
   const { data: user } = await admin.auth.admin.getUserById(device.owner);
   const email = String(user?.user?.email ?? "");
