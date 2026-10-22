@@ -7,6 +7,10 @@
 //   GET https://dl.getaccretion.app/download?app=<bundle id>[&key=…&version=…]
 //     the store's download function (supabase/functions/download) under this address; its answer
 //     (a redirect to a /<App>_<version>.ipa link above, or a short message) is passed on as it is.
+//   GET https://dl.getaccretion.app/get/<mod>
+//     a public link for posts: the newest build of one of our own mods (io.github.accretionmods.<mod>),
+//     no account, as a redirect to a /<App>_<version>.ipa link above. Rate-limited per visitor
+//     (wrangler.toml [[ratelimits]] POST_LINKS); other sources' apps are never served this way.
 //   GET https://dl.getaccretion.app/manifest?bundleid=…&name=…&version=…&fetchurl=<local .ipa URL>
 //     the install manifest for Semi Local installs (same as supabase/functions/manifest), so iOS
 //     asks "dl.getaccretion.app would like to install …".
@@ -63,6 +67,35 @@ async function download(request, env, url) {
     if (v) out.set(h, v);
   }
   return new Response(request.method === "HEAD" ? null : answer.body, { status: answer.status, headers: out });
+}
+
+// /get/<mod>: the public post link for one of our own mods
+const MOD = /^[a-z0-9][a-z0-9-]{0,63}$/;
+
+async function modLink(request, env, url) {
+  const mod = url.pathname.slice("/get/".length).replace(/\/$/, "").toLowerCase();
+  if (!MOD.test(mod)) return say(404, "No such mod. See getaccretion.app for Accretion's mods.");
+  if (!env.DOWNLOAD_FUNCTION) return say(503, "Downloads are not set up yet.");
+  if (env.POST_LINKS) {
+    const who = request.headers.get("cf-connecting-ip") ?? "unknown";
+    const { success } = await env.POST_LINKS.limit({ key: who });
+    if (!success) return say(429, "Too many downloads. Try again in a minute.");
+  }
+  let answer;
+  try {
+    const target = `${env.DOWNLOAD_FUNCTION}?app=${encodeURIComponent(`io.github.accretionmods.${mod}`)}&public=1`;
+    answer = await fetch(target, { redirect: "manual" });
+  } catch {
+    return say(502, "The download server didn't answer. Try again later.");
+  }
+  const location = answer.headers.get("location");
+  if (answer.status !== 302 || !location) {
+    return say(answer.status === 404 ? 404 : 502, answer.status === 404 ? "This mod has no build to download yet." : "Couldn't prepare the download. Try again.");
+  }
+  return new Response(null, {
+    status: 302,
+    headers: { Location: location, "Cache-Control": "no-store", "Referrer-Policy": "no-referrer", "X-Robots-Tag": "noindex" },
+  });
 }
 
 const escapeXML = (text) =>
@@ -146,6 +179,10 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname === "/download") return download(request, env, url);
+    if (url.pathname.startsWith("/get/")) {
+      if (request.method !== "GET" && request.method !== "HEAD") return say(405, "Only downloads here.");
+      return modLink(request, env, url);
+    }
     if (request.method !== "GET" && request.method !== "HEAD") return say(405, "Only downloads here.");
     if (url.pathname === "/manifest") return manifest(url);
     if (!env.DOWNLOAD_PROXY_KEY) return say(503, "Downloads are not set up yet.");

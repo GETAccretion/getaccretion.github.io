@@ -1,10 +1,13 @@
 """Posts the store's news to the Telegram channel (publish.yml, after the site build).
 
-- A release of one of Accretion's own apps (the app, mods): one photo post with the icon, version and
-  What's new, linking to the app page; a mod also lists its cheats (the "•" lines of its description,
-  under their headings; "Mod menu" for mods that are not games). Each version is posted once.
+- A release of one of Accretion's own apps (the app, mods): one post with an animated branded card
+  (scripts/telegram_card.py: the Accretion label, the icon, name, version and a badge) and a caption with
+  the version and What's new, linking to the app page; a mod also lists its cheats (the "•" lines of its
+  description, under their headings; "Mod menu" for mods that are not games). Each version is posted once.
 - Once a day: the catalogue apps first listed the day before, cracked, unlocked, modded and NSFW apps
-  left out (channels get taken down over those), at most DIGEST_LIMIT names with links.
+  left out (channels get taken down over those): an animated card with the count and the first icons, then
+  at most DIGEST_LIMIT names with links.
+When a card can't be made or sent, the post goes as before (the icon as a photo, or text).
 
 State lives in telegram.json (committed by publish.yml): the last posted version per own app and the
 day of the last digest. With no state file the first run only records the current versions, so the
@@ -16,6 +19,7 @@ nothing. A failed post is retried on the next build and never fails this one.
 import argparse
 import datetime as dt
 import html
+import io
 import json
 import os
 import re
@@ -24,6 +28,11 @@ import urllib.error
 import urllib.request
 
 from common import load_json, nsfw_icon_keys, path
+
+try:
+    import telegram_card
+except ImportError:  # Pillow or imageio-ffmpeg missing: posts go without the animated card
+    telegram_card = None
 
 SITE = "https://getaccretion.app"
 STATE = "telegram.json"
@@ -142,16 +151,21 @@ def safe_for_digest(app, listings, nsfw):
     return not RISKY_TAGS.intersection(t.lower() for t in listing.get("tags", []) if isinstance(t, str))
 
 
-def digest(apps, first_seen, listings, nsfw, day):
-    """Text of the digest of apps first listed on day, or None when there are none."""
+def digest_apps(apps, first_seen, listings, nsfw, day):
+    """The apps first listed on day that may go in the digest, by name."""
     new = [
         a
         for a in apps
         if first_seen.get(a.get("bundleIdentifier")) == day and safe_for_digest(a, listings, nsfw)
     ]
+    return sorted(new, key=lambda a: (a.get("name") or "").lower())
+
+
+def digest(apps, first_seen, listings, nsfw, day):
+    """Text of the digest of apps first listed on day, or None when there are none."""
+    new = digest_apps(apps, first_seen, listings, nsfw, day)
     if not new:
         return None
-    new.sort(key=lambda a: (a.get("name") or "").lower())
     lines = [f"<b>New on Accretion ({day})</b>", ""]
     for a in new[:DIGEST_LIMIT]:
         name = html.escape(a.get("name") or a["bundleIdentifier"])
@@ -180,6 +194,53 @@ def send(token, method, payload):
         )
         print(f"Telegram {method} failed: {reason}")
         return False
+
+
+def send_file(token, method, fields, field, filename, data, mime):
+    """A Telegram call with one uploaded file (multipart/form-data); True when Telegram accepted it."""
+    boundary = "accretion-" + os.urandom(12).hex()
+    body = io.BytesIO()
+    for key, value in fields.items():
+        body.write(
+            f'--{boundary}\r\nContent-Disposition: form-data; name="{key}"\r\n\r\n{value}\r\n'.encode()
+        )
+    body.write(
+        f'--{boundary}\r\nContent-Disposition: form-data; name="{field}"; filename="{filename}"\r\n'
+        f"Content-Type: {mime}\r\n\r\n".encode()
+    )
+    body.write(data)
+    body.write(f"\r\n--{boundary}--\r\n".encode())
+    request = urllib.request.Request(
+        f"https://api.telegram.org/bot{token}/{method}",
+        data=body.getvalue(),
+        headers={"Content-Type": f"multipart/form-data; boundary={boundary}"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=60) as response:
+            return json.load(response).get("ok", False)
+    except (urllib.error.URLError, TimeoutError, ValueError) as error:
+        reason = (
+            error.read().decode(errors="replace")[:300]
+            if isinstance(error, urllib.error.HTTPError)
+            else str(error)
+        )
+        print(f"Telegram {method} failed: {reason}")
+        return False
+
+
+def card(make, *args):
+    """An animated card's MP4 bytes, or None (no renderer, or it failed: the post goes without it)."""
+    if telegram_card is None:
+        return None
+    try:
+        return make(*args)
+    except Exception as error:  # a card is optional; never lose the post over it
+        print(f"Card not made: {error}")
+        return None
+
+
+def release_badge(app):
+    return "ACCRETION MOD" if app["bundleIdentifier"].startswith(MOD_PREFIX) else "NEW VERSION"
 
 
 def save(state):
@@ -212,7 +273,21 @@ def run(today, token, chat, dry_run):
         if not live:
             print(caption)
             continue
+        animation = card(telegram_card.release_card, app, release_badge(app)) if telegram_card else None
         ok = (
+            animation is not None
+            and len(caption) <= CAPTION_LIMIT
+            and send_file(
+                token,
+                "sendAnimation",
+                {"chat_id": chat, "caption": caption, "parse_mode": "HTML", "width": 1280, "height": 720},
+                "animation",
+                "accretion.mp4",
+                animation,
+                "video/mp4",
+            )
+        )
+        ok = ok or (
             app.get("iconURL")
             and len(caption) <= CAPTION_LIMIT
             and send(
@@ -246,7 +321,26 @@ def run(today, token, chat, dry_run):
         print(f"Digest for {yesterday}: {'nothing new' if text is None else 'posting'}")
         if text and not live:
             print(text)
-        elif live and (
+        if text and live:  # the card first (optional), then the list
+            new = digest_apps(
+                apps,
+                load_json("first_seen.json", {}),
+                load_json("ai/listings.json", {}),
+                nsfw_icon_keys(),
+                yesterday,
+            )
+            animation = card(telegram_card.digest_card, new, yesterday) if telegram_card else None
+            if animation is not None:
+                send_file(
+                    token,
+                    "sendAnimation",
+                    {"chat_id": chat, "width": 1280, "height": 720},
+                    "animation",
+                    "accretion-digest.mp4",
+                    animation,
+                    "video/mp4",
+                )
+        if live and (
             text is None
             or send(
                 token,

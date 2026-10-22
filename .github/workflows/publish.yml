@@ -145,12 +145,16 @@ jobs:
             --only hosting --project accretion-72875 --non-interactive --message "Store build ${GITHUB_SHA::7}"
           rm -f "$creds"
 
-      # Own releases and a daily digest of new safe apps to the Telegram channel (scripts/telegram.py).
-      # Never fails the build; prints instead of posting until TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT are set.
+      # Own releases and a daily digest of new safe apps to the Telegram channel (scripts/telegram.py), each
+      # with an animated card (scripts/telegram_card.py: Pillow frames, imageio-ffmpeg's bundled ffmpeg).
+      # Never fails the build; prints instead of posting until TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT are set,
+      # and posts without the card when it can't be made.
       - name: Post to Telegram
         continue-on-error: true
-        timeout-minutes: 5
-        run: python scripts/telegram.py
+        timeout-minutes: 8
+        run: |
+          pip install -q "imageio-ffmpeg==0.6.0" || echo "imageio-ffmpeg not installed: posts go without the card"
+          python scripts/telegram.py
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT: ${{ vars.TELEGRAM_CHAT }}
