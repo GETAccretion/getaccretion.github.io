@@ -219,11 +219,11 @@ h1, .stats dd { background: linear-gradient(100deg, var(--fg) 30%, color-mix(in 
 /* the mods' card edge (the official mod menu template): the outline in `line` with a violet-into-cyan light and a
    bright glint running round it every 6 s; still with Reduce Motion */
 @property --edge { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
-.d-head::after { content: ""; position: absolute; inset: -1px; border-radius: 19px; padding: 1px; pointer-events: none;
+.d-head::after, .shelf::after { content: ""; position: absolute; inset: -1px; border-radius: 19px; padding: 1px; pointer-events: none;
   background: conic-gradient(from var(--edge), var(--line) 0deg, var(--accent) 40deg, var(--accent-2) 80deg,
     color-mix(in srgb, var(--accent-2) 30%, #fff) 95deg, var(--accent-2) 110deg, var(--line) 160deg, var(--line) 360deg);
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
-@media (prefers-reduced-motion: no-preference) { .d-head::after { animation: card-edge 6s linear infinite; } }
+@media (prefers-reduced-motion: no-preference) { .d-head::after, .shelf::after { animation: card-edge 6s linear infinite; } }
 @keyframes card-edge { to { --edge: 360deg; } }
 .d-head > * { position: relative; }
 .d-icon { width: 112px; height: 112px; border-radius: 26px; }
@@ -302,7 +302,9 @@ h1, .stats dd { background: linear-gradient(100deg, var(--fg) 30%, color-mix(in 
 
 #shelves { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 4px 28px; align-items: start; grid-auto-flow: row dense; }
 #shelves > #social-shelves { display: contents; }
-.shelf { margin: 8px 0 18px; min-width: 0; }
+/* home shelves: the mods' see-through card (60%) with the moving cyan edge, like the app page's header */
+.shelf { position: relative; margin: 8px 0 18px; min-width: 0; padding: 16px 18px 8px; border: 1px solid var(--line); border-radius: 18px;
+  background: color-mix(in srgb, var(--surface) 60%, transparent); }
 .shelf-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 6px; }
 .shelf-head h2 span { font: 12px var(--mono); color: var(--muted); margin-left: 10px; font-weight: 400; }
 .shelf-head a { font-size: 14px; font-weight: 600; text-decoration: none; white-space: nowrap; }
