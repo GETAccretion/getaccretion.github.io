@@ -214,17 +214,17 @@ h1, .stats dd { background: linear-gradient(100deg, var(--fg) 30%, color-mix(in 
 .detail { padding-block: 20px 40px; }
 .back { margin-bottom: 14px; }
 .d-head { position: relative; display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 20px; align-items: center; padding: 22px; border: 1px solid var(--line); border-radius: 18px;
-  /* the glow (in the app logo's shade) is part of the background, so the corner brackets can sit outside the card */
+  /* the glow (in the app logo's shade) is part of the background; the moving edge runs over the outline */
   background: radial-gradient(45% 140% at 72% 20%, color-mix(in srgb, var(--tint, var(--accent)) 30%, transparent), transparent), var(--surface); }
-/* corner brackets as on the live index: Accretion's violet on the left, cyan on the right (the glow follows the logo) */
-.d-head::after { --l: var(--accent); --r: var(--accent-2); content: ""; position: absolute; inset: -7px; pointer-events: none;
-  background:
-    linear-gradient(var(--l), var(--l)) top left / 14px 2px no-repeat, linear-gradient(var(--l), var(--l)) top left / 2px 14px no-repeat,
-    linear-gradient(var(--r), var(--r)) top right / 14px 2px no-repeat, linear-gradient(var(--r), var(--r)) top right / 2px 14px no-repeat,
-    linear-gradient(var(--l), var(--l)) bottom left / 14px 2px no-repeat, linear-gradient(var(--l), var(--l)) bottom left / 2px 14px no-repeat,
-    linear-gradient(var(--r), var(--r)) bottom right / 14px 2px no-repeat, linear-gradient(var(--r), var(--r)) bottom right / 2px 14px no-repeat; }
-@media (prefers-reduced-motion: no-preference) { .d-head::after { animation: pulse-b 2.4s ease-in-out infinite; } }
-@keyframes pulse-b { 50% { opacity: .7; } }
+/* the mods' card edge (the official mod menu template): the outline in `line` with a violet-into-cyan light and a
+   bright glint running round it every 6 s; still with Reduce Motion */
+@property --edge { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
+.d-head::after { content: ""; position: absolute; inset: -1px; border-radius: 19px; padding: 1px; pointer-events: none;
+  background: conic-gradient(from var(--edge), var(--line) 0deg, var(--accent) 40deg, var(--accent-2) 80deg,
+    color-mix(in srgb, var(--accent-2) 30%, #fff) 95deg, var(--accent-2) 110deg, var(--line) 160deg, var(--line) 360deg);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
+@media (prefers-reduced-motion: no-preference) { .d-head::after { animation: card-edge 6s linear infinite; } }
+@keyframes card-edge { to { --edge: 360deg; } }
 .d-head > * { position: relative; }
 .d-icon { width: 112px; height: 112px; border-radius: 26px; }
 .d-name { font: 700 clamp(22px, 3.4vw, 32px)/1.15 var(--display); margin: 0; text-wrap: balance; overflow-wrap: anywhere; }
