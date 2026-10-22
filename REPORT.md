@@ -1,10 +1,10 @@
 # Source report
 
-Built 2026-10-22 21:22 UTC.
+Built 2026-10-22 21:51 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4545** (5540 KB) |
+| Apps in `source.json` | **4545** (5541 KB) |
 | Apps in `curated.json` | **731** (725 KB) |
 | Listings read | 24389 |
 | Apps listed by more than one source (newest kept) | 1815 |
@@ -20,9 +20,9 @@ Built 2026-10-22 21:22 UTC.
 
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
-| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3727 | 3382 | 4556 | 2026-10-22 | discovered |
+| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3726 | 3381 | 4557 | 2026-10-22 | discovered |
 | [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1625 | 643 | 332 | 2026-10-23 | discovered |
-| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 445 | 322 | 2 | 2026-10-22 | discovered |
+| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 446 | 323 | 1 | 2026-10-22 | discovered |
 | [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 100 | 13 | 2025-01-01 | curated |
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
 | [iDevPatcher](https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json) | ok | 20 | 8 | 1 | 2025-12-12 | discovered |
@@ -204,6 +204,7 @@ Built 2026-10-22 21:22 UTC.
 | LookUp | 13.1 | 2026-10-23 | raw.githubusercontent.com |
 | Balance | 1.213.0 | 2026-10-23 | raw.githubusercontent.com |
 | FindAir | 2026.10.5 | 2026-10-23 | raw.githubusercontent.com |
+| Accretion | 1.0.45 | 2026-10-22 | raw.githubusercontent.com |
 | Lumisound | 1.9.0.103 | 2026-10-22 | raw.githubusercontent.com |
 | Hand Mouse | 1.1.0 | 2026-10-22 | raw.githubusercontent.com |
 | Hand Tracker | 1.1.0 | 2026-10-22 | raw.githubusercontent.com |
@@ -212,6 +213,7 @@ Built 2026-10-22 21:22 UTC.
 | The Wanderer+ | 10.1-mod1.0.8 | 2026-10-22 | raw.githubusercontent.com |
 | NicotinD | 0.8.114 | 2026-10-22 | raw.githubusercontent.com |
 | Floe Agent | 1.7.47 | 2026-10-22 | raw.githubusercontent.com |
+| Scripta | 1.0.0 | 2026-10-22 | raw.githubusercontent.com |
 | Kikoto | 0.9.3 | 2026-10-22 | raw.githubusercontent.com |
 | OpenAgentd | 3.26.0 | 2026-10-22 | raw.githubusercontent.com |
 | EngiNote | 1.0 | 2026-10-22 | raw.githubusercontent.com |
@@ -223,5 +225,3 @@ Built 2026-10-22 21:22 UTC.
 | VortX | 0.5.6 | 2026-10-22 | raw.githubusercontent.com |
 | I.K.E.M.E.N-Go | 1.1 | 2026-10-22 | raw.githubusercontent.com |
 | Seed Seeker | 0.22.1 | 2026-10-22 | raw.githubusercontent.com |
-| ICO | 0.8.4 | 2026-10-22 | raw.githubusercontent.com |
-| Accretion | 1.0.44 | 2026-10-22 | raw.githubusercontent.com |
