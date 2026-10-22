@@ -1,12 +1,12 @@
 # Source report
 
-Built 2026-10-22 06:40 UTC.
+Built 2026-10-22 06:58 UTC.
 
 | | |
 |---|---|
 | Apps in `source.json` | **4554** (5554 KB) |
 | Apps in `curated.json` | **730** (724 KB) |
-| Listings read | 24381 |
+| Listings read | 24380 |
 | Apps listed by more than one source (newest kept) | 1814 |
 | Listings skipped (http-only, no icon, no date, bad bundle ID) | 6641 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
@@ -79,7 +79,7 @@ Built 2026-10-22 06:40 UTC.
 | [AppTesters IPA Repo](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/source.json) | ok | 4599 | 0 | 228 | 2025-09-05 | discovered |
 | [Neoncat-OG IPA Library](https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/apps_esign.json) | ok | 1988 | 0 | 0 | 2026-04-11 | curated |
 | [swaggyP36000 IPA Library](https://raw.githubusercontent.com/swaggyP36000/TrollStore-IPAs/main/apps_esign.json) | ok | 623 | 0 | 0 | 2023-12-27 | curated |
-| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 204 | 0 | 6 | 2026-08-28 | discovered |
+| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 203 | 0 | 6 | 2026-07-23 | discovered |
 | [OwO Source](https://repo.owo.network/) | ok | 160 | 0 | 0 | 2026-10-22 | curated |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json) | cached | 154 | 0 | 2 | 2026-10-14 | discovered |
 | [Omni-Development IPA Repo](https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json) | ok | 103 | 0 | 13 | 2024-11-17 | discovered |
@@ -200,9 +200,9 @@ Built 2026-10-22 06:40 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
+| Accretion | 1.0.41 | 2026-10-22 | raw.githubusercontent.com |
 | OpenAgentd | 3.24.0 | 2026-10-22 | raw.githubusercontent.com |
 | Keka | 1.6.8 | 2026-10-22 | raw.githubusercontent.com |
-| Accretion | 1.0.40 | 2026-10-22 | raw.githubusercontent.com |
 | Delight Games Premium Library | 4.8 | 2026-10-22 | raw.githubusercontent.com |
 | MovieClaw | 0.10.0 | 2026-10-22 | raw.githubusercontent.com |
 | Bird Chaser | 1.167.0 | 2026-10-22 | raw.githubusercontent.com |
