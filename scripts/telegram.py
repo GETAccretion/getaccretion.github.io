@@ -98,7 +98,7 @@ def public_link(bid):
     if bid == ACCRETION_ID:
         return ACCRETION_DOWNLOAD
     if bid.startswith(MOD_PREFIX):
-        return DOWNLOADS + bid[len(MOD_PREFIX):]
+        return DOWNLOADS + bid[len(MOD_PREFIX) :]
     return None
 
 
