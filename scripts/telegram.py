@@ -372,8 +372,11 @@ def run(today, token, chat, dry_run):
             thumb = thumbnail(app.get("iconURL"))
             if thumb is not None:
                 files.append(("thumbnail", "icon.jpg", thumb, "image/jpeg"))
-            ok = send_file(token, "sendDocument", {"chat_id": chat, "caption": caption, "parse_mode": "HTML"}, files)
-        animation = None if ok else card(telegram_card.release_card, app, release_badge(app)) if telegram_card else None
+            fields = {"chat_id": chat, "caption": caption, "parse_mode": "HTML"}
+            ok = send_file(token, "sendDocument", fields, files)
+        animation = None
+        if not ok and telegram_card:
+            animation = card(telegram_card.release_card, app, release_badge(app))
         ok = ok or (
             animation is not None
             and visible_length(caption) <= CAPTION_LIMIT
