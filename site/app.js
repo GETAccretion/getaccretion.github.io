@@ -1162,6 +1162,40 @@
     return (auth && auth.file && version && auth.file(a.i, version.v)) || hostedLink(a, url, version);
   }
 
+  // The card's glow in the app logo's own colour: the icon's average vivid pixel, read once per icon. When the icon
+  // can't be read (another site without CORS), the source's tint stays, or the accent.
+  const logoTints = new Map();
+  function logoTint(url, el) {
+    const apply = (c) => { if (c) el.style.setProperty("--tint", c); };
+    if (!url) return;
+    if (logoTints.has(url)) { apply(logoTints.get(url)); return; }
+    const img = new Image();
+    img.crossOrigin = "anonymous";
+    img.decoding = "async";
+    img.onload = () => {
+      try {
+        const n = 24, cv = document.createElement("canvas");
+        cv.width = cv.height = n;
+        const g = cv.getContext("2d", { willReadFrequently: true });
+        g.drawImage(img, 0, 0, n, n);
+        const px = g.getImageData(0, 0, n, n).data;
+        let r = 0, gr = 0, b = 0, w = 0;
+        for (let i = 0; i < px.length; i += 4) {
+          const R = px[i], G = px[i + 1], B = px[i + 2], A = px[i + 3];
+          const max = Math.max(R, G, B), min = Math.min(R, G, B);
+          const sat = max ? (max - min) / max : 0;
+          if (A < 128 || max < 40 || sat < 0.25) continue;  // transparent, near black, greys and whites say nothing
+          const k = sat * sat;
+          r += R * k; gr += G * k; b += B * k; w += k;
+        }
+        const c = w ? `rgb(${Math.round(r / w)}, ${Math.round(gr / w)}, ${Math.round(b / w)})` : null;
+        logoTints.set(url, c);
+        apply(c);
+      } catch { logoTints.set(url, null); }  // a canvas the browser won't read: keep the tint we have
+    };
+    img.src = url;
+  }
+
   function head(a, d) {
     const latest = d && d.versions && d.versions[0];
     const ipa = latest && safeUrl(hostedLink(a, latest.url));
@@ -1188,7 +1222,7 @@
       store.set("acc.saved", saved);
       updateSavedCount();
     }
-    return h(
+    const card = h(
       "section",
       { class: "d-head", style: tint ? `--tint:${tint}` : null },
       icon(a.ic, a.n, "icon d-icon"),
@@ -1205,6 +1239,8 @@
       ),
       h("div", { class: "qr", id: "qr", hidden: true }),
     );
+    logoTint(a.ic, card);
+    return card;
   }
 
   async function share(a) {
