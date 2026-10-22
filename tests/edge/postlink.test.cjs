@@ -55,12 +55,18 @@ test('public=1 serves our newest mod build without an account and logs nothing',
   assert.equal(f.issued.length, 0);
 });
 
-test('public=1 does not open other apps, and our mods and Accretion still need it', async () => {
+test('public=1 does not open other apps, and our mods still need it', async () => {
   const f = downloadFunction();
   assert.equal((await f.get('app=com.example.other&public=1')).status, 401);
   assert.equal((await f.get('app=io.github.getaccretion.Accretion.evil&public=1')).status, 401);
+  assert.equal((await f.get('app=io.github.getaccretion.Accretion.evil')).status, 401);
   assert.equal((await f.get('app=io.github.accretionmods.gameplus')).status, 401);
-  assert.equal((await f.get('app=io.github.getaccretion.Accretion')).status, 401);
+});
+
+test('Accretion itself downloads signed out, with or without public=1 (Get Update, app source link)', async () => {
+  const f = downloadFunction();
+  assert.equal((await f.get('app=io.github.getaccretion.Accretion&av=1.0.41')).status, 302);
+  assert.equal(f.issued.length, 0);
 });
 
 test('public=1 serves Accretion itself without an account and logs nothing', async () => {
