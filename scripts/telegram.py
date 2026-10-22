@@ -35,6 +35,9 @@ except ImportError:  # Pillow or imageio-ffmpeg missing: posts go without the an
     telegram_card = None
 
 SITE = "https://getaccretion.app"
+# Accretion's own update: a public direct link through the download proxy (no account needed)
+ACCRETION_ID = "io.github.getaccretion.Accretion"
+ACCRETION_DOWNLOAD = "https://dl.getaccretion.app/get/accretion"
 STATE = "telegram.json"
 # Same list as OWN_PREFIXES in scripts/site.py and site/app.js
 OWN_PREFIXES = ("io.github.getaccretion.", "io.github.accretionmods.")
@@ -96,10 +99,10 @@ def release_caption(app):
     head = [f"<b>{name} {version}</b>"]
     if app.get("subtitle"):
         head.append(html.escape(app["subtitle"]))
-    tail = (["", html.escape(notes)] if notes else []) + [
-        "",
-        f'<a href="{app_url(app["bundleIdentifier"])}">Get it on Accretion</a>',
-    ]
+    links = [f'<a href="{app_url(app["bundleIdentifier"])}">Get it on Accretion</a>']
+    if app["bundleIdentifier"] == ACCRETION_ID:
+        links.insert(0, f'<a href="{ACCRETION_DOWNLOAD}">Download the .ipa</a>')
+    tail = (["", html.escape(notes)] if notes else []) + ["", " · ".join(links)]
     groups = cheat_list(app)
     count = sum(len(items) for _, items in groups)
     cheats = []  # (line, is a cheat)

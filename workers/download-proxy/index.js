@@ -9,6 +9,7 @@
 //     (a redirect to a /<App>_<version>.ipa link above, or a short message) is passed on as it is.
 //   GET https://dl.getaccretion.app/get/<mod>
 //     a public link for posts: the newest build of one of our own mods (io.github.accretionmods.<mod>),
+//     or of Accretion itself for /get/accretion (Telegram's update posts),
 //     no account, as a redirect to a /<App>_<version>.ipa link above. Rate-limited per visitor
 //     (wrangler.toml [[ratelimits]] POST_LINKS); other sources' apps are never served this way.
 //   GET https://dl.getaccretion.app/manifest?bundleid=…&name=…&version=…&fetchurl=<local .ipa URL>
@@ -83,7 +84,9 @@ async function modLink(request, env, url) {
   }
   let answer;
   try {
-    const target = `${env.DOWNLOAD_FUNCTION}?app=${encodeURIComponent(`io.github.accretionmods.${mod}`)}&public=1`;
+    // /get/accretion is Accretion itself (the Telegram update posts); any other name is one of our mods
+    const app = mod === "accretion" ? "io.github.getaccretion.Accretion" : `io.github.accretionmods.${mod}`;
+    const target = `${env.DOWNLOAD_FUNCTION}?app=${encodeURIComponent(app)}&public=1`;
     answer = await fetch(target, { redirect: "manual" });
   } catch {
     return say(502, "The download server didn't answer. Try again later.");
