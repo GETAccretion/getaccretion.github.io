@@ -1,13 +1,13 @@
 # Source report
 
-Built 2026-10-22 05:09 UTC.
+Built 2026-10-22 06:29 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4531** (5502 KB) |
+| Apps in `source.json` | **4530** (5495 KB) |
 | Apps in `curated.json` | **730** (724 KB) |
-| Listings read | 24357 |
-| Apps listed by more than one source (newest kept) | 1814 |
+| Listings read | 24355 |
+| Apps listed by more than one source (newest kept) | 1813 |
 | Listings skipped (http-only, no icon, no date, bad bundle ID) | 6641 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
 | Dead download links held back (retested every build) | 9104 |
@@ -20,16 +20,16 @@ Built 2026-10-22 05:09 UTC.
 
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
-| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3735 | 3401 | 4548 | 2026-10-22 | discovered |
+| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3735 | 3402 | 4548 | 2026-10-22 | discovered |
 | [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1625 | 635 | 332 | 2026-10-22 | discovered |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 422 | 299 | 1 | 2026-10-22 | discovered |
 | [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 100 | 13 | 2025-01-01 | curated |
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
 | [iDevPatcher](https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json) | ok | 20 | 8 | 1 | 2025-12-12 | discovered |
 | [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 9 | 8 | 0 | 2026-10-18 | discovered |
-| [RipeStore](https://bit.ly/RipeStore) | ok | 11 | 6 | 0 | 2026-07-01 | discovered |
 | [CyPwn IPA Library](https://repos.gabrx.eu.org/cypwn.json) | ok | 204 | 4 | 6 | 2026-08-28 | curated |
 | [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 45 | 4 | 0 | 2026-10-22 | discovered |
+| [RipeStore](https://bit.ly/RipeStore) | ok | 9 | 4 | 0 | 2025-12-17 | discovered |
 | [AltStore Complete](https://bit.ly/Altstore-complete) | ok | 8 | 4 | 0 | 2025-05-12 | discovered |
 | [Quantum Source](https://bit.ly/Quantumsource) | ok | 35 | 3 | 3 | 2025-12-30 | discovered |
 | [Provenance Emulator](https://provenance-emu.com/apps.json) | ok | 4 | 3 | 0 | 2026-10-21 | discovered |
@@ -50,7 +50,7 @@ Built 2026-10-22 05:09 UTC.
 | [Apollo for Reddit](https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/apps.json) | ok | 1 | 1 | 0 | 2026-10-09 | curated |
 | [EPIC's source](https://raw.githubusercontent.com/Epyke/plezy-sidestore-source/master/apps.json) | ok | 1 | 1 | 0 | 2026-10-21 | discovered |
 | [FriesI23's Source](https://raw.githubusercontent.com/FriesI23/altstore-repo/master/_site/repo/source.json) | ok | 1 | 1 | 0 | 2026-10-19 | discovered |
-| [Accretion App](https://raw.githubusercontent.com/GETAccretion/accretion-app/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-20 | curated |
+| [Accretion App](https://raw.githubusercontent.com/GETAccretion/accretion-app/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-22 | curated |
 | [Nightshift](https://raw.githubusercontent.com/Jannehy/nightshift-ios/main/altstore.json) | ok | 1 | 1 | 0 | 2026-10-02 | discovered |
 | [IW4 Pocket](https://raw.githubusercontent.com/MarkusSela/IW4-Pocket/main/source.json) | ok | 1 | 1 | 0 | 2026-10-20 | discovered |
 | [MuffinEMU](https://raw.githubusercontent.com/MuffinEMU/Muffin-EMU/main/docs/apps.json) | ok | 1 | 1 | 0 | 2026-10-15 | discovered |
@@ -200,6 +200,7 @@ Built 2026-10-22 05:09 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
+| Accretion | 1.0.40 | 2026-10-22 | raw.githubusercontent.com |
 | Rimba | 0.2.0 | 2026-10-22 | raw.githubusercontent.com |
 | Hand Mouse | 1.1.0 | 2026-10-22 | raw.githubusercontent.com |
 | Hand Tracker | 1.1.0 | 2026-10-22 | raw.githubusercontent.com |
@@ -224,4 +225,3 @@ Built 2026-10-22 05:09 UTC.
 | Nuvio Enhanced | 0.6.3 | 2026-10-22 | raw.githubusercontent.com |
 | CollaNote | 5.0.9 | 2026-10-22 | raw.githubusercontent.com |
 | SkyGuide | 13.1.1 | 2026-10-22 | raw.githubusercontent.com |
-| Yazio | 26.42.0 | 2026-10-22 | raw.githubusercontent.com |
