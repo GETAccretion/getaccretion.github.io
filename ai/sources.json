@@ -594,15 +594,65 @@
   "real": true,
   "reason": "Valid AltStore/SideStore JSON source hosted on GitHub for an individual app."
  },
+ "https://raw.githubusercontent.com/noah978/AltStore-Docs/master/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This URL points to a raw JSON file hosted on GitHub, which is the standard and correct way to host an AltStore or SideStore source."
+ },
+ "https://raw.githubusercontent.com/nquangdungg/LiveContainer-Extended/main/.github/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate GitHub raw JSON app source for LiveContainer-Extended, specifically formatted as an AltStore/SideStore source."
+ },
+ "https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid AltStore/SideStore JSON source hosted on GitHub raw."
+ },
+ "https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource-cracked.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": false,
+  "reason": "This is a source explicitly dedicated to cracked/pirated apps, which violates AltStore/SideStore distribution terms and community standards regarding modified and pirated software."
+ },
  "https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource-testing.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
   "reason": "URL points to a raw JSON file on GitHub that contains an array of app entries (5 apps) formatted as an AltStore/SideStore source, indicating a legitimate app catalog."
  },
+ "https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid AltStore/SideStore source hosted on GitHub raw."
+ },
  "https://raw.githubusercontent.com/run2u006-hue/4WALLS-AltStore/main/source.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
   "reason": "The URL points to a raw JSON file on GitHub that appears to be a legitimate AltStore source catalogue (named 4Walls Source) containing at least one app entry."
+ },
+ "https://raw.githubusercontent.com/squazaryu/TumoCompanion/main/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate AltStore source hosted on GitHub, serving a specific app catalogue JSON file."
+ },
+ "https://raw.githubusercontent.com/thenetaji/pawse-music/main/sources/sidestore.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate AltStore/SideStore source JSON hosted in a GitHub repository specifically for the Pawse Music app."
+ },
+ "https://raw.githubusercontent.com/therealFoxster/altsource/master/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "Valid GitHub raw JSON link hosting a personal AltStore app source."
+ },
+ "https://raw.githubusercontent.com/truongkma/t-location/main/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid GitHub raw JSON URL structured as an AltStore source containing a developer's application."
+ },
+ "https://raw.githubusercontent.com/vkr1729/MindSpace-iOS/main/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a raw GitHub JSON file specifically hosted as an AltStore app source for the MindSpace-iOS project."
  },
  "https://raw.githubusercontent.com/xsxs18-dev/FileManager/main/altstore-source.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
@@ -613,6 +663,21 @@
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
   "reason": "The URL points to a raw repo.json file on GitHub that contains a proper AltStore/SideStore repository catalogue with app metadata, indicating it is a legitimate app source."
+ },
+ "https://taurine.app/altstore/taurinestore.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is the official AltStore source URL hosted on the official domain of the Taurine jailbreak."
+ },
+ "https://vvpapps.b-cdn.net/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate AltStore source hosted on a CDN domain, specifically created for the official iOS app of the German fact-checking and media outlet Volksverpetzer."
+ },
+ "https://weztling.se/altstore.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid personal AltStore source hosting a legitimate iOS app (CARDMATE) by the developer at their personal domain."
  },
  "https://xitrix.github.io/iTorrent/AltStoreEU.json": {
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
