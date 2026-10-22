@@ -748,6 +748,8 @@
         status.textContent = `Linked ${r.game || "the game"}. Back in the game, the menu finishes on its own.`;
         status.className = "ok small";
         loadSaves();
+        // opened by the game's sign-in sheet: answering its address closes the sheet (only a plain scheme name)
+        if (/^[a-z][a-z0-9+.-]{1,30}$/.test(params.return || "")) setTimeout(() => { location.href = `${params.return}://linked`; }, 700);
       } catch (e) { status.textContent = e.message; status.className = "bad small"; go.disabled = false; }
     });
     page("Cloud saves",
