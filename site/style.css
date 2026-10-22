@@ -109,14 +109,26 @@ img { max-width: 100%; }
   position: sticky; top: 0; z-index: 20; display: flex; align-items: center; gap: 12px;
   padding: calc(10px + env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) 10px max(16px, env(safe-area-inset-left, 0px));
   background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid transparent;
 }
+/* the live motif, the same in the app, Mod Studio and Accretion Link: violet into cyan with a soft light
+   travelling along it every 6 s, on thin edges only */
+.top::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 1px; pointer-events: none; opacity: .85;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2), color-mix(in srgb, var(--accent-2) 30%, white), var(--accent-2), var(--accent));
+  background-size: 300% 100%; }
+@media (prefers-reduced-motion: no-preference) { .top::after { animation: flow 6s linear infinite; } }
+@keyframes flow { from { background-position: 100% 0; } to { background-position: -200% 0; } }
 .brand { display: flex; align-items: center; gap: 9px; color: var(--fg); text-decoration: none; font: 700 17px var(--display); letter-spacing: .01em; }
 .brand img { border-radius: 8px; }
 .search { flex: 1; display: flex; align-items: center; gap: 8px; max-width: 560px; margin-inline: auto; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 11px; padding: 0 12px; min-width: 0; }
 .search svg { width: 17px; height: 17px; fill: var(--muted); flex: none; }
 .search input { flex: 1; min-width: 0; background: none; border: 0; color: var(--fg); font: inherit; padding: 10px 0; outline: none; }
-.search:focus-within { border-color: var(--accent); }
+.search:focus-within { border-color: transparent;
+  background: linear-gradient(var(--surface), var(--surface)) padding-box,
+    linear-gradient(90deg, var(--accent), var(--accent-2), color-mix(in srgb, var(--accent-2) 30%, white), var(--accent-2), var(--accent)) border-box;
+  background-size: 100% 100%, 300% 100%; }
+@media (prefers-reduced-motion: no-preference) { .search:focus-within { animation: edge 6s linear infinite; } }
+@keyframes edge { from { background-position: 0 0, 100% 0; } to { background-position: 0 0, -200% 0; } }
 
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px;
