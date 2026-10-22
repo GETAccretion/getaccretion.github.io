@@ -1,6 +1,6 @@
 # Source report
 
-Built 2026-10-22 10:09 UTC.
+Built 2026-10-22 10:26 UTC.
 
 | | |
 |---|---|
@@ -20,13 +20,13 @@ Built 2026-10-22 10:09 UTC.
 
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
-| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3735 | 3399 | 4548 | 2026-10-22 | discovered |
+| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3735 | 3398 | 4548 | 2026-10-22 | discovered |
 | [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1625 | 631 | 332 | 2026-10-22 | discovered |
-| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 447 | 324 | 1 | 2026-10-22 | discovered |
+| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 447 | 325 | 1 | 2026-10-22 | discovered |
 | [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 100 | 13 | 2025-01-01 | curated |
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
 | [iDevPatcher](https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json) | ok | 20 | 8 | 1 | 2025-12-12 | discovered |
-| [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 9 | 8 | 0 | 2026-10-18 | discovered |
+| [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 9 | 8 | 0 | 2026-10-22 | discovered |
 | [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9568 | 7 | 164 | 2026-10-22 | discovered |
 | [CyPwn IPA Library](https://repos.gabrx.eu.org/cypwn.json) | ok | 204 | 4 | 6 | 2026-08-28 | curated |
 | [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 45 | 4 | 0 | 2026-10-22 | discovered |
@@ -200,7 +200,14 @@ Built 2026-10-22 10:09 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
+| Mornye | 5.2.5 | 2026-10-22 | raw.githubusercontent.com |
+| Manatan | 6.2.7 | 2026-10-22 | raw.githubusercontent.com |
 | Accretion | 1.0.43 | 2026-10-22 | raw.githubusercontent.com |
+| Ito | 1.2.0 | 2026-10-22 | raw.githubusercontent.com |
+| 3X-UI Manager | 26.10.22.79 | 2026-10-22 | raw.githubusercontent.com |
+| Floe Agent | 1.7.46 | 2026-10-22 | raw.githubusercontent.com |
+| Modu | 1.3.1 | 2026-10-22 | raw.githubusercontent.com |
+| Opentify | 0.1.99 | 2026-10-22 | raw.githubusercontent.com |
 | OpenAgentd | 3.24.0 | 2026-10-22 | raw.githubusercontent.com |
 | Keka | 1.6.8 | 2026-10-22 | raw.githubusercontent.com |
 | Delight Games Premium Library | 4.8 | 2026-10-22 | raw.githubusercontent.com |
@@ -211,7 +218,6 @@ Built 2026-10-22 10:09 UTC.
 | Hand Tracker | 1.1.0 | 2026-10-22 | raw.githubusercontent.com |
 | NeoBili | 1.3.0 | 2026-10-22 | raw.githubusercontent.com |
 | nikcli | 1.434.0 | 2026-10-22 | raw.githubusercontent.com |
-| Floe Agent | 1.7.45 | 2026-10-22 | raw.githubusercontent.com |
 | Screen Sharing | 1.0.3 | 2026-10-22 | raw.githubusercontent.com |
 | ICO | 0.8.3 | 2026-10-22 | raw.githubusercontent.com |
 | YouProEXTRA | 21.42.4 | 2026-10-22 | raw.githubusercontent.com |
@@ -219,9 +225,3 @@ Built 2026-10-22 10:09 UTC.
 | Picsew | 3.19.3 | 2026-10-22 | raw.githubusercontent.com |
 | Duolingo | 7.145.1 | 2026-10-22 | raw.githubusercontent.com |
 | VlogNow | 2.23.1 | 2026-10-22 | raw.githubusercontent.com |
-| 真果鉴 | 0.2.64+71 | 2026-10-22 | repo.owo.network |
-| Mori | 4.5.1 | 2026-10-22 | raw.githubusercontent.com |
-| Reddit | 2026.42.1 | 2026-10-22 | raw.githubusercontent.com |
-| HiWidget | 5.1.20 | 2026-10-22 | raw.githubusercontent.com |
-| Stemz | 6.00.00 | 2026-10-22 | raw.githubusercontent.com |
-| Notability | 16.13.2 | 2026-10-22 | raw.githubusercontent.com |
