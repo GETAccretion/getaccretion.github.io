@@ -166,7 +166,7 @@ jobs:
             npx --yes supabase@2.120.0 secrets set --project-ref "$ref" \
               DOWNLOAD_PROXY_KEY="$DOWNLOAD_PROXY_KEY" DOWNLOAD_PROXY_ORIGIN="$DOWNLOAD_PROXY_ORIGIN"
           fi
-          npx --yes supabase@2.120.0 functions deploy download source upload manifest saves \
+          npx --yes supabase@2.120.0 functions deploy download source upload manifest saves studio \
             --project-ref "$ref" --no-verify-jwt --use-api
       - name: Save public settings
         id: save-settings
