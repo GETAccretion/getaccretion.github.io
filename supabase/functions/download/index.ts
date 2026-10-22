@@ -225,10 +225,11 @@ Deno.serve(async (req) => {
     }
   }
 
-  // Our own mods may be fetched without an account through the download proxy's public post link
-  // (dl.getaccretion.app/get/<mod>, which adds public=1): no login, quota or download log; the proxy
-  // rate-limits per visitor. Anything else still needs a login or a personal key.
-  const publicMod = url.searchParams.get("public") === "1" && app.startsWith(OWN_MODS);
+  // Our own mods and Accretion itself may be fetched without an account through the download proxy's
+  // public post links (dl.getaccretion.app/get/<mod>, /get/accretion for Telegram's update posts; the
+  // proxy adds public=1): no login, quota or download log; the proxy rate-limits per visitor. Anything
+  // else still needs a login or a personal key.
+  const publicMod = url.searchParams.get("public") === "1" && (app.startsWith(OWN_MODS) || app === ACCRETION);
 
   // who is asking: a signed-in user, or the owner of a personal key
   let owner: string | null = null;

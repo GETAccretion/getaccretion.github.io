@@ -172,6 +172,12 @@ class Cheats(unittest.TestCase):
         self.assertIn("<i>With JIT</i>\n• One-hit kills", caption)
         self.assertNotIn("Installs next", caption)
 
+    def test_accretion_posts_carry_a_direct_download(self):
+        caption = telegram.release_caption(OWN)
+        self.assertIn('<a href="https://dl.getaccretion.app/get/accretion">Download the .ipa</a>', caption)
+        self.assertIn("Get it on Accretion", caption)
+        self.assertNotIn("dl.getaccretion.app", telegram.release_caption(self.mod(WANDERER_TEXT)))
+
     def test_apps_that_are_not_mods_have_no_cheat_list(self):
         self.assertEqual(telegram.cheat_list(dict(FREE, localizedDescription=WANDERER_TEXT)), [])
         self.assertNotIn("Cheats", telegram.release_caption(dict(OWN, localizedDescription=WANDERER_TEXT)))
