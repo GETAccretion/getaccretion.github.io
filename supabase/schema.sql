@@ -1131,3 +1131,29 @@ end;
 $$;
 revoke all on function public.studio_moderate(uuid, text, text, boolean, text) from public, anon, authenticated;
 grant execute on function public.studio_moderate(uuid, text, text, boolean, text) to service_role;
+
+-- ---------------------------------------------------------------- shots
+-- Screenshot and short video links for posts (supabase/functions/shots, owner's upload key). Files sit in the
+-- private "shots" bucket; only the function (service role) reads or writes this table.
+do $$
+begin
+  if to_regclass('storage.buckets') is not null then
+    insert into storage.buckets (id, name, public) values ('shots', 'shots', false)
+    on conflict (id) do update set public = false;
+  end if;
+end;
+$$;
+
+create table if not exists public.shots (
+  id text primary key check (id ~ '^[A-Za-z0-9]{12}$'),
+  path text not null unique check (char_length(path) between 1 and 64),
+  content_type text not null check (content_type in ('image/png', 'image/jpeg', 'image/gif', 'image/webp', 'video/mp4', 'video/quicktime')),
+  size bigint not null check (size between 1 and 52428800),
+  label text not null default '' check (char_length(label) <= 120),
+  created_at timestamptz not null default now(),
+  expires_at timestamptz not null
+);
+create index if not exists shots_expires_idx on public.shots (expires_at);
+alter table public.shots enable row level security;
+revoke all on public.shots from anon, authenticated;
+

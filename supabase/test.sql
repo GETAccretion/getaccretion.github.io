@@ -494,4 +494,23 @@ do $$ begin
 end $$;
 rollback;
 
+-- shots: nobody but the function (service role) sees or writes them
+begin;
+insert into public.shots (id, path, content_type, size, expires_at) values ('abcdefghijkm', 'abcdefghijkm.png', 'image/png', 10, now() + interval '90 days');
+select pg_temp.as_user('00000000-0000-0000-0000-00000000000a');
+do $$ begin
+  assert pg_temp.fails($q$select * from public.shots$q$), 'signed-in users cannot read shots';
+end $$;
+select pg_temp.as_user(null);
+do $$ begin
+  assert pg_temp.fails($q$select * from public.shots$q$), 'anon cannot read shots';
+  assert pg_temp.fails($q$insert into public.shots (id, path, content_type, size, expires_at) values ('zzzzzzzzzzzz', 'z.png', 'image/png', 1, now())$q$), 'anon cannot add shots';
+end $$;
+reset role;
+do $$ begin
+  assert pg_temp.fails($q$insert into public.shots (id, path, content_type, size, expires_at) values ('short', 's.png', 'image/png', 1, now())$q$), 'ids are 12 characters';
+  assert pg_temp.fails($q$insert into public.shots (id, path, content_type, size, expires_at) values ('abcdefghijkn', 'x.exe', 'application/octet-stream', 1, now())$q$), 'only images and short videos';
+end $$;
+rollback;
+
 \echo 'all database checks passed'
