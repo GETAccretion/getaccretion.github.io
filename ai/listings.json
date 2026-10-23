@@ -792,6 +792,23 @@
    "tools"
   ]
  },
+ "camp.FitWoody": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FitWoody is an activity tracker app for iOS 18.0 and later. Current version is 2.6.5. The app helps users monitor their daily activity and fitness metrics.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5c788e4cc88eb2907438ba81cdf2e80c46ee9c8054ff961f1d8f33cd507cea75",
+  "subtitle": "Activity tracker for iOS 18+",
+  "tags": [
+   "activity",
+   "tracker",
+   "fitness",
+   "health",
+   "ios",
+   "monitor"
+  ]
+ },
  "castle.heroes.tower.defense.kingdom.magic.battle.archer": {
   "category": "games",
   "date": "2026-10-15",
@@ -891,6 +908,26 @@
    "app"
   ]
  },
+ "club.donutdog.ios": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "Focus Dog is a Pomodoro timer and study app for iOS 16.4 or later. Version 3.19.3. Helps manage work and break intervals for productivity.",
+  "features": [
+   "Pomodoro",
+   "Study"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c56e184e218e1f68749ba09e46872be4a7f0686efc6c101f67b131e4321cb90f",
+  "subtitle": "Pomodoro timer and study helper",
+  "tags": [
+   "pomodoro",
+   "timer",
+   "study",
+   "productivity",
+   "focus",
+   "ios"
+  ]
+ },
  "cn.bswbw.AppsDump": {
   "category": "developer",
   "date": "2026-10-15",
@@ -937,6 +974,25 @@
    "unlocked",
    "subscription",
    "free"
+  ]
+ },
+ "co.airapps.finderbot": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FindAir with subscription features unlocked. This modified version provides access to premium subscription content without requiring a paid subscription.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3fcc8d63f4d921067c1d3028d2fb06a427fb7841eaf61d401501b14846a8679a",
+  "subtitle": "Subscription unlocked version",
+  "tags": [
+   "findair",
+   "subscription",
+   "unlocked",
+   "modified",
+   "premium",
+   "ipa"
   ]
  },
  "co.appnation.geniechat.watchapp": {
@@ -1026,34 +1082,69 @@
  },
  "co.codeleap.bearable": {
   "category": "other",
-  "date": "2026-10-21",
-  "description": "Bearable is an app with Subscription Unlocked.",
+  "date": "2026-10-23",
+  "description": "Bearable is a symptom tracker application designed to help users monitor their health and well-being. This patched version includes subscription modifiers. Requires iOS 15.1 or later.",
   "features": [
-   "Unlocked"
+   "Symptom Tracker",
+   "Subscription Unlocked"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "88b8d324e83d769dacf899c3afaeb3c78fe79f37fc75d8141fbba8b9eb5044e5",
-  "subtitle": "Subscription Unlocked",
+  "src_hash": "0e7051924657594feb09715604acec5cebe5eafafcd81cc561839950a6fe273c",
+  "subtitle": "Track symptoms and manage health data",
   "tags": [
-   "bearable",
-   "subscription",
-   "unlocked"
+   "health",
+   "symptoms",
+   "tracker",
+   "medical",
+   "wellness"
   ]
  },
  "co.detail.duo": {
-  "category": "other",
-  "date": "2026-10-21",
-  "description": "Access the app with subscription unlocked.",
+  "category": "photo-video",
+  "date": "2026-10-23",
+  "description": "Detail is an AI video editor for iOS developed by blatants. This version includes subscription unlocked features. Requires iOS 17.0 or later.",
   "features": [
    "Subscription Unlocked"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4aa62341c5db0f773e6dbba9ef014c71119a32a3c0d367b18b70955c10cae368",
-  "subtitle": "Subscription Unlocked",
+  "src_hash": "f200834d134cf7ce9dd70b6e73f6acea805cc578a62c461c820d4896587444da",
+  "subtitle": "AI Video Editor",
   "tags": [
-   "subscription",
-   "unlocked",
+   "video editor",
+   "ai",
+   "editor",
    "detail"
+  ]
+ },
+ "co.findship.FindShip-Lite": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FindShip is an iOS application for monitoring and tracking ships and maritime traffic. It provides vessel tracking capabilities.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "078f1561dbfa09a8d9dcffccec45655abcd4d2571b0cbfbf3d124609b412e2db",
+  "subtitle": "Track vessels and maritime traffic",
+  "tags": [
+   "ship",
+   "tracking",
+   "vessel",
+   "maritime",
+   "navigation",
+   "monitoring"
+  ]
+ },
+ "co.iinvent.whounfollowed": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FindUnfollow is an app developed by DPixel.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f2c9d50c7da6c04cecb40be3134da9effb02560177493a3d7e0232e0285b0a40",
+  "subtitle": "FindUnfollow app by DPixel",
+  "tags": [
+   "findunfollow",
+   "dpixel",
+   "app"
   ]
  },
  "co.imba.archero": {
@@ -1137,6 +1228,23 @@
    "ai",
    "productivity",
    "media"
+  ]
+ },
+ "com.2hours.Filmica": {
+  "category": "photo-video",
+  "date": "2026-10-23",
+  "description": "Filmica on iOS is designed for creators who want more control over their iPhone camera than the standard Camera app provides. It turns",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "666820340b2183a87196ed8339aef5cf96cc45689a20184f7ae731e644093513",
+  "subtitle": "Pro camera controls for iPhone",
+  "tags": [
+   "camera",
+   "video",
+   "photo",
+   "manual",
+   "control",
+   "creator"
   ]
  },
  "com.34306.waifuts": {
@@ -1508,6 +1616,23 @@
    "snap",
    "ios",
    "capwords"
+  ]
+ },
+ "com.Hitica.FightForAmerica": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "An engaging title that has risen to prominence among players worldwide.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "634df339908dbbd54f120751fe48f9b95a8e4115b9f65ada0a72c2e74b02aa64",
+  "subtitle": "Engaging combat game for players worldwide",
+  "tags": [
+   "action",
+   "strategy",
+   "america",
+   "combat",
+   "war",
+   "game"
   ]
  },
  "com.JindoBlu.FourPlayersIOS": {
@@ -2008,6 +2133,23 @@
    "casual"
   ]
  },
+ "com.abbyy.finescanner": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "FineReader Pro IPA v15.6.6 is a powerful tool designed specifically for iOS users seeking precision and efficiency in PDF scanning.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2d68ba727847fbdad126d6da517131bb6c143236026dcaa9936160903f1e5018",
+  "subtitle": "FineReader Pro PDF scanner for iOS",
+  "tags": [
+   "finereader",
+   "pdf",
+   "scanning",
+   "ios",
+   "pro",
+   "ipa"
+  ]
+ },
  "com.abi.busjam.sortpuzzle": {
   "category": "games",
   "date": "2026-10-15",
@@ -2041,6 +2183,23 @@
    "ios",
    "iphone",
    "ipad"
+  ]
+ },
+ "com.acidcousins.fdunk": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Flappy Dunk is a fast-paced arcade basketball game that transforms simple.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ae91e9d0b1630d68f7126f7b2434514eea6a502a32487326a581641664754c91",
+  "subtitle": "Fast-paced arcade basketball game",
+  "tags": [
+   "basketball",
+   "arcade",
+   "fast-paced",
+   "iphone",
+   "game",
+   "flappy"
   ]
  },
  "com.acomazs.fovih.box": {
@@ -2187,6 +2346,23 @@
    "documents",
    "receipts",
    "premium"
+  ]
+ },
+ "com.adriweb.firebird-emu": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Third\u2011party multi\u2011platform emulator for ARM\u2011based TI\u2011Nspire calculators.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f36db26ae27a73e65dd110128fe298a990ed7ee3294e009cc57d02945207a396",
+  "subtitle": "ARM TI\u2011Nspire calculator emulator",
+  "tags": [
+   "emulator",
+   "ti-nspire",
+   "calculator",
+   "arm",
+   "multiplatform",
+   "third-party"
   ]
  },
  "com.adventurechef": {
@@ -2535,6 +2711,29 @@
    "amethyst"
   ]
  },
+ "com.airdash.ios": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "AirDash is an unofficial native iOS dashboard and VPN client for AirVPN, built with SwiftUI and the iOS Liquid Glass design. This is an independent project with no affiliation to AirVPN and uses the public AirVPN API with your personal API key. Access a full server list with load, users, health, ping latency, sorting by load, name, and ping, continent filtering, search, and account-scoped favorites. Start the native tunnel directly with a one-tap connect button on every row without opening the server detail screen.",
+  "features": [
+   "Full server list",
+   "Ping latency monitoring",
+   "Continent filter and search",
+   "Account-scoped favorites",
+   "One-tap native tunnel connect"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a138f17e02076a2f84a9450d0782fec2435075f81a6d8de3aace7c56f68bd31c",
+  "subtitle": "Native iOS dashboard and VPN client for AirVPN",
+  "tags": [
+   "vpn",
+   "airvpn",
+   "dashboard",
+   "network",
+   "client",
+   "swiftui"
+  ]
+ },
  "com.airnav.radarbox": {
   "category": "other",
   "date": "2026-10-14",
@@ -2550,6 +2749,22 @@
    "aviation",
    "planes",
    "travel"
+  ]
+ },
+ "com.aiti.FitnessOnline": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Injected with Subscription Unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "86cf5203b01713807bed0c4508facee6c6d9f158de232296c3685731002441df",
+  "subtitle": "Subscription unlocked",
+  "tags": [
+   "fitness",
+   "subscription",
+   "unlocked"
   ]
  },
  "com.akuma.chatgptv15": {
@@ -2963,6 +3178,43 @@
    "clap"
   ]
  },
+ "com.antique.Folium": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Folium is a paid multi-system emulator that combines Limon and other emulators by Jarrod Norwell into a single app. It currently supports Nintendo 3DS via Citra and Nintendo Entertainment System (NES), with additional systems planned.",
+  "features": [
+   "Multi-system",
+   "Paid app"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0f0b69b4b21e556d9547455972ecf8707677dc4de8cab2a04f7aea8bb7758a7c",
+  "subtitle": "Multi-system emulator merging Limon and more",
+  "tags": [
+   "emulator",
+   "multi-system",
+   "3ds",
+   "nes",
+   "citra",
+   "retro"
+  ]
+ },
+ "com.antique.Folium-iOS": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Folium is a retro console emulator originally released as a paid app on the App Store. It requires iOS 16.0 or later. Developed by GLESign.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d756b9e25a862bf7926eb4c4e0307d66e71fb9a9c8be7e60a80f693fe0d6886c",
+  "subtitle": "Retro console emulator for iOS 16+",
+  "tags": [
+   "retro",
+   "console",
+   "emulator",
+   "ios",
+   "paid",
+   "glesign"
+  ]
+ },
  "com.antique.emuThreeDS": {
   "category": "games",
   "date": "2026-10-21",
@@ -3133,6 +3385,25 @@
    "phone",
    "calls",
    "audio"
+  ]
+ },
+ "com.apple.FinalCutApp.companion": {
+  "category": "photo-video",
+  "date": "2026-10-23",
+  "description": "Final Cut Camera is a powerful mobile application designed for photography enthusiasts and professionals. This modified version includes unlocked features.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a7f6e7a05267c6b7021c881ab71b9a7bb6c9c81407f5a48a65d7553a27df8e26",
+  "subtitle": "Professional camera app with unlocked features",
+  "tags": [
+   "camera",
+   "photography",
+   "professional",
+   "unlocked",
+   "photo",
+   "video"
   ]
  },
  "com.apple.mobilephone-call": {
@@ -3870,6 +4141,22 @@
    "game"
   ]
  },
+ "com.bickster.myFitnessSync": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Injected with Pro. Developed by AppTesters IPA Repo.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ce8d67263ab293f95213a2b0ba82599b7943c0d822fd0335567742dc3e808d58",
+  "subtitle": "Fitbit to Apple Health sync",
+  "tags": [
+   "fitbit",
+   "applehealth",
+   "sync",
+   "pro",
+   "apptesters"
+  ]
+ },
  "com.bid.master.war.auction.battle": {
   "category": "games",
   "date": "2026-10-15",
@@ -4223,6 +4510,23 @@
    "oatmealdome"
   ]
  },
+ "com.brandon.flappybird": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Flap your wings and avoid hitting the pipes. Try to beat your own record.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a25134976ae07417bcd0faace0c088d9bfec595b0562891d5dedd1c442c0af4b",
+  "subtitle": "Flap wings, avoid pipes, beat your record",
+  "tags": [
+   "flappy bird",
+   "arcade",
+   "endless",
+   "high score",
+   "pipes",
+   "tap"
+  ]
+ },
  "com.breathwrk.ios": {
   "category": "lifestyle",
   "date": "2026-10-15",
@@ -4377,6 +4681,23 @@
    "tool"
   ]
  },
+ "com.bytes-and-pixels.fw": {
+  "category": "lifestyle",
+  "date": "2026-10-23",
+  "description": "FitWise is a weight loss coach app designed for iOS. It provides a personal trainer and nutritionist experience to guide users through weight loss. The app offers coaching features for fitness and diet management.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ea9d087379fae853a140e4875504ff6ecc7e54a88ff52593ee41c6b920c6dff3",
+  "subtitle": "Weight loss coach with trainer and nutrition guidance",
+  "tags": [
+   "weightloss",
+   "fitness",
+   "coach",
+   "trainer",
+   "nutrition",
+   "health"
+  ]
+ },
  "com.calculated.laurene": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -4502,6 +4823,28 @@
    "privacy",
    "utility",
    "tools"
+  ]
+ },
+ "com.certlium.crumb": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "Crumb lets you find App Store apps, choose a version and download its IPA on your iPhone or iPad. It runs as a normally sideloaded app without jailbreak, TrollStore or external JIT. Sign in with your Apple ID and two-factor authentication, with sessions stored in Keychain while passwords and verification codes are not saved. Search by app name, App Store link, app ID or bundle ID, and save favourites. App availability, licenses and installation remain subject to Apple account and device restrictions, and browsing another region does not guarantee a download.",
+  "features": [
+   "No Jailbreak Required",
+   "Apple ID Sign In",
+   "Save Favourites",
+   "Search by App ID"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "98b337a8764f7acdc1f887025fcfbfda2b291a4cc2a3047ac90891417f1fbd7c",
+  "subtitle": "Download IPA files for App Store apps on your device",
+  "tags": [
+   "crumb",
+   "ipa",
+   "download",
+   "sideload",
+   "app store",
+   "utilities"
   ]
  },
  "com.chaninicholas.chaniapp": {
@@ -4771,6 +5114,23 @@
    "forum"
   ]
  },
+ "com.cinegenix.filmic.pro": {
+  "category": "photo-video",
+  "date": "2026-10-23",
+  "description": "FilmicPro is a video recording application. The provided information states it is \"Injected with Pro.\"",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "253c6c725d356c4e8323f4a0831ed840f6853bc71a03a167b0dcc57af03e7bd3",
+  "subtitle": "Professional video camera application",
+  "tags": [
+   "video",
+   "camera",
+   "professional",
+   "recording",
+   "filmic",
+   "pro"
+  ]
+ },
  "com.cinemtt.apt": {
   "category": "entertainment",
   "date": "2026-10-15",
@@ -4818,6 +5178,26 @@
    "relationship",
    "lifestyle",
    "app"
+  ]
+ },
+ "com.claushuang.FocusTomato": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Focus Tomato is a focus timer application. This tweaked version provides premium features unlocked and is patched. Current version: 6.1.1.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "80f378175fb1b07a315f9e3d2918fdd5490fcd40bbd246251dce193040925329",
+  "subtitle": "Focus timer with premium unlocked",
+  "tags": [
+   "focus",
+   "timer",
+   "pomodoro",
+   "premium",
+   "unlocked",
+   "patched"
   ]
  },
  "com.cldscoreapp.liveones": {
@@ -4874,22 +5254,56 @@
    "audio"
   ]
  },
+ "com.clickteam.fnafworld": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Features the full cast from the Five Nights at Freddy's series in a fantasy RPG where players control their favorite animatronics in an epic animated adventure. This port may be inaccurate.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5bff0517596fa35b93af96e8c1b4264ba1e61560aa41bace8294b9d6503ae7bb",
+  "subtitle": "Fantasy RPG with FNAF animatronics",
+  "tags": [
+   "fnaf",
+   "rpg",
+   "fantasy",
+   "animatronics",
+   "adventure",
+   "port"
+  ]
+ },
  "com.cloud-compiler": {
   "category": "developer",
-  "date": "2026-10-21",
-  "description": "CodeSnackIDE with Subscription Unlocked.",
+  "date": "2026-10-23",
+  "description": "CodeSnack IDE is a mobile development environment for writing and testing code on your iOS device. This version is patched with the subscription unlocked. Requires iOS 15.6 or later.",
   "features": [
    "Subscription Unlocked"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "ce4f6dd2468925465ea652d79a1b9f3248e0da0da670e6fe0c0d1dc5e8444f80",
-  "subtitle": "CodeSnackIDE",
+  "src_hash": "ed8a3e3036ea372533bc302c3b93fdcf2142cd2cb4006ac28773d15e6958b08d",
+  "subtitle": "CodeSnack IDE mobile development environment",
   "tags": [
    "codesnack",
    "ide",
-   "code",
-   "programming",
-   "editor"
+   "compiler",
+   "developer",
+   "coding"
+  ]
+ },
+ "com.codersb.feelly": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "Feelly is a daily mood journal application. Requires iOS 17.6 or later.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "edaf91ebfd5228ed581df3081d743a56eca7fcdb1ee1d8ff96e41c708d5bbaab",
+  "subtitle": "Daily Mood Journal",
+  "tags": [
+   "feelly",
+   "mood",
+   "journal",
+   "daily",
+   "tracker",
+   "utilities"
   ]
  },
  "com.codeway.cleanerplus": {
@@ -5244,6 +5658,23 @@
    "ios"
   ]
  },
+ "com.crunchyroll.gv.fishingstarworldtour": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Fishing Star World Tour is a charming fishing RPG that invites players into a serene world.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1eff110fefbb55350f045aa0f0acd23f2a368869cf557dd98d9c8a5c8d0268af",
+  "subtitle": "Charming fishing RPG adventure",
+  "tags": [
+   "fishing",
+   "rpg",
+   "adventure",
+   "simulation",
+   "casual",
+   "mobile"
+  ]
+ },
  "com.crunchyroll.gv.locksquest": {
   "category": "games",
   "date": "2026-10-18",
@@ -5274,6 +5705,25 @@
    "streaming",
    "video",
    "entertainment"
+  ]
+ },
+ "com.cuilingshi.flipclock": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "Flipclock is a clock application that has been modified to include premium features. The original app source is from AppTesters IPA Repo.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "aae6dfd8a2ab94b0aad70ccda3113d53b5e3fd671ccaebb02886a334941766e3",
+  "subtitle": "Flip clock with premium features",
+  "tags": [
+   "clock",
+   "flipclock",
+   "premium",
+   "time",
+   "utility",
+   "modified"
   ]
  },
  "com.cumbemg.davinci": {
@@ -5564,6 +6014,25 @@
    "photos"
   ]
  },
+ "com.degisner.fivecents": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FiveCents is an iOS application distributed via AppTesters IPA Repo. The build is injected with premium features unlocked.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b2bc8732f84722ca6de37a0ec8255af63094b2aed9f85394ed654bf7ae1c0288",
+  "subtitle": "Premium features unlocked",
+  "tags": [
+   "premium",
+   "injected",
+   "ipa",
+   "modded",
+   "unlocked",
+   "fivcents"
+  ]
+ },
  "com.dehancer.film.ios-app": {
   "category": "other",
   "date": "2026-10-20",
@@ -5837,6 +6306,25 @@
    "party",
    "family",
    "game"
+  ]
+ },
+ "com.dny.flmccam": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FLMC is an IPA package from AppTesters IPA Repo with the subscription unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0bbe6a0b49b02a0e39f656d86494bf2b89a558d66909e373bb7fd37e88a11ffa",
+  "subtitle": "FLMC \u2013 Subscription Unlocked IPA",
+  "tags": [
+   "subscription",
+   "unlocked",
+   "ipa",
+   "repo",
+   "apptesters",
+   "flmc"
   ]
  },
  "com.do.flipclock": {
@@ -6129,6 +6617,23 @@
    "football",
    "game",
    "mobile"
+  ]
+ },
+ "com.ea.ios.fifaworld": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FIFA 16 Ultimate Team IPA brings competitive football to iPhone. The game delivers a blend of realistic football gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d11e628064c4c77f11e7bb05a27511ca462b089283dd3cf77e4d05cffa65c0ac",
+  "subtitle": "Competitive football on iPhone",
+  "tags": [
+   "fifa",
+   "ultimate",
+   "team",
+   "football",
+   "ipa",
+   "ios"
   ]
  },
  "com.eastmoon.gk2live": {
@@ -6433,6 +6938,23 @@
    "study"
   ]
  },
+ "com.emrecanacer.AILanguage": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "Fluently is an AI-powered language tutor app developed by @Sa1y0miii. Requires iOS 17.0 or later. Current version 1.3.0 available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9236865fa2061638a0092d1d541f26d17f8f50c229a9786443001ba1f470af16",
+  "subtitle": "AI Language Tutor for iOS 17+",
+  "tags": [
+   "ai",
+   "language",
+   "tutor",
+   "learning",
+   "education",
+   "ios"
+  ]
+ },
  "com.endavomedia.dmiondemand": {
   "category": "entertainment",
   "date": "2026-10-15",
@@ -6711,6 +7233,22 @@
    "privacy"
   ]
  },
+ "com.ezbeq.mobile": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "ezbeq is a companion mobile app for iOS and iPadOS that covers the main BEQ workflow against an existing ezbeq server. It works with minidsp-rs for local remote control of a minidsp, HTP-1, StormAudio processor, or other supported DSP.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "13be32ce07b9f9969684ce91a275d305720c94283e39b7ec4a6ee20be6a6cafe",
+  "subtitle": "Companion app for ezbeq server",
+  "tags": [
+   "eq",
+   "dsp",
+   "audio",
+   "remote",
+   "minidsp"
+  ]
+ },
  "com.f1shy-dev.ControlConfig": {
   "category": "other",
   "date": "2026-10-18",
@@ -6863,6 +7401,25 @@
    "game"
   ]
  },
+ "com.feelty": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FLTR is a modified application with subscription features unlocked. This version provides access to premium functionality without requiring an active subscription. Distributed through third-party repositories.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "68276c4f3aa1b40a5cca46bd9d5964f820909e585b688f989d193f54676a7642",
+  "subtitle": "Subscription unlocked version",
+  "tags": [
+   "subscription",
+   "unlocked",
+   "modified",
+   "ipa",
+   "fltr",
+   "premium"
+  ]
+ },
  "com.filmicpro.doubletake": {
   "category": "other",
   "date": "2026-10-20",
@@ -6900,6 +7457,42 @@
    "diagnostics"
   ]
  },
+ "com.finch.finch": {
+  "category": "lifestyle",
+  "date": "2026-10-23",
+  "description": "Finch is a self-care virtual pet app requiring iOS 15.6 or later. Current version 3.73.194. Developed by @Sa1y0miii. Available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "20de47292936213732edaf56d666cdc90f3c0e1e5230e269f957f4d85ec21585",
+  "subtitle": "Self-care virtual pet companion",
+  "tags": [
+   "self-care",
+   "pet",
+   "wellness",
+   "mental-health",
+   "habits",
+   "companion"
+  ]
+ },
+ "com.fineyo.Fineyo": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Fineyo is a premium IPA that has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6f5d0b5c5098f2ab81f60140a827c2f2ecbda0c8d81ba5ad46f404d0099e8c19",
+  "subtitle": "Premium IPA tested by TTJB Team",
+  "tags": [
+   "fineyo",
+   "ipa",
+   "premium",
+   "ttjb",
+   "tested",
+   "compiled"
+  ]
+ },
  "com.firsttouch.dls7": {
   "category": "utilities",
   "date": "2026-10-20",
@@ -6920,6 +7513,82 @@
    "unlock"
   ]
  },
+ "com.firsty.app": {
+  "category": "lifestyle",
+  "date": "2026-10-23",
+  "description": "Firsty Travel eSIM provides free data for international travel. The app simplifies staying connected abroad without traditional roaming complexities.",
+  "features": [
+   "Travel eSIM",
+   "Free Data"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ec0b5482610b6efc9fb9182bb0ef62fe23d9c2a0c2a5ecd90e55df8005dc5777",
+  "subtitle": "Travel eSIM with free international data",
+  "tags": [
+   "travel",
+   "esim",
+   "data",
+   "roaming",
+   "international",
+   "free"
+  ]
+ },
+ "com.fishbrain.app": {
+  "category": "lifestyle",
+  "date": "2026-10-23",
+  "description": "Fishbrain is a fishing application with a tweak that unlocks pro features. Version 9.59.0 includes patched modifications from a third-party source. The app provides fishing-related functionality with premium capabilities enabled.",
+  "features": [
+   "Pro Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fbf8773c78dedd72a0f5b36f688c8dc68f59e19d4fc8adda3514c42b5c80ef3c",
+  "subtitle": "Fishing app with pro features unlocked",
+  "tags": [
+   "fishing",
+   "pro",
+   "unlocked",
+   "patched",
+   "tweak",
+   "app"
+  ]
+ },
+ "com.fitbod": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Fitbod includes premium features.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7c4be366a8834e10d185166c2ef977b127ec156ac2c93de30efaea518c8c780a",
+  "subtitle": "Fitbod \u2013 Premium workout planner",
+  "tags": [
+   "fitbod",
+   "fitness",
+   "workout",
+   "premium",
+   "ipa",
+   "repo"
+  ]
+ },
+ "com.fleurbudget": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Budget Planner App \u2013 Fleur IPA is an iOS-focused financial management application designed to help users track income, expenses, and budgets. It provides tools for organizing personal finances on iPhone and iPad.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0cee51e3eafae4fb9146c33c905fc9160003ecf16629823bd80ec8d011178a76",
+  "subtitle": "Budget planner for iOS",
+  "tags": [
+   "budget",
+   "planner",
+   "finance",
+   "ios",
+   "management",
+   "money"
+  ]
+ },
  "com.flingex.brainnotes": {
   "category": "utilities",
   "date": "2026-10-19",
@@ -6935,6 +7604,60 @@
    "productivity",
    "utility",
    "ios"
+  ]
+ },
+ "com.flipdapp.flipd": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "Flipd is a focus and study timer application. This version is a tweaked build with premium features unlocked. Version 5.0.1, patched by the distributor.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "96fac35ada6786bc6263cf0065f43fa5a13012d7720e5040128fa0585a726875",
+  "subtitle": "Focus & study timer with premium unlocked",
+  "tags": [
+   "focus",
+   "study",
+   "timer",
+   "productivity",
+   "premium"
+  ]
+ },
+ "com.flyinghead.Flycast": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "FlyCast is a Dreamcast emulator that requires a JIT compiler to run.",
+  "features": [
+   "JIT Required"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d28308a2eef1c174984f1b931d9dd587ab8d8eec6b127f479d929966c294f750",
+  "subtitle": "Dreamcast emulator with JIT support",
+  "tags": [
+   "dreamcast",
+   "emulator",
+   "jit",
+   "retro",
+   "gaming",
+   "flycast"
+  ]
+ },
+ "com.focalread.megacubos": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "FocalRead is a speed reading application for iOS 16.1 and later. Current version 1.2.3. Developed by Sa1y0miii.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f9bdd11a5d1a4463c59b330938a96c7740040170e0bd0e6a0258fb527844395f",
+  "subtitle": "Speed reading app for iOS 16.1+",
+  "tags": [
+   "speed-reading",
+   "reading",
+   "utilities",
+   "ios",
+   "app",
+   "productivity"
   ]
  },
  "com.fourwalls.app": {
@@ -7020,6 +7743,25 @@
    "strategy",
    "game",
    "tactical"
+  ]
+ },
+ "com.funlabsoft.iptv": {
+  "category": "entertainment",
+  "date": "2026-10-23",
+  "description": "FlexIPTV is an IPTV streaming application. This version has been modified to include injected in\u2011app purchase functionality.",
+  "features": [
+   "Injected IAP"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dfddb457704ecc036cbde5748e55d60d9a76644e655d7817e0a530ce76a40bde",
+  "subtitle": "IPTV player with injected in\u2011app purchases",
+  "tags": [
+   "iptv",
+   "streaming",
+   "tv",
+   "video",
+   "player",
+   "inapp"
   ]
  },
  "com.funnmedia.calory": {
@@ -7574,6 +8316,23 @@
    "game"
   ]
  },
+ "com.greenbuttongames.FishIdle": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Idle Fish 2 Fishing Tycoon is an idle mobile game about building a fishing business. This MOD version is available for iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e4615416bb927df8080f4915b66177ea0fd7ef3ba5b2ec13b6a107ef5f802263",
+  "subtitle": "Idle fishing tycoon MOD for iOS",
+  "tags": [
+   "idle",
+   "fishing",
+   "tycoon",
+   "mod",
+   "ios",
+   "game"
+  ]
+ },
  "com.greenwormsentertainment.beastevo": {
   "category": "other",
   "date": "2026-10-15",
@@ -7592,6 +8351,23 @@
    "survivor",
    "hack",
    "mod"
+  ]
+ },
+ "com.gregacucnik.FishingPoints": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Fishing Points provides map and forecast tools for fishing. Requires iOS 16.0 or later. Current version 4.2.4.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6b51a501d561cda97f7fd400d5d2209af1d5f42e72f8e20b7c7baadac3e45f72",
+  "subtitle": "Map & Forecast for fishing spots",
+  "tags": [
+   "fishing",
+   "map",
+   "forecast",
+   "ios",
+   "app",
+   "points"
   ]
  },
  "com.grilltown.grill": {
@@ -7728,19 +8504,20 @@
   ]
  },
  "com.hammerandchisel.discord.testflight": {
-  "category": "social",
-  "date": "2026-10-15",
-  "description": "Bunny is a client modification for Discord, available through TestFlight builds.",
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "Install on jailbroken devices via package manager repository or on jailed devices using sideloading tools with a pre-patched IPA. Using non-ellekit tweak runtimes may break functionality. Developers can use live reload (HMR) to automatically reload the app when rebuilding the JavaScript bundle by running the client dev server and configuring the loader update URL and enabling HMR in settings.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c34f3341116a0ab7bfbd3fa6098f3d6a887784d5ffcb89ab71f32bee97052787",
-  "subtitle": "A client mod for Discord",
+  "src_hash": "8e0f21feba1ef90c65f00b68e7da693fd8b5e32f89593e41f19e086e342756b6",
+  "subtitle": "Unbound client for Discord",
   "tags": [
    "discord",
    "client",
-   "mod",
-   "testflight",
-   "chat"
+   "jailbreak",
+   "sideload",
+   "developer",
+   "utility"
   ]
  },
  "com.hammerandchisel.discord2": {
@@ -7898,6 +8675,25 @@
    "music",
    "utilities",
    "tool"
+  ]
+ },
+ "com.hg.FishEater": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Fish Eater.io is a multiplayer game on iOS where players enter an underwater world. Compete with others in real-time aquatic gameplay.",
+  "features": [
+   "Multiplayer"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "66e4c6763996840139eb6f2248bd143f9c92d1eedc9df301de9be04f931c9f78",
+  "subtitle": "Multiplayer underwater survival game",
+  "tags": [
+   "multiplayer",
+   "underwater",
+   "survival",
+   "io",
+   "aquatic",
+   "game"
   ]
  },
  "com.hidea.cat": {
@@ -8180,6 +8976,25 @@
    "app"
   ]
  },
+ "com.iaftt.flightplusfree": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FlightTracker is a flight tracking application. This version has the subscription features unlocked, providing access to premium functionality without a recurring payment.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "65f0be72b4f11abed263060de73bad589dd334a542a1766695296b71d16b3b14",
+  "subtitle": "Flight tracking with subscription unlocked",
+  "tags": [
+   "flight",
+   "tracker",
+   "subscription",
+   "unlocked",
+   "travel",
+   "aviation"
+  ]
+ },
  "com.ianclawson.DeltaPacEdition": {
   "category": "other",
   "date": "2026-10-20",
@@ -8277,6 +9092,25 @@
    "trainer",
    "adventure",
    "game"
+  ]
+ },
+ "com.imageline.FLStudioMobileHD": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "This version of FL Studio Mobile has in\u2011app purchases injected.",
+  "features": [
+   "IAP Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a67539a8b52603c66bd800fbdbfcaa5bee3cbce89ef65374bcb6e27065ffd189",
+  "subtitle": "FL Studio Mobile with IAP injected",
+  "tags": [
+   "flstudio",
+   "mobile",
+   "iap",
+   "injected",
+   "music",
+   "production"
   ]
  },
  "com.impalastudios.drawingcoloringbook": {
@@ -9619,6 +10453,40 @@
    "ios"
   ]
  },
+ "com.ipaomtk.firefighter.pixel.shooter.156616": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Firefighter: Pixel Shooter is an action-oriented pixel shooter distributed as an iOS installation file (IPA). The game features pixel-art graphics and shooter gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ef6564b2ec00d1d48df853a89ed35344a4fb6a074d05cbda46189258a18b22fd",
+  "subtitle": "Action pixel shooter for iOS",
+  "tags": [
+   "pixel shooter",
+   "action",
+   "ios",
+   "ipa",
+   "firefighter",
+   "game"
+  ]
+ },
+ "com.ipaomtk.fist.of.the.north.star.158414": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "FIST OF THE NORTH STAR IPA is the iOS installable package version of a game inspired by the legendar",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f38c7799b153e744b3293a6a39ee7db26385eec279f110bb621945695efe4949",
+  "subtitle": "iOS installable package of the game",
+  "tags": [
+   "fist",
+   "north",
+   "star",
+   "ipa",
+   "ios",
+   "game"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -9708,6 +10576,25 @@
    "remix",
    "audio",
    "music"
+  ]
+ },
+ "com.jakemor.firness-ai": {
+  "category": "lifestyle",
+  "date": "2026-10-23",
+  "description": "Modified version of FitnessAI with subscription features unlocked. This is an injected IPA file from a third-party repository. Original app functionality may vary. Install at your own risk.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "378e5be7c2b9c04d33912a8674cd9fd62df2f3c9b0dd095b713e7a3c64ef38e7",
+  "subtitle": "Subscription unlocked fitness app",
+  "tags": [
+   "fitness",
+   "ai",
+   "subscription",
+   "unlocked",
+   "ipa",
+   "modified"
   ]
  },
  "com.jamcity.pdt": {
@@ -9849,6 +10736,23 @@
    "subscription",
    "unlocked",
    "app"
+  ]
+ },
+ "com.kakaogames.match3d": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Fetch & Match: Match 3D is an iOS installable casual puzzle game where players match 3D objects.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b514a7311b7ea47c747b0cbd2ab0c76530590242b38b351a4db08c9690318f68",
+  "subtitle": "Casual 3D match puzzle game",
+  "tags": [
+   "puzzle",
+   "match-3d",
+   "casual",
+   "ios",
+   "game",
+   "3d"
   ]
  },
  "com.kakarod.bighunter": {
@@ -10391,6 +11295,25 @@
    "songs"
   ]
  },
+ "com.leshko.flap": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Flacbox is an app by AppTesters IPA Repo. The build includes a subscription unlocked injection.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "93d1ab4bf09da8e86fe284f1f0137ace517e88a2bb71228f744d841b53068388",
+  "subtitle": "Flacbox \u2013 Subscription unlocked",
+  "tags": [
+   "flacbox",
+   "subscription",
+   "unlocked",
+   "ipa",
+   "repo",
+   "apptesters"
+  ]
+ },
  "com.leshko.tagseditor": {
   "category": "utilities",
   "date": "2026-10-21",
@@ -10491,6 +11414,25 @@
    "applock",
    "lock",
    "protection"
+  ]
+ },
+ "com.limepresso.pomodorofree": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FocusKeeper is a focus timer application with Premium features added. The IPA has been tested and compiled by TTJB Team. Distributed via TTJB IPA Repo.",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "be7f5cca59d9413b70bc7c3f504fcbeca4f83e0523cd1106c9ff4935813a5f2a",
+  "subtitle": "Premium focus timer with added features",
+  "tags": [
+   "focus",
+   "timer",
+   "productivity",
+   "premium",
+   "ipa",
+   "ttjb"
   ]
  },
  "com.linecorp.b612": {
@@ -11224,6 +12166,23 @@
    "utility"
   ]
  },
+ "com.mineek.files": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "File manager for TrollStore and CVE-2022-46689 exploits.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "60e03fcd1a8b80cc4e00b5609e9fd1e6e33755043f33b3f9462f0ea2a3dedede",
+  "subtitle": "File manager for TrollStore and CVE-2022-46689",
+  "tags": [
+   "filemanager",
+   "trollstore",
+   "cve-2022-46689",
+   "utilities",
+   "ios",
+   "exploit"
+  ]
+ },
  "com.miniclip.8ballpoolmult": {
   "category": "games",
   "date": "2026-10-14",
@@ -11602,20 +12561,21 @@
   ]
  },
  "com.mwm.procolor": {
-  "category": "lifestyle",
-  "date": "2026-10-21",
-  "description": "ColorPop is an application that comes with the subscription unlocked feature.",
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Color Pop is an AI coloring book application for iOS devices. This version includes patched subscription features. Requires iOS 17.0 or later.",
   "features": [
    "Subscription Unlocked"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "cae30a91ae62c0ab42f2d3d16a8edd65f39d70bac72f4b9b172807ad26bf1b4e",
-  "subtitle": "Subscription Unlocked",
+  "src_hash": "2c06a20bef7786aa3a287711d6cc05b9195159c4a6c6adba53ac051065b6bafc",
+  "subtitle": "AI Coloring Book",
   "tags": [
-   "colorpop",
-   "unlocked",
-   "subscription",
-   "app"
+   "coloring",
+   "ai",
+   "book",
+   "art",
+   "creative"
   ]
  },
  "com.mwm.sampler-app": {
@@ -11650,6 +12610,23 @@
    "tycoon",
    "mining",
    "simulation"
+  ]
+ },
+ "com.mythical.fifarivals": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FIFA Rivals \u2013 Mobile Soccer brings fast competitive football to iPhone, delivering a modern football experience.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "24431b7aad987e739c3c0b168a664078e30c50ddfde13cb77653ca6bf4d90d5a",
+  "subtitle": "Fast competitive mobile football",
+  "tags": [
+   "football",
+   "soccer",
+   "mobile",
+   "competitive",
+   "iphone",
+   "ipa"
   ]
  },
  "com.mytonallc.cookingdiary": {
@@ -11953,6 +12930,23 @@
    "files",
    "utilities",
    "unlocked"
+  ]
+ },
+ "com.nexelon.fishinglife": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "A mobile game that blends the tranquility of fishing with the challenges of life. It is an IPA MOD for iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "17935ae18313bdf931dcf8b57d2ed5bd5e791b910ddf459a8d540a05834feadc",
+  "subtitle": "Fishing and life simulation game",
+  "tags": [
+   "fishing",
+   "life",
+   "game",
+   "mobile",
+   "ipa",
+   "mod"
   ]
  },
  "com.nexonm.dominations": {
@@ -12466,6 +13460,23 @@
    "application"
   ]
  },
+ "com.penguinbit.fastdownload": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "This app is injected with Pro features. No additional details provided by the source.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "042db89b60067b8cc6160c3df45eeccc6455ac3866c1d7252e3b340f5578439d",
+  "subtitle": "Pro-injected utility app",
+  "tags": [
+   "pro",
+   "injected",
+   "utility",
+   "file",
+   "download",
+   "getter"
+  ]
+ },
  "com.perblue.disneyheroes.ios": {
   "category": "entertainment",
   "date": "2026-10-20",
@@ -12497,6 +13508,25 @@
    "chatbot",
    "assistant",
    "conversation"
+  ]
+ },
+ "com.phantom.fantengmu": {
+  "category": "photo-video",
+  "date": "2026-10-23",
+  "description": "FELFishEyeLens provides fisheye lens camera capabilities for capturing photos and videos. This version includes Pro features unlocked.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "e2ff9d27d0ba5d7e72274cded27ca76cad358607c9f2a568bd374da32b918885",
+  "subtitle": "Fisheye lens camera application with Pro unlocked",
+  "tags": [
+   "fisheye",
+   "lens",
+   "camera",
+   "photo",
+   "video",
+   "pro"
   ]
  },
  "com.photo.beautytuneapp": {
@@ -12828,6 +13858,23 @@
    "game"
   ]
  },
+ "com.playrix.fishdom-freeplay": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Fishdom is a popular game that combines the classic tile-based match-3 puzzle game with aquarium management.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1c54565f0b1d65fa198cd82b78ec5fbb45f78afdf420747c4b31f033ffd1833f",
+  "subtitle": "Match-3 puzzle with aquarium management",
+  "tags": [
+   "match-3",
+   "puzzle",
+   "aquarium",
+   "management",
+   "fishdom",
+   "game"
+  ]
+ },
  "com.playsidestudios.candycritters": {
   "category": "games",
   "date": "2026-10-15",
@@ -12935,6 +13982,23 @@
    "docker"
   ]
  },
+ "com.ppgjx.ffmpeg": {
+  "category": "photo-video",
+  "date": "2026-10-23",
+  "description": "FFmpeg-ios is a local audio and video processing tool that runs on iPhone and iPad, suitable for users who need to perform video to audio conversion.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c1b18c51b39cb35bb3d9d2463faa8ffa3aa886e8add3f858613b6f9eeec70746",
+  "subtitle": "Local audio and video processing tool",
+  "tags": [
+   "ffmpeg",
+   "video",
+   "audio",
+   "conversion",
+   "processing",
+   "local"
+  ]
+ },
  "com.prostartme.eyecare": {
   "category": "lifestyle",
   "date": "2026-10-21",
@@ -12949,6 +14013,25 @@
    "screen time",
    "breaks",
    "vision"
+  ]
+ },
+ "com.przemyslawbobak.filtru": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "Filtru is a coffee brewing utility. This tweak unlocks the subscription feature in version 4.6.11. If the subscription does not appear, press Restore Purchase.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "46e398eec4c8c0f234814215b494695077b44ce29f5a732ad85c24f7c888ceb5",
+  "subtitle": "Brew better coffee with unlocked subscription",
+  "tags": [
+   "coffee",
+   "brew",
+   "subscription",
+   "unlocked",
+   "utility",
+   "filter"
   ]
  },
  "com.pungme.combyne": {
@@ -13861,6 +14944,23 @@
    "lifestyle"
   ]
  },
+ "com.samclothier.DEADfense": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Final Outpost is described as a compelling venture for iOS gamers seeking something fresh and exhilarating. As players navigate...",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5b6594b084dc2176aef5425363d67d8146ecf71304f88b1f21b8656ee55d4210",
+  "subtitle": "Fresh iOS gaming experience",
+  "tags": [
+   "game",
+   "ios",
+   "gaming",
+   "fresh",
+   "exhilarating",
+   "venture"
+  ]
+ },
  "com.saulawa.areaandvolumecalc.lite": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -13876,6 +14976,74 @@
    "education",
    "geometry",
    "math"
+  ]
+ },
+ "com.scottgames.fivenights3": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Five Nights at Freddy's 3 is a 2015 point-and-click survival horror video game developed and published by Scott Cawthon. It is the third installment in the series and takes place in a horror-themed attraction based on the restaurant chain from the first two games.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3436aa228b5c23115e40d3a8ac35bd6d8ebc9a95f9212c09ee97e9ae6e7593b3",
+  "subtitle": "Third FNaF horror attraction game",
+  "tags": [
+   "five nights",
+   "freddys",
+   "horror",
+   "survival",
+   "point-and-click",
+   "2015"
+  ]
+ },
+ "com.scottgames.fnaf2": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Five Nights at Freddy's 2 is a 2014 point-and-click survival horror game developed and published by Scott Cawthon. It is the second installment in the Five Nights at Freddy's series.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "650872520e0515db008773b502892763adf28f270c9695bc3cf3d37c5f5553a4",
+  "subtitle": "Survival horror sequel from 2014",
+  "tags": [
+   "five",
+   "nights",
+   "freddys",
+   "survival",
+   "horror",
+   "sequel"
+  ]
+ },
+ "com.scottgames.fnaf4": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Five Nights at Freddy's 4 is a 2015 point-and-click survival horror game developed by Scott Cawthon and published by Scott Games and Clickteam LLC. It is the fourth entry in the Five Nights at Freddy's series.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "efc11b94257bd0e81496388f4baaf02ea847561d017e60ecf24f5219d108a478",
+  "subtitle": "Point-and-click survival horror",
+  "tags": [
+   "fnaf",
+   "horror",
+   "survival",
+   "point-and-click",
+   "scott cawthon",
+   "game"
+  ]
+ },
+ "com.scottgames.sisterlocation": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Five Nights at Freddy's: Sister Location is a 2016 point-and-click survival horror video game developed and published by Scott Cawthon. It is the fifth main installment in the Five Nights at Freddy's series and the sixth game overall.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "87a5f13f69567067e2504c39969b5df9ec72775b266d7d4c71514a1686f34189",
+  "subtitle": "Point-and-click survival horror game",
+  "tags": [
+   "fnaf",
+   "horror",
+   "survival",
+   "point-click",
+   "scott-cawthon",
+   "2016"
   ]
  },
  "com.seg-soft.dungeonscall": {
@@ -14018,6 +15186,23 @@
    "download",
    "playlist",
    "audio"
+  ]
+ },
+ "com.silverware.flightupdatepro": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Flight Update Pro provides real-time flight information including departure and arrival times, gate changes, and other updates.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c11d399dbeded25b098c471be2515ea38a1099b046054b798569e56fe66c72c3",
+  "subtitle": "Real-time flight tracking and updates",
+  "tags": [
+   "flight",
+   "tracking",
+   "real-time",
+   "updates",
+   "travel",
+   "airport"
   ]
  },
  "com.skybornegames.adorablegarden": {
@@ -14170,6 +15355,26 @@
    "multiplayer",
    "game",
    "combat"
+  ]
+ },
+ "com.sp67.flero": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Flero v0.0.7b3 is a modified version of Geometry Dash. It is completely free and does not require JIT. Created by Flero.",
+  "features": [
+   "Free",
+   "No JIT required"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1aa5948060c91946905f0709bfb897448a39a5cc7d1a597ba9ad08a96a94ab72",
+  "subtitle": "Free Geometry Dash mod, no JIT needed",
+  "tags": [
+   "geometry",
+   "dash",
+   "mod",
+   "free",
+   "nojit",
+   "flero"
   ]
  },
  "com.spaceapegames.carsuperstar": {
@@ -14453,6 +15658,23 @@
    "audio"
   ]
  },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.0.0.9.1.92.ios15only": {
+  "category": "entertainment",
+  "date": "2026-10-23",
+  "description": "This is a modded version of Spotify, and only works with iOS 15.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "762578622aeccc3753ae8bc5db8a0402ac4e50fde24ace4c40215ddf2e11c8ef",
+  "subtitle": "Modded version of Spotify for iOS 15",
+  "tags": [
+   "spotify",
+   "mod",
+   "ios15",
+   "music",
+   "audio",
+   "entertainment"
+  ]
+ },
  "com.spotify.client.ios.eeveespotifyreincarnated.7.0.0.not.patched.9.1.92.ipavault": {
   "category": "entertainment",
   "date": "2026-10-21",
@@ -14483,6 +15705,22 @@
    "audio",
    "modded",
    "entertainment"
+  ]
+ },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.0.0.patched.9.1.92.ios15only": {
+  "category": "entertainment",
+  "date": "2026-10-23",
+  "description": "This is a modded version of Spotify designed to work exclusively with iOS 15. Please note that this version is not compatible with SideStore or LiveContainer.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5f08a177c830a5d5d4e4fd8a0511d5a3ce870eec8eece706e9043e82c8410698",
+  "subtitle": "Modded version of Spotify for iOS 15",
+  "tags": [
+   "spotify",
+   "modded",
+   "ios15",
+   "music",
+   "audio"
   ]
  },
  "com.spotify.client.ios.eeveespotifyreincarnated.7.0.0.patched.9.1.92.ipavault": {
@@ -14584,6 +15822,23 @@
    "recording"
   ]
  },
+ "com.stey": {
+  "category": "photo-video",
+  "date": "2026-10-23",
+  "description": "Filmr is a video editor that opens the door to infinite possibilities of creation, from beginners to movie directors. With a simple, fast and intuitive interface.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8979b04c83a77274130df21dc590618af80d29078566cdab7b0a8c114423184f",
+  "subtitle": "Video editor for all creators",
+  "tags": [
+   "video editor",
+   "creation",
+   "beginners",
+   "movie directors",
+   "simple",
+   "fast"
+  ]
+ },
  "com.stonehollow-workshop.Eterspire": {
   "category": "games",
   "date": "2026-10-21",
@@ -14614,6 +15869,23 @@
    "drama"
   ]
  },
+ "com.storytaco.pc01mclient": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Five Hearts Under One Roof is a mobile game that has emerged in the expanding universe of mobile gaming.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "38ff62b3617551310dd1f05a6a22db348a8376ec3f880fe5e8cd29cf488cf9ed",
+  "subtitle": "Mobile gaming adventure with heartfelt story",
+  "tags": [
+   "mobile",
+   "game",
+   "adventure",
+   "story",
+   "heart",
+   "roof"
+  ]
+ },
  "com.straight-tamago.DockTransparent": {
   "category": "other",
   "date": "2026-10-20",
@@ -14631,6 +15903,40 @@
    "ios"
   ]
  },
+ "com.straight-tamago.FileSwitcherPro": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FileSwitcherPro is an improved version of FileSwitcherX that works with TrollStore on iOS 14.0 through 15.7.1 and iOS 16.0 through 16.1.2.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d40429bd89b44f053293507c7e0a826dac46fcccb263d6193dccd69cc72cb19a",
+  "subtitle": "File switcher for TrollStore iOS 14-16",
+  "tags": [
+   "fileswitcher",
+   "trollstore",
+   "ios",
+   "file",
+   "manager",
+   "utility"
+  ]
+ },
+ "com.straight-tamago.FileSwitcherX": {
+  "category": "developer",
+  "date": "2026-10-23",
+  "description": "FileSwitcherX is a collection of MacDirtyCow tweaks for iOS. Last updated January 21, 2023. Available via AppDB.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9f838a4d0eb06740a0c46cf392d4b3cd86726ec6b95abdabb73ee6290ac87a2a",
+  "subtitle": "Collection of MacDirtyCow tweaks",
+  "tags": [
+   "macdirtycow",
+   "tweaks",
+   "developer",
+   "ios",
+   "collection",
+   "utility"
+  ]
+ },
  "com.stratospheregames.dawnofages": {
   "category": "games",
   "date": "2026-10-20",
@@ -14645,6 +15951,42 @@
    "battle",
    "war",
    "tactics"
+  ]
+ },
+ "com.stratospherix.filebrowserbiz": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FileBrowser Pro 25.7, developed by FileBrowser_Pro_25.7 x CyPwn.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4c2c815669f32f4661acb9bb08e4457fcaabbe9cdc33b086e4feba31dda43157",
+  "subtitle": "Professional file manager for iOS",
+  "tags": [
+   "filebrowser",
+   "pro",
+   "file",
+   "browser",
+   "manager",
+   "utility"
+  ]
+ },
+ "com.strv.labs.float": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Float is an iOS application with subscription features unlocked. The IPA file has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0589c50d3977d86a5d37b85dcbf37d79df2972411a80c3d280f88fbe4b51b899",
+  "subtitle": "Subscription features unlocked",
+  "tags": [
+   "float",
+   "subscription",
+   "unlocked",
+   "ipa",
+   "ttjb",
+   "ios"
   ]
  },
  "com.studiolico.woodenstick": {
@@ -14845,6 +16187,29 @@
    "utilities"
   ]
  },
+ "com.tareq.chromasmith": {
+  "category": "photo-video",
+  "date": "2026-10-23",
+  "description": "Gallery, studio and film lab for your photos and workflow. Make a look in a click or take control of every detail. Chromasmith is a free photo studio with 133 calibrated film looks, real grain, halation and bloom, RAW development, masks and retouching, a local photo library and full-resolution export, running entirely on your own device. No account, no upload and no subscription are required. The gallery automatically finds faces, pets, favourites and keywords on your machine. The studio includes six tools in one editor to pick looks, shape light and colour, add texture, crop and frame for output.",
+  "features": [
+   "No account needed",
+   "No upload required",
+   "No subscription",
+   "RAW development",
+   "Full-resolution export"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "59d8625735e1bdd8885bd69d2c463b265b0d0a7f1929e0702fc8cb0662dfc038",
+  "subtitle": "Photo studio with film looks, RAW tools and local library",
+  "tags": [
+   "photo",
+   "editor",
+   "film",
+   "raw",
+   "gallery",
+   "studio"
+  ]
+ },
  "com.tcn.cking": {
   "category": "games",
   "date": "2026-10-15",
@@ -14899,34 +16264,30 @@
  },
  "com.telltalegames.BAT100": {
   "category": "games",
-  "date": "2026-10-15",
-  "description": "Enter the fractured psyche of Bruce Wayne and discover the powerful and far-reaching consequences of your choices as the Dark Knight. Make discoveries that will shatter Bruce Wayne's world and the fragile stability of a corrupt Gotham City. Your actions and choices determine the fate of the Batman. Episode 1 is free, and all episodes are available to download via in-app purchase. Episode data can also be extracted and copied into the app documents folder.",
-  "features": [
-   "Episode 1 Free"
-  ],
+  "date": "2026-10-23",
+  "description": "The main app provides access to free content. Additional episode data must be extracted and copied into the app documents folder in your files.",
+  "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2b8b988d3a050d8a3e2ddd3e2a909790fe08411064781a5dfba8fe06eb171b3b",
-  "subtitle": "Enter the fractured psyche of Bruce Wayne",
+  "src_hash": "4f203853a241ed05614d0db4f3b75ae29df49d4c1ec8bd0edd4008aa56cb392f",
+  "subtitle": "An episodic graphic adventure game series",
   "tags": [
    "batman",
-   "telltale",
-   "action",
    "adventure",
-   "choices",
-   "gotham"
+   "episodic",
+   "game"
   ]
  },
  "com.thebcd69.bcd": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS with Steam and GOG built in, powered by Wine, FEX and Metal via DXMT.",
+  "date": "2026-10-23",
+  "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS. Features built-in Steam and GOG support. Powered by Wine, FEX, and Metal via DXMT.",
   "features": [
-   "Controller-Friendly",
-   "Steam Integration",
-   "GOG Integration"
+   "Controller Friendly",
+   "Steam Support",
+   "GOG Support"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "8c46bf388305af135a4b377645cc8bdf121ba4be805b4afdc823ef6b7f1b4387",
+  "src_hash": "508f083751382705843e0ab6b8a2a2aca5203ee43783aa9c282ad0c5e00e0a84",
   "subtitle": "Run Windows games on iOS and iPadOS",
   "tags": [
    "launcher",
@@ -15031,6 +16392,25 @@
    "manager",
    "apps",
    "utility"
+  ]
+ },
+ "com.tigisoftware.Filza": {
+  "category": "developer",
+  "date": "2026-10-23",
+  "description": "Filza is an iOS filesystem explorer. This version is a cracked, NoURLScheme build distributed via TrollStore. Note: Apps installed with TrollStore may not be restorable from the App Store.",
+  "features": [
+   "Filesystem Explorer"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "158060886e9f90d942a94e2da0c67ecbce21afc53d7fad18c51a2df0d0f96bcc",
+  "subtitle": "iOS filesystem explorer",
+  "tags": [
+   "filesystem",
+   "explorer",
+   "ios",
+   "file manager",
+   "trollstore",
+   "sideload"
   ]
  },
  "com.tiltingpoint.cypher": {
@@ -15263,6 +16643,28 @@
    "ipad"
   ]
  },
+ "com.tx3stn.atolla": {
+  "category": "entertainment",
+  "date": "2026-10-23",
+  "description": "Enjoy a seamless music experience with full offline functionality for search, scrobbling, playlist creation, and mixes. The player features gap-less playback, dynamic color palettes generated from album artwork, local waveform progress bars, and an image-focused user interface centered around artist logos. Access your recently added and recently played tracks, various mixes, and explore artist views with most played tracks, genre pills, and artist biographies.",
+  "features": [
+   "Seamless offline experience",
+   "Gap-less playback",
+   "Dynamic color palettes",
+   "Local waveform generation",
+   "Playlist creation and editing"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6c5073233ab0709f6cd1e6568366ecec9e34ba970e89b681b4f92fa1ef6a0388",
+  "subtitle": "Seamless offline music playback and playlist management",
+  "tags": [
+   "music",
+   "offline",
+   "playlist",
+   "player",
+   "audio"
+  ]
+ },
  "com.ugi.designfamilylife": {
   "category": "games",
   "date": "2026-10-20",
@@ -15277,6 +16679,42 @@
    "family management",
    "storytelling",
    "game"
+  ]
+ },
+ "com.ulisesolave.Fitia": {
+  "category": "lifestyle",
+  "date": "2026-10-23",
+  "description": "Fitia is a calorie counter and diet tracking application. The app helps users monitor food intake and manage nutritional goals. Requires iOS 16 or later. Current version 24.2.9.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d2560d5c5b29418fc79672e1ddd639f8cdc9ce20eda568c6dbd00e547d4dc540",
+  "subtitle": "Calorie counter and diet tracker",
+  "tags": [
+   "calorie",
+   "counter",
+   "diet",
+   "tracker",
+   "nutrition",
+   "health"
+  ]
+ },
+ "com.underthing.focus.friend": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Focus Friend helps users stay productive by addressing social media distractions and endless notifications. Developed by Hank Green.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d1b406f60724e0e3ebfdb010196e6777f7f128d0e3fd52732f21ea633bb0e587",
+  "subtitle": "Boost productivity by blocking distractions",
+  "tags": [
+   "focus",
+   "productivity",
+   "distractions",
+   "notifications",
+   "hank-green",
+   "utility"
   ]
  },
  "com.unicostudio.braintest": {
@@ -16856,6 +18294,55 @@
    "unlimited money"
   ]
  },
+ "com.unknown.fgetfilemanagerbrowser": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "fGet is a file manager and browser for downloading files from the internet. The app operates without advertisements.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "66a8d9166283dd436009c66dd659ffeea11d1673a197245c3ba26b21c21f4544",
+  "subtitle": "File downloader without ads",
+  "tags": [
+   "file manager",
+   "downloader",
+   "browser",
+   "no ads",
+   "utility"
+  ]
+ },
+ "com.unknown.filmigo": {
+  "category": "photo-video",
+  "date": "2026-10-23",
+  "description": "Filmigo is an application for editing video clips.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5a9998a7868ac14f0df451fcbd596019b0cbab13e1f3b8c476bfea4977293f99",
+  "subtitle": "Video clip editing app",
+  "tags": [
+   "video",
+   "editor",
+   "clip",
+   "editing",
+   "filmigo",
+   "app"
+  ]
+ },
+ "com.unknown.fishdom": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Fishdom is an app developed by Karbin-Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2a70f44c457ed7c08df5a488a824997d025374c3ed308b67273fd13d844b50f6",
+  "subtitle": "Fishdom by Karbin-Store",
+  "tags": [
+   "fishdom",
+   "karbin-store",
+   "app"
+  ]
+ },
  "com.unofficial.balatro": {
   "category": "games",
   "date": "2026-10-15",
@@ -17097,6 +18584,26 @@
    "calories",
    "ipa",
    "ios"
+  ]
+ },
+ "com.vladk.pipemasters": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Flow Legends is a tweak that unlocks premium features. Version 1.16.0 is patched and requires minimum OS version 1.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "da3add02cf95c283b92c08a32534c14f73a6f501fdfd1403df759692df46732c",
+  "subtitle": "Premium unlocked tweak for iOS",
+  "tags": [
+   "flow legends",
+   "tweak",
+   "premium unlocked",
+   "patched",
+   "ios",
+   "1.16.0"
   ]
  },
  "com.voicecopy.app": {
@@ -17444,6 +18951,29 @@
    "ios"
   ]
  },
+ "com.xsxs18.FileManager": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "FileManager is a sideloaded iOS file manager that runs entirely on the device. It can hide folders, lock them with Face ID, password\u2011protect PDFs using owner and user passwords, and create AES\u2011256 encrypted ZIP archives. No account, server, or analytics are required. A hidden second vault and a configurable self\u2011destruct after repeated failed Face ID attempts are included for extra privacy.",
+  "features": [
+   "Face ID lock",
+   "PDF password protection",
+   "AES\u2011256 encrypted ZIP",
+   "Hidden vault",
+   "Self\u2011destruct on failed attemp"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8855610a4edba92c0349eb92df3e0dc95128e66cbaccacc77377f7aa518d3198",
+  "subtitle": "Secure local file manager with Face ID",
+  "tags": [
+   "filemanager",
+   "security",
+   "faceid",
+   "encryption",
+   "pdf",
+   "vault"
+  ]
+ },
  "com.xtcarts.gametracker": {
   "category": "lifestyle",
   "date": "2026-10-15",
@@ -17474,6 +19004,23 @@
    "lock",
    "iphone",
    "utilities"
+  ]
+ },
+ "com.yangjii.fifa23": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "FIFA Soccer Mobile 23 lets you build your Ultimate Team and start your soccer journey. The game includes over 15,000 soccer stars.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4dfe935fc1cb5044ae9a92b1d168ec04e9cc1a71130e8620db61f8b3b5605f00",
+  "subtitle": "FIFA Soccer Mobile 23 \u2013 Build Ultimate Team",
+  "tags": [
+   "fifa",
+   "soccer",
+   "mobile",
+   "ultimate",
+   "team",
+   "ipa"
   ]
  },
  "com.yangjiii.EnsWilde": {
@@ -17527,23 +19074,24 @@
  },
  "com.your-company.DelightGames": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Access a massive library of choice-based interactive gamebooks spanning fantasy, horror, mystery, adventure, and romance. New volumes are added regularly. Enjoy offline play with a small download size that is easy on your battery. The app is fully accessible to blind users with Voiceover compatibility. Play well to earn currency to finish content without spending money, and make choices without spending currency or encountering walled-off options. A premium option is available for a one-time purchase to unlock all current and future content, remove ads, and include exclusive bonuses.",
+  "date": "2026-10-23",
+  "description": "Dive into over 80 interactive novels where your choices matter. Explore a massive collection of over 1 million words across 80 plus volumes, including high fantasy, noir mystery, gritty horror, and sci-fi. Every branching path, stat check, and secret ending is 100 percent human authored and balanced to provide a rewarding RPG experience. There are no pay to win decisions or AI generated filler. Experience deep, hand crafted storytelling from your iPhone and Apple Watch.",
   "features": [
-   "No Ads",
-   "Unlocked",
-   "Offline Play"
+   "80 plus interactive volumes",
+   "Human authored stories",
+   "Apple Watch support",
+   "No pay to win decisions"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "071fe2f01d783f59a89266270c797989c4c7fb1a07120463e3de70fe5cc28caf",
-  "subtitle": "Massive trove of choice-based interactive gamebooks",
+  "src_hash": "7fb770964b82dd446660d98920c5be1be31cc22634d56d9c5422487f8d4897b4",
+  "subtitle": "Interactive novels with choices that matter",
   "tags": [
-   "gamebooks",
    "interactive",
-   "fiction",
-   "adventure",
+   "novels",
    "rpg",
-   "stories"
+   "stories",
+   "fiction",
+   "watch"
   ]
  },
  "com.yourname028.BarcodeScanner": {
@@ -17560,6 +19108,23 @@
    "apple",
    "official",
    "utilities"
+  ]
+ },
+ "com.yuabe.blureffectapp": {
+  "category": "photo-video",
+  "date": "2026-10-23",
+  "description": "Blur Effect App IPA is an iOS application package that allows iPhone and iPad users to install a photo edit",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b0c8f06c7b8584bfc688a0f582a89c0bb1d8c12ab56b3378dc39e100cb3f9874",
+  "subtitle": "Blur photo editing IPA for iOS",
+  "tags": [
+   "blur",
+   "photo",
+   "edit",
+   "ipa",
+   "ios",
+   "app"
   ]
  },
  "com.yummygum.Billy": {
@@ -18391,6 +19956,55 @@
    "video downloader"
   ]
  },
+ "cypwn.FilzaEscaped16.3.7": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FilzaEscaped16 is developed by FilzaEscaped16 x CyPwn.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c138248a819598e8208e474688f6cdff225776a71c28bfababc1dcbc8a689980",
+  "subtitle": "FilzaEscaped16 by CyPwn",
+  "tags": [
+   "filza",
+   "escaped",
+   "16",
+   "cypwn"
+  ]
+ },
+ "cypwn.FineReaderPDFPro_15.5.2_TS.15.5.2": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "FineReader PDF Pro version 15.5.2. Released by FineReaderPDFPro_15.5.2_TS x CyPwn.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b6b53da1325233573c13b295d4619da237784306bb104c70a56e6c1a82e401b3",
+  "subtitle": "FineReader PDF Pro version 15.5.2",
+  "tags": [
+   "finereader",
+   "pdf",
+   "pro",
+   "15.5.2",
+   "utilities",
+   "document"
+  ]
+ },
+ "cypwn.FineReader_PDF_Pro_15.4.2.15.4.2": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "FineReader PDF Pro cracked by @Demoxing",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "db6eca025177f4239ec93170871e470a62fa79cf1129304757dcb2ef1b74cb6a",
+  "subtitle": "FineReader PDF Pro cracked version",
+  "tags": [
+   "finereader",
+   "pdf",
+   "pro",
+   "cracked",
+   "demoxing",
+   "utilities"
+  ]
+ },
  "cypwn.cl1m4x.1.3": {
   "category": "other",
   "date": "2026-10-18",
@@ -18458,6 +20072,23 @@
    "tracker"
   ]
  },
+ "de.kruschel.flashtex": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Flashtex is an app described as injected with premium.",
+  "features": [
+   "Premium Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f1c80e843c743eceb7e44eb8435e80dccc4b935402316b11ea248f60e5a994ab",
+  "subtitle": "Premium features injected",
+  "tags": [
+   "flashtex",
+   "premium",
+   "injected",
+   "app"
+  ]
+ },
  "design.vek.colorGearX": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -18472,6 +20103,23 @@
    "design",
    "wheel",
    "utility"
+  ]
+ },
+ "design.yugen.Flow": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Flow is a modified version of the original app distributed through the AppTesters IPA repository. This build has been injected with Pro features, providing access to premium functionality without a subscription.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "523f0e59974fd71ee49144aa38ea306b7a2c143c1950f869baef59a760a9a7b1",
+  "subtitle": "Modified app with Pro features unlocked",
+  "tags": [
+   "modified",
+   "pro",
+   "ipa",
+   "unlocked"
   ]
  },
  "dev.bluewake.BlueWake": {
@@ -18657,6 +20305,26 @@
    "game"
   ]
  },
+ "eu.livesport.FlashScore-com": {
+  "category": "entertainment",
+  "date": "2026-10-23",
+  "description": "Flashscore provides live scores, results, and news for various sports. This version 25.9.0 has been patched with the subscription unlocked, removing paywall restrictions. The tweak was made available through a third-party IPA library.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9e434af9aeeb2acf7c05e22f1d2117d85afed906712841f094eb1a5da0ff335f",
+  "subtitle": "Live sports scores and news with subscription unlocked",
+  "tags": [
+   "sports",
+   "scores",
+   "live",
+   "news",
+   "unlocked",
+   "patched"
+  ]
+ },
  "evolly.app.chatgpt": {
   "category": "utilities",
   "date": "2026-10-14",
@@ -18689,6 +20357,25 @@
    "visual",
    "ipa",
    "experience"
+  ]
+ },
+ "fitnessworkout.app": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FitnessCoach is a fitness coaching application. This version has been modified to unlock subscription features.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "264feb4f69c0a58baeaa19f5658a6995f5f32c21c4d31d2983a30b2b1b08ce74",
+  "subtitle": "Fitness coaching with subscription unlocked",
+  "tags": [
+   "fitness",
+   "coach",
+   "workout",
+   "health",
+   "subscription",
+   "unlocked"
   ]
  },
  "fr.blaukke": {
@@ -18737,6 +20424,23 @@
    "td",
    "game",
    "tactical",
+   "ios"
+  ]
+ },
+ "games.paveldogreat.fluidsimulation": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "Fluid is a fluid simulation app for iOS 15.0 and later. Current version 4.20.0. Provides interactive fluid dynamics visualization.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "aff04028c9f89d5790f798e34aba8c9077571bd72aa194ad67f6cdbad06fdddb",
+  "subtitle": "Interactive fluid simulation game",
+  "tags": [
+   "fluid",
+   "simulation",
+   "physics",
+   "interactive",
+   "game",
    "ios"
   ]
  },
@@ -19236,6 +20940,21 @@
    "audio"
   ]
  },
+ "io.mindist.well": {
+  "category": "lifestyle",
+  "date": "2026-10-23",
+  "description": "Numo is a cringe-free ADHD app designed to support users. This application requires iOS 15.1 or later and is available on the App Store.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d1f07193ffdcf62a5132bc9829d9b29ac4c4e770ae0e5295121a1c2364176e6f",
+  "subtitle": "Cringe-Free ADHD App",
+  "tags": [
+   "adhd",
+   "numo",
+   "support",
+   "lifestyle"
+  ]
+ },
  "io.rodneyapps.LPN012-MultiCam": {
   "category": "utilities",
   "date": "2026-10-20",
@@ -19545,6 +21264,96 @@
    "ios"
   ]
  },
+ "kh.crysailis.feather": {
+  "category": "social",
+  "date": "2026-10-23",
+  "description": "Download the latest version of Feather. Join the telegram channel for updates and library access.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "1967f7b25b9c3cd88762803c7043f9af3c55c2c74bd722648e124611dedc8c69",
+  "subtitle": "Latest version of Feather",
+  "tags": [
+   "feather",
+   "social",
+   "telegram",
+   "library",
+   "updates"
+  ]
+ },
+ "kh.crysalis.feather": {
+  "category": "developer",
+  "date": "2026-10-23",
+  "description": "Feather is a developer tool created by OwO Source. Injected with Nothing.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "34fc58a90d822299b866044c0ade1cbed2197eedb3172c47b110c38f8b205b32",
+  "subtitle": "Developer tool by OwO Source",
+  "tags": [
+   "feather",
+   "developer",
+   "owo source"
+  ]
+ },
+ "kh.crysalis.feather105": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "Feather is a free on-device iOS application manager and installer built with UIKit.",
+  "features": [
+   "Free"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "390cb282e491664b8813cd5dca46f46a9ee0de4c00ae359b1e1d18c8ab1176d1",
+  "subtitle": "On-device iOS application manager and installer",
+  "tags": [
+   "feather",
+   "installer",
+   "manager",
+   "ios",
+   "uikit",
+   "utilities"
+  ]
+ },
+ "kh.crysalis.feather112": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "Feather is a free on-device iOS application manager and installer built with UIKit.",
+  "features": [
+   "Free",
+   "On-Device Installer"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "3d30cdff0e09e0633437a3a3b535ae9e33784b3042a0107a9272c02613a41b2e",
+  "subtitle": "On-device iOS application manager and installer",
+  "tags": [
+   "installer",
+   "manager",
+   "ios",
+   "uikit",
+   "utility",
+   "apps"
+  ]
+ },
+ "kh.crysalis.feather113": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "Feather is a free on-device iOS application manager and installer developed by Samara. Built with UIKit, it provides app management and installation capabilities directly on your device.",
+  "features": [
+   "Free",
+   "On-Device Installer",
+   "App Manager"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "5896e37fdbc1a31ec86dd53264ed964f0e6d66c76c32e036eefbcb8059c45252",
+  "subtitle": "Free on-device iOS application manager and installer",
+  "tags": [
+   "feather",
+   "installer",
+   "app manager",
+   "ios",
+   "samara",
+   "utilities"
+  ]
+ },
  "leyi.westgamepro": {
   "category": "games",
   "date": "2026-10-18",
@@ -19659,6 +21468,21 @@
    "player",
    "local",
    "offline"
+  ]
+ },
+ "me.kingbri.ferrite": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Ferrite is an iOS application developed by Ferrite-iOS. No additional details are available from the source.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "adeba2707078636ff7fd0c9a8a8539d66e182fff72ca8e52e7cbe54bd35b2c31",
+  "subtitle": "iOS app by Ferrite-iOS",
+  "tags": [
+   "ferrite",
+   "ios",
+   "app",
+   "ferrite-ios"
   ]
  },
  "me.oatmealdome.DolphiniOS-njb-patreon-beta": {
@@ -20069,6 +21893,23 @@
    "tool"
   ]
  },
+ "net.sourceloc.FileSwitcherDump": {
+  "category": "developer",
+  "date": "2026-10-23",
+  "description": "FileSwitcherDump extracts .fsp files and their contents on iOS by leveraging the CVE-2022-46689 vulnerability. The tool provides a command-line interface for security researchers and developers to analyze file system data.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b5fbf4ed7f5d12c67b6cca20009abe06755c34bf2dda2f9da40447bcae72a8f5",
+  "subtitle": "Dump .fsp files using CVE-2022-46689",
+  "tags": [
+   "fsp",
+   "dump",
+   "exploit",
+   "cve-2022-46689",
+   "ios",
+   "security"
+  ]
+ },
  "net.sourceloc.deb-to-ipa-app": {
   "category": "developer",
   "date": "2026-10-20",
@@ -20123,6 +21964,29 @@
    "api",
    "network",
    "utility"
+  ]
+ },
+ "nl.jknaapen.fladder": {
+  "category": "entertainment",
+  "date": "2026-10-23",
+  "description": "Fladder lets you play media by streaming or syncing content locally to your device. Manage your library with content refresh and metadata editing capabilities.",
+  "features": [
+   "Stream Media",
+   "Sync Locally",
+   "Library Management",
+   "Metadata Editing",
+   "Content Refresh"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "76330462cbce042de14e57852c92600df3bccc246b7b70f569ed59ba905cc0fd",
+  "subtitle": "Stream and manage local media library",
+  "tags": [
+   "media",
+   "streaming",
+   "library",
+   "metadata",
+   "local",
+   "player"
   ]
  },
  "no.agens.bukkenebruse": {
@@ -20276,6 +22140,23 @@
    "open source"
   ]
  },
+ "org.brandonplank.flappybird": {
+  "category": "games",
+  "date": "2026-10-23",
+  "description": "A near-exact clone of the original Flappy Bird.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3126c5b8342d529692e4cfd250f1a1fce33487214806f109a44f71d0aed93687",
+  "subtitle": "Classic bird-tapping arcade clone",
+  "tags": [
+   "flappy",
+   "bird",
+   "arcade",
+   "clone",
+   "classic",
+   "game"
+  ]
+ },
  "org.chromium.chrome.ios.dev": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -20310,12 +22191,17 @@
  },
  "org.d2rmobile.app": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Play Diablo II: Resurrected offline on iPhone, iPad and Apple silicon Mac.",
-  "features": [],
+  "date": "2026-10-23",
+  "description": "Play Diablo II: Resurrected on iPhone, iPad, Apple silicon Mac, Android, and HarmonyOS. Enjoy offline play using touch controls or a game controller. Features include one-tap Runewords, 100-level Greater Rifts, and Reign of the Warlock. Built with native ARM, Metal, and Vulkan support. This is an open source application that requires you to bring your own Switch game files.",
+  "features": [
+   "Offline play",
+   "Controller support",
+   "One-tap Runewords",
+   "Open source"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "cadce5ccf6480e7520963897d990206cea8e75479d50bdf4316dbb09360c7da1",
-  "subtitle": "Play Diablo II: Resurrected offline",
+  "src_hash": "3a0791a4bf5febf1f61d09ecb61a42894fe112ff6d65dde4dca8d665acf79de5",
+  "subtitle": "Diablo II: Resurrected for mobile and desktop devices",
   "tags": [
    "diablo",
    "rpg",
@@ -20374,6 +22260,29 @@
    "testers"
   ]
  },
+ "org.floeagent.ios": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "Floe Agent runs supported local models directly on your device and sends cloud model requests straight to your chosen provider. Credentials are stored in the device keychain. Files, uploads, and remote actions follow task permissions, and consequential actions require confirmation under the current policy. The iOS version is fully featured; an Android alpha covers the basics.",
+  "features": [
+   "On-device inference",
+   "Cloud model support",
+   "Keychain credentials",
+   "Task permissions",
+   "Action confirmation"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cdb19314ff3ccfec0e82e89e3f9130ec44fbb77e6c9afc095f70f179f5878298",
+  "subtitle": "Local and cloud AI agent with on-device inference",
+  "tags": [
+   "ai agent",
+   "local inference",
+   "cloud models",
+   "privacy",
+   "keychain",
+   "permissions"
+  ]
+ },
  "org.htf65jud.balatro": {
   "category": "other",
   "date": "2026-10-15",
@@ -20424,6 +22333,25 @@
    "data",
    "widgets",
    "monitoring"
+  ]
+ },
+ "overlook.fing": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "This version of Fing has the subscription unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "19550b1b40075a0ae3fe28b243838fac55acf94aac06dbf03e1ce59b202601ec",
+  "subtitle": "Subscription unlocked network tool",
+  "tags": [
+   "fing",
+   "network",
+   "scanner",
+   "subscription",
+   "unlocked",
+   "tool"
   ]
  },
  "ovz.Car-Scanner": {
@@ -20616,6 +22544,25 @@
    "viewer"
   ]
  },
+ "rw.sp.flitsmeister": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Flitsmeister modified version with subscription features unlocked. This injected build provides access to premium functionality without a paid subscription. Original app offers Dutch traffic information including speed camera alerts, traffic jam warnings, and roadwork notifications.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2825ce1f14dc8fe5450a58d7b785b7ca3335be2774b0505e785c27dc2d2a0bb7",
+  "subtitle": "Traffic alerts with subscription unlocked",
+  "tags": [
+   "traffic",
+   "navigation",
+   "netherlands",
+   "speed-cameras",
+   "modified",
+   "unlocked"
+  ]
+ },
  "sato.tokyo.ai-art": {
   "category": "photo-video",
   "date": "2026-10-14",
@@ -20646,6 +22593,25 @@
    "puzzle",
    "game",
    "vocabulary"
+  ]
+ },
+ "se.resenatverket.FlightRadar24-Free": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "Flightradar24 is a flight tracking application. The source indicates this version is injected with Gold.",
+  "features": [
+   "Gold version"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "40863ed0a1bb7c8664acf0fa51d87f89aedfb595f40b407b453a7de3c7d3e31b",
+  "subtitle": "Flight tracking with Gold features",
+  "tags": [
+   "flightradar24",
+   "flight",
+   "tracking",
+   "radar",
+   "aviation",
+   "gold"
   ]
  },
  "sg.bamboozled.bamboozled": {
@@ -20786,6 +22752,23 @@
    "coding",
    "programming",
    "utility"
+  ]
+ },
+ "thewonderofyou.Feather": {
+  "category": "developer",
+  "date": "2026-10-23",
+  "description": "Feather is a developer application that includes premium features.",
+  "features": [
+   "Premium"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "97187b1ff834a669450be143a316104c6164d24b9bacb172b5a92c81e9a5f766",
+  "subtitle": "Developer app with premium features",
+  "tags": [
+   "feather",
+   "developer",
+   "utility",
+   "premium"
   ]
  },
  "tinyleo.com.aisticker": {
@@ -20969,6 +22952,40 @@
    "traps"
   ]
  },
+ "vix.fitness": {
+  "category": "utilities",
+  "date": "2026-10-23",
+  "description": "Firefly is an AI fitness trainer app for iOS 17.0 and later, version 4.6.35. Developed by @Sa1y0miii. Available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "141eb6c2db7ee4e96b650b8be8df86161b10eca9e56012be8d0faf54cc1a0dcf",
+  "subtitle": "AI Fitness Trainer for iOS",
+  "tags": [
+   "firefly",
+   "ai",
+   "fitness",
+   "trainer",
+   "ios",
+   "app"
+  ]
+ },
+ "vladchechura.AffirmationsEN": {
+  "category": "lifestyle",
+  "date": "2026-10-23",
+  "description": "Flourish is a daily affirmations app designed for iOS users to incorporate optimism and self-love into their routine. The app provides positive affirmations to help build a more positive mindset and practice self-care through daily reminders and motivational content.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1fa2066b9ff833fd7dae17f26d477a35d9a8d04ebc149abc0a3f8dde767e53d8",
+  "subtitle": "Daily affirmations for optimism and self-love",
+  "tags": [
+   "affirmations",
+   "self-love",
+   "optimism",
+   "daily",
+   "mindset",
+   "wellness"
+  ]
+ },
  "vladchechura.FactsEN": {
   "category": "other",
   "date": "2026-10-21",
@@ -21053,6 +23070,25 @@
    "decrypter",
    "utilities",
    "ios"
+  ]
+ },
+ "xyz.gingertech.fitnotes": {
+  "category": "other",
+  "date": "2026-10-23",
+  "description": "FitNotes is a fitness tracking app that has been modified to unlock the subscription features.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6cb9d7c504ae1061ad1c0fabffd006cb720683250296a884fd61aa7ca066483c",
+  "subtitle": "Fitness tracking with subscription unlocked",
+  "tags": [
+   "fitnotes",
+   "fitness",
+   "tracking",
+   "workout",
+   "subscription",
+   "unlocked"
   ]
  },
  "xyz.skitty.Aidoku": {
