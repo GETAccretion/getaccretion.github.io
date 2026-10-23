@@ -113,7 +113,9 @@ def fetch_json(url):
 def own_tweaks(tweaks, apps, mods_index, fallback_date):
     """Our own tweak-library entries as store rows and detail records, under the mods source.
 
-    The game a tweak targets lends its name, category and icon when the catalogue has it. A tweak's row has
+    The game a tweak targets lends its name and category when the catalogue has it, not its icon: the
+    catalogue's copies of a game are other people's builds, often with their own branding. The icon is the
+    entry's own https "iconURL" (the game's App Store icon), else Accretion's. A tweak's row has
     "tw": 1; its detail record has no download link ("url" empty, so no Install button) and a "tweak" block
     with the .dylib and project links the app page shows instead. Entries without a release date are
     marked undated ("u")."""
@@ -126,6 +128,7 @@ def own_tweaks(tweaks, apps, mods_index, fallback_date):
             continue
         game = next((by_bid[b] for b in t.get("targets", []) if b in by_bid), {})
         date = t.get("date") or fallback_date
+        icon = t.get("iconURL", "")
         row = {
             "i": tid,
             "n": t.get("name") or tid,
@@ -135,7 +138,7 @@ def own_tweaks(tweaks, apps, mods_index, fallback_date):
             "v": t["version"],
             "t": date,
             "z": 0,
-            "ic": game.get("iconURL") or ACCRETION_ICON,
+            "ic": icon if icon.startswith("https://") else ACCRETION_ICON,
             "o": mods_index,
             "m": "",
             "f": date,

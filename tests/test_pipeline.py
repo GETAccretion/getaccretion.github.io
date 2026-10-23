@@ -1273,7 +1273,8 @@ class OwnTweaksTest(unittest.TestCase):
         rows, details = store.own_tweaks(tweaks, apps, 3, "2026-10-22")
         self.assertEqual([r["i"] for r in rows], ["io.github.accretionmods.game-plus"])
         row, detail = rows[0], details[0]
-        self.assertEqual((row["o"], row["tw"], row["c"], row["ic"]), (3, 1, "games", "https://x.test/g.png"))
+        # the catalogue's copy of the game lends its category, not its icon (other people's branding)
+        self.assertEqual((row["o"], row["tw"], row["c"], row["ic"]), (3, 1, "games", store.ACCRETION_ICON))
         self.assertEqual((row["t"], row["f"]), ("2026-10-21", "2026-10-21"))
         self.assertNotIn("u", row)
         self.assertEqual(detail["versions"][0]["url"], "")
@@ -1295,3 +1296,19 @@ class OwnTweaksTest(unittest.TestCase):
         rows, details = store.own_tweaks(tweaks, [], 0, "2026-10-22")
         self.assertEqual((rows[0]["t"], rows[0]["u"], rows[0]["ic"]), ("2026-10-22", 1, store.ACCRETION_ICON))
         self.assertEqual(details[0]["tweak"]["game"], "")
+
+    def test_own_tweak_uses_its_own_https_icon(self):
+        store = self.load_site()
+        entry = {
+            "id": "io.github.accretionmods.x",
+            "name": "X",
+            "version": "1",
+            "debURL": "https://x.test/x.dylib",
+        }
+        apps = [{"bundleIdentifier": "com.example.game", "iconURL": "https://x.test/copy.png"}]
+        official = "https://x.test/official.jpg"
+        cases = [(official, official), ("http://x.test/a.jpg", None)]
+        for icon, want in cases:
+            tweaks = {"tweaks": [dict(entry, targets=["com.example.game"], iconURL=icon)]}
+            rows, _ = store.own_tweaks(tweaks, apps, 0, "2026-10-22")
+            self.assertEqual(rows[0]["ic"], want or store.ACCRETION_ICON)
