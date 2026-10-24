@@ -1,12 +1,12 @@
 # Source report
 
-Built 2026-10-24 16:59 UTC.
+Built 2026-10-24 17:19 UTC.
 
 | | |
 |---|---|
 | Apps in `source.json` | **4559** (5579 KB) |
 | Apps in `curated.json` | **731** (728 KB) |
-| Listings read | 24465 |
+| Listings read | 24466 |
 | Apps listed by more than one source (newest kept) | 1819 |
 | Listings skipped (http-only, no icon, no date, bad bundle ID) | 6641 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
@@ -49,7 +49,7 @@ Built 2026-10-24 16:59 UTC.
 | [Apollo for Reddit](https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/apps.json) | ok | 1 | 1 | 0 | 2026-10-09 | curated |
 | [EPIC's source](https://raw.githubusercontent.com/Epyke/plezy-sidestore-source/master/apps.json) | ok | 1 | 1 | 0 | 2026-10-21 | discovered |
 | [FriesI23's Source](https://raw.githubusercontent.com/FriesI23/altstore-repo/master/_site/repo/source.json) | ok | 1 | 1 | 0 | 2026-10-19 | discovered |
-| [Accretion App](https://raw.githubusercontent.com/GETAccretion/accretion-app/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-22 | curated |
+| [Accretion App](https://raw.githubusercontent.com/GETAccretion/accretion-app/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-24 | curated |
 | [Lumisound](https://raw.githubusercontent.com/HeavenlyXenusVR/Lumisound/main/ios/altstore-source.json) | ok | 1 | 1 | 0 | 2026-10-24 | discovered |
 | [Nightshift](https://raw.githubusercontent.com/Jannehy/nightshift-ios/main/altstore.json) | ok | 1 | 1 | 0 | 2026-10-02 | discovered |
 | [IW4 Pocket](https://raw.githubusercontent.com/MarkusSela/IW4-Pocket/main/source.json) | ok | 1 | 1 | 0 | 2026-10-22 | discovered |
@@ -79,7 +79,7 @@ Built 2026-10-24 16:59 UTC.
 | [AppTesters IPA Repo](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/source.json) | ok | 4599 | 0 | 228 | 2025-09-05 | discovered |
 | [Neoncat-OG IPA Library](https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/apps_esign.json) | ok | 1988 | 0 | 0 | 2026-04-11 | curated |
 | [swaggyP36000 IPA Library](https://raw.githubusercontent.com/swaggyP36000/TrollStore-IPAs/main/apps_esign.json) | ok | 623 | 0 | 0 | 2023-12-27 | curated |
-| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 203 | 0 | 6 | 2026-07-23 | discovered |
+| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 204 | 0 | 6 | 2026-08-28 | discovered |
 | [OwO Source](https://repo.owo.network/) | ok | 161 | 0 | 0 | 2026-10-22 | curated |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json) | cached | 154 | 0 | 2 | 2026-10-14 | discovered |
 | [Omni-Development IPA Repo](https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json) | ok | 103 | 0 | 13 | 2024-11-17 | discovered |
@@ -200,6 +200,7 @@ Built 2026-10-24 16:59 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
+| Accretion | 1.0.46 | 2026-10-24 | raw.githubusercontent.com |
 | Lumisound | 1.9.0.108 | 2026-10-24 | raw.githubusercontent.com |
 | Ito | 1.2.0 | 2026-10-24 | raw.githubusercontent.com |
 | Knight Music | 0.6.0 | 2026-10-24 | raw.githubusercontent.com |
@@ -224,4 +225,3 @@ Built 2026-10-24 16:59 UTC.
 | C64 Commander | 1.1.3 | 2026-10-24 | raw.githubusercontent.com |
 | PokéRogue Offline | 1.12.2.0 | 2026-10-24 | raw.githubusercontent.com |
 | Spotify | 9.1.94 | 2026-10-24 | raw.githubusercontent.com |
-| Flightradar24 | 11.14.0 | 2026-10-24 | raw.githubusercontent.com |
