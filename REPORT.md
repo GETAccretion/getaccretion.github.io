@@ -1,16 +1,16 @@
 # Source report
 
-Built 2026-10-25 11:52 UTC.
+Built 2026-10-25 16:41 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4566** (5579 KB) |
+| Apps in `source.json` | **4567** (5581 KB) |
 | Apps in `curated.json` | **731** (728 KB) |
-| Listings read | 24477 |
-| Apps listed by more than one source (newest kept) | 1819 |
-| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6643 |
+| Listings read | 24483 |
+| Apps listed by more than one source (newest kept) | 1818 |
+| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6644 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
-| Dead download links held back (retested every build) | 9227 |
+| Dead download links held back (retested every build) | 9228 |
 | Links on hold (whole host failing, kept for now) | 0 |
 | Sources | 170: 168 ok, 2 from cache, 0 failed |
 
@@ -20,11 +20,11 @@ Built 2026-10-25 11:52 UTC.
 
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
-| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3754 | 3454 | 4547 | 2026-10-25 | discovered |
-| [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1626 | 595 | 332 | 2026-10-25 | discovered |
-| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 444 | 321 | 3 | 2026-10-25 | discovered |
+| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3754 | 3449 | 4547 | 2026-10-25 | discovered |
+| [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1626 | 599 | 332 | 2026-10-25 | discovered |
+| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 444 | 322 | 3 | 2026-10-25 | discovered |
 | [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 100 | 13 | 2025-01-01 | curated |
-| [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 16 | 10 | 0 | 2026-10-25 | discovered |
+| [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 16 | 11 | 0 | 2026-10-25 | discovered |
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
 | [iDevPatcher](https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json) | ok | 20 | 8 | 1 | 2025-12-12 | discovered |
 | [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 45 | 6 | 0 | 2026-10-25 | discovered |
@@ -36,12 +36,11 @@ Built 2026-10-25 11:52 UTC.
 | [Quantum Source++](https://quarksources.github.io/dist/quantumsource%2B%2B.min.json) | ok | 32 | 2 | 3 | 2025-05-20 | curated |
 | [FrizzleM's AltSource](https://raw.githubusercontent.com/FrizzleM/SideInstaller/main/frizzlem.json) | ok | 2 | 2 | 0 | 2026-10-23 | discovered |
 | [iAnyFeature's Source](https://raw.githubusercontent.com/Leo7247/iAnyFeature/main/source.json) | ok | 2 | 2 | 0 | 2026-10-18 | discovered |
-| [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9635 | 1 | 164 | 2026-10-25 | discovered |
+| [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9642 | 1 | 164 | 2026-10-25 | discovered |
 | [CyPwn IPA Library](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/CyPwn%20iPA%20Library/source.json) | ok | 193 | 1 | 6 | 2025-09-01 | discovered |
 | [Quark Source Testing](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource-testing.json) | ok | 4 | 1 | 1 | 2021-08-03 | discovered |
 | [ARMSX2 iOS](https://raw.githubusercontent.com/RipeStore/repos/main/armsx2.json) | ok | 2 | 1 | 0 | 2026-10-23 | discovered |
 | [Resonance Team](https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/ResonanceTeamRepo.json) | ok | 2 | 1 | 0 | 2024-08-27 | discovered |
-| [Stremio Library](https://gablilli.github.io/stremiorepo/index.json) | ok | 1 | 1 | 1 | 2025-02-26 | curated |
 | [Toshiaki Shirakura](https://polymorph-distribution.netlify.app/source.json) | ok | 1 | 1 | 0 | 2025-12-18 | discovered |
 | [BatSign Source](https://raw.githubusercontent.com/8yy/BatSign/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-10-10 | discovered |
 | [A29 Repository](https://raw.githubusercontent.com/Aayush9029/AltApps/main/apps.json) | ok | 1 | 1 | 1 | 2020-11-10 | discovered |
@@ -71,6 +70,7 @@ Built 2026-10-25 11:52 UTC.
 | [Dayline](https://raw.githubusercontent.com/nirobhaq/dayline-store/main/store.json) | ok | 1 | 1 | 0 | 2026-10-13 | discovered |
 | [My Weather](https://raw.githubusercontent.com/nkoporcova1/my-weather-updates/main/apps.json) | ok | 1 | 1 | 0 | 2026-10-13 | discovered |
 | [4Walls Source](https://raw.githubusercontent.com/run2u006-hue/4WALLS-AltStore/main/source.json) | ok | 1 | 1 | 0 | 2026-05-17 | discovered |
+| [TumoCompanion](https://raw.githubusercontent.com/squazaryu/TumoCompanion/main/apps.json) | ok | 1 | 1 | 0 | 2026-10-25 | discovered |
 | [Pawse](https://raw.githubusercontent.com/thenetaji/pawse-music/main/sources/sidestore.json) | ok | 1 | 1 | 0 | 2026-10-25 | discovered |
 | [TLocation Source](https://raw.githubusercontent.com/truongkma/t-location/main/source.json) | ok | 1 | 1 | 0 | 2026-08-18 | discovered |
 | [MindSpace](https://raw.githubusercontent.com/vkr1729/MindSpace-iOS/main/apps.json) | ok | 1 | 1 | 0 | 2026-08-31 | discovered |
@@ -141,7 +141,7 @@ Built 2026-10-25 11:52 UTC.
 | [ARMSX2](https://raw.githubusercontent.com/bebound/AltGallery/master/apps/ARMSX2/apps.json) | ok | 1 | 0 | 0 | 2026-10-23 | discovered |
 | [AirCard-iOS](https://raw.githubusercontent.com/bebound/AltGallery/master/apps/AirCard/apps.json) | ok | 1 | 0 | 0 | 2026-10-04 | discovered |
 | [AniBaka](https://raw.githubusercontent.com/bebound/AltGallery/master/apps/AniBaka/apps.json) | ok | 1 | 0 | 0 | 2026-10-21 | discovered |
-| [AnimeFlow](https://raw.githubusercontent.com/bebound/AltGallery/master/apps/AnimeFlow/apps.json) | ok | 1 | 0 | 0 | 2026-10-18 | discovered |
+| [AnimeFlow](https://raw.githubusercontent.com/bebound/AltGallery/master/apps/AnimeFlow/apps.json) | ok | 1 | 0 | 0 | 2026-10-25 | discovered |
 | [Animeko](https://raw.githubusercontent.com/bebound/AltGallery/master/apps/Animeko/apps.json) | ok | 1 | 0 | 0 | 2026-10-24 | discovered |
 | [Doer](https://raw.githubusercontent.com/bebound/AltGallery/master/apps/Doer/apps.json) | ok | 1 | 0 | 0 | 2026-10-10 | discovered |
 | [DolphiniOS](https://raw.githubusercontent.com/bebound/AltGallery/master/apps/DolphiniOS/apps.json) | ok | 1 | 0 | 0 | 2026-06-20 | discovered |
@@ -151,7 +151,6 @@ Built 2026-10-25 11:52 UTC.
 | [lo.cafe Repository](https://raw.githubusercontent.com/lo-cafe/winston-altstore/main/apps.json) | ok | 1 | 0 | 0 | 2024-06-24 | curated |
 | [iSH](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/iSH%20AltStore%20Repo/source.json) | ok | 1 | 0 | 0 | 2025-08-30 | discovered |
 | [LiveContainer](https://raw.githubusercontent.com/nquangdungg/LiveContainer-Extended/main/.github/apps.json) | ok | 1 | 0 | 0 | 2025-08-19 | discovered |
-| [TumoCompanion](https://raw.githubusercontent.com/squazaryu/TumoCompanion/main/apps.json) | ok | 1 | 0 | 0 | 2026-10-11 | discovered |
 | [轻松签源](https://repos.gabrx.eu.org/esign.json) | ok | 1 | 0 | 0 | 2024-01-28 | curated |
 | [Taurine](https://taurine.app/altstore/taurinestore.json) | ok | 1 | 0 | 0 | 2023-08-23 | discovered |
 | [SalupovTeam](https://adp.salupovteam.com/altrepo.json) | ok | 0 | 0 | 2 |  | discovered |
@@ -168,6 +167,7 @@ Built 2026-10-25 11:52 UTC.
 | [Spicy Sparks](https://esound.app/downloads/source.json) | ok | 0 | 0 | 1 |  | discovered |
 | [Flyinghead](https://flyinghead.github.io/flycast-builds/altstore.json) | ok | 0 | 0 | 1 |  | curated |
 | [Foxxoccino & Hoojao's Source](https://foxxoccino.github.io/PALSource.json) | ok | 0 | 0 | 1 |  | discovered |
+| [Stremio Library](https://gablilli.github.io/stremiorepo/index.json) | ok | 0 | 0 | 2 |  | curated |
 | [Ceylo's Apps Hub](https://get.furaffinity.app/altstore) | ok | 0 | 0 | 1 |  | discovered |
 | [Cizzuk Source](https://i.cizzuk.net/altstore/source.pal.json) | ok | 0 | 0 | 6 |  | discovered |
 | [AltStore](https://marketplace.altstore.io) | ok | 0 | 0 | 10 |  | discovered |
@@ -200,10 +200,17 @@ Built 2026-10-25 11:52 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
-| Dieter | 0.6.427 | 2026-10-25 | raw.githubusercontent.com |
-| Floe Agent | 1.7.57 | 2026-10-25 | raw.githubusercontent.com |
-| Pipes | 5.0.3 | 2026-10-25 | raw.githubusercontent.com |
+| KartPad | 0.8.6 | 2026-10-25 | raw.githubusercontent.com |
 | Ito | 1.3.0 | 2026-10-25 | raw.githubusercontent.com |
+| TU Test | 1.6.42 | 2026-10-25 | raw.githubusercontent.com |
+| JSRF Unleashed | 0.5.6 | 2026-10-25 | raw.githubusercontent.com |
+| BrownBear | 0.1.0 | 2026-10-25 | raw.githubusercontent.com |
+| Manatan | 6.2.16 | 2026-10-25 | raw.githubusercontent.com |
+| Floe Agent | 1.7.58 | 2026-10-25 | raw.githubusercontent.com |
+| pokerecomp | 0.1.82 | 2026-10-25 | raw.githubusercontent.com |
+| OpenAgentd | 3.30.0 | 2026-10-25 | raw.githubusercontent.com |
+| Dieter | 0.6.427 | 2026-10-25 | raw.githubusercontent.com |
+| Pipes | 5.0.3 | 2026-10-25 | raw.githubusercontent.com |
 | OwLens | 2.1 | 2026-10-25 | raw.githubusercontent.com |
 | Opentify | 0.1.102 | 2026-10-25 | raw.githubusercontent.com |
 | Rigs of Rods | rtss31 | 2026-10-25 | raw.githubusercontent.com |
@@ -218,10 +225,3 @@ Built 2026-10-25 11:52 UTC.
 | BlueWake | 0.9.0 | 2026-10-25 | raw.githubusercontent.com |
 | PvZ Portable | 0.2.6 | 2026-10-25 | raw.githubusercontent.com |
 | Bazaart | 27.0.6 | 2026-10-25 | raw.githubusercontent.com |
-| fGet | 1.7.1 | 2026-10-25 | raw.githubusercontent.com |
-| WhatsApp | 26.41.75 | 2026-10-25 | raw.githubusercontent.com |
-| WA Business | 26.41.75 | 2026-10-25 | raw.githubusercontent.com |
-| Aloha | 8.13.0 | 2026-10-25 | raw.githubusercontent.com |
-| WhatsApp | 26.41.75 | 2026-10-25 | raw.githubusercontent.com |
-| WA Business | 26.41.75 | 2026-10-25 | raw.githubusercontent.com |
-| iRAM+ | 1.3.1 | 2026-10-25 | raw.githubusercontent.com |
