@@ -1,4 +1,20 @@
 {
+ "3bda04b065c347de824ac05c8bb874bf": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Private server for Fortnite Season 7. This is an unofficial server not affiliated with Epic Games. Connect to play Season 7 content on a community-run server.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b84f621ab72c1fb8e2feede2c04262d964ccabea974fd4db6699f71b875882bb",
+  "subtitle": "Fortnite Season 7 Private Server",
+  "tags": [
+   "fortnite",
+   "season7",
+   "private-server",
+   "unofficial",
+   "battle-royale"
+  ]
+ },
  "5f796ef4752841bdb647c1a4a0783fe9": {
   "category": "other",
   "date": "2026-10-21",
@@ -148,6 +164,22 @@
    "ipa",
    "library",
    "apps"
+  ]
+ },
+ "Geniral-Pro-PlayerGeniral-Pro-Player.Geniral-Pro-Player": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Genral Pro is an all-in-one utility application built to simplify common tasks and streamline daily workflows on iOS.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "98c1c5773c50f8988b7260edef574e72e702d8213c00dfa8078a8c2f0fdfbc2b",
+  "subtitle": "An all-in-one utility app to simplify tasks",
+  "tags": [
+   "utility",
+   "tools",
+   "tasks",
+   "workflow",
+   "general"
   ]
  },
  "KZ8MJR464R.k.xyz.yyyue.esign": {
@@ -545,6 +577,40 @@
    "fexcore"
   ]
  },
+ "app.gentler.activity": {
+  "category": "lifestyle",
+  "date": "2026-10-25",
+  "description": "GentlerStreak is a health and fitness tracking application designed to help you monitor your physical activity and overall wellbeing. This version includes an injected subscription unlocked feature, providing access to premium content and functionality as described by the source.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "486fd8dc0c5a32b96eaa03fe4e1491c69a094e215e367369a8ea9127daeaf3a9",
+  "subtitle": "Track your fitness and activity levels",
+  "tags": [
+   "fitness",
+   "health",
+   "activity",
+   "tracker",
+   "wellness"
+  ]
+ },
+ "app.gevun.music": {
+  "category": "entertainment",
+  "date": "2026-10-25",
+  "description": "Gevun is a music player for your Navidrome library on iPhone and iPad. Browse albums, artists, and songs, or search your library. Listen in original quality with background playback and lock-screen controls. Follow synced lyrics and tap a line to jump to it. Add songs to your queue, play next, and repeat tracks or albums. Read artist biographies and discover similar artists. Switch between multiple Navidrome servers. Enjoy a dark interface with colors drawn from your album artwork.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2bd735663870d9d49febd6c8969487d6e7c8fdf4b0d77ec573eccb63f7c9e34a",
+  "subtitle": "Music player for your Navidrome library",
+  "tags": [
+   "music",
+   "player",
+   "navidrome",
+   "streaming",
+   "audio"
+  ]
+ },
  "app.molinete.aerio": {
   "category": "entertainment",
   "date": "2026-10-19",
@@ -631,6 +697,25 @@
    "utilities"
   ]
  },
+ "au.com.michaeltigas.FocusedWork": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Focused Work is a Pomodoro timer for focused work sessions. Pro features are unlocked. The app requires Trollstore or a jailbroken device to run; it crashes when sideloaded normally. Minimum iOS version is 16.0. Created by @binnichtaktiv.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e7142ee1292ed04ccdc1536f10f2474a314c83d3930b2dd7e1395723e0bb7cfd",
+  "subtitle": "Pomodoro timer with Pro features unlocked",
+  "tags": [
+   "pomodoro",
+   "timer",
+   "focus",
+   "productivity",
+   "jailbreak",
+   "trollstore"
+  ]
+ },
  "au.com.michaeltigas.MiniOS": {
   "category": "utilities",
   "date": "2026-10-20",
@@ -686,6 +771,23 @@
    "remover",
    "photo",
    "utility"
+  ]
+ },
+ "bechir.Fuji.Reciepe": {
+  "category": "photo-video",
+  "date": "2026-10-25",
+  "description": "Fuji Recipes provides film simulation settings for Fujifilm cameras. The app requires iOS 17.0 or later and is currently at version 1.14. Developed by @Sa1y0miii, it is available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d38f4e6db83c5917e5a9c9f04d4ba613a5f9593e03e1e378951af390cb7dd8e0",
+  "subtitle": "Film simulation recipes for Fujifilm cameras",
+  "tags": [
+   "film simulation",
+   "fujifilm",
+   "photography",
+   "recipes",
+   "camera",
+   "ios"
   ]
  },
  "blog.blurt.blurt": {
@@ -860,6 +962,27 @@
    "utility"
   ]
  },
+ "ceylo.FurAffinity": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "Connect with your FurAffinity.net account to access the furry community in a native iOS app. Browse the latest submissions from artists you follow, view galleries, and interact with content directly from your device.",
+  "features": [
+   "Native iOS app",
+   "FurAffinity.net integration",
+   "Browse submissions"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "010f6ceef73506ca2593166e4df3b3f633c46c185ca36749b3d49614b570b52f",
+  "subtitle": "Native Fur Affinity client for furry community",
+  "tags": [
+   "furry",
+   "furaffinity",
+   "community",
+   "art",
+   "social",
+   "gallery"
+  ]
+ },
  "chaoge.ChargeLimiter": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -989,6 +1112,25 @@
    "utilities"
   ]
  },
+ "co.appnation.geniechat": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Genie is a third-party application that provides access to ChatGPT Premium models.",
+  "features": [
+   "Unlocked",
+   "Premium Access"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "9f0840ca375bca6b41c2a62b2df7ef294c24652c211f0d1089b3bc53daf3667b",
+  "subtitle": "Access ChatGPT Premium models",
+  "tags": [
+   "genie",
+   "ai",
+   "chat",
+   "chatgpt",
+   "premium"
+  ]
+ },
  "co.appnation.geniechat.watchapp": {
   "category": "utilities",
   "date": "2026-10-14",
@@ -1093,18 +1235,19 @@
   ]
  },
  "co.detail.duo": {
-  "category": "other",
-  "date": "2026-10-21",
-  "description": "Access the app with subscription unlocked.",
+  "category": "photo-video",
+  "date": "2026-10-25",
+  "description": "Detail is an AI video editor for iOS developed by blatants. This version includes subscription unlocked features and requires iOS 17.0 or later.",
   "features": [
    "Subscription Unlocked"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4aa62341c5db0f773e6dbba9ef014c71119a32a3c0d367b18b70955c10cae368",
-  "subtitle": "Subscription Unlocked",
+  "src_hash": "f200834d134cf7ce9dd70b6e73f6acea805cc578a62c461c820d4896587444da",
+  "subtitle": "AI Video Editor",
   "tags": [
-   "subscription",
-   "unlocked",
+   "video",
+   "editor",
+   "ai",
    "detail"
   ]
  },
@@ -1512,6 +1655,25 @@
    "ipa"
   ]
  },
+ "com.DrawMeAPixel.CIT": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Crushed In Time is a game featuring full game access. Unlock all stages and content to experience the complete game without restrictions.",
+  "features": [
+   "Full Game Unlocked",
+   "All Stages Accessible"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "bbd8ab229c3bec4c314cb7fa0ec1934be49d7e05be6f763f9984f6e9ad5be091",
+  "subtitle": "Access all stages and game content",
+  "tags": [
+   "crushed",
+   "time",
+   "game",
+   "stages",
+   "unlocked"
+  ]
+ },
  "com.DreamsStudio.CatLegendsIdleRPGs": {
   "category": "games",
   "date": "2026-10-15",
@@ -1806,6 +1968,23 @@
    "platinum"
   ]
  },
+ "com.Nanali.ForestIsland.ios": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Forest Island is an iOS survival adventure game that immerses players in a nature-driven world.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0b3a9734314a9010cc73762de197dca6a42d9e8f8f0d568cd0166d7ccca28811",
+  "subtitle": "Nature-Driven Survival Adventure",
+  "tags": [
+   "survival",
+   "adventure",
+   "nature",
+   "ios",
+   "game",
+   "forest"
+  ]
+ },
  "com.OPNeonGame.TCGShopGame": {
   "category": "games",
   "date": "2026-10-15",
@@ -2061,6 +2240,40 @@
    "port",
    "game",
    "trinity"
+  ]
+ },
+ "com.TDMbest.freedoom": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "This app is a port of Freedoom 1 (freedoom1.wad) for iOS, based on the DOOM-iOS and FinalJudgment-iOS projects. It includes the first Freedoom campaign. Credits to tomkidd and jadinTsunami.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b5ed35d1af51f9df26d0eca552f47ed20201ba53b131d12882b145d3c5f59ff3",
+  "subtitle": "Freedoom 1 port for iOS",
+  "tags": [
+   "freedoom",
+   "doom",
+   "port",
+   "ios",
+   "game",
+   "fps"
+  ]
+ },
+ "com.TDMbest.freedoom2": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Freedoom 2 port for iOS running freedoom2.wad. Based on DOOM-iOS by tomkidd and FinalJudgment-iOS by JadingTsunami. Reupload for zx repository. This is the only Freedoom port available for iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6fb3207832f8819ca03eea59d46a24914ff1bf1f11354ffec90602b28be4adb4",
+  "subtitle": "Free Doom-compatible game port for iOS",
+  "tags": [
+   "freedoom",
+   "doom",
+   "game",
+   "port",
+   "ios",
+   "opensource"
   ]
  },
  "com.TandemApps.KingOfTheStreet": {
@@ -2701,6 +2914,22 @@
    "game"
   ]
  },
+ "com.aigch.getMoreRam": {
+  "category": "developer",
+  "date": "2026-10-25",
+  "description": "Get More Ram is a simple StosSign wrapper app that allows you to enable the Increased Memory Limit for your sideloaded apps without using Xcode. Manage your app memory limits easily on your device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0025351666d08be9d6f815a768b48c3ad34bc4aee0380bf3efa1782dc559fa05",
+  "subtitle": "Enable increased memory limit for sideloaded apps",
+  "tags": [
+   "ram",
+   "memory",
+   "sideload",
+   "stossign",
+   "developer"
+  ]
+ },
  "com.aiporn.aichat": {
   "category": "utilities",
   "date": "2026-10-14",
@@ -2903,6 +3132,23 @@
    "ios"
   ]
  },
+ "com.allenjoy.galaxypirates": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Explore a vast universe filled with danger, adventure, and endless possibilities. Galaxy Pirates is a space attack game designed for iOS users.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9c32d288ae4c6bc6b122b5393d4f0740b5cba21c4c91a32e8f2790be41f8c73f",
+  "subtitle": "Space attack adventure for iOS",
+  "tags": [
+   "galaxy",
+   "pirates",
+   "space",
+   "attack",
+   "ios",
+   "game"
+  ]
+ },
  "com.alltrails.AllTrails": {
   "category": "other",
   "date": "2026-10-14",
@@ -3030,23 +3276,24 @@
  },
  "com.aminewallah.colon3": {
   "category": "entertainment",
-  "date": "2026-10-20",
-  "description": "colon3 is a native Soulseek client and music player for iOS. Search the Soulseek network, download straight to the phone, and play from a local library without a server or desktop client in between. The library includes a 2-column grid for albums and loose songs, A-Z side scrubber, Songs, Artists and Playlists views, favourites, multi-select, and import from Files or other apps. Manage playlists with reorder, rename, .m3u8 import and export, plus Favorite Songs and Most Played. The player features an Apple Music-style full screen with synced lyrics from .lrc files or LRCLIB, queue editing, shuffle and repeat, playback speed, AirPlay, and a mini player.",
+  "date": "2026-10-25",
+  "description": "A native Soulseek client and music player for iOS. Search the Soulseek network, download straight to the phone, and play from a local library. No server or desktop client in between. Manage albums and songs in a 2-column grid with A-Z side scrubber, views for artists and playlists, favourites, multi-select, and file imports. Build custom playlists or use defaults like Favorite Songs and Most Played. Enjoy an Apple Music-style player with synced lyrics, queue editing, playback speed, AirPlay, and a mini player. Customize sound with a 10-band EQ, presets, and bit-perfect mode for USB DACs.",
   "features": [
-   "Native Soulseek client",
-   "Direct downloads",
+   "Native client",
    "Synced lyrics",
-   "Playlist support"
+   "10-band EQ",
+   "USB DAC support"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "957bd8d5007b59164799bd50674e0c4885e2c17e4c0ccd8470b4083ffd2cc25e",
-  "subtitle": "Soulseek client and music player for iOS",
+  "src_hash": "44f26d21aa240ec9bd4d87e062c85ce7fc3880eb09a9f1ae4fa1dd02e80c8496",
+  "subtitle": "Native Soulseek client and music player",
   "tags": [
    "soulseek",
    "music",
    "player",
-   "downloader",
-   "audio"
+   "audio",
+   "download",
+   "library"
   ]
  },
  "com.andydev.alpenglow": {
@@ -3208,6 +3455,23 @@
    "clap"
   ]
  },
+ "com.antique.Folium-iOS": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Folium is a retro console emulator available as a paid app on the App Store. It requires iOS 16.0 or later and is developed by GLESign.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d756b9e25a862bf7926eb4c4e0307d66e71fb9a9c8be7e60a80f693fe0d6886c",
+  "subtitle": "Retro console emulator for iOS",
+  "tags": [
+   "retro",
+   "emulator",
+   "console",
+   "games",
+   "ios",
+   "glesign"
+  ]
+ },
  "com.antique.emuThreeDS": {
   "category": "games",
   "date": "2026-10-21",
@@ -3325,6 +3589,22 @@
    "sports",
    "fitness",
    "training"
+  ]
+ },
+ "com.app.gallerycleaner": {
+  "category": "photo-video",
+  "date": "2026-10-25",
+  "description": "Gallery Cleaner is built for users who struggle with overloaded photo libraries. Easily manage and clean up your iOS photo gallery with simple swipe gestures to delete unwanted photos.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9b02dc8b4bddab7c10167ff3fb324ac043743f6a98175bbedc5c0781b0f304c2",
+  "subtitle": "Swipe Delete on iOS Photo Library",
+  "tags": [
+   "gallery",
+   "cleaner",
+   "photos",
+   "swipe",
+   "delete"
   ]
  },
  "com.app.hd.chargingwallpapers": {
@@ -3809,6 +4089,23 @@
    "open-source"
   ]
  },
+ "com.babuyo.footy.master.oversea": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Football Rising Star is a football career simulation where you build your career from a rising talent to a global icon.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c55c9e2b39750fa4f8f3cbcf302908c9c90fa4df4cab74884f1f8fe6d36267a2",
+  "subtitle": "Football career simulation game",
+  "tags": [
+   "football",
+   "career",
+   "simulation",
+   "sports",
+   "game",
+   "iphone"
+  ]
+ },
  "com.badoo.BadooSPP": {
   "category": "social",
   "date": "2026-10-15",
@@ -4278,6 +4575,28 @@
    "game",
    "shooter",
    "action"
+  ]
+ },
+ "com.blayzegames.newfps": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Forward Assault hack features include unlimited ammo, rapid fire, no spread, no recoil, no camera recoil, and no flinch. Additional enhancements feature a minimap hack and a fly mode for modified gameplay.",
+  "features": [
+   "Unlimited Ammo",
+   "Rapid Fire",
+   "No Spread",
+   "No Recoil",
+   "Fly Mode"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4a671420627bee471addf8f7ac18a3e96151d66716251c8d57a2f71cf7458004",
+  "subtitle": "Tactical action game modification menu",
+  "tags": [
+   "action",
+   "shooter",
+   "tactical",
+   "mod",
+   "gameplay"
   ]
  },
  "com.blockpuzzle.us.ios": {
@@ -5193,6 +5512,26 @@
    "lifestyle"
   ]
  },
+ "com.claushuang.FocusTomato": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "Focus Tomato is a focus timer app. Version 6.1.1. Premium features unlocked. Patched.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "80f378175fb1b07a315f9e3d2918fdd5490fcd40bbd246251dce193040925329",
+  "subtitle": "Focus timer with premium features unlocked",
+  "tags": [
+   "focus",
+   "timer",
+   "premium",
+   "unlocked",
+   "patched",
+   "productivity"
+  ]
+ },
  "com.cldscoreapp.liveones": {
   "category": "other",
   "date": "2026-10-15",
@@ -5263,6 +5602,23 @@
    "fantasy"
   ]
  },
+ "com.clickteam.freddyfazbearspizzeriasimulator": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Freddy Fazbear's Pizzeria Simulator is an indie point-and-click survival horror video game developed and published by Scottgames. It is the sixth installment in the Five Nights at Freddy's series.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4c5ad4789629436806f508de88f1ef46ae67598853f8d5a70508010cfd81565a",
+  "subtitle": "Point-and-click survival horror, sixth FNaF game",
+  "tags": [
+   "fnaf",
+   "horror",
+   "simulator",
+   "point-and-click",
+   "indie",
+   "scottgames"
+  ]
+ },
  "com.cloud-compiler": {
   "category": "developer",
   "date": "2026-10-24",
@@ -5279,6 +5635,28 @@
    "compiler",
    "coding",
    "developer"
+  ]
+ },
+ "com.cnc.generalszh": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Generals ZH brings the classic RTS engine natively to iOS and iPadOS devices. Play campaign, skirmish, and Generals Challenge modes with touch controls designed for real-time strategy, including tap-select, drag-box selection, long-press deselect, two-finger scrolling, and pinch zoom. The application executes the original engine compiled for ARM64 architecture with a custom graphics pipeline. Game assets are not included or distributed with this application; users must supply their own game assets.",
+  "features": [
+   "Touch Controls",
+   "Campaign Mode",
+   "Skirmish Mode",
+   "Generals Challenge"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "e82c4d9865de57ad5917410e673515b529560320cf075f42d56411a31b68da0d",
+  "subtitle": "Native RTS engine for campaign and skirmish",
+  "tags": [
+   "rts",
+   "strategy",
+   "generals",
+   "command",
+   "conquer",
+   "skirmish"
   ]
  },
  "com.codersb.feelly": {
@@ -5940,6 +6318,25 @@
    "zombie",
    "highway",
    "game"
+  ]
+ },
+ "com.deappsign.timescreen": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Fullscreen Clock is a utility app developed by Zhengzhou Sibo Intelligent Technology Co., Ltd. Version 6.8 includes Satella integration for VIP users. Bundle ID: com.deappsign.timescreen.",
+  "features": [
+   "VIP features"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "35d31e7c61c83c98bfffe8a5ccccd0bec3191048c001910674bb36761b76a45d",
+  "subtitle": "Fullscreen clock display for iOS",
+  "tags": [
+   "clock",
+   "fullscreen",
+   "utility",
+   "vip",
+   "satella",
+   "time"
   ]
  },
  "com.deepseek.chat": {
@@ -7045,6 +7442,23 @@
    "thriller"
   ]
  },
+ "com.epicgames.FortniteGame": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "It\u2019s Fortnite for iOS. There is no more to say.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e216e7552ee4a6c1c759160f2612e0b21426999b8cbb827c9a759519158f9ef2",
+  "subtitle": "Fortnite on iOS",
+  "tags": [
+   "fortnite",
+   "battle royale",
+   "multiplayer",
+   "epic games",
+   "ios",
+   "game"
+  ]
+ },
  "com.epicoro.castleclashers": {
   "category": "games",
   "date": "2026-10-15",
@@ -7167,6 +7581,21 @@
    "kamohacks"
   ]
  },
+ "com.everimaging.photoeffectstudio": {
+  "category": "photo-video",
+  "date": "2026-10-25",
+  "description": "FotorPro is an all-in-one AI photo editing application. The app was last updated on 08-07-2024 and is currently available.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "575e95358df4d182d618c4e5b423dc87e624a2282d0b4b23122e33b762510377",
+  "subtitle": "All-in-one AI photo editing app",
+  "tags": [
+   "ai",
+   "photo",
+   "editing",
+   "all-in-one"
+  ]
+ },
  "com.ewa.ewaapp": {
   "category": "lifestyle",
   "date": "2026-10-21",
@@ -7234,6 +7663,22 @@
    "fitness",
    "whoop",
    "privacy"
+  ]
+ },
+ "com.ezbeq.mobile": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "ezbeq is a companion mobile app for iOS and iPadOS that covers the main BEQ workflow against an existing ezbeq server. It works with minidsp-rs for local remote control of a minidsp, HTP-1, StormAudio processor, or other supported digital signal processors. The application supports remote control operations and workflow management for your audio hardware setup.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "13be32ce07b9f9969684ce91a275d305720c94283e39b7ec4a6ee20be6a6cafe",
+  "subtitle": "Companion app for ezbeq servers and supported DSPs",
+  "tags": [
+   "audio",
+   "dsp",
+   "workflow",
+   "remote",
+   "server"
   ]
  },
  "com.f1shy-dev.ControlConfig": {
@@ -7404,6 +7849,23 @@
    "app"
   ]
  },
+ "com.fengiiley.frlegends": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "FR Legends is a racing game for iOS designed for fans of drifting. It is described as one of the most popular racing games available for iOS users.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "02406569c3474aec80eb4bba216ddbd9cdeb1aa035baaff332fff0b2eb43c239",
+  "subtitle": "Popular racing game for drifting fans",
+  "tags": [
+   "racing",
+   "drifting",
+   "ios",
+   "game",
+   "popular",
+   "mobile"
+  ]
+ },
  "com.filmicpro.doubletake": {
   "category": "other",
   "date": "2026-10-20",
@@ -7420,6 +7882,22 @@
    "ipa",
    "premium",
    "utility"
+  ]
+ },
+ "com.filza.stuff": {
+  "category": "developer",
+  "date": "2026-10-25",
+  "description": "GeoFilza provides file management capabilities for iOS devices running versions 12.1.3 to 12.2 on A9 to A11 processors. Developed by GeoSn0w, the application escapes the system sandbox and obtains root access, allowing users to view and edit system files directly on the device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "53ed5469a030882a8d5dd9e3a3dae574256c78585ddefb504b9ea2dfc6e1b809",
+  "subtitle": "File manager and root access tool for iOS 12",
+  "tags": [
+   "file manager",
+   "root",
+   "ios 12",
+   "sandbox escape",
+   "system"
   ]
  },
  "com.finalwire.aida64": {
@@ -7667,6 +8145,40 @@
    "camera"
   ]
  },
+ "com.football.rising.star": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Rising Star Football IPA is the iOS installable package version of a football career simulation game.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "149dd8c95cbde2bbfbffc12e0fca8fba5d69597971cd04176a9ade4c4800459e",
+  "subtitle": "Football career simulation game",
+  "tags": [
+   "football",
+   "career",
+   "simulation",
+   "ipa",
+   "ios",
+   "game"
+  ]
+ },
+ "com.football.soccer.league": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Football League 2026 on iOS is a refined football experience for iPhone. The game represents a mature step forward for mobile football simulation.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c183e56aa31670bcdec1d2c066b0e7091a2486826c8ab572d64a93cf5126d8e0",
+  "subtitle": "Football League 2026 on iOS",
+  "tags": [
+   "football",
+   "soccer",
+   "sports",
+   "simulation",
+   "league",
+   "mobile"
+  ]
+ },
  "com.fourwalls.app": {
   "category": "entertainment",
   "date": "2026-10-14",
@@ -7688,6 +8200,23 @@
    "stems"
   ]
  },
+ "com.frameapp.photo": {
+  "category": "photo-video",
+  "date": "2026-10-25",
+  "description": "Framed is an app for taking aesthetic photos with frames. It requires iOS 15.1 or later. The current version is 1.3.4.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "46d26bea2645bee6b77e55bc9e002e1715bc39e8b09b0ebd3603c53788eb2bc0",
+  "subtitle": "Aesthetic photo frames for iOS",
+  "tags": [
+   "photo",
+   "frames",
+   "aesthetic",
+   "camera",
+   "ios",
+   "edit"
+  ]
+ },
  "com.frameoneapps.Crsel": {
   "category": "other",
   "date": "2026-10-18",
@@ -7702,6 +8231,40 @@
    "crsel",
    "pro",
    "app"
+  ]
+ },
+ "com.framewise.camera": {
+  "category": "photo-video",
+  "date": "2026-10-25",
+  "description": "Fixed frame target with Framed-style gyroscope-guided subject reticle and centered dwell lock. Supports local processing or optional OpenRouter, Groq, or Gemini vision scans. Tap to retarget, suggested zoom, high-resolution capture, and optional RAW output.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ef401128025550b93f29c4c6922e825c15da415bc6b5cb96132c24382acf50f3",
+  "subtitle": "Gyroscope-guided framing with AI vision scans",
+  "tags": [
+   "framing",
+   "gyroscope",
+   "ai",
+   "vision",
+   "raw",
+   "camera"
+  ]
+ },
+ "com.fujixweekly.fujixweeklyrecipes": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "FujiXWeekly is an app that has been injected with Pro features.",
+  "features": [
+   "Pro"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "288be21739bb9f2477120108ed8b0eb5b5756a3abdb219b5a2bc015f5c4bbde4",
+  "subtitle": "FujiXWeekly \u2013 Injected with Pro",
+  "tags": [
+   "fuji",
+   "weekly",
+   "pro",
+   "injected"
   ]
  },
  "com.funcell.eraevolution": {
@@ -7750,6 +8313,23 @@
    "strategy",
    "game",
    "tactical"
+  ]
+ },
+ "com.funkin.fnf": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Friday Night Funkin' is a rhythm game developed by FunkinCrew using the HaxeFlixel framework.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2c45d6e11fd2ad6f5f4c4b624e5ac4ac5a44c213ab004e80b699d83716df0a88",
+  "subtitle": "Rhythm game by FunkinCrew",
+  "tags": [
+   "rhythm",
+   "game",
+   "haxeflixel",
+   "funkincrew",
+   "open-source",
+   "music"
   ]
  },
  "com.funlabsoft.iptv": {
@@ -7804,6 +8384,23 @@
    "mod"
   ]
  },
+ "com.futbin": {
+  "category": "lifestyle",
+  "date": "2026-10-25",
+  "description": "FUTBIN FC 26 Evolutions is a companion-style iOS application created for football fans who want deeper insights.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "725f97ca2cb21b688d0d728b85655349920819c23523a37fe6b8d1a8b951bb28",
+  "subtitle": "Companion app for football fans",
+  "tags": [
+   "futbin",
+   "fc26",
+   "football",
+   "soccer",
+   "companion",
+   "evolutions"
+  ]
+ },
  "com.future.kapi": {
   "category": "other",
   "date": "2026-10-14",
@@ -7839,6 +8436,22 @@
    "chef",
    "kitchen",
    "game"
+  ]
+ },
+ "com.gageadiel.reference.gageref": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "GageRef version 1.0 is an application distributed via TestFlight. This utility functions exclusively when installed through TrollStore. Created by GLESign.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "97cd9a4c0e7ecdbb180a678aabe847869342ef3b6f675e5a721c6a58d5046b3e",
+  "subtitle": "The yellow bank app for TrollStore",
+  "tags": [
+   "gageref",
+   "trollstore",
+   "testflight",
+   "bank",
+   "glesign"
   ]
  },
  "com.gameberrystudio.animals": {
@@ -7933,6 +8546,22 @@
    "utility"
   ]
  },
+ "com.gamerdelights.gamepigeon": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "GamePigeon is a collection of multiplayer mini-games integrated into Apple\u2019s iMessage platform. Play a variety of games directly through your messaging interface with friends and contacts.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0b8387ae74e3a14fa17d7d3904ed4f66c8ead0daa203771a94e947db30481cea",
+  "subtitle": "Multiplayer mini-games for iMessage",
+  "tags": [
+   "games",
+   "imessage",
+   "multiplayer",
+   "minigames",
+   "chat"
+  ]
+ },
  "com.gamifystudio.elementalbattle": {
   "category": "games",
   "date": "2026-10-21",
@@ -7982,6 +8611,73 @@
    "colorful"
   ]
  },
+ "com.garena.gamecenter": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "This application was removed from the App Store. The IPA file has been checked and compiled by the TTJB Team.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "edece00fdc58404595d3eb44a214298a5ab74bd3088fd2f26460ae428f878b49",
+  "subtitle": "Garena IPA archive app",
+  "tags": [
+   "garena",
+   "ipa",
+   "ttjb",
+   "archive",
+   "utility"
+  ]
+ },
+ "com.gasbuddymobile.gasbuddy": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Find gas stations near you with the cheapest prices. Includes cash-back deals and related features.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "08c4d99fd562c5f75b29972e96aa388f61075652341aca9f7a7d74b446cc1f9e",
+  "subtitle": "Find cheap gas stations near you",
+  "tags": [
+   "gas",
+   "fuel",
+   "prices",
+   "cheap",
+   "deals",
+   "stations"
+  ]
+ },
+ "com.geniussoftware.GeniusScan": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Genius Scan is a scanner app designed for digitizing documents. This release provides version 8.13 with premium features unlocked.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "1834c96718a5978edb8c9117cdfbaa9903e4f9b310bd1a5a9c66e4415a324f10",
+  "subtitle": "Document scanner app",
+  "tags": [
+   "genius scan",
+   "scanner",
+   "documents",
+   "utility",
+   "scan"
+  ]
+ },
+ "com.geode.launcher": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Geode iOS Launcher manages installing and launching Geometry Dash with Geode for iOS. Requirements include iOS or iPadOS 14.0 or later, and the full version of Geometry Dash.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a228238f61d3208073318ab118c0aacabc3a9b2c7c1b6bbfd08a5ae162fcc95e",
+  "subtitle": "Geometry Dash Geode launcher for iOS",
+  "tags": [
+   "geode",
+   "geometry dash",
+   "launcher",
+   "mod",
+   "ios"
+  ]
+ },
  "com.getdieter.ios": {
   "category": "developer",
   "date": "2026-10-20",
@@ -7999,6 +8695,39 @@
    "development"
   ]
  },
+ "com.getfree.app": {
+  "category": "lifestyle",
+  "date": "2026-10-25",
+  "description": "GetFree helps users explore high quality applications on iOS without constantly paying full price.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b8c031cb7af0d41aaf54ef234ee5e9bbed080f39f6642daea8e919081c52d8cb",
+  "subtitle": "Discover free apps and deals on iOS",
+  "tags": [
+   "apps",
+   "discover",
+   "free",
+   "deals",
+   "ios",
+   "explore"
+  ]
+ },
+ "com.gfal.ddreams": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Dive into the sparkling world of Diamond Dreams Match IPA MOD, where every move glitters with excitement and every win feels like treasure.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "46ec4af169c6ec8d1995978f07711158da86dceb9c50926a02ea82572a0a458b",
+  "subtitle": "Dive into the sparkling world of Diamond Dreams Match",
+  "tags": [
+   "match",
+   "puzzle",
+   "diamonds",
+   "game",
+   "mod"
+  ]
+ },
  "com.ghostshippublishing.deeprockgalacticsurvivor": {
   "category": "games",
   "date": "2026-10-20",
@@ -8013,6 +8742,44 @@
    "combat",
    "action",
    "game"
+  ]
+ },
+ "com.giants-software.fs16": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Farming Simulator 16 by GIANTS Software GmbH, version 1.1.6. Bundle ID com.giants-software.fs16. Includes free in\u2011app purchases. Provided by RiftysIPAs.",
+  "features": [
+   "Free IAP"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7fa6457e9dd92987cc18d1ecc36b5f5df22461044684118061ec5372bf2f400a",
+  "subtitle": "Farming Simulator 16 \u2013 Free IAP",
+  "tags": [
+   "farming",
+   "simulator",
+   "giants",
+   "software",
+   "ipa",
+   "free-iap"
+  ]
+ },
+ "com.giants-software.fs18": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Farming Simulator 18 lets you manage a modern farm, cultivate crops, raise livestock, and use authentic machinery. The app includes free in\u2011app purchases. Version 1.5.0 from GIANTS Software GmbH.",
+  "features": [
+   "Free In\u2011App Purchases"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f39b778df42a26916af4181de7f64238adab4b997eb249088830307f6d3665a3",
+  "subtitle": "Farming simulation with free in\u2011app purchases",
+  "tags": [
+   "farming",
+   "simulator",
+   "agriculture",
+   "free",
+   "iap",
+   "giants"
   ]
  },
  "com.gibiergames.deeeersimulator2": {
@@ -8125,6 +8892,23 @@
    "open source",
    "client",
    "entertainment"
+  ]
+ },
+ "com.glitchgames.foreverlostepisode1hd": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "A mysterious quest where you uncover the secrets of ancient worlds and solve puzzles. Paid app from the App Store. Created by GLESign.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "87f3d22aefb3d5dbd990ba4933fd303295f808b57e4fc72ad26e861d882bc090",
+  "subtitle": "Mystery quest solving ancient puzzles",
+  "tags": [
+   "mystery",
+   "quest",
+   "puzzle",
+   "ancient",
+   "worlds",
+   "paid"
   ]
  },
  "com.glu.deerhunt16": {
@@ -8321,6 +9105,22 @@
    "game"
   ]
  },
+ "com.grayclover.rulethefrost": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Frozia: Eternal Frontier IPA is the iOS installation package for the game Frozia: Eternal Frontier. This IPA file allows installation of the game on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "051566a03e72461135e31620aeeaa5b3cc2e5546cf960b5e1edb2edcb835bb1c",
+  "subtitle": "iOS installation package for Frozia: Eternal Frontier",
+  "tags": [
+   "frozia",
+   "eternal frontier",
+   "ipa",
+   "ios game",
+   "installation"
+  ]
+ },
  "com.greenbuttongames.FishIdle": {
   "category": "games",
   "date": "2026-10-24",
@@ -8457,6 +9257,23 @@
    "mobile"
   ]
  },
+ "com.halfbrick.FruitNinjaLite": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Fruit Ninja\u00ae is a timeless arcade game that has delighted players with fruit-slicing action on mobile devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ca485513f4c16d4bfa477a8eb1724924ad3ad6fe0f6fe4292d3ddafff16385f5",
+  "subtitle": "Classic arcade fruit slicing game",
+  "tags": [
+   "arcade",
+   "fruit",
+   "slicing",
+   "classic",
+   "mobile",
+   "game"
+  ]
+ },
  "com.halfbrick.bluey": {
   "category": "games",
   "date": "2026-10-15",
@@ -8472,6 +9289,40 @@
    "gold",
    "pen",
    "ios"
+  ]
+ },
+ "com.halfbrick.fruitninjaadventures": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "Fruit Ninja Adventures on iOS expands the well-known fruit-slicing formula into a full adventure experience designed for mobile gameplay",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9e120edfaa3b3ad33516424fe275fe2eaf5d27e52a960c9a473bdcf9572c2d90",
+  "subtitle": "Slice fruit in an adventure world",
+  "tags": [
+   "fruit",
+   "ninja",
+   "adventure",
+   "slice",
+   "mobile",
+   "game"
+  ]
+ },
+ "com.halfbrick.fruitninjax": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Fruit Ninja 2 brings a fresh upgrade to the iconic mobile game. Slice fruit with swipe controls across multiple game modes. Includes mini-games, power-ups, and competitive challenges. Designed for iPhone with updated graphics and gameplay mechanics.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4ea0285f260cdd69c7818587756c0f4b2acf5b2a732160e7806e00225aac22e3",
+  "subtitle": "Classic fruit-slicing action returns",
+  "tags": [
+   "fruit",
+   "slice",
+   "arcade",
+   "action",
+   "casual",
+   "multiplayer"
   ]
  },
  "com.hammerandchisel.bunny": {
@@ -9080,6 +9931,23 @@
    "shelter"
   ]
  },
+ "com.igg.ios.frozenwar": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "Frozen War IPA offers immersive experiences previously reserved for consoles and PCs. It is a standout title in this arena.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "71730609bd2cd1b4498e28b95e857a9cf2233cdf139cd5d0fc1ef40456155862",
+  "subtitle": "Immersive console\u2011level gameplay on iOS",
+  "tags": [
+   "frozen",
+   "war",
+   "ipa",
+   "immersive",
+   "console",
+   "pc"
+  ]
+ },
  "com.ignm.animalmafia": {
   "category": "games",
   "date": "2026-10-14",
@@ -9288,6 +10156,23 @@
    "live wallpaper",
    "trollstore",
    "ios 17"
+  ]
+ },
+ "com.iogames.gearworld": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Step into the mechanical battlefield of Gear Defenders, a thrilling tower defense strategy game that fuses futuristic machines.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5cba8c0313510f49e671935f5e15d47ec2ce7bd03e37a465720f7206b39c1605",
+  "subtitle": "A futuristic mechanical tower defense strategy game",
+  "tags": [
+   "strategy",
+   "tower defense",
+   "futuristic",
+   "machines",
+   "battlefield",
+   "game"
   ]
  },
  "com.ipaomtk.4k.wallpapers.widgets.plaw.152558": {
@@ -10518,6 +11403,139 @@
    "utilities"
   ]
  },
+ "com.ipaomtk.football.club.management.2026.155981": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Football Club Management 2026 is the iOS version of a comprehensive football club management simulation. Build and manage your own football club, handling tactics, transfers, training, and matchday decisions across multiple seasons and competitions.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "815bed385cf94cd35983aaa1a316e5b90ee7b1ca28b6a85575bddecfec43ce94",
+  "subtitle": "Comprehensive football club management sim",
+  "tags": [
+   "football",
+   "management",
+   "simulation",
+   "sports",
+   "club",
+   "strategy"
+  ]
+ },
+ "com.ipaomtk.frzy.sport.152705": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "FRZY SPORT is an energetic mobile sports game designed to deliver quick, competitive gameplay experiences directly on iPhone.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8a88d59a8790312830375460a9b2656b3761cecb56ba2e8517e408cd21e76fd4",
+  "subtitle": "Energetic mobile sports game for quick competitive play",
+  "tags": [
+   "sports",
+   "game",
+   "mobile",
+   "competitive",
+   "quick",
+   "iphone"
+  ]
+ },
+ "com.ipaomtk.full.code.medical.simulation.154163": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Full Code Medical Simulation is a medical simulation game designed for iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "87beb48bedd704fe4f904a9e58b95f3be6daef6656a53b183a7721902b09fcce",
+  "subtitle": "Medical simulation game for iOS",
+  "tags": [
+   "medical",
+   "simulation",
+   "game",
+   "ios",
+   "devices",
+   "ipa"
+  ]
+ },
+ "com.ipaomtk.fytube.youtube.without.ads.156946": {
+  "category": "photo-video",
+  "date": "2026-10-25",
+  "description": "FyTube is the iOS installation file of a third-party video streaming application designed for viewing YouTube content.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3035f50a8ae30c29d0ea92cc1dde724cbc9da48f857f717c78374debd9fb7d36",
+  "subtitle": "Third-party video streaming app for iOS",
+  "tags": [
+   "video",
+   "streaming",
+   "youtube",
+   "media",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.gameplaytoo.ps2.emulator.155416": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "GamePlaytoo is an iOS installation package that allows users to run PlayStation games on your mobile device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e40ec3a5a304b347a86eab926bf50f61fd95a5463c9017bcd6b48f69b16b9320",
+  "subtitle": "PlayStation emulator for iOS devices",
+  "tags": [
+   "emulator",
+   "playstation",
+   "ps2",
+   "gaming",
+   "retro"
+  ]
+ },
+ "com.ipaomtk.gangstar.rio.160100": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Gangstar Rio IPA is an iOS game package that allows players to install and enjoy a full open-world.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "33fec114c93ef4ea347c7f2f99edc31107eaac4f8ef6cfa36a375dd674d08d75",
+  "subtitle": "Open-world iOS action game",
+  "tags": [
+   "gangstar",
+   "rio",
+   "open world",
+   "action",
+   "game",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.gears.tower.defense.merge.td.159994": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Gears Tower Defense is a merge tower defense iOS game where players build and upgrade defenses using a gear system to protect against incoming threats.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a5e1e27c14b88f7a27212131eff5e35513f936b95edb78de1c1c4dff02a03118",
+  "subtitle": "Merge TD tower defense iOS game",
+  "tags": [
+   "tower defense",
+   "merge",
+   "strategy",
+   "ios",
+   "game"
+  ]
+ },
+ "com.ipaomtk.geometry.tower.idle.defense.159282": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Geometry Tower: Idle Defense is an idle tower defense game available as an iOS installable version.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "42ef04e3b0c967c00165f1d7674064f78d6b8f9030742a1a2c035c2524921ac1",
+  "subtitle": "Idle tower defense game for iOS",
+  "tags": [
+   "geometry",
+   "tower",
+   "defense",
+   "idle",
+   "game",
+   "ios"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -10945,6 +11963,26 @@
    "rpg",
    "game",
    "3d"
+  ]
+ },
+ "com.knights.commandoshooting": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "FPS Commando Gun Game Offline is an iOS installation package for a fast-paced first-person shooter. Play as a commando in gun battles without requiring an internet connection. The game delivers offline action gameplay on iOS devices.",
+  "features": [
+   "Offline Play",
+   "Fast-Paced Action"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5de4cd2876f0f3939f2511efca88f6f7c28d03a274d87add3226ca58de4f21b8",
+  "subtitle": "Fast-paced offline FPS commando shooter",
+  "tags": [
+   "fps",
+   "commando",
+   "offline",
+   "shooter",
+   "action",
+   "ios"
   ]
  },
  "com.kommadot.casesimulator": {
@@ -11413,18 +12451,24 @@
  },
  "com.ligg.anime_flow": {
   "category": "entertainment",
-  "date": "2026-10-19",
-  "description": "AnimeFlow is a cross-platform anime video player supporting Android, iOS, Windows, macOS, and Linux. It includes multiple data sources and custom XPath crawler configurations, supports real-time video 4K upscale based on Anime4K, connects to Bangumi to sync collections and tracking data, and supports multi-platform bullet comment sources with rich settings.",
-  "features": [],
+  "date": "2026-10-25",
+  "description": "Cross-platform anime tracking application with support for Bangumi collection synchronization and bullet comment playback. Unsigned iOS installation packages are sourced from upstream GitHub releases.",
+  "features": [
+   "Bangumi Sync",
+   "Bullet Comments",
+   "Cross Platform",
+   "Open Source"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2622d0d824ecd770b335298e81741a2c1944852018e74185db2a635c57a306d4",
-  "subtitle": "Cross-platform anime video streaming application",
+  "src_hash": "31e4f18200ec0c3ee86b93870e8abaa88887ab7c048bd7974224ba5150e0781f",
+  "subtitle": "Cross-platform anime tracker and player",
   "tags": [
    "anime",
+   "tracker",
    "player",
-   "video",
+   "bangumi",
    "streaming",
-   "bangumi"
+   "open source"
   ]
  },
  "com.lightricks.Facetune2": {
@@ -11459,6 +12503,25 @@
    "applock",
    "lock",
    "protection"
+  ]
+ },
+ "com.linecorp.Foodie": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "This is a modified version of Foodie distributed via AppTesters IPA Repo. The subscription feature has been unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d3cb42b0229e78c4253e74c1a1dd4c8732a4a18c5f4baedaac299ac7e99e326d",
+  "subtitle": "Foodie with subscription unlocked",
+  "tags": [
+   "foodie",
+   "subscription",
+   "unlocked",
+   "ipa",
+   "repo",
+   "injected"
   ]
  },
  "com.linecorp.b612": {
@@ -11643,6 +12706,23 @@
    "graphics"
   ]
  },
+ "com.ludu.fls": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "Soccer Life Simulator on iOS delivers a deep and engaging football experience that goes beyond typical sport.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "da88daf1b2890c79c9ce9eded913feb6db71b284b5ee7439b19e5a2982a25320",
+  "subtitle": "Deep football life simulation",
+  "tags": [
+   "football",
+   "simulation",
+   "life",
+   "soccer",
+   "ios",
+   "game"
+  ]
+ },
  "com.lunch.cellstosingularity": {
   "category": "games",
   "date": "2026-10-15",
@@ -11657,6 +12737,23 @@
    "game",
    "singularity",
    "simulation"
+  ]
+ },
+ "com.lunime.gachaclub": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Welcome to Gacha Club. Join a club and create your own anime styled characters, then dress them up in your favorite fashion outfits. Choose from hundreds of dresses, shirts, hairstyles, weapons, and more. Once you design your characters, enter the Studio and create any scene you can imagine. Add pets, objects, and choose your favorite backgrounds. Choose from over a hundred presets and create scenes in Narrator Mode.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6fa1787d1a723e5dade6ee45befbcddafe982a4a93e7741166b02e478258556c",
+  "subtitle": "Create anime characters and dress them up",
+  "tags": [
+   "gacha",
+   "club",
+   "anime",
+   "dress",
+   "fashion",
+   "studio"
   ]
  },
  "com.lunosoft.ttheroes": {
@@ -12242,6 +13339,23 @@
    "action"
   ]
  },
+ "com.miniclip.ghostinvasion": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Step into the shoes of a brave ghost hunter in Ghost Invasion Idle Hunter for iOS. Experience an action-packed idle adventure game where you hunt ghosts and progress through the game.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ed8930f0d68f7a5dc699438ec33c4f99d55d71aaa6f0ef1db18e71fd7540d64a",
+  "subtitle": "An action-packed idle adventure game",
+  "tags": [
+   "ghost",
+   "invasion",
+   "idle",
+   "hunter",
+   "adventure",
+   "action"
+  ]
+ },
  "com.minidragon.randomdungeon": {
   "category": "games",
   "date": "2026-10-20",
@@ -12382,6 +13496,25 @@
    "hack",
    "igamegod",
    "speed"
+  ]
+ },
+ "com.mobilefootie.fotmobpro": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "FotMob provides soccer live scores. This version is a patched build with premium features unlocked.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f61e2a33d34cddf15909823b3b116f30ae189ceb0ff5cd7a567fb92e002c705a",
+  "subtitle": "Soccer live scores with premium unlocked",
+  "tags": [
+   "soccer",
+   "live scores",
+   "premium",
+   "patched",
+   "fotmob"
   ]
  },
  "com.mobirix.mbpdh": {
@@ -12780,6 +13913,27 @@
    "game"
   ]
  },
+ "com.ncs.gbox": {
+  "category": "developer",
+  "date": "2026-10-25",
+  "description": "An application for signing applications with a certificate, ensuring secure installation and management of IPA files on your device. Created by GLESign.",
+  "features": [
+   "IPA management",
+   "Certificate signing",
+   "Secure installation"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3f515790366f495e137db8c9650ab450550e12b2d7e4af42ea9600dd0c3401dd",
+  "subtitle": "Sign and manage IPA files securely with certificates",
+  "tags": [
+   "ipa",
+   "signing",
+   "certificate",
+   "manager",
+   "installer",
+   "developer"
+  ]
+ },
  "com.ndemiccreations.survivors": {
   "category": "other",
   "date": "2026-10-14",
@@ -12851,6 +14005,22 @@
    "eraser",
    "photo",
    "ai"
+  ]
+ },
+ "com.nes.gboxx": {
+  "category": "developer",
+  "date": "2026-10-25",
+  "description": "Gbox is a popular solution for iOS users who want more flexibility when installing applications on their devices.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d9290f029f898f1012e6f4d32e0a25a42b0b47c73f3e8e3a3ff5d0ce9ea221d7",
+  "subtitle": "Flexible application installation solution for iOS",
+  "tags": [
+   "gbox",
+   "ios",
+   "developer",
+   "applications",
+   "tools"
   ]
  },
  "com.netflix.NGP.BloonsTDSix": {
@@ -13179,6 +14349,24 @@
    "action"
   ]
  },
+ "com.ntosport.app": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "FRZYSPORT is a sports application that has been modified to include premium features without requiring a subscription. The app provides access to premium content and functionality that would normally require payment.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a40bd5be4f5089fabdc2b0b45a4ae30bef0378596d930656dd402ba470d25ab4",
+  "subtitle": "Sports app with premium features unlocked",
+  "tags": [
+   "sports",
+   "premium",
+   "modified",
+   "unlocked",
+   "ipa"
+  ]
+ },
  "com.objcmsgsend.Climax": {
   "category": "entertainment",
   "date": "2026-10-18",
@@ -13192,6 +14380,26 @@
    "balance",
    "fake",
    "simulator"
+  ]
+ },
+ "com.ollix.FogOfWorld": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "Fog of World IPA MOD (Paid Free) iOS, turning your daily travels into an exciting exploration. This is the essence of Fog of World, an i",
+  "features": [
+   "Mod",
+   "Free"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "689c678f717dc9bdc8f4834e448671d7994ae8beb4c17ee5216e72487c7ce9fc",
+  "subtitle": "Turn travels into exploration",
+  "tags": [
+   "fog",
+   "world",
+   "ipa",
+   "mod",
+   "travel",
+   "exploration"
   ]
  },
  "com.olzhas.carparking.multyplayer2.ios": {
@@ -13211,6 +14419,23 @@
    "game",
    "unlimited",
    "money"
+  ]
+ },
+ "com.ondi.fortias.saga": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Fortias Saga is an idle RPG developed by a team of seasoned game designers and storytellers. The game blends fast-paced combat with narrative elements.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "98837110ec246ff6f6e573821d7356d201b99d7c1b714cb3ec5cae37db3d44a8",
+  "subtitle": "Idle RPG adventure from seasoned designers",
+  "tags": [
+   "idle",
+   "rpg",
+   "fantasy",
+   "adventure",
+   "mobile",
+   "ios"
   ]
  },
  "com.onicore.backpack.rush": {
@@ -13486,19 +14711,22 @@
  },
  "com.penguinbit.fastdownload": {
   "category": "utilities",
-  "date": "2026-10-24",
-  "description": "fGet is an application injected with Pro features.",
+  "date": "2026-10-25",
+  "description": "Pro version of fGet with added features. All IPA files have been thoroughly checked and compiled by the TTJB Team.",
   "features": [
-   "Injected with Pro"
+   "Pro Version",
+   "Verified IPA",
+   "Compiled by TTJB"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "042db89b60067b8cc6160c3df45eeccc6455ac3866c1d7252e3b340f5578439d",
-  "subtitle": "Pro app utility",
+  "src_hash": "42f1d8be894daaefc90dc770dd28b31011e6e2bdc061995caf0e5101eead7b2b",
+  "subtitle": "IPA files verified and compiled by TTJB Team",
   "tags": [
    "fget",
+   "ipa",
+   "ttjb",
    "pro",
-   "utility",
-   "app"
+   "utilities"
   ]
  },
  "com.perblue.disneyheroes.ios": {
@@ -13898,6 +15126,26 @@
    "game"
   ]
  },
+ "com.playrix.gardenscapes-m3-ios": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Gardenscapes modified version featuring unlimited resources for gameplay. Includes infinite moves, infinite boosters, and infinite lives. Note that a connection error may occur.",
+  "features": [
+   "Infinite Moves",
+   "Infinite Boosters",
+   "Infinite Lives"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ee2f91ad25a8d7fb06caaf1f6e3b1aa0f02b33b445c6bfefa95403edde339145",
+  "subtitle": "Gardenscapes hack with infinite resources",
+  "tags": [
+   "gardenscapes",
+   "hack",
+   "mod",
+   "puzzle",
+   "game"
+  ]
+ },
  "com.playsidestudios.candycritters": {
   "category": "games",
   "date": "2026-10-15",
@@ -13950,6 +15198,22 @@
    "helper",
    "utilities",
    "education"
+  ]
+ },
+ "com.polarbit.getaway": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Getaway is a survival racing game where you must evade the police and rival drivers. Created by GLESign.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5c9fde8cfa89c778cce1d18660a6ad66a8c4105f24a420fdcdcf124a7cf0f0dd",
+  "subtitle": "A thrilling survival race against police and rivals",
+  "tags": [
+   "racing",
+   "survival",
+   "police",
+   "game",
+   "action"
   ]
  },
  "com.poppingmoon.aria": {
@@ -14504,6 +15768,25 @@
    "game"
   ]
  },
+ "com.retryapps.game.maps.irl": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "GameMapsIRL provides interactive maps for gaming and exploration. This version includes premium features, and the IPA file has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Premium",
+   "Tested IPA"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "64c8283cd64d5aceeb7a4bab21626ba9a68cad464b92a8ecbc01f5da68cb0046",
+  "subtitle": "Interactive game maps for real life exploration",
+  "tags": [
+   "games",
+   "maps",
+   "exploration",
+   "premium",
+   "utilities"
+  ]
+ },
  "com.retrytech.TimeTag": {
   "category": "photo-video",
   "date": "2026-10-15",
@@ -14743,6 +16026,23 @@
    "console"
   ]
  },
+ "com.rileytestut.GBA4iOS": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "GBA4iOS is a Game Boy Advance emulator created by iOS developer Riley Testut. Built and designed from the ground up for iOS 7, GBA4iOS takes advantage of the operating system features.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "89c95e3fc586f0dcb621c881f3d8928d6eec368a235d8bcc30d27afe7e6b7263",
+  "subtitle": "Game Boy Advance emulator for iOS",
+  "tags": [
+   "gba",
+   "emulator",
+   "gameboy",
+   "advance",
+   "games",
+   "retro"
+  ]
+ },
  "com.risingcabbage.enhancefox": {
   "category": "photo-video",
   "date": "2026-10-21",
@@ -14777,6 +16077,39 @@
    "game",
    "era",
    "wars"
+  ]
+ },
+ "com.robtop.geometryjump": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Geometry Dash SubZero is a spin-off of the geometry Dash series that brings a fresh twist to the platforming genre, merging rhythm-based action with unique challenges.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "32aed63a68c508f74b0b72ef1789ad91a38b02e2426361a4cd7478a07fd14204",
+  "subtitle": "Geometry Dash SubZero spin-off platformer",
+  "tags": [
+   "geometry",
+   "dash",
+   "subzero",
+   "platformer",
+   "game",
+   "action"
+  ]
+ },
+ "com.robtop.geometryjump2206": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Jump and fly your way through danger in this rhythm-based action platformer.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c1dfa36bd012a9bb1feecdeaeece21f597a6c25fc6ddbfaa43ca9d5269b93c39",
+  "subtitle": "Rhythm-based action platformer",
+  "tags": [
+   "platformer",
+   "rhythm",
+   "action",
+   "jump",
+   "fly"
   ]
  },
  "com.rocketdigitals.aiinteriordesign": {
@@ -14989,6 +16322,22 @@
    "game"
   ]
  },
+ "com.sandsoft.fingerwarriors": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Fortress Frontlines: Card TD is an iOS strategy game that combines tower defense mechanics with card gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "654be1b025e75587743ca2982a2ea6c516c19654bea66e82c51d4a6524c62fe0",
+  "subtitle": "Card-based tower defense strategy game",
+  "tags": [
+   "strategy",
+   "tower defense",
+   "card",
+   "ios",
+   "game"
+  ]
+ },
  "com.saulawa.areaandvolumecalc.lite": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -15159,6 +16508,27 @@
    "entitlements"
   ]
  },
+ "com.sevenseas.formularide": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Formula Ride is a racing game that includes modifications enabling unlimited in\u2011game currency, unlimited tokens, and access to all maps without progression requirements.",
+  "features": [
+   "Money Modifier",
+   "Token Modifier",
+   "Unlock All Maps"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8257e2c5726bdc2f13bc0c99e1a2ba563ca42b56e64266899cf147c6ded6aaac",
+  "subtitle": "Racing game with money, token mods and unlocked maps",
+  "tags": [
+   "racing",
+   "game",
+   "mod",
+   "money",
+   "tokens",
+   "maps"
+  ]
+ },
  "com.sgn.cookiejam": {
   "category": "games",
   "date": "2026-10-18",
@@ -15229,6 +16599,74 @@
    "audio"
   ]
  },
+ "com.shadowmario.psychengine": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Friday Night Funkin' Psych Engine was originally used on the Mind Games Mod. It fixes many issues in the vanilla version while keeping the casual play aspect. The engine also aims to be an easier alternative for newbie coders.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "11aa5060587e6428da883d9e9f2854bbe92bfe1a71ded07c7c0fee7a8c502505",
+  "subtitle": "FNF engine fix for casual play and modding",
+  "tags": [
+   "fnf",
+   "psych engine",
+   "rhythm game",
+   "modding",
+   "game engine",
+   "mind games"
+  ]
+ },
+ "com.shadowmario.psychengine073": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Friday Night Funkin' Engine originally used on Mind Games Mod, intended to fix vanilla issues while keeping casual play. Also aims to be easier for new coders.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8490e778a29ba451d22c997c7a0d8d44bfe418a464b895123b23fb057926eca5",
+  "subtitle": "Psych Engine 0.7.3 for Friday Night Funkin'",
+  "tags": [
+   "friday",
+   "night",
+   "funkin",
+   "psych",
+   "engine",
+   "mod"
+  ]
+ },
+ "com.shadowmario.psychengine10": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Friday Night Funkin' Engine originally used on Mind Games Mod, intended to fix the vanilla version's issues while keeping casual play. Also aims to be an easier alternative for new coders.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "325c8ec382f8524c412d8ca7c162dc5eea2974da1bb357e09070a821bc7a9886",
+  "subtitle": "FNF engine fix for casual play and newbie coders",
+  "tags": [
+   "fnf",
+   "engine",
+   "mod",
+   "casual",
+   "coding",
+   "alternative"
+  ]
+ },
+ "com.shadowmario.psychengine10pre": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Friday Night Funkin' engine originally used on Mind Games Mod. Designed to fix vanilla version issues while keeping casual play. Aims to be easier for new coders. Pre-release version 1.0 by ShadowMario & MobilePorting.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7f3f75d4db919aadf866674edd28f361e581352da166852b9e0c85cc17dd87a2",
+  "subtitle": "FNF engine fixing vanilla issues",
+  "tags": [
+   "fnf",
+   "psych-engine",
+   "mod-engine",
+   "game-engine",
+   "pre-release",
+   "mobile-port"
+  ]
+ },
  "com.silverware.flightupdatepro": {
   "category": "utilities",
   "date": "2026-10-24",
@@ -15261,6 +16699,23 @@
    "ipa"
   ]
  },
+ "com.skyjos.ftpmanager": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "FTPManager is a fully featured FTP client for iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cf2b4dedb7d01a7591cc036b609776ade3551d7029e0c306fcd1ea9663cb5d5d",
+  "subtitle": "Fully featured FTP client",
+  "tags": [
+   "ftp",
+   "client",
+   "filetransfer",
+   "ios",
+   "manager",
+   "ftpmanager"
+  ]
+ },
  "com.skypaw.decibel": {
   "category": "utilities",
   "date": "2026-10-20",
@@ -15276,6 +16731,23 @@
    "noise",
    "measure",
    "analyzer"
+  ]
+ },
+ "com.sl.gangwars": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Gang Wars : Street Crime IPA is the iOS installation package of the Gang Wars : Street Crime game.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "79b08b58ab8be266f61d719f5331b7a6a47e4b82e6a76dea2f64c5a91a8fd6e1",
+  "subtitle": "Gang Wars Street Crime iOS installation package",
+  "tags": [
+   "gang",
+   "wars",
+   "street",
+   "crime",
+   "game",
+   "ipa"
   ]
  },
  "com.snowcorp.epik": {
@@ -15416,6 +16888,22 @@
    "platformer"
   ]
  },
+ "com.space.shooter.galaxy.attack.wing.fighter": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Galaxy Wing Zero brings the thrill of intergalactic warfare to iOS, offering a classic arcade experience.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "779ad3ac2a7be0cbc0398ce8f37de316a37d77819ab0b435788bbba55d6c011e",
+  "subtitle": "Intergalactic arcade warfare for iOS",
+  "tags": [
+   "arcade",
+   "space",
+   "shooter",
+   "action",
+   "game"
+  ]
+ },
  "com.spaceapegames.carsuperstar": {
   "category": "other",
   "date": "2026-10-15",
@@ -15431,6 +16919,138 @@
    "mobile",
    "ios",
    "app"
+  ]
+ },
+ "com.sparklechan.swiftyrh": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Code, compile, and install iOS apps directly on your device for iOS 15.0 through 17.0.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2b03f71fb10f3b2650dd9ecb7289bcc63edb3f344abf6beb3de3b2ec6851431d",
+  "subtitle": "Code, compile, and install iOS apps on device",
+  "tags": [
+   "code",
+   "compile",
+   "install",
+   "ios",
+   "frida",
+   "root"
+  ]
+ },
+ "com.sparklechan.swiftyrh16": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Frida Code Manager lets you write, compile, and install iOS applications directly on your iPhone or iPad running iOS 15.0 through 17.0. The app includes root-hide functionality. Version 1.6 by fridakitten.",
+  "features": [
+   "Root Hide",
+   "iOS 15-17 Support",
+   "On-Device Compilation"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "946eca95d8b58285beaf49c3ae991e3e5fe67b6c672b2537c3be06cefe66880c",
+  "subtitle": "Code, compile, and install iOS apps on device",
+  "tags": [
+   "code",
+   "compile",
+   "install",
+   "ios",
+   "root",
+   "frida"
+  ]
+ },
+ "com.sparklechan.swiftyrl": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Code, compile, and install iOS apps directly on your device running iOS 15.0 through 17.0.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ab159a0ff7ae43e4ea7579030a3b856491bb78d95f747cea03f83f9a67690990",
+  "subtitle": "Code, compile, and install iOS apps on device",
+  "tags": [
+   "code",
+   "compile",
+   "install",
+   "ios",
+   "rootless",
+   "development"
+  ]
+ },
+ "com.sparklechan.swiftysa": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Frida Code Manager (Stock Alpha) lets you write, compile, and install iOS applications directly on devices running iOS 15.0 through 17.0.",
+  "features": [
+   "Code",
+   "Compile",
+   "Install"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1b748b44888dba6c6b1f4c4b1a7e242b98078ec345ca46e15611bcf1a8f300ac",
+  "subtitle": "Code, compile, install iOS apps on device",
+  "tags": [
+   "code",
+   "compile",
+   "install",
+   "ios",
+   "frida",
+   "alpha"
+  ]
+ },
+ "com.sparklechan.swiftysa16": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Frida Code Manager lets you write, compile, and install iOS applications directly on your device running iOS 15.0 through 17.0.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d6fad2eab1d22c70e0d7d52200d98bcb6f9576fd70a434518a79c80488288823",
+  "subtitle": "Code, compile, and install iOS apps on device",
+  "tags": [
+   "code",
+   "compile",
+   "install",
+   "ios",
+   "development",
+   "utility"
+  ]
+ },
+ "com.sparklechan.swiftyts": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Frida Code Manager lets you write, compile, and install iOS applications directly on your iPhone or iPad. Supports iOS versions 15.0 through 17.0. Designed for use with TrollStore installation method. No computer required for the development workflow.",
+  "features": [
+   "On-device coding",
+   "On-device compilation",
+   "Direct app installation",
+   "iOS 15.0-17.0 support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "829151e1b1177743d0c16d7624d2d72526427289acab80752d42f71622d6d40e",
+  "subtitle": "Code, compile, and install iOS apps on device",
+  "tags": [
+   "ios development",
+   "code editor",
+   "compiler",
+   "trollstore",
+   "sideloading",
+   "on-device"
+  ]
+ },
+ "com.sparklechan.swiftyts16": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Code, compile, and install iOS apps on iOS 15.0\u201317.0.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "886088e29acac2ad28f4693d4ddec316d34ef69bb0d4a6a0e7234096aaf9e78f",
+  "subtitle": "Code, compile, and install iOS apps on device",
+  "tags": [
+   "code",
+   "compile",
+   "install",
+   "ios",
+   "trollstore",
+   "development"
   ]
  },
  "com.spotify.client.ios.chroma.pw.0.50.0.beta.not.patched.9.1.78": {
@@ -15697,6 +17317,22 @@
    "audio"
   ]
  },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.0.0.9.1.94.ios15only": {
+  "category": "entertainment",
+  "date": "2026-10-25",
+  "description": "This is a modded version of Spotify, and only works with iOS 15.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "762578622aeccc3753ae8bc5db8a0402ac4e50fde24ace4c40215ddf2e11c8ef",
+  "subtitle": "Modded version of Spotify for iOS 15",
+  "tags": [
+   "spotify",
+   "mod",
+   "ios15",
+   "music",
+   "audio"
+  ]
+ },
  "com.spotify.client.ios.eeveespotifyreincarnated.7.0.0.not.patched.9.1.92.ipavault": {
   "category": "entertainment",
   "date": "2026-10-21",
@@ -15762,6 +17398,39 @@
    "entertainment"
   ]
  },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.0.0.patched.9.1.94.ios15only": {
+  "category": "entertainment",
+  "date": "2026-10-25",
+  "description": "This is a modded version of Spotify designed to work exclusively with iOS 15. Please note that this application is not compatible with SideStore or LiveContainer.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5f08a177c830a5d5d4e4fd8a0511d5a3ce870eec8eece706e9043e82c8410698",
+  "subtitle": "Modded version of Spotify for iOS 15",
+  "tags": [
+   "spotify",
+   "modded",
+   "ios15",
+   "music",
+   "audio",
+   "streaming"
+  ]
+ },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.0.0.patched.9.1.94.ipavault": {
+  "category": "entertainment",
+  "date": "2026-10-25",
+  "description": "This is a modded version of Spotify. Please note that this version does not work with sidestore.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c1582aaea61febf6fa741a765b338ac955b33a5d8aeb4f2df72a8a8d61d3e3cb",
+  "subtitle": "Modded version of Spotify",
+  "tags": [
+   "spotify",
+   "music",
+   "audio",
+   "modded",
+   "streaming"
+  ]
+ },
  "com.spotify.client.ios.taurus.0.50.1.9.1.90.eeveespotifyreincarnated": {
   "category": "entertainment",
   "date": "2026-10-21",
@@ -15825,6 +17494,23 @@
    "dyyy",
    "social",
    "video"
+  ]
+ },
+ "com.st.dts": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Free Fire is a battle royale game designed for fast action and accessible competitive combat on mobile platforms.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "47e5621a8b2c72d24f73ca3cd18c13f34f1c58b5bc63b0d743211b1a6c11d930",
+  "subtitle": "Fast-paced battle royale for mobile",
+  "tags": [
+   "battle royale",
+   "mobile",
+   "action",
+   "multiplayer",
+   "free",
+   "shooter"
   ]
  },
  "com.steelwoolstudios.fnafhw": {
@@ -15920,6 +17606,22 @@
    "game",
    "five hearts under one roof",
    "mobile"
+  ]
+ },
+ "com.stos.Entitlement": {
+  "category": "developer",
+  "date": "2026-10-25",
+  "description": "Get More Ram is a simple StosSign wrapper app that allows you to enable Increased Memory Limit for your sideloaded apps without using Xcode.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8384ba6e5d88825803b19d9f7d2fb872cfeec3da3a4058fe1d9f3f8994d7eab0",
+  "subtitle": "Enable increased memory limit for sideloaded apps",
+  "tags": [
+   "ram",
+   "memory",
+   "sideload",
+   "stossign",
+   "xcode"
   ]
  },
  "com.straight-tamago.DockTransparent": {
@@ -16310,15 +18012,15 @@
  },
  "com.thebcd69.bcd": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS with Steam and GOG built in, powered by Wine, FEX and Metal via DXMT.",
+  "date": "2026-10-25",
+  "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS. It features Steam and GOG built in, and is powered by Wine, FEX and Metal via DXMT.",
   "features": [
-   "Controller-Friendly",
-   "Steam Integration",
-   "GOG Integration"
+   "Controller friendly",
+   "Steam built in",
+   "GOG built in"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "8c46bf388305af135a4b377645cc8bdf121ba4be805b4afdc823ef6b7f1b4387",
+  "src_hash": "508f083751382705843e0ab6b8a2a2aca5203ee43783aa9c282ad0c5e00e0a84",
   "subtitle": "Run Windows games on iOS and iPadOS",
   "tags": [
    "launcher",
@@ -16327,6 +18029,43 @@
    "steam",
    "gog",
    "emulator"
+  ]
+ },
+ "com.theboisclub.gen1recompplusplus": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "G1R Deluxe or Gen1Recomp is a native L\u00d6VE2D recreation of Red, Blue, Yellow, Gold, Silver, Crystal, FireRed, LeafGreen, Ruby, Sapphire, and Emerald. The engine and map behavior are hand-written Lua, ported from pret disassemblies and C. Game data, graphics, and audio programs are decoded on first launch from a ROM supplied by the player.",
+  "features": [
+   "Hand-written Lua engine",
+   "Supports multiple versions",
+   "Requires user-supplied ROM"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "bea19492e495b7830e3e188c1c1541738459a557134dcae8c79ec3f2cbf138cd",
+  "subtitle": "Native L\u00d6VE2D recreation of classic monster RPGs",
+  "tags": [
+   "recomp",
+   "lua",
+   "rpg",
+   "engine",
+   "retro"
+  ]
+ },
+ "com.thefreevpn": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Free VPN is an iOS application that provides virtual private network functionality for iPhone users. It enables secure and private internet access through encrypted connections.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2c328659625d4d3e67485f4cc4d995a14063df147f92d09968fa847469fcc1d8",
+  "subtitle": "VPN app for iOS devices",
+  "tags": [
+   "vpn",
+   "privacy",
+   "security",
+   "ios",
+   "network",
+   "encryption"
   ]
  },
  "com.thegamekitchen.blasphemous": {
@@ -16393,6 +18132,22 @@
    "daily",
    "game",
    "no ads"
+  ]
+ },
+ "com.thp019.number.shooting.strategy.game": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Galien Strike IPA is the iOS application package version of the Galien Strike game, designed for installation.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5e1fe1f435fe75fd944cbb262a688a5013192355e7e0870e4b5c51ec89c5515c",
+  "subtitle": "Galien Strike iOS game application package",
+  "tags": [
+   "galien",
+   "strike",
+   "game",
+   "ipa",
+   "ios"
   ]
  },
  "com.threehp013.idle.plane.shooting.space.force.game": {
@@ -16655,6 +18410,22 @@
    "dice"
   ]
  },
+ "com.tree.hybrid.geartank": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Gear Truck is an immersive truck simulation game designed specifically for iOS devices. It offers players the thrill of truck driving and simulation gameplay.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "be5ed612fca542cd6e3ea5dda84a4fc1cd79464014b6a7ba34ae60fdca518dee",
+  "subtitle": "Immersive truck simulation game for iOS",
+  "tags": [
+   "truck",
+   "simulation",
+   "driving",
+   "game",
+   "ios"
+  ]
+ },
  "com.tree.idle.cat.city": {
   "category": "games",
   "date": "2026-10-15",
@@ -16761,6 +18532,40 @@
    "diet",
    "nutrition",
    "health"
+  ]
+ },
+ "com.underdecodedhd.gen2recomped": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "gen2recomp is a native L\u00d6VE2D recreation of Poke Gold, Silver and Crystal, built on Gen1Recomp's Red/Blue/Yellow engine. The engine, script VM, and map behavior are hand written in Lua, while game data and graphics are decoded from a ROM supplied by the player. The application features the Gen2 script VM and its command table, the Johto and Kanto world, day and night cycles, breeding and the Day Care, the Pokegear, shiny creatures, held items, and the Gold and Silver title sequence.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a844be6fa112885e0f82323d522a2c50e99c6ffbb6a7f30ea502e48b72c1922e",
+  "subtitle": "A native L\u00d6VE2D recreation of Poke Gold, Silver and Crystal",
+  "tags": [
+   "recomp",
+   "lua",
+   "retro",
+   "engine",
+   "rpg",
+   "gaming"
+  ]
+ },
+ "com.underthing.focus.friend": {
+  "category": "lifestyle",
+  "date": "2026-10-25",
+  "description": "Staying productive has become more difficult than ever between social media distractions and endless notifications. Focus Friend helps you manage your time, maintain your concentration, and accomplish your daily goals by reducing digital interruptions and keeping you on track throughout the day.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d1b406f60724e0e3ebfdb010196e6777f7f128d0e3fd52732f21ea633bb0e587",
+  "subtitle": "Stay productive and minimize distractions",
+  "tags": [
+   "focus",
+   "productivity",
+   "distractions",
+   "notifications",
+   "goals",
+   "time"
   ]
  },
  "com.unicostudio.braintest": {
@@ -18394,6 +20199,112 @@
    "game"
   ]
  },
+ "com.unknown.fontforiphone": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "Font For iPhone provides a collection of fonts that can be used across all apps on iOS. It lets you apply custom typefaces to text in social media and other applications. The app works directly without additional setup.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "473b83fc910dd49859eb971a2e9b8469cd8364fa916ddee4102b194117ce2e22",
+  "subtitle": "Custom fonts for social media apps",
+  "tags": [
+   "font",
+   "customization",
+   "social",
+   "media",
+   "ios",
+   "text"
+  ]
+ },
+ "com.unknown.frag": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "FRAG is a mod menu that provides a mod mode, ESP functionality, an auto kill feature to eliminate all enemies, and a 10k tokens option for additional resources.",
+  "features": [
+   "Mod Mode",
+   "ESP",
+   "Auto Kill",
+   "10k Tokens"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "455fc51643dbee6756dffbf41949643746da8db313ecec1bfefd4c9f27a487e9",
+  "subtitle": "Mod menu with ESP, Auto Kill, and 10k tokens",
+  "tags": [
+   "mod",
+   "esp",
+   "auto kill",
+   "tokens",
+   "cheat",
+   "game"
+  ]
+ },
+ "com.unknown.galaxiga": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "Galaxiga application developed by Karbin-Store. Hacke Future.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4672e7506331949387328fd075b3c99d46dd2c6e2e455d0cf8d87c78ef467707",
+  "subtitle": "Galaxiga application",
+  "tags": [
+   "galaxiga",
+   "karbin-store",
+   "hacke",
+   "future"
+  ]
+ },
+ "com.unknown.gearbrowser": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Gear Browser is a utility application designed with professional developer tools and customization features. It includes an element inspector tool, a professional dark mode, and the ability to create and test user scripts without limitations. The app also features page inspection capabilities.",
+  "features": [
+   "Element Inspector",
+   "Professional Dark Mode",
+   "User Script Testing",
+   "Page Inspection"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3fba10a3c1cf5da30089e74c0b9373e4cba6ed6941cc2a46eb4431e17a5aabf2",
+  "subtitle": "Advanced web browser with developer tools and dark mode",
+  "tags": [
+   "browser",
+   "developer",
+   "inspector",
+   "dark mode",
+   "scripts",
+   "utilities"
+  ]
+ },
+ "com.unknown.gemaichatassistant": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "\u0632\u06cc\u0631\u06d5\u06a9\u06cc \u062f\u06d5\u0633\u06a9\u0631\u062f\u062f",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "722321a74b30db340478f091f7f4c87957ea01c83095caa6994aa74eb11f6a66",
+  "subtitle": "GemAI Chat Assistant",
+  "tags": [
+   "gemai",
+   "chat",
+   "assistant",
+   "ai"
+  ]
+ },
+ "com.unknown.gettingoverit": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Getting Over It is available as an Apple Arcade game. Experience the challenging climbing gameplay directly on your iOS device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ada7f63de9137de56c80b8615086ae20147c0957161688334bb043976b98975a",
+  "subtitle": "Apple Arcade game",
+  "tags": [
+   "getting over it",
+   "apple arcade",
+   "game",
+   "climbing"
+  ]
+ },
  "com.unofficial.balatro": {
   "category": "games",
   "date": "2026-10-15",
@@ -18841,6 +20752,27 @@
    "private",
    "health",
    "cycle"
+  ]
+ },
+ "com.winter.breaker": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Frost World is a modified IPA package for iOS that applies a damage multiplier to supported games. It targets mobile players looking for altered gameplay with increased damage output. The package is distributed through third-party sources and modifies game behavior to enhance offensive capabilities in strategy and action titles.",
+  "features": [
+   "Damage Multiplier",
+   "Modified IPA",
+   "Third-Party Install"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0541bb8e5c5469eb5785d6f9a32ee47f5065029640a074d080d793a604fee856",
+  "subtitle": "Damage multiplier mod for iOS games",
+  "tags": [
+   "game",
+   "modifier",
+   "damage",
+   "multiplier",
+   "ipa",
+   "cheat"
   ]
  },
  "com.wisdomlogix.watch.faces": {
@@ -20087,6 +22019,23 @@
    "documents"
   ]
  },
+ "cypwn.Fugu15_TS.1.0": {
+  "category": "developer",
+  "date": "2026-10-25",
+  "description": "Fugu15 v0.0.1 by Linus Henze. Source code available on GitHub at https://github.com/pinauten/Fugu15.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b2ded8f200153e00fbe18bb462b1302e4b8877d03b514929a814afea80fca396",
+  "subtitle": "Fugu15 developer tool for iOS",
+  "tags": [
+   "fugu15",
+   "v0.0.1",
+   "linus henze",
+   "github",
+   "developer",
+   "ios"
+  ]
+ },
  "cypwn.cl1m4x.1.3": {
   "category": "other",
   "date": "2026-10-18",
@@ -20491,6 +22440,25 @@
    "training"
   ]
  },
+ "fontskeyboard.fonts": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "This is a modified version of a fonts application with subscription features unlocked. The original app provides font collections and text styling tools. This version removes subscription requirements for premium features. Distributed through third-party repositories.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7f231e7c4833fb5833d26cb9fb0c2c703718488fadb7d84fd70fecb8140c1f07",
+  "subtitle": "Modified fonts app with subscription unlocked",
+  "tags": [
+   "fonts",
+   "subscription",
+   "unlocked",
+   "modified",
+   "text",
+   "styling"
+  ]
+ },
  "fr.blaukke": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -20591,6 +22559,28 @@
    "rpg"
   ]
  },
+ "games.urmobi.found.it": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Found It! is a hidden object game modified with a tweak providing unlimited in-game resources. The modification includes unlimited hints, magnets, magic wands, skipits, and pointers. All premium features are unlocked.",
+  "features": [
+   "Unlimited Hints",
+   "Unlimited Magnets",
+   "Unlimited Magic Wands",
+   "Unlimited Skipits",
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "34b325e3655af6a182aa07310d21f60cd63e1c6931787517435e7c847fcb90ca",
+  "subtitle": "Hidden object game with unlimited resources",
+  "tags": [
+   "hidden object",
+   "puzzle",
+   "unlimited",
+   "tweak",
+   "premium"
+  ]
+ },
  "games.war.strategy.dragon.clash.aaw.hourgames": {
   "category": "games",
   "date": "2026-10-14",
@@ -20672,6 +22662,21 @@
    "mountain",
    "adventure",
    "controller"
+  ]
+ },
+ "gg.battlefinity.app": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "Battlefinity provides loadouts and meta information for players. Requires iOS 14.0 or later. App version 1.1.4.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "32760351d46ea44004a2b67868f814f0deaf0c80dbb5ddbd440881ef7c4d39f3",
+  "subtitle": "Loadouts and meta for Battlefinity",
+  "tags": [
+   "battlefinity",
+   "loadouts",
+   "meta",
+   "gaming"
   ]
  },
  "hd.clear.status.app.clearstatus": {
@@ -20847,6 +22852,23 @@
    "text"
   ]
  },
+ "io.github.bthuner.gase": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Gase is a Sega Mega Drive and Genesis emulator written in Rust. Designed to be fast, compatible, and pleasant to use, the emulator core has no external dependencies. Every hardware chip lives in its own documented crate to help users learn how the system works. The project details its construction chip by chip, and the software can also run in a web browser.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "741bfc7415d1b9f7ffe6b6f5b9d4a9c050c6d661f130e33956fb92abd1c92234",
+  "subtitle": "Sega Mega Drive and Genesis emulator",
+  "tags": [
+   "emulator",
+   "genesis",
+   "megadrive",
+   "sega",
+   "rust",
+   "retro"
+  ]
+ },
  "io.github.getaccretion.Accretion": {
   "category": "utilities",
   "date": "2026-10-14",
@@ -20886,36 +22908,62 @@
    "retro"
   ]
  },
+ "io.github.normalllll.freepiv": {
+  "category": "entertainment",
+  "date": "2026-10-25",
+  "description": "freepiv is an open-source, cross-platform Pixiv browser that supports FANBOX and pixivision. It lets you browse illustrations, manga, animated artwork, and novels; search works and users with filters and tags; follow creators, bookmark works, and view your collections. It also provides pixivision articles by category, tag, or keyword, with popular articles and featured works.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d19ea85f6b73deb255a3c8dfd9e32b70fd47e15b4f5777f8c3f8b6d849db49e6",
+  "subtitle": "Open-source Pixiv browser with FANBOX and pixivision",
+  "tags": [
+   "pixiv",
+   "fanbox",
+   "pixivision",
+   "illustrations",
+   "manga",
+   "novels"
+  ]
+ },
  "io.github.saschb2b.cyberworldendless": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Play online with your own unmodified Mega Man Battle Network 6 Cybeast Gregar USA ROM. Optional Battle Network 5 Team Colonel USA ROM support fills the NetPass for online features including NetBattles, trades, and the week's DeepNet. Host a Net Square and connect with other players. No Capcom data or ROMs are included with this application.",
-  "features": [],
+  "date": "2026-10-25",
+  "description": "Cyberworld allows you to host a Net Square, use a player guide, and access project discussions. You need your own unmodified Mega Man Battle Network 6: Cybeast Gregar USA ROM. Battle Network 5 Team Colonel USA is optional and used for online features such as NetBattles, trades, and the week's DeepNet. The app contains no Capcom data, and without the required ROM there is no game.",
+  "features": [
+   "Host a Net Square",
+   "Player guide",
+   "Online NetBattles and trades"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "6e9742ca4d55f2d1d54fe8384ce84cc84ef8b72b832c66ef5977600ead9169ac",
-  "subtitle": "Online multiplayer and trading for Battle Network 6",
+  "src_hash": "a4234a971fa3045cb41f7d1e87249a392775db6137d8f3f1caceb5f89b5b5152",
+  "subtitle": "Companion app for network battles and trades",
   "tags": [
-   "megaman",
-   "battle",
-   "network",
-   "online",
+   "cyberworld",
+   "battlenetwork",
    "rom",
+   "guide",
    "multiplayer"
   ]
  },
  "io.github.thatguymcd.dkrr.ios": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "DKR-R version 1.0.8 fixes a Windows startup issue where the game could stop before reaching graphics. The application previously requested 4 GiB of memory from Windows instead of the intended 512 MiB, which is now corrected. The guard region remains protected, and your existing saves and mods do not need to be reset. If memory is unavailable, the log now provides the specific Windows error. All previous additions from version 1.0.7 are included.",
-  "features": [],
+  "date": "2026-10-25",
+  "description": "DKR-R is a native static recompilation of Diddy Kong Racing. This version improves online play by fixing problems joining modded lobbies, races getting stuck at the start, and spectators getting a black screen during custom races. Open lobbies are also tidied up while keeping the current launcher design. Public lobbies, custom cars, achievements, texture tools, and existing modding features remain available. Saves and mods do not need to be reset or reinstalled. Bring your own legally obtained US v1.0 or US Rev A/v1.1 ROM. No ROM or extracted game assets are supplied.",
+  "features": [
+   "Online lobbies",
+   "Custom cars",
+   "Texture tools",
+   "Achievements"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "8a9d740ab0eeabe6aa81b3d2ae5d425889921651a4f7954716be361dbb2ec284",
-  "subtitle": "Game update addressing Windows startup memory issue",
+  "src_hash": "918c60c6f22b67eaaead4fe07c2c4864e3fc97b7c081147fdf4ef9dc89d581f5",
+  "subtitle": "Native static recompilation of Diddy Kong Racing",
   "tags": [
-   "game",
-   "update",
-   "mod",
-   "fix"
+   "racing",
+   "recompilation",
+   "modding",
+   "multiplayer",
+   "retro"
   ]
  },
  "io.github.thomasthanos.An1me-Tracker": {
@@ -21086,6 +23134,25 @@
    "utilities"
   ]
  },
+ "io.stampapp.Stamp": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "This version has subscription features unlocked. Transfer playlists and music libraries between streaming services.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "44b6379c0ec9b454364625b3a024286d74624365e344b3b1963c1dd0709f3802",
+  "subtitle": "Music transfer with subscription unlocked",
+  "tags": [
+   "music",
+   "transfer",
+   "playlist",
+   "sync",
+   "streaming",
+   "unlocked"
+  ]
+ },
  "io.supercent.burgersimulator": {
   "category": "games",
   "date": "2026-10-15",
@@ -21137,20 +23204,21 @@
  },
  "io.voodoo.dune": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Experience Dune version 5.5.79 with enhanced modifications. This release includes unlimited coins to progress through the game and removes all advertisements for uninterrupted gameplay.",
+  "date": "2026-10-25",
+  "description": "Dune version 5.6.07. This patched release includes unlimited coins and no ads. Requires minimum OS version 1.",
   "features": [
    "Unlimited Coins",
    "No Ads"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "5cd5e130bb9f0e95c190dc9237442c838925980b0d3a786a025fb6e9e4f85a25",
-  "subtitle": "Play Dune with unlimited coins and no ads.",
+  "src_hash": "c4278137433e522632ffac60d535dbcb60658226a31ccbbd46edecc9b0b32f1f",
+  "subtitle": "Arcade game with tweaked features",
   "tags": [
    "dune",
    "arcade",
-   "coins",
-   "game"
+   "game",
+   "tweaked",
+   "coins"
   ]
  },
  "it.Ettore.Electrical-Calculations-FREE": {
@@ -21240,6 +23308,23 @@
    "legends",
    "hack",
    "cheat"
+  ]
+ },
+ "jp.co.bandainamcoent.BNEI0405": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Experience the world of Gundam, combining epic storytelling with mechanical combat in SD Gundam G Generation ETERNAL.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "bb9b55cf7caa312ebe546284124ac797df52f09adcf4b770d27614deb5ff2cc9",
+  "subtitle": "Experience the world of Gundam",
+  "tags": [
+   "gundam",
+   "mecha",
+   "combat",
+   "strategy",
+   "anime",
+   "action"
   ]
  },
  "jp.co.bandainamcogames.BNGI0221": {
@@ -21517,6 +23602,27 @@
    "camera"
   ]
  },
+ "live.cclerc.geranium": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "Geranium is a utility application for your device. It includes location simulation, daemon management, a system cleaner, and additional tools.",
+  "features": [
+   "LocSim",
+   "Daemon Mngr",
+   "Cleaner"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "776ed31d3683a6d20736a3995ae2cac39d1afa40d3614efe8ba5769b7de3fe28",
+  "subtitle": "LocSim, Daemon Mngr, Cleaner and more",
+  "tags": [
+   "locsim",
+   "daemon",
+   "cleaner",
+   "utilities",
+   "manager",
+   "tools"
+  ]
+ },
  "llc.planeenglish.PlaneEnglish": {
   "category": "other",
   "date": "2026-10-15",
@@ -21631,6 +23737,23 @@
    "404",
    "error",
    "not found"
+  ]
+ },
+ "me.nabdev.gearglimpserev": {
+  "category": "utilities",
+  "date": "2026-10-25",
+  "description": "AR Tools for FRC. Connect to the simulator or robot and view it on the field in real-time. View the field in life-size or miniature. Works best on devices with a LIDAR sensor, but other devices are supported.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "634506c946924ee3df2f2ec281cdb869c4cac74800f3f24e6cce92354f0f54f4",
+  "subtitle": "AR tools for FRC robots and fields",
+  "tags": [
+   "ar",
+   "frc",
+   "robot",
+   "simulator",
+   "field",
+   "lidar"
   ]
  },
  "me.oatmealdome.DolphiniOS-njb-patreon-beta": {
@@ -22422,6 +24545,23 @@
    "utility"
   ]
  },
+ "org.epicgames.FortniteGame": {
+  "category": "games",
+  "date": "2026-10-25",
+  "description": "Fortnite by Epic Games can be played outside the EU through sideloading. Requires special entitlements including Extended Virtual Addressing and Increased Memory Limit to run. Status indicates the app is functional.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b2fd2443695c46412fdfa60980dda4e078909528c3e542f7e09fd681a64de9fc",
+  "subtitle": "Battle royale game playable via sideloading",
+  "tags": [
+   "fortnite",
+   "epic games",
+   "battle royale",
+   "sideloading",
+   "ios",
+   "gaming"
+  ]
+ },
  "org.ericbetts.CattleGrid": {
   "category": "developer",
   "date": "2026-10-15",
@@ -22542,6 +24682,24 @@
    "bangumi",
    "torrent",
    "offline"
+  ]
+ },
+ "org.reactjs.native.Inkitt.App.Colt": {
+  "category": "other",
+  "date": "2026-10-25",
+  "description": "Galatea app featuring an unlocked subscription. This IPA file has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b4c09be296ba68f3050bd26acd5f82cb748b94a7f7318623d68638e7617bdfee",
+  "subtitle": "Galatea app with unlocked subscription",
+  "tags": [
+   "galatea",
+   "unlocked",
+   "ttjb",
+   "ipa",
+   "subscription"
   ]
  },
  "org.reactjs.native.example.FluentAI": {
@@ -23293,6 +25451,28 @@
    "management",
    "multi account",
    "utility"
+  ]
+ },
+ "wiki.qaq.GhostRemote": {
+  "category": "developer",
+  "date": "2026-10-25",
+  "description": "Ghost Remote provides remote access for iPhone and iPad to connect with devices running iGhostVT. It opens terminals on your other devices and runs none of its own. It features a GPU-drawn terminal powered by the Ghostty engine, the Ghostty theme catalog, and extra keys on the software keyboard.",
+  "features": [
+   "GPU-drawn terminal",
+   "Ghostty theme catalog",
+   "Extra software keyboard keys",
+   "Remote terminal access"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "f3758731ccdac2973bb4ca7647cb64a16826cb4d8abf78f677561f85f70c4db5",
+  "subtitle": "Remote terminal access for devices running iGhostVT",
+  "tags": [
+   "terminal",
+   "remote",
+   "ssh",
+   "shell",
+   "developer",
+   "ghostty"
   ]
  },
  "xyz.cozylabs.cozywalk": {
