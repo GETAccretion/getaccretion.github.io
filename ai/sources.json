@@ -214,6 +214,16 @@
   "real": true,
   "reason": "This is a legitimate raw GitHub JSON file configured as an AltStore app source for Lumisound."
  },
+ "https://raw.githubusercontent.com/HollowHeavenXR/Lumisound/main/ios/altstore-source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "The URL points to a raw JSON file on GitHub specifically hosted for AltStore as an app source for the Lumisound iOS app."
+ },
+ "https://raw.githubusercontent.com/Jabberwocky7777/Pokedex-Tracker/main/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": false,
+  "reason": "This is a personal repository hosting a single app and not a legitimate community-curated AltStore source or established developer repository."
+ },
  "https://raw.githubusercontent.com/Jannehy/nightshift-ios/main/altstore.json": {
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
@@ -459,6 +469,11 @@
   "real": true,
   "reason": "Valid AltStore app source JSON hosted directly on GitHub for the Animeko app."
  },
+ "https://raw.githubusercontent.com/bebound/AltGallery/master/apps/BCD/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a raw GitHub URL hosting a valid AltStore/SideStore app source JSON file."
+ },
  "https://raw.githubusercontent.com/bebound/AltGallery/master/apps/Doer/apps.json": {
   "model": "gemini:gemini-3.5-flash",
   "real": true,
@@ -483,6 +498,11 @@
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
   "reason": "URL points to a raw GitHub file named source.json which is an AltStore source containing apps."
+ },
+ "https://raw.githubusercontent.com/codeboy2012/PwEevee/main/website/pweevee/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate GitHub raw JSON app source for the PwEevee AltStore repository."
  },
  "https://raw.githubusercontent.com/cute-catgirl/Loft/main/altstore/source.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
@@ -659,10 +679,20 @@
   "real": true,
   "reason": "The URL points to a raw GitHub-hosted JSON file that appears to be a valid AltStore/SideStore app source containing the FileManager app."
  },
+ "https://raw.githubusercontent.com/yeeet7/altstore_source/main/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a direct raw GitHub link to a JSON app source file intended for AltStore, fitting the standard developer source structure."
+ },
  "https://raw.githubusercontent.com/zenith-kamo/AltStore-PAL-LocalDevVPN/main/public/repo.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
   "reason": "The URL points to a raw repo.json file on GitHub that contains a proper AltStore/SideStore repository catalogue with app metadata, indicating it is a legitimate app source."
+ },
+ "https://repo.apptesters.org": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "AppTesters is a well-known, large community app source for AltStore and SideStore offering a vast catalogue of tweaked and sideloaded iOS applications."
  },
  "https://taurine.app/altstore/taurinestore.json": {
   "model": "gemini:gemini-3.5-flash-lite",
