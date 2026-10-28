@@ -15,6 +15,22 @@
    "game"
   ]
  },
+ "4GU63N96WE.com.p5sys.jumpdesktop": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Jump_9.8.0 is an application for RDP and VNC connections. Access and manage your remote systems directly from your device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "be6b78f12d5fe882426cc73c7a77cdf42317543d4d71c80b3dc29cc10e3ee2e1",
+  "subtitle": "RDP and VNC application",
+  "tags": [
+   "rdp",
+   "vnc",
+   "remote",
+   "desktop",
+   "connection"
+  ]
+ },
  "5f796ef4752841bdb647c1a4a0783fe9": {
   "category": "other",
   "date": "2026-10-21",
@@ -287,6 +303,24 @@
    "premium",
    "unlocked",
    "app"
+  ]
+ },
+ "PhotoEditor.PhotoCollage.inCollage": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "InCollage is a photo collage maker and editor. Combine multiple photos with various frame layouts and photo grids, apply filters, and add text to your images. The app includes the premium version unlocked with all paid features available.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "13ef5ce40f53bb762bcc5f12d05d5ca26d092c9b862e2e2aa5773bdd85b26789",
+  "subtitle": "Collage maker and photo editor",
+  "tags": [
+   "collage",
+   "photo",
+   "editor",
+   "grid",
+   "pictures"
   ]
  },
  "Quanticapps.Athan.watchkitapp": {
@@ -760,6 +794,57 @@
    "ipa"
   ]
  },
+ "app.ish.ISH": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "iSH is a project to get a Linux shell running on iOS, using usermode x86 emulation and syscall translation.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "085f07f543734be51324b5100ea7bd3e1e0d73f4454a946ba847b2c0d982f44e",
+  "subtitle": "Run a Linux shell on iOS",
+  "tags": [
+   "linux",
+   "shell",
+   "terminal",
+   "emulation",
+   "x86"
+  ]
+ },
+ "app.ish.iSH": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "iSH is a project to get a Linux shell environment running locally on your iOS device, using a usermode x86 emulator.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9296c2971d656364f4df4b732375309cf9fe1c48f15c575297b695c964e14e0e",
+  "subtitle": "Run a Linux shell on your iOS device",
+  "tags": [
+   "linux",
+   "shell",
+   "terminal",
+   "emulator",
+   "x86"
+  ]
+ },
+ "app.ish.iSH-AOK": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Run an x86_64 Linux virtual machine on your iOS device. This is the latest TestFlight version of iSH-AOK, provided as a reupload for the zx repository.",
+  "features": [
+   "Linux VM",
+   "x86_64 architecture"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f18d115db5e8738132e4c49f5a3bc240c5b0e5f8092c0487e5c0810c8d4598d3",
+  "subtitle": "x86_64 Linux VM for iOS",
+  "tags": [
+   "linux",
+   "vm",
+   "virtual machine",
+   "x86_64",
+   "terminal"
+  ]
+ },
  "app.molinete.aerio": {
   "category": "entertainment",
   "date": "2026-10-19",
@@ -937,6 +1022,22 @@
    "widget"
   ]
  },
+ "azurgames.kingdom.clash": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kingdom Clash is a real-time strategy action game set in a war-ridden kingdom. Players must battle their opponents and engage in tactical warfare.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e58f29c780c51d528dc5ae03c0ddeb29bf8e59c386377ead1dbe38926c907b47",
+  "subtitle": "Real-time strategy action game",
+  "tags": [
+   "strategy",
+   "action",
+   "kingdom",
+   "battle",
+   "war"
+  ]
+ },
  "background.remover.bg.eraser": {
   "category": "utilities",
   "date": "2026-10-21",
@@ -1073,6 +1174,42 @@
    "monitor",
    "developer",
    "tools"
+  ]
+ },
+ "camera.lux.kino": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "Kino is a video camera app with Pro features unlocked.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "7f92da6d32798d928ed13d26111b1822360567d8c2f68789ba8e8f313ddf43fd",
+  "subtitle": "Video camera with Pro features",
+  "tags": [
+   "kino",
+   "video",
+   "camera",
+   "pro"
+  ]
+ },
+ "cameronnazemi.JournalWithTappy": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Journal With Tappy is a journaling application. This version includes premium features unlocked. Record your daily thoughts and experiences with this patched release.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "99e875ae8edab007e462a543da610e8d773036f8505e3a1c3c6b93a78139caf7",
+  "subtitle": "Journal With Tappy",
+  "tags": [
+   "journal",
+   "diary",
+   "tappy",
+   "notes",
+   "writing",
+   "premium"
   ]
  },
  "camp.FitWoody": {
@@ -1527,6 +1664,22 @@
    "ios"
   ]
  },
+ "co.imba.kawaiimansion": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kawaii Mansion Find It Out is a hidden object game for iOS. Explore charming scenes and find hidden items.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c20cab7c065fc85049406c8cef22e3b394699dbbd75c3c4915eda600c46aad39",
+  "subtitle": "A delightful hidden object game",
+  "tags": [
+   "hidden object",
+   "puzzle",
+   "game",
+   "kawaii",
+   "mansion"
+  ]
+ },
  "co.imba.threekingdoms.towerdefense": {
   "category": "games",
   "date": "2026-10-20",
@@ -1591,6 +1744,22 @@
    "creator",
    "recording",
    "photo"
+  ]
+ },
+ "com.34306.adspeed": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "A tweak that makes the playback of ads much faster, essentially functioning as an adblocker.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6714c18bb0241ab97619ccddaaf02ffaf3a1ebf7113a6f20f202a31adeac2823",
+  "subtitle": "Speed up ad playback",
+  "tags": [
+   "tweak",
+   "ads",
+   "speed",
+   "playback",
+   "blocker"
   ]
  },
  "com.34306.waifuts": {
@@ -1661,6 +1830,21 @@
    "game",
    "ios",
    "arcade"
+  ]
+ },
+ "com.AJNSNewMedia.KitchenStories": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Kitchen Stories provides easy recipes. Requires iOS 15.6 or later. App version 27.2.11.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "3142156b175bc3f4baae049d4f1ff23e47b2bf9e21d3f3ec53e580febb73816b",
+  "subtitle": "Easy recipes",
+  "tags": [
+   "recipes",
+   "cooking",
+   "kitchen",
+   "food"
   ]
  },
  "com.AlfaBravo.CombatMaster": {
@@ -1766,19 +1950,18 @@
  },
  "com.CalculatorForiPad.InternetRocks": {
   "category": "utilities",
-  "date": "2026-10-24",
-  "description": "CalculatorAir features an unlocked subscription. The IPA file has been tested and compiled by the TTJB Team.",
+  "date": "2026-10-28",
+  "description": "CalculatorAir is a calculation tool that comes with subscription unlocked.",
   "features": [
-   "Unlocked"
+   "Subscription Unlocked"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "228272c071ebc79996c94c6670bce7131a1ef8930c5ba02fc74194d6e8ad1cb1",
-  "subtitle": "Modified calculator app with subscription unlocked",
+  "src_hash": "5f83f2b8227b7b2d97be260797ed75b2a30978e203b962dae4a9742aec6990f1",
+  "subtitle": "Calculate with subscription unlocked",
   "tags": [
    "calculator",
-   "unlocked",
-   "ipa",
-   "ttjb"
+   "math",
+   "utilities"
   ]
  },
  "com.CanYouJB.SamoXcZ": {
@@ -2085,6 +2268,28 @@
    "game"
   ]
  },
+ "com.InputStreamPlayer": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "InputStream Player is a media player for your own playlists of live TV, movies and series on iPhone, iPad, Apple TV, Mac, and Android or Google TV. The app ships with no playlists, credentials or third-party keys, and is intended solely for content you are entitled to access. Features include live TV playback with an XMLTV guide, remote-control zapping, and catch-up functionality. It is available for verifiable distribution through SideStore.",
+  "features": [
+   "Live TV Guide",
+   "Remote-Control Zapping",
+   "Catch-Up Support",
+   "Multi-Platform"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "088cab8654b9a5c5bd909d26422ab5615b87d9c9dc05384ee8d367b3657313e5",
+  "subtitle": "Play your own live TV, movies and series playlists",
+  "tags": [
+   "player",
+   "playlist",
+   "livetv",
+   "movies",
+   "series",
+   "media"
+  ]
+ },
  "com.InvisibleIsland.InvisibleIsland": {
   "category": "photo-video",
   "date": "2026-10-27",
@@ -2259,6 +2464,24 @@
    "strategic depth",
    "game",
    "strategy"
+  ]
+ },
+ "com.MDickie.InfiniteLives": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Infinite Lives provides unlocked premium content with all in-app purchases included. This app is designed for users looking to access full game features directly. Compatible with standard sideloading methods for easy installation on your device.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e44903e1a4c8a20115b63abc6ee90e7a20e04ab4938f302b576a1c33338d0ff9",
+  "subtitle": "Unlock all in-app purchases",
+  "tags": [
+   "games",
+   "unlocked",
+   "premium",
+   "infinite",
+   "lives"
   ]
  },
  "com.MISHIKinc.Caucasus-Parking": {
@@ -2789,6 +3012,25 @@
    "game"
   ]
  },
+ "com.Yooshr.Infltr": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "Infltr provides infinite filters for your photos and videos. This version comes with Pro features unlocked. Requires minimum iOS version 14.0.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "db3293d509d42d22da9a6e94121aa8d7fc8c280207eaa6291703fb586067541d",
+  "subtitle": "Infinite Filters with Pro features unlocked",
+  "tags": [
+   "filters",
+   "photo",
+   "video",
+   "editor",
+   "pro",
+   "camera"
+  ]
+ },
  "com.aagame.aagame": {
   "category": "games",
   "date": "2026-10-18",
@@ -2808,20 +3050,20 @@
  },
  "com.aaronray.fontcandy": {
   "category": "photo-video",
-  "date": "2026-10-25",
-  "description": "Font Candy Photo and Text Editor is an application for adding text and editing photos on iOS devices. Requires iOS 13.0 or later.",
+  "date": "2026-10-28",
+  "description": "Font Candy Photo is a photo editing application designed to help users create and share stunning images. This version includes unlocked features to enhance your photo editing experience.",
   "features": [
-   "Subscription Unlocked"
+   "Unlocked"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "6245b1cbb95e5224cc6f40bc12094a59b5021bc0fb3a1cbb9f3e04a784a69efe",
-  "subtitle": "Photo and text editor app",
+  "src_hash": "04ca81f0bee2b6aa239dc642e8d2c353ec9ff6fbd52971679b692bb92ba685fc",
+  "subtitle": "Photo editing app for stunning images",
   "tags": [
+   "font",
+   "candy",
    "photo",
-   "text",
-   "editor",
-   "fonts",
-   "image"
+   "editing",
+   "images"
   ]
  },
  "com.abbyy.finescanner": {
@@ -3073,6 +3315,26 @@
    "ttjb"
   ]
  },
+ "com.adobe.ailogo": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Illustrator is an IPA package compiled and tested by the TTJB Team. This version includes a modified in-app purchase function that allows users to trigger purchases and then cancel them. All files are thoroughly reviewed before distribution.",
+  "features": [
+   "In-App Purchase Hack",
+   "Verified IPA",
+   "TTJB Team Tested"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "800da1474d3e008b9843793bed78d4e092c2fdd69c273f3938386f06288508b8",
+  "subtitle": "IPA package with in-app purchase modification",
+  "tags": [
+   "illustrator",
+   "ipa",
+   "ttjb",
+   "purchases",
+   "tools"
+  ]
+ },
  "com.adobe.fresco.ios": {
   "category": "other",
   "date": "2026-10-14",
@@ -3161,6 +3423,24 @@
    "game"
   ]
  },
+ "com.aeosys.joyai": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Joy AI is an application with the subscription unlocked tweak applied.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "01e59b2d0546f9b9e9f5d4d99b88aefa9b104666b9296029aecc22c568bbdbc2",
+  "subtitle": "Joy AI subscription unlocked",
+  "tags": [
+   "joy",
+   "ai",
+   "unlocked",
+   "subscription",
+   "tweak"
+  ]
+ },
  "com.aero.aerostore.S32Z3HMYVQ": {
   "category": "developer",
   "date": "2026-10-19",
@@ -3237,6 +3517,24 @@
    "writing",
    "capture",
    "editor"
+  ]
+ },
+ "com.ahaf.mshion": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "ism is an app available from the AppTesters IPA Repo. This version comes pre-injected with the subscription unlocked feature.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "358d2663aeff1bf3d0234b658fb0097669c9db1e0b4bcd3acb902da5408b601b",
+  "subtitle": "Injected with Subscription Unlocked",
+  "tags": [
+   "ism",
+   "apptesters",
+   "ipa",
+   "unlocked",
+   "utilities"
   ]
  },
  "com.aheadsolutions.aHead": {
@@ -4060,6 +4358,23 @@
    "citra"
   ]
  },
+ "com.aone.Keka-iOS": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Keka is a full featured file archiver that lets you compress files into multiple formats and encrypt them for secure sharing and privacy. It allows you to browse and extract a wide range of compressed files, including ZIP, 7Z, and RAR archives, even when they are encrypted or use older charsets. Supported compression formats include 7Z, ZIP, TAR, ZSTD, GZIP, BZIP2, and AppleArchive. Supported extraction formats include 7Z, ZIP, RAR, TAR, GZIP, BZIP2, AAR, XZ, ZSTD, ISO, LZMA, EXE, CAB, MSI, PAX, JAR, APK, APPX, XPI, IPA, CPGZ, CPIO, XIP, CPT, and others.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3fa2a5a390752b79292bdd9a971051a58f98dd1e8717c3d61067a53be16d4847",
+  "subtitle": "File archiver to compress and extract files securely",
+  "tags": [
+   "archiver",
+   "compression",
+   "extraction",
+   "encryption",
+   "zip",
+   "files"
+  ]
+ },
  "com.ap-dev.bday-reminder": {
   "category": "lifestyle",
   "date": "2026-10-15",
@@ -4358,6 +4673,22 @@
    "sports",
    "king",
    "game"
+  ]
+ },
+ "com.arcuilo.inktica": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Inktica is an application that comes injected with premium features. It provides users with enhanced functionality right out of the box without requiring additional purchases.",
+  "features": [
+   "Premium"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "fff37a135f07fb24ad886a9d27cfff6159bb6f8b5e8e3c34668cba2688502ff4",
+  "subtitle": "Injected with Premium",
+  "tags": [
+   "inktica",
+   "premium",
+   "tools"
   ]
  },
  "com.armsx2.ios": {
@@ -4697,6 +5028,28 @@
    "game"
   ]
  },
+ "com.baconmania.jessi": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "JESSI is an iOS app that runs Minecraft Java Edition servers natively on iOS, targeting iOS 14 and newer. It runs on both jailed and jailbroken devices, requiring JIT to operate. Designed to be easy to use for beginners, it features a simple user interface for hosting a Minecraft server even if you have never hosted one before. JESSI also has full compatibility with LiveContainer when installed inside it and launched with JIT.",
+  "features": [
+   "Native Java servers",
+   "Jailed and jailbroken",
+   "Beginner friendly",
+   "LiveContainer compatible"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c85bd499ca3f65001429a955f173ded484a2ab3211e3e18676ea126c2902d97c",
+  "subtitle": "Host Minecraft Java Edition servers natively on iOS",
+  "tags": [
+   "minecraft",
+   "server",
+   "java",
+   "host",
+   "gaming",
+   "utility"
+  ]
+ },
  "com.badoo.BadooSPP": {
   "category": "social",
   "date": "2026-10-15",
@@ -4963,6 +5316,22 @@
    "info"
   ]
  },
+ "com.benricemccarthy.ketchup": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Encyclopaedia app for Pokemon. Created by request.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "fab7260602f993b739d029cf56733760034fd4a835dbd381aaeefb967b534843",
+  "subtitle": "Encyclopaedia app for Pokemon",
+  "tags": [
+   "pokemon",
+   "encyclopaedia",
+   "dex",
+   "guide",
+   "reference"
+  ]
+ },
  "com.bethsoft.falloutshelter": {
   "category": "games",
   "date": "2026-10-21",
@@ -5107,6 +5476,23 @@
    "match",
    "game",
    "ios"
+  ]
+ },
+ "com.bigger.kitchenmasters": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kitchen Masters is a culinary-themed game for mobile devices.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "98d6af5802290d6c69e60022a77a49344a1f42a81a293ad3844bf62b1ca54b52",
+  "subtitle": "Culinary mobile game",
+  "tags": [
+   "kitchen",
+   "masters",
+   "culinary",
+   "game",
+   "cooking",
+   "mobile"
   ]
  },
  "com.bilibili.inter": {
@@ -6379,6 +6765,28 @@
    "classic"
   ]
  },
+ "com.chrissotraidis.kidpad": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "KidPad is a native recreation of the classic Kid Pix experience for iPhone, iPad, and Mac. It looks, sounds, and behaves like Kid Pix, using familiar artwork, sounds, tools, menus, stamps, brushes, and playful interactions. This is an independent, unofficial project designed to make Kid Pix feel at home on modern Apple devices. It is a native Swift implementation of the Kid Pix drawing experience featuring a Core Graphics canvas with SwiftUI and UIKit controls, not a browser canvas.",
+  "features": [
+   "Native Swift implementation",
+   "Core Graphics canvas",
+   "Classic tools and sounds",
+   "Supports iPhone iPad and Mac"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "21702b3d57514274a8a0b3a49679fb57ae53af0429149f9353e35af363c8a67d",
+  "subtitle": "A native recreation of the classic Kid Pix experience",
+  "tags": [
+   "drawing",
+   "kids",
+   "retro",
+   "art",
+   "canvas",
+   "native"
+  ]
+ },
  "com.christianselig.Apollo": {
   "category": "social",
   "date": "2026-10-15",
@@ -6838,6 +7246,27 @@
    "gaming"
   ]
  },
+ "com.cookie9843.KittenTTS2App": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "KittenTTS is an offline text-to-speech app for iPhone and iPad. Speech generation runs entirely on your device after downloading a model, requiring no account or cloud service.\n\nKittenTTS 2 offers 48 preset voices, support for multiple languages, and voice cloning from a short recording.\n\nKittenTTS 0.8 is a smaller, faster option featuring Nano, Micro, and Mini models, 8 preset voices, and speed control.\n\nModels can be downloaded directly inside the app from the Models tab.",
+  "features": [
+   "Offline",
+   "No Account Needed",
+   "Voice Cloning",
+   "Speed Control"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "de9c69a0a2600fd370ba15e566649b7bd9f6ecc0058ffa9f40213e40e845fa05",
+  "subtitle": "Offline text-to-speech with voice cloning",
+  "tags": [
+   "tts",
+   "text to speech",
+   "offline",
+   "voice cloning",
+   "speech"
+  ]
+ },
  "com.cooking.chaos.restaurant.games": {
   "category": "games",
   "date": "2026-10-18",
@@ -6903,6 +7332,43 @@
    "object"
   ]
  },
+ "com.cosmonautical.jellify": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "Jellify is a free and open source music player for the Jellyfin Media Server. Built with React Native, it showcases your music library artwork with a familiar user interface. The app provides algorithmic curation of your music driven by Jellyfin Instant Mix and Suggestions APIs. It is designed for live recordings and includes CarPlay support.",
+  "features": [
+   "Free",
+   "Open Source",
+   "CarPlay Support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f8bca86651ac65604c8990b62fd39379c515a537d3516486141abe9bdf75e3f0",
+  "subtitle": "Music player for Jellyfin Media Server",
+  "tags": [
+   "jellify",
+   "jellyfin",
+   "music",
+   "player",
+   "carplay"
+  ]
+ },
+ "com.courtois.PerfectIPTVn": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "IPTVPro is an IPTV streamer application. This app was created following a user request.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "96e835a067236c27b9f56e4747a474d61f2f3def955d0ef2afcbdab762e12aa3",
+  "subtitle": "An IPTV streamer app",
+  "tags": [
+   "iptv",
+   "streamer",
+   "video",
+   "media",
+   "player",
+   "entertainment"
+  ]
+ },
  "com.cpdigitaldarkroom.bundlr": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -6940,6 +7406,22 @@
    "youtube",
    "offline",
    "playlists"
+  ]
+ },
+ "com.crescentmoongames.jackquest": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "JackQuest on iOS brings a traditional action-platformer experience to iPhone users who appreciate skill-based gameplay and old-school design.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "32e48b4c1b8abeb666705e555d55e2ee4ca066f2a348b4dd93043730505d9324",
+  "subtitle": "Traditional action-platformer for iOS",
+  "tags": [
+   "action",
+   "platformer",
+   "retro",
+   "skill",
+   "arcade"
   ]
  },
  "com.crispapp.HolmesJunior": {
@@ -7099,6 +7581,23 @@
    "entertainment"
   ]
  },
+ "com.crunchyroll.gv.kitariafables": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kitaria Fables features added mods. The application package has been tested and verified.",
+  "features": [
+   "Mods Added"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "a0785eeb0b9ec924842c7b413f824748936b4f11255f068e7a2ef9917cb6a328",
+  "subtitle": "Includes added mods",
+  "tags": [
+   "kitaria",
+   "fables",
+   "mods",
+   "game"
+  ]
+ },
  "com.crunchyroll.gv.locksquest": {
   "category": "games",
   "date": "2026-10-18",
@@ -7152,19 +7651,20 @@
  },
  "com.cumbemg.davinci": {
   "category": "utilities",
-  "date": "2026-10-20",
-  "description": "Da Vinci Eye is an augmented reality application designed to revolutionize the way artists and hobbyists approach drawing and sketching. It combines advanced AR technology with traditional drawing techniques to help you create accurate sketches and artwork directly from your iOS device.",
-  "features": [],
+  "date": "2026-10-28",
+  "description": "Trace and draw using augmented reality with this application. This version includes subscription unlocked features.",
+  "features": [
+   "Subscription Unlocked"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c5994fc84470cdc8ecfe5d345f4321fe37c207124bfc89c8b32ba1f40f8752f9",
-  "subtitle": "AR Trace and Draw for artists and hobbyists",
+  "src_hash": "6cc32334d24b628a18221dbd139e421380d2f00b3f0c1e2b790410b6126cf02e",
+  "subtitle": "AR Trace and Draw application",
   "tags": [
-   "drawing",
-   "sketching",
-   "art",
    "ar",
    "trace",
-   "hobby"
+   "draw",
+   "art",
+   "sketch"
   ]
  },
  "com.curiousminds.chunkapp": {
@@ -7755,6 +8255,22 @@
    "files"
   ]
  },
+ "com.deviloper.capybara.tower.defense.kingdom.td.rpg.strategy": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Keep the Crown: Tower Defense TD is a strategy-based tower defense game for iOS. Defend your crown by building defenses and planning tactical placements against incoming enemies.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "cccba9f7ba0f980e99600c5cdbaa070945c0ba4a184daa527ac2841e11a6d863",
+  "subtitle": "Strategy-based tower defense game",
+  "tags": [
+   "tower defense",
+   "strategy",
+   "game",
+   "tactics",
+   "defense"
+  ]
+ },
  "com.devlaps.harekat2": {
   "category": "games",
   "date": "2026-10-26",
@@ -8263,6 +8779,22 @@
    "game"
   ]
  },
+ "com.dynamicisland.app": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Wallpapers for Dynamic Island. Customize the digital aesthetic of your device with a new canvas for self-expression.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "30a1b10c2bc36320b0af968bf05aba626f755f38844592ac625c85e4c3009842",
+  "subtitle": "Wallpapers for Dynamic Island",
+  "tags": [
+   "wallpapers",
+   "dynamic island",
+   "customization",
+   "aesthetic",
+   "device"
+  ]
+ },
  "com.ea.ios.bejeweledskies": {
   "category": "games",
   "date": "2026-10-15",
@@ -8395,6 +8927,25 @@
    "word",
    "puzzle",
    "game"
+  ]
+ },
+ "com.easybrain.puzzles": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Play jigsaw puzzles with version 3.10.0. This tweaked version includes no ads and unlimited hints for an uninterrupted puzzle solving experience.",
+  "features": [
+   "No Ads",
+   "Unlimited Hints"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "78183c89e16c70384976bf47585be846cb42c9fbf078e334452d5465d6b1b025",
+  "subtitle": "Jigsaw puzzles with no ads and unlimited hints",
+  "tags": [
+   "jigsaw",
+   "puzzles",
+   "games",
+   "hints",
+   "offline"
   ]
  },
  "com.edgeeloquent.app": {
@@ -8681,6 +9232,23 @@
    "sound"
   ]
  },
+ "com.endlessloopapps.aiartgenerator": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Journey AI is an iOS artificial intelligence application package that allows iPhone users to access advanced artificial intelligence capabilities directly on their devices.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "1aa6f53d4c7442606bd9c464a77a806923df74ff9e0a7e374db1af43bd82ad10",
+  "subtitle": "Advanced artificial intelligence app for iPhone",
+  "tags": [
+   "ai",
+   "artificial intelligence",
+   "assistant",
+   "ios",
+   "ipa",
+   "utility"
+  ]
+ },
  "com.engikode.enginote": {
   "category": "utilities",
   "date": "2026-10-21",
@@ -8921,6 +9489,28 @@
    "pictures"
   ]
  },
+ "com.evimore.InputLine": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "InputLine bridges the gap between your iOS device and PC when streaming games. While your streaming app handles audio and video, InputLine runs in the background to read your Steam Controller over Bluetooth and send inputs directly to your PC. Steam recognizes the device as a real, wired Steam Controller, allowing you to use both trackpads with pressure and haptics, the gyro, all four back buttons, capacitive sticks and grips, and your custom per-game layouts. It works with Moonlight and any standard streaming host without modifications.",
+  "features": [
+   "Supports all Steam Input featu",
+   "Works with any streaming app",
+   "Runs in the background",
+   "Bluetooth controller support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "616706828435c51c32dc01c4abf514f00f0e7187bb050ff43b65474265916b1b",
+  "subtitle": "Use Steam Controller features with any streaming app",
+  "tags": [
+   "streaming",
+   "controller",
+   "steam",
+   "moonlight",
+   "gamepad",
+   "input"
+  ]
+ },
  "com.ewa.ewaapp": {
   "category": "lifestyle",
   "date": "2026-10-21",
@@ -8984,6 +9574,22 @@
    "gog",
    "builder",
    "tool"
+  ]
+ },
+ "com.example.kazumi": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "Kazumi is an anime collection app based on custom rules, supporting online streaming, danmaku, and real-time super-resolution. This is an unsigned iOS build that requires self-signing for installation. The source code is available under the GPL-3.0 open source license.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0271478cea0488253e2dcac9f7e73dfe2f8db654b288d154427c9e56ece240ca",
+  "subtitle": "Custom rule anime streaming and collection app",
+  "tags": [
+   "anime",
+   "streaming",
+   "danmaku",
+   "video",
+   "collection"
   ]
  },
  "com.example.openstrapEdge": {
@@ -9967,6 +10573,21 @@
    "nutrition"
   ]
  },
+ "com.funovus.wildcastle2": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kitty Keep is a mobile game.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "6f04c1b1e43dfa40de42ae5db84a21eb5b389dc5e23175db26468ac91cdd0750",
+  "subtitle": "Mobile game",
+  "tags": [
+   "kitty",
+   "keep",
+   "game",
+   "mobile"
+  ]
+ },
  "com.fut.market.alert": {
   "category": "other",
   "date": "2026-10-21",
@@ -10338,6 +10959,23 @@
    "cheapest",
    "deals",
    "stations"
+  ]
+ },
+ "com.genau.JournalCircle": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "JournalCircle is a diary and tracker application. This version is patched with premium features unlocked.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f7272d8722ea4760732f1120c7a6b9453f158b17ff088376d8fc6338d4cc6bc6",
+  "subtitle": "JournalCircle Diary and Tracker",
+  "tags": [
+   "journal",
+   "diary",
+   "tracker",
+   "notes"
   ]
  },
  "com.generagames.gladiatorheroes": {
@@ -10917,6 +11555,25 @@
    "ipa"
   ]
  },
+ "com.google.ios.youtube.kiratuno.3.1.0": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "KiraTuno is a modded version of YouTube. It includes built-in tweaks such as FLEXHelperForYT, YTAnotherMiniplayer, YouGetCaption, YTweaks, YouShare, and You.",
+  "features": [
+   "Modded",
+   "Tweaks Included"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "5b5ea4dbf645cfeae56781794ad89d1021777ccc31325241a77f997e8846eaff",
+  "subtitle": "Modded version of YouTube with added tweaks",
+  "tags": [
+   "youtube",
+   "kiratuno",
+   "modded",
+   "tweaks",
+   "video"
+  ]
+ },
  "com.google.photos": {
   "category": "photo-video",
   "date": "2026-10-26",
@@ -11127,20 +11784,24 @@
   ]
  },
  "com.greg.hotline-navigator": {
-  "category": "other",
-  "date": "2026-10-27",
-  "description": "Hotline Navigator is a client for the Hotline protocol, which was designed to replicate bulletin board systems (BBS) for the internet era. The app provides access to Hotline servers for file transfers, chat, and news.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "bd80b61c910fd8433310e4cd587865e2e8ad82f9a789a347d93f3ed18b8b69eb",
-  "subtitle": "Hotline protocol client for iOS",
+  "category": "social",
+  "date": "2026-10-28",
+  "description": "Hotline Navigator is a Tauri-based client that provides a modern, cross-platform experience for the classic Hotline protocol. Hotline was created to replicate a BBS for the internet age, functioning similarly to a proto peer-to-peer or Discord-like application. Built with React and Rust, this client offers native performance and a lightweight architecture for efficient use.",
+  "features": [
+   "Cross-Platform",
+   "Modern Stack",
+   "Native Performance"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0e53b79bc92e29f0064a1506b7b1a69b38e0e7ce3b1fd9c8d1568a09d3421ecd",
+  "subtitle": "Modern Hotline protocol client for iOS",
   "tags": [
    "hotline",
-   "bbs",
    "client",
+   "bbs",
    "protocol",
-   "retro",
-   "networking"
+   "tauri",
+   "react"
   ]
  },
  "com.gregacucnik.FishingPoints": {
@@ -11331,6 +11992,22 @@
    "slice"
   ]
  },
+ "com.halfbrick.aeroracer": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Jetpack Joyride Racing is an arcade-style multiplayer racing game for iOS devices.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "db1cccd3fdacab079430a89150e587089e4f86c8fcba96cb189f15be5cb16abf",
+  "subtitle": "Arcade-style multiplayer racing game",
+  "tags": [
+   "racing",
+   "arcade",
+   "multiplayer",
+   "jetpack",
+   "joyride"
+  ]
+ },
  "com.halfbrick.bluey": {
   "category": "games",
   "date": "2026-10-15",
@@ -11379,6 +12056,25 @@
    "action",
    "game",
    "ios"
+  ]
+ },
+ "com.halfbrick.jetpack": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Jetpack is an app distributed as an IPA file, tested and compiled by the TTJB Team. This version includes an added in-app purchase hack feature where users can tap to purchase and then cancel the transaction.",
+  "features": [
+   "In-app purchase hack",
+   "Tested IPA"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "fffa596602039063855348538cfbd56db9ce9df3f4fe54785717dfd42b54719a",
+  "subtitle": "Jetpack IPA with in-app purchase hack",
+  "tags": [
+   "jetpack",
+   "ipa",
+   "ttjb",
+   "hack",
+   "utilities"
   ]
  },
  "com.hammerandchisel.bunny": {
@@ -12190,6 +12886,25 @@
    "open source"
   ]
  },
+ "com.husk.app.3.1": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Run Android apps and games on your iOS device using an ARM64 translation layer. This is an open source application developed by Leviidev.",
+  "features": [
+   "Open source"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4fda6cfb016441b114f569235fa218ad2f4daa800d3041ad6a83eec65d4fc535",
+  "subtitle": "Run Android apps and games on your iPhone",
+  "tags": [
+   "android",
+   "emulator",
+   "translation",
+   "arm64",
+   "games",
+   "apps"
+  ]
+ },
  "com.hwqgrhhjfd.idlefastfood": {
   "category": "lifestyle",
   "date": "2026-10-20",
@@ -12236,6 +12951,23 @@
    "simulation",
    "game",
    "relaxing"
+  ]
+ },
+ "com.hyperixa.IPSW": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "IPSW and IPA are two commonly used file formats in the world of Apple iOS devices. IPSW stands for iPhone Software. This utility application provides information regarding these file formats used on Apple devices.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f0d86037d3a3a06e01a4a62d6808db2790e909bd3876f7ed9535903859d3d8b7",
+  "subtitle": "Apple iOS IPSW and IPA file format information",
+  "tags": [
+   "ipsw",
+   "ipa",
+   "apple",
+   "ios",
+   "iphone",
+   "utilities"
   ]
  },
  "com.hypermonkgames.AutoDrift": {
@@ -12654,6 +13386,27 @@
    "game"
   ]
  },
+ "com.ikemen.go": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "IKEMEN Go brings classic M.U.G.E.N characters, stages, and screenpacks to your iOS device with native on-screen touch controls. The app features a pure upstream engine synced with upstream ikemen-engine. It utilizes Vulkan rendering via MoltenVK running smoothly on Metal. Enjoy both portrait and landscape play modes, where landscape fills the screen beneath translucent controls and portrait renders the fight in the top band with controls below. It includes SDL2, FFmpeg, and libxmp support for robust multimedia handling, as well as out-of-the-box MFi and GameController framework support.",
+  "features": [
+   "Vulkan rendering",
+   "Portrait and landscape play",
+   "Game controller support",
+   "Multimedia handling"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2bb62de01895537c96acd5fa77aa03e8b45ef70df49da3cb3c94a2dbd8f294ab",
+  "subtitle": "Play classic M.U.G.E.N characters and stages on iOS",
+  "tags": [
+   "mugen",
+   "fighting",
+   "engine",
+   "retro",
+   "arcade"
+  ]
+ },
  "com.ilmfinity.evocreo2": {
   "category": "games",
   "date": "2026-10-21",
@@ -12884,6 +13637,24 @@
    "vip",
    "scanner",
    "docs"
+  ]
+ },
+ "com.intvl.app": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "INTVL tweak version 4.0.2 with gold unlocked. Requires iOS version 17.0 or later.",
+  "features": [
+   "Gold Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5394e4063bde3d6ca3f2ac50994abf9ad135d0b3f38712509128ca4781ffcd7f",
+  "subtitle": "INTVL app tweak with gold unlocked",
+  "tags": [
+   "intvl",
+   "tweak",
+   "gold",
+   "unlocked",
+   "patch"
   ]
  },
  "com.investing.app": {
@@ -14590,6 +15361,103 @@
    "ipa"
   ]
  },
+ "com.ipaomtk.iornament.pro.art.fun.calm.159553": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "iOrnament Pro is the iOS installable version of a creative drawing app designed for art, fun, and calm.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c64f4e159e78cafa53882a5e34574acaa24fff66fb161fbbeb99d804ed4e2c0f",
+  "subtitle": "Creative drawing app for art and fun",
+  "tags": [
+   "drawing",
+   "art",
+   "creative",
+   "ornament",
+   "design"
+  ]
+ },
+ "com.ipaomtk.just.6.weeks.159870": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Just 6 Weeks is a fitness training app designed to help users improve strength.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0ec6776e6fa4067a3a87c1685467352ed9c9bbcfd1d627643bfa505b17bcdef6",
+  "subtitle": "Fitness training app to help users improve strength",
+  "tags": [
+   "fitness",
+   "training",
+   "strength",
+   "health",
+   "workout"
+  ]
+ },
+ "com.ipaomtk.killmyota.159865": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "KillMyOTA is an iOS utility tool focused on disabling over-the-air software updates. Install this application to manage and stop automatic system updates on your device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ff89060e24c52e3df7dc8eb509e0af77cf8a63344393f0097ba26e2c3563606d",
+  "subtitle": "Disable over-the-air software updates on iOS",
+  "tags": [
+   "ota",
+   "updates",
+   "utility",
+   "system",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.king.god.castle.luminous.fate.158423": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "King God Castle: Luminous Fate is the iOS installable version of a strategy-focused mobile game.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c6313d7a44dc2912b5808e209c9178dfea0ed25d635ed9ca6a9991fe6e492e9d",
+  "subtitle": "Strategy-focused mobile game",
+  "tags": [
+   "strategy",
+   "game",
+   "castle",
+   "king",
+   "god",
+   "mobile"
+  ]
+ },
+ "com.ipaomtk.kinohome.159852": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "KinoHome is a media-focused application designed to organize and access movie and video content.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "3f3f28752dac0c106e062e8c78381e7abae2cd9e3c33729d6b6ccc8740938c7f",
+  "subtitle": "Organize and access movies and videos",
+  "tags": [
+   "kinohome",
+   "movies",
+   "videos",
+   "media",
+   "organizer"
+  ]
+ },
+ "com.ipaomtk.kitty.powers.speed.date.157643": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kitty Powers\u2019 Speed Date is a speed dating game for iOS devices.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "555081eec73d653ea7f77b67d0cdb997445271a00d0d7c219a3575470fa85411",
+  "subtitle": "Speed dating matchmaking game",
+  "tags": [
+   "kitty powers",
+   "speed date",
+   "dating",
+   "game",
+   "matchmaking"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -14625,6 +15493,24 @@
    "satella"
   ]
  },
+ "com.iptv.player": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "IPTVExpert is an entertainment application. This version includes professional features.",
+  "features": [
+   "Pro Version"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e460c5198cd5b74f4b3a6ace0a63a75af5202ffa5553f23bc0abeaf2f8ae0152",
+  "subtitle": "IPTV player application",
+  "tags": [
+   "iptv",
+   "player",
+   "entertainment",
+   "media",
+   "stream"
+  ]
+ },
  "com.iptvnator.arc": {
   "category": "entertainment",
   "date": "2026-10-19",
@@ -14645,6 +15531,22 @@
    "movies",
    "series",
    "streaming"
+  ]
+ },
+ "com.ironotes.Ironotes": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Ironotes is a simple workout log application designed to help you track your fitness routines. Developed by @Sa1y0miii, this app requires iOS 16.6 or later and is currently at version 1.194.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0945a71bfd5441fb5475c460d05aecb252a5ed53df1139f9c51c7badef36f472",
+  "subtitle": "Simple Workout Log",
+  "tags": [
+   "workout",
+   "fitness",
+   "log",
+   "exercise",
+   "tracker"
   ]
  },
  "com.itranslate.itranslateone": {
@@ -14818,6 +15720,74 @@
    "adult"
   ]
  },
+ "com.javdb.com": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "JavDB client by OwO Source.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "267f9472259b6fc0b72d924d62e74fc0855ad685fec7a1f11b36902f59b5834a",
+  "subtitle": "App client",
+  "tags": [
+   "javdb",
+   "client",
+   "owo"
+  ]
+ },
+ "com.jdwel.app": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Jdwal Soccer Stats is a dedicated iOS application built for football fans who want detailed match data and team performance statistics.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b31b277dcd1f2279fefd542240dd1bb0e2c9771dc6f36ea04319eac34402611d",
+  "subtitle": "Detailed match data and team performance for football fans",
+  "tags": [
+   "soccer",
+   "football",
+   "stats",
+   "match",
+   "sports",
+   "data"
+  ]
+ },
+ "com.jerkgram.ios": {
+  "category": "social",
+  "date": "2026-10-28",
+  "description": "Jerkgram is a modified Telegram client that offers extended features. Please note that notifications do not work in this version, and it includes a ghost mode.",
+  "features": [
+   "Ghost mode"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "02b03a210a94c480ac15915b005884318aa205feb4f259ebef28dab1470838b9",
+  "subtitle": "Telegram client with extended functionality",
+  "tags": [
+   "telegram",
+   "mod",
+   "client",
+   "messaging",
+   "social"
+  ]
+ },
+ "com.jettoast.aero": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Airport Inc. is an idle tycoon game where you manage airport operations. This version includes hack features providing infinite gold so you can build and upgrade without limits, and infinite dollars to manage operations.",
+  "features": [
+   "Infinite Gold",
+   "Infinite Dollar"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2f4786c1278388cfd002053e1d7441fe332842943e613203ebea8d3c7c22bffd",
+  "subtitle": "Idle tycoon game with hack features",
+  "tags": [
+   "airport",
+   "tycoon",
+   "idle",
+   "strategy",
+   "game"
+  ]
+ },
  "com.jockelholm.undertaledr": {
   "category": "other",
   "date": "2026-10-20",
@@ -14877,6 +15847,22 @@
    "fitness"
   ]
  },
+ "com.jollyco.jollybattlematch3": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Jolly Match 3 Puzzle Game is an engaging and vibrant puzzle game designed exclusively for iOS devices. Enjoy colorful graphics and match 3 puzzle gameplay.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f7926d63ee54ba48a1510ae8eadd906864da6daf5b14db4ec46541201b446bb3",
+  "subtitle": "Vibrant puzzle game designed exclusively for iOS",
+  "tags": [
+   "puzzle",
+   "match",
+   "game",
+   "ios",
+   "casual"
+  ]
+ },
  "com.josessolmaximo.blackout": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -14897,6 +15883,41 @@
    "redact",
    "privacy",
    "utilities"
+  ]
+ },
+ "com.jumatt.jsrf-unleashed": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Jet Set Radio Future, running natively on Mac, Windows, Linux, Android, iPhone and iPad. This is not an emulator, but the game's own code statically recompiled into C and built as a native application. The graphics translation, audio path, file layout and per-function fixes are built specifically to run this single title.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6fe68a276bfb0c06219eda3b6851e607f7c0b495ad150d704f60e88d5690cb4e",
+  "subtitle": "Jet Set Radio Future native port",
+  "tags": [
+   "jsrf",
+   "native",
+   "port",
+   "game"
+  ]
+ },
+ "com.justvolleyball.game": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Just Volleyball is an iOS game built as a Godot project. It runs in landscape orientation on iPhone and iPad with iOS 15 or later. The game requires a device with an A12 chip or newer, such as the iPhone XS, iPhone XR, and later models, or any current iPad, due to Godot Metal renderer requirements. The project includes a GitHub Actions pipeline that generates an unsigned IPA file on macOS runners, allowing you to obtain the build without needing a Mac or an Apple Developer account, provided you use an Apple ID to sign it upon installation.",
+  "features": [
+   "Landscape only",
+   "Requires iOS 15 or later",
+   "Requires A12 chip or newer"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c70e9d0f772e75abe0a9b275b11b04aea9cf44c444574abddb4ef1a8049bd32f",
+  "subtitle": "Volleyball game built with Godot for iOS",
+  "tags": [
+   "volleyball",
+   "game",
+   "godot",
+   "sports",
+   "ios"
   ]
  },
  "com.kadka.battle.draw": {
@@ -15002,6 +16023,27 @@
    "ipa"
   ]
  },
+ "com.kant.messenger": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Kant is a free, open-source messenger that requires no phone number or email address. Messages are encrypted on your device and decrypted only on the devices of your recipients, with no company server storing copies. A relay passes encrypted messages between devices behind routers, mobile data, and firewalls without being able to read or store them. Anyone can run a relay on a server, home computer, or inside the Kant desktop app. The app is in public beta and has not undergone an independent security audit.",
+  "features": [
+   "No phone number required",
+   "No email required",
+   "End-to-end encryption",
+   "Open source"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8b7e7c52edec649cca9140caa5b9444268d0116635bc8f9b1a78b5ac365e55a5",
+  "subtitle": "Secure and open-source messenger",
+  "tags": [
+   "messenger",
+   "secure",
+   "encrypted",
+   "open source",
+   "chat"
+  ]
+ },
  "com.karelian.aventura": {
   "category": "entertainment",
   "date": "2026-10-19",
@@ -15023,6 +16065,22 @@
    "creative-writing",
    "llm",
    "roleplay"
+  ]
+ },
+ "com.karteto.application": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Karteto with added premium functions. This IPA has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Premium"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "eac97411dedc80c9c4f5b71c8731654d541ef5f436e76381dda0da860c6c7c1f",
+  "subtitle": "Karteto app with premium features",
+  "tags": [
+   "karteto",
+   "premium",
+   "ttjb"
   ]
  },
  "com.kawsar.artgenerator": {
@@ -15111,6 +16169,24 @@
    "video"
   ]
  },
+ "com.kinemaster.kios": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "KineMaster is a video editing application. This version is injected with pro features.",
+  "features": [
+   "Pro"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ef27540bc24cc82f1577d610243c7bfa5625ae471e55725a8bde3fd7737aacd4",
+  "subtitle": "Video editor with pro features",
+  "tags": [
+   "video",
+   "editor",
+   "pro",
+   "editing",
+   "media"
+  ]
+ },
  "com.kingdom.gwanyuIdle": {
   "category": "other",
   "date": "2026-10-27",
@@ -15146,6 +16222,24 @@
    "rpg",
    "game",
    "3d"
+  ]
+ },
+ "com.kmoney.compile": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Inspo is an AI recipe keeper app. This version includes the subscription unlocked feature.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7e8f0646fbab6abd99c91bdd537475326deef9bda2ba958411b459fe0807b024",
+  "subtitle": "AI Recipe Keeper",
+  "tags": [
+   "recipe",
+   "keeper",
+   "ai",
+   "cooking",
+   "food"
   ]
  },
  "com.knights.commandoshooting": {
@@ -15421,6 +16515,24 @@
    "subscription"
   ]
  },
+ "com.lappir.keto": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "KetoDiet with subscription unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a47b0be01af02419494ffeb27ccce364351c87ddf66ea02f64c257cb826344c9",
+  "subtitle": "KetoDiet app",
+  "tags": [
+   "ketodiet",
+   "diet",
+   "health",
+   "nutrition",
+   "weight loss"
+  ]
+ },
  "com.latenitesoft.CameraPlus2": {
   "category": "photo-video",
   "date": "2026-10-15",
@@ -15639,6 +16751,26 @@
    "system",
    "tools",
    "device"
+  ]
+ },
+ "com.leoncorp.joseon": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Joseon Exorcist: Idle RPG is an idle role-playing game featuring custom modifications. Boost your exorcist attack output using the damage multiplier and reduce incoming damage with the defence multiplier.",
+  "features": [
+   "Damage Multiplier",
+   "Defence Multiplier"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "51f2157f6eeab79ea8d438b758ec92ef413f4d01d55694b1b8e4c7e69527559b",
+  "subtitle": "Idle RPG with attack and defence multipliers",
+  "tags": [
+   "rpg",
+   "idle",
+   "joseon",
+   "exorcist",
+   "game",
+   "action"
   ]
  },
  "com.leshko.cloudplayer": {
@@ -16017,6 +17149,25 @@
    "books"
   ]
  },
+ "com.logicalengine.qsei": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Invoice Simple is an invoice maker application. This version includes premium features unlocked. Generate and manage your invoices efficiently with the patched application.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "720fd0a0a6a2a57cf42fc24626fff9490e2b101d977d2e34baee6963af837b38",
+  "subtitle": "Create invoices easily",
+  "tags": [
+   "invoice",
+   "maker",
+   "billing",
+   "business",
+   "finance",
+   "utilities"
+  ]
+ },
  "com.londonappstudio.Charging-Animation": {
   "category": "utilities",
   "date": "2026-10-14",
@@ -16085,6 +17236,22 @@
    "ipa",
    "ttjb",
    "graphics"
+  ]
+ },
+ "com.ludia.jurassicworld": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Jurassic World Alive is an iOS game for fans of dinosaurs and thrilling adventures. Explore the world and encounter various dinosaurs.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "00802d464ca3c8626687d976e55bb84c8b812af64904631f76cb4a560c6db988",
+  "subtitle": "Dinosaurs and thrilling adventures",
+  "tags": [
+   "jurassic",
+   "world",
+   "dinosaurs",
+   "adventure",
+   "game"
   ]
  },
  "com.ludu.fls": {
@@ -16385,6 +17552,40 @@
    "programming"
   ]
  },
+ "com.markodevcic.js-code-pad": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "JSCodePad is a utility app designed for writing and executing JavaScript code on your iOS device. This version includes subscription features unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "bbf586710d0626d69a31e456ea66635c5fde49b83e76e3d77cb1c37245b9839c",
+  "subtitle": "Run and test JavaScript code",
+  "tags": [
+   "javascript",
+   "coding",
+   "editor",
+   "developer",
+   "script"
+  ]
+ },
+ "com.markussela.iw4l": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Play a port of MW2 from 2009 on your iPhone. You need to provide your own copy of the PC game files to run the application.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "dab203cdc33c775fe4f0dcbfdf18a43a000a61ad860942abc5c044bc9c1499e7",
+  "subtitle": "A port of MW2 2009 to iPhone",
+  "tags": [
+   "mw2",
+   "port",
+   "shooter",
+   "action",
+   "pc"
+  ]
+ },
  "com.match.busters.free.ios": {
   "category": "games",
   "date": "2026-10-20",
@@ -16546,6 +17747,23 @@
    "ios"
   ]
  },
+ "com.merge.islandbistro": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Island Bistro 2 is a delightful iOS time management and simulation game that combines cooking challenges with charming gameplay. Manage your bistro, prepare meals, and serve customers in this engaging restaurant simulation experience.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "92d66ffeaf020ac49960601aa897c7e8ad584a74aa92176416a3e17abfd7cde4",
+  "subtitle": "Cooking and time management simulation game",
+  "tags": [
+   "bistro",
+   "cooking",
+   "simulation",
+   "restaurant",
+   "management",
+   "game"
+  ]
+ },
  "com.mergematch.fairyland": {
   "category": "games",
   "date": "2026-10-21",
@@ -16595,6 +17813,24 @@
    "action",
    "game",
    "global"
+  ]
+ },
+ "com.mgapps.iptvx": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "IPTVX is an iOS application designed for IPTV streaming. This version includes subscription unlocked features and requires Trollstore or a jailbroken device to operate. Minimum iOS version 13.0 is required.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f7b0ed255fdb7313019ca891e143bcb47b65cf5d12972114e8faf95bee0ceb29",
+  "subtitle": "IPTV client for iOS",
+  "tags": [
+   "iptv",
+   "streaming",
+   "media",
+   "trollstore",
+   "jailbreak"
   ]
  },
  "com.mibo.castlecrush.apple": {
@@ -17101,6 +18337,21 @@
    "app"
   ]
  },
+ "com.mrauxsiuh.doodle": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "iVatar application developed by Karbin-Store.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "de64dcc0264f1ba0a2fc4f929ac4171c4c6f3a88fb6fa8ce5470e14ea44421a8",
+  "subtitle": "iVatar application",
+  "tags": [
+   "ivatar",
+   "karbin",
+   "store",
+   "app"
+  ]
+ },
  "com.mudsplasher.AppleGotTrolled": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -17253,6 +18504,23 @@
    "game"
   ]
  },
+ "com.na.istb": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "iSTB is a modified application that includes premium features. This version has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Premium"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ab4ff345d8530d7b285e39f8cf2b51184bf01a922406c0a8119308a2c4afe238",
+  "subtitle": "Premium IPA application",
+  "tags": [
+   "istb",
+   "ttjb",
+   "ipa",
+   "premium"
+  ]
+ },
  "com.naine.doer": {
   "category": "other",
   "date": "2026-10-20",
@@ -17386,23 +18654,22 @@
  },
  "com.ncs.gbox": {
   "category": "developer",
-  "date": "2026-10-25",
-  "description": "GBox is an application designed for signing apps using a certificate. It ensures the secure installation and management of IPA files directly on your device. Created by GLESign.",
+  "date": "2026-10-28",
+  "description": "GBox is an application for signing and installing IPA files using a developer certificate. Features include signing applications and installation.",
   "features": [
-   "IPA file management",
-   "Certificate signing",
-   "Secure installation"
+   "App signing",
+   "IPA installation"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "3f515790366f495e137db8c9650ab450550e12b2d7e4af42ea9600dd0c3401dd",
-  "subtitle": "Sign and manage IPA files securely with certificates",
+  "src_hash": "9c3fe0d493715528f209b345ed0378390aed8376b78d1cbad24e4aa302bd1605",
+  "subtitle": "Sign and install IPA files",
   "tags": [
    "gbox",
    "ipa",
    "signing",
-   "certificate",
-   "developer",
-   "utility"
+   "certfish",
+   "sideload",
+   "developer"
   ]
  },
  "com.ndemiccreations.survivors": {
@@ -17791,6 +19058,29 @@
    "mod"
   ]
  },
+ "com.nianticlabs.pokemongo": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Pokemon GO with a bunch of cheats, including joystick-to-walk, increased catch accuracy, sniping, teleporting, etc. Use responsibly, overuse can get you banned.",
+  "features": [
+   "Joystick-to-walk",
+   "Increased catch accuracy",
+   "Sniping",
+   "Teleporting",
+   "Cheats included"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4f63b2c6f12b8c14632ce534cf7136cb4d0c81134deb66886856b9fdeff4ef46",
+  "subtitle": "Pokemon GO with cheats and joystick",
+  "tags": [
+   "pokemon",
+   "go",
+   "cheats",
+   "joystick",
+   "sniping",
+   "teleport"
+  ]
+ },
  "com.niceios.Battery.Battery": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -17846,6 +19136,22 @@
    "sync",
    "notes",
    "widgets"
+  ]
+ },
+ "com.nitrodog.jetpacksurvivor": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Jetpack Survivors is a thrilling mix of survival, shooting, and fast-paced mobility. Play as a survivor equipped with a jetpack and engage in intense action gameplay.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "39de1c0c2b99d28574cd47f54909c60b900b8baca5a4c32bd0164e7435c4939d",
+  "subtitle": "A fresh take on survival action and fast mobility",
+  "tags": [
+   "survival",
+   "action",
+   "shooter",
+   "jetpack",
+   "arcade"
   ]
  },
  "com.nitrogames.boltgunboom": {
@@ -18359,6 +19665,23 @@
    "entertainment"
   ]
  },
+ "com.osy86.Jitterbug": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "Jitterbug is an application that enables wireless connection to another iOS device, with neither device needing to be jailbroken. It allows you to launch an app on the connected device with JIT.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "391cb6d56e688680acafdbae60ce900542b57fc8b0bd1c28ac666bee214ed6ff",
+  "subtitle": "Wireless JIT connection for iOS devices",
+  "tags": [
+   "jitterbug",
+   "jit",
+   "wireless",
+   "ios",
+   "developer",
+   "connection"
+  ]
+ },
  "com.oubplayer.tivi": {
   "category": "entertainment",
   "date": "2026-10-26",
@@ -18374,6 +19697,24 @@
    "video",
    "tv",
    "media"
+  ]
+ },
+ "com.outerspaceapps.itranslate": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "iTranslate is a translation application. This version is injected with the subscription unlocked, granting access to premium translation features directly within the app without requiring an active paid subscription.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "97ce2ce173eed7ce1e9a7b23dac5fd3c63ef4b9cb525ad41a5ea0edb8c7f53f4",
+  "subtitle": "Translation app with unlocked subscription",
+  "tags": [
+   "translate",
+   "translation",
+   "languages",
+   "utilities",
+   "unlocked"
   ]
  },
  "com.overdesigned.Cheatsheet": {
@@ -18684,6 +20025,24 @@
    "editor",
    "face",
    "body"
+  ]
+ },
+ "com.photoedit.cleanwatermark": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "iRetouch is a photo editing application featuring Pro functionality. The IPA file has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Pro Version"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c72aaf9ae804892225ef6818c44846e209f6f3ad5c8cf59d17747a9e1576257f",
+  "subtitle": "Pro photo retouching tool",
+  "tags": [
+   "iretouch",
+   "photo",
+   "editor",
+   "pro",
+   "ttjb"
   ]
  },
  "com.photoshoot.headshotaigenerator": {
@@ -19082,6 +20441,23 @@
    "indie"
   ]
  },
+ "com.playfocus.king": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "King or Fail Castle Takeover on iOS delivers a high-stakes strategy experience built around epic fortress battles and tactical gameplay. Take command and lead your forces to victory.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e2b40ec2e8fcaeb20042decf9ff8abf9beef07785273e2526e54c5731ada39c9",
+  "subtitle": "High-stakes castle takeover strategy experience",
+  "tags": [
+   "strategy",
+   "castle",
+   "tactical",
+   "battles",
+   "ios",
+   "game"
+  ]
+ },
  "com.playgendary.bowmasters": {
   "category": "games",
   "date": "2026-10-15",
@@ -19094,6 +20470,22 @@
    "bowmasters",
    "multiplayer",
    "game",
+   "action"
+  ]
+ },
+ "com.playgendary.ktb2": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kick the Buddy is a popular mobile game. Experience the gameplay and enjoy the action directly on your device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8be658f1d32d2aaaa372e7beeaf4a08c40554beea0734f4baf386c5bab862d32",
+  "subtitle": "Play the popular mobile game Kick the Buddy",
+  "tags": [
+   "game",
+   "kick",
+   "buddy",
+   "mobile",
    "action"
   ]
  },
@@ -19272,6 +20664,28 @@
    "odyssey"
   ]
  },
+ "com.plusmediapps.itransmission": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "iTransmission is a revamped BitTorrent client for iOS powered by the Transmission library. Open external torrent files directly through the app, manage downloads with File app support and file sharing, and use the built-in dark mode. Compatible with iOS 13 and later.",
+  "features": [
+   "Open external torrent files",
+   "File app support",
+   "File sharing",
+   "Dark Mode"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b70dad19629e866f1c568713666c46ba9dea9c392d7a2869c5aa4443b19721e5",
+  "subtitle": "A fast and easy BitTorrent client for iOS",
+  "tags": [
+   "torrent",
+   "bittorrent",
+   "download",
+   "client",
+   "files",
+   "utilities"
+  ]
+ },
  "com.plusminusone.math.hero.answer.scanner.solver": {
   "category": "utilities",
   "date": "2026-10-21",
@@ -19307,6 +20721,42 @@
    "police",
    "cars",
    "action"
+  ]
+ },
+ "com.polywise.weekly": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Learn visually with Imprint. This version includes the subscription unlocked tweak. Access all patched features and educational content designed for visual learners.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched Version"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5a5a5d335355f3578c16b7bd458d45ac56c8629b0941cc7c8b8335c3424c2efe",
+  "subtitle": "Learn Visually",
+  "tags": [
+   "learn",
+   "visual",
+   "education",
+   "study",
+   "courses"
+  ]
+ },
+ "com.poopsnaggle.IPTVUltra": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "IPTV Ultra is a media streaming application. This version includes premium features unlocked. Version 3.0.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f5c719a35a57f7074f67b36592b82e7b290406fc2831613ea0a72371f42beb0a",
+  "subtitle": "IPTV Ultra streaming client",
+  "tags": [
+   "iptv",
+   "streaming",
+   "media",
+   "player"
   ]
  },
  "com.poppingmoon.aria": {
@@ -19443,6 +20893,27 @@
    "gaming"
   ]
  },
+ "com.provenance.ifly": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Experience classic Sega Dreamcast games on your iOS devices and Apple TV. This is an early build of iFly optimized for iOS and tvOS devices. Enjoy full Dreamcast emulation, controller support for MFi, PlayStation, and Xbox controllers, save states, real-time saves, high-resolution rendering, fast-forward, slow motion, customizable controls, and game library management.",
+  "features": [
+   "Controller support",
+   "Save states",
+   "High-resolution rendering",
+   "Customizable controls"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7956ebcfcbb996bc32e04ccbb340a068b1c3d963e61ba687ea595555e76e7db2",
+  "subtitle": "Play classic Sega Dreamcast games on iOS and Apple TV",
+  "tags": [
+   "emulator",
+   "dreamcast",
+   "sega",
+   "games",
+   "retro"
+  ]
+ },
  "com.przemyslawbobak.filtru": {
   "category": "utilities",
   "date": "2026-10-24",
@@ -19459,6 +20930,29 @@
    "filtru",
    "recipes",
    "utilities"
+  ]
+ },
+ "com.pujiagames.IslandTime": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Island Times Easy Life is a game for iOS devices. Enjoy this simulation experience with modified gameplay options including freeze gold, freeze diamond, freeze bone, freeze HP, and no ads.",
+  "features": [
+   "Freeze Gold",
+   "Freeze Diamond",
+   "Freeze Bone",
+   "Freeze HP",
+   "No Ads"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7f773e28c9374efda0a2add681254fd93be640bd6757920129b26c17a319c603",
+  "subtitle": "Easy life game for iOS",
+  "tags": [
+   "island",
+   "simulation",
+   "easy",
+   "life",
+   "game",
+   "ios"
   ]
  },
  "com.pungme.combyne": {
@@ -19607,6 +21101,40 @@
    "wilderness",
    "game",
    "iphone"
+  ]
+ },
+ "com.rationalmatter.junoapp": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "JunoPublic modified app with added in-app purchase functionality. To use the purchase hack, tap to buy and then cancel the transaction. This IPA file has been tested and compiled by the TTJB Team.",
+  "features": [
+   "In-app purchase hack"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "298c3940170630a9db59a49819892693a92f72b147eabbb82aa9c4e975a66e8c",
+  "subtitle": "JunoPublic IPA app release",
+  "tags": [
+   "junopublic",
+   "ipa",
+   "ttjb",
+   "mod",
+   "utility"
+  ]
+ },
+ "com.raton.flashcards": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Kavi is a native, local-first iOS study and flashcards app built for fast card creation, focused revision, and full ownership of your data.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9378856c2664739e6231561b8c48a8bbf891922f944dc3d05840576175953230",
+  "subtitle": "Local-first study and flashcards app",
+  "tags": [
+   "flashcards",
+   "study",
+   "revision",
+   "education",
+   "local"
   ]
  },
  "com.raventhe.DragonfistLimitless": {
@@ -19788,6 +21316,37 @@
    "extensionfix",
    "monitor",
    "utility"
+  ]
+ },
+ "com.realmzer.igiapc": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "iOS Gods iAP Cracker is a system tweak designed to bypass in-app purchases in games where other tools like LocaliApStore may fail, including titles such as Borderlands and Batman.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d1f4022072cd5215fafd7b7140d6dff516ba20f8a760f5ad5dd5dae296830c6f",
+  "subtitle": "Bypass in-app purchases in games",
+  "tags": [
+   "tweak",
+   "games",
+   "iap",
+   "bypass",
+   "utilities"
+  ]
+ },
+ "com.realmzer.julioadblock": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Julioverne Adblock adds an adblock to applications of your choice.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e0a7a9af127786ecb7c5c22a8da7be919d76e712e902c28d22b67951edc11444",
+  "subtitle": "Add adblock to applications of your choice",
+  "tags": [
+   "adblock",
+   "blocker",
+   "utilities",
+   "apps"
   ]
  },
  "com.rebelancap.2ship": {
@@ -20030,6 +21589,23 @@
    "timestamp",
    "photo",
    "video"
+  ]
+ },
+ "com.reverse.ImageSearch": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Reverse Image Search is a powerful iOS application designed to help users identify images and find similar visuals.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "887c49725e3945106600e546c1463ade422d62fd5540c82aef51d3b2830093d0",
+  "subtitle": "Identify images and find similar visuals",
+  "tags": [
+   "image",
+   "search",
+   "reverse",
+   "visual",
+   "photo",
+   "find"
   ]
  },
  "com.revoicers.autocc": {
@@ -20323,6 +21899,22 @@
    "daily",
    "zodiac",
    "stars"
+  ]
+ },
+ "com.robotsquid.kingofcrabs.invasion": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "King of Crabs 2 - Invasion is an iOS action multiplayer game package designed for iPhone users.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5feb7254cd7fbf0cdaaff072a98a14a1d95f1f622cd71af218bffe0c72fdbb10",
+  "subtitle": "Action multiplayer game for iPhone",
+  "tags": [
+   "action",
+   "multiplayer",
+   "game",
+   "crabs",
+   "invasion"
   ]
  },
  "com.robtop.geometryjump": {
@@ -21237,6 +22829,40 @@
    "departures"
   ]
  },
+ "com.sixtysevenbits.idleislandscv": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Island Scavenger Wild Mystery is a survival exploration game designed for players.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4d63ea5744d51a7edbe69e9e1693214ba64f2682252b07d2d9271b73731fe347",
+  "subtitle": "A survival exploration game set on a wild mystery island",
+  "tags": [
+   "survival",
+   "exploration",
+   "adventure",
+   "island",
+   "mystery",
+   "game"
+  ]
+ },
+ "com.sixtysevenbits.kaincobra": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Enter the world of Kain Cobra and immerse yourself in a high-octane action universe where precision, strategy, and fast reflexes are required.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e444403bb6cdec16b11a01794269c9fea64ceeb8b42f4cb8ee897d6077f1d985",
+  "subtitle": "High-octane action universe with precision and strategy",
+  "tags": [
+   "action",
+   "strategy",
+   "precision",
+   "reflexes",
+   "ios",
+   "game"
+  ]
+ },
  "com.skybornegames.adorablegarden": {
   "category": "games",
   "date": "2026-10-14",
@@ -21267,6 +22893,22 @@
    "file",
    "manager",
    "transfer"
+  ]
+ },
+ "com.skymoons.kittenmatch": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kitten Match is an iOS puzzle game that combines classic match gameplay with kitten-themed visuals.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "08d9e4698545e174cc257af438363d0da6818c26b76c9ea8673475eff87d25fe",
+  "subtitle": "Match puzzle game with kitten visuals",
+  "tags": [
+   "kitten",
+   "match",
+   "puzzle",
+   "game",
+   "ios"
   ]
  },
  "com.skypaw.decibel": {
@@ -22033,6 +23675,41 @@
    "streaming"
   ]
  },
+ "com.spotify.client.ios.eeveespotifyreincarnated.pixie.not.patched.9.1.92": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "This is a modded version of Spotify that works with SideStore. This release includes both EeveeSpotifyReincarnated version 7.0.0 and Pixie Download Manager version 1.3.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3538c774684696d70cfa195244bb820d22f8f292524294299184366ea605f407",
+  "subtitle": "Modded version of Spotify with download manager",
+  "tags": [
+   "spotify",
+   "music",
+   "modded",
+   "audio",
+   "manager"
+  ]
+ },
+ "com.spotify.client.ios.eeveespotifyreincarnated.pixie.patched.9.1.92": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "Modded version of Spotify that includes EeveeSpotifyReincarnated v7.0.0 and Pixie Download Manager. Please note that this version does not work with Sidestore.",
+  "features": [
+   "Modded Version",
+   "Download Manager"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "04d68843c65c3df9cd5c5a58fc36acca72d14bed895e47cae598b89a057d6964",
+  "subtitle": "Modded Spotify with download manager",
+  "tags": [
+   "spotify",
+   "music",
+   "audio",
+   "modded",
+   "player"
+  ]
+ },
  "com.spotify.client.ios.gspotify.1.0.patched.9.1.82.iosdecrypted": {
   "category": "entertainment",
   "date": "2026-10-26",
@@ -22538,6 +24215,23 @@
    "game",
    "characters",
    "gameplay"
+  ]
+ },
+ "com.suykorng.iptv": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "The IPTV Player app for iPhone is designed to give iOS users a flexible and reliable way to watch television content.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e22ed592ef24eee11fd75185ddedeaa66090de83c6c6be18d3f08ecb62471d5b",
+  "subtitle": "Flexible and reliable IPTV player for iOS",
+  "tags": [
+   "iptv",
+   "player",
+   "video",
+   "streaming",
+   "tv",
+   "entertainment"
   ]
  },
  "com.sybogames.brim": {
@@ -25640,6 +27334,24 @@
    "image editor"
   ]
  },
+ "com.unknown.ifonts": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "One of the best keyboards for writing on iPhone. You can download it now with modded features.",
+  "features": [
+   "Modded"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5d808f56ff50a7e5d2a71536789c86ca3ec86e51967fec77c4cb5162d6e2ae15",
+  "subtitle": "A keyboard for typing on iPhone",
+  "tags": [
+   "keyboard",
+   "typing",
+   "iphone",
+   "ifonts",
+   "karbin-store"
+  ]
+ },
  "com.unknown.imagesearch": {
   "category": "other",
   "date": "2026-10-27",
@@ -25655,6 +27367,24 @@
    "reverse",
    "lookup",
    "photo"
+  ]
+ },
+ "com.unknown.imagesize": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "ImageSize is an application designed for setting and adjusting image dimensions and sizes. It includes an option to remove advertisements by accessing the application settings.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6b7dc1b6a9aa988901770940ac7c2a89a6cb27c1f3eacd18c2f74f97f6e6350f",
+  "subtitle": "Resize and set image dimensions easily",
+  "tags": [
+   "imagesize",
+   "resize",
+   "dimensions",
+   "photos",
+   "utilities"
   ]
  },
  "com.unknown.imagineaiartgenerato": {
@@ -25789,6 +27519,142 @@
    "tools"
   ]
  },
+ "com.unknown.ipgmail": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "iPGMail is an email client featuring PGP encryption support.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "687ea7b250911ae91b9f0e64633317ef77aace2793fa42943cc35e60e6ae2104",
+  "subtitle": "PGP email client",
+  "tags": [
+   "email",
+   "pgp",
+   "encryption",
+   "security",
+   "mail"
+  ]
+ },
+ "com.unknown.islandcharging": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "The application allows users to download animated wallpapers.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "97c197c60af71da8cf038cfbb88eb110cf879273f60dec6ee0d2cb0bf9590ff2",
+  "subtitle": "Download animated wallpapers",
+  "tags": [
+   "wallpapers",
+   "animation",
+   "download",
+   "backgrounds"
+  ]
+ },
+ "com.unknown.istb": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "IPTV subscription player application available for download.",
+  "features": [
+   "Free"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ffe6a635b1b6a82e8e99ed0417ed0076269b40c46722548aedc30e07802bf49f",
+  "subtitle": "IPTV subscription player application",
+  "tags": [
+   "iptv",
+   "player",
+   "subscription",
+   "entertainment",
+   "app"
+  ]
+ },
+ "com.unknown.itorrent": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "iTorrent is a torrent client application. This version includes prime features unlocked and advertisements removed.",
+  "features": [
+   "Prime Unlocked",
+   "No Ads"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d7c9691edb7b97fb4a7492568fdebcb6e8bd86ea10f7ab1e53c5e3b7d2fdb0e9",
+  "subtitle": "iTorrent client",
+  "tags": [
+   "torrent",
+   "download",
+   "client",
+   "prime",
+   "utilities"
+  ]
+ },
+ "com.unknown.itranslatepro": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "\u0628\u06d5\u0631\u0646\u0627\u0645\u06d5\u06cc\u06d5\u06a9\u06cc \u0648\u06d5\u0631\u06af\u06ce\u0695\u0627\u0646\u06d5 \u0628\u06c6 \u0686\u06d5\u0646\u062f\u06d5\u0647\u0627 \u0632\u0645\u0627\u0646.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d2a070e2ec449a2d9740cd7aead4613a09fb2d2db0772e5592ffe1cb0a900d67",
+  "subtitle": "\u0648\u06d5\u0631\u06af\u06ce\u0695\u06cc \u0686\u06d5\u0646\u062f\u06d5\u0647\u0627 \u0632\u0645\u0627\u0646",
+  "tags": [
+   "\u0648\u06d5\u0631\u06af\u06ce\u0695",
+   "\u0632\u0645\u0627\u0646",
+   "translation",
+   "languages"
+  ]
+ },
+ "com.unknown.jawaker": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Jawaker is available with hack features included.",
+  "features": [
+   "Hack Features Available"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "17d2553ba9278d2f43fecc649d4324c1997dd40cdc6ed39043186f074f05f5c6",
+  "subtitle": "Jawaker with hack features available",
+  "tags": [
+   "jawaker",
+   "hack",
+   "cards",
+   "games",
+   "karbin"
+  ]
+ },
+ "com.unknown.keyboardgpt": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Keyboard GPT allows you to use AI chat directly from your device keyboard. Access ChatGPT functionality seamlessly while typing in any app without needing to switch between applications.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "40a318d2a8101e995a36affd864cab4074799b6cf15107b1fe7fda8db531a1c1",
+  "subtitle": "AI chat directly from your keyboard",
+  "tags": [
+   "ai",
+   "chat",
+   "gpt",
+   "keyboard",
+   "assistant",
+   "utilities"
+  ]
+ },
+ "com.unknown.kinemaster": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "KineMaster is a video editing application. Paid features are unlocked.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "74fa14498d4e9ce7530ccb2023e42267dfcd6271581fb67c36f8b1d680a12cd6",
+  "subtitle": "Video editor app",
+  "tags": [
+   "video",
+   "editor",
+   "kinemaster",
+   "editing",
+   "media"
+  ]
+ },
  "com.unofficial.balatro": {
   "category": "games",
   "date": "2026-10-15",
@@ -25851,6 +27717,22 @@
    "encode",
    "subscription",
    "unlocked"
+  ]
+ },
+ "com.usm.rosenkoenig2": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "King Tactics offers a focused turn-based strategy experience designed for players who enjoy planning and positioning.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "243c2f578d35a5fe1c1b62bce9c0af64e3bd5970997318755eb0cc1fb01d1acc",
+  "subtitle": "Turn-based strategy experience for tactical planning",
+  "tags": [
+   "strategy",
+   "turn-based",
+   "tactics",
+   "planning",
+   "board"
   ]
  },
  "com.v43years.avatarify2": {
@@ -26366,6 +28248,23 @@
    "ios"
   ]
  },
+ "com.wixot.merge": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Journey Home is an engaging mobile experience that blends merge gameplay mechanics with an intriguing narrative story. Play on your iOS device to combine items and progress through the story.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ea947b302335a5c95bc8e35f95348bf76664289f7f4bb7445b02887f5f906f39",
+  "subtitle": "Merge gameplay mechanics and narrative stories",
+  "tags": [
+   "journey",
+   "home",
+   "merge",
+   "story",
+   "puzzle",
+   "ios"
+  ]
+ },
  "com.wolf.piggy": {
   "category": "games",
   "date": "2026-10-15",
@@ -26509,6 +28408,41 @@
    "tweak"
   ]
  },
+ "com.xitrix.iTorrent": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Torrent client for iOS.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f4a354b994ddf3480ff36c57612dcbbd0f518013755f41ccf5b8e3cd0b52b810",
+  "subtitle": "Torrent client for iOS",
+  "tags": [
+   "torrent",
+   "client",
+   "download",
+   "p2p",
+   "files"
+  ]
+ },
+ "com.xitrix.iTorrent2": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "iTorrent is a torrent client for iOS featuring Files app support. Download files directly to your device and manage your torrents on the go with this dedicated iOS application.",
+  "features": [
+   "Files app support",
+   "Torrent downloading"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4ae933ee6152955ed4941fbd64d474864009ecaeb72a904f7a0f2c69c8e1be45",
+  "subtitle": "Ordinary torrent client for iOS",
+  "tags": [
+   "torrent",
+   "downloader",
+   "files",
+   "client",
+   "p2p"
+  ]
+ },
  "com.xq.archeroii": {
   "category": "games",
   "date": "2026-10-15",
@@ -26525,6 +28459,24 @@
    "action",
    "mod",
    "game",
+   "ios"
+  ]
+ },
+ "com.xqgames.kingofsouls": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "The King of Souls Global is a fantasy role-playing game designed for iOS players.",
+  "features": [
+   "MOD"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "c0a8101ba6c51e690160869bd0ee589d4e080290b5a09b4a3a35ecbe313beb2d",
+  "subtitle": "Fantasy RPG for iOS",
+  "tags": [
+   "kingofsouls",
+   "fantasy",
+   "rpg",
+   "games",
    "ios"
   ]
  },
@@ -26632,6 +28584,27 @@
    "tracker",
    "diet",
    "health"
+  ]
+ },
+ "com.yexca.kikoto": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Kikoto keeps one entry per work, keyed by its product code, and attaches DLsite-style metadata, local folders, a rebuildable cache, and Kikoeru-compatible remote sources to it. It runs on your own server and opens in any browser and in the Android and iOS apps. Kikoto is self-hosted software only and provides no service or content. It is designed solely for DLsite works you have purchased yourself. Scans, syncs, file edits, and AI tasks run as workflows you can follow in Activity, roles decide who may browse, fetch, edit, and administer, and all state lives in one SQLite database.",
+  "features": [
+   "Self-hosted",
+   "SQLite database",
+   "Workflow activity",
+   "Role permissions"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "604eaff38dfa3221f9239d77c2d692132b6b3bcfff4837439ed8f0ee91e6c88b",
+  "subtitle": "Self-hosted metadata and file manager for DLsite works",
+  "tags": [
+   "metadata",
+   "server",
+   "manager",
+   "database",
+   "utilities"
   ]
  },
  "com.yfactorysoft.CatCrunch": {
@@ -26903,6 +28876,22 @@
    "plus",
    "mod",
    "entertainment"
+  ]
+ },
+ "com.zitga.kingdom.defender.idle.rpg.games": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kingdom Defender Idle RPG is a mobile game that combines idle gameplay with strategy.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "49ea970a0634f915ecb36667cdc13893f154db3542b0513e30d15efb059289cc",
+  "subtitle": "Kingdom Defender Idle RPG IPA MOD",
+  "tags": [
+   "rpg",
+   "idle",
+   "strategy",
+   "game",
+   "defender"
   ]
  },
  "com.zuev.recorder.Z9HHLMN695": {
@@ -27800,6 +29789,124 @@
    "ios"
   ]
  },
+ "cypwn.IPSW_TS.1.0": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Check signed and unsigned iOS statuses quickly and easily. This app allows you to view the current signing status of iOS firmware for your devices.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "20a1fdf843bfc8be7d1a8724a13ce5d1edfba07e08a9b084a873af3800455a27",
+  "subtitle": "Check signed and unsigned iOS statuses",
+  "tags": [
+   "ipsw",
+   "ios",
+   "firmware",
+   "apple",
+   "status"
+  ]
+ },
+ "cypwn.ITheosMaker_TS.1.0": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "An application designed to help you create, manage and build Theos projects. Includes more than 10 features to support your development workflow.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "01e715e49191368627f035b18204fffc952b7d60c79d3e781e95f6911e9f997f",
+  "subtitle": "Create, manage and build Theos projects",
+  "tags": [
+   "theos",
+   "developer",
+   "project",
+   "build",
+   "manage",
+   "create"
+  ]
+ },
+ "cypwn.InstaSpring_TS.1.0": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "InstaSpring 1.0 allows you to respring your device instantly by tapping the app icon.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "1b710247f80b3e4f98ca45cbeba8d6ef54764a187f4187e74b391d78ae82f05c",
+  "subtitle": "Respring instantly by tapping the app icon",
+  "tags": [
+   "respring",
+   "instaspring",
+   "system",
+   "tool"
+  ]
+ },
+ "cypwn.Jaility.1.2": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Respring your jailed iOS 15 device just like it was jailbroken. An example use case for this is when sideloaded apps wont appear on homescreen, simply use Jaility to refresh the springboard.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "fdc95b037aa0ed2334160304aaf5b9e13eef53cbf8c1bd304a580771f7baff4c",
+  "subtitle": "Respring your jailed iOS 15 device",
+  "tags": [
+   "respring",
+   "ios 15",
+   "jailed",
+   "sideload",
+   "refresh"
+  ]
+ },
+ "cypwn.Jaility_TS.3.1": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Jaility v3.1 is rewritten in Swift and supports all devices. Manage your device with respring functionality, supervision tools, and custom control center modules. Access a theme store featuring webclip icon theming.",
+  "features": [
+   "Respring",
+   "Supervise device",
+   "CC modules",
+   "Theme store",
+   "Webclip theming"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3a65c890ef69c3b892cc3fef1858606c22c07f2beb9af470d7cced2b061e3b48",
+  "subtitle": "Supervise device, theme store, and CC modules",
+  "tags": [
+   "jaility",
+   "respring",
+   "theme",
+   "manager",
+   "modules"
+  ]
+ },
+ "cypwn.Keka_1.0.1.1.0.1": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "The file archiver for your device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3c9680dc28d7628af9380b9b4a582dd87577a73e28510fe3db08964917609507",
+  "subtitle": "The file archiver",
+  "tags": [
+   "archiver",
+   "file",
+   "utilities",
+   "zip",
+   "compression"
+  ]
+ },
+ "cypwn.KillMyOTA-1.1.1.1": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "OTA Killer designed for iOS 15.0 through 16.1.2. Developed by CyPwn.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a56644146c100709ccc9e27d3420c8f5089cdbdf94410842ca2938ca2a7a2edd",
+  "subtitle": "OTA Killer for iOS 15.0 to 16.1.2",
+  "tags": [
+   "ota",
+   "killer",
+   "ios",
+   "utility",
+   "cypwn"
+  ]
+ },
  "cypwn.cl1m4x.1.3": {
   "category": "other",
   "date": "2026-10-18",
@@ -27812,6 +29919,22 @@
    "cl1m4x",
    "kanji",
    "cypwn"
+  ]
+ },
+ "cypwn.iTablaPro_11.6.1.11.6.1": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "iTablaPro provides electronic tanpura, swar mandal and tabla accompaniment for Indian classical music practitioners and performers. Practice and perform with authentic sounds and adjustable settings.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "36403fa82175c94718b85297f2520e54fc15e5594bbc7b914595a7e1088b15fb",
+  "subtitle": "Traditional Indian music accompaniment app",
+  "tags": [
+   "music",
+   "tanpura",
+   "tabla",
+   "classical",
+   "practice"
   ]
  },
  "dance.fitness.app": {
@@ -27991,6 +30114,23 @@
    "gaming"
   ]
  },
+ "dev.casp.iPlistGen": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "iPlistGen is an app to generate iOS install plists so you can distribute your Xcode apps on the go. All you have to do is fill out the fields and press generate then you can save it and use it without any hassle.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9215da0c63e3dc8500a9b0e8d92846df00218a51b904ed707fce420f556c5912",
+  "subtitle": "Generate iOS install plists on the go",
+  "tags": [
+   "iplistgen",
+   "plist",
+   "xcode",
+   "ios",
+   "developer",
+   "utility"
+  ]
+ },
  "dev.espressu.EspressU": {
   "category": "games",
   "date": "2026-10-27",
@@ -28013,6 +30153,28 @@
    "arm64"
   ]
  },
+ "dev.iw4j.iw4l": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "IW4LJ brings Call of Duty Modern Warfare 2 2009 multiplayer to your phone and PC. It is a native runtime written in Rust and the Bevy engine, not a wrapper or emulator. It reads game data from a copy of MW2 that you own and runs it with touch controls, controller support, and a built-in mod menu. Android and iPhone players can play together over LAN and online. This app requires your own copy of MW2 multiplayer and does not include any Activision game data.",
+  "features": [
+   "Controller support",
+   "Touch controls",
+   "Mod menu",
+   "Cross-platform multiplayer",
+   "LAN and online play"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "16f852c2575c835d1c48a3093f24fb924401d77db5ca6f1b3e8567515b37ae8e",
+  "subtitle": "Modern Warfare 2 multiplayer runtime for mobile",
+  "tags": [
+   "mw2",
+   "fps",
+   "multiplayer",
+   "shooter",
+   "rust"
+  ]
+ },
  "dev.jotalac.git-writer": {
   "category": "utilities",
   "date": "2026-10-26",
@@ -28032,6 +30194,23 @@
    "markdown",
    "sync",
    "version control"
+  ]
+ },
+ "dev.kartpad.app": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "KartPad builds on the WiiCompiled Mario Kart Wii static recompilation project. It provides Apple and Android integration, native controls, a game chooser, game data management, packaging, and releases. KartPad is free and requires users to bring their own legally obtained supported PAL RMCP01 revision 0 Mario Kart Wii image. tvOS support remains experimental. The development workflow incorporates substantial AI assistance for code, tests, documentation, debugging, and maintenance.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "64c9071b47b04dacbbfeb11976dcdefca3496e68f1d91e3b3df6171c6d3c48ef",
+  "subtitle": "Mario Kart Wii static recompilation runtime for mobile",
+  "tags": [
+   "kartpad",
+   "mario",
+   "kart",
+   "wii",
+   "recompilation",
+   "runtime"
   ]
  },
  "dev.leoestremadoyro.AnimeTracker": {
@@ -28152,6 +30331,22 @@
    "ipa",
    "ttjb",
    "unlocked"
+  ]
+ },
+ "digital.vim.juststep": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Just Step: Fashion Empire is a fashion-focused iOS game that blends creative design and management.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c047138a18646327e93e5fdd2f263d842689f0ce3c72ce57129c033e4e9549eb",
+  "subtitle": "Fashion-focused iOS game blending design and management",
+  "tags": [
+   "fashion",
+   "empire",
+   "design",
+   "management",
+   "game"
   ]
  },
  "doordash.DoorDashConsumer": {
@@ -28375,6 +30570,24 @@
    "workout",
    "tracker",
    "health"
+  ]
+ },
+ "games.calico.mantracker": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "KegelExercises is an application designed for performing Kegel exercises. This version is injected with Pro features.",
+  "features": [
+   "Injected with Pro"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c89eedb1065304c5b4eb73379ad170982201967a0dbc53b4590b806d94821716",
+  "subtitle": "Kegel exercises application",
+  "tags": [
+   "kegel",
+   "exercises",
+   "fitness",
+   "health",
+   "pro"
   ]
  },
  "games.dawnbright.cotaislandescape": {
@@ -28742,6 +30955,24 @@
    "tracker"
   ]
  },
+ "howell.Kanji-": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Access the Kanji app with premium features included. This IPA has been thoroughly checked and compiled by the TTJB Team to ensure reliability and performance.",
+  "features": [
+   "Premium"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "08067ab673524aaed15373cab430b32a945d2e470b7e1f3861f14418c818afd8",
+  "subtitle": "Kanji app with premium features unlocked",
+  "tags": [
+   "kanji",
+   "premium",
+   "education",
+   "utilities",
+   "language"
+  ]
+ },
  "idea.ai": {
   "category": "other",
   "date": "2026-10-21",
@@ -29013,6 +31244,28 @@
    "retro"
   ]
  },
+ "io.github.larchk7.ios": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "KeyPhone is a Series 40-style keypad phone that runs on your Mac and iPhone. The keypad, menus and screen are contained in an HTML file, while the Mac and iPhone apps wrap it and connect it to the system so calls, messages, contacts, photos and alarms are real. Make and receive calls through your iPhone or over your own SIP/VoIP account using WebRTC with hold, mute, keypad tones and a call log. Send and receive messages using multi-tap, predictive text, or device keyboards, and access your device address book. Use the live camera viewfinder, photo gallery and voice recorder.",
+  "features": [
+   "Calls and VoIP",
+   "Messages and Contacts",
+   "Camera and Gallery",
+   "Voice Recorder"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b4888c40f280e6c9605cfe40b72fcdf6da7f7668109b9e3edd3ad181345df6af",
+  "subtitle": "A Series 40-style keypad phone for Mac and iPhone",
+  "tags": [
+   "keypad",
+   "phone",
+   "sip",
+   "voip",
+   "retro",
+   "calls"
+  ]
+ },
  "io.github.madeye.gterm": {
   "category": "developer",
   "date": "2026-10-26",
@@ -29245,6 +31498,22 @@
    "tracker"
   ]
  },
+ "io.labhouse.invoicesapp": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Invoice Maker - Invoice Fly IPA is the iOS installation package for the Invoice Fly application.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a794abf6898977e6ccead450f605e0bcf640832a16cf15885a9c41c8399b4c9e",
+  "subtitle": "Invoice Maker application",
+  "tags": [
+   "invoice",
+   "maker",
+   "ipa",
+   "business",
+   "utilities"
+  ]
+ },
  "io.mindist.noise": {
   "category": "other",
   "date": "2026-10-14",
@@ -29402,6 +31671,22 @@
    "beta"
   ]
  },
+ "ipaomtk.installer": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "IPAOMTK App is a popular online IPA library for iOS users who want to explore IPA files, third-party apps, and tweaked apps.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e39493d4e071638078f0610afc6145eb02bd45b4ea21779bc6c48922f5665614",
+  "subtitle": "Online IPA library for iOS users",
+  "tags": [
+   "ipa",
+   "library",
+   "ios",
+   "apps",
+   "utilities"
+  ]
+ },
  "it.Ettore.Electrical-Calculations-FREE": {
   "category": "utilities",
   "date": "2026-10-21",
@@ -29431,6 +31716,23 @@
    "client",
    "ios",
    "developer"
+  ]
+ },
+ "jet.fighter.games": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Jet Fighter Airplane Racing brings the excitement of aerial racing directly to iPhone, combining fast jet aircraft with competitive gameplay.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a91a442a3959298de864e99d47f254215e1a72ffff6102ad743af99bef62baa3",
+  "subtitle": "High speed aerial racing for iPhone",
+  "tags": [
+   "jet",
+   "fighter",
+   "airplane",
+   "racing",
+   "aerial",
+   "game"
   ]
  },
  "jp.co.applibot.chiikawapocketgl": {
@@ -29977,6 +32279,22 @@
    "development"
   ]
  },
+ "me.cranci.Iridum": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "Iridum is an iOS app designed to scrape the StreamingUnity site. Built entirely with SwiftUI, the application requires iOS or iPadOS 15.0 or later. Please note that the app is only available via sideloading and does not have a TestFlight or App Store link.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "27fe76a6b2e9daa2d4303910ca4672352923db65b7bf51a334b635babc42432c",
+  "subtitle": "Scrape StreamingUnity content on iOS",
+  "tags": [
+   "iridum",
+   "scraper",
+   "streamingunity",
+   "swiftui",
+   "sideload"
+  ]
+ },
  "me.eladga.finddiamonds": {
   "category": "other",
   "date": "2026-10-24",
@@ -30242,6 +32560,29 @@
    "research"
   ]
  },
+ "moe.itoapp.ito": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "Ito is a free, open-source client for iPhone and iPad. It combines dedicated readers, native video playback, AniList, MyAnimeList and MangaBaka tracking, and an extensible WebAssembly plugin system in a single app. Keep different media types together in one library. Enjoy dedicated manga and novel readers designed for iOS. Vertical and Webtoon reading preserves page position as images load and chapters enter or leave the loaded window. Failed page images wait for Try Again, rather than retrying whenever they return on screen. A source can mark single chapters as text, so a series can mix page volumes with novel volumes. Known locked chapters stop Start and Resume and adjacent navigation.",
+  "features": [
+   "Open-source",
+   "Anime tracking",
+   "Manga tracking",
+   "Native reading",
+   "WebAssembly plugins"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b9e8856274c8e6cb94f3a63dbac8692ed2b42aa008864d5b34153815dffd9c0d",
+  "subtitle": "Open-source client for anime, manga and novels",
+  "tags": [
+   "anime",
+   "manga",
+   "novels",
+   "tracking",
+   "reader",
+   "client"
+  ]
+ },
  "myndarc.newFitnessApp": {
   "category": "lifestyle",
   "date": "2026-10-15",
@@ -30391,6 +32732,29 @@
    "strategy"
   ]
  },
+ "net.kairosoft.iOS.kingdomEN": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kingdom Adventurers IPA MOD offers modified gameplay features for the Kingdom app. This version includes options to freeze money, freeze diamonds, freeze points, freeze items, freeze gacha tickets, freeze stamina, and enable free actions. Manage your kingdom and resources with these built-in modifications.",
+  "features": [
+   "Freeze Money",
+   "Freeze Diamonds",
+   "Freeze Items",
+   "Freeze Stamina",
+   "Free Actions"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7a6a2ae7a2cdb91bfd0f3f9c6c6d243ef45125a3fb36942e352381c754ef750b",
+  "subtitle": "Kingdom Adventurers IPA MOD",
+  "tags": [
+   "kingdom",
+   "adventurers",
+   "mod",
+   "ipa",
+   "strategy",
+   "game"
+  ]
+ },
  "net.limneos.AudioRecorder": {
   "category": "photo-video",
   "date": "2026-10-15",
@@ -30492,6 +32856,22 @@
    "retro",
    "gaming",
    "ios"
+  ]
+ },
+ "net.peakgames.kammelna": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Kammelna is a mobile application designed to entertain and challenge users with a variety of captivating and educational activities.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b45b53af8d0cee23ba3c4ab0c34944b552bb8e8333a1e800db087a71001789a5",
+  "subtitle": "Entertain and challenge with captivating activities",
+  "tags": [
+   "kammelna",
+   "entertainment",
+   "challenge",
+   "educational",
+   "app"
   ]
  },
  "net.quochuywdm.collanote496": {
@@ -30661,6 +33041,21 @@
    "utilities"
   ]
  },
+ "net.wooga.junes-journey-hidden-object-mystery-game": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Junes Journey Hidden Objects is a mobile game where you embark on a thrilling journey.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b4ed585a2427260f80a049cabef83fdc4f1cd92698700d2547de34cf2cbbb62d",
+  "subtitle": "Embark on a thrilling hidden object journey",
+  "tags": [
+   "hidden objects",
+   "game",
+   "mobile",
+   "puzzle"
+  ]
+ },
  "net.yukh.xui.ios": {
   "category": "utilities",
   "date": "2026-10-19",
@@ -30768,6 +33163,22 @@
    "tweak",
    "injector",
    "developer"
+  ]
+ },
+ "novadev.iram-plus": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "iRAM+ is an application that allows you to enable the Increased Memory Limit feature for your sideloaded apps directly on your device. FastSign is operated by CertFish.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4ac67d9bf709442369da2c60c00e92bb4483e893e14af247cb4768b72757a89c",
+  "subtitle": "Enable Increased Memory Limit for sideloaded apps",
+  "tags": [
+   "memory",
+   "sideload",
+   "limit",
+   "device",
+   "app"
   ]
  },
  "nz.owo.DYDL": {
@@ -30889,6 +33300,21 @@
    "torrent",
    "kotlin",
    "open source"
+  ]
+ },
+ "org.borrowedcache.ultimate531": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Injected with Pro",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "80a5ecd93ef5e4aa14dbd6f125c52ca76dafea9a99394cf3d644f87bcb096e26",
+  "subtitle": "Pro version available",
+  "tags": [
+   "keylifts",
+   "pro",
+   "fitness",
+   "lifts"
   ]
  },
  "org.brandonplank.flappybird": {
@@ -31094,6 +33520,22 @@
    "app",
    "ios",
    "other"
+  ]
+ },
+ "org.haxi0.Jaility": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Jaility is an iOS utility designed to customize your device. It disables locking after a respring and supervises your device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ea1d37ae80e8706cfb2ad27b510e464d20ce75d255512225f1922c853d4bb102",
+  "subtitle": "Disable locking after a respring and supervise iOS",
+  "tags": [
+   "jailbreak",
+   "ios",
+   "respring",
+   "customize",
+   "utility"
   ]
  },
  "org.htf65jud.balatro": {
@@ -31472,6 +33914,22 @@
    "game"
   ]
  },
+ "ru.nonamedude.iTorrent": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "iTorrent is a torrent client designed for iOS 9.3 and newer versions. Manage and download torrent files directly on your iOS device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "60bfbe4e9d1e69683702a3cc620a631179c1dfe6c6e01206441dbe258a452630",
+  "subtitle": "Torrent client for iOS",
+  "tags": [
+   "torrent",
+   "client",
+   "download",
+   "files",
+   "utilities"
+  ]
+ },
  "rw.sp.flitsmeister": {
   "category": "other",
   "date": "2026-10-24",
@@ -31487,6 +33945,23 @@
    "unlocked",
    "subscription",
    "app"
+  ]
+ },
+ "sa.com.istoria": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Learn English Easily with iStoria. This application is designed to help users learn the English language. Requires iOS 13.0 or later. Version 5.6.0.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "bcbf08f2c7a051caee5f71bbff974b2f46a5122d8ec4302995e0dc61aa04ea37",
+  "subtitle": "Learn English easily",
+  "tags": [
+   "english",
+   "learn",
+   "education",
+   "language",
+   "study",
+   "istoria"
   ]
  },
  "sato.tokyo.ai-art": {
@@ -31682,6 +34157,28 @@
    "information"
   ]
  },
+ "software.iridium": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Iridium is an experimental Windows-game runtime for iPhone and iPad. It features a native game library along with touch, keyboard, mouse, and controller integration.",
+  "features": [
+   "Native game library",
+   "Touch integration",
+   "Keyboard integration",
+   "Mouse integration",
+   "Controller integration"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e91314afd1980bb0b2753f3870bdebee6cbc7e8b318ea5f50bbf9a5543ab1a98",
+  "subtitle": "Windows-game runtime for iPhone and iPad",
+  "tags": [
+   "runtime",
+   "windows",
+   "games",
+   "emulator",
+   "gaming"
+  ]
+ },
  "stoope.Grit": {
   "category": "lifestyle",
   "date": "2026-10-26",
@@ -31736,6 +34233,24 @@
    "practice",
    "offline",
    "tools"
+  ]
+ },
+ "tech.miidii.AlbumManager": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "KKPhoto is a photo application that includes in-app purchase features.",
+  "features": [
+   "In-App Purchases"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "e3d7d6c7fb42c3859ba4820a62cf3023763c6d154fa542961831067458f667f3",
+  "subtitle": "Photo application",
+  "tags": [
+   "photo",
+   "kkphoto",
+   "image",
+   "media",
+   "editor"
   ]
  },
  "thebaselab.VS-Code": {
@@ -32207,6 +34722,25 @@
    "workout",
    "health",
    "gym"
+  ]
+ },
+ "xyz.kinohome": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "KinoHome is an application for watching movies and TV series. The application includes a paid subscription option.",
+  "features": [
+   "Paid Subscription"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "0ab17e7a98873fd9d65dd6031a7f5e4173e6b201c47d039ed90ebfd2199a7a1a",
+  "subtitle": "Watch movies and TV series",
+  "tags": [
+   "movies",
+   "tv series",
+   "shows",
+   "cinema",
+   "streaming",
+   "kinohome"
   ]
  },
  "xyz.shameful.Harbour": {
