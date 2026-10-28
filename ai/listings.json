@@ -270,6 +270,45 @@
    "utility"
   ]
  },
+ "LiveScore": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "LiveScore delivers real-time sports scores and updates. Version 8.11.0. The tweak removes advertisements.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "17fff885118e18f442438295e64364b4cf98e9b7f1f454cfd6c9d74080bdd703",
+  "subtitle": "Live sports scores without ads",
+  "tags": [
+   "livescore",
+   "sports",
+   "scores",
+   "live",
+   "no-ads",
+   "tweak"
+  ]
+ },
+ "Lolendor.LBox": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "LBox enables automatic app installation to LiveContainer on iOS. To use it, select the LiveContainer directory (On My iPhone > LiveContainer) on your device. The app works with FastSign, operated by CertFish, for sideloading functionality.",
+  "features": [
+   "LiveContainer integration",
+   "Automatic installation"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b5a900379697f2462beb4c82a0d1e0acb8a6f56e8c56eaab86fad110b3049c65",
+  "subtitle": "Automatic app installation for LiveContainer",
+  "tags": [
+   "livecontainer",
+   "sideloading",
+   "app-install",
+   "developer-tools",
+   "fastsign",
+   "ios"
+  ]
+ },
  "Mailroom.Canary-iOS": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -672,6 +711,23 @@
    "subscription"
   ]
  },
+ "app.derwebdesigner.locationscout.net": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "Locationscout is a photo-spot discovery app by @Sa1y0miii. Requires iOS 15.0 or later. Current version 3.7.0. Available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6b97c586982b7b8aade6adb9d4c6ee6604c12b226b340ac25fd544e884495802",
+  "subtitle": "Photo Spots discovery app",
+  "tags": [
+   "photo",
+   "spots",
+   "locations",
+   "discovery",
+   "ios",
+   "app"
+  ]
+ },
  "app.ehpanda": {
   "category": "entertainment",
   "date": "2026-10-21",
@@ -843,6 +899,23 @@
    "virtual machine",
    "x86_64",
    "terminal"
+  ]
+ },
+ "app.labbet.labbet": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Labbet is an app provided with subscription features unlocked. The original developer is unknown. This version includes access to subscription content without requiring a separate subscription purchase.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "25992850d1fb8be285e623754ad63a7f185e7d68546cb80a422c16c6d12c3687",
+  "subtitle": "Labbet with subscription unlocked",
+  "tags": [
+   "labbet",
+   "subscription",
+   "unlocked",
+   "premium"
   ]
  },
  "app.molinete.aerio": {
@@ -1070,6 +1143,25 @@
    "simulation",
    "recipes",
    "camera"
+  ]
+ },
+ "biser.stories": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "This version of Leto includes premium features injected into the app.",
+  "features": [
+   "Premium Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "622be61fcc23735cd774b584d6e9ac65c5d5e6b6b3eb3a414eb9b6ce8ec2eba9",
+  "subtitle": "Injected with Premium",
+  "tags": [
+   "premium",
+   "injected",
+   "modified",
+   "unlocked",
+   "app",
+   "ios"
   ]
  },
  "blog.blurt.blurt": {
@@ -1695,6 +1787,24 @@
    "heroes",
    "game",
    "ios"
+  ]
+ },
+ "co.lovetap.Female-by-Design": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Life is an app from AppTesters IPA Repo. It comes with premium features injected.",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dd8bb7c21d1f00b2bc8be53e4cfd1609869981209ecf87b3503cab97063884da",
+  "subtitle": "Life \u2013 Premium Injected",
+  "tags": [
+   "life",
+   "premium",
+   "ipa",
+   "repo",
+   "apptesters"
   ]
  },
  "co.vulcanlabs.moodtracker": {
@@ -2416,6 +2526,25 @@
    "casual"
   ]
  },
+ "com.LEMO.LemoFM": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "LEMOFM is a modified version of the music streaming app with subscription features unlocked. This build is distributed through the AppTesters IPA repository. The modification removes subscription restrictions for premium content access.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "19756d51efd1dda1ad25592cfa8026a2ddff80fc81da2b25599e092a82347d33",
+  "subtitle": "Music streaming with subscription unlocked",
+  "tags": [
+   "music",
+   "streaming",
+   "modified",
+   "unlocked",
+   "subscription",
+   "ipa"
+  ]
+ },
  "com.Lema.Michael.InstagramApp": {
   "category": "social",
   "date": "2026-10-27",
@@ -2667,6 +2796,22 @@
    "open world",
    "game",
    "mobile"
+  ]
+ },
+ "com.ProjectMoon.LimbusCompany": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Limbus Company IPA is the official iOS application package that allows users to install the app on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ea4f2a216059b2a6700d65aa5e0366a94494b5b1c293dec62013bd5383d05769",
+  "subtitle": "Official iOS IPA for Limbus Company",
+  "tags": [
+   "limbus",
+   "company",
+   "ipa",
+   "ios",
+   "install"
   ]
  },
  "com.RayanKhan.APNS-Demo": {
@@ -2946,6 +3091,23 @@
    "hunt"
   ]
  },
+ "com.ToweringTower.KnightLancer": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Knight Lancer version 1.64 patched tweak featuring free in-app purchases. Requires minimum operating system version 15.0.",
+  "features": [
+   "Free iAP"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d10a04c0f684c29a4d6419ea2f4b9722c9df47628019d992883bba9edda90ba3",
+  "subtitle": "Knight Lancer v1.64 tweak with free iAP",
+  "tags": [
+   "knight lancer",
+   "tweak",
+   "patch",
+   "free iap"
+  ]
+ },
  "com.TwiceApps.IdleCashRun": {
   "category": "other",
   "date": "2026-10-27",
@@ -3134,6 +3296,23 @@
    "ios",
    "iphone",
    "ipad"
+  ]
+ },
+ "com.abi.legendofsurvivors": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "In the realm of mobile gaming, Legend of Survivors IPA for iOS has emerged as one of the most thrilling titles available on iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5880755863f83a345bec668a2e399720bbf28e2f7f267e1eb404f25cba9f17e8",
+  "subtitle": "Thrilling mobile survival game for iOS",
+  "tags": [
+   "legend",
+   "survivors",
+   "ios",
+   "mobile",
+   "game",
+   "thrilling"
   ]
  },
  "com.abighead.Widgets": {
@@ -3354,6 +3533,45 @@
    "creative"
   ]
  },
+ "com.adobe.lrmobile": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "Adobe Lightroom for iPad (bundle ID: com.adobe.lrmobile) version 11.5.1. Requires iOS 18.0 or later. This build is patched with the subscription unlocked.",
+  "features": [
+   "Patched",
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ca704a43eb9330b174970ea3408f79e6ec1612101a53b340de5976c9a3351c4b",
+  "subtitle": "Adobe Lightroom for iPad, subscription unlocked",
+  "tags": [
+   "lightroom",
+   "adobe",
+   "photo",
+   "editor",
+   "ipad",
+   "patched"
+  ]
+ },
+ "com.adobe.lrmobilephone": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "Lightroom photo editing app with subscription features unlocked. This version provides full access to premium tools and presets without a recurring subscription.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bd218c66a06b38c6603a523158ba8210011b24540d32cded962ac6aff44836df",
+  "subtitle": "Lightroom with Subscription Unlocked",
+  "tags": [
+   "lightroom",
+   "photo",
+   "editing",
+   "subscription",
+   "unlocked",
+   "premium"
+  ]
+ },
  "com.adobe.post": {
   "category": "other",
   "date": "2026-10-14",
@@ -3404,6 +3622,23 @@
    "ti-nspire",
    "arm",
    "math"
+  ]
+ },
+ "com.advant.lamar": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Lamar Idle Vlogger is an idle simulation where social media platforms thrive and content creation becomes a form of self\u2011expression.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "40a4e7cc32842e6a6059bf8fca48e4369d3df82632f02d3a8940e226764fda88",
+  "subtitle": "Idle vlogger simulation on social media",
+  "tags": [
+   "idle",
+   "vlogger",
+   "simulation",
+   "social",
+   "media",
+   "game"
   ]
  },
  "com.adventurechef": {
@@ -4339,6 +4574,27 @@
    "retro",
    "console",
    "gaming",
+   "ios"
+  ]
+ },
+ "com.antique.Limon": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Nintendo 3DS emulator for iPad and iPhone built from Citra. It incorporates experimental Vulkan renderer from GPUcode via MoltenVK.",
+  "features": [
+   "Citra-based",
+   "Vulkan renderer",
+   "MoltenVK"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3c70d361043441770a1fcc73766cc69789d39792a45a281ebc674731c80858d9",
+  "subtitle": "Nintendo 3DS emulator for iOS",
+  "tags": [
+   "3ds",
+   "emulator",
+   "citra",
+   "vulkan",
+   "moltenvk",
    "ios"
   ]
  },
@@ -5898,6 +6154,23 @@
    "audio"
   ]
  },
+ "com.brainy.flashcard.studystack": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "KnowQuest Edge version 1.0 is an application from TestFlight created by GLESign. Please note that this application works exclusively through TrollStore.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "207318fa6275846817912d4b24d6acfe084ce133ec73e04e9934b6983a300660",
+  "subtitle": "The Yellow Bank is with you again",
+  "tags": [
+   "knowquest",
+   "edge",
+   "trollstore",
+   "testflight",
+   "glesign",
+   "yellow bank"
+  ]
+ },
  "com.brand175.DolphiniOS-njb": {
   "category": "games",
   "date": "2026-10-20",
@@ -6138,6 +6411,27 @@
    "traffic",
    "networking",
    "tool"
+  ]
+ },
+ "com.bytes-and-pixels.food-buddy": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Labeless is an AI product scanner app for iOS that helps users make informed decisions while grocery shopping. The app uses artificial intelligence to scan food products and provide information to make shopping safer and smarter.",
+  "features": [
+   "AI scanning",
+   "Product analysis",
+   "Grocery assistance"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "27b9fa983e40482cd7ee371fb89dc7883a57e5b6027871c88984e1adedaa650d",
+  "subtitle": "AI food scanner for smarter grocery shopping",
+  "tags": [
+   "ai",
+   "scanner",
+   "grocery",
+   "food",
+   "shopping",
+   "product"
   ]
  },
  "com.bytes-and-pixels.fw": {
@@ -8102,6 +8396,23 @@
    "unlocked"
   ]
  },
+ "com.demind.lifestack-calendar": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Lifestack is a circadian planner that helps you schedule tasks according to your body clock. Requires iOS 12.4 or later. Current version 2.11.6.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9e6b191c8605b0a8caa2c23aec7eccbe84a86819440433a8eaaa17a7e6e1cb12",
+  "subtitle": "Circadian planner for iOS",
+  "tags": [
+   "circadian",
+   "planner",
+   "schedule",
+   "health",
+   "ios",
+   "productivity"
+  ]
+ },
  "com.demomusic.demo": {
   "category": "other",
   "date": "2026-10-20",
@@ -8948,6 +9259,26 @@
    "offline"
   ]
  },
+ "com.ebaykleinanzeigen.ebc": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "App to buy and sell on Germany's online marketplace. This version is injected with an adblocker and a second tweak.",
+  "features": [
+   "Adblocker",
+   "Extra tweak"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "daab7b8d292b4aaa6f81df7c2a312423faf18a305bfb1fa6fd6782ff8e4bbd12",
+  "subtitle": "Buy and sell on Germany's leading online marketplace",
+  "tags": [
+   "marketplace",
+   "germany",
+   "buy",
+   "sell",
+   "classifieds",
+   "shopping"
+  ]
+ },
  "com.edgeeloquent.app": {
   "category": "utilities",
   "date": "2026-10-20",
@@ -9101,6 +9432,22 @@
    "sleep",
    "relaxation",
    "mindfulness"
+  ]
+ },
+ "com.elf-audio.koala": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Koala is an app injected with IAP functionality.",
+  "features": [
+   "Injected with IAP"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "17f56e3e5640ab71ec3f70e629bfe4c0a91ea28e27c82283249d50894fed2492",
+  "subtitle": "Injected with IAP",
+  "tags": [
+   "koala",
+   "iap",
+   "app"
   ]
  },
  "com.elsonbaty.chillio": {
@@ -9528,6 +9875,23 @@
    "ewa"
   ]
  },
+ "com.exaltedpixels.LensLinkCamera": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "LensLink Camera turns your iPhone or iPad into a high-quality camera source for OBS Studio. Connect your device to use it directly inside OBS for streaming or recording.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e05430c66fe05a661735ff1e5f9802b08646561cf9ad7c07b1a743147a86e5a4",
+  "subtitle": "Use iPhone as OBS Studio camera",
+  "tags": [
+   "obs",
+   "camera",
+   "streaming",
+   "video",
+   "ipad",
+   "iphone"
+  ]
+ },
  "com.example.acela": {
   "category": "entertainment",
   "date": "2026-10-14",
@@ -9864,6 +10228,25 @@
    "racing"
   ]
  },
+ "com.feraset.livensa": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Livensa is an application with Pro features injected. The modified version includes premium functionality without requiring a separate subscription or purchase.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "add04ae46f87680ee94826d40cb16c0aabd0109196f223fa51859db88a9750f1",
+  "subtitle": "Pro features injected",
+  "tags": [
+   "livensa",
+   "pro",
+   "injected",
+   "modified",
+   "premium",
+   "unlocked"
+  ]
+ },
  "com.filmicpro.doubletake": {
   "category": "other",
   "date": "2026-10-20",
@@ -9988,6 +10371,23 @@
    "sequel",
    "multiplayer",
    "vehicles"
+  ]
+ },
+ "com.fingersoft.legohillclimbadventures": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Combines the LEGO universe with hill climbing races. Players drive LEGO vehicles across hilly terrain.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0dda61f696507ed14e300285503a1ffcb82415e83a95ff81da3e7b7d35bd8f67",
+  "subtitle": "LEGO hill climbing racing game",
+  "tags": [
+   "lego",
+   "hill",
+   "climb",
+   "racing",
+   "adventure",
+   "mobile"
   ]
  },
  "com.firecore.infuse": {
@@ -10698,6 +11098,23 @@
    "rpg"
   ]
  },
+ "com.game.perfectlands": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Land Builder IPA for iOS v1.27.3 represents a fresh and engaging entry into the popular simulation and strategy genre.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "40422fec11d3b6f7a514d8f4c15b01619ecf7faff4116d6200687ee466c054d8",
+  "subtitle": "Simulation and strategy building game",
+  "tags": [
+   "simulation",
+   "strategy",
+   "building",
+   "land",
+   "ios",
+   "game"
+  ]
+ },
  "com.game5mobile.lineandwater": {
   "category": "other",
   "date": "2026-10-26",
@@ -10806,6 +11223,24 @@
    "strategy",
    "simulation",
    "games"
+  ]
+ },
+ "com.gamelegendstudio.lavasurvival": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "LavaSurvival is a modded version of the game with mods injected.",
+  "features": [
+   "Mods Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a44482830e04f88e1f687dd544e854b36e3b8d927966b73ca9df30f848021b1f",
+  "subtitle": "Modded survival game with injected mods",
+  "tags": [
+   "lavasurvival",
+   "mods",
+   "injected",
+   "ipa",
+   "testers"
   ]
  },
  "com.gameloft.AmazingSpiderMan2": {
@@ -11269,6 +11704,23 @@
    "theming"
   ]
  },
+ "com.glidetalk.glideapp": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Lloyd \u2013 Your AI Superpower IPA is an iOS installation package that allows users to install an ad",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "48465789933e8b67fc0bd95155e2a49bc336e2c0604c8c8bfc935370f84ea1a9",
+  "subtitle": "AI superpower IPA for iOS installation",
+  "tags": [
+   "ai",
+   "ipa",
+   "ios",
+   "installation",
+   "lloyd",
+   "superpower"
+  ]
+ },
  "com.glitche.ios.glitcheapp": {
   "category": "other",
   "date": "2026-10-26",
@@ -11325,6 +11777,21 @@
    "shooting",
    "action",
    "hunting",
+   "game"
+  ]
+ },
+ "com.glu.zbs": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Left to Survive is a captivating zombie-themed game that has captured the hearts of mobile gamers worldwide.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c40404a98b14be333740ea6b4ed96ac78e8563e1322378f597a21aac9c493b18",
+  "subtitle": "Zombie-themed survival game",
+  "tags": [
+   "zombie",
+   "survival",
+   "mobile",
    "game"
   ]
  },
@@ -13126,6 +13593,26 @@
    "port",
    "action",
    "gaming"
+  ]
+ },
+ "com.identification.plant": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "LeafSnap is a plant identification app that includes premium features. The IPA file has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Premium",
+   "Tested"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5762985710aa150ec854dac55399eed11ac835c91f8a026cfea971f103c87608",
+  "subtitle": "Premium plant identification app",
+  "tags": [
+   "leafsnap",
+   "premium",
+   "ipa",
+   "ttjb",
+   "tested",
+   "plant"
   ]
  },
  "com.idevicecentral.toolkit": {
@@ -15458,6 +15945,174 @@
    "matchmaking"
   ]
  },
+ "com.ipaomtk.knockout.2.wrath.of.the.karen.157896": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Knockout 2 Wrath of the Karen is a mobile game available as an iOS installation package. Install the game manually on your iOS device to play.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4c06d71733c41034a94d750359a30d4fbb7589157dea3a048ac2572a30f763ba",
+  "subtitle": "Knockout 2 Wrath of the Karen",
+  "tags": [
+   "game",
+   "ios",
+   "ipa",
+   "action",
+   "mobile"
+  ]
+ },
+ "com.ipaomtk.kurokos.basketball.sr.158392": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kuroko's Basketball SR is an iOS installable competitive basketball game inspired by the popular anime and manga series. Players can experience basketball matches with characters and abilities from the franchise.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2a2c062855eab47eccda72dd21cbec48fc7e421c037f279013f94c311f44af24",
+  "subtitle": "Competitive basketball game inspired by Kuroko's Basketball",
+  "tags": [
+   "basketball",
+   "anime",
+   "competitive",
+   "sports",
+   "kuroko",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.ladder.strength.training.plans.157889": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "LADDER Strength Training Plans is an iOS installation package (IPA) that allows users to access strength training plans.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4f59c0ac2b30037427de80acf39e9b9ed550dfc99b25d4d7287244f1faf8d2c7",
+  "subtitle": "Strength training plans IPA for iOS",
+  "tags": [
+   "ladder",
+   "strength",
+   "training",
+   "plans",
+   "ipa",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.last.hunter.k.seoul.159353": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Last Hunter K : Seoul is the iOS installable version of a high-intensity action RPG. The game focuses on fast-paced combat and character progression in a Seoul setting.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "adafcc22c526f2e18f309cc6ec7926c6392a70cec81d63433dc85cf40e8efb16",
+  "subtitle": "High-intensity action RPG set in Seoul",
+  "tags": [
+   "action",
+   "rpg",
+   "seoul",
+   "ios",
+   "game",
+   "hunter"
+  ]
+ },
+ "com.ipaomtk.last.king.survival.156916": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Last King: Survival is a survival-focused strategy game where players build, explore, and endure in a hostile world. The app is distributed as an IPA installation file for iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8ec193d144711323783a4b2678cee5cdaf7795e3673902a096b860f6908fed8c",
+  "subtitle": "Survival-focused strategy game for iOS",
+  "tags": [
+   "survival",
+   "strategy",
+   "game",
+   "ios",
+   "ipa",
+   "offline"
+  ]
+ },
+ "com.ipaomtk.last.stand.zombie.defense.157390": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Last Stand: Zombie Defense is a game distributed as an IPA file for manual installation on iOS devices. The title suggests zombie defense gameplay. Source category: games.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d33fdf1b7ef45944710fc4d3f7fb8cb11c62b85318de64d63a7904cc2d65fd15",
+  "subtitle": "Zombie defense game for iOS",
+  "tags": [
+   "zombie",
+   "defense",
+   "game",
+   "ipa",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.life.sim.3d.family.simulator.152542": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Life Sim 3D IPA is the iOS installation package of a virtual life simulation game for iPhone and iPad.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b90afdbea5f75204cefe7639bb7a0efaaf9906f0842976ccf34f1e76ba615479",
+  "subtitle": "Virtual life simulation game for iOS",
+  "tags": [
+   "life",
+   "simulation",
+   "3d",
+   "family",
+   "ipa",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.lifestack.plan.with.energy.159547": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Lifestack: Plan with Energy is an iOS productivity app for planning tasks around personal energy levels. The app helps users schedule activities based on energy patterns throughout the day.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cb6837dd9078eef8b523e3dad91e7f6eebe70a2365a6da1bb4ce470947eda5a5",
+  "subtitle": "Energy-aware daily planner",
+  "tags": [
+   "planner",
+   "productivity",
+   "energy",
+   "schedule",
+   "tasks",
+   "organization"
+  ]
+ },
+ "com.ipaomtk.lingora.159950": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Lingora IPA is an iOS installation package that allows users to install an AI-powered language learning app on iPhone.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0018b208cfb2f0e5d24a8b31cc428ecef91ac46aafd260d7be968d8ded82529c",
+  "subtitle": "AI-powered language learning IPA for iOS",
+  "tags": [
+   "language",
+   "learning",
+   "ai",
+   "ipa",
+   "ios",
+   "install"
+  ]
+ },
+ "com.ipaomtk.lockdown.mode.jailbreak.153999": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "Lockdown Mode Jailbreak Security Download for iPhone. In the modern digital age, smartphones store vast amounts of sensitive information, from personal messages to financial data. This app provides security features related to Lockdown Mode and jailbreak protection for iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "78b04f8bf5487f5dd2d123dff23d109cec7fc6adf5c621b7a0710d48c1a72904",
+  "subtitle": "Lockdown Mode jailbreak security tool",
+  "tags": [
+   "lockdown",
+   "jailbreak",
+   "security",
+   "ios",
+   "iphone",
+   "protection"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -15531,6 +16186,39 @@
    "movies",
    "series",
    "streaming"
+  ]
+ },
+ "com.ironhidegames.kingdomrush.elves-hd": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Kingdom Rush Origins TD on iOS represents a confident evolution of the tower defense genre, offering a polished and thoughtfully balance",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "36d3fd605bcf6b3824fc37ca391ddc35360c261a6c78aa93259c2b2c00332478",
+  "subtitle": "Tower defense evolution on iOS",
+  "tags": [
+   "tower",
+   "defense",
+   "kingdom",
+   "rush",
+   "origins",
+   "td"
+  ]
+ },
+ "com.ironhidegames.kingdomrush.mp": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kingdom Rush Battles TD is a tower defense game for iOS that combines strategic gameplay.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3ddc4a01eca74915475f64a5d008c5351f95e2bc2fc39a4922d3e66265dc7de6",
+  "subtitle": "Tower defense game for iOS",
+  "tags": [
+   "tower defense",
+   "strategy",
+   "battles",
+   "games",
+   "ios"
   ]
  },
  "com.ironotes.Ironotes": {
@@ -15786,6 +16474,23 @@
    "idle",
    "strategy",
    "game"
+  ]
+ },
+ "com.jif.LANreader.3": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "LANreader is an iOS and macOS (Apple silicon) manga reader that connects to a LANraragi server. The App Store version is paid; it can also be installed for free via TestFlight or AltStore Classic. Other apps can open LANreader using deep links of the form lanreader://?= with percent\u2011encoded values. Archive IDs are provided by the connected LANraragi server. The source code is available for cloning and building in Xcode. Repository scripts verify-changes and verify run validation, SwiftLint, and the iOS test suite.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3809ab3133bd3fcf6eb5e86d3e756bb5ca84a16bc9e344f652607eaf6e86c0a7",
+  "subtitle": "Manga reader for LANraragi",
+  "tags": [
+   "manga",
+   "reader",
+   "lanraragi",
+   "ios",
+   "macos",
+   "altstore"
   ]
  },
  "com.jockelholm.undertaledr": {
@@ -16100,6 +16805,59 @@
    "ipa"
   ]
  },
+ "com.kdt.livecontainer": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "LiveContainer lets you run iOS applications without installing them on your device.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0090148116b95268d16717d815ef333d7ee9f863e7110d10d42bb48dd1186c7e",
+  "subtitle": "Run iOS apps without installing",
+  "tags": [
+   "ios",
+   "apps",
+   "run",
+   "install",
+   "utility",
+   "container"
+  ]
+ },
+ "com.kdt.livecontainer212": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "LiveContainer lets you run iOS applications without installing them on your device. Version 2.1.2 by khanhduytran0.",
+  "features": [
+   "Run Without Install"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5dead1effde2910d9ea775777f88a8012f5dfe564392f8ef584200cdaf60dcd9",
+  "subtitle": "Run iOS apps without installation",
+  "tags": [
+   "ios",
+   "app",
+   "run",
+   "install",
+   "container",
+   "utility"
+  ]
+ },
+ "com.kdt.livecontainer8b6e503": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "LiveContainer allows you to run iOS applications without installing them on the device. This utility provides a container environment for executing apps directly.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d0dd842e0e8560939708fb8b4647c1a6da9e7686c9493a8796cde459e45cc091",
+  "subtitle": "Run iOS apps without installation",
+  "tags": [
+   "ios",
+   "app",
+   "run",
+   "container",
+   "utility",
+   "developer"
+  ]
+ },
  "com.ketchapp.horizon": {
   "category": "games",
   "date": "2026-10-27",
@@ -16115,6 +16873,24 @@
    "ipa",
    "ios",
    "installer"
+  ]
+ },
+ "com.ketchapp.knifehit": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Knife Hit is an exciting and engaging game featuring unlimited coins available so you can get the most out of your gameplay experience.",
+  "features": [
+   "Unlimited Coins"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "620b09d1e25471f616577ac6e15ec78ffea4940be435ec82a29c67751e02dbdf",
+  "subtitle": "An exciting and engaging knife throwing game",
+  "tags": [
+   "knife",
+   "hit",
+   "game",
+   "action",
+   "arcade"
   ]
  },
  "com.kevinquisquater.Habits": {
@@ -16187,6 +16963,22 @@
    "media"
   ]
  },
+ "com.kinetise.knowdrugs": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "KnowDrugs is a harm reduction-focused mobile application designed to provide information and drug checking resources.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "328d41564f645de5f6f7c45bfdedbfdb17a4d1e4dc7bdcc2334bde8e6f537998",
+  "subtitle": "Harm reduction and drug checking information",
+  "tags": [
+   "harm reduction",
+   "health",
+   "drug checking",
+   "utilities",
+   "safety"
+  ]
+ },
  "com.kingdom.gwanyuIdle": {
   "category": "other",
   "date": "2026-10-27",
@@ -16240,6 +17032,29 @@
    "ai",
    "cooking",
    "food"
+  ]
+ },
+ "com.knightabdo.knightmusic": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "Knight Music is an open-source native client for Navidrome and OpenSubsonic personal music servers, with YouTube Music built in next to your own library. Designed for iOS and iPadOS, it features an offline-first library powered by a local SQLite mirror, beat-matched AutoMix transitions, animated artwork, an AI music assistant, CarPlay support, widgets, and Siri integration. Enjoy instant loading across every screen, background synchronization, full-text search with removable recent searches, and a genre browse grid.",
+  "features": [
+   "Open-source client",
+   "Offline-first library",
+   "CarPlay support",
+   "Siri integration",
+   "YouTube Music built in"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c5e87582f1bd4ef84f4665bc159935babf39cba13c87ad12227c8ee0da62d67f",
+  "subtitle": "Native client for Navidrome and YouTube Music",
+  "tags": [
+   "music",
+   "navidrome",
+   "streaming",
+   "offline",
+   "player",
+   "audio"
   ]
  },
  "com.knights.commandoshooting": {
@@ -16362,6 +17177,40 @@
    "iphone"
   ]
  },
+ "com.kryptos.app": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Kryptos is an iOS and Android application that allows you to encrypt messages in regular messengers. It also works with messengers where end",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "aff2f7562384906fb074f920f1d838cbb33435180ce1b535cf7b4b8c2129f78c",
+  "subtitle": "Encrypt messages in regular messengers",
+  "tags": [
+   "encryption",
+   "messenger",
+   "security",
+   "privacy",
+   "ios",
+   "android"
+  ]
+ },
+ "com.ksign.app4": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "KSign is an IPA installer that allows iOS users to sideload applications. It enables installation of apps outside the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9d6ec7ee24c8e1e321f51d61e6395c31b14145206b04f9a6034fbf1b0a27d027",
+  "subtitle": "IPA installer for sideloading apps",
+  "tags": [
+   "ipa",
+   "installer",
+   "sideload",
+   "ios",
+   "apps",
+   "tool"
+  ]
+ },
  "com.kunio.dragonboundknight": {
   "category": "games",
   "date": "2026-10-20",
@@ -16446,6 +17295,25 @@
    "hatch"
   ]
  },
+ "com.ladder.bootcamp": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "This is a modified version of Ladder distributed by AppTesters IPA Repo. The package has been injected with premium features.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fe4a68ac95b2a07bafa20cd4eba0e3d997894ba62114bf02c5ba958f415aa1d8",
+  "subtitle": "Premium modified version from AppTesters",
+  "tags": [
+   "ladder",
+   "premium",
+   "modified",
+   "ipa",
+   "apptesters",
+   "unlocked"
+  ]
+ },
  "com.lagagggggg.MyBatteries": {
   "category": "utilities",
   "date": "2026-10-14",
@@ -16479,6 +17347,40 @@
    "adventure",
    "action",
    "game"
+  ]
+ },
+ "com.lampa.photo": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "Lampa is a photo-video application with premium features unlocked.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "919b494a97b54c4a99daa877fe20aa4fe1d6b03508be36a63c9f8612705c01c6",
+  "subtitle": "Premium photo-video app",
+  "tags": [
+   "photo",
+   "video",
+   "premium",
+   "unlocked"
+  ]
+ },
+ "com.langotalk.app": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Langotalk-AI Language Learning is an advanced iOS application designed to help users learn new languages through AI.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b37531f0b398fa313f58835890b657afb4d62420426f337f6039d43ba5448a23",
+  "subtitle": "AI-powered language learning app",
+  "tags": [
+   "language",
+   "learning",
+   "ai",
+   "ios",
+   "advanced",
+   "app"
   ]
  },
  "com.languageinnovation.clozemaster": {
@@ -16648,6 +17550,21 @@
    "ios"
   ]
  },
+ "com.leemin.lightningprefs": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "LightningTime adds a hexadecimal clock to the lock screen. The time is displayed in hexadecimal format.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0b07540d319d758e8557557431d51bc31949a566d1d44cadbe94db943545f024",
+  "subtitle": "Hexadecimal time on lock screen",
+  "tags": [
+   "lockscreen",
+   "hexadecimal",
+   "time",
+   "lightning"
+  ]
+ },
  "com.leguas.gunstorm": {
   "category": "games",
   "date": "2026-10-18",
@@ -16662,6 +17579,23 @@
    "survivor",
    "shooter",
    "game"
+  ]
+ },
+ "com.leica-camera.camera": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "Leica LUX is a manual pro camera application for iOS. Requires iOS 18.0 or later. Current version 1.14.2. Developed by @Sa1y0miii.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2f2fcab10e97b199b6220470dc802e26cb9043323929703ecfe803a03cfe92cd",
+  "subtitle": "Leica LUX \u2013 Manual Pro Camera",
+  "tags": [
+   "camera",
+   "manual",
+   "pro",
+   "photography",
+   "leica",
+   "ios"
   ]
  },
  "com.leminlimez.Cluckabunga": {
@@ -16730,6 +17664,61 @@
    "editor",
    "pro",
    "ttjb"
+  ]
+ },
+ "com.lens.ai.app": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Lens AI: Scanner & Identifier version 1.0.24 with Pro features unlocked. The build is patched and provided by @riftysIPAlibrary.",
+  "features": [
+   "Pro Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "66391761a74b7fbf7e27e3573b5031e193e2a0bea5533d02479bdc15f26be1da",
+  "subtitle": "AI-powered scanner & identifier",
+  "tags": [
+   "scanner",
+   "identifier",
+   "ai",
+   "pro",
+   "unlocked",
+   "patched"
+  ]
+ },
+ "com.lensa.app": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "Lensa is a brand new way of making your selfies look better, than you could have ever imagined. Forget about conventional filters and photo editing to",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "760332677c8f23556be4d8c83b25c529f63b90471a7bd05e6b719994de781185",
+  "subtitle": "New way to improve selfies",
+  "tags": [
+   "selfie",
+   "filter",
+   "photo",
+   "editing",
+   "lensa"
+  ]
+ },
+ "com.lensdistortions.Lens-Distortions": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "LD - Photo & Video Finishing version 6.9.2. This patched release provides premium features unlocked. Distributed by @riftysIPAlibrary.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "475aabbecf97e810d0c1dc1064c8d570c8a9290117867b22a4a489789762bd2d",
+  "subtitle": "Photo & video finishing with premium features unlocked",
+  "tags": [
+   "photo editing",
+   "video editing",
+   "premium",
+   "patched",
+   "finishing"
   ]
  },
  "com.leolam.Activity-Moniter": {
@@ -16828,6 +17817,25 @@
    "utilities"
   ]
  },
+ "com.letterboxd.LetterboxdApp": {
+  "category": "social",
+  "date": "2026-10-28",
+  "description": "Letterboxd is a social platform for film enthusiasts to track, rate, and review movies. This version is injected with Pro features. Users can log watched films, create lists, follow friends, and discover new movies through community recommendations. The app syncs data across devices and provides personalized statistics on viewing habits.",
+  "features": [
+   "Pro Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d78023e334bf63924dcc9644209e979b86978b633a0a3bc011a7313d8a3978af",
+  "subtitle": "Movie tracking and social film diary",
+  "tags": [
+   "movie",
+   "film",
+   "tracking",
+   "review",
+   "social",
+   "cinema"
+  ]
+ },
  "com.leviidev.aetherx": {
   "category": "games",
   "date": "2026-10-19",
@@ -16883,6 +17891,25 @@
    "bangumi"
   ]
  },
+ "com.lightricks.Enlight-Photos": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "Lightleap is a photo\u2011video app with subscription features unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fcf845aa4af2e72058f4c3cf6b68fba24c4403b5d237d787be5f3d36e7b41cb3",
+  "subtitle": "Subscription unlocked photo editor",
+  "tags": [
+   "photo",
+   "video",
+   "editor",
+   "subscription",
+   "unlocked",
+   "lightleap"
+  ]
+ },
  "com.lightricks.Facetune2": {
   "category": "photo-video",
   "date": "2026-10-21",
@@ -16899,6 +17926,25 @@
    "editor",
    "unlocked",
    "images"
+  ]
+ },
+ "com.lilbite.calorie.counter": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Food Log\u00b0 - LilBite is a food tracking application. This version includes the subscription unlocked tweak, providing full access to all features without a recurring payment. Version 1.0.60.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1fe7db5cff459fe218bba1fe6ae13ab3b6664d0880518bf709f0d7f1fa2f9e15",
+  "subtitle": "Food logging with subscription unlocked",
+  "tags": [
+   "food",
+   "log",
+   "tracking",
+   "nutrition",
+   "diet",
+   "health"
   ]
  },
  "com.lilucat.applock.us": {
@@ -17003,6 +18049,23 @@
    "puzzle",
    "game",
    "ios"
+  ]
+ },
+ "com.lingup.app": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "LingUp is an English speaking application developed by @Sa1y0miii. Requires iOS 15.0 or later. Current version is 5.8. Available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "28b17d2fe98f5b4d08917701501bcabd56657afbf887277d7ba89194429c38f7",
+  "subtitle": "English speaking practice app for iOS 15+",
+  "tags": [
+   "english",
+   "speaking",
+   "language",
+   "learning",
+   "ios",
+   "education"
   ]
  },
  "com.litchie.idosgames": {
@@ -17147,6 +18210,23 @@
    "m4b",
    "media",
    "books"
+  ]
+ },
+ "com.llloooggg.letsflutssh": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "LFssh (LetsFLUTssh) is a functional SSH client created as a personal pet project. The app was developed with AI assistance under the direction of a human developer. It is distributed via sideloading through the CertFish service.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ce64d2751a4c7d7e206bab2fe61f79509001520baf01df67d2727489563865b5",
+  "subtitle": "SSH client pet project built with AI assistance",
+  "tags": [
+   "ssh",
+   "client",
+   "terminal",
+   "developer",
+   "pet-project",
+   "ai-assisted"
   ]
  },
  "com.logicalengine.qsei": {
@@ -17371,6 +18451,28 @@
    "management",
    "utility",
    "phone"
+  ]
+ },
+ "com.macxk.KMusic": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "KMusic is a multi-source music aggregation player developed with SwiftUI, supporting iOS and macOS. It features built-in music sources from multiple platforms including Kuwo, Kugou, QQ Music, NetEase Cloud, and Migu. The app supports LRC lyric synchronization, global search, background playback, and a dark theme. Users can also import custom music sources through JavaScript scripts.",
+  "features": [
+   "Multi-source support",
+   "LRC lyric synchronization",
+   "Global search",
+   "Background playback",
+   "Dark theme"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7c6e8b42fd98a13ddddc4ffb093af32121e4147dcf8038e0508d67517ab1c74a",
+  "subtitle": "Multi-source music player for iOS and macOS",
+  "tags": [
+   "music",
+   "player",
+   "swiftui",
+   "audio",
+   "streaming"
   ]
  },
  "com.madboxgames.thechase": {
@@ -17905,6 +19007,23 @@
    "saga"
   ]
  },
+ "com.mika.LocationSimulation": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "LocSim is a location spoofer developed by CyPwn IPA Library. It is not affiliated with udevs' LocSim. Last updated on 03-11-2024.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "89bb80cfd9bfe9c3811ff180ab4a3eda0f324874e0b25968a0e7a67a2e59ce01",
+  "subtitle": "Location spoofer tool",
+  "tags": [
+   "location",
+   "spoofer",
+   "gps",
+   "cypwn",
+   "ipa",
+   "tool"
+  ]
+ },
  "com.mind.quiz.brain.out": {
   "category": "other",
   "date": "2026-10-15",
@@ -18163,6 +19282,23 @@
    "education",
    "language",
    "study"
+  ]
+ },
+ "com.mobgame.loadout.warrior": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Loadout Warrior is an action-packed mobile game with intense gameplay and an immersive experience for iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "88efea520a580103e9f74c9cd565fbf3140230ee5871be6d1ab8ba4d66cd2bbd",
+  "subtitle": "Action-packed mobile game",
+  "tags": [
+   "action",
+   "mobile",
+   "game",
+   "ios",
+   "intense",
+   "immersive"
   ]
  },
  "com.mobile-softing.coinmaster": {
@@ -19010,6 +20146,29 @@
    "battle"
   ]
  },
+ "com.nfg.lod.survival": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Live or Die 1 is a zombie survival game. This version includes modifications such as added experience, added gold, reset water and food, never die, unlimited items from mail, and freeze fuel.",
+  "features": [
+   "Add Exp",
+   "Add Gold",
+   "Never Die",
+   "Unlimited Items",
+   "Freeze Fuel"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5dc1fe380f1e2a1d0f3ad7896bdd5f0b5c023e8bd7bc8879a7b370c259929069",
+  "subtitle": "Zombie survival with cheat mods",
+  "tags": [
+   "zombie",
+   "survival",
+   "cheat",
+   "mod",
+   "ipa",
+   "game"
+  ]
+ },
  "com.ngame.allstar.eu": {
   "category": "games",
   "date": "2026-10-15",
@@ -19095,6 +20254,39 @@
    "monitor",
    "device",
    "utilities"
+  ]
+ },
+ "com.niclasjeppsson.LinearAlgebraVisualiser": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Linear Algebra Visualizer lets you explore matrix operations, vector spaces, and transformations on iOS. Requires iOS 18.6 or later. Current version 2.1.0. Available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dbca7f27c079197c2922c5b30be5d86f40ca0c9ec4dbf01d8d2d5e8136b2b40b",
+  "subtitle": "Visualize linear algebra concepts",
+  "tags": [
+   "linear",
+   "algebra",
+   "visualizer",
+   "matrix",
+   "vector",
+   "ios"
+  ]
+ },
+ "com.niko.PocketWidgetsApp": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Koco Widgets offers a minimal design for your device. This version requires iOS 17.0 or later and is updated to version 1.24.5.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2c0fd443a6627742bdce9af8cb4237c37a084550f103a2d713fefdff0bfa45e0",
+  "subtitle": "Minimal design widgets for your home screen",
+  "tags": [
+   "widgets",
+   "minimal",
+   "customization",
+   "home screen",
+   "design"
   ]
  },
  "com.ninjakiwi.bloonstd6": {
@@ -19449,6 +20641,23 @@
    "ios"
   ]
  },
+ "com.onestepstudio.legendofgladiator": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Legend of Gladiator is a mobile game offering combat action with strategic depth. The title aims to deliver raw excitement through gladiatorial battles on mobile devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7d9025836824834a965eca8d796bb220e06c60556a3204c4a972123f02c4fb36",
+  "subtitle": "Mobile gladiator combat game",
+  "tags": [
+   "gladiator",
+   "combat",
+   "strategy",
+   "action",
+   "mobile",
+   "battle"
+  ]
+ },
  "com.onicore.backpack.rush": {
   "category": "games",
   "date": "2026-10-15",
@@ -19649,6 +20858,23 @@
    "force"
   ]
  },
+ "com.osfunapps.tv-lg-remote-ios": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "Remote for LG turns your iPhone and iPad into a remote control for LG devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "629226dcff8bbaf3ed4b5f7411739c878ccff6968f027e87b23b21423a257b0f",
+  "subtitle": "Control LG devices from iPhone and iPad",
+  "tags": [
+   "lg",
+   "remote",
+   "control",
+   "iphone",
+   "ipad",
+   "tv"
+  ]
+ },
  "com.osk3apps.CarPlex": {
   "category": "entertainment",
   "date": "2026-10-15",
@@ -19824,6 +21050,25 @@
    "ios"
   ]
  },
+ "com.paha.LoFiCam": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "LoFiCam is a camera app with lo-fi effects. This version includes Pro features unlocked.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a7bfd298143c5d88f442af748213964fc0413e7d35597cd2dc8068a058d53689",
+  "subtitle": "Lo-fi camera with Pro features unlocked",
+  "tags": [
+   "camera",
+   "lofi",
+   "photo",
+   "pro",
+   "unlocked",
+   "effects"
+  ]
+ },
  "com.pandaapp.igpp": {
   "category": "social",
   "date": "2026-10-27",
@@ -19987,6 +21232,23 @@
    "chatbot",
    "assistant",
    "conversation"
+  ]
+ },
+ "com.perform.goallivescores": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Live Scores is an iOS app for football fans that provides instant access to match results and live scores.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "56a6bb3d09a5c1f678126af53d24d09e565ca81f3e18817e2aa071cc9e9dce97",
+  "subtitle": "Instant football match results and live scores",
+  "tags": [
+   "live",
+   "scores",
+   "football",
+   "match",
+   "results",
+   "ios"
   ]
  },
  "com.phantom.fantengmu": {
@@ -20441,6 +21703,23 @@
    "indie"
   ]
  },
+ "com.playdigious.littlenightmares": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Play as Six, a lone child trapped in the Maw, a vast metal vessel filled with monstrous adults. Escape before it\u2019s too late.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9901a65c238a89c8bb56d552e6be2ba9adadf80f4203f5afede50e928bab1047",
+  "subtitle": "Escape the Maw as Six in Little Nightmares",
+  "tags": [
+   "little nightmares",
+   "six",
+   "maw",
+   "escape",
+   "child",
+   "monstrous"
+  ]
+ },
  "com.playfocus.king": {
   "category": "games",
   "date": "2026-10-28",
@@ -20487,6 +21766,25 @@
    "buddy",
    "mobile",
    "action"
+  ]
+ },
+ "com.playgendary.ktbremaster": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "This is a modified iOS application package (IPA) distributed through the AppTesters repository. The binary has been injected with IGG modifications. No further details about the original app or specific changes are provided.",
+  "features": [
+   "IGG Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2a427d0e2068409a7df4e102a03596dc763b63360863e2630871e43124ffc3a0",
+  "subtitle": "IGG-injected IPA from AppTesters repo",
+  "tags": [
+   "modified",
+   "ipa",
+   "igg",
+   "apptesters",
+   "injected",
+   "tweak"
   ]
  },
  "com.playhardlab.defenders": {
@@ -20834,6 +22132,23 @@
    "conversion",
    "media",
    "tools"
+  ]
+ },
+ "com.pro.iconthemer": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Lock Screen 26 adds widgets and icons to the iOS lock screen for personalization. The app provides an innovative approach to customizing your device's lock screen appearance.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "46d0f69ebc0c8a260bc97e080b93f814e3009da1cf9ed999a6f4e47b03f7f398",
+  "subtitle": "Customize lock screen with widgets and icons",
+  "tags": [
+   "lockscreen",
+   "widgets",
+   "icons",
+   "customization",
+   "personalization",
+   "ios"
   ]
  },
  "com.pronetis.ironballride2": {
@@ -21901,6 +23216,23 @@
    "stars"
   ]
  },
+ "com.robnorback.LiveTranscribe": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Live Transcribe provides real\u2011time captioning of speech. Requires iOS 15.0 or later. Current version 2.72.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2119a5e066ae70b53e0280d56c44dac3c325c62bc23288dd9b1b7df8aa9699c5",
+  "subtitle": "Live captioning for iOS 15+",
+  "tags": [
+   "live",
+   "transcribe",
+   "captioning",
+   "accessibility",
+   "ios15",
+   "speech"
+  ]
+ },
  "com.robotsquid.kingofcrabs.invasion": {
   "category": "games",
   "date": "2026-10-28",
@@ -22365,6 +23697,26 @@
    "dig"
   ]
  },
+ "com.sadpuppy.lemmings": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Lemmings is a classic strategy and puzzle game. This version 9.4.3 is patched and has premium features unlocked. Published by @riftysIPAlibrary.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "85807c9d4770b5c059fc97b1e5c604a348c68f66a0584bb060c267f7838ead0a",
+  "subtitle": "Classic Lemmings strategy puzzle, premium unlocked",
+  "tags": [
+   "lemmings",
+   "strategy",
+   "puzzle",
+   "game",
+   "premium",
+   "patched"
+  ]
+ },
  "com.saltycrackers.daygram": {
   "category": "lifestyle",
   "date": "2026-10-20",
@@ -22811,6 +24163,25 @@
    "engine",
    "game",
    "music"
+  ]
+ },
+ "com.sillens.iShape": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "This version of Lifesum has subscription features unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b5177d96b8b0a09113696bdef7bb618ff10b2ef45412232083367e7c10296767",
+  "subtitle": "Nutrition tracker with subscription unlocked",
+  "tags": [
+   "lifesum",
+   "nutrition",
+   "tracker",
+   "health",
+   "fitness",
+   "subscription"
   ]
  },
  "com.silverware.flightupdatepro": {
@@ -23913,6 +25284,23 @@
    "online"
   ]
  },
+ "com.storyincorporate.leagueofdreamers": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "League of Dreamers \u2013 My Story is a game that transcends traditional gameplay boundaries, weaving a rich tapestry of adventure.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8b9d317e8935dede1369fdaf05842a2844daac0d9a965893414ba947a4a40ded",
+  "subtitle": "Adventure story game",
+  "tags": [
+   "league",
+   "dreamers",
+   "my",
+   "story",
+   "adventure",
+   "game"
+  ]
+ },
  "com.storymatrix.drama": {
   "category": "other",
   "date": "2026-10-20",
@@ -24126,6 +25514,23 @@
    "strategy",
    "gaming",
    "server"
+  ]
+ },
+ "com.superfunsoft.thelegendoffireball": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "The Legend of Fireball brings a thrilling and immersive experience to iOS gamers, combining fast-paced action with strategic gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0b24d4a14eb36af6307a56fbc65206da9976c178ce05b49e23c32f261ff2cccf",
+  "subtitle": "Fast-paced action with strategic gameplay",
+  "tags": [
+   "legend",
+   "fireball",
+   "ios",
+   "gamers",
+   "action",
+   "strategic"
   ]
  },
  "com.superpixel.arcanablade": {
@@ -24780,6 +26185,23 @@
    "imagex"
   ]
  },
+ "com.tinytitanstudios.kfz": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kung Fu Zombie on iOS combines classic side-scrolling action with martial arts combat in a zombie-infested world. Designed as an arcade",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e4900f70b10d3d50caf0d486b655e5c3886e2aa2ba108e8fb7ce1fe1290294fa",
+  "subtitle": "Side-scrolling martial arts zombie action",
+  "tags": [
+   "kung fu",
+   "zombie",
+   "side-scrolling",
+   "martial arts",
+   "arcade",
+   "action"
+  ]
+ },
  "com.topfreegames.bikeracefree": {
   "category": "games",
   "date": "2026-10-15",
@@ -25210,6 +26632,22 @@
    "management",
    "habits",
    "tools"
+  ]
+ },
+ "com.unept.leveldevil": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Level Devil is an iOS game described as not a troll game. The full description from the source is incomplete.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "15e14c64944f1d5ac43803cb1f3bf1ccf7a3a53ce5bb5afbd852c1a041962c5f",
+  "subtitle": "Not a troll game for iOS",
+  "tags": [
+   "game",
+   "ios",
+   "level devil",
+   "not troll",
+   "mobile gaming"
   ]
  },
  "com.unicostudio.braintest": {
@@ -27655,6 +29093,73 @@
    "media"
   ]
  },
+ "com.unknown.lastdayonearth": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Last Day On Earth is a survival game offering a fun experience with numerous mods included. The game provides various modifications for enhanced gameplay.",
+  "features": [
+   "Mods Included"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1f34adb706cb84fbb55c35c591f90132b75049e3a7f91d5da0391650c1b0cd62",
+  "subtitle": "Survival game with included mods",
+  "tags": [
+   "survival",
+   "modded",
+   "game",
+   "mods",
+   "lastdayonearth",
+   "fun"
+  ]
+ },
+ "com.unknown.leapoffate": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Leap of Fate is a fast-paced action game where you play as a technomage in a magical version of New York City. Overcome fears and seize your destiny through procedural dungeon crawling and combat. The game features character progression, unlockable abilities, and roguelike elements with permadeath mechanics.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d8a49f9e430d87c3329d3a5aff15c7747ff6a56dd6e873540b4b60a4f631b074",
+  "subtitle": "Action roguelike technomage adventure",
+  "tags": [
+   "roguelike",
+   "action",
+   "technomage",
+   "nyc",
+   "procedural",
+   "permadeath"
+  ]
+ },
+ "com.unknown.learncodingprogramming": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "This app provides resources for learning coding and programming. It is intended for users who want to become programmers.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2bcd8529d5e927b3b6db624a7b9247b02813490adc64e48e4a3899913dbe2559",
+  "subtitle": "Learn coding and programming basics",
+  "tags": [
+   "coding",
+   "programming",
+   "learn",
+   "education",
+   "developer",
+   "app"
+  ]
+ },
+ "com.unknown.limbo": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "LIMBO+ is an app developed by Karbin-Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9e9e5c535aba98366f711ad69bc8797c71df055dd98d822e629fabe74100183e",
+  "subtitle": "LIMBO+ by Karbin-Store",
+  "tags": [
+   "limbo",
+   "karbin-store",
+   "app"
+  ]
+ },
  "com.unofficial.balatro": {
   "category": "games",
   "date": "2026-10-15",
@@ -29907,6 +31412,61 @@
    "cypwn"
   ]
  },
+ "cypwn.Kodi_TS.18.9": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "Kodi 18.9 media player application. This is the latest compatible version that works on TS due to a system switch from python2 to python3 in version 19.X.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2a019751f470907b6fe86d954090788ced095b7a02cbd1fd8e326f4aa0acd2e1",
+  "subtitle": "Kodi 18.9 for TS",
+  "tags": [
+   "kodi",
+   "media",
+   "player",
+   "entertainment",
+   "video"
+  ]
+ },
+ "cypwn.LiveWallpapersForMe_2.42.2.2.42.2": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Premium unlocked. Cracked by Sopranox.",
+  "features": [
+   "Premium Unlocked",
+   "Cracked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0376b8a5aee97ed46bb89b2b81360a3c895892350aaba1ae4be9d8facf1b1ae7",
+  "subtitle": "Premium unlocked live wallpapers",
+  "tags": [
+   "live wallpapers",
+   "premium",
+   "cracked",
+   "unlocked"
+  ]
+ },
+ "cypwn.LocSim1.3.7_TS.1.3.7": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "LocationSimulation v1.3.7 lets you spoof your GPS location. It also includes other useful tools. The cracked version by Anna enables offline use.",
+  "features": [
+   "GPS Spoofing",
+   "Offline Use",
+   "Other Tools"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "23ae2cd900e1bc34f53e36d72bb854346ed4ecb7d72e328836f2e13aeb152d02",
+  "subtitle": "GPS location spoofing and tools",
+  "tags": [
+   "gps",
+   "spoof",
+   "location",
+   "simulation",
+   "offline",
+   "tools"
+  ]
+ },
  "cypwn.cl1m4x.1.3": {
   "category": "other",
   "date": "2026-10-18",
@@ -29937,6 +31497,22 @@
    "practice"
   ]
  },
+ "cypwn.kok3shidoll_v2.2.1.2.2.1": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "kok3shidoll version 2.2.1 is an iOS 9.3.x semi-untethered jailbreak tool developed in collaboration with CyPwn. This application allows users to perform a semi-untethered jailbreak on supported devices running the iOS 9.3.x operating system version.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d9fb21fe98d1d070df719b8b7882f4440b1c2fabaf22eb0a73c8222b09015d11",
+  "subtitle": "iOS 9.3.x semi-untethered jailbreak utility",
+  "tags": [
+   "jailbreak",
+   "ios",
+   "cypwn",
+   "kok3shidoll",
+   "semi-untethered"
+  ]
+ },
  "dance.fitness.app": {
   "category": "lifestyle",
   "date": "2026-10-20",
@@ -29952,6 +31528,27 @@
    "lifestyle",
    "premium",
    "ttjb"
+  ]
+ },
+ "danielthemaniel.DynamicRedirect": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "LiveRedirect is a Safari Web Extension for iOS that opens matching webpages in LiveContainer. You can maintain a list of URL patterns to determine which links redirect to LiveContainer instead of loading in Safari.",
+  "features": [
+   "Safari Web Extension",
+   "URL pattern matching",
+   "LiveContainer integration"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "00e605e5349453ac8c09bafb00fdaa43edb7f98029a7aaaa1fcb628d48d8dfaa",
+  "subtitle": "Open webpages in LiveContainer from Safari",
+  "tags": [
+   "safari",
+   "extension",
+   "livecontainer",
+   "url",
+   "redirect",
+   "developer"
   ]
  },
  "dazz.camera.vintagecamera": {
@@ -30006,6 +31603,25 @@
    "extract",
    "photos",
    "media"
+  ]
+ },
+ "de.komoot.berlinbikeapp": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Komoot is a route planner and navigation app for outdoor activities such as hiking and cycling. Plan your trips and follow routes on your device.",
+  "features": [
+   "Injected with Premium"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "054b5cbf3bf8389d87d69bbaf2b4d8f4b77e311e93e7b02667f6740478c4985b",
+  "subtitle": "Route planner for hiking and cycling",
+  "tags": [
+   "komoot",
+   "hiking",
+   "cycling",
+   "navigation",
+   "routes",
+   "planner"
   ]
  },
  "de.kruschel.flashtex": {
@@ -30229,6 +31845,27 @@
    "entertainment"
   ]
  },
+ "dev.linuxrunner.app": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "Run ARM64 Linux applications and desktop environments on iOS without a jailbreak, virtual machine, or JIT. Developed by Leminos.",
+  "features": [
+   "No Jailbreak",
+   "No Virtual Machine",
+   "No JIT"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "93e5600e993fd9b4731ae33053a30c1414effd245f34ef461fb73d33aae6e059",
+  "subtitle": "Run ARM64 Linux apps on iOS",
+  "tags": [
+   "linux",
+   "arm64",
+   "ios",
+   "no-jailbreak",
+   "no-vm",
+   "no-jit"
+  ]
+ },
  "dev.objcmsgsend.Climax": {
   "category": "other",
   "date": "2026-10-18",
@@ -30349,6 +31986,23 @@
    "game"
   ]
  },
+ "dk.tactile.lilysgarden": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Lily\u2019s Garden is a casual puzzle game that combines garden design with match\u20113 gameplay. Players solve puzzles to restore and decorate a garden.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a14e136b7e0149e2115234a288169b94a15899d8a33aeb9cf086ba29df13f0c7",
+  "subtitle": "Design & Match Puzzle Game",
+  "tags": [
+   "puzzle",
+   "casual",
+   "garden",
+   "design",
+   "match",
+   "game"
+  ]
+ },
  "doordash.DoorDashConsumer": {
   "category": "utilities",
   "date": "2026-10-20",
@@ -30397,6 +32051,25 @@
    "optimize",
    "device",
    "space"
+  ]
+ },
+ "ee.keel24.Lingvist": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "This version of Lingvist has the subscription unlocked, providing access to premium features without payment.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3f3c4bfd6181ff66ecc0bab20a84c3e18773f24084d36f1e1d0fd213e3faead1",
+  "subtitle": "Language learning with subscription unlocked",
+  "tags": [
+   "lingvist",
+   "language",
+   "learning",
+   "subscription",
+   "unlocked",
+   "premium"
   ]
  },
  "es.socialpoint.dragoncity": {
@@ -30815,6 +32488,26 @@
    "mountain",
    "adventure",
    "controller"
+  ]
+ },
+ "geeo.Kwit": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Kwit is a modified IPA package distributed through the TTJB IPA Repo. The package includes Premium features and has been tested and compiled by the TTJB Team. This is a third-party repackaged application not available on the official App Store.",
+  "features": [
+   "Premium",
+   "Tested Build"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bb38d67c485b7889f4e2f88b2b090de9dd7555016ef4565b8f5c0ac6d4a2f982",
+  "subtitle": "Premium IPA from TTJB Repo",
+  "tags": [
+   "kwit",
+   "premium",
+   "ipa",
+   "ttjb",
+   "modified",
+   "repo"
   ]
  },
  "gen.tech.impulse": {
@@ -31514,6 +33207,24 @@
    "utilities"
   ]
  },
+ "io.linga": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Linga is an app distributed with premium features injected. No additional functionality details are provided in the source information.",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "937fe179221e515ccfa7eb5fa10bfd892984a7286786cbfe5b566baa052c319c",
+  "subtitle": "Premium unlocked version",
+  "tags": [
+   "linga",
+   "premium",
+   "unlocked",
+   "modified",
+   "app"
+  ]
+ },
  "io.mindist.noise": {
   "category": "other",
   "date": "2026-10-14",
@@ -31545,6 +33256,23 @@
    "organization",
    "lifestyle",
    "wellness"
+  ]
+ },
+ "io.monumental.littlealchemist.ios": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Little Alchemist Remastered is a fresh reinvention of the beloved classic puzzle game, now available on iOS. Known for its charming",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "11c0b076b665c76e351a5009a4258c282a3993e37752031479a3adc573df0cc4",
+  "subtitle": "Fresh reinvention of classic puzzle game",
+  "tags": [
+   "puzzle",
+   "classic",
+   "remastered",
+   "ios",
+   "game",
+   "alchemist"
   ]
  },
  "io.rodneyapps.LPN012-MultiCam": {
@@ -31930,6 +33658,23 @@
    "mod"
   ]
  },
+ "jp.naver.line": {
+  "category": "social",
+  "date": "2026-10-28",
+  "description": "Injected with Nothing",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c5714283df9146ac99e3bb13f6ae3bf0c015e3ec4ec60bd97c7912d4449ab299",
+  "subtitle": "LINE by OwO Source",
+  "tags": [
+   "line",
+   "social",
+   "owo",
+   "source",
+   "injected",
+   "nothing"
+  ]
+ },
  "jp.ne.ibis.ibisPaint": {
   "category": "other",
   "date": "2026-10-27",
@@ -32142,6 +33887,23 @@
    "compiled"
   ]
  },
+ "last.legion.tower.defense.survival.war.fortress.idle.td": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Last Legion is a Tower Defense (TD) game featuring strategic warfare gameplay. The IPA MOD version brings tactical combat to iOS devices with tower defense mechanics.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c8ec8e7ef6b77dccfb4c6aa30ced0a2f18cd4734e7dfe67dc2caf70346dc091e",
+  "subtitle": "Tower Defense Strategy Game",
+  "tags": [
+   "tower defense",
+   "strategy",
+   "warfare",
+   "td",
+   "game",
+   "mod"
+  ]
+ },
  "leyi.frozenislandpro": {
   "category": "games",
   "date": "2026-10-27",
@@ -32173,6 +33935,27 @@
    "game",
    "outlaw",
    "gunslinger"
+  ]
+ },
+ "liit.photovideo.editor": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "Liit is a photo and video application that includes Pro functionality. The IPA file has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Pro",
+   "Tested",
+   "TTJB Build"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0fb1fe9ac31e61e48b5acbad3e827183ce31e2cb350c894613f60f102d5320cd",
+  "subtitle": "Pro photo and video features",
+  "tags": [
+   "photo",
+   "video",
+   "pro",
+   "ipa",
+   "ttjb",
+   "modified"
   ]
  },
  "live.cclerc.Anonycord": {
@@ -32599,6 +34382,22 @@
    "health",
    "tracker",
    "unlocked"
+  ]
+ },
+ "name.maemoon.Loft": {
+  "category": "social",
+  "date": "2026-10-28",
+  "description": "Loft is a client for the Logiverse platform on iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "32993474bc8e86f447bc559633d741a8b93273fd64f4a20981042f3f974f0f74",
+  "subtitle": "Logiverse client for iOS",
+  "tags": [
+   "logiverse",
+   "client",
+   "ios",
+   "social",
+   "loft"
   ]
  },
  "nanotube.chooser": {
@@ -33181,6 +34980,23 @@
    "app"
   ]
  },
+ "nya.asami.ksign": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "Ksign is a code signing application for iOS that combines ideas from Feather and Esign. Developed by Nagata Asami.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e981d726c9116af015e1d8184547ce67ca8ce939b02b5b3da6c5868aa05a33f5",
+  "subtitle": "Codesigning tool inspired by Feather and Esign",
+  "tags": [
+   "codesign",
+   "feather",
+   "esign",
+   "ios",
+   "developer",
+   "signing"
+  ]
+ },
  "nz.owo.DYDL": {
   "category": "other",
   "date": "2026-10-20",
@@ -33643,6 +35459,22 @@
    "education"
   ]
  },
+ "org.skydomain.foodcamera": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Koloro is available with the subscription unlocked. Access all features and content included in the subscription package directly within the app without additional purchases.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "41b717f0a2e6677af4851f42504cf2b4266ffc4ab9c0d55361b80a8730e6a150",
+  "subtitle": "Subscription Unlocked",
+  "tags": [
+   "koloro",
+   "unlocked",
+   "subscription"
+  ]
+ },
  "org.tranquilli.Earthquake": {
   "category": "other",
   "date": "2026-10-20",
@@ -33657,6 +35489,22 @@
    "data",
    "widgets",
    "monitoring"
+  ]
+ },
+ "org.xbmc.kodi-ios": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "Kodi is a multi-featured media player and streamer. Note that version 18.9 is the final version compatible with TrollStore on iOS 15 and below, as newer updates require different system requirements.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "dd6f8ebfb083ed533c255ccc3e0af52c532e1746cc57bb70f2779573f015330b",
+  "subtitle": "Multi-featured media player and streamer",
+  "tags": [
+   "media player",
+   "streamer",
+   "video",
+   "music",
+   "entertainment"
   ]
  },
  "overlook.fing": {
@@ -33980,6 +35828,29 @@
    "image"
   ]
  },
+ "sb.moe.kumone": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "Kumone is a native NetEase Cloud Music client for iOS that connects directly to NetEase's official API without third-party servers. It supports QR-code login and unlocks grayed-out tracks.",
+  "features": [
+   "Native Client",
+   "Direct API Access",
+   "QR Code Login",
+   "Gray Track Unlock",
+   "No Third-Party Server"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "20d83260740d2fb28dd6ee3163c2f3a113894e9bfa697e506512167976c6138c",
+  "subtitle": "Native NetEase Cloud Music client",
+  "tags": [
+   "netease",
+   "music",
+   "client",
+   "ios",
+   "cloud",
+   "player"
+  ]
+ },
  "se.itatake.gumslinger2": {
   "category": "games",
   "date": "2026-10-26",
@@ -34067,6 +35938,23 @@
    "panda",
    "cross-platform",
    "simple"
+  ]
+ },
+ "sh.fhs.ksre": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "This app mirrors the KSRE repository. It is a mirror only and does not accept pull requests on GitHub. To contribute, visit the repository's website. FastSign is operated by CertFish and provides a way to sideload apps.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "71da525a8e5d227418078791b71d43086f0ed61616397e81fc4b4263624afbc8",
+  "subtitle": "Mirror of KSRE repository for sideloading",
+  "tags": [
+   "ksre",
+   "mirror",
+   "sideload",
+   "certfish",
+   "fastsign",
+   "repository"
   ]
  },
  "sh.mateo.empo": {
@@ -34483,6 +36371,41 @@
    "dungeon",
    "game",
    "traps"
+  ]
+ },
+ "ventures.bench.linkjar-ios": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Pro features added. IPA tested and compiled by TTJB Team.",
+  "features": [
+   "Pro"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3badc4585c6a15ebf1117d29b3b4af2853b69363f750a688e58cfe3a9d9b1fc8",
+  "subtitle": "Pro IPA tested by TTJB Team",
+  "tags": [
+   "ipa",
+   "pro",
+   "ttjb",
+   "tested",
+   "compiled"
+  ]
+ },
+ "video.like": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "n-Track Tuner Pro modified iOS version. Designed for musicians, sound engineers, and audio enthusiasts. Offers a range of tuning and audio analysis features.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c9dd6e4e4643743c41cb041b13442aed4bb0124c8d92382a54d61c74c75f7b38",
+  "subtitle": "Tuner tool for musicians and audio engineers",
+  "tags": [
+   "tuner",
+   "music",
+   "audio",
+   "musician",
+   "sound",
+   "engineer"
   ]
  },
  "vix.fitness": {
