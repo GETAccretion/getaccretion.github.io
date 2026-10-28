@@ -15,6 +15,23 @@
    "game"
   ]
  },
+ "4GU63N96WE.com.p5sys.jumpdesktop": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Provides remote desktop access via RDP and VNC protocols.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "be6b78f12d5fe882426cc73c7a77cdf42317543d4d71c80b3dc29cc10e3ee2e1",
+  "subtitle": "RDP and VNC client",
+  "tags": [
+   "rdp",
+   "vnc",
+   "remote",
+   "desktop",
+   "client",
+   "access"
+  ]
+ },
  "5f796ef4752841bdb647c1a4a0783fe9": {
   "category": "other",
   "date": "2026-10-21",
@@ -287,6 +304,25 @@
    "premium",
    "unlocked",
    "app"
+  ]
+ },
+ "PhotoEditor.PhotoCollage.inCollage": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "InCollage is a photo collage maker and editor. Combine multiple photos with various frame layouts and photo grids, edit pictures with filters, text, and stickers, and share your creations. This version is injected with premium features.",
+  "features": [
+   "Injected with Premium"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "13ef5ce40f53bb762bcc5f12d05d5ca26d092c9b862e2e2aa5773bdd85b26789",
+  "subtitle": "Collage maker and photo editor",
+  "tags": [
+   "collage",
+   "photo",
+   "editor",
+   "grid",
+   "pictures",
+   "images"
   ]
  },
  "Quanticapps.Athan.watchkitapp": {
@@ -760,6 +796,61 @@
    "ipa"
   ]
  },
+ "app.ish.ISH": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "A project to get a Linux shell running on iOS, using usermode x86 emulation and syscall translation.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "085f07f543734be51324b5100ea7bd3e1e0d73f4454a946ba847b2c0d982f44e",
+  "subtitle": "Linux shell on iOS via x86 emulation",
+  "tags": [
+   "linux",
+   "shell",
+   "ios",
+   "emulation",
+   "x86",
+   "syscall"
+  ]
+ },
+ "app.ish.iSH": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "iSH is a project to get a Linux shell environment running locally on your iOS device, using a usermode x86 emulator.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9296c2971d656364f4df4b732375309cf9fe1c48f15c575297b695c964e14e0e",
+  "subtitle": "Linux shell environment on iOS",
+  "tags": [
+   "linux",
+   "shell",
+   "terminal",
+   "emulator",
+   "x86",
+   "developer"
+  ]
+ },
+ "app.ish.iSH-AOK": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "ISH\u2011AOK is a TestFlight build reuploaded for the zx repository. It runs a full x86_64 Linux virtual machine on iOS.",
+  "features": [
+   "TestFlight",
+   "x86_64 Linux VM",
+   "zx repo reupload"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f18d115db5e8738132e4c49f5a3bc240c5b0e5f8092c0487e5c0810c8d4598d3",
+  "subtitle": "TestFlight x86_64 Linux VM",
+  "tags": [
+   "ish-aok",
+   "testflight",
+   "linux",
+   "vm",
+   "x86_64",
+   "zx"
+  ]
+ },
  "app.molinete.aerio": {
   "category": "entertainment",
   "date": "2026-10-19",
@@ -937,6 +1028,23 @@
    "widget"
   ]
  },
+ "azurgames.kingdom.clash": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kingdom Clash is a real-time strategy action game set in a war-ridden kingdom. Players battle opponents in strategic combat.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e58f29c780c51d528dc5ae03c0ddeb29bf8e59c386377ead1dbe38926c907b47",
+  "subtitle": "Real-time strategy action game",
+  "tags": [
+   "strategy",
+   "action",
+   "war",
+   "kingdom",
+   "battle",
+   "real-time"
+  ]
+ },
  "background.remover.bg.eraser": {
   "category": "utilities",
   "date": "2026-10-21",
@@ -1073,6 +1181,22 @@
    "monitor",
    "developer",
    "tools"
+  ]
+ },
+ "camera.lux.kino": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "Injected with Pro.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7f92da6d32798d928ed13d26111b1822360567d8c2f68789ba8e8f313ddf43fd",
+  "subtitle": "Pro features injected",
+  "tags": [
+   "kino",
+   "video",
+   "photo",
+   "pro",
+   "injected"
   ]
  },
  "camp.FitWoody": {
@@ -1527,6 +1651,23 @@
    "ios"
   ]
  },
+ "co.imba.kawaiimansion": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kawaii Mansion: Find It Out is a hidden object game for iOS where players search for items in a kawaii-style mansion setting.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c20cab7c065fc85049406c8cef22e3b394699dbbd75c3c4915eda600c46aad39",
+  "subtitle": "Hidden object mansion adventure game",
+  "tags": [
+   "hidden object",
+   "puzzle",
+   "kawaii",
+   "mansion",
+   "casual",
+   "game"
+  ]
+ },
  "co.imba.threekingdoms.towerdefense": {
   "category": "games",
   "date": "2026-10-20",
@@ -1591,6 +1732,26 @@
    "creator",
    "recording",
    "photo"
+  ]
+ },
+ "com.34306.adspeed": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "A tweak that speeds up ad playback, effectively acting as an adblocker.",
+  "features": [
+   "Ad Speedup",
+   "Adblocker"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6714c18bb0241ab97619ccddaaf02ffaf3a1ebf7113a6f20f202a31adeac2823",
+  "subtitle": "Speed up ad playback to block ads",
+  "tags": [
+   "tweak",
+   "ads",
+   "adblocker",
+   "speed",
+   "playback",
+   "jailedspeedads"
   ]
  },
  "com.34306.waifuts": {
@@ -1661,6 +1822,23 @@
    "game",
    "ios",
    "arcade"
+  ]
+ },
+ "com.AJNSNewMedia.KitchenStories": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Kitchen Stories offers easy recipes. Requires iOS 15.6 or later. Current version 27.2.11. Available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3142156b175bc3f4baae049d4f1ff23e47b2bf9e21d3f3ec53e580febb73816b",
+  "subtitle": "Easy recipes for everyday cooking",
+  "tags": [
+   "kitchen",
+   "recipes",
+   "cooking",
+   "ios",
+   "app",
+   "easy"
   ]
  },
  "com.AlfaBravo.CombatMaster": {
@@ -2723,6 +2901,26 @@
    "hunt"
   ]
  },
+ "com.ToweringTower.KnightLancer": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Knight Lancer is a tweak that provides free in-app purchases. Version 1.64, patched. Requires iOS 15.0 or later.",
+  "features": [
+   "Free IAP",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d10a04c0f684c29a4d6419ea2f4b9722c9df47628019d992883bba9edda90ba3",
+  "subtitle": "Free IAP tweak for Knight Lancer",
+  "tags": [
+   "knight",
+   "lancer",
+   "tweak",
+   "free-iap",
+   "patched",
+   "ios15"
+  ]
+ },
  "com.TwiceApps.IdleCashRun": {
   "category": "other",
   "date": "2026-10-27",
@@ -2787,6 +2985,25 @@
    "builder",
    "idle",
    "game"
+  ]
+ },
+ "com.Yooshr.Infltr": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "Infltr provides infinite filters for your photos and images. This version includes pro features unlocked and requires minimum OS version 14.0.",
+  "features": [
+   "Pro Features Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "db3293d509d42d22da9a6e94121aa8d7fc8c280207eaa6291703fb586067541d",
+  "subtitle": "Infinite Filters",
+  "tags": [
+   "filters",
+   "photo",
+   "editing",
+   "infinite",
+   "images",
+   "pro"
   ]
  },
  "com.aagame.aagame": {
@@ -3073,6 +3290,23 @@
    "ttjb"
   ]
  },
+ "com.adobe.ailogo": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "This version of Illustrator includes a modified in-app purchase function where you can tap to purchase and then cancel. The IPA file has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Modified in-app purchases"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "800da1474d3e008b9843793bed78d4e092c2fdd69c273f3938386f06288508b8",
+  "subtitle": "Illustrator app with modified in-app purchases",
+  "tags": [
+   "illustrator",
+   "ipa",
+   "ttjb",
+   "utility"
+  ]
+ },
  "com.adobe.fresco.ios": {
   "category": "other",
   "date": "2026-10-14",
@@ -3161,6 +3395,25 @@
    "game"
   ]
  },
+ "com.aeosys.joyai": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Joy AI version 1.4.1 is a modified release distributed through riftysIPAlibrary. The tweak unlocks subscription features that normally require payment. This is a third-party IPA not affiliated with the original developer.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "01e59b2d0546f9b9e9f5d4d99b88aefa9b104666b9296029aecc22c568bbdbc2",
+  "subtitle": "AI assistant with subscription unlocked",
+  "tags": [
+   "ai",
+   "subscription",
+   "unlocked",
+   "tweak",
+   "ipa",
+   "joy"
+  ]
+ },
  "com.aero.aerostore.S32Z3HMYVQ": {
   "category": "developer",
   "date": "2026-10-19",
@@ -3237,6 +3490,24 @@
    "writing",
    "capture",
    "editor"
+  ]
+ },
+ "com.ahaf.mshion": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "This is a modified version of the ism app with the subscription feature unlocked. The app has been injected to remove subscription restrictions.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "358d2663aeff1bf3d0234b658fb0097669c9db1e0b4bcd3acb902da5408b601b",
+  "subtitle": "Subscription unlocked version",
+  "tags": [
+   "ism",
+   "subscription",
+   "unlocked",
+   "modified",
+   "ipa"
   ]
  },
  "com.aheadsolutions.aHead": {
@@ -4060,6 +4331,23 @@
    "citra"
   ]
  },
+ "com.aone.Keka-iOS": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Keka is a file archiver that compresses files into formats such as 7Z, ZIP, TAR, ZSTD, GZIP, BZIP2, and Apple Archive (AAR). It can encrypt archives for secure sharing. It also extracts a wide range of formats including 7Z, ZIP, RAR, TAR, GZIP, BZIP2, AAR, XZ, ZSTD, ISO, LZMA, EXE, CAB, MSI, PAX, JAR, APK, APPX, XPI, IPA, CPGZ, CPIO, XIP, CPT and many more.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3fa2a5a390752b79292bdd9a971051a58f98dd1e8717c3d61067a53be16d4847",
+  "subtitle": "Full-featured file archiver",
+  "tags": [
+   "archiver",
+   "compression",
+   "extraction",
+   "encryption",
+   "file",
+   "utility"
+  ]
+ },
  "com.ap-dev.bday-reminder": {
   "category": "lifestyle",
   "date": "2026-10-15",
@@ -4358,6 +4646,19 @@
    "sports",
    "king",
    "game"
+  ]
+ },
+ "com.arcuilo.inktica": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Inktica is an application that features injected premium content.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "fff37a135f07fb24ad886a9d27cfff6159bb6f8b5e8e3c34668cba2688502ff4",
+  "subtitle": "Injected with Premium",
+  "tags": [
+   "inktica",
+   "premium"
   ]
  },
  "com.armsx2.ios": {
@@ -4697,6 +4998,29 @@
    "game"
   ]
  },
+ "com.baconmania.jessi": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "JESSI runs Minecraft: Java Edition servers natively on iOS 14 and later. It works on both jailed and jailbroken devices with JIT enabled. The interface is designed for beginners with no prior server hosting experience. Tutorials are available in the project wiki. The app is fully compatible with LiveContainer and is under active development with more features planned.",
+  "features": [
+   "Java Edition Servers",
+   "Jailed & Jailbroken",
+   "LiveContainer Support",
+   "Beginner Friendly",
+   "Active Development"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c85bd499ca3f65001429a955f173ded484a2ab3211e3e18676ea126c2902d97c",
+  "subtitle": "Run Minecraft Java Edition servers on iOS",
+  "tags": [
+   "minecraft",
+   "server",
+   "java",
+   "ios",
+   "hosting",
+   "multiplayer"
+  ]
+ },
  "com.badoo.BadooSPP": {
   "category": "social",
   "date": "2026-10-15",
@@ -4963,6 +5287,23 @@
    "info"
   ]
  },
+ "com.benricemccarthy.ketchup": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Encyclopaedia app for Pok\u00e9mon. Created per user request. Last updated July 15, 2024.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fab7260602f993b739d029cf56733760034fd4a835dbd381aaeefb967b534843",
+  "subtitle": "Pok\u00e9mon encyclopedia reference app",
+  "tags": [
+   "pokemon",
+   "encyclopedia",
+   "reference",
+   "guide",
+   "ketchupplus",
+   "game"
+  ]
+ },
  "com.bethsoft.falloutshelter": {
   "category": "games",
   "date": "2026-10-21",
@@ -5107,6 +5448,23 @@
    "match",
    "game",
    "ios"
+  ]
+ },
+ "com.bigger.kitchenmasters": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kitchen Masters is a culinary-themed mobile game where players engage in cooking challenges. The game focuses on fast-paced kitchen gameplay and recipe management. Available as an iOS application package.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "98d6af5802290d6c69e60022a77a49344a1f42a81a293ad3844bf62b1ca54b52",
+  "subtitle": "Culinary-themed mobile cooking game",
+  "tags": [
+   "cooking",
+   "culinary",
+   "game",
+   "mobile",
+   "kitchen",
+   "chef"
   ]
  },
  "com.bilibili.inter": {
@@ -5510,6 +5868,23 @@
    "ideas",
    "reading",
    "audio"
+  ]
+ },
+ "com.brainy.flashcard.studystack": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "KnowQuest Edge v1.0 is a TestFlight application that functions only through TrollStore. It was created by GLESign.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "207318fa6275846817912d4b24d6acfe084ce133ec73e04e9934b6983a300660",
+  "subtitle": "KnowQuest Edge: TestFlight via TrollStore",
+  "tags": [
+   "testflight",
+   "trollstore",
+   "glesign",
+   "knowquest",
+   "edge",
+   "ios"
   ]
  },
  "com.brand175.DolphiniOS-njb": {
@@ -6903,6 +7278,23 @@
    "object"
   ]
  },
+ "com.courtois.PerfectIPTVn": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "Injected with Satella. Another IPTV streamer app. Requested by a user. Last updated 06-20-2024.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "96e835a067236c27b9f56e4747a474d61f2f3def955d0ef2afcbdab762e12aa3",
+  "subtitle": "IPTV streaming app with Satella",
+  "tags": [
+   "iptv",
+   "streaming",
+   "satella",
+   "entertainment",
+   "tv",
+   "player"
+  ]
+ },
  "com.cpdigitaldarkroom.bundlr": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -6940,6 +7332,23 @@
    "youtube",
    "offline",
    "playlists"
+  ]
+ },
+ "com.crescentmoongames.jackquest": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "JackQuest on iOS brings a traditional action-platformer experience to iPhone users who appreciate skill-based gameplay and old-school design.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "32e48b4c1b8abeb666705e555d55e2ee4ca066f2a348b4dd93043730505d9324",
+  "subtitle": "Traditional action-platformer with skill-based gameplay",
+  "tags": [
+   "action",
+   "platformer",
+   "skill-based",
+   "old-school",
+   "ios",
+   "game"
   ]
  },
  "com.crispapp.HolmesJunior": {
@@ -7097,6 +7506,26 @@
    "streaming",
    "video",
    "entertainment"
+  ]
+ },
+ "com.crunchyroll.gv.kitariafables": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "Mods added; IPA tested and compiled by TTJB Team.",
+  "features": [
+   "Mods",
+   "Tested"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a0785eeb0b9ec924842c7b413f824748936b4f11255f068e7a2ef9917cb6a328",
+  "subtitle": "Kitaria Fables Mod IPA",
+  "tags": [
+   "kitaria",
+   "fables",
+   "mods",
+   "ipa",
+   "ttjb",
+   "tested"
   ]
  },
  "com.crunchyroll.gv.locksquest": {
@@ -7755,6 +8184,23 @@
    "files"
   ]
  },
+ "com.deviloper.capybara.tower.defense.kingdom.td.rpg.strategy": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Keep the Crown: Tower Defense TD is a strategy-based tower defense game for iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cccba9f7ba0f980e99600c5cdbaa070945c0ba4a184daa527ac2841e11a6d863",
+  "subtitle": "Tower Defense Strategy Game",
+  "tags": [
+   "tower",
+   "defense",
+   "strategy",
+   "ipa",
+   "ios",
+   "game"
+  ]
+ },
  "com.devlaps.harekat2": {
   "category": "games",
   "date": "2026-10-26",
@@ -8263,6 +8709,23 @@
    "game"
   ]
  },
+ "com.dynamicisland.app": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "Island provides wallpapers designed for the Dynamic Island on compatible iPhone models. The app offers a selection of images formatted to fit the Dynamic Island area, allowing users to personalize the appearance of their device's interactive notch region.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "30a1b10c2bc36320b0af968bf05aba626f755f38844592ac625c85e4c3009842",
+  "subtitle": "Dynamic Island wallpaper collection",
+  "tags": [
+   "wallpapers",
+   "dynamic island",
+   "customization",
+   "iphone",
+   "backgrounds",
+   "personalization"
+  ]
+ },
  "com.ea.ios.bejeweledskies": {
   "category": "games",
   "date": "2026-10-15",
@@ -8395,6 +8858,26 @@
    "word",
    "puzzle",
    "game"
+  ]
+ },
+ "com.easybrain.puzzles": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Jigsaw Puzzles: Puzzle Games is a jigsaw puzzle game. Version 3.10.0. Includes no advertisements and unlimited hints. Distributed by riftysIPAlibrary.",
+  "features": [
+   "No Ads",
+   "Unlimited Hints"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "78183c89e16c70384976bf47585be846cb42c9fbf078e334452d5465d6b1b025",
+  "subtitle": "Puzzle game with no ads and unlimited hints",
+  "tags": [
+   "jigsaw",
+   "puzzle",
+   "game",
+   "no-ads",
+   "unlimited-hints",
+   "riftys"
   ]
  },
  "com.edgeeloquent.app": {
@@ -8681,6 +9164,23 @@
    "sound"
   ]
  },
+ "com.endlessloopapps.aiartgenerator": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Journey AI is an iOS artificial intelligence app package that allows iPhone users to access advanced AI capabilities. The app is distributed as an IPA file for installation on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1aa6f53d4c7442606bd9c464a77a806923df74ff9e0a7e374db1af43bd82ad10",
+  "subtitle": "iOS AI app package for advanced AI access",
+  "tags": [
+   "ai",
+   "artificial intelligence",
+   "ios",
+   "ipa",
+   "iphone",
+   "advanced"
+  ]
+ },
  "com.engikode.enginote": {
   "category": "utilities",
   "date": "2026-10-21",
@@ -8921,6 +9421,29 @@
    "pictures"
   ]
  },
+ "com.evimore.InputLine": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "InputLine bridges the gap for streaming games to your iPad or iPhone. While your streaming app handles video and audio as usual, InputLine runs in the background to read your Steam Controller over Bluetooth and send the input straight to your PC. Steam recognizes it as a real, wired Steam Controller, giving you access to all Steam Input features that standard streaming apps miss. Works with any streaming app and host, including Moonlight with Sunshine, Apollo, or Vibepollo.",
+  "features": [
+   "Supports dual trackpads",
+   "Gyro support",
+   "Back buttons support",
+   "Per-game layouts",
+   "Works with any streaming app"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "616706828435c51c32dc01c4abf514f00f0e7187bb050ff43b65474265916b1b",
+  "subtitle": "Use Steam Controllers with any streaming app",
+  "tags": [
+   "controller",
+   "streaming",
+   "steam",
+   "moonlight",
+   "gamepad",
+   "input"
+  ]
+ },
  "com.ewa.ewaapp": {
   "category": "lifestyle",
   "date": "2026-10-21",
@@ -8984,6 +9507,29 @@
    "gog",
    "builder",
    "tool"
+  ]
+ },
+ "com.example.kazumi": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "Kazumi is an anime collection app that uses custom rules to gather content from multiple platforms. It supports streaming online viewing with danmaku (bullet comments) and real-time super-resolution upscaling. The app is open source under GPL-3.0. This iOS build is unsigned and requires self-signing for installation.",
+  "features": [
+   "Custom Rules",
+   "Streaming",
+   "Danmaku",
+   "Super-Resolution",
+   "Open Source"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0271478cea0488253e2dcac9f7e73dfe2f8db654b288d154427c9e56ece240ca",
+  "subtitle": "Anime streaming with custom rules and super-resolution",
+  "tags": [
+   "anime",
+   "streaming",
+   "danmaku",
+   "open-source",
+   "unsigned",
+   "ios"
   ]
  },
  "com.example.openstrapEdge": {
@@ -9967,6 +10513,23 @@
    "nutrition"
   ]
  },
+ "com.funovus.wildcastle2": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kitty Keep is a captivating mobile game that has taken the gaming world by storm. Developed by a talented team of designers and prog.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6f04c1b1e43dfa40de42ae5db84a21eb5b389dc5e23175db26468ac91cdd0750",
+  "subtitle": "Captivating mobile game",
+  "tags": [
+   "kitty",
+   "keep",
+   "mobile",
+   "game",
+   "captivating",
+   "ipa"
+  ]
+ },
  "com.fut.market.alert": {
   "category": "other",
   "date": "2026-10-21",
@@ -10338,6 +10901,26 @@
    "cheapest",
    "deals",
    "stations"
+  ]
+ },
+ "com.genau.JournalCircle": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "JournalCircle is a diary and tracker application. Version 3.5.2 includes premium features unlocked and is patched for use. Developed by riftysIPAlibrary.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f7272d8722ea4760732f1120c7a6b9453f158b17ff088376d8fc6338d4cc6bc6",
+  "subtitle": "Diary & Tracker with Premium Unlocked",
+  "tags": [
+   "journal",
+   "diary",
+   "tracker",
+   "premium",
+   "unlocked",
+   "tweak"
   ]
  },
  "com.generagames.gladiatorheroes": {
@@ -10917,6 +11500,29 @@
    "ipa"
   ]
  },
+ "com.google.ios.youtube.kiratuno.3.1.0": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "KiraTuno is a modified version of YouTube that includes several custom tweaks: FLEXHelperForYT, YTAnotherMiniplayer, YouGetCaption, YTweaks, YouShare, and You. These modifications add functionality beyond the official YouTube app. The app is distributed through CertFish for sideloading on iOS devices.",
+  "features": [
+   "Miniplayer",
+   "Captions",
+   "Share Tools",
+   "Custom Tweaks",
+   "Flex Helper"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5b5ea4dbf645cfeae56781794ad89d1021777ccc31325241a77f997e8846eaff",
+  "subtitle": "Modded YouTube with custom tweaks",
+  "tags": [
+   "youtube",
+   "modded",
+   "tweaks",
+   "sideload",
+   "video",
+   "player"
+  ]
+ },
  "com.google.photos": {
   "category": "photo-video",
   "date": "2026-10-26",
@@ -11331,6 +11937,23 @@
    "slice"
   ]
  },
+ "com.halfbrick.aeroracer": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Jetpack Joyride Racing IPA is the iOS installation file of the arcade-style multiplayer racing game.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "db1cccd3fdacab079430a89150e587089e4f86c8fcba96cb189f15be5cb16abf",
+  "subtitle": "Arcade multiplayer racing game",
+  "tags": [
+   "jetpack",
+   "joyride",
+   "racing",
+   "arcade",
+   "multiplayer",
+   "ios"
+  ]
+ },
  "com.halfbrick.bluey": {
   "category": "games",
   "date": "2026-10-15",
@@ -11379,6 +12002,26 @@
    "action",
    "game",
    "ios"
+  ]
+ },
+ "com.halfbrick.jetpack": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Jetpack is a modified IPA file compiled by TTJB Team. It includes an in-app purchase bypass feature that works by initiating a purchase then canceling it. The IPA has been tested and packaged by TTJB Team.",
+  "features": [
+   "IAP Bypass",
+   "Tested IPA"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fffa596602039063855348538cfbd56db9ce9df3f4fe54785717dfd42b54719a",
+  "subtitle": "Modified IPA with in-app purchase bypass",
+  "tags": [
+   "jetpack",
+   "ipa",
+   "modified",
+   "iap-bypass",
+   "ttjb",
+   "hack"
   ]
  },
  "com.hammerandchisel.bunny": {
@@ -12113,22 +12756,17 @@
  },
  "com.husk.app": {
   "category": "utilities",
-  "date": "2026-10-27",
-  "description": "Husk is an iOS application that enables running Android on iPhone devices. The app supports both native execution and emulation modes. Version 1.0.1 with bundle identifier com.husk.app. Developed by Leviidev.",
-  "features": [
-   "Run Android Apps",
-   "Native Execution",
-   "Emulation Support"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "957b151ae01aa8844b2e6da732bfafc8e86a28e1ba4871e7c17ec1027521ac6d",
-  "subtitle": "Run Android apps on iPhone natively or emulated",
+  "date": "2026-10-28",
+  "description": "Run Android apps on iOS by dropping in an APK and tapping it. The Android app opens full-screen on a QEMU guest with hardware-accelerated display and audio. This application requires JIT and a debugger attached at runtime, which means it needs a sideloading setup capable of providing get-task-allow rather than a plain re-sign.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4a5a783880c91e39f625c56a972776d1905463ca3eab2b88baca248c897732d8",
+  "subtitle": "Run Android apps on iOS",
   "tags": [
    "android",
    "emulator",
-   "compatibility",
-   "utility",
-   "ios",
+   "apk",
+   "qemu",
    "sideload"
   ]
  },
@@ -12236,6 +12874,23 @@
    "simulation",
    "game",
    "relaxing"
+  ]
+ },
+ "com.hyperixa.IPSW": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "IPSW and IPA are file formats used on Apple iOS devices. IPSW stands for iPhone Software and contains the firmware for iOS devices. IPA files are iOS application packages.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f0d86037d3a3a06e01a4a62d6808db2790e909bd3876f7ed9535903859d3d8b7",
+  "subtitle": "iOS firmware and app file formats",
+  "tags": [
+   "ipsw",
+   "ipa",
+   "ios",
+   "firmware",
+   "apple",
+   "utilities"
   ]
  },
  "com.hypermonkgames.AutoDrift": {
@@ -12651,6 +13306,29 @@
    "simulation",
    "animal",
    "mafia",
+   "game"
+  ]
+ },
+ "com.ikemen.go": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Play classic M.U.G.E.N characters, stages, and screenpacks on your iOS device with native on-screen touch controls. Features a pure upstream engine synced with upstream ikemen-engine, Vulkan rendering via MoltenVK for smooth performance on Metal, and support for portrait and landscape play. Enjoy robust multimedia handling with SDL2, FFmpeg, and libxmp for audio, background videos, and module music formats, plus out-of-the-box MFi and GameController framework support.",
+  "features": [
+   "Pure upstream engine",
+   "Vulkan rendering",
+   "Portrait and landscape play",
+   "Multimedia support",
+   "Game controller support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2bb62de01895537c96acd5fa77aa03e8b45ef70df49da3cb3c94a2dbd8f294ab",
+  "subtitle": "Play classic M.U.G.E.N characters and stages on iOS",
+  "tags": [
+   "ikemen",
+   "mugen",
+   "fighting",
+   "retro",
+   "arcade",
    "game"
   ]
  },
@@ -14590,6 +15268,125 @@
    "ipa"
   ]
  },
+ "com.ipaomtk.iornament.pro.art.fun.calm.159553": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "iOrnament Pro is the iOS installable version of a creative drawing app.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c64f4e159e78cafa53882a5e34574acaa24fff66fb161fbbeb99d804ed4e2c0f",
+  "subtitle": "Creative drawing app for iOS",
+  "tags": [
+   "drawing",
+   "creative",
+   "art",
+   "ios",
+   "ornament",
+   "design"
+  ]
+ },
+ "com.ipaomtk.just.6.weeks.159870": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Just 6 Weeks is a fitness training app designed to help users improve strength through a structured six-week program. The app provides guided workouts and progress tracking for strength development.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0ec6776e6fa4067a3a87c1685467352ed9c9bbcfd1d627643bfa505b17bcdef6",
+  "subtitle": "Fitness training program for strength improvement",
+  "tags": [
+   "fitness",
+   "training",
+   "strength",
+   "workout",
+   "health",
+   "exercise"
+  ]
+ },
+ "com.ipaomtk.killmyota.159865": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "KillMyOTA is an iOS utility tool that disables over-the-air (OTA) software updates. It provides an installable IPA version for managing automatic update behavior on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ff89060e24c52e3df7dc8eb509e0af77cf8a63344393f0097ba26e2c3563606d",
+  "subtitle": "Disable OTA software updates on iOS",
+  "tags": [
+   "ota",
+   "disable",
+   "updates",
+   "utility",
+   "ios",
+   "software"
+  ]
+ },
+ "com.ipaomtk.king.god.castle.luminous.fate.158423": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "King God Castle: Luminous Fate is the iOS installable version of a strategy-focused mobile game. Players defend a castle using tactical deployment and hero abilities.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c6313d7a44dc2912b5808e209c9178dfea0ed25d635ed9ca6a9991fe6e492e9d",
+  "subtitle": "Strategy castle defense game",
+  "tags": [
+   "strategy",
+   "castle",
+   "defense",
+   "mobile",
+   "game",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.kinohome.159852": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "KinoHome is the iOS installable version of a media-focused app designed to organize and access movie and video content.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3f3f28752dac0c106e062e8c78381e7abae2cd9e3c33729d6b6ccc8740938c7f",
+  "subtitle": "Organize and access movies and videos",
+  "tags": [
+   "media",
+   "video",
+   "movies",
+   "organizer",
+   "ios",
+   "ipa"
+  ]
+ },
+ "com.ipaomtk.kitty.powers.speed.date.157643": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kitty Powers\u2019 Speed Date is a speed dating simulation game. It is provided as an IPA file for iOS, which is the installation package format used for manual installation on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "555081eec73d653ea7f77b67d0cdb997445271a00d0d7c219a3575470fa85411",
+  "subtitle": "Speed dating sim with Kitty Powers",
+  "tags": [
+   "kitty",
+   "powers",
+   "speed",
+   "date",
+   "dating",
+   "sim"
+  ]
+ },
+ "com.ipaomtk.knockout.2.wrath.of.the.karen.157896": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Knockout 2: Wrath of the Karen is a game distributed as an IPA file for iOS devices. The title suggests a sequel in a fighting or knockout series featuring a Karen character. Published via ipaomtk.com for manual installation on iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4c06d71733c41034a94d750359a30d4fbb7589157dea3a048ac2572a30f763ba",
+  "subtitle": "Sequel fighting game with Karen theme",
+  "tags": [
+   "knockout",
+   "wrath",
+   "karen",
+   "game",
+   "sequel",
+   "ipa"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -14625,6 +15422,25 @@
    "satella"
   ]
  },
+ "com.iptv.player": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "IPTVExpert is an IPTV streaming application. The provided source notes it is injected with Pro functionality.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e460c5198cd5b74f4b3a6ace0a63a75af5202ffa5553f23bc0abeaf2f8ae0152",
+  "subtitle": "IPTV streaming with Pro features",
+  "tags": [
+   "iptv",
+   "streaming",
+   "tv",
+   "video",
+   "pro",
+   "entertainment"
+  ]
+ },
  "com.iptvnator.arc": {
   "category": "entertainment",
   "date": "2026-10-19",
@@ -14645,6 +15461,23 @@
    "movies",
    "series",
    "streaming"
+  ]
+ },
+ "com.ironotes.Ironotes": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Ironotes is a simple workout log app for iOS 16.6 and later. Current version is 1.194. It is available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0945a71bfd5441fb5475c460d05aecb252a5ed53df1139f9c51c7badef36f472",
+  "subtitle": "Simple workout log for tracking exercises",
+  "tags": [
+   "workout",
+   "log",
+   "fitness",
+   "tracking",
+   "health",
+   "exercise"
   ]
  },
  "com.itranslate.itranslateone": {
@@ -14818,6 +15651,60 @@
    "adult"
   ]
  },
+ "com.javdb.com": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "JavDB by OwO Source. Source description states: Injected with Nothing. No additional features or functionality described in source material.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "267f9472259b6fc0b72d924d62e74fc0855ad685fec7a1f11b36902f59b5834a",
+  "subtitle": "Minimal app with no injected content",
+  "tags": [
+   "javdb",
+   "owo",
+   "source",
+   "minimal",
+   "empty",
+   "injected"
+  ]
+ },
+ "com.jdwel.app": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Jdwal Soccer Stats is a dedicated iOS application built for football fans who want detailed match data, team performance.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b31b277dcd1f2279fefd542240dd1bb0e2c9771dc6f36ea04319eac34402611d",
+  "subtitle": "Soccer stats and match data for fans",
+  "tags": [
+   "soccer",
+   "stats",
+   "football",
+   "match",
+   "data",
+   "team"
+  ]
+ },
+ "com.jerkgram.ios": {
+  "category": "social",
+  "date": "2026-10-28",
+  "description": "Jerkgram is a modified Telegram client offering extended functionality. Notable aspects include disabled notifications and a ghost mode. The app is distributed as an IPA for sideloading.",
+  "features": [
+   "Notifications disabled",
+   "Ghost mode"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "02b03a210a94c480ac15915b005884318aa205feb4f259ebef28dab1470838b9",
+  "subtitle": "Telegram mod with extended features",
+  "tags": [
+   "telegram",
+   "mod",
+   "client",
+   "ghost",
+   "russian",
+   "ipa"
+  ]
+ },
  "com.jockelholm.undertaledr": {
   "category": "other",
   "date": "2026-10-20",
@@ -14875,6 +15762,23 @@
    "tracker",
    "health",
    "fitness"
+  ]
+ },
+ "com.jollyco.jollybattlematch3": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Jolly Match 3 Puzzle Game is an engaging and vibrant puzzle game designed exclusively for iOS devices. It features colorful graphics and classic match\u20113 gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f7926d63ee54ba48a1510ae8eadd906864da6daf5b14db4ec46541201b446bb3",
+  "subtitle": "Vibrant match\u20113 puzzle for iOS",
+  "tags": [
+   "puzzle",
+   "match-3",
+   "ios",
+   "game",
+   "colorful",
+   "engaging"
   ]
  },
  "com.josessolmaximo.blackout": {
@@ -15025,6 +15929,23 @@
    "roleplay"
   ]
  },
+ "com.karteto.application": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "This version includes premium features. The IPA has been tested and compiled by TTJB Team.",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "eac97411dedc80c9c4f5b71c8731654d541ef5f436e76381dda0da860c6c7c1f",
+  "subtitle": "Premium features unlocked",
+  "tags": [
+   "premium",
+   "modified",
+   "tested",
+   "compiled"
+  ]
+ },
  "com.kawsar.artgenerator": {
   "category": "photo-video",
   "date": "2026-10-14",
@@ -15057,6 +15978,24 @@
    "ipa",
    "ios",
    "installer"
+  ]
+ },
+ "com.ketchapp.knifehit": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Knife Hit is a knife throwing game where players throw knives at rotating targets. This version provides unlimited coins for in-game purchases and progression.",
+  "features": [
+   "Unlimited Coins"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "620b09d1e25471f616577ac6e15ec78ffea4940be435ec82a29c67751e02dbdf",
+  "subtitle": "Knife throwing game with unlimited coins",
+  "tags": [
+   "knife",
+   "throwing",
+   "arcade",
+   "casual",
+   "unlimited coins"
   ]
  },
  "com.kevinquisquater.Habits": {
@@ -15111,6 +16050,23 @@
    "video"
   ]
  },
+ "com.kinetise.knowdrugs": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "KnowDrugs Drug Checking IPA is the iOS installation file of a harm reduction-focused mobile application.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "328d41564f645de5f6f7c45bfdedbfdb17a4d1e4dc7bdcc2334bde8e6f537998",
+  "subtitle": "Harm reduction drug checking app",
+  "tags": [
+   "knowdrugs",
+   "drug",
+   "checking",
+   "harm",
+   "reduction",
+   "ios"
+  ]
+ },
  "com.kingdom.gwanyuIdle": {
   "category": "other",
   "date": "2026-10-27",
@@ -15146,6 +16102,24 @@
    "rpg",
    "game",
    "3d"
+  ]
+ },
+ "com.kmoney.compile": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Inspo is an AI recipe keeper app. This version includes the subscription unlocked feature.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7e8f0646fbab6abd99c91bdd537475326deef9bda2ba958411b459fe0807b024",
+  "subtitle": "AI Recipe Keeper",
+  "tags": [
+   "recipe",
+   "ai",
+   "food",
+   "keeper",
+   "cooking"
   ]
  },
  "com.knights.commandoshooting": {
@@ -15419,6 +16393,25 @@
    "carnivore",
    "unlocked",
    "subscription"
+  ]
+ },
+ "com.lappir.keto": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "KetoDiet is a keto diet tracking app. The version provided has the subscription unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a47b0be01af02419494ffeb27ccce364351c87ddf66ea02f64c257cb826344c9",
+  "subtitle": "Keto diet tracker with subscription unlocked",
+  "tags": [
+   "keto",
+   "diet",
+   "subscription",
+   "unlocked",
+   "app",
+   "testers"
   ]
  },
  "com.latenitesoft.CameraPlus2": {
@@ -16017,6 +17010,27 @@
    "books"
   ]
  },
+ "com.logicalengine.qsei": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Invoice Simple is an invoice maker app. This version is patched and includes premium features unlocked. Version 6.9.1.",
+  "features": [
+   "Premium Unlocked",
+   "Patched",
+   "Invoice Maker"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "720fd0a0a6a2a57cf42fc24626fff9490e2b101d977d2e34baee6963af837b38",
+  "subtitle": "Invoice Maker with Premium Unlocked",
+  "tags": [
+   "invoice",
+   "maker",
+   "premium",
+   "unlocked",
+   "patched",
+   "business"
+  ]
+ },
  "com.londonappstudio.Charging-Animation": {
   "category": "utilities",
   "date": "2026-10-14",
@@ -16085,6 +17099,23 @@
    "ipa",
    "ttjb",
    "graphics"
+  ]
+ },
+ "com.ludia.jurassicworld": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Jurassic World Alive is an iOS game for fans of dinosaurs and thrilling adventures.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "00802d464ca3c8626687d976e55bb84c8b812af64904631f76cb4a560c6db988",
+  "subtitle": "Jurassic World Alive \u2013 dinosaur adventure game",
+  "tags": [
+   "jurassic",
+   "world",
+   "alive",
+   "dinosaurs",
+   "adventure",
+   "ios"
   ]
  },
  "com.ludu.fls": {
@@ -16385,6 +17416,42 @@
    "programming"
   ]
  },
+ "com.markodevcic.js-code-pad": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "JSCodePad is an app provided by AppTesters IPA Repo. The version includes a subscription unlocked feature.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bbf586710d0626d69a31e456ea66635c5fde49b83e76e3d77cb1c37245b9839c",
+  "subtitle": "JSCodePad with Subscription Unlocked",
+  "tags": [
+   "jscodepad",
+   "subscription",
+   "unlocked",
+   "ipa",
+   "app",
+   "developer"
+  ]
+ },
+ "com.markussela.iw4l": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "IW4 Pocket is a port of Call of Duty: Modern Warfare 2 (2009) for iPhone. It requires the user to provide their own PC game files to run.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dab203cdc33c775fe4f0dcbfdf18a43a000a61ad860942abc5c044bc9c1499e7",
+  "subtitle": "Port of MW2 (2009) for iPhone",
+  "tags": [
+   "mw2",
+   "port",
+   "iphone",
+   "call of duty",
+   "modern warfare",
+   "game"
+  ]
+ },
  "com.match.busters.free.ios": {
   "category": "games",
   "date": "2026-10-20",
@@ -16546,6 +17613,23 @@
    "ios"
   ]
  },
+ "com.merge.islandbistro": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Island Bistro 2 is an iOS time management and simulation game that combines cooking challenges.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "92d66ffeaf020ac49960601aa897c7e8ad584a74aa92176416a3e17abfd7cde4",
+  "subtitle": "Cooking time\u2011management simulation game",
+  "tags": [
+   "cooking",
+   "time-management",
+   "simulation",
+   "ios",
+   "game",
+   "bistro"
+  ]
+ },
  "com.mergematch.fairyland": {
   "category": "games",
   "date": "2026-10-21",
@@ -16595,6 +17679,26 @@
    "action",
    "game",
    "global"
+  ]
+ },
+ "com.mgapps.iptvx": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "IPTVX is a patched IPTV player for iOS 13.0 and later. The tweak unlocks the subscription features. It requires TrollStore or a jailbreak to install. Version 20.0.3. Modified by @blatants.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f7b0ed255fdb7313019ca891e143bcb47b65cf5d12972114e8faf95bee0ceb29",
+  "subtitle": "Patched IPTV player with subscription unlocked",
+  "tags": [
+   "iptvx",
+   "subscription",
+   "unlocked",
+   "patched",
+   "trollstore",
+   "jailbreak"
   ]
  },
  "com.mibo.castlecrush.apple": {
@@ -17099,6 +18203,19 @@
    "satella",
    "injected",
    "app"
+  ]
+ },
+ "com.mrauxsiuh.doodle": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "iVatar is an app developed by Karbin-Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "de64dcc0264f1ba0a2fc4f929ac4171c4c6f3a88fb6fa8ce5470e14ea44421a8",
+  "subtitle": "iVatar by Karbin-Store",
+  "tags": [
+   "ivatar",
+   "karbin-store"
   ]
  },
  "com.mudsplasher.AppleGotTrolled": {
@@ -17848,6 +18965,23 @@
    "widgets"
   ]
  },
+ "com.nitrodog.jetpacksurvivor": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "A fresh take on survival action. Jetpack Survivors combines survival, shooting, and fast-paced mobility.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "39de1c0c2b99d28574cd47f54909c60b900b8baca5a4c32bd0164e7435c4939d",
+  "subtitle": "Survival action with jetpack mobility",
+  "tags": [
+   "survival",
+   "shooting",
+   "jetpack",
+   "action",
+   "mobile",
+   "game"
+  ]
+ },
  "com.nitrogames.boltgunboom": {
   "category": "other",
   "date": "2026-10-15",
@@ -18359,6 +19493,27 @@
    "entertainment"
   ]
  },
+ "com.osy86.Jitterbug": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "Jitterbug enables wireless connection between two non-jailbroken iOS devices to launch applications with Just-In-Time (JIT) compilation support on the target device.",
+  "features": [
+   "Wireless Connection",
+   "JIT Compilation",
+   "No Jailbreak Required"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "391cb6d56e688680acafdbae60ce900542b57fc8b0bd1c28ac666bee214ed6ff",
+  "subtitle": "Wireless JIT app launching for iOS",
+  "tags": [
+   "jit",
+   "wireless",
+   "developer",
+   "ios",
+   "debugging",
+   "compilation"
+  ]
+ },
  "com.oubplayer.tivi": {
   "category": "entertainment",
   "date": "2026-10-26",
@@ -18374,6 +19529,23 @@
    "video",
    "tv",
    "media"
+  ]
+ },
+ "com.outerspaceapps.itranslate": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "iTranslate with subscription unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "97ce2ce173eed7ce1e9a7b23dac5fd3c63ef4b9cb525ad41a5ea0edb8c7f53f4",
+  "subtitle": "Translation app with subscription unlocked",
+  "tags": [
+   "translate",
+   "translation",
+   "subscription",
+   "unlocked"
   ]
  },
  "com.overdesigned.Cheatsheet": {
@@ -18684,6 +19856,26 @@
    "editor",
    "face",
    "body"
+  ]
+ },
+ "com.photoedit.cleanwatermark": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "iRetouch is a Pro version IPA that has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Pro",
+   "Tested IPA"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c72aaf9ae804892225ef6818c44846e209f6f3ad5c8cf59d17747a9e1576257f",
+  "subtitle": "Pro photo retouch IPA by TTJB Team",
+  "tags": [
+   "retouch",
+   "photo",
+   "editor",
+   "ipa",
+   "pro",
+   "ttjb"
   ]
  },
  "com.photoshoot.headshotaigenerator": {
@@ -19082,6 +20274,23 @@
    "indie"
   ]
  },
+ "com.playfocus.king": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "King or Fail Castle Takeover on iOS delivers a high-stakes strategy experience built around epic castle conquests.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e2b40ec2e8fcaeb20042decf9ff8abf9beef07785273e2526e54c5731ada39c9",
+  "subtitle": "High-stakes castle takeover strategy game",
+  "tags": [
+   "strategy",
+   "castle",
+   "takeover",
+   "conquest",
+   "battle",
+   "ios"
+  ]
+ },
  "com.playgendary.bowmasters": {
   "category": "games",
   "date": "2026-10-15",
@@ -19095,6 +20304,23 @@
    "multiplayer",
    "game",
    "action"
+  ]
+ },
+ "com.playgendary.ktb2": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kick the Buddy is a popular mobile game where players interact with a virtual doll character. The IPA version allows installation on iOS devices. The game provides various tools and weapons to interact with the buddy character for stress relief entertainment.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8be658f1d32d2aaaa372e7beeaf4a08c40554beea0734f4baf386c5bab862d32",
+  "subtitle": "Stress relief game with interactive buddy",
+  "tags": [
+   "stress relief",
+   "interactive",
+   "casual",
+   "physics",
+   "entertainment",
+   "ipa"
   ]
  },
  "com.playhardlab.defenders": {
@@ -19309,6 +20535,43 @@
    "action"
   ]
  },
+ "com.polywise.weekly": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Imprint is a visual learning application designed to help users understand various topics through graphics and visual aids. This modified version includes the subscription unlocked feature, giving you full access to all learning materials and content available within the app. Learn at your own pace and explore educational subjects visually.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5a5a5d335355f3578c16b7bd458d45ac56c8629b0941cc7c8b8335c3424c2efe",
+  "subtitle": "Learn visually with this educational app",
+  "tags": [
+   "learn",
+   "education",
+   "visual",
+   "study",
+   "courses"
+  ]
+ },
+ "com.poopsnaggle.IPTVUltra": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "IPTV Ultra is an IPTV application. The listed tweak indicates a premium unlocked version. Current version is 3.0. The app is provided by @riftysIPAlibrary.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f5c719a35a57f7074f67b36592b82e7b290406fc2831613ea0a72371f42beb0a",
+  "subtitle": "Premium Unlocked IPTV player",
+  "tags": [
+   "iptv",
+   "premium",
+   "unlocked",
+   "player",
+   "version3",
+   "riftys"
+  ]
+ },
  "com.poppingmoon.aria": {
   "category": "social",
   "date": "2026-10-19",
@@ -19443,6 +20706,29 @@
    "gaming"
   ]
  },
+ "com.provenance.ifly": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Experience classic Sega Dreamcast games on your iOS devices and Apple TV. This is an early build of iFly optimized for iOS and tvOS devices. Enjoy full emulation with support for MFi, PlayStation, and Xbox controllers. Preserve your progress using save states and real-time saves. Enhance your experience with high-resolution rendering, fast-forward, and slow-motion options. Organize your collection with built-in game library management and customize your touch controls.",
+  "features": [
+   "Full Dreamcast emulation",
+   "Controller support",
+   "Save states",
+   "High-resolution rendering",
+   "Customizable controls"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7956ebcfcbb996bc32e04ccbb340a068b1c3d963e61ba687ea595555e76e7db2",
+  "subtitle": "Play classic Sega Dreamcast games on iOS and Apple TV",
+  "tags": [
+   "emulator",
+   "dreamcast",
+   "sega",
+   "retro",
+   "gaming",
+   "console"
+  ]
+ },
  "com.przemyslawbobak.filtru": {
   "category": "utilities",
   "date": "2026-10-24",
@@ -19459,6 +20745,29 @@
    "filtru",
    "recipes",
    "utilities"
+  ]
+ },
+ "com.pujiagames.IslandTime": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Island Times Easy Life is a game for iOS. This MOD version includes Freeze Gold, Freeze Diamond, Freeze Bone, Freeze HP, and removes ads.",
+  "features": [
+   "Freeze Gold",
+   "Freeze Diamond",
+   "Freeze Bone",
+   "Freeze HP",
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7f773e28c9374efda0a2add681254fd93be640bd6757920129b26c17a319c603",
+  "subtitle": "Island Times Easy Life MOD with freezes & no ads",
+  "tags": [
+   "island",
+   "times",
+   "easy",
+   "life",
+   "mod",
+   "game"
   ]
  },
  "com.pungme.combyne": {
@@ -19607,6 +20916,48 @@
    "wilderness",
    "game",
    "iphone"
+  ]
+ },
+ "com.rationalmatter.junoapp": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "JunoPublic is a modified IPA that includes an in-app purchase bypass function (press buy then cancel). The IPA has been tested and compiled by TTJB Team.",
+  "features": [
+   "IAP Bypass"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "298c3940170630a9db59a49819892693a92f72b147eabbb82aa9c4e975a66e8c",
+  "subtitle": "Modified IPA with in-app purchase bypass",
+  "tags": [
+   "ipa",
+   "hack",
+   "iap",
+   "bypass",
+   "modified",
+   "ttjb"
+  ]
+ },
+ "com.raton.flashcards": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "Kavi is a native, local-first iOS flashcards app for fast card creation and focused revision. It keeps your study data on your device, giving you full ownership and control. Create cards quickly, review efficiently, and study offline without syncing to external servers.",
+  "features": [
+   "Local-first",
+   "Fast card creation",
+   "Focused revision",
+   "Offline study",
+   "Data ownership"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9378856c2664739e6231561b8c48a8bbf891922f944dc3d05840576175953230",
+  "subtitle": "Native flashcards for focused study",
+  "tags": [
+   "flashcards",
+   "study",
+   "offline",
+   "local-first",
+   "revision",
+   "cards"
   ]
  },
  "com.raventhe.DragonfistLimitless": {
@@ -19788,6 +21139,42 @@
    "extensionfix",
    "monitor",
    "utility"
+  ]
+ },
+ "com.realmzer.igiapc": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "This tweak enables in-app purchases for games where LocaliApStore fails, such as Borderlands and the new Batman game. Status indicates it is functional.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d1f4022072cd5215fafd7b7140d6dff516ba20f8a760f5ad5dd5dae296830c6f",
+  "subtitle": "In-app purchase cracker for iOS games",
+  "tags": [
+   "iap",
+   "cracker",
+   "tweak",
+   "borderlands",
+   "batman",
+   "ios"
+  ]
+ },
+ "com.realmzer.julioadblock": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "This utility adds ad-blocking capabilities to the applications you choose.",
+  "features": [
+   "Ad Blocking"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e0a7a9af127786ecb7c5c22a8da7be919d76e712e902c28d22b67951edc11444",
+  "subtitle": "Block ads in selected apps",
+  "tags": [
+   "adblock",
+   "ad-blocker",
+   "utilities",
+   "selective",
+   "per-app",
+   "blocking"
   ]
  },
  "com.rebelancap.2ship": {
@@ -20030,6 +21417,22 @@
    "timestamp",
    "photo",
    "video"
+  ]
+ },
+ "com.reverse.ImageSearch": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Reverse Image Search is an iOS application designed to help users identify images and find similar visuals quickly.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "887c49725e3945106600e546c1463ade422d62fd5540c82aef51d3b2830093d0",
+  "subtitle": "Identify images and find similar visuals",
+  "tags": [
+   "image",
+   "search",
+   "reverse",
+   "visual",
+   "identify"
   ]
  },
  "com.revoicers.autocc": {
@@ -20323,6 +21726,23 @@
    "daily",
    "zodiac",
    "stars"
+  ]
+ },
+ "com.robotsquid.kingofcrabs.invasion": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "King of Crabs 2 \u2013 Invasion is an iOS action multiplayer game where players control crabs in competitive battles. The game features real-time combat against other players in arena-style matches.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5feb7254cd7fbf0cdaaff072a98a14a1d95f1f622cd71af218bffe0c72fdbb10",
+  "subtitle": "Action multiplayer crab battle game",
+  "tags": [
+   "action",
+   "multiplayer",
+   "crab",
+   "battle",
+   "arena",
+   "ios"
   ]
  },
  "com.robtop.geometryjump": {
@@ -21237,6 +22657,40 @@
    "departures"
   ]
  },
+ "com.sixtysevenbits.idleislandscv": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Island Scavenger Wild Mystery is a survival exploration game.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4d63ea5744d51a7edbe69e9e1693214ba64f2682252b07d2d9271b73731fe347",
+  "subtitle": "Survival exploration on a mysterious island",
+  "tags": [
+   "survival",
+   "exploration",
+   "game",
+   "island",
+   "scavenger",
+   "mod"
+  ]
+ },
+ "com.sixtysevenbits.kaincobra": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Kain Cobra immerses iOS players in a high-octane action universe where precision, strategy, and fast reflexes are key.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e444403bb6cdec16b11a01794269c9fea64ceeb8b42f4cb8ee897d6077f1d985",
+  "subtitle": "High-octane action game for iOS",
+  "tags": [
+   "action",
+   "precision",
+   "strategy",
+   "reflexes",
+   "ios",
+   "game"
+  ]
+ },
  "com.skybornegames.adorablegarden": {
   "category": "games",
   "date": "2026-10-14",
@@ -21267,6 +22721,23 @@
    "file",
    "manager",
    "transfer"
+  ]
+ },
+ "com.skymoons.kittenmatch": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kitten Match is a charming iOS puzzle game that combines classic match gameplay with adorable kitten-themed visuals.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "08d9e4698545e174cc257af438363d0da6818c26b76c9ea8673475eff87d25fe",
+  "subtitle": "Adorable kitten match\u20113 puzzle game",
+  "tags": [
+   "puzzle",
+   "match",
+   "kitten",
+   "ios",
+   "game",
+   "casual"
   ]
  },
  "com.skypaw.decibel": {
@@ -22540,6 +24011,23 @@
    "gameplay"
   ]
  },
+ "com.suykorng.iptv": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "The IPTV Player App for iPhone provides a flexible and reliable way to watch IPTV streams on iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e22ed592ef24eee11fd75185ddedeaa66090de83c6c6be18d3f08ecb62471d5b",
+  "subtitle": "Watch IPTV streams on iPhone",
+  "tags": [
+   "iptv",
+   "player",
+   "ios",
+   "streaming",
+   "video",
+   "entertainment"
+  ]
+ },
  "com.sybogames.brim": {
   "category": "games",
   "date": "2026-10-15",
@@ -22738,22 +24226,23 @@
  },
  "com.thebcd69.bcd": {
   "category": "games",
-  "date": "2026-10-27",
-  "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS with Steam and GOG built in. Powered by Wine, FEX and Metal via DXMT.",
+  "date": "2026-10-28",
+  "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS. Features built-in Steam and GOG integration, powered by Wine, FEX and Metal via DXMT.",
   "features": [
-   "Steam built in",
-   "GOG built in",
-   "Controller-friendly"
+   "Controller Friendly",
+   "Built-in Steam",
+   "Built-in GOG"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "508f083751382705843e0ab6b8a2a2aca5203ee43783aa9c282ad0c5e00e0a84",
+  "src_hash": "8c46bf388305af135a4b377645cc8bdf121ba4be805b4afdc823ef6b7f1b4387",
   "subtitle": "Run Windows games on iOS and iPadOS",
   "tags": [
-   "launcher",
    "games",
+   "launcher",
    "windows",
    "steam",
-   "gog"
+   "gog",
+   "emulator"
   ]
  },
  "com.theboisclub.gen1recompplusplus": {
@@ -23445,22 +24934,20 @@
  },
  "com.ulisesolave.Fitia": {
   "category": "lifestyle",
-  "date": "2026-10-24",
-  "description": "Fitia is a calorie counter and diet application designed to help you track your daily nutrition and meals. This version includes patches and modifications by Subscriptio. Requires iOS 16 or later.",
+  "date": "2026-10-28",
+  "description": "Fitia is a health and wellness application. This version comes with subscription features unlocked.",
   "features": [
-   "Patched",
-   "Calorie Counter",
-   "Diet Tracking"
+   "Subscription Unlocked"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d2560d5c5b29418fc79672e1ddd639f8cdc9ce20eda568c6dbd00e547d4dc540",
-  "subtitle": "Calorie counter and diet app",
+  "src_hash": "e293289e79500bae288bcbc5bf5f0fb8e68488e6a07de9198c5ee17848508813",
+  "subtitle": "Subscription Unlocked",
   "tags": [
    "fitia",
-   "calorie counter",
-   "diet",
-   "nutrition",
-   "health"
+   "health",
+   "wellness",
+   "fitness",
+   "lifestyle"
   ]
  },
  "com.umayanga.Budget": {
@@ -25640,6 +27127,24 @@
    "image editor"
   ]
  },
+ "com.unknown.ifonts": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "\u06cc\u06d5\u06a9\u06ce\u06a9 \u0644\u06d5 \u062c\u0648\u0627\u0646\u062a\u0631\u06cc\u0646 \u06a9\u06cc\u0628\u06c6\u0631\u062f\u06d5\u06a9\u0627\u0646 \u0628\u06c6 \u0646\u0648\u0633\u06cc\u0646 \u0644\u06d5\u0633\u06d5\u0631 \u0626\u0627\u06cc\u0641\u06c6\u0646 \u062f\u06d5\u062a\u0648\u0627\u0646\u06cc\u062a \u0626\u06ce\u0633\u062a\u0627 \u062f\u0627\u06cc \u0628\u06d5\u0632\u06ce\u0646\u06cc\u062a \u0628\u06d5 \u0645\u06c6\u062f \u06a9\u0631\u0627\u0648\u06cc\u06cc",
+  "features": [
+   "Modded"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5d808f56ff50a7e5d2a71536789c86ca3ec86e51967fec77c4cb5162d6e2ae15",
+  "subtitle": "A custom keyboard for typing on iPhone",
+  "tags": [
+   "keyboard",
+   "ifonts",
+   "typing",
+   "iphone",
+   "karbin-store"
+  ]
+ },
  "com.unknown.imagesearch": {
   "category": "other",
   "date": "2026-10-27",
@@ -25655,6 +27160,24 @@
    "reverse",
    "lookup",
    "photo"
+  ]
+ },
+ "com.unknown.imagesize": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "ImageSize is an application designed for setting and adjusting image measurements and dimensions. It operates without advertisements by default. To remove ads, you can access the application settings.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6b7dc1b6a9aa988901770940ac7c2a89a6cb27c1f3eacd18c2f74f97f6e6350f",
+  "subtitle": "Resize and set image dimensions",
+  "tags": [
+   "imagesize",
+   "photo",
+   "resize",
+   "dimensions",
+   "utilities"
   ]
  },
  "com.unknown.imagineaiartgenerato": {
@@ -25789,6 +27312,115 @@
    "tools"
   ]
  },
+ "com.unknown.ipgmail": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "iPGMail is an email application developed by Karbin-Store. The app focuses on PGP encryption for secure email communication.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "687ea7b250911ae91b9f0e64633317ef77aace2793fa42943cc35e60e6ae2104",
+  "subtitle": "PGP encrypted email client",
+  "tags": [
+   "pgp",
+   "email",
+   "encryption",
+   "security",
+   "mail"
+  ]
+ },
+ "com.unknown.islandcharging": {
+  "category": "photo-video",
+  "date": "2026-10-28",
+  "description": "This application sets animated wallpapers on your device. It allows you to choose from various animations to use as your background.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "97c197c60af71da8cf038cfbb88eb110cf879273f60dec6ee0d2cb0bf9590ff2",
+  "subtitle": "Animated wallpaper for your device",
+  "tags": [
+   "wallpaper",
+   "animated",
+   "live wallpaper",
+   "background",
+   "customization",
+   "ios"
+  ]
+ },
+ "com.unknown.itorrent": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "iTorrent is a torrent client that offers premium features unlocked and removes all advertisements from the app.",
+  "features": [
+   "Premium Unlocked",
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d7c9691edb7b97fb4a7492568fdebcb6e8bd86ea10f7ab1e53c5e3b7d2fdb0e9",
+  "subtitle": "Torrent client with premium unlocked, no ads",
+  "tags": [
+   "torrent",
+   "client",
+   "premium",
+   "no-ads",
+   "file-sharing",
+   "p2p"
+  ]
+ },
+ "com.unknown.itranslatepro": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "iTranslatePro is a translation program that supports multiple languages. The app enables users to translate text between various languages.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d2a070e2ec449a2d9740cd7aead4613a09fb2d2db0772e5592ffe1cb0a900d67",
+  "subtitle": "Multi-language translation app",
+  "tags": [
+   "translation",
+   "languages",
+   "translate",
+   "multilingual",
+   "text",
+   "tool"
+  ]
+ },
+ "com.unknown.jawaker": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Jawaker is a modified application distributed by Karbin-Store. The source description states that hack features are available in this version. No additional functionality or features are described in the provided source text.",
+  "features": [
+   "Hack Features",
+   "Modified Version"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "17d2553ba9278d2f43fecc649d4324c1997dd40cdc6ed39043186f074f05f5c6",
+  "subtitle": "Modified version with hack features",
+  "tags": [
+   "jawaker",
+   "karbin-store",
+   "modified",
+   "hack",
+   "arabic",
+   "kurdish"
+  ]
+ },
+ "com.unknown.keyboardgpt": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Keyboard GPT integrates AI ChatGPT functionality into your keyboard for intelligent text suggestions and responses.",
+  "features": [
+   "AI ChatGPT integration"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "40a318d2a8101e995a36affd864cab4074799b6cf15107b1fe7fda8db531a1c1",
+  "subtitle": "AI ChatGPT keyboard assistant",
+  "tags": [
+   "keyboard",
+   "ai",
+   "chatgpt",
+   "utility",
+   "text",
+   "assistant"
+  ]
+ },
  "com.unofficial.balatro": {
   "category": "games",
   "date": "2026-10-15",
@@ -25851,6 +27483,22 @@
    "encode",
    "subscription",
    "unlocked"
+  ]
+ },
+ "com.usm.rosenkoenig2": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "King Tactics is a turn-based strategy game for iOS. The game offers a focused experience designed for players who enjoy planning and tactical decision-making.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "243c2f578d35a5fe1c1b62bce9c0af64e3bd5970997318755eb0cc1fb01d1acc",
+  "subtitle": "Turn-based strategy game",
+  "tags": [
+   "turn-based",
+   "strategy",
+   "tactics",
+   "planning",
+   "game"
   ]
  },
  "com.v43years.avatarify2": {
@@ -26366,6 +28014,23 @@
    "ios"
   ]
  },
+ "com.wixot.merge": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Journey Home Merge & Stories IPA for iOS is an engaging mobile experience that blends merge gameplay mechanics with an intriguing nar",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ea947b302335a5c95bc8e35f95348bf76664289f7f4bb7445b02887f5f906f39",
+  "subtitle": "Merge & Stories gameplay",
+  "tags": [
+   "merge",
+   "stories",
+   "ios",
+   "gameplay",
+   "narrative",
+   "journey"
+  ]
+ },
  "com.wolf.piggy": {
   "category": "games",
   "date": "2026-10-15",
@@ -26509,6 +28174,44 @@
    "tweak"
   ]
  },
+ "com.xitrix.iTorrent": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "iTorrent is a torrent client for iOS that enables downloading and managing torrent files. It supports magnet links and torrent file handling, allowing users to download content via BitTorrent protocol. The app provides background downloading capabilities and file management for completed downloads.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f4a354b994ddf3480ff36c57612dcbbd0f518013755f41ccf5b8e3cd0b52b810",
+  "subtitle": "Torrent client for iOS",
+  "tags": [
+   "torrent",
+   "bittorrent",
+   "download",
+   "magnet",
+   "filesharing",
+   "p2p"
+  ]
+ },
+ "com.xitrix.iTorrent2": {
+  "category": "developer",
+  "date": "2026-10-28",
+  "description": "iTorrent is a torrent client for iOS available through AltStore. It integrates with the Files app for managing downloads and supports standard torrent protocols. The app handles magnet links and .torrent files, allowing background downloads and seeding.",
+  "features": [
+   "Files app integration",
+   "Background downloads",
+   "Magnet link support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4ae933ee6152955ed4941fbd64d474864009ecaeb72a904f7a0f2c69c8e1be45",
+  "subtitle": "Torrent client with Files app support",
+  "tags": [
+   "torrent",
+   "client",
+   "files",
+   "altstore",
+   "download",
+   "ios"
+  ]
+ },
  "com.xq.archeroii": {
   "category": "games",
   "date": "2026-10-15",
@@ -26526,6 +28229,23 @@
    "mod",
    "game",
    "ios"
+  ]
+ },
+ "com.xqgames.kingofsouls": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "The King of Souls Global IPA MOD is a fantasy RPG designed for iOS players.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c0a8101ba6c51e690160869bd0ee589d4e080290b5a09b4a3a35ecbe313beb2d",
+  "subtitle": "Fantasy RPG for iOS",
+  "tags": [
+   "fantasy",
+   "rpg",
+   "ios",
+   "global",
+   "mod",
+   "kingofsouls"
   ]
  },
  "com.xsxs18.FileManager": {
@@ -27800,6 +29520,134 @@
    "ios"
   ]
  },
+ "cypwn.IPSW_TS.1.0": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "IPSW_TS lets you view the signing status of iOS firmware files, showing which versions are currently signed or unsigned by Apple.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "20a1fdf843bfc8be7d1a8724a13ce5d1edfba07e08a9b084a873af3800455a27",
+  "subtitle": "Check iOS firmware signed status",
+  "tags": [
+   "ios",
+   "firmware",
+   "signed",
+   "unsigned",
+   "status",
+   "check"
+  ]
+ },
+ "cypwn.ITheosMaker_TS.1.0": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "This app helps you create, manage, and build Theos projects. It includes over 10 features for iOS development.",
+  "features": [
+   "10+ features"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "01e715e49191368627f035b18204fffc952b7d60c79d3e781e95f6911e9f997f",
+  "subtitle": "Create, manage, build Theos projects",
+  "tags": [
+   "theos",
+   "project",
+   "build",
+   "ios",
+   "development",
+   "tool"
+  ]
+ },
+ "cypwn.InstaSpring_TS.1.0": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "InstaSpring lets you perform an immediate device respring by tapping the app icon.",
+  "features": [
+   "Instant Respring"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "1b710247f80b3e4f98ca45cbeba8d6ef54764a187f4187e74b391d78ae82f05c",
+  "subtitle": "Respring instantly by tapping the app icon",
+  "tags": [
+   "respring",
+   "instaspring",
+   "utility",
+   "tool",
+   "system"
+  ]
+ },
+ "cypwn.Jaility.1.2": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Respring your jailed iOS 15 device just like it was jailbroken. An example use case for this is when sideloaded apps won't appear on homescreen, simply respring to refresh the home screen.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fdc95b037aa0ed2334160304aaf5b9e13eef53cbf8c1bd304a580771f7baff4c",
+  "subtitle": "Respring jailed iOS 15 devices",
+  "tags": [
+   "respring",
+   "ios15",
+   "jailed",
+   "sideloaded",
+   "homescreen",
+   "utility"
+  ]
+ },
+ "cypwn.Jaility_TS.3.1": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Jaility v3.1 provides respring, device supervision, Control Center modules, and a theme store with webclip icon theming. It is a Swift rewrite that supports all devices.",
+  "features": [
+   "Respring",
+   "Device supervision",
+   "Control Center modules",
+   "Theme store",
+   "Swift rewrite"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3a65c890ef69c3b892cc3fef1858606c22c07f2beb9af470d7cced2b061e3b48",
+  "subtitle": "Respring, supervise, CC modules, theme store",
+  "tags": [
+   "jailbreak",
+   "respring",
+   "supervision",
+   "controlcenter",
+   "themes",
+   "swift"
+  ]
+ },
+ "cypwn.Keka_1.0.1.1.0.1": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Keka is a file archiver that creates and extracts compressed archives in multiple formats.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3c9680dc28d7628af9380b9b4a582dd87577a73e28510fe3db08964917609507",
+  "subtitle": "File archiver for macOS",
+  "tags": [
+   "file",
+   "archiver",
+   "compression",
+   "extraction",
+   "utility",
+   "macos"
+  ]
+ },
+ "cypwn.KillMyOTA-1.1.1.1": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "OTA Killer for iOS 15.0 - 16.1.2.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a56644146c100709ccc9e27d3420c8f5089cdbdf94410842ca2938ca2a7a2edd",
+  "subtitle": "OTA Killer for iOS 15.0 - 16.1.2",
+  "tags": [
+   "ota",
+   "killer",
+   "ios",
+   "15",
+   "16",
+   "cypwn"
+  ]
+ },
  "cypwn.cl1m4x.1.3": {
   "category": "other",
   "date": "2026-10-18",
@@ -27991,6 +29839,23 @@
    "gaming"
   ]
  },
+ "dev.casp.iPlistGen": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "iPlistGen generates iOS install plists so you can distribute your Xcode apps on the go. Fill out the fields, press generate, then save and use the plist without hassle.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9215da0c63e3dc8500a9b0e8d92846df00218a51b904ed707fce420f556c5912",
+  "subtitle": "Generate iOS install plists for Xcode apps",
+  "tags": [
+   "ios",
+   "plist",
+   "xcode",
+   "distribution",
+   "utility",
+   "generator"
+  ]
+ },
  "dev.espressu.EspressU": {
   "category": "games",
   "date": "2026-10-27",
@@ -28032,6 +29897,23 @@
    "markdown",
    "sync",
    "version control"
+  ]
+ },
+ "dev.kartpad.app": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "KartPad is a port of the WiiCompiled Mario\u202fKart\u202fWii static recompilation project for Apple and Android devices. It provides native touch and controller support, a game chooser, and game\u2011data management. The app requires a legally obtained PAL RMCP01 revision\u202f0 Mario\u202fKart\u202fWii disc image. tvOS support is experimental. KartPad is free and its development uses substantial AI assistance for code, testing, documentation, and maintenance.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "64c9071b47b04dacbbfeb11976dcdefca3496e68f1d91e3b3df6171c6d3c48ef",
+  "subtitle": "Play Mario Kart Wii on iOS and Android",
+  "tags": [
+   "mario",
+   "kart",
+   "wii",
+   "emulator",
+   "android",
+   "ios"
   ]
  },
  "dev.leoestremadoyro.AnimeTracker": {
@@ -28152,6 +30034,23 @@
    "ipa",
    "ttjb",
    "unlocked"
+  ]
+ },
+ "digital.vim.juststep": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Just Step: Fashion Empire is a fashion-focused iOS game that blends creative design with management gameplay. Players create and customize fashion items while building their fashion empire.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c047138a18646327e93e5fdd2f263d842689f0ce3c72ce57129c033e4e9549eb",
+  "subtitle": "Fashion design and management game",
+  "tags": [
+   "fashion",
+   "design",
+   "management",
+   "simulation",
+   "creative",
+   "empire"
   ]
  },
  "doordash.DoorDashConsumer": {
@@ -28742,6 +30641,27 @@
    "tracker"
   ]
  },
+ "howell.Kanji-": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Kanji app with premium features. The IPA has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Premium",
+   "Tested",
+   "TTJB Team"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "08067ab673524aaed15373cab430b32a945d2e470b7e1f3861f14418c818afd8",
+  "subtitle": "Premium Kanji learning app",
+  "tags": [
+   "kanji",
+   "premium",
+   "ipa",
+   "ttjb",
+   "tested",
+   "learning"
+  ]
+ },
  "idea.ai": {
   "category": "other",
   "date": "2026-10-21",
@@ -29245,6 +31165,23 @@
    "tracker"
   ]
  },
+ "io.labhouse.invoicesapp": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Invoice Fly is an iOS application for creating and managing invoices. It provides tools for billing and financial tracking.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a794abf6898977e6ccead450f605e0bcf640832a16cf15885a9c41c8399b4c9e",
+  "subtitle": "Invoice maker for iOS",
+  "tags": [
+   "invoice",
+   "maker",
+   "billing",
+   "business",
+   "finance",
+   "ios"
+  ]
+ },
  "io.mindist.noise": {
   "category": "other",
   "date": "2026-10-14",
@@ -29402,6 +31339,23 @@
    "beta"
   ]
  },
+ "ipaomtk.installer": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "IPAOMTK App is a popular online IPA library for iOS users who want to explore IPA files, third-party apps, and tweaked apps.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e39493d4e071638078f0610afc6145eb02bd45b4ea21779bc6c48922f5665614",
+  "subtitle": "Explore IPA files and tweaked apps",
+  "tags": [
+   "ipa",
+   "library",
+   "ios",
+   "tweaked",
+   "apps",
+   "third-party"
+  ]
+ },
  "it.Ettore.Electrical-Calculations-FREE": {
   "category": "utilities",
   "date": "2026-10-21",
@@ -29431,6 +31385,23 @@
    "client",
    "ios",
    "developer"
+  ]
+ },
+ "jet.fighter.games": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Jet Fighter Airplane Racing brings the excitement of aerial racing to iPhone, combining fast jet aircraft with competitive gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a91a442a3959298de864e99d47f254215e1a72ffff6102ad743af99bef62baa3",
+  "subtitle": "Aerial jet racing game",
+  "tags": [
+   "jet",
+   "fighter",
+   "airplane",
+   "racing",
+   "ios",
+   "game"
   ]
  },
  "jp.co.applibot.chiikawapocketgl": {
@@ -29977,6 +31948,28 @@
    "development"
   ]
  },
+ "me.cranci.Iridum": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "An iOS app that scrapes a streaming site. Requires iOS/iPadOS 15.0 or later. Built entirely with SwiftUI. Distributed only through sideloading; no TestFlight or App Store distribution.",
+  "features": [
+   "SwiftUI",
+   "Sideload Only",
+   "No TestFlight",
+   "No App Store"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "27fe76a6b2e9daa2d4303910ca4672352923db65b7bf51a334b635babc42432c",
+  "subtitle": "Scrape streaming content on iOS",
+  "tags": [
+   "ios",
+   "streaming",
+   "scraper",
+   "swiftui",
+   "sideload",
+   "utility"
+  ]
+ },
  "me.eladga.finddiamonds": {
   "category": "other",
   "date": "2026-10-24",
@@ -30494,6 +32487,23 @@
    "ios"
   ]
  },
+ "net.peakgames.kammelna": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Kammelna is a mobile application designed to entertain and challenge users through a variety of captivating and educational activities. The app aims to provide engaging content that combines fun with learning elements.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b45b53af8d0cee23ba3c4ab0c34944b552bb8e8333a1e800db087a71001789a5",
+  "subtitle": "Entertaining educational challenge app",
+  "tags": [
+   "education",
+   "entertainment",
+   "puzzle",
+   "learning",
+   "challenge",
+   "mobile"
+  ]
+ },
  "net.quochuywdm.collanote496": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -30659,6 +32669,23 @@
    "reader",
    "feeds",
    "utilities"
+  ]
+ },
+ "net.wooga.junes-journey-hidden-object-mystery-game": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Junes Journey Hidden Objects IPA MOD iOS is the perfect game for you. In this captivating mobile game, you will embark on a thrilling journey.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b4ed585a2427260f80a049cabef83fdc4f1cd92698700d2547de34cf2cbbb62d",
+  "subtitle": "Hidden object adventure game",
+  "tags": [
+   "junes",
+   "journey",
+   "hidden",
+   "objects",
+   "ipa",
+   "mod"
   ]
  },
  "net.yukh.xui.ios": {
@@ -30891,6 +32918,20 @@
    "open source"
   ]
  },
+ "org.borrowedcache.ultimate531": {
+  "category": "other",
+  "date": "2026-10-28",
+  "description": "Injected with Pro.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "80a5ecd93ef5e4aa14dbd6f125c52ca76dafea9a99394cf3d644f87bcb096e26",
+  "subtitle": "KeyLifts \u2013 Injected with Pro",
+  "tags": [
+   "keylifts",
+   "pro",
+   "injected"
+  ]
+ },
  "org.brandonplank.flappybird": {
   "category": "other",
   "date": "2026-10-24",
@@ -31094,6 +33135,26 @@
    "app",
    "ios",
    "other"
+  ]
+ },
+ "org.haxi0.Jaility": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "Jaility is an iOS IPA package that disables device locking after a respring and adds supervision capabilities. It is intended for users who want to customize their device beyond standard iOS restrictions. The tool modifies system behavior related to the lock screen and device management after a springboard restart.",
+  "features": [
+   "Disables Lock After Respring",
+   "Supervision Support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ea1d37ae80e8706cfb2ad27b510e464d20ce75d255512225f1922c853d4bb102",
+  "subtitle": "Disables lock after respring, adds supervision",
+  "tags": [
+   "jailbreak",
+   "tweak",
+   "respring",
+   "customization",
+   "ipa",
+   "ios"
   ]
  },
  "org.htf65jud.balatro": {
@@ -31472,6 +33533,23 @@
    "game"
   ]
  },
+ "ru.nonamedude.iTorrent": {
+  "category": "utilities",
+  "date": "2026-10-28",
+  "description": "iTorrent is a torrent client compatible with iOS 9.3 and later. It was last updated on July 30, 2024.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "60bfbe4e9d1e69683702a3cc620a631179c1dfe6c6e01206441dbe258a452630",
+  "subtitle": "Torrent client for iOS 9.3+",
+  "tags": [
+   "torrent",
+   "client",
+   "ios",
+   "download",
+   "p2p",
+   "file"
+  ]
+ },
  "rw.sp.flitsmeister": {
   "category": "other",
   "date": "2026-10-24",
@@ -31486,6 +33564,23 @@
    "flitsmeister",
    "unlocked",
    "subscription",
+   "app"
+  ]
+ },
+ "sa.com.istoria": {
+  "category": "lifestyle",
+  "date": "2026-10-28",
+  "description": "iStoria helps you learn English easily. Requires iOS 13.0 or later. Current version 5.6.0. Developed by Sa1y0miii.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bcbf08f2c7a051caee5f71bbff974b2f46a5122d8ec4302995e0dc61aa04ea37",
+  "subtitle": "Learn English easily with iStoria",
+  "tags": [
+   "english",
+   "learning",
+   "education",
+   "language",
+   "ios",
    "app"
   ]
  },
@@ -31680,6 +33775,28 @@
    "updates",
    "reader",
    "information"
+  ]
+ },
+ "software.iridium": {
+  "category": "games",
+  "date": "2026-10-28",
+  "description": "Iridium is an experimental runtime that lets you play Windows games on iPhone and iPad. It includes a native game library and integrates touch, keyboard, mouse, and controller input. The project is in early development and aims to bring desktop game compatibility to iOS devices.",
+  "features": [
+   "Windows game runtime",
+   "Native game library",
+   "Touch controls",
+   "Keyboard support",
+   "Controller support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e91314afd1980bb0b2753f3870bdebee6cbc7e8b318ea5f50bbf9a5543ab1a98",
+  "subtitle": "Experimental Windows game runtime for iOS",
+  "tags": [
+   "windows games",
+   "game runtime",
+   "emulation",
+   "controller support",
+   "ios gaming"
   ]
  },
  "stoope.Grit": {
@@ -32207,6 +34324,23 @@
    "workout",
    "health",
    "gym"
+  ]
+ },
+ "xyz.kinohome": {
+  "category": "entertainment",
+  "date": "2026-10-28",
+  "description": "A convenient application for watching movies and TV series. The app offers a paid subscription. Created by KinoHome.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0ab17e7a98873fd9d65dd6031a7f5e4173e6b201c47d039ed90ebfd2199a7a1a",
+  "subtitle": "Watch movies and TV series with a subscription",
+  "tags": [
+   "movies",
+   "tv series",
+   "streaming",
+   "subscription",
+   "video",
+   "watch"
   ]
  },
  "xyz.shameful.Harbour": {
