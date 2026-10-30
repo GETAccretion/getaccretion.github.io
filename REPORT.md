@@ -1,16 +1,16 @@
 # Source report
 
-Built 2026-10-30 13:19 UTC.
+Built 2026-10-30 22:35 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4561** (5546 KB) |
+| Apps in `source.json` | **4561** (5541 KB) |
 | Apps in `curated.json` | **731** (729 KB) |
-| Listings read | 34333 |
+| Listings read | 34349 |
 | Apps listed by more than one source (newest kept) | 1818 |
 | Listings skipped (http-only, no icon, no date, bad bundle ID) | 6865 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
-| Dead download links held back (retested every build) | 9589 |
+| Dead download links held back (retested every build) | 9595 |
 | Links on hold (whole host failing, kept for now) | 0 |
 | Sources | 175: 172 ok, 3 from cache, 0 failed |
 
@@ -20,8 +20,8 @@ Built 2026-10-30 13:19 UTC.
 
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
-| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3742 | 3470 | 4595 | 2026-10-30 | discovered |
-| [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1626 | 562 | 332 | 2026-10-30 | discovered |
+| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3742 | 3465 | 4595 | 2026-10-30 | discovered |
+| [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1626 | 567 | 332 | 2026-10-31 | discovered |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 444 | 327 | 3 | 2026-10-30 | discovered |
 | [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 100 | 13 | 2025-01-01 | curated |
 | [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 18 | 12 | 0 | 2026-10-29 | discovered |
@@ -56,7 +56,7 @@ Built 2026-10-30 13:19 UTC.
 | [Muffin](https://raw.githubusercontent.com/MuffinEMU/cemu-ios-muffin/main/docs/apps.json) | ok | 1 | 1 | 0 | 2026-09-13 | discovered |
 | [AnymeX](https://raw.githubusercontent.com/RipeStore/repos/main/anymex.json) | ok | 1 | 1 | 0 | 2026-10-27 | discovered |
 | [Roberts' Apps](https://raw.githubusercontent.com/Rozkalns/SimilarPhotos/main/altstore-source.json) | ok | 1 | 1 | 0 | 2026-05-30 | discovered |
-| [Solea](https://raw.githubusercontent.com/ScaryFr92/solea-releases/main/sidestore.json) | ok | 1 | 1 | 0 | 2026-10-26 | discovered |
+| [Solea](https://raw.githubusercontent.com/ScaryFr92/solea-releases/main/sidestore.json) | ok | 1 | 1 | 0 | 2026-10-30 | discovered |
 | [Bonnie's Repo](https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/BonnieRepo_2.0.json) | ok | 1 | 1 | 0 | 2022-06-14 | discovered |
 | [Unofficial Mojang Archive](https://raw.githubusercontent.com/TheResonanceTeam/.default-sources/main/tvOS/UnofficialMojangArchive.json) | ok | 1 | 1 | 0 | 2016-12-19 | discovered |
 | [Mae's Apps](https://raw.githubusercontent.com/cute-catgirl/Loft/main/altstore/source.json) | ok | 1 | 1 | 0 | 2024-11-16 | discovered |
@@ -75,8 +75,8 @@ Built 2026-10-30 13:19 UTC.
 | [TLocation Source](https://raw.githubusercontent.com/truongkma/t-location/main/source.json) | ok | 1 | 1 | 0 | 2026-08-18 | discovered |
 | [MindSpace](https://raw.githubusercontent.com/vkr1729/MindSpace-iOS/main/apps.json) | ok | 1 | 1 | 0 | 2026-08-31 | discovered |
 | [FileManager](https://raw.githubusercontent.com/xsxs18-dev/FileManager/main/altstore-source.json) | ok | 1 | 1 | 0 | 2026-10-28 | discovered |
-| [AppTesters IPA Repo](https://repo.apptesters.org) | ok | 9747 | 0 | 168 | 2026-10-30 | discovered |
-| [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9745 | 0 | 168 | 2026-10-30 | discovered |
+| [AppTesters IPA Repo](https://repo.apptesters.org) | ok | 9757 | 0 | 168 | 2026-10-31 | discovered |
+| [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9751 | 0 | 168 | 2026-10-31 | discovered |
 | [AppTesters IPA Repo](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/source.json) | ok | 4599 | 0 | 228 | 2025-09-05 | discovered |
 | [Neoncat-OG IPA Library](https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/apps_esign.json) | ok | 1988 | 0 | 0 | 2026-04-11 | curated |
 | [swaggyP36000 IPA Library](https://raw.githubusercontent.com/swaggyP36000/TrollStore-IPAs/main/apps_esign.json) | ok | 623 | 0 | 0 | 2023-12-27 | curated |
@@ -123,7 +123,7 @@ Built 2026-10-30 13:19 UTC.
 | [Laoalts](https://alts.lao.sb/) | ok | 1 | 0 | 0 | 2020-03-30 | curated |
 | [SideStore Official](https://apps.sidestore.io/) | ok | 1 | 0 | 0 | 2025-07-01 | curated |
 | [iSH](https://ish.app/altstore.json) | ok | 1 | 0 | 0 | 2026-08-22 | curated |
-| [PokeMMO](https://pokemmo.eu/altstore/) | ok | 1 | 0 | 0 | 2026-08-16 | discovered |
+| [PokeMMO](https://pokemmo.eu/altstore/) | ok | 1 | 0 | 0 | 2026-10-30 | discovered |
 | [Apollo for Reddit](https://raw.githubusercontent.com/Balackburn/Apollo/main/apps.json) | ok | 1 | 0 | 0 | 2026-10-30 | discovered |
 | [YTLitePlus](https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/apps.json) | ok | 1 | 0 | 0 | 2024-09-03 | curated |
 | [Lumisound](https://raw.githubusercontent.com/HollowHeavenXR/Lumisound/main/ios/altstore-source.json) | ok | 1 | 0 | 0 | 2026-10-27 | discovered |
@@ -206,28 +206,28 @@ Built 2026-10-30 13:19 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
-| MeleePad | 0.2.5 | 2026-10-30 | raw.githubusercontent.com |
-| PKG Sender | 2.0.0 | 2026-10-30 | raw.githubusercontent.com |
-| OpenAgentd | 3.36.0 | 2026-10-30 | raw.githubusercontent.com |
-| SunPad | 0.2.3 | 2026-10-30 | raw.githubusercontent.com |
-| RAtouch | 0.1.1 | 2026-10-30 | raw.githubusercontent.com |
-| VaultPad | 0.1.0 | 2026-10-30 | raw.githubusercontent.com |
-| Lighthouse | 1.1.3 | 2026-10-30 | raw.githubusercontent.com |
-| ICO | 0.9.5 | 2026-10-30 | raw.githubusercontent.com |
-| Bird Chaser | 1.177.0 | 2026-10-30 | raw.githubusercontent.com |
-| Apollo for Reddit | 4.0.1 | 2026-10-30 | raw.githubusercontent.com |
-| tangoAW2 | 0.9.0 | 2026-10-30 | raw.githubusercontent.com |
-| Moonfin | 2.8.0 | 2026-10-30 | raw.githubusercontent.com |
-| Knight Music | 0.7.5 | 2026-10-30 | raw.githubusercontent.com |
-| Hand Mouse | 1.1.0 | 2026-10-30 | raw.githubusercontent.com |
-| Hand Tracker | 1.1.0 | 2026-10-30 | raw.githubusercontent.com |
-| Pageturner | 2.20.0 | 2026-10-30 | raw.githubusercontent.com |
-| Unbill | 0.0.9 | 2026-10-30 | raw.githubusercontent.com |
-| Wallcraft | 3.43 | 2026-10-30 | raw.githubusercontent.com |
-| PSExpress | 26.44.0 | 2026-10-30 | raw.githubusercontent.com |
-| Provenance Alpha | 3.4.0 | 2026-10-30 | provenance-emu.com |
-| StikDebug | 3.2.0 | 2026-10-30 | raw.githubusercontent.com |
-| Pawse | 1.13.5 | 2026-10-30 | raw.githubusercontent.com |
+| OfflineMusic | 3.9.9 | 2026-10-31 | raw.githubusercontent.com |
+| GrowMe | 1.4.4 | 2026-10-31 | raw.githubusercontent.com |
+| ProCCD | 7.0.0 | 2026-10-31 | raw.githubusercontent.com |
+| Lampa | 2.2.0 | 2026-10-31 | raw.githubusercontent.com |
+| rPlayer | 8.0.0 | 2026-10-31 | raw.githubusercontent.com |
+| PokeMMO | 34702 | 2026-10-30 | raw.githubusercontent.com |
+| Knight Music | 0.8.1 | 2026-10-30 | raw.githubusercontent.com |
+| Recly | 0.3.1 | 2026-10-30 | raw.githubusercontent.com |
+| OpenAgentd | 3.37.0 | 2026-10-30 | raw.githubusercontent.com |
+| MovieClaw | 0.12.1 | 2026-10-30 | raw.githubusercontent.com |
+| Bird Chaser | 1.178.0 | 2026-10-30 | raw.githubusercontent.com |
+| conduit | 0.1.6 | 2026-10-30 | raw.githubusercontent.com |
+| Waypage | 1.45.6 | 2026-10-30 | raw.githubusercontent.com |
+| BrownBear | 0.1.0 | 2026-10-30 | raw.githubusercontent.com |
+| Onion Browser | 3.4.5 | 2026-10-30 | raw.githubusercontent.com |
+| Manatan | 6.2.22 | 2026-10-30 | raw.githubusercontent.com |
+| NekoSurf | 0.12.1 | 2026-10-30 | raw.githubusercontent.com |
+| MiruShin | 2.9.24 | 2026-10-30 | raw.githubusercontent.com |
+| Rust DICOM Station | 0.11.11 | 2026-10-30 | raw.githubusercontent.com |
+| Tour Planner | 1.12.0 | 2026-10-30 | raw.githubusercontent.com |
+| BrewLog | 0.1.26 | 2026-10-30 | raw.githubusercontent.com |
+| Opentify | 0.1.107 | 2026-10-30 | raw.githubusercontent.com |
 | Tsumiru | 1.6.3 | 2026-10-30 | raw.githubusercontent.com |
-| CollaNote | 5.1.0 | 2026-10-30 | raw.githubusercontent.com |
-| LEMOFM | 2.3.1 | 2026-10-30 | raw.githubusercontent.com |
+| Gevun | 0.4 | 2026-10-30 | raw.githubusercontent.com |
+| Ghost Remote | 1.6.23 | 2026-10-30 | raw.githubusercontent.com |
