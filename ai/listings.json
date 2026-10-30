@@ -378,6 +378,25 @@
    "qiblah"
   ]
  },
+ "Shizhihe.LogForge-For-iPhone": {
+  "category": "photo-video",
+  "date": "2026-10-30",
+  "description": "LogForge converts BT.2020 HLG ProRes video into Apple Log / BT.2020 ProRes for color grading workflows using published color mathematics. It changes existing pixel data and does not restore clipped highlights, crushed shadows, or lost detail. The iOS application includes an adaptive workspace that splits queues, progress, and conversion parameters, native toolbars that adjust to screen space, accessibility contrast controls, and haptic feedback. Queues and drafts are preserved when switching screen layouts.",
+  "features": [
+   "Haptic Feedback"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "32e293b347d540ce43c08e8f728e7a9fe897dbfb2dfa5498f15381023776d6c1",
+  "subtitle": "Convert BT.2020 HLG ProRes to Apple Log",
+  "tags": [
+   "logforge",
+   "prores",
+   "apple log",
+   "color grading",
+   "hlg",
+   "video"
+  ]
+ },
  "adguardhome.remote.app": {
   "category": "utilities",
   "date": "2026-10-14",
@@ -833,6 +852,28 @@
    "productivity"
   ]
  },
+ "app.intentchat": {
+  "category": "social",
+  "date": "2026-10-30",
+  "description": "Lingogram is a client based on Swiftgram with server-sided AI capabilities.\n\nKey features:\n- Ghost Mode for anonymous message reading and story viewing\n- Location spoofing\n- Screenshot capture allowed in restricted sections\n- No advertisements\n\nUsage and Troubleshooting:\n- Tap the Chats tab 5 times to access app settings.\n- To fix connection issues, turn off Allow Saving Protected Content.\n- If chats do not open, go to device Settings > Lingogram > Reset Metadata.",
+  "features": [
+   "No Ads",
+   "Ghost Mode",
+   "Location Spoof",
+   "No Screenshot Restriction"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "b0e7cd93f6049f48e8c008f7178ba0861f57427e95da393a570d66a7ad5ce203",
+  "subtitle": "Swiftgram fork with AI features and privacy tools",
+  "tags": [
+   "lingogram",
+   "swiftgram",
+   "ghost mode",
+   "ai",
+   "chat",
+   "messaging"
+  ]
+ },
  "app.introscape.com": {
   "category": "other",
   "date": "2026-10-27",
@@ -916,6 +957,26 @@
    "subscription",
    "unlocked",
    "premium"
+  ]
+ },
+ "app.linkwarden": {
+  "category": "utilities",
+  "date": "2026-10-30",
+  "description": "Linkwarden is an open-source collaborative bookmark manager designed to collect, read, annotate, and preserve web pages, articles, and bookmarks. Save content with automatic preservation, organize links into collections, apply tags, and collaborate with team members. Access your curated library across your devices. This build is distributed by a third party.",
+  "features": [
+   "Open Source",
+   "Self-Hosted"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "316635410bb2f34608159e20165d1b295eee72739f938491f41758ce9e62639d",
+  "subtitle": "Collaborative bookmark manager",
+  "tags": [
+   "bookmarks",
+   "links",
+   "read later",
+   "organizer",
+   "collaboration",
+   "bookmark manager"
   ]
  },
  "app.molinete.aerio": {
@@ -1553,6 +1614,26 @@
    "patched"
   ]
  },
+ "co.appnation.aimusic": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Melodia is a modified IPA version of a music player app. The Pro version includes added functionality and has been tested and compiled by the TTJB Team. This is a third-party distribution not affiliated with the original developer.",
+  "features": [
+   "Pro Version",
+   "Tested IPA"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ea80c485d763daae6a60446db4360cd9e4b879ac904c167b50ef83f899a36d54",
+  "subtitle": "Pro music player by TTJB Team",
+  "tags": [
+   "melodia",
+   "music",
+   "player",
+   "pro",
+   "ipa",
+   "ttjb"
+  ]
+ },
  "co.appnation.geniechat": {
   "category": "utilities",
   "date": "2026-10-25",
@@ -1955,6 +2036,25 @@
    "cooking",
    "kitchen",
    "food"
+  ]
+ },
+ "com.AkhirPekan.LaundrySimulator": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Experience running a laundry store with innovative simulation concepts. Manage operations and handle daily tasks in this engaging business simulation game for iOS devices.",
+  "features": [
+   "Unlimited Currencies"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7840d73a3ae371bf21d45e72a16f0021ff2dcca4361e0c358aad8e96204538d6",
+  "subtitle": "Run your own laundry store simulation game",
+  "tags": [
+   "simulation",
+   "laundry",
+   "store",
+   "management",
+   "game",
+   "business"
   ]
  },
  "com.AlfaBravo.CombatMaster": {
@@ -4472,6 +4572,25 @@
    "audio",
    "client",
    "downloads"
+  ]
+ },
+ "com.andrespizabuckmann.MetadataEditor": {
+  "category": "utilities",
+  "date": "2026-10-30",
+  "description": "MetadataEditor is a tool for editing metadata. This version has premium features injected.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4fdea0193983e35567cf0e4342c69530dea04c3088fe1064ab070b11bfafd0a7",
+  "subtitle": "Edit metadata with premium features",
+  "tags": [
+   "metadata",
+   "editor",
+   "premium",
+   "utility",
+   "tools",
+   "edit"
   ]
  },
  "com.andydev.alpenglow": {
@@ -7218,6 +7337,26 @@
    "novel"
   ]
  },
+ "com.chrismack.locus": {
+  "category": "utilities",
+  "date": "2026-10-30",
+  "description": "Locus is a free and open-source iPhone location tool. Select a spot on the map, search for a specific location, or set up a route to drive. Custom coordinates are injected into the device using developer capabilities.",
+  "features": [
+   "Free",
+   "Open Source"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "4d01f00c17862e289983e0fbd6066172e9fe9a5cc7acc372dda278d6d9a96b69",
+  "subtitle": "Free and open-source location simulation tool",
+  "tags": [
+   "location",
+   "gps",
+   "teleport",
+   "map",
+   "route",
+   "coordinates"
+  ]
+ },
  "com.chrissotraidis.caesarpad": {
   "category": "other",
   "date": "2026-10-20",
@@ -7368,6 +7507,29 @@
    "ios",
    "game",
    "classic"
+  ]
+ },
+ "com.cidy02.Kudos": {
+  "category": "utilities",
+  "date": "2026-10-30",
+  "description": "Kudos provides a dedicated Apple-native experience for AO3. Search and browse works, download EPUBs for offline reading, and customize themes and typography. Organize your local library with bookmarks, tags, and history, and optionally secure mature content using Face ID. Back up and sync your library data using a portable package. Requires building from source using Xcode.",
+  "features": [
+   "Offline EPUB reading",
+   "Customizable themes",
+   "Local library organization",
+   "Face ID security",
+   "Library backup and sync"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c5f494589f6e5d62ad85b90e578cf5683ec96d281026b29cc93b277362a35386",
+  "subtitle": "Apple-native reader and library manager for AO3",
+  "tags": [
+   "ao3",
+   "reader",
+   "epub",
+   "library",
+   "offline",
+   "books"
   ]
  },
  "com.cinegenix.filmic.pro": {
@@ -8205,6 +8367,23 @@
    "game",
    "crunchyroll",
    "iphone"
+  ]
+ },
+ "com.crunchyroll.gv.metalslugtactics": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Metal Slug Tactics brings the iconic run-and-gun franchise into turn-based tactical combat. Command familiar characters and vehicles across grid-based battlefields. Features pixel art style true to the series heritage with strategic depth and roster management.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8d738f80b1ad355cc2df85c0e9ef1b5852aa5b767dc6650577703f5ccfd74498",
+  "subtitle": "Tactical strategy in the Metal Slug universe",
+  "tags": [
+   "metal slug",
+   "tactics",
+   "strategy",
+   "turn-based",
+   "pixel art",
+   "snk"
   ]
  },
  "com.crunchyroll.iphone": {
@@ -9152,6 +9331,23 @@
    "ios14",
    "decrypted",
    "app"
+  ]
+ },
+ "com.doubledaggerstudio.littlekittybigcity": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Little Kitty, Big City provides access to the full game content without requiring in-app purchases.",
+  "features": [
+   "Full Game Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "2dba772b41883451d3086b5bd46ff336c422e58a0f2a3ed30fd5c2607bca795f",
+  "subtitle": "Full game unlocked with complete content access.",
+  "tags": [
+   "kitty",
+   "city",
+   "games",
+   "unlocked"
   ]
  },
  "com.dpixel.DPixelTV": {
@@ -10287,6 +10483,22 @@
    "iphone"
   ]
  },
+ "com.example.Mirarr": {
+  "category": "entertainment",
+  "date": "2026-10-30",
+  "description": "Mirarr is a movie app designed to simplify the process of watching movies and TV shows.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ca0e71b2ddb9ad68143e78eada28b4fa3c4079ad457380f16a6d69794b7b5ccb",
+  "subtitle": "Simplify watching movies and TV shows",
+  "tags": [
+   "movie",
+   "tv",
+   "watch",
+   "streaming",
+   "entertainment"
+  ]
+ },
  "com.example.acela": {
   "category": "entertainment",
   "date": "2026-10-14",
@@ -10349,6 +10561,52 @@
    "danmaku",
    "video",
    "collection"
+  ]
+ },
+ "com.example.laststatsMobile": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "LastStats shows your listening history by reading your Last.fm data. It turns your history into stats, rankings, recaps and animated artist pages. The dashboard displays what is playing now, recent tracks, friend activity and a calendar covering the last 60 days. You can reorder sections and select which cards appear on your dashboard.",
+  "features": [
+   "Listening stats",
+   "Rankings and recaps",
+   "Animated artist pages",
+   "Dashboard customization",
+   "Friend activity"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e521beeb8ed7819abee1b6e89a37ef1617b8cea6e33c0a787748d311bd1f9ecb",
+  "subtitle": "Last.fm history, stats, rankings and recaps",
+  "tags": [
+   "lastfm",
+   "music",
+   "stats",
+   "history",
+   "dashboard",
+   "tracker"
+  ]
+ },
+ "com.example.legacypaddisplay": {
+  "category": "utilities",
+  "date": "2026-10-30",
+  "description": "Turn an iPad or iPhone stuck on iOS 12 into a second display for your Mac over Lightning or Wi-Fi. This free and self-hosted app supports H.264 video, touch control, two-finger scrolling, and a real mouse cursor. Use the same Wi-Fi network or plug in a Lightning cable for better speed and lower latency, with automatic fallback to Wi-Fi if the cable is disconnected. The minimum supported iOS version is 12.0, with testing performed on iOS 12.5.8.",
+  "features": [
+   "Lightning cable support",
+   "Wi-Fi connection",
+   "Touch and scroll",
+   "Mouse cursor support",
+   "Free"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c1538359dd1f830f046862d3cd34e0c2389096c45a640d442aa1bb23f8c84c5b",
+  "subtitle": "Turn older iOS devices into a second display for Mac",
+  "tags": [
+   "display",
+   "monitor",
+   "mac",
+   "ipad",
+   "iphone",
+   "ios12"
   ]
  },
  "com.example.mame4ios": {
@@ -10455,6 +10713,40 @@
    "ttjb"
   ]
  },
+ "com.facebook.Messenger": {
+  "category": "social",
+  "date": "2026-10-30",
+  "description": "Messenger version 573.0.0 with MSGPlusX v1.1 by @dens0r, compiled by @compiledipas.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6a522cd432f736c6372aa2a6e23252b7a59efdcb20129ea0a42ca4880809bb4a",
+  "subtitle": "MSGPlusX v1.1 for Messenger",
+  "tags": [
+   "messenger",
+   "msgplusx",
+   "social",
+   "ipa",
+   "tweak",
+   "compiled"
+  ]
+ },
+ "com.facebook.Messenger2": {
+  "category": "social",
+  "date": "2026-10-30",
+  "description": "This is a parallel version of Facebook Messenger that runs alongside the original app. The IPA file has been checked and compiled by the TTJB Team.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0ed05efedbb51585b3d22ddc8efc41a0fdc80c39162e260117957b001cb06a66",
+  "subtitle": "Parallel version of Facebook Messenger",
+  "tags": [
+   "messenger",
+   "facebook",
+   "parallel",
+   "ipa",
+   "ttjb",
+   "social"
+  ]
+ },
  "com.fanqu.b8": {
   "category": "games",
   "date": "2026-10-18",
@@ -10521,6 +10813,23 @@
    "ios",
    "guardian",
    "war"
+  ]
+ },
+ "com.fathermade.catkingdom": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Meow Kingdom is an idle RPG where you collect and care for cute cats. Explore an enchanting world filled with fluffy companions. Designed for cat lovers seeking a relaxing escape.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "029c2298d874ed5eb1c562092ebc357a879126097f68a9388553f98fbacc4342",
+  "subtitle": "Cute cat idle RPG adventure",
+  "tags": [
+   "cat",
+   "idle",
+   "rpg",
+   "cute",
+   "game",
+   "adventure"
   ]
  },
  "com.fatsecret.caloriecounter": {
@@ -11504,6 +11813,23 @@
    "game"
   ]
  },
+ "com.futureplay.mergematch": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Merge Gardens is a casual mobile game that combines gardening and farm management with merge mechanics. Players merge items to grow their garden and expand their farm.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "df52118cc072ebc577b2f23d79f5c9ce3fb525633d02b194b88701c0b72e4dc9",
+  "subtitle": "Casual merge gardening and farm game",
+  "tags": [
+   "merge",
+   "gardening",
+   "farm",
+   "casual",
+   "mobile",
+   "game"
+  ]
+ },
  "com.gageadiel.reference.gageref": {
   "category": "utilities",
   "date": "2026-10-25",
@@ -12401,6 +12727,25 @@
    "notes"
   ]
  },
+ "com.goodturn.memorize": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "MemorizeByHeart is a modified application package distributed through the AppTesters IPA repository. This version has been injected with premium features that are normally restricted in the standard release. The app functions as a memorization aid for learning and retaining information.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "00bd5f1547587898fd3c0434294a60f1ac889ebad842372b8e16bcff8c571430",
+  "subtitle": "Premium version with unlocked features",
+  "tags": [
+   "memorization",
+   "learning",
+   "premium",
+   "ipa",
+   "modified",
+   "education"
+  ]
+ },
  "com.google.GoogleDigitalEditions": {
   "category": "other",
   "date": "2026-10-26",
@@ -12506,6 +12851,106 @@
    "video"
   ]
  },
+ "com.google.ios.youtube.lrd.cracked.1.13.patched": {
+  "category": "photo-video",
+  "date": "2026-10-30",
+  "description": "This is a cracked version of the paid LRD tweak for YouTube. It does not work with Sidestore or Altstore. Sideloading is facilitated through FastSign operated by CertFish.",
+  "features": [
+   "Cracked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1fbed9d1901f87125ce2af711e6110a9d961c6e1750c560d8991cde1903b77ca",
+  "subtitle": "Cracked LRD tweak for YouTube",
+  "tags": [
+   "youtube",
+   "tweak",
+   "cracked",
+   "patched",
+   "sideload",
+   "lr"
+  ]
+ },
+ "com.google.ios.youtube.maxtube.5.2.2.21.24.3": {
+  "category": "photo-video",
+  "date": "2026-10-30",
+  "description": "A mod for YouTube on iOS/iPadOS with over a hundred customizable options, including the latest YTPlus/YTLite features.",
+  "features": [
+   "100+ Customizable Options",
+   "YTPlus/YTLite"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8a06eb8d3bb25090b5b3e80fc9b6f21bebec726b57e6a4e04a9fdd22bf8616c4",
+  "subtitle": "YouTube mod with 100+ options",
+  "tags": [
+   "youtube",
+   "mod",
+   "ios",
+   "ipados",
+   "ytplus",
+   "ytlite"
+  ]
+ },
+ "com.google.ios.youtube.maxtube.6.0.beta.2.20.21.6": {
+  "category": "photo-video",
+  "date": "2026-10-30",
+  "description": "MaxTube is a modified YouTube client for iOS and iPadOS. Version 1.7 is downgraded to build 20.21.6. It includes over one hundred customizable options and is based on the latest YTPlus and YTLite releases with additional changes.",
+  "features": [
+   "100+ Custom Options",
+   "YTPlus/YTLite Based",
+   "Downgraded Version"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2dee530bcb4f03263971847886c70ec776ac8680517a7506b0881fae36ab4aa6",
+  "subtitle": "YouTube mod with 100+ custom options",
+  "tags": [
+   "youtube",
+   "mod",
+   "custom",
+   "video",
+   "player",
+   "ios"
+  ]
+ },
+ "com.google.ios.youtube.maxtube.6.0.beta.2.21.43.5": {
+  "category": "photo-video",
+  "date": "2026-10-30",
+  "description": "MaxTube is a YouTube enhancer for iOS offering over 100 customizable options and additional tweaks. The latest version is freely available with expanded customization features for the YouTube viewing experience.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "75aaad301cfa2c7320fed2ea0ad0d38dafbd2d1c2c5a7fdc42271de44197f484",
+  "subtitle": "YouTube enhancer with 100+ customizable options",
+  "tags": [
+   "youtube",
+   "enhancer",
+   "customization",
+   "video",
+   "player",
+   "tweaks"
+  ]
+ },
+ "com.google.ios.youtube.music.maxmusic": {
+  "category": "photo-video",
+  "date": "2026-10-30",
+  "description": "MaxMusic is a modified version of YouTube Music that includes several tweaks: Return-YouTube-Music-Dislikes restores dislike counts, YTMABConfig provides configuration options, YouMusicPiP enables picture-in-picture playback, and VolumeBoostY increases volume limits.",
+  "features": [
+   "Dislike Counts",
+   "Custom Config",
+   "PiP Support",
+   "Volume Boost"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d232a3e8e57226b9a7210140234a63c07f414637b0c6fc282efa89d8e513f856",
+  "subtitle": "Modded YouTube Music with custom tweaks",
+  "tags": [
+   "youtube music",
+   "modded",
+   "tweaks",
+   "pip",
+   "volume boost",
+   "dislike counts"
+  ]
+ },
  "com.google.photos": {
   "category": "photo-video",
   "date": "2026-10-26",
@@ -12609,6 +13054,23 @@
    "premium"
   ]
  },
+ "com.gramgames.mergemagic": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Merge Magic is a puzzle game where you combine elements to unlock a magical world. Solve puzzles by merging items and discover new creatures.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e70a987ca1b8e15dc8037162b230171eb50cde0ad5d10448a743053da705d80a",
+  "subtitle": "Magical puzzle merging adventure",
+  "tags": [
+   "merge",
+   "magic",
+   "puzzle",
+   "game",
+   "ios",
+   "adventure"
+  ]
+ },
  "com.grammarly.keyboard": {
   "category": "utilities",
   "date": "2026-10-26",
@@ -12665,6 +13127,28 @@
    "modified"
   ]
  },
+ "com.grapetree.meowtower": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Meow Tower is a nonogram logic puzzle game featuring cat-themed artwork. The game includes standard nonogram gameplay where players fill grids based on numerical clues to reveal pictures. This version provides unlimited gold cans, maximum pencil tools, and maximum hints. Advertisements are removed.",
+  "features": [
+   "No Ads",
+   "Unlimited Gold Cans",
+   "Max Pencil",
+   "Max Hints"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "86a79f4c8c507ff511db90e5eac1c1fb577e439bc30bdeccb17beae0784c85b7",
+  "subtitle": "Nonogram puzzle game with unlimited hints",
+  "tags": [
+   "nonogram",
+   "puzzle",
+   "cats",
+   "logic",
+   "offline",
+   "casual"
+  ]
+ },
  "com.grayclover.rulethefrost": {
   "category": "other",
   "date": "2026-10-25",
@@ -12679,6 +13163,26 @@
    "frontier",
    "ipa",
    "ios"
+  ]
+ },
+ "com.gree.shadow": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "League of War Mercenaries is a strategic military combat game that puts players in command of armies. Engage in tactical warfare and manage your combat forces. This modified version includes damage and defense multiplier features to alter combat statistics during gameplay.",
+  "features": [
+   "Damage Multiplier",
+   "Defense Multiplier"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "dae51b542d5c7a54e39b315ecf5b9fde5d93e6ed3b328e33bc0b4d1ad0723be9",
+  "subtitle": "Command a military army in strategic combat",
+  "tags": [
+   "strategy",
+   "military",
+   "combat",
+   "merenaries",
+   "war",
+   "tactical"
   ]
  },
  "com.greenbuttongames.FishIdle": {
@@ -13888,6 +14392,23 @@
    "arm64",
    "games",
    "apps"
+  ]
+ },
+ "com.hutchgames.carsm3": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Matchcreek Motors is a custom cars IPA title that has recently captured the attention of gamers on iOS devices. It is provided by ipaomtk.com.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0bb3d91a87de65131a1b5b51447c38b01964a4dcd848ff7c0748cbdb074a0357",
+  "subtitle": "Custom cars IPA game for iOS",
+  "tags": [
+   "matchcreek",
+   "motors",
+   "custom",
+   "cars",
+   "ipa",
+   "ios"
   ]
  },
  "com.hwqgrhhjfd.idlefastfood": {
@@ -16730,6 +17251,125 @@
    "ios"
   ]
  },
+ "com.ipaomtk.match.squad.156922": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Match Squad is a hybrid puzzle-strategy game for iOS that combines classic match-3 mechanics with strategic gameplay. The IPA file allows installation on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e41d9d445c590b2db0874350f5e8929da54d19af2b19d61c9e1781924c32c934",
+  "subtitle": "Hybrid puzzle-strategy match-3 game for iOS",
+  "tags": [
+   "match-3",
+   "puzzle",
+   "strategy",
+   "ios",
+   "ipa",
+   "game"
+  ]
+ },
+ "com.ipaomtk.mech.assemble.154215": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Mech Assemble is a dynamic iOS game that combines mech construction with real-time combat. Players design and assemble custom mechs, then engage in battles. The game features both building and action gameplay elements.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "05fde1cff20b7a34ead667c56026b025da593eca2d0f5092484c5b6a60fbc062",
+  "subtitle": "Build mechs and battle in real-time combat",
+  "tags": [
+   "mech",
+   "construction",
+   "combat",
+   "building",
+   "action",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.medical.german.language.154225": {
+  "category": "lifestyle",
+  "date": "2026-10-30",
+  "description": "Medical German Language is an educational iOS application designed to help users learn medical German vocabulary and terminology. The app focuses on language skills needed in healthcare settings.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9d1251e0b72627cf3e54f591b17a52de67bde7c49d6cb58c6262d0878171f8d4",
+  "subtitle": "Learn medical German vocabulary and terminology",
+  "tags": [
+   "medical",
+   "german",
+   "language",
+   "education",
+   "healthcare",
+   "vocabulary"
+  ]
+ },
+ "com.ipaomtk.merge.anything.mutant.battle.152545": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Merge Anything \u2013 Mutant Battle IPA is the iOS installation package of a creative action",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fdce4f8343c73817b0d3b1d137be92d6aec71f0c0b79683571a045b3809f9571",
+  "subtitle": "Creative action merge game",
+  "tags": [
+   "merge",
+   "mutant",
+   "battle",
+   "ipa",
+   "ios",
+   "action"
+  ]
+ },
+ "com.ipaomtk.merge.tile.match.merge.154217": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Merge Tile: Match & Merge is an iOS puzzle game where players combine matching tiles to create new ones. The game package installs on iPhone for tile-matching and merging gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6650cc786d2d5c4d1aaa295829ec8c40458803ccac28a8098135c20c303f7bf6",
+  "subtitle": "Puzzle game merging matching tiles",
+  "tags": [
+   "puzzle",
+   "merge",
+   "match",
+   "tiles",
+   "ios",
+   "game"
+  ]
+ },
+ "com.ipaomtk.merge.village.story.puzzle.157665": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Merge Village : Story & Puzzle is a game offered by ipaomtk.com. It is provided as an IPA file, the installation package format used for iOS devices, allowing users to manually install the app.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "80b1e2a56efc97e7b48f44bbf36aa6eb24db8ba2a4d56212b53e2190d95ee8d0",
+  "subtitle": "Merge village story puzzle game",
+  "tags": [
+   "merge",
+   "village",
+   "story",
+   "puzzle",
+   "game",
+   "ipa"
+  ]
+ },
+ "com.ipaomtk.micro.rpg.156608": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Micro RPG is an iOS installation file (IPA) for a compact, engaging role\u2011playing game.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fb9d604262e8bf8fbdbc1f57902a2252de6f0117d27e235d6b56efc0b882a8b0",
+  "subtitle": "Compact RPG for iOS",
+  "tags": [
+   "micro rpg",
+   "rpg",
+   "ios",
+   "ipa",
+   "compact",
+   "game"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -17203,6 +17843,26 @@
    "fitness"
   ]
  },
+ "com.jojoapps.Medication-List": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Medication List is a tweak that unlocks the subscription. Version 1.8.12. Patched.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a3515ead3f52797a21fd4fe0ab4924757880ba9b16635596e0988932a4eb00ba",
+  "subtitle": "Medication List \u2013 Subscription Unlocked",
+  "tags": [
+   "medication",
+   "list",
+   "tweak",
+   "subscription",
+   "unlocked",
+   "patched"
+  ]
+ },
  "com.jollyco.jollybattlematch3": {
   "category": "games",
   "date": "2026-10-28",
@@ -17650,6 +18310,23 @@
    "ipa"
   ]
  },
+ "com.kiwert.mineadventure": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Mine Adventure: Survival RPG delivers a layered survival crafting experience on iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "824b4837e51bc947d0379ac452bd47484fbb2ce7380d8cfb47588546853e9b2a",
+  "subtitle": "Survival crafting RPG for iOS",
+  "tags": [
+   "survival",
+   "crafting",
+   "rpg",
+   "ios",
+   "adventure",
+   "game"
+  ]
+ },
  "com.klab.bleach": {
   "category": "games",
   "date": "2026-10-15",
@@ -17813,6 +18490,23 @@
    "communism",
    "game",
    "adventure"
+  ]
+ },
+ "com.koreanseats.mcla": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "An unofficial iOS adaptation built on LARecomp, ReXGlue and the Theft4 Apple foundation. The app combines ahead-of-time ARM64 execution with a title-s",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3146c2a07a14d1a063648ab7821d8e178250ae2387baf6bc56342659ea5751fc",
+  "subtitle": "Unofficial iOS port using LARecomp",
+  "tags": [
+   "unofficial",
+   "ios",
+   "port",
+   "larecomp",
+   "rexglue",
+   "theft4"
   ]
  },
  "com.kosmos12.dynamiteblue": {
@@ -18004,6 +18698,25 @@
    "tracker",
    "trollstore",
    "utilities"
+  ]
+ },
+ "com.lake.coloring": {
+  "category": "lifestyle",
+  "date": "2026-10-30",
+  "description": "Lake is a digital coloring book designed for adults. This patched version includes subscription modifiers. Access a variety of coloring pages and illustrations to relax and create artwork directly on your iOS device. Requires iOS 18.0 or later.",
+  "features": [
+   "Subscription Unlocked",
+   "Adult Coloring"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "895e46970b063d331a4cf1fe912c6a9c1d522313ac9bc54936892bcdad54df4e",
+  "subtitle": "Coloring Book for Adults",
+  "tags": [
+   "coloring",
+   "book",
+   "adults",
+   "art",
+   "relaxation"
   ]
  },
  "com.lalapp.gloryagessamurais": {
@@ -18208,6 +18921,28 @@
    "ttjb"
   ]
  },
+ "com.leccheck.app": {
+  "category": "utilities",
+  "date": "2026-10-30",
+  "description": "Mark every lecture, practice, and lab you attend to see your semester at a glance. LecCheck is fast, works offline, and syncs live between your phone and computer for free. Available for Android, iPhone, and Linux, with Windows coming soon. Version 2 is built from scratch using a local SQLite database on every device. It redraws only what changed and syncs individual fields in the background, making it instant and reliable without losing edits. View your current and upcoming classes with a live countdown, mark attendance in one tap, and manage your queue with swipe gestures and undo support.",
+  "features": [
+   "Offline Support",
+   "Live Sync",
+   "Swipe Gestures",
+   "Live Countdown"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e5a85ce08035dc63d974fd220a73311fbc9dbd1c8f1f615466376d6b0ec58217",
+  "subtitle": "Track lectures, practices, and labs easily",
+  "tags": [
+   "attendance",
+   "lectures",
+   "schedule",
+   "tracker",
+   "semester",
+   "offline"
+  ]
+ },
  "com.leemin.Cowabunga": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -18253,6 +18988,23 @@
    "hexadecimal",
    "time",
    "lightning"
+  ]
+ },
+ "com.leemin.lockmaster": {
+  "category": "utilities",
+  "date": "2026-10-30",
+  "description": "Lock Master allows you to customize the iOS locking experience. It supports iOS 14.0 and later. iPads are currently not supported. This tool will not work on semi-jailbreaks such as Seratonin because it requires backboardd to be resigned.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "52811e967fad5bf1e15a5f31abfa82d52786fbee243f9d591dcb79143ec493d2",
+  "subtitle": "Customize your iOS locking experience",
+  "tags": [
+   "lock",
+   "master",
+   "customize",
+   "ios",
+   "lockscreen",
+   "tweak"
   ]
  },
  "com.leguas.gunstorm": {
@@ -18430,6 +19182,27 @@
    "system",
    "tools",
    "device"
+  ]
+ },
+ "com.leolam.letschat": {
+  "category": "social",
+  "date": "2026-10-30",
+  "description": "LetsChat is a social messaging app that supports users worldwide. It currently features Google login and includes AI message summarization powered by Apple Intelligence on supported devices, with options for custom AI APIs. You can upload large files, view user profiles, and rely on built-in sensitive content analysis for safety. The app is currently in development with ongoing user interface improvements.",
+  "features": [
+   "AI Message Summarization",
+   "Worldwide Regions Supported",
+   "Large File Uploads",
+   "Sensitive Content Analysis"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7cef0ea4332e6c3ec62ccf0d47dcd89d4962a9be2ae569a919cf61e75b9ba45b",
+  "subtitle": "Connect and chat with people worldwide",
+  "tags": [
+   "chat",
+   "messaging",
+   "social",
+   "ai",
+   "communication"
   ]
  },
  "com.leoncorp.joseon": {
@@ -18635,6 +19408,26 @@
    "images"
   ]
  },
+ "com.lightx.photoeditor": {
+  "category": "photo-video",
+  "date": "2026-10-30",
+  "description": "LightX is a photo editing application that supports artificial intelligence. Premium features are unlocked for editing your photos.",
+  "features": [
+   "AI support",
+   "Unlocked features",
+   "Photo editing"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e57d1b906bf61894e4e677abda738280d1e7514cfcac6d52bfb643588482cca5",
+  "subtitle": "Photo editing app with AI and unlocked features",
+  "tags": [
+   "photo",
+   "editor",
+   "ai",
+   "pictures",
+   "images"
+  ]
+ },
  "com.lilbite.calorie.counter": {
   "category": "lifestyle",
   "date": "2026-10-28",
@@ -18756,6 +19549,24 @@
    "puzzle",
    "game",
    "ios"
+  ]
+ },
+ "com.lingodeer": {
+  "category": "lifestyle",
+  "date": "2026-10-30",
+  "description": "LingoDeer is a language learning application. This version includes injected premium access.",
+  "features": [
+   "Premium"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "af9d395488ccc785aaa9706324233b88bcb768cbd4106226a01866b995ceaa5f",
+  "subtitle": "Language learning app",
+  "tags": [
+   "languages",
+   "learning",
+   "education",
+   "courses",
+   "study"
   ]
  },
  "com.lingup.app": {
@@ -19698,6 +20509,44 @@
    "ios"
   ]
  },
+ "com.meitu.mtxx": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Meitu includes an added SVIP feature. The IPA has been tested and compiled by the TTJB Team.",
+  "features": [
+   "SVIP"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "92e86b8f380e086a68a3e2baa403215b8cdc5969b31ade5089a6c405f17eb2ef",
+  "subtitle": "Meitu \u2013 SVIP unlocked",
+  "tags": [
+   "meitu",
+   "svip",
+   "ipa",
+   "ttjb",
+   "tested",
+   "compiled"
+  ]
+ },
+ "com.memrise.ios.memrisecompanion": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Injected with Premium. Scenario tab is patched and cannot be unlocked. Last updated 07-15-2024.",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f9895f5830230a42f86d5e4725bab463d12c5311717156a563bb616a977dac91",
+  "subtitle": "Injected with Premium",
+  "tags": [
+   "memrise",
+   "premium",
+   "injected",
+   "patched",
+   "scenario",
+   "tab"
+  ]
+ },
  "com.merge.islandbistro": {
   "category": "games",
   "date": "2026-10-28",
@@ -19713,6 +20562,23 @@
    "restaurant",
    "management",
    "game"
+  ]
+ },
+ "com.merge.legends.dragon.dailyfun": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Merge Legends IPA is a mobile game that has become a new phenomenon in mobile gaming.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "757a0bd827e01e2d42470602210720006ae568017e91847e53920f80af733e3b",
+  "subtitle": "Merge puzzle adventure game",
+  "tags": [
+   "merge",
+   "legends",
+   "mobile",
+   "game",
+   "ipa",
+   "puzzle"
   ]
  },
  "com.mergematch.fairyland": {
@@ -19873,6 +20739,42 @@
    "tool"
   ]
  },
+ "com.mikafootball.app": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "MikaFootball is a football application. The source indicates it has been injected with premium features.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4192c9a0ccd44f7f759b20c73722b9724ca63dbcbaf4c083585b133a1467741a",
+  "subtitle": "Football app with premium features",
+  "tags": [
+   "football",
+   "sports",
+   "premium",
+   "app",
+   "mobile",
+   "game"
+  ]
+ },
+ "com.mikapps.minionsconquest": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Minions World is an iOS game featuring whimsical characters and engaging gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "55e9a34b887742fd68c5720677960ee618771006ead317460faf7530579a019b",
+  "subtitle": "Whimsical Minions adventure game",
+  "tags": [
+   "minions",
+   "game",
+   "adventure",
+   "ios",
+   "ipa",
+   "whimsical"
+  ]
+ },
  "com.mikekreeki.tasks": {
   "category": "other",
   "date": "2026-10-29",
@@ -19891,6 +20793,23 @@
    "tweak",
    "ios",
    "productivity"
+  ]
+ },
+ "com.mileways.app": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Track live flights on iOS with Mileways, a real-time flight companion.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "04990332c14c19dc09b1748370912e46c48dea3b60b76d6e6d5e06892f59cb19",
+  "subtitle": "Real-time flight tracking companion",
+  "tags": [
+   "flight",
+   "tracking",
+   "live",
+   "ios",
+   "real-time",
+   "companion"
   ]
  },
  "com.mind.quiz.brain.out": {
@@ -19943,6 +20862,29 @@
    "education",
    "practice",
    "fluency"
+  ]
+ },
+ "com.mindspace.offline": {
+  "category": "lifestyle",
+  "date": "2026-10-30",
+  "description": "MindSpace is a private meditation app that works without an account. It streams audio from a private GitHub repository, lets you selectively download sessions, plays them offline, tracks progress, sends reminders, and supports portable backups.",
+  "features": [
+   "Private",
+   "No Account",
+   "Offline Playback",
+   "Reminders",
+   "Portable Backups"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d9def4838b96976c244df547b44588e47b686316aa8efb8070b98fdbf13538d1",
+  "subtitle": "Private meditation, no account needed",
+  "tags": [
+   "meditation",
+   "private",
+   "offline",
+   "github",
+   "backup",
+   "reminders"
   ]
  },
  "com.mineek.dirtycow": {
@@ -20060,6 +21002,23 @@
    "strategy",
    "game",
    "bounce"
+  ]
+ },
+ "com.minilegionen.ios": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Mini Legion: Warband is a real-time strategy and battle game designed for iPhone. Players command warbands in tactical combat scenarios.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7ede9218fd8d9abdd1e21c8fb0ba2f921101f106a8144aa0355a9b0e130b79fd",
+  "subtitle": "Real-time strategy battle game for iPhone",
+  "tags": [
+   "strategy",
+   "battle",
+   "real-time",
+   "warband",
+   "rts",
+   "iphone"
   ]
  },
  "com.minogames.cats.beta": {
@@ -20224,6 +21183,23 @@
    "football"
   ]
  },
+ "com.mobirix.mbbi": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Blade Idle is a simple iOS game where you collect and upgrade a variety of powerful blades. The goal is to progress by enhancing your collection.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b9800a68b9a2fb09fcbf93cb8031d15226f6b75c4e703abb4c0dfad82bb5b5f3",
+  "subtitle": "Collect and upgrade powerful blades",
+  "tags": [
+   "blade",
+   "idle",
+   "collect",
+   "upgrade",
+   "game",
+   "ios"
+  ]
+ },
  "com.mobirix.mbpdh": {
   "category": "games",
   "date": "2026-10-20",
@@ -20308,6 +21284,76 @@
    "flutter",
    "webm",
    "utilities"
+  ]
+ },
+ "com.mojang.minecraft-edu": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Minecraft Education Beta version 1.21.90.1, distributed via TestFlight. This is a beta release of Minecraft Education Edition, decrypted by MCPreview.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7aa46fbc8b21c03180b02536da32776609dd008ddc1cb28269b61524acd02793",
+  "subtitle": "Minecraft Education Beta v1.21.90.1",
+  "tags": [
+   "minecraft",
+   "education",
+   "beta",
+   "testflight",
+   "mcpreview",
+   "decrypted"
+  ]
+ },
+ "com.mojang.minecraftappletv": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Minecraft: Apple TV Edition was the Bedrock Edition version for tvOS. Announced on October 27, 2016 and released on December 19, 2016 alongside the Fire TV Edition. It launched with the Ender Update and was the last Bedrock release to carry an \"Edition\" subtitle, as it did not receive the Better Together Update. The version was officially discontinued on September 24, 2018 and removed from the Apple App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e05cc14cd02ef610ad4b19c0a10b9bcda92bd957e9d08cc1dd000b0f3bc994c6",
+  "subtitle": "Bedrock Edition for tvOS (discontinued)",
+  "tags": [
+   "minecraft",
+   "apple tv",
+   "bedrock",
+   "discontinued",
+   "tvos",
+   "game"
+  ]
+ },
+ "com.mojang.minecraftpe": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Minecraft game provided by developer @kamohacks. Source indicates a paid version with features list.",
+  "features": [
+   "Paid"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "15af14bcb1f85762569b16f3cf2cf6a596c24b3a6983cdc9dc4937f39a3d394a",
+  "subtitle": "Minecraft by @kamohacks",
+  "tags": [
+   "minecraft",
+   "game",
+   "paid",
+   "kamohacks",
+   "block",
+   "sandbox"
+  ]
+ },
+ "com.mojang.minecraftpreview": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Minecraft Preview (Beta) version 1.26.50 (build 22) is distributed via TestFlight for beta testing. Bundle ID: com.mojang.minecraftpreview. Join the TestFlight at the provided link to test upcoming features.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "86f884defe8b105997a40360dbb683dd8cef8c6ac0fa36b09bc9ceafac6fd826",
+  "subtitle": "Official Minecraft beta testing via TestFlight",
+  "tags": [
+   "minecraft",
+   "preview",
+   "beta",
+   "testflight",
+   "mojang",
+   "game"
   ]
  },
  "com.moodtools.thoughtdiary": {
@@ -21125,6 +22171,23 @@
    "strategy"
   ]
  },
+ "com.nglchina2": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Mi Yu \u2013 anonymous Q&A is an iOS application created for users who want to communicate honestly, ask questions freely, and s",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "63ad92131e34d5bc94ab4aa4e3e96cfbff4f3bba51ee300ee002427ee23bcdb6",
+  "subtitle": "Anonymous Q&A for honest questions",
+  "tags": [
+   "anonymous",
+   "q&a",
+   "questions",
+   "communication",
+   "honest",
+   "ios"
+  ]
+ },
  "com.nguyenvh.holeio": {
   "category": "games",
   "date": "2026-10-27",
@@ -21178,6 +22241,26 @@
    "joystick",
    "sniping",
    "teleport"
+  ]
+ },
+ "com.nibbleapps.MealPrepPro": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "MealPrepPro is a meal planner and recipes app. This version 3.142 tweak unlocks the subscription and is patched.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2b24388056da6f7890366fe8151f57a386876e41e8060543067ea62e211be3c2",
+  "subtitle": "Meal planner with subscription unlocked",
+  "tags": [
+   "meal",
+   "planner",
+   "recipes",
+   "subscription",
+   "unlocked",
+   "patched"
   ]
  },
  "com.niceios.Battery.Battery": {
@@ -21632,6 +22715,23 @@
    "action",
    "mobile",
    "battle"
+  ]
+ },
+ "com.ongram.merge.beach.gossip.mystery": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Merge Beach Gossip & Mystery is a puzzle adventure that combines merging mechanics with a glamorous, mysterious beach setting. Players explore and merge items to progress through the story.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "23076bc8a4baf9faba0369645854ada3a4c84b7ba23bca8be781a72deac7e523",
+  "subtitle": "Merge puzzles on a mysterious beach",
+  "tags": [
+   "merge",
+   "beach",
+   "puzzle",
+   "adventure",
+   "gossip",
+   "mystery"
   ]
  },
  "com.onicore.backpack.rush": {
@@ -22112,6 +23212,22 @@
    "game"
   ]
  },
+ "com.parksman.LogRide": {
+  "category": "utilities",
+  "date": "2026-10-30",
+  "description": "LogRide is a mobile companion app designed for tracking theme park experiences. Users can log their visits, view park history, and access attraction statistics.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "58bc4fa0795470f2c4f7599de10f3da9209a1a566e9fd0b32435e5512e951b8c",
+  "subtitle": "Track theme park experiences and view attraction stats",
+  "tags": [
+   "theme park",
+   "coaster",
+   "attractions",
+   "tracker",
+   "park history"
+  ]
+ },
  "com.pastel.lifeonfilm": {
   "category": "photo-video",
   "date": "2026-10-29",
@@ -22160,6 +23276,23 @@
    "story",
    "casual",
    "styling"
+  ]
+ },
+ "com.peerplay.megamerge": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Merge Cruise Mystery Puzzle is a puzzle game for iOS that combines mystery, strategy, and creativity.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8a91899f301bf7b86faa2a2e85636488960f1c0a1ece8c0538ddf07b41a02ca8",
+  "subtitle": "Merge mystery puzzle adventure on iOS",
+  "tags": [
+   "merge",
+   "cruise",
+   "mystery",
+   "puzzle",
+   "ios",
+   "game"
   ]
  },
  "com.penguinbit.fastdownload": {
@@ -22646,6 +23779,42 @@
    "maker",
    "design",
    "graphics"
+  ]
+ },
+ "com.pixodust.games.free.rpg.medieval.merge.puzzle.empire": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Medieval Merge IPA MOD iOS provides a captivating and immersive gaming experience. This thrilling game takes you back to a medieval world where you merge items to build and explore.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "815c761be11585d7af4bfbd3a606e98edf1841de0f18e761ac0726d82c6b49cf",
+  "subtitle": "Medieval merge puzzle adventure",
+  "tags": [
+   "medieval",
+   "merge",
+   "puzzle",
+   "mod",
+   "ios",
+   "game"
+  ]
+ },
+ "com.pixodust.games.merge.survive.puzzle.game": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Merge 2 Survive is a zombie-themed merge game where you combine items to survive. It requires strategic thinking and quick reflexes.",
+  "features": [
+   "MOD"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5bcde12cbd2e98ff92b51856ab8231bedb29cdc10ec118e95004625d30d0621c",
+  "subtitle": "Zombie merge survival game",
+  "tags": [
+   "zombie",
+   "merge",
+   "survival",
+   "strategy",
+   "mobile",
+   "game"
   ]
  },
  "com.planblabs.drops.italian": {
@@ -23822,6 +24991,29 @@
    "retro"
   ]
  },
+ "com.rebelancap.lighthouse": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Play the full Banjo-Kazooie adventure on your iPhone and Apple Vision Pro with the Lighthouse enhancements menu, the randomizer, online co-op, game controllers, and a tunable touch layout. On Vision Pro, enjoy a stereoscopic 3D mode that puts Spiral Mountain on a world-locked panel floating in your room with real depth, or in a freely resizable window rendering at true 4K. Built on Lighthouse and libultraship, rendering natively on Metal with no translation layer.",
+  "features": [
+   "Online Co-op",
+   "Randomizer",
+   "Game Controllers",
+   "Stereoscopic 3D Mode",
+   "Enhancements Menu"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "676704c6d72dd67caa546fe0de2017e961f5dbfbcfc8bfa3bb915ce4d5e14a36",
+  "subtitle": "Play Banjo-Kazooie on iPhone and Apple Vision Pro",
+  "tags": [
+   "banjo-kazooie",
+   "lighthouse",
+   "vision pro",
+   "nintendo 64",
+   "port",
+   "gaming"
+  ]
+ },
  "com.redfalcon.basketballgoat.ios": {
   "category": "games",
   "date": "2026-10-15",
@@ -24836,6 +26028,23 @@
    "survival",
    "ios",
    "game"
+  ]
+ },
+ "com.sandboxgame.mtdzsaga": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "A mythical RPG adventure where players enter a fantastical world where dragons and heroes fight side by side.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d6b7025852f89b8a14cff69a31554e0a056e4cc1c5c9ef11f6eede5a699e04c0",
+  "subtitle": "Mythical RPG adventure with dragons and heroes",
+  "tags": [
+   "rpg",
+   "dragons",
+   "heroes",
+   "mythical",
+   "adventure",
+   "fantasy"
   ]
  },
  "com.sandsoft.fingerwarriors": {
@@ -26375,6 +27584,23 @@
    "game"
   ]
  },
+ "com.starfish.mergevia.tile.match.ios": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Merge Tile is a puzzle game where players match and merge tiles. The game blends addictive tile-matching mechanics with merging gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b380807e73b2d624a922aa6d742972dea9109c60db31a7ff5357631a5c3ba94b",
+  "subtitle": "Tile-matching merge puzzle game",
+  "tags": [
+   "puzzle",
+   "merge",
+   "tile",
+   "matching",
+   "game",
+   "casual"
+  ]
+ },
  "com.stebtech.lingora": {
   "category": "other",
   "date": "2026-10-29",
@@ -26444,6 +27670,23 @@
    "video editing",
    "creator",
    "film"
+  ]
+ },
+ "com.stickyhands.mergecats": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Merge Cats: Catopia Puzzle is an iOS puzzle game that combines charming visuals with merge gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "971030914d4ea6047a2de735b7dd87860f87c682d64922995485a6717104f05b",
+  "subtitle": "Merge cats to build Catopia world",
+  "tags": [
+   "merge",
+   "cats",
+   "puzzle",
+   "catopia",
+   "ios",
+   "game"
   ]
  },
  "com.stonehollow-workshop.Eterspire": {
@@ -26523,6 +27766,40 @@
    "developer"
   ]
  },
+ "com.stossy11.MeloCafe": {
+  "category": "utilities",
+  "date": "2026-10-30",
+  "description": "MeloCaf\u00e9 is a Cemu-based Wii U emulator that runs most Wii U games and homebrew applications.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5d6fee7f4069afafa8191f0f0d275893da51a17238e63a5e4c4f0d9c4e995b91",
+  "subtitle": "Wii U emulator based on Cemu",
+  "tags": [
+   "wii u",
+   "emulator",
+   "cemu",
+   "homebrew",
+   "games",
+   "emulation"
+  ]
+ },
+ "com.stossy11.MeloNX": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "MeloNX is a Nintendo Switch emulator developed by Layla S. The project does not support piracy and forbids requests for copyrighted content. It is designed to run Switch games on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "106e5439e6943973aa769629329aaa2a5b4290c9c2003c7f270ebc36af0ab121",
+  "subtitle": "Nintendo Switch emulator for iOS",
+  "tags": [
+   "emulator",
+   "switch",
+   "nintendo",
+   "gaming",
+   "ios",
+   "homebrew"
+  ]
+ },
  "com.straight-tamago.DockTransparent": {
   "category": "other",
   "date": "2026-10-20",
@@ -26569,6 +27846,23 @@
    "macdirtycow",
    "tweaks",
    "developer"
+  ]
+ },
+ "com.straight-tamago.mikotoX": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "TrollRestore provides numerous customization features for iOS and iPadOS devices, letting users tweak the system for a more personalized experience. It supports iOS/iPadOS versions 16.0 through 18.0 RC and 18.1 beta 3. The tool carries a high risk of bootlooping; users are advised to back up their device before use.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3510066e329fa7a68b436dd96eefe8edc022c8c50e535624de2db48057615931",
+  "subtitle": "Customize iOS 16\u201118 with TrollRestore",
+  "tags": [
+   "customization",
+   "ios",
+   "trollrestore",
+   "system tweak",
+   "bootloop risk",
+   "backup"
   ]
  },
  "com.stratospheregames.dawnofages": {
@@ -26671,6 +27965,23 @@
    "stream",
    "video",
    "ios"
+  ]
+ },
+ "com.superbox.ios.merge": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Merge Village is a merge-style puzzle adventure game for iOS. Players combine items to progress through village-building gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3514479598330ad9c4386544cdb1731106ed7b2189ab23049003d5f6ad20d168",
+  "subtitle": "Merge puzzle adventure game",
+  "tags": [
+   "merge",
+   "puzzle",
+   "village",
+   "game",
+   "ios",
+   "adventure"
   ]
  },
  "com.supercell.magic": {
@@ -27012,6 +28323,23 @@
    "port",
    "game",
    "clock"
+  ]
+ },
+ "com.techguy.megagames": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "MegaGames is a collection of fun and addictive mini-games offering fast-paced action and creative gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8fda179019c7a80ea9c3358379a3a99ca24ee203d1d04d4241dabcd9866d436d",
+  "subtitle": "Collection of fun mini-games",
+  "tags": [
+   "minigames",
+   "action",
+   "creativity",
+   "collection",
+   "fun",
+   "addictive"
   ]
  },
  "com.telltalegames.BAT100": {
@@ -27522,6 +28850,23 @@
    "suite"
   ]
  },
+ "com.touch2goal.soccer": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Mini Soccer Star 2026 brings the thrill of professional football to iPhone, letting you build your legacy on the pitch.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "987a6c4fdb1a67c0c93aa1d232067b84476a48427c1dcdefd082722013df2ac6",
+  "subtitle": "Build your football legacy on iPhone",
+  "tags": [
+   "soccer",
+   "football",
+   "iphone",
+   "2026",
+   "sports",
+   "game"
+  ]
+ },
  "com.towardsmars.dungeoncrusher.v2": {
   "category": "other",
   "date": "2026-10-20",
@@ -27648,6 +28993,61 @@
    "idle",
    "simulation",
    "tycoon"
+  ]
+ },
+ "com.tripleglazedstudios.Weather": {
+  "category": "lifestyle",
+  "date": "2026-10-30",
+  "description": "Mercury is a lifestyle app described as injected with premium features.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dca969c2a705b0c5d050a315e0293f9501ffb7801e49112f50182435a775215e",
+  "subtitle": "Premium features unlocked",
+  "tags": [
+   "lifestyle",
+   "premium",
+   "mercury"
+  ]
+ },
+ "com.tsepigames.minikitchen": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Mini Kitchen Chef is a cooking game where players manage a kitchen. This modified version provides unlimited cash, unlimited plates, unlimited stars, and prevents burning of dishes.",
+  "features": [
+   "Unlimited Cash",
+   "Unlimited Plates",
+   "Unlimited Stars",
+   "No Burning"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1bcab4a17b4056614645dd7ab5cfffae47865bfdf97b5a7b6bf2911ac66aa399",
+  "subtitle": "Cooking game with unlimited resources",
+  "tags": [
+   "cooking",
+   "game",
+   "mod",
+   "unlimited",
+   "chef",
+   "kitchen"
+  ]
+ },
+ "com.twitchyfinger.itunes.minilegend": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Mini Legend is a 4WD racing simulation game for iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c32eef64686396aece707b5697530ef55cad426981b4152120579726f24d83ce",
+  "subtitle": "4WD Racing Simulator",
+  "tags": [
+   "racing",
+   "simulation",
+   "4wd",
+   "offroad",
+   "ios",
+   "game"
   ]
  },
  "com.twopence.vd.dicearmypvp.ios": {
@@ -27788,6 +29188,23 @@
    "family management",
    "storytelling",
    "game"
+  ]
+ },
+ "com.uken.mattel.match": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Mattel Match is a vibrant match-style puzzle game inspired by Mattel's creations.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2601e9e8932add9a089d79b2846e0918733c8891bf3a94fa0b0144d44b094cce",
+  "subtitle": "Match-style puzzle game from Mattel",
+  "tags": [
+   "mattel",
+   "match",
+   "puzzle",
+   "game",
+   "matching",
+   "casual"
   ]
  },
  "com.ulisesolave.Fitia": {
@@ -27950,6 +29367,22 @@
    "puzzle",
    "games",
    "ipa"
+  ]
+ },
+ "com.unicostudio.minerfighters": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Miner Fighters is an iOS strategy game that combines mining mechanics with idle progression gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "570b4bf0810c9e5a95eb8dd905281083d05d727e9212de35257deb35bb0d12a2",
+  "subtitle": "Strategy mining game with idle progression",
+  "tags": [
+   "strategy",
+   "mining",
+   "idle",
+   "game",
+   "ios"
   ]
  },
  "com.unimob.idle.army": {
@@ -30474,6 +31907,75 @@
    "app"
   ]
  },
+ "com.unknown.mcqueenhighwayracing": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Mcqueen Highway Racing is an endless racing game where you drive against traffic on realistic highways. Control your car through dense traffic at high speeds in a detailed 3D environment. The game focuses on reflex-based gameplay as you weave between vehicles to survive as long as possible.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "57bb0381c9c402c15ba274edafee78d02ad6057a0bcaff2a18b73e651d1a3bc6",
+  "subtitle": "Endless highway racing against traffic",
+  "tags": [
+   "racing",
+   "endless",
+   "highway",
+   "traffic",
+   "3d",
+   "arcade"
+  ]
+ },
+ "com.unknown.mediacenter": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "MediaCenter is a media management application with premium features currently active. The app provides media playback and organization capabilities.",
+  "features": [
+   "Premium Active"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3754bd9b2288881a2d8939cbe084e6f5c7dfdad0dfdb1eca331feaa3b9678fb2",
+  "subtitle": "Media center with premium features active",
+  "tags": [
+   "media",
+   "center",
+   "premium",
+   "player",
+   "video",
+   "audio"
+  ]
+ },
+ "com.unknown.memrise": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Memrise is a language learning application that helps users learn new languages.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bbef1921d8914d0b7d139ecad63a13a7fb6f10beee609dc76562ab7285778145",
+  "subtitle": "Language learning app",
+  "tags": [
+   "language",
+   "learning",
+   "memrise",
+   "app",
+   "education"
+  ]
+ },
+ "com.unknown.merlmovie": {
+  "category": "entertainment",
+  "date": "2026-10-30",
+  "description": "Merl Movie lets you watch live TV channel broadcasts. Developed by Karbin-Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "aecdfcc2a45311d10b6bdc4dbcde7196dff0b3118752b596d57d8a3e8e7aa2d4",
+  "subtitle": "Watch TV channels and movies",
+  "tags": [
+   "tv",
+   "channels",
+   "streaming",
+   "movie",
+   "watch",
+   "live"
+  ]
+ },
  "com.unofficial.balatro": {
   "category": "games",
   "date": "2026-10-15",
@@ -30703,6 +32205,23 @@
    "tweaked"
   ]
  },
+ "com.verycoolapp.mediaconvert": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "MediaConvert is an app with subscription unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6499b7af04f45b0a338d28a7d55b711ff095b8cb8f17fb977759553057e43943",
+  "subtitle": "MediaConvert \u2013 Subscription Unlocked",
+  "tags": [
+   "media",
+   "convert",
+   "subscription",
+   "unlocked"
+  ]
+ },
  "com.vgfit.fitnessvip": {
   "category": "other",
   "date": "2026-10-21",
@@ -30755,6 +32274,25 @@
    "ios"
   ]
  },
+ "com.vitalii.mind": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "This version has the subscription unlocked.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "14ca0d97a268346cfe49b0d1ee24998c13e47040e95e314088c565c2ef7b2f3c",
+  "subtitle": "Subscription unlocked version",
+  "tags": [
+   "mindllama",
+   "subscription",
+   "unlocked",
+   "modified",
+   "ipa",
+   "app"
+  ]
+ },
  "com.vladk.pipemasters": {
   "category": "games",
   "date": "2026-10-24",
@@ -30790,6 +32328,26 @@
    "voice",
    "face",
    "ai",
+   "utilities"
+  ]
+ },
+ "com.vpnbottle.melon.unblock.fast.vpn": {
+  "category": "utilities",
+  "date": "2026-10-30",
+  "description": "This IPA includes an in\u2011app purchase hack (press buy then cancel). It has been tested and compiled by the TTJB Team.",
+  "features": [
+   "In\u2011app purchase hack",
+   "Tested by TTJB Team"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "50af8f6e1688b7efc2093e5258a49b542a183a761786ed9891c28fa4145110cf",
+  "subtitle": "VPN with in\u2011app purchase hack",
+  "tags": [
+   "vpn",
+   "ipa",
+   "hack",
+   "purchase",
+   "ttjb",
    "utilities"
   ]
  },
@@ -31284,6 +32842,25 @@
    "coins",
    "keys",
    "tweak"
+  ]
+ },
+ "com.xiaoyixiang.prometronome": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Pro Metronome - Tempo & Tuner version 4.3.5, subscription unlocked tweak provided by riftysIPAlibrary.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0ff9124c8e3f7e5ded8b2bb353fd8af6b10e1c2e391c3eb1f7a9475fc2eb7a25",
+  "subtitle": "Pro Metronome with Tempo & Tuner",
+  "tags": [
+   "metronome",
+   "tempo",
+   "tuner",
+   "subscription",
+   "unlocked",
+   "ios"
   ]
  },
  "com.xitrix.iTorrent": {
@@ -32874,6 +34451,22 @@
    "tools"
   ]
  },
+ "cypwn.McClockface.1.5.1.1.5.1": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "McClockface adds beautiful timepiece widgets to your home screen.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e229ded6fa9103f36fd91d9df11e4c0a6a9ca33cc0cc683a0d8ba564012d9632",
+  "subtitle": "Add timepiece widgets to home screen",
+  "tags": [
+   "widgets",
+   "timepiece",
+   "home screen",
+   "clock",
+   "customization"
+  ]
+ },
  "cypwn.cl1m4x.1.3": {
   "category": "other",
   "date": "2026-10-18",
@@ -33085,6 +34678,23 @@
    "tracker",
    "fitness",
    "ride"
+  ]
+ },
+ "design.jli.minipaper": {
+  "category": "photo-video",
+  "date": "2026-10-30",
+  "description": "Minipaper is a wallpaper maker app. It requires iOS 18.6 or later. The current version is 5.4.0. Available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8c55f2d5b11a075000d144717216bf2e6d37a479f2034719271d3cdded4f8232",
+  "subtitle": "Wallpaper Maker for iOS",
+  "tags": [
+   "wallpaper",
+   "maker",
+   "ios",
+   "app",
+   "version",
+   "5.4.0"
   ]
  },
  "design.vek.colorGearX": {
@@ -33431,6 +35041,23 @@
    "design",
    "management",
    "game"
+  ]
+ },
+ "diniska.MeshGradient": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Mesh Gradients Ultimate IPA is the iOS installable version of a creative graphics design application.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f5d051a740bbcd279db87481be573be55de74840fc56d5f89277726d9b91ab6d",
+  "subtitle": "Mesh Gradient design tool for iOS",
+  "tags": [
+   "mesh gradient",
+   "graphics design",
+   "ipa",
+   "ios",
+   "creative",
+   "application"
   ]
  },
  "dk.tactile.lilysgarden": {
@@ -34326,6 +35953,41 @@
    "currency"
   ]
  },
+ "io.anuke.mindustry": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Mindustry is a strategy game with tower defense elements. Players build defensive structures and manage resources. It is a paid application available on the App Store. Version 7.146.0.",
+  "features": [
+   "Paid"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7ef6594e9ec14bcf40e7bd5907b10576390b71807c9f8f0cf84ec0c89904a1d7",
+  "subtitle": "Strategy tower defense game with resource management",
+  "tags": [
+   "strategy",
+   "tower defense",
+   "resource management",
+   "game",
+   "paid"
+  ]
+ },
+ "io.anuke.mindustry.be": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Mindustry is a factory-building game with tower defense and RTS elements. Create elaborate supply chains to feed ammo into your turrets, produce mater",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c26c8495111c433313b05e37cc393e3ec5f7760e5f13a457a23262137f7e75c4",
+  "subtitle": "Factory-building tower defense RTS",
+  "tags": [
+   "factory",
+   "tower",
+   "defense",
+   "rts",
+   "strategy",
+   "building"
+  ]
+ },
  "io.blocktackle.bcg": {
   "category": "games",
   "date": "2026-10-15",
@@ -34463,6 +36125,29 @@
    "developer",
    "metal",
    "vt"
+  ]
+ },
+ "io.github.nikitasud.latentjam.kmp": {
+  "category": "entertainment",
+  "date": "2026-10-30",
+  "description": "Pick a song in LatentJam and its smart shuffle queues up other tracks from your library that sound similar. For You brings back records you own and forgot. Edit your tags, follow synced lyrics, and view your library as a map. The models that listen to your music run on the phone itself, so nothing about your listening ever leaves your device. The app requires no account, contains no analytics, and shows no ads.",
+  "features": [
+   "No Ads",
+   "No Account",
+   "No Analytics",
+   "Synced Lyrics",
+   "On-device models"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "06ca9a821a5a392cc842dee3a273d7797d9991b3c50943a4fe82da2951421d14",
+  "subtitle": "Smart local music player with on-device AI shuffle",
+  "tags": [
+   "music",
+   "player",
+   "shuffle",
+   "lyrics",
+   "audio",
+   "local"
   ]
  },
  "io.github.normalllll.freepiv": {
@@ -35022,6 +36707,23 @@
    "cheat"
   ]
  },
+ "jp.co.bandainamcoent.BNEI0379": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "MY HERO ULTRA IMPACT IPA iOS an exhilarating mobile game that has taken the iOS gaming community by storm. As an avid fan of the popular",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a65d595f3f9178b47353de0c2b3580fa8cba08762313670a3618affe47fc88fd",
+  "subtitle": "MY HERO ULTRA IMPACT iOS game",
+  "tags": [
+   "myhero",
+   "ultraimpact",
+   "ios",
+   "mobile",
+   "anime",
+   "action"
+  ]
+ },
  "jp.co.bandainamcoent.BNEI0405": {
   "category": "games",
   "date": "2026-10-25",
@@ -35055,6 +36757,23 @@
    "mobile"
   ]
  },
+ "jp.co.capcom.mhpuzzle": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Introduction to Monster Hunter Puzzles. If you enjoy monster-collecting adventures and love the challenge of puzzle-solving, Monster Hunt",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5670274445422abbbe78979b016f940977d55d1daf0fa1f98745233950291c1c",
+  "subtitle": "Monster Hunter puzzle adventure",
+  "tags": [
+   "monster",
+   "hunter",
+   "puzzle",
+   "adventure",
+   "collecting",
+   "challenge"
+  ]
+ },
  "jp.co.gcgames.bc": {
   "category": "games",
   "date": "2026-10-15",
@@ -35072,6 +36791,23 @@
    "ipa",
    "mod",
    "game"
+  ]
+ },
+ "jp.co.imagineer.medarotsurvivors": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Medabots Survivors \u2013 A Strategic Battle Adventure for iOS. Medabots Survivors takes fans of tactical combat and robot customization on a",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3aaa66a3ada090b15f828d4c43416f9dd254396fa4a8c451d046dde1e51eff86",
+  "subtitle": "Strategic robot battle adventure",
+  "tags": [
+   "medabots",
+   "survivors",
+   "strategy",
+   "battle",
+   "robot",
+   "customization"
   ]
  },
  "jp.dcsyhi.CarMovie": {
@@ -35442,6 +37178,23 @@
    "iphone"
   ]
  },
+ "leyi.martianwarfront": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Mecha Fire is a dynamic action shooter on iOS that places players in control of heavily armed mechanical warr.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d473237327f4755c52eec3d0bb729b1ef4f140727e521b51d02299ce415fec72",
+  "subtitle": "Dynamic action shooter with mechs",
+  "tags": [
+   "mecha",
+   "fire",
+   "action",
+   "shooter",
+   "ios",
+   "mechanical"
+  ]
+ },
  "leyi.westgamepro": {
   "category": "games",
   "date": "2026-10-18",
@@ -35619,6 +37372,23 @@
    "music",
    "beat",
    "premium"
+  ]
+ },
+ "matching.story": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Prepare to embark on a thrilling journey where storytelling and gameplay seamlessly intertwine. Matching Story IPA is",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f1622c166b6ee473412293c285f00217290a4e92279885bd2221116150ab2994",
+  "subtitle": "Thrilling journey blending story and gameplay",
+  "tags": [
+   "matching",
+   "story",
+   "thrilling",
+   "journey",
+   "storytelling",
+   "gameplay"
   ]
  },
  "me.cranci.AnimeGen": {
@@ -35890,6 +37660,23 @@
    "utilities"
   ]
  },
+ "mech.fortress.tower.defense.hero.war": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Mecha Fortress: Robot War TD delivers a futuristic tower defense experience where advanced robots battle across strategic maps. Build and upgrade defensive towers to withstand waves of mechanical enemies in a sci-fi setting.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0f39012925b2d6e4c5a65866b04ddb2a44af4e50f09f46e1b704d5b95f07d423",
+  "subtitle": "Futuristic tower defense with advanced robots",
+  "tags": [
+   "tower defense",
+   "robot",
+   "strategy",
+   "sci-fi",
+   "mecha",
+   "war"
+  ]
+ },
  "media.conduit.mobile": {
   "category": "entertainment",
   "date": "2026-10-20",
@@ -35943,25 +37730,25 @@
  },
  "moe.itoapp.ito": {
   "category": "entertainment",
-  "date": "2026-10-28",
-  "description": "Ito is a free, open-source client for iPhone and iPad. It combines dedicated readers, native video playback, AniList, MyAnimeList and MangaBaka tracking, and an extensible WebAssembly plugin system in a single app. Keep different media types together in one library. Enjoy dedicated manga and novel readers designed for iOS. Vertical and Webtoon reading preserves page position as images load and chapters enter or leave the loaded window. Failed page images wait for Try Again, rather than retrying whenever they return on screen. A source can mark single chapters as text, so a series can mix page volumes with novel volumes. Known locked chapters stop Start and Resume and adjacent navigation.",
+  "date": "2026-10-30",
+  "description": "Ito is an entertainment app featuring native manga and novel readers, along with video playback. It combines your reading and viewing into one library equipped with local history and backup capabilities. Discover new titles and track your progress through integrations with AniList, MyAnimeList, or MangaBaka. The app supports extensible source plugins complete with search functionality and source settings for customization. Built natively for iOS and iPadOS.",
   "features": [
-   "Open-source",
-   "Anime tracking",
-   "Manga tracking",
-   "Native reading",
-   "WebAssembly plugins"
+   "Native manga reader",
+   "Novel reader",
+   "Video playback",
+   "AniList tracking",
+   "Source plugins"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "b9e8856274c8e6cb94f3a63dbac8692ed2b42aa008864d5b34153815dffd9c0d",
-  "subtitle": "Open-source client for anime, manga and novels",
+  "src_hash": "461f03e8f82581a2dbbc119729dcc843ca51c6dced413c512c785534c8be4065",
+  "subtitle": "Manga, novel and video reader",
   "tags": [
-   "anime",
    "manga",
-   "novels",
-   "tracking",
+   "novel",
    "reader",
-   "client"
+   "anime",
+   "video",
+   "library"
   ]
  },
  "myndarc.newFitnessApp": {
@@ -36631,6 +38418,22 @@
    "signing"
   ]
  },
+ "nz.co.codepoint.minimetro": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Mini Metro is an IPA file verified and compiled by TTJB Team.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9217569afbafe75f72a91f5d84ee5eeabf422173e383750fc182b527309be88c",
+  "subtitle": "Mini Metro by TTJB IPA Repo",
+  "tags": [
+   "mini metro",
+   "ipa",
+   "ttjb",
+   "verified",
+   "compiled"
+  ]
+ },
  "nz.owo.DYDL": {
   "category": "other",
   "date": "2026-10-20",
@@ -36905,19 +38708,25 @@
  },
  "org.floeagent.ios": {
   "category": "developer",
-  "date": "2026-10-27",
-  "description": "Send cloud model requests directly to your chosen provider or run supported local models on your device. Credentials are stored securely on your device, while files, uploads, and remote actions follow task permissions. Consequential actions are confirmed according to the current policy. The app supports chat, Office, files, terminal, and IDE workflows, with features continuing to expand.",
-  "features": [],
+  "date": "2026-10-30",
+  "description": "Get started with an iOS setup guide offering four recommendations to prefill choices for models, search, voice and workspaces while keeping every section editable. Continue setup while voice packs, models or environments download and check progress later. Apple Intelligence is off by default for new users. Cloud model requests go directly to your chosen provider while supported local models run inference on the device. Credentials stay in protected storage on your device. Files, uploads and remote actions follow task permissions and consequential actions are confirmed under the current policy.",
+  "features": [
+   "Editable setup guide",
+   "Local and cloud models",
+   "Protected credentials",
+   "Task permissions",
+   "Background downloads"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "a9ddf4c8968602f26ef0a857a24c77b3564447beb3476cadd8ca3e6a37a7c41c",
-  "subtitle": "AI agent for cloud and local models",
+  "src_hash": "b86ae0f65c3e3ddb812592aff76e04f482b34d34ccbc48ac4e50465e383742d7",
+  "subtitle": "Setup guide and configuration for models and workflows",
   "tags": [
-   "ai",
    "agent",
-   "cloud",
-   "local",
-   "terminal",
-   "ide"
+   "models",
+   "setup",
+   "workflow",
+   "developer",
+   "ai"
   ]
  },
  "org.getlantern.lantern": {
@@ -37036,6 +38845,28 @@
    "premium",
    "app",
    "utilities"
+  ]
+ },
+ "org.localsend.localsendApp": {
+  "category": "utilities",
+  "date": "2026-10-30",
+  "description": "LocalSend is a free and open-source application for sending files to nearby devices. Transfers occur cross-platform over a local Wi-Fi network without requiring external servers.",
+  "features": [
+   "Free",
+   "Open Source",
+   "Cross-Platform",
+   "No External Servers"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "3825e955a535ef0142efbcb4f79aa44a6bd53ecff569fe9dbe79af1d5c6e3344",
+  "subtitle": "Share files with nearby devices over Wi-Fi",
+  "tags": [
+   "file transfer",
+   "local share",
+   "wifi sharing",
+   "open source",
+   "cross platform",
+   "localsend"
   ]
  },
  "org.localsend.localsendApp1154": {
@@ -37184,6 +39015,27 @@
    "entertainment"
   ]
  },
+ "org.zhaohe.MiniWatts": {
+  "category": "utilities",
+  "date": "2026-10-30",
+  "description": "MiniWatts is an iPhone and iPad battery and charging monitor built on Apple's private APIs. It reads the device's own power-management data to display detailed battery and charging information. Supports English and Simplified Chinese.",
+  "features": [
+   "Private API access",
+   "Detailed power data",
+   "English and Chinese"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2dc7e6b523797e0cb55cd4ff78c6c8f0a972a61d26445f7aa6fd693971845f49",
+  "subtitle": "Battery and charging monitor using private APIs",
+  "tags": [
+   "battery",
+   "charging",
+   "monitor",
+   "power",
+   "ios",
+   "ipad"
+  ]
+ },
  "overlook.fing": {
   "category": "utilities",
   "date": "2026-10-24",
@@ -37319,6 +39171,23 @@
    "text",
    "documents",
    "premium"
+  ]
+ },
+ "puzzle.merge.camp.high": {
+  "category": "games",
+  "date": "2026-10-30",
+  "description": "Merge Camp \u2013 Cute Animal Fun is the iOS installation package of a charming merge puzzle game featuring cute animals.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a2875611ffc3d3c7fc721907c5b41f31ea1ef13b53dcc53817f069dddd3e19d6",
+  "subtitle": "Merge cute animals in puzzle game",
+  "tags": [
+   "merge",
+   "puzzle",
+   "animals",
+   "cute",
+   "ios",
+   "game"
   ]
  },
  "qr.code.reader.cs": {
@@ -37884,6 +39753,41 @@
    "editor"
   ]
  },
+ "tech.miidii.MDClock": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Injected with Pro.",
+  "features": [
+   "Pro Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4fe44b4ccfd7be2625f1c005f5b3bead4c25122bb0d38f2620e3494bcbac459d",
+  "subtitle": "MDClock \u2013 Injected with Pro",
+  "tags": [
+   "mdclock",
+   "clock",
+   "pro",
+   "injected",
+   "apptesters",
+   "ipa"
+  ]
+ },
+ "tech.miidii.MDVinyl": {
+  "category": "entertainment",
+  "date": "2026-10-30",
+  "description": "MD Vinyl is a widget that displays a vinyl record animation for the currently playing track in supported music apps on iOS 16.4 and later. Version 3.7.4.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6bdb79155de2e20fe93888da3049c89cae32306f0268387817860915f628dc6c",
+  "subtitle": "Vinyl\u2011style widget for music apps",
+  "tags": [
+   "music",
+   "vinyl",
+   "widget",
+   "ios",
+   "app"
+  ]
+ },
  "thebaselab.VS-Code": {
   "category": "developer",
   "date": "2026-10-18",
@@ -37937,6 +39841,23 @@
    "generator",
    "branding",
    "design"
+  ]
+ },
+ "tiptip.mb.bank": {
+  "category": "utilities",
+  "date": "2026-10-30",
+  "description": "MBill simulates MBBank balance change notifications. The app creates fake transaction alerts that appear like real bank notifications from MBBank, a Vietnamese financial institution.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a7ed9b75a6cba9ee8b29c9aa1d73435b774b2829fe56067c01c6fe297f7793a3",
+  "subtitle": "Fake MBBank balance notifications",
+  "tags": [
+   "fake",
+   "notification",
+   "mbbank",
+   "balance",
+   "prank",
+   "vietnam"
   ]
  },
  "tk.apollov.CBNfreeIAP": {
@@ -38132,6 +40053,25 @@
    "ttjb",
    "tested",
    "compiled"
+  ]
+ },
+ "ventures.slam.minutes": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Modified version of Minutes with Pro features injected. This build includes premium functionality unlocked without requiring a subscription.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "64cf5857ebc751f9ae5fd3b0c710bbe2991891371e944962bc293fa7fe7ccdd0",
+  "subtitle": "Pro features injected version",
+  "tags": [
+   "minutes",
+   "pro",
+   "unlocked",
+   "modified",
+   "ipa",
+   "productivity"
   ]
  },
  "video.like": {
@@ -38475,6 +40415,25 @@
    "reader",
    "nsfw",
    "comics"
+  ]
+ },
+ "zombie.survival.craft.z": {
+  "category": "other",
+  "date": "2026-10-30",
+  "description": "Last Day On Earth Survival with hack features. Buy your own certificate or get an Apple ID with paid content. Developed by kamohacks.",
+  "features": [
+   "Hack Features",
+   "Paid Apple ID support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a8be859ad7451ca6837ff5d2fb0ad9ab4b3a07dd1305528d37d8e366ba34e803",
+  "subtitle": "Last Day On Earth Survival mod app",
+  "tags": [
+   "survival",
+   "hack",
+   "game",
+   "action",
+   "mobile"
   ]
  }
 }
