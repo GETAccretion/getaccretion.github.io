@@ -204,6 +204,23 @@
    "apps"
   ]
  },
+ "FrizzleM.NightFlix": {
+  "category": "entertainment",
+  "date": "2026-10-31",
+  "description": "Nightflix is an entertainment application developed by FrizzleM. New users are directed to a wiki for guidance.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "da9c25727d773ef7ee6bf7c75d0f677479c2558d1d7d1f9010dce44253850774",
+  "subtitle": "Entertainment app with user wiki",
+  "tags": [
+   "entertainment",
+   "streaming",
+   "video",
+   "wiki",
+   "guide",
+   "media"
+  ]
+ },
  "G7YU7X7KRJ.SworIM": {
   "category": "social",
   "date": "2026-10-30",
@@ -862,18 +879,38 @@
    "tracker"
   ]
  },
+ "app.getmoshi.ios": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Moshi with premium features unlocked. This modified version provides access to premium functionality without subscription. Distributed via AppTesters IPA repository.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4b89c9200b9b2bb37f973fc959e89953cd0f4ebcc75b298d469d185fe7adeaed",
+  "subtitle": "Premium unlocked version of Moshi",
+  "tags": [
+   "moshi",
+   "premium",
+   "unlocked",
+   "ipa",
+   "modified",
+   "app"
+  ]
+ },
  "app.gevun.music": {
   "category": "entertainment",
-  "date": "2026-10-25",
-  "description": "Gevun is a music player for your Navidrome library on iPhone and iPad. Browse albums, artists, and songs, or search your library. Listen in original quality with background playback and lock-screen controls. Follow synced lyrics and tap a line to jump to it. Add songs to your queue, play next, and repeat tracks or albums. Read artist biographies and discover similar artists. Switch between multiple Navidrome servers. Enjoy a dark interface with colors drawn from your album artwork.",
+  "date": "2026-10-31",
+  "description": "Gevun is a music player for your Navidrome library on iPhone and iPad. Browse albums, artists, and songs, or search your library. Listen in original quality with background playback and lock-screen controls. Follow synced lyrics and tap a line to jump to it. Add songs to your queue, play next, and repeat tracks or albums. Automatically save your queue and restore it paused, with offline recovery and Navidrome sync. Share listening links for songs and albums when enabled on your server. Read artist biographies and discover similar artists. Switch between multiple Navidrome servers. Enjoy a dark interface with colors drawn from your album artwork.",
   "features": [
-   "Original quality",
    "Synced lyrics",
+   "Background playback",
    "Multiple servers",
-   "Background playback"
+   "Dark interface",
+   "Queue management"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2bd735663870d9d49febd6c8969487d6e7c8fdf4b0d77ec573eccb63f7c9e34a",
+  "src_hash": "a40ba0925af2231f70f1c0501e3eb14e0f1755a2d2db30cccfbec72d03bd8fa3",
   "subtitle": "Music player for your Navidrome library",
   "tags": [
    "music",
@@ -1044,6 +1081,29 @@
    "bookmark manager"
   ]
  },
+ "app.mangatan.mangatan": {
+  "category": "entertainment",
+  "date": "2026-10-31",
+  "description": "Watch anime and YouTube, and read manga and novels in one app. Look up words and save useful sentences without leaving your story. Access local videos, YouTube, manga, EPUBs, web novels, and podcasts. Understand content in context with imported dictionaries, on-device manga OCR, and interactive subtitles. Save sentences with audio and images, and review them using Manatan SRS with account sync or export to Anki. Install the app to get a pre-installed dictionary and start learning while you read or watch.",
+  "features": [
+   "Dictionary Included",
+   "Manga OCR",
+   "Interactive Subtitles",
+   "Anki Export",
+   "Account Sync"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7e473968330ff708efea9dbd5720d5cc2ac46320bc26b1deaec4abb3e8423475",
+  "subtitle": "Watch, read, and learn with built-in dictionaries",
+  "tags": [
+   "anime",
+   "manga",
+   "dictionary",
+   "reader",
+   "player",
+   "learning"
+  ]
+ },
  "app.molinete.aerio": {
   "category": "entertainment",
   "date": "2026-10-19",
@@ -1059,6 +1119,26 @@
    "m3u",
    "player",
    "media"
+  ]
+ },
+ "app.nicegram": {
+  "category": "utilities",
+  "date": "2026-10-31",
+  "description": "Nicegram is a Telegram client that has been modified to unlock premium features. The modification adds a translate button next to messages in chats. To activate the premium features, the user must tap the Assist option.",
+  "features": [
+   "Premium unlocked",
+   "Translate button in chats"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d1d31dda96c73dde863bfffa30e50a6348d6434b2893e97c1496551be9d44eef",
+  "subtitle": "Telegram client with premium features",
+  "tags": [
+   "nicegram",
+   "telegram",
+   "premium",
+   "translate",
+   "chat",
+   "utility"
   ]
  },
  "appcake2.iphonecake.com": {
@@ -1382,22 +1462,23 @@
   ]
  },
  "br.com.marcosatanaka.musicbox": {
-  "category": "other",
-  "date": "2026-10-30",
-  "description": "MusicBox lets you save music for later listening. This tweak version unlocks the subscription features. Version 1.5.6.",
+  "category": "entertainment",
+  "date": "2026-10-31",
+  "description": "MusicBox lets you save music for later. Subscription is unlocked in version 1.7.9. The tweak is patched.",
   "features": [
-   "Subscription Unlocked"
+   "Subscription Unlocked",
+   "Patched"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "453ece04d4eb88fc0f464eb4deb1a24bcf2149b21d46ee34f0f80d17c843e249",
-  "subtitle": "Save music for later with subscription unlocked",
+  "src_hash": "82e22b1e638e267c8ec0e7cd3d2782d2085eea8c3f5f5e53f95862264a13148b",
+  "subtitle": "Save Music for Later",
   "tags": [
    "music",
    "save",
-   "offline",
+   "subscription",
    "unlocked",
-   "tweak",
-   "ipa"
+   "patched",
+   "tweak"
   ]
  },
  "br.com.marcosatanaka.musicwhiz": {
@@ -1467,6 +1548,25 @@
    "monitor",
    "developer",
    "tools"
+  ]
+ },
+ "camera.lux.halide.mkii": {
+  "category": "photo-video",
+  "date": "2026-10-31",
+  "description": "MkIIIPublic is a photo and video application featuring unlocked Pro functionality.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "68ba2b16ca904bedcc2e69f157fd3b182d33af7cb58b09501bd22009aabb98da",
+  "subtitle": "Photo and video application",
+  "tags": [
+   "photo",
+   "video",
+   "media",
+   "editor",
+   "mkiiipublic",
+   "camera"
   ]
  },
  "camera.lux.kino": {
@@ -1772,6 +1872,26 @@
    "pro",
    "ipa",
    "ttjb"
+  ]
+ },
+ "co.appnation.artgenerator": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Pro version added. IPA verified and compiled by TTJB Team.",
+  "features": [
+   "Pro",
+   "Verified IPA"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bbf78837270f3100e7f80bd6160cfde9ea0d5fbe169b328f7da746e0ff48b268",
+  "subtitle": "Pro IPA compiled by TTJB Team",
+  "tags": [
+   "ipa",
+   "pro",
+   "ttjb",
+   "verified",
+   "repo",
+   "ios"
   ]
  },
  "co.appnation.geniechat": {
@@ -2903,6 +3023,22 @@
    "auto"
   ]
  },
+ "com.Matter.MatterApp": {
+  "category": "utilities",
+  "date": "2026-10-31",
+  "description": "App that organizes articles, newsletters, and more in one spot, offering advanced tools like text-to-speech for a better reading experience.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e6e47a552615265db52800ec049ac875aaa0826456628a94c6fd04285b5ff4f0",
+  "subtitle": "Organize articles and newsletters in one spot",
+  "tags": [
+   "articles",
+   "newsletters",
+   "reading",
+   "organizer",
+   "text to speech"
+  ]
+ },
  "com.MelsoftGames.FamilyIsland": {
   "category": "games",
   "date": "2026-10-21",
@@ -2969,6 +3105,23 @@
    "simulation",
    "games",
    "tcg"
+  ]
+ },
+ "com.OsOs.Narin": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Narin: Secrets of Dwarvenia is an immersive narrative-driven RPG for iPhone. It delivers a rich story adventure with role-playing elements, focusing on a deep narrative experience.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f8048638f7429fa3ab04fb2e829abc4ae8ee15fcd98f9ad67aab0acb67f1724d",
+  "subtitle": "Immersive narrative-driven adventure RPG",
+  "tags": [
+   "rpg",
+   "adventure",
+   "narrative",
+   "story",
+   "iphone",
+   "game"
   ]
  },
  "com.PIXELCELLS.AntColony2": {
@@ -3177,6 +3330,20 @@
    "port",
    "game",
    "saves"
+  ]
+ },
+ "com.TDMbest.NEWthrone": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "NEW throne is an iOS application. No additional details about functionality or features are provided in the source information.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2ecdb57941cb35cf596a340c54add298327ffa72ddf6cc9a349fda1680eb9f7e",
+  "subtitle": "NEW throne \u2014 iOS app",
+  "tags": [
+   "new throne",
+   "ios",
+   "app"
   ]
  },
  "com.TDMbest.balls": {
@@ -4478,6 +4645,24 @@
    "chat"
   ]
  },
+ "com.albertomoral.PokedexTradingCards": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Premium version added. IPA tested and compiled by TTJB Team.",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c14c65075c261bd80074115ec24556c708222bf322092a3f9e060d6f6b10c196",
+  "subtitle": "Premium IPA collection",
+  "tags": [
+   "premium",
+   "ipa",
+   "ttjb",
+   "tested",
+   "compiled"
+  ]
+ },
  "com.alevioos.app": {
   "category": "other",
   "date": "2026-10-14",
@@ -4691,19 +4876,19 @@
  },
  "com.altman.moviepilot": {
   "category": "other",
-  "date": "2026-10-30",
-  "description": "A Flutter cross-platform app that connects to the MoviePilot v2 API. It lets you manage subscriptions, search, download, organize media, and perform system maintenance tasks on your phone.",
+  "date": "2026-10-31",
+  "description": "MoviePilotLite is a Flutter cross-platform client that connects to the MoviePilot v2 API. It lets users manage subscriptions, search content, download files, organize media, and perform system maintenance tasks on a mobile device.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4cc47eec3927e6eeafc167fb08fd65f534e55aedd1935230a1af426359ffd3ee",
+  "src_hash": "64e5b37d4d0bb150abdaedbbb13e2ca9cd76adff8a9a44cd35ca39be26553d18",
   "subtitle": "Flutter client for MoviePilot v2 API",
   "tags": [
    "moviepilot",
    "flutter",
    "client",
-   "api",
-   "mobile",
-   "media"
+   "subscription",
+   "search",
+   "download"
   ]
  },
  "com.alyn.resamp.launcher": {
@@ -5065,6 +5250,29 @@
    "encryption",
    "zip",
    "files"
+  ]
+ },
+ "com.aoshuang.manicemu": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Manic EMU is your all-in-one retro gaming emulator supporting Nintendo, Sony, Sega, Atari, Arcade, MS-DOS, and JAVA platforms. Enjoy features such as RetroAchievements with trophies, unlimited manual and 50 auto-save slots, up to 5x speed control, a cheat codes library, retro visual filters, custom skins compatibility, and a screenshot tool. Step into retro adventures with more platforms coming soon.",
+  "features": [
+   "RetroAchievements",
+   "Unlimited Saves",
+   "5x Speed",
+   "Cheat Codes",
+   "Custom Skins"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f5f2a2ebb57948f85bc0ecf1360fc04d4cd760712bf374153ccc97d3cec9fe45",
+  "subtitle": "All-in-one retro gaming emulator for multiple platforms",
+  "tags": [
+   "emulator",
+   "retro",
+   "gaming",
+   "nintendo",
+   "playstation",
+   "sega"
   ]
  },
  "com.ap-dev.bday-reminder": {
@@ -5547,6 +5755,23 @@
    "fantasy",
    "strategy",
    "game"
+  ]
+ },
+ "com.ashutoshbilla.procam": {
+  "category": "photo-video",
+  "date": "2026-10-31",
+  "description": "Modus ProCam is a manual camera app requiring iOS 18.0 or later. Current version is 5.11.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bcc4d2a696b79b1e7f535e72d6793d3f4cfbdd26c4dc8870af4cfd7adb9d4590",
+  "subtitle": "Manual camera app for iOS 18+",
+  "tags": [
+   "manual",
+   "camera",
+   "ios",
+   "photography",
+   "procam",
+   "modus"
   ]
  },
  "com.atebits.Tweetie1": {
@@ -6173,6 +6398,29 @@
    "reference"
   ]
  },
+ "com.bep1s.nfsmwios": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Need for Speed: Most Wanted (2005) Xbox 360 edition recompiled to run natively on iPhone and iPad via the ReXGlue SDK. PowerPC code is translated ahead of time to C++ and built for Apple silicon. Not an emulator. The game's own shaders are translated to Metal for the default native renderer; an emulated Xenos GPU on Vulkan via MoltenVK is available as a fallback. Requires iOS/iPadOS 26 or later; iOS 18 support is experimental and untested. You must provide your own legal copy of the game.",
+  "features": [
+   "Not an emulator",
+   "Native Metal renderer",
+   "Vulkan fallback",
+   "Requires own game copy",
+   "PowerPC to arm64"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "86096e0d3c2cb012f077a672d1a402c81d20503b3c003c70a6a4eaf6d8fe0947",
+  "subtitle": "Xbox 360 version recompiled natively for iOS",
+  "tags": [
+   "need for speed",
+   "most wanted",
+   "racing",
+   "recompiled",
+   "xbox 360",
+   "metal"
+  ]
+ },
  "com.bethsoft.falloutshelter": {
   "category": "games",
   "date": "2026-10-21",
@@ -6398,6 +6646,25 @@
    "game",
    "colorful",
    "sweet"
+  ]
+ },
+ "com.bitsmedia.muslimpro": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "MuslimPro is an app injected with Pro features. Provides prayer times, Quran, and Islamic tools with Pro capabilities unlocked.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0cb7d874657a805168eb056397b4f511af8606057b20cf3f63c4f7d27fbc79cb",
+  "subtitle": "MuslimPro \u2013 Pro features unlocked",
+  "tags": [
+   "muslim",
+   "prayer",
+   "quran",
+   "pro",
+   "ipa",
+   "repo"
   ]
  },
  "com.blacksaltgames.dredge": {
@@ -9034,6 +9301,23 @@
    "ipa"
   ]
  },
+ "com.dddevid.musly": {
+  "category": "entertainment",
+  "date": "2026-10-31",
+  "description": "Musly is a free, modern, and elegant music player and streaming client. Stream your self-hosted mu",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fd59faf8faa2fee189a3870f09c227526eed1ea426058d135ede7090c45fd967",
+  "subtitle": "Universal music streaming player & client",
+  "tags": [
+   "music",
+   "streaming",
+   "player",
+   "client",
+   "self-hosted",
+   "free"
+  ]
+ },
  "com.deadroad.zhighway": {
   "category": "games",
   "date": "2026-10-20",
@@ -9450,6 +9734,93 @@
    "game"
   ]
  },
+ "com.devz.mc360": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "MCX360 Edition is a native iOS port of Minecraft: Xbox 360 Edition Title Update 9, built using the ReXGlue static recompilation SDK. Xbox 360 code is recompiled ahead of time to run natively on iPhone, and graphics run through Vulkan on Metal via MoltenVK. Developer mode may be required on certain iOS versions.\n\nYou must provide your own copy of the game, including data files such as textures, sounds, worlds, and the original default.xex from a disc and title update you own. This project is not affiliated with Mojang, Microsoft, or 4J Studios.",
+  "features": [
+   "Native iOS Port",
+   "Vulkan Graphics via MoltenVK"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b065d2eb1a81a34b90dba41a037a4cc2e6c5186ad84e2a1cb118816a8a7e5ed6",
+  "subtitle": "Minecraft Xbox 360 Edition port for iOS",
+  "tags": [
+   "minecraft",
+   "xbox360",
+   "gaming",
+   "port",
+   "retro"
+  ]
+ },
+ "com.devz.megaman64": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Mega Man 64: Recompiled is an unofficial community port for mobile devices, built with N64ModernRuntime and RT64, and is not affiliated with Capcom. The app includes editable gameplay and menu touch layouts, a movement stick, controller support, ROM import, and persistent saves. Use the edit feature to move buttons or adjust their size, opacity, and colors. Switch between menu and game pads easily. To play, import your ROM using the launcher file picker from the iOS Files app or the shared Documents ROM drop folder.",
+  "features": [
+   "Controller support",
+   "Persistent saves",
+   "Editable touch layouts",
+   "ROM import"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a66c688ab89c612b7baf218227fe9b3e1a8f9be87a5f45d835ad849707153e2c",
+  "subtitle": "Mega Man 64 mobile port with customizable touch controls",
+  "tags": [
+   "mega",
+   "man",
+   "n64",
+   "emulator",
+   "gaming",
+   "retro"
+  ]
+ },
+ "com.devz.nbashowt": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Native iOS and Windows ports of five classic NBA games. Each game runs its original program through an embedded emulator core. The ports share a frontend with touch and controller support, a NewPixie CRT filter, and a customizable touch layout. Users must provide their own game copies; ROMs and disc images are not included.",
+  "features": [
+   "Touch Controls",
+   "Haptic Feedback",
+   "Customizable Layout",
+   "Controller Support",
+   "CRT Filter"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a62286cc167b7857f019271eac8375c4358aae274b5ae5515495fd591042aef1",
+  "subtitle": "Five classic NBA games ported to iOS",
+  "tags": [
+   "nba",
+   "classic",
+   "ports",
+   "emulator",
+   "touch",
+   "controller"
+  ]
+ },
+ "com.devz.nfsu2": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Native iOS port of the Xbox version of Need for Speed: Underground 2. Built on myUdav4iik/nfsu2-ios and antoxa2584x/nfsu2-sw using static recompilation and a Metal renderer; no JIT required. This repository provides source code and build tools only. Game discs, extracted files, translated game code, signing credentials, and music are not included. You must supply your own game disc. The app icon uses the original game cover art; all game names and artwork belong to their respective owners. This project is not affiliated with EA or Microsoft. Supports fullscreen landscape on iPhone and iPad with optional aspect\u2011fit mode. The macOS host also supports fullscreen and the F11 shortcut.",
+  "features": [
+   "No JIT",
+   "Metal Renderer",
+   "Fullscreen Landscape",
+   "Aspect\u2011Fit Mode",
+   "macOS Support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "eedf1b0e51df08783e7753a953e179b8cbfba0a35327136e742abecbe0719d58",
+  "subtitle": "Unofficial Need for Speed: Underground 2 port for iOS",
+  "tags": [
+   "need for speed",
+   "underground 2",
+   "port",
+   "metal",
+   "ios",
+   "racing"
+  ]
+ },
  "com.dino.bus.out": {
   "category": "games",
   "date": "2026-10-15",
@@ -9597,6 +9968,23 @@
    "flipclock",
    "utilities",
    "tickclock"
+  ]
+ },
+ "com.dobolix.apps.mythreborn.merge.master": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Myth Reborn: Merge Master offers a fresh take on casual strategy and innovation for iOS. The game enters the mobile gaming landscape with merge mechanics.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "81eaf75ffd005232fe98467cc734f82dfb09d799b5f52798041ba12cebb6e826",
+  "subtitle": "Casual strategy merge game for iOS",
+  "tags": [
+   "merge",
+   "strategy",
+   "casual",
+   "myth",
+   "reborn",
+   "ios"
   ]
  },
  "com.dong.hexwarriors": {
@@ -10527,6 +10915,27 @@
    "sound"
   ]
  },
+ "com.endless728.miremote": {
+  "category": "utilities",
+  "date": "2026-10-31",
+  "description": "Mi Remote controls Xiaomi Mi TV models running Android TV or PatchWall over Wi-Fi without ADB. It operates via Xiaomi's built-in MiLink service with no pairing required, or through Google's Android TV remote service using a one-time pairing code on models without MiLink.\n\nThis app is independent and not affiliated with or endorsed by Xiaomi.",
+  "features": [
+   "Wi-Fi Control",
+   "No ADB Required",
+   "No Pairing Needed"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "00ce492c1c6d34ed8107b4268cc7b80fb950b3f2a150186b18427dd250ea9370",
+  "subtitle": "Wi-Fi remote control for Xiaomi Mi TV and Android TV",
+  "tags": [
+   "remote",
+   "xiaomi",
+   "mitv",
+   "tv",
+   "androidtv",
+   "patchwall"
+  ]
+ },
  "com.endlessloopapps.aiartgenerator": {
   "category": "utilities",
   "date": "2026-10-28",
@@ -11224,6 +11633,23 @@
    "hunting"
   ]
  },
+ "com.fansipan.nightfall.tower.simulation.strategy.td.game": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Nightfall Kingdom Frontier TD is a tower defense game that has become popular among mobile gamers.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1a5ed403a4a01d8d97aef0409caa915fdadad4cc724e7eede716d5972356caa1",
+  "subtitle": "Tower defense adventure on mobile",
+  "tags": [
+   "tower",
+   "defense",
+   "mobile",
+   "strategy",
+   "nightfall",
+   "kingdom"
+  ]
+ },
  "com.fathermade.catkingdom": {
   "category": "games",
   "date": "2026-10-30",
@@ -11396,6 +11822,23 @@
    "modified",
    "premium",
    "unlocked"
+  ]
+ },
+ "com.feraset.tune": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Offers AI-generated covers with multiple voice options; results may vary. Added per user request.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3c465ba44ed819ebec6b086d6f0ca31fa996ecd3bb96f23d3c505e02ac8ba21f",
+  "subtitle": "AI cover generator with voice options",
+  "tags": [
+   "ai",
+   "covers",
+   "voice",
+   "music",
+   "generated",
+   "app"
   ]
  },
  "com.filmicpro.doubletake": {
@@ -12391,6 +12834,23 @@
    "mobile"
   ]
  },
+ "com.gamee.survival.war.adventure.rpg": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Nexus Hero is an adventure role-playing game for iOS. It delivers a carefully balanced RPG experience combining character progression, exploration, and strategic combat. Players build a hero, gather equipment, and battle through a fantasy world.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1f896cdcdfb437647a6e19dad9cc768f5bebcda43a60c7c02edbce592d106418",
+  "subtitle": "Adventure RPG with balanced gameplay",
+  "tags": [
+   "rpg",
+   "adventure",
+   "fantasy",
+   "role-playing",
+   "strategy",
+   "ios"
+  ]
+ },
  "com.gamegos.adventure.bay.paradise.farm": {
   "category": "games",
   "date": "2026-10-14",
@@ -12441,6 +12901,23 @@
    "strategy",
    "simulation",
    "games"
+  ]
+ },
+ "com.gameinsight.ios.mmanor": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Mystery Manor is a hidden object puzzle game for iOS. The game brings the hidden object genre to mobile devices with puzzle-solving gameplay. This version is distributed as an IPA MOD file.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "66c377062cd746cdc1ae7f984383832972aa8f9ec4c269e17a868af61e1f2677",
+  "subtitle": "Hidden object puzzle adventure game",
+  "tags": [
+   "hidden object",
+   "puzzle",
+   "mystery",
+   "adventure",
+   "ipa",
+   "mod"
   ]
  },
  "com.gamelegendstudio.lavasurvival": {
@@ -12648,6 +13125,26 @@
    "diary",
    "tracker",
    "notes"
+  ]
+ },
+ "com.genau.MoneyCircle": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "MoneyCircle is a spending and expense tracking app. Version 3.4.8 includes premium features unlocked and patched.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e64b379ad87de0c49958f7dae5f178359077aaae40302ba9b903c30a0df2b40f",
+  "subtitle": "Spending and expense tracker with premium features",
+  "tags": [
+   "spending",
+   "expense",
+   "tracker",
+   "premium",
+   "unlocked",
+   "patched"
   ]
  },
  "com.generagames.gladiatorheroes": {
@@ -12978,6 +13475,23 @@
    "llm",
    "local",
    "theming"
+  ]
+ },
+ "com.gliddd4.realmzer.mysign": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "MySign is an IPA sideloader for iOS. This is the first release. Users can provide feedback through the project's Discord server.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d5fffb66e2625f515c0227ebac54270169399857e44fec3477a89883cf43118e",
+  "subtitle": "IPA Sideloader for iOS",
+  "tags": [
+   "ipa",
+   "sideloader",
+   "ios",
+   "first-release",
+   "feedback",
+   "discord"
   ]
  },
  "com.glidetalk.glideapp": {
@@ -13476,6 +13990,27 @@
    "tweaks"
   ]
  },
+ "com.google.ios.youtube.moemulti.11.1.patched": {
+  "category": "photo-video",
+  "date": "2026-10-31",
+  "description": "MoeMulti is a patched version of YouTube that includes three built-in tweaks: YTKillerPlus, DLTube, and TubeLRD. These modifications add functionality to the standard YouTube experience. The app is distributed through sideloading via CertFish's FastSign service.",
+  "features": [
+   "YTKillerPlus",
+   "DLTube",
+   "TubeLRD"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7b8ad70608c7facefb5d1cae097a6776680a403f5ea3f81f18fe59d8d51b92e4",
+  "subtitle": "Modified YouTube with built-in tweaks",
+  "tags": [
+   "youtube",
+   "patched",
+   "modded",
+   "tweaks",
+   "sideload",
+   "video"
+  ]
+ },
  "com.google.ios.youtube.music.maxmusic": {
   "category": "photo-video",
   "date": "2026-10-30",
@@ -13929,6 +14464,23 @@
    "navigation",
    "maps",
    "travel"
+  ]
+ },
+ "com.gxs.trailside.camp.cafe.restaurant.idlegame": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "My Pizza Cafe is a simulation game for iPhone and iPad. The app is distributed as an iOS installation package.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a5168f987d01ca7929943a85f5c8d0a06f4da0579e2ede4bfacdb534f7e73f7c",
+  "subtitle": "Pizza cafe simulation game for iOS",
+  "tags": [
+   "simulation",
+   "pizza",
+   "cafe",
+   "restaurant",
+   "management",
+   "casual"
   ]
  },
  "com.gymbros.app": {
@@ -14936,25 +15488,37 @@
    "mod"
   ]
  },
+ "com.hushbook.hushbook.6U2CKDN54G": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "HushBook allows you to read while listening. Designed for iOS 16.4 and later, this application is available on the App Store.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0b896d12ec2a92d3e50176f0fd31c979f72e35536725cecbc1b52756e9da1dc6",
+  "subtitle": "Read while listening",
+  "tags": [
+   "hushbook",
+   "reading",
+   "audio",
+   "books",
+   "listen"
+  ]
+ },
  "com.husk.app": {
-  "category": "utilities",
-  "date": "2026-10-27",
-  "description": "Husk is an iOS application that enables running Android on iPhone devices. The app supports both native execution and emulation modes. Version 1.0.1 with bundle identifier com.husk.app. Developed by Leviidev.",
-  "features": [
-   "Run Android Apps",
-   "Native Execution",
-   "Emulation Support"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "957b151ae01aa8844b2e6da732bfafc8e86a28e1ba4871e7c17ec1027521ac6d",
-  "subtitle": "Run Android apps on iPhone natively or emulated",
+  "category": "developer",
+  "date": "2026-10-31",
+  "description": "Husk allows you to run Android apps and games on your iPhone. Add an APK file, tap it, and it opens full-screen. Husk offers two ways to run content from its library. The translation layer runs the game's own 64-bit Android code directly on the iPhone processor without booting Android, using ANGLE for OpenGL ES and MoltenVK for Vulkan, with support for sound, touch, and controllers. Emulation boots a full Android system using LineageOS under QEMU inside Husk for apps that the translation layer cannot run yet and for using Android itself.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "72db0343b54bdf1a13cba74e16fae5f9951cbe4598194148f9e3aed9007f2f69",
+  "subtitle": "Run Android apps and games on your iPhone",
   "tags": [
    "android",
+   "apk",
+   "games",
+   "translation",
    "emulator",
-   "compatibility",
-   "utility",
-   "ios",
-   "sideload"
+   "developer"
   ]
  },
  "com.husk.app.1.1.1": {
@@ -15268,6 +15832,23 @@
    "converter",
    "ipa",
    "ttjb"
+  ]
+ },
+ "com.ichitaso.networkmanagerts": {
+  "category": "developer",
+  "date": "2026-10-31",
+  "description": "NetworkManager stabilizes network signal on 4G LTE, 3G, and 2G to prevent fluctuations that cause battery drain. Requires installation with TrollStore.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9a545aae5d0dbec2d36f92dfa39f6d553d25b7d7bd1407298c061cbd6fbc1800",
+  "subtitle": "Stabilizes 4G/3G/2G signal permanently",
+  "tags": [
+   "network",
+   "signal",
+   "stabilizer",
+   "4g",
+   "3g",
+   "trollstore"
   ]
  },
  "com.icsm.client": {
@@ -18163,6 +18744,23 @@
    "ios"
   ]
  },
+ "com.ipaomtk.moshi.ssh.mosh.terminal.157808": {
+  "category": "developer",
+  "date": "2026-10-31",
+  "description": "Moshi: SSH & MOSH Terminal is an iOS installation package that allows users to install a SSH and MOSH terminal on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "30647460c066ee5a5af3161d3a10c5f10c9860ca0dc7c844d22a8fdcf0a0c637",
+  "subtitle": "SSH and MOSH terminal for iOS",
+  "tags": [
+   "ssh",
+   "mosh",
+   "terminal",
+   "ios",
+   "developer",
+   "remote"
+  ]
+ },
  "com.ipaomtk.murderhill.153646": {
   "category": "games",
   "date": "2026-10-30",
@@ -18178,6 +18776,57 @@
    "ios",
    "game",
    "ipa"
+  ]
+ },
+ "com.ipaomtk.muscle.hustle.pvp.wrestling.157640": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Muscle Hustle \u2013 PvP Wrestling is a game distributed as an IPA file for iOS devices. IPA files are installation packages that allow manual installation on iOS. The app is offered through ipaomtk.com.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b15591da9fc4c12eb2990c45d88cfcf230f20e81d3df3c8d470c35dfe62669a4",
+  "subtitle": "PvP Wrestling Game for iOS",
+  "tags": [
+   "muscle",
+   "hustle",
+   "wrestling",
+   "pvp",
+   "game",
+   "ipa"
+  ]
+ },
+ "com.ipaomtk.mute.video.edit.clip.sound.159513": {
+  "category": "photo-video",
+  "date": "2026-10-31",
+  "description": "Mute Video \u2013 Edit Clip Sound is a lightweight video editing tool for iOS that removes or adjusts audio tracks from video clips. The app provides a simple interface for muting video sound without re-encoding the entire file.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "91cedbbf8d834fd2068b8454d322705e321c33b4e38f92a5a0fdf5dab25fe960",
+  "subtitle": "Mute audio from video clips",
+  "tags": [
+   "video",
+   "edit",
+   "mute",
+   "audio",
+   "clip",
+   "lightweight"
+  ]
+ },
+ "com.ipaomtk.neon.draw.glow.doodle.art.154857": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Neon Draw \u2013 Glow Doodle Art is an iOS creative drawing app package that allows iPhone users to create glow doodle art.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3e1be0c07fc00caeedb3972ce30372975f81b05b4acad91f567011ef05fc0104",
+  "subtitle": "Creative glow drawing app for iPhone",
+  "tags": [
+   "drawing",
+   "glow",
+   "doodle",
+   "art",
+   "ios",
+   "creative"
   ]
  },
  "com.iphonecake.appcakej": {
@@ -18272,6 +18921,22 @@
    "game"
   ]
  },
+ "com.ironhidegames.kingdomrush.alliance.universal.premium": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Alliance TD plus IPA is a tower defense game set in a realm where strategy meets whimsy, continuing the tradition of the Kingdom Rush series for tower defense enthusiasts.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2fc250b1b4908bdc43e810e5a3392669a2a73df9c8c079461a045f78a696d99e",
+  "subtitle": "Tower defense strategy game",
+  "tags": [
+   "alliance",
+   "strategy",
+   "tower defense",
+   "game",
+   "ipa"
+  ]
+ },
  "com.ironhidegames.kingdomrush.elves-hd": {
   "category": "other",
   "date": "2026-10-28",
@@ -18319,6 +18984,23 @@
    "log",
    "exercise",
    "tracker"
+  ]
+ },
+ "com.iterationone.nightclubtycoon": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Idle Nightclub Tycoon: Empire is a simulation and management game for iPhone. Build and manage your own nightclub empire in this idle tycoon experience.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "54e11236682a1d063b84d8f51b919bc9d3def66a087fef26a7e5305b8f289c52",
+  "subtitle": "Simulation and management game for iPhone",
+  "tags": [
+   "simulation",
+   "management",
+   "idle",
+   "tycoon",
+   "nightclub",
+   "empire"
   ]
  },
  "com.itranslate.itranslateone": {
@@ -18711,6 +19393,23 @@
    "utilities"
   ]
  },
+ "com.julioverne.netflixchecker": {
+  "category": "entertainment",
+  "date": "2026-10-31",
+  "description": "App associated with Netflix streaming platform.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "00143720e2fb4b9e4d34cb14a3601061b0acbac223c11be725a300df9b30b301",
+  "subtitle": "Netflix account checker",
+  "tags": [
+   "netflix",
+   "checker",
+   "entertainment",
+   "streaming",
+   "utility",
+   "app"
+  ]
+ },
  "com.jumatt.jsrf-unleashed": {
   "category": "games",
   "date": "2026-10-28",
@@ -18996,6 +19695,26 @@
    "container",
    "utility",
    "developer"
+  ]
+ },
+ "com.keinois.nea.app": {
+  "category": "lifestyle",
+  "date": "2026-10-31",
+  "description": "Apnea Trainer: Nea is a breath-hold training application. This version 1.3.3 has the subscription unlocked and is patched. The app provides tools for apnea practice and breath control exercises.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "24e669ae29de0f7455f47d5ce0f032091c0f84f745f3d278c97c1ce982a3f960",
+  "subtitle": "Apnea training with subscription unlocked",
+  "tags": [
+   "apnea",
+   "training",
+   "breathing",
+   "fitness",
+   "wellness",
+   "unlocked"
   ]
  },
  "com.ketchapp.horizon": {
@@ -20979,6 +21698,23 @@
    "phone"
   ]
  },
+ "com.macport.gtav": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Port of GTA 5 for iPhone. Instructions are included to add Russian voice acting. Minimum system requirements: 4GB RAM.",
+  "features": [
+   "Russian voice acting guide"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ed081828d2e2eca06e6bc15c7629fadafb5c58b53de1e9f681a22985edc69838",
+  "subtitle": "GTA 5 port for iPhone with instructions",
+  "tags": [
+   "gta",
+   "port",
+   "iphone",
+   "game"
+  ]
+ },
  "com.macxk.KMusic": {
   "category": "utilities",
   "date": "2026-10-28",
@@ -21264,6 +22000,25 @@
    "pc"
   ]
  },
+ "com.master.hotelmaster": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "My Perfect Hotel version 1.36.0, patched to unlock in-app purchases for free. Requires iOS 15.0 or later. Distributed by @riftysIPAlibrary as a modified IPA.",
+  "features": [
+   "Free IAP",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "abb4170bfa29ad7684a3b304134021a16f16b5c045bef2f4c44ad87fe039f855",
+  "subtitle": "Patched hotel sim with free in-app purchases",
+  "tags": [
+   "hotel",
+   "simulation",
+   "patched",
+   "free-iap",
+   "ios-15"
+  ]
+ },
  "com.match.busters.free.ios": {
   "category": "games",
   "date": "2026-10-20",
@@ -21300,6 +22055,27 @@
    "strategy",
    "games",
    "ios"
+  ]
+ },
+ "com.matchington.mansion": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Matchington Mansion modification with multiple gameplay enhancements. Includes infinite moves, infinite boosters, and infinite lives for the game.",
+  "features": [
+   "Infinite Moves",
+   "Infinite Booster",
+   "Infinite Lives"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f3e18a4e9a0ec8ca4320e71cbe17a9c0d2ff94ae8b318ff188918962a27e43b4",
+  "subtitle": "Matchington Mansion Hack Features",
+  "tags": [
+   "matchington",
+   "mansion",
+   "hack",
+   "moves",
+   "booster",
+   "lives"
   ]
  },
  "com.matlubapps.mangutranslate": {
@@ -21354,6 +22130,29 @@
    "ios 16",
    "ios 17",
    "personalization"
+  ]
+ },
+ "com.mayaiptv.client": {
+  "category": "entertainment",
+  "date": "2026-10-31",
+  "description": "Maya IPTV is a media player that lets you sign in with your own subscription using Xtream Codes or Stalker Portal provided by your operator. It does not provide, host or sell any channels, movies or subscriptions. You are responsible for the legality of the streams you play. Enjoy live TV with a program guide and fast zapping, and watch movies and series with rich detail pages, resume playback, and season navigation. The app includes Chromecast support, favorites, continue watching, smart search, built-in live football scores, subtitles, multiple audio tracks, and multi-connection support to manage several subscriptions.",
+  "features": [
+   "Live TV with EPG",
+   "Movies and series VOD",
+   "Chromecast support",
+   "Smart search",
+   "Multi-connection"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b340890d851228ca415da854ba511c9360b22258cb6e9793b28a3e3853cf3d97",
+  "subtitle": "Modern and fast IPTV player for your streams",
+  "tags": [
+   "iptv",
+   "player",
+   "media",
+   "stream",
+   "vod",
+   "live"
   ]
  },
  "com.mbh.athkari": {
@@ -21459,6 +22258,28 @@
    "ttjb",
    "tested",
    "compiled"
+  ]
+ },
+ "com.meleepad.MeleePad": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "MeleePad allows you to build a native Apple app from your own supported copy of Super Smash Bros. Melee. Enjoy touch controls, physical-controller support, Metal rendering, and Slippi online play on iPhone and iPad. Game code is compiled ahead of time, meaning no JIT is required on iOS or iPadOS. Requirements to build and set up the app include an Apple Silicon Mac with Xcode, your own GALE01 USA v1.00 or v1.02 disc image, and AltStore Classic, SideStore, or Sideloadly.",
+  "features": [
+   "Touch controls",
+   "Physical controller support",
+   "Metal rendering",
+   "Slippi online play",
+   "No JIT required"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c1b99898d4c342ec167201865791a7d73053a366bb8d6b581baa1102e8280273",
+  "subtitle": "Play Melee natively on iOS, iPadOS and Apple Silicon",
+  "tags": [
+   "melee",
+   "smash",
+   "slippi",
+   "gaming",
+   "emulator"
   ]
  },
  "com.memrise.ios.memrisecompanion": {
@@ -21832,6 +22653,23 @@
    "fluency"
   ]
  },
+ "com.mindsethealth.ibs": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Nerva is an iOS application noted as injected with Pro features.",
+  "features": [
+   "Injected with Pro"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5ba9b830159564459cd3b6775252b5b1b07aa49c0f1bd71efadcbb62d027e9fc",
+  "subtitle": "Injected Pro version",
+  "tags": [
+   "nerva",
+   "ipa",
+   "injected",
+   "pro"
+  ]
+ },
  "com.mindspace.offline": {
   "category": "lifestyle",
   "date": "2026-10-30",
@@ -22149,6 +22987,29 @@
    "speed"
   ]
  },
+ "com.mobile.legends.asura": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Beta version of the Asura cheat for Mobile Legends: Bang Bang. Includes a trial key Asura7DayTest, anti-cheat bypass (beta testing), ESP for jungle monsters and enemy players, player cooldown ESP, auto retribution, auto buy immortality (testing phase), switch immortality to winter crown, switch winter crown to rose gold, dodge queue without penalty, room info display, save settings, and streamer mode. Created by Asura.",
+  "features": [
+   "Trial Key",
+   "Anti-Cheat Bypass",
+   "ESP",
+   "Auto Retribution",
+   "Streamer Mode"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "45e5142fb61190eabe09f1170fb3e5db3c36d3349f365ab3256c0430519ed873",
+  "subtitle": "AsuraMLBB cheat for Mobile Legends",
+  "tags": [
+   "mobilelegends",
+   "cheat",
+   "asura",
+   "esp",
+   "autoretribution",
+   "streamermode"
+  ]
+ },
  "com.mobilefootie.fotmobpro": {
   "category": "utilities",
   "date": "2026-10-25",
@@ -22326,19 +23187,21 @@
  },
  "com.mojang.minecraftpreview": {
   "category": "games",
-  "date": "2026-10-30",
-  "description": "Minecraft Preview (Beta) version 1.26.50 (build 22) is distributed via TestFlight for beta testing. Bundle ID: com.mojang.minecraftpreview. Join the TestFlight at the provided link to test upcoming features.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "86f884defe8b105997a40360dbb683dd8cef8c6ac0fa36b09bc9ceafac6fd826",
-  "subtitle": "Official Minecraft beta testing via TestFlight",
+  "date": "2026-10-31",
+  "description": "Minecraft Preview provides the beta build of Minecraft Bedrock Edition. Sourced from TestFlight, this release allows players to test upcoming updates and preview builds of the game.",
+  "features": [
+   "Beta Version",
+   "TestFlight Build"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "fd584107b3cb7c54091069e2f2df80ef2ace9fbfd5de90db1c9b595270a6d033",
+  "subtitle": "Beta version of Minecraft Bedrock Edition",
   "tags": [
    "minecraft",
    "preview",
+   "bedrock",
    "beta",
-   "testflight",
-   "mojang",
-   "game"
+   "testflight"
   ]
  },
  "com.momentinc.procamera": {
@@ -22632,6 +23495,23 @@
    "offline"
   ]
  },
+ "com.musixmatch.lyrics": {
+  "category": "entertainment",
+  "date": "2026-10-31",
+  "description": "Musixmatch is an iOS lyrics finder app that provides an expansive library of song lyrics.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "edaf6ded80df473797f2bd6d8f5e4547001644402d24901258ccf94d0f41b95f",
+  "subtitle": "Lyrics finder with a huge song library",
+  "tags": [
+   "lyrics",
+   "music",
+   "ipa",
+   "finder",
+   "ios",
+   "library"
+  ]
+ },
  "com.mwcompany.MusicWarsRockstar": {
   "category": "games",
   "date": "2026-10-30",
@@ -22702,6 +23582,79 @@
    "beats"
   ]
  },
+ "com.my.bots": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Mybots: Mech Battle Arena IPA is the iOS installation package for the Mybots: Mech Battle Arena game.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "86a46c461b5f87db0401321a9026777c8a97868bf815e5718b9fcec29bee403e",
+  "subtitle": "Mech Battle Arena iOS package",
+  "tags": [
+   "mech",
+   "battle",
+   "arena",
+   "ipa",
+   "ios",
+   "game"
+  ]
+ },
+ "com.myfitnesspal.mfp": {
+  "category": "lifestyle",
+  "date": "2026-10-31",
+  "description": "MyFitnessPal version 26.31.0 requires iOS 17.0 or later. This is a patched reupload with Subscript modifier applied. Bundle identifier: com.myfitnesspal.mfp.",
+  "features": [
+   "Patched",
+   "Subscript modifier"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1c8d857585c8af51e7d2e1e7c2e8ba8e18584b76b31f4612d253e56ea6456608",
+  "subtitle": "Calorie counter and fitness tracker",
+  "tags": [
+   "calorie",
+   "fitness",
+   "tracker",
+   "health",
+   "diet",
+   "nutrition"
+  ]
+ },
+ "com.mylovelyplanet.mylovelyforests": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "A mobile puzzle game featuring match\u20113 gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "525cef98b26c0933a9c9bcc2855578f16169ab2e339f0576e6ff719d813228ce",
+  "subtitle": "Delightful match\u20113 puzzle adventure",
+  "tags": [
+   "puzzle",
+   "match3",
+   "mobile",
+   "game",
+   "lovely",
+   "planet"
+  ]
+ },
+ "com.myscript.nebo": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "MyScriptNotes is an application that has been injected with Pro features. The original developer is unknown. No additional details about functionality or features are provided in the source information.",
+  "features": [
+   "Pro Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7c4de545d3d5dedaa522377381b047168726b04699ee9c47a83e0f9aa61145a3",
+  "subtitle": "MyScriptNotes with Pro features injected",
+  "tags": [
+   "notes",
+   "pro",
+   "productivity",
+   "script",
+   "writing",
+   "tools"
+  ]
+ },
  "com.mysterytag.cryptominer": {
   "category": "lifestyle",
   "date": "2026-10-18",
@@ -22716,6 +23669,26 @@
    "tycoon",
    "mining",
    "simulation"
+  ]
+ },
+ "com.myswimpro.apps.MySwimPro": {
+  "category": "lifestyle",
+  "date": "2026-10-31",
+  "description": "MySwimPro is a swim workout application. This version has the subscription unlocked and is patched. Version 9.1.2.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a254fdb1b8d14ed6ddbd98f50f1391ece5fa2e2fefe063097888d072f9783bc2",
+  "subtitle": "Swim workout app with subscription unlocked",
+  "tags": [
+   "swim",
+   "workout",
+   "fitness",
+   "training",
+   "app",
+   "lifestyle"
   ]
  },
  "com.mythical.fifarivals": {
@@ -22788,6 +23761,23 @@
    "compiled"
   ]
  },
+ "com.nadotv.nadoTv": {
+  "category": "photo-video",
+  "date": "2026-10-31",
+  "description": "Nado TV is a lightweight media player for iOS designed for streaming video content. It is distributed as an IPA file for installation on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "59638f3048d40fea4e5ea869c914791bd71fe489702654af6848abe686983940",
+  "subtitle": "Lightweight media player for video streaming",
+  "tags": [
+   "media player",
+   "video streaming",
+   "lightweight",
+   "ipa",
+   "ios",
+   "streaming"
+  ]
+ },
  "com.naine.doer": {
   "category": "other",
   "date": "2026-10-20",
@@ -22809,6 +23799,44 @@
    "forum",
    "native",
    "uikit"
+  ]
+ },
+ "com.nami.hydrationtracker": {
+  "category": "utilities",
+  "date": "2026-10-31",
+  "description": "Nami is a water tracking and reminder app for iOS 17.6 and later. Version 1.0 helps users monitor daily water intake and receive hydration reminders.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "662269a8f39c7dcaa71e296a9e0d741ac83b458bfd6906b7df2d0a90731ccc7c",
+  "subtitle": "Water Tracker & Reminder",
+  "tags": [
+   "water",
+   "tracker",
+   "reminder",
+   "health",
+   "hydration",
+   "ios"
+  ]
+ },
+ "com.nammaflutter.nammawallet": {
+  "category": "lifestyle",
+  "date": "2026-10-31",
+  "description": "Namma Wallet is an open-source Flutter mobile app for managing digital travel tickets and passes. It saves, organises, and views tickets from SMS, PDFs, QR codes, and clipboard text. The app includes intelligent parsing for Indian transport providers such as TNSTC, IRCTC, and SETC, and can parse movie tickets from images. It generates digital ticket designs and works with any ticket type or format as a community-driven solution.",
+  "features": [
+   "SMS Parsing",
+   "PDF Processing",
+   "Image Parsing"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ef2a5caf5e96def67467810c642b3a6a93a895892f73d94ca541bf669267b6c0",
+  "subtitle": "Open-source ticket manager for Indian travel",
+  "tags": [
+   "ticket",
+   "travel",
+   "indian",
+   "flutter",
+   "open-source",
+   "wallet"
   ]
  },
  "com.nanotribe.games.cashier3d": {
@@ -22881,6 +23909,23 @@
    "rpg",
    "toby-fox",
    "nathan"
+  ]
+ },
+ "com.nathan.nathanlr": {
+  "category": "developer",
+  "date": "2026-10-31",
+  "description": "NathanLR is a jailbreak tool developed by Nathan for iOS versions 16.5.1 through 16.6.1 on devices with A12 chip or newer. The tool is marked as functional for the specified iOS range.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c3dbbe95373fc74b1f60b3802fc7bb30a517dc55facea8c3496f99f22fbd9025",
+  "subtitle": "Jailbreak for iOS 16.5.1\u201316.6.1 on A12+ devices",
+  "tags": [
+   "jailbreak",
+   "ios",
+   "nathanlr",
+   "a12",
+   "developer",
+   "tool"
   ]
  },
  "com.naturalmotion.csrclassics": {
@@ -22957,6 +24002,25 @@
    "ttjb"
   ]
  },
+ "com.neo.NeoMan": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "NeoServer is an application with subscription features unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "37d9aa599168b35afe19ef6dcf1798fd63ad567dc84ed57e2830c6decd9373fe",
+  "subtitle": "Server app with subscription unlocked",
+  "tags": [
+   "server",
+   "subscription",
+   "unlocked",
+   "utility",
+   "network",
+   "tool"
+  ]
+ },
  "com.neo.countdown": {
   "category": "other",
   "date": "2026-10-18",
@@ -22971,6 +24035,23 @@
    "timer",
    "fictional",
    "app"
+  ]
+ },
+ "com.neogamelab.neostation": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "NeoStation iOS is an independently maintained iOS and iPadOS fork of NeoStation. It includes embedded Dolphin, ARMSX2, RPCS3, Dusklight, and KartPad runtimes alongside RetroArch for running various console and arcade games.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "85fff1c5657971bad00cbfd15f52d72795cb91b0ffbd46c55b0c760adbda1809",
+  "subtitle": "Multi-emulator frontend with Dolphin, RPCS3, RetroArch",
+  "tags": [
+   "emulator",
+   "retro",
+   "dolphin",
+   "rpcs3",
+   "retroarch",
+   "ios"
   ]
  },
  "com.neonplay.casualgolfclubtycoon": {
@@ -23194,6 +24275,23 @@
    "app store",
    "developer",
    "utility"
+  ]
+ },
+ "com.netskao.networkmanager": {
+  "category": "utilities",
+  "date": "2026-10-31",
+  "description": "Network Manager IPA is a powerful tool that allows organizations to effectively manage and monitor their network infrastructure.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "261092c537cdd413464e2d3b3ea2f7dcbd074b8765d1a020bf2ba073d1693676",
+  "subtitle": "Network management and monitoring tool",
+  "tags": [
+   "network",
+   "manager",
+   "monitor",
+   "infrastructure",
+   "organization",
+   "tool"
   ]
  },
  "com.newintco.charginganimation": {
@@ -23475,6 +24573,29 @@
    "design"
   ]
  },
+ "com.ninakoporcova.weather-app": {
+  "category": "utilities",
+  "date": "2026-10-31",
+  "description": "My Weather is a minimal weather application that provides Lock Screen and Home Screen widgets, rain alerts, SHM\u00da warnings, and a morning briefing. The app supports English and Slovak languages.",
+  "features": [
+   "Lock Screen Widgets",
+   "Home Screen Widgets",
+   "Rain Alerts",
+   "SHM\u00da Warnings",
+   "Morning Briefing"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ab83efddaa14a00f7545d11e42743a27aba61677549927495fa0b89fb2a19a12",
+  "subtitle": "Minimal weather with widgets and alerts",
+  "tags": [
+   "weather",
+   "widgets",
+   "alerts",
+   "minimal",
+   "slovak",
+   "english"
+  ]
+ },
  "com.ninjakiwi.bloonstd6": {
   "category": "games",
   "date": "2026-10-15",
@@ -23705,6 +24826,23 @@
    "ios",
    "adventure",
    "game"
+  ]
+ },
+ "com.novadev.nexstore": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Allows sideloading of apps on iOS devices using a signing service. The app integrates with a signing backend to install apps without a developer account.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9c81b32a4bd00845757a452ea712bc4db8214a58f0c33e0555f7201aa6e4c654",
+  "subtitle": "Sideload apps on iOS",
+  "tags": [
+   "sideload",
+   "ios",
+   "app",
+   "store",
+   "installer",
+   "utility"
   ]
  },
  "com.noxgames.hex.polis.civilization.empire": {
@@ -24197,6 +25335,40 @@
    "languages",
    "utilities",
    "unlocked"
+  ]
+ },
+ "com.outfit7.mytalkingangela2": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "My Angela 2 is a mobile game titled My Talking Angela 2 that has captured the hearts of players.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5310c903b87e104b81da0eaacb0593f2e2a57ba7f3752825f4a92554d85ffb70",
+  "subtitle": "Virtual pet adventure with Angela",
+  "tags": [
+   "mobile",
+   "game",
+   "talking",
+   "angela",
+   "captured",
+   "hearts"
+  ]
+ },
+ "com.outfit7.mytalkingtom2": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "My Talking Tom 2 is a popular iPad and iPhone game that lets you interact with a virtual pet named Tom.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "578236103e7674eaee49ded2d7366a6a59b809c1892cfe18717e26b51348fa29",
+  "subtitle": "Interact with virtual pet Tom",
+  "tags": [
+   "virtual",
+   "pet",
+   "talking",
+   "tom",
+   "game",
+   "ipa"
   ]
  },
  "com.overdesigned.Cheatsheet": {
@@ -25270,6 +26442,23 @@
    "ios"
   ]
  },
+ "com.playinfinity.game.mydreamhotel": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "My Dream Hotel is a hotel management and design simulator for iPhone. Players build and operate their own hospitality business, combining management strategy with creative design choices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "acaf6b860e52d0366dcdbdd61a1bfc1885708b86e29668531361301c2b6980bf",
+  "subtitle": "Hotel management and design simulator",
+  "tags": [
+   "hotel",
+   "management",
+   "design",
+   "simulator",
+   "hospitality",
+   "tycoon"
+  ]
+ },
  "com.playkot.ageofmagic": {
   "category": "games",
   "date": "2026-10-14",
@@ -25361,6 +26550,23 @@
    "moves"
   ]
  },
+ "com.playrix.mystery-matters": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Mystery Matters is an immersive mobile game that promises a thrilling journey filled with suspense and intrigue.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fa7fabff111f53d32ec2c0cb0d6955937723d9f4fe7fc39fb46f4407945603e2",
+  "subtitle": "Immersive mystery adventure game",
+  "tags": [
+   "mystery",
+   "adventure",
+   "immersive",
+   "mobile",
+   "game",
+   "thriller"
+  ]
+ },
  "com.playsidestudios.candycritters": {
   "category": "games",
   "date": "2026-10-15",
@@ -25376,6 +26582,23 @@
    "candy",
    "critters",
    "game"
+  ]
+ },
+ "com.playspare.store": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "My Supermarket Simulator 3D is an iOS game that lets players experience the excitement and challenges of managing a supermarket in a 3D environment.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bd464dc13e76133315e003a4bdf09aefe2b2758f59c0aa24c33da8eec10a7769",
+  "subtitle": "Run your own 3D supermarket",
+  "tags": [
+   "supermarket",
+   "simulator",
+   "3d",
+   "ios",
+   "game",
+   "management"
   ]
  },
  "com.plr.expeditionscapes": {
@@ -25435,6 +26658,42 @@
    "helper",
    "utilities",
    "education"
+  ]
+ },
+ "com.pockettrend.neomonsters": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Neo Monsters is a monster-filled game for iOS where players collect and battle creatures.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2d3485bb347bab77bc34374725ef8e4d9fa6f491ee210256254364d9573881bf",
+  "subtitle": "Monster collection RPG adventure",
+  "tags": [
+   "monster",
+   "game",
+   "collection",
+   "battle",
+   "ios",
+   "rpg"
+  ]
+ },
+ "com.podfactor.pod": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "MyCalendar is a calendar application that has been modified to unlock subscription features. The original app requires a paid subscription for premium functionality, which has been removed in this version.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "efcd81bb085495be18251e26e0c18dc68e7c5752e0fffd14cfc512b2fb71492e",
+  "subtitle": "Calendar app with subscription unlocked",
+  "tags": [
+   "calendar",
+   "subscription",
+   "unlocked",
+   "productivity",
+   "schedule",
+   "events"
   ]
  },
  "com.polarbit.getaway": {
@@ -26541,6 +27800,24 @@
    "utilities"
   ]
  },
+ "com.rickharrison.narwhal": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "This is a modified version of Narwhal with Pro features enabled.",
+  "features": [
+   "Pro"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "478941ff27a4ac1ac4fb6a8021a742eb7797102f88c6ea79c71bb7b591405883",
+  "subtitle": "Narwhal \u2013 Pro version injected",
+  "tags": [
+   "narwhal",
+   "pro",
+   "modified",
+   "ios",
+   "app"
+  ]
+ },
  "com.ridgge.conquercountries": {
   "category": "games",
   "date": "2026-10-18",
@@ -27540,6 +28817,29 @@
    "hero"
   ]
  },
+ "com.selxo.mangatan": {
+  "category": "entertainment",
+  "date": "2026-10-31",
+  "description": "Mangatan is an open-source desktop app for reading manga and novels, watching anime, and learning languages through dictionary lookup, OCR, subtitle mining, and Anki export. Read webtoons, comics, and movies locally with a configurable reader featuring multiple viewers, reading directions, and settings. Organize your library with categories, utilize tracker support including MyAnimeList, AniList, SIMKL, trakt, and Kitsu, and switch between light and dark themes. Create local backups to read offline or sync to your preferred cloud service.",
+  "features": [
+   "Open-Source",
+   "Local Reading",
+   "Tracker Support",
+   "Anki Export",
+   "Offline Backups"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9a327c66171f9ec3f4fe339bd18367ad163754b061214ad4c1c19f148be51fe2",
+  "subtitle": "Read manga, novels, and watch anime with ease",
+  "tags": [
+   "manga",
+   "anime",
+   "novels",
+   "reader",
+   "tracker",
+   "open-source"
+  ]
+ },
  "com.semruk.harvestking": {
   "category": "games",
   "date": "2026-10-26",
@@ -27836,6 +29136,23 @@
    "tracker",
    "arrivals",
    "departures"
+  ]
+ },
+ "com.simpleinnovation.diary": {
+  "category": "photo-video",
+  "date": "2026-10-31",
+  "description": "App with a mood tracker, designed for recording experiences, exploring emotions, and adding photos, ensuring your privacy and security.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d744fff9309445ab61dd8d11053c5ba9497936aacde4194c84c4a3ee22ac992c",
+  "subtitle": "Mood tracker diary with photos",
+  "tags": [
+   "diary",
+   "mood",
+   "tracker",
+   "photos",
+   "privacy",
+   "security"
   ]
  },
  "com.sixtysevenbits.idleislandscv": {
@@ -29222,6 +30539,23 @@
    "backup"
   ]
  },
+ "com.straight-tamago.misakaRS": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Misaka is an iOS customization tool designed for KFD and MDC. It allows iPhone users to personalize their devices.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "cb258e9a7635385feddad3a5705ec2ff4aba6d776c4fb6d6c3da1af44db1640a",
+  "subtitle": "iOS customization tool for KFD and MDC",
+  "tags": [
+   "misaka",
+   "ios",
+   "customization",
+   "kfd",
+   "mdc",
+   "personalize"
+  ]
+ },
  "com.stratospheregames.dawnofages": {
   "category": "games",
   "date": "2026-10-20",
@@ -29738,20 +31072,21 @@
  },
  "com.thebcd69.bcd": {
   "category": "games",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS with Steam and GOG built in. Powered by Wine, FEX and Metal via DXMT.",
   "features": [
    "Steam built in",
    "GOG built in",
-   "Controller-friendly"
+   "Controller friendly",
+   "Fast launcher"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "508f083751382705843e0ab6b8a2a2aca5203ee43783aa9c282ad0c5e00e0a84",
+  "src_hash": "8c46bf388305af135a4b377645cc8bdf121ba4be805b4afdc823ef6b7f1b4387",
   "subtitle": "Run Windows games on iOS and iPadOS",
   "tags": [
+   "games",
    "launcher",
    "windows",
-   "games",
    "steam",
    "gog",
    "emulator"
@@ -33406,6 +34741,27 @@
    "karbin-store"
   ]
  },
+ "com.unknown.mist": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Mist offers gameplay modifications including a damage multiplier, unlimited currency and resources that do not decrease, and free unlocking of all skill slots.",
+  "features": [
+   "Damage Multiplier",
+   "Unlimited Resources",
+   "Unlocked Skill Slots"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "3428f5b6c9c4215109d243abd123554aae496c45cc0f28d3fdab2d1c1d5534ea",
+  "subtitle": "Game enhancements and resource unlocks",
+  "tags": [
+   "mist",
+   "game",
+   "mod",
+   "multiplier",
+   "resources",
+   "skills"
+  ]
+ },
  "com.unknown.mobcontrol": {
   "category": "games",
   "date": "2026-10-30",
@@ -33480,6 +34836,81 @@
    "unlocked",
    "app",
    "other"
+  ]
+ },
+ "com.unknown.mycafe": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Modified version of My Cafe game providing unlimited gems and coins. Removes energy purchase timers. Includes enhanced gameplay features for faster progression.",
+  "features": [
+   "Unlimited Gems",
+   "Unlimited Coins",
+   "No Energy Timer",
+   "Enhanced Gameplay"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f800c27dac8b5461ed0e4c07ddd2580e923949611b0f1571bc3d2d2b1b4a691f",
+  "subtitle": "Modded cafe game with unlimited resources",
+  "tags": [
+   "cafe",
+   "simulation",
+   "mod",
+   "unlimited",
+   "resources"
+  ]
+ },
+ "com.unknown.myfitnesspal": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Helps you organize a diet plan and track your goals, with all benefits.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0deb40d85b0143196e864ee70a15d39777813e9be035938e7d3e104e0522c752",
+  "subtitle": "Track diet and goals",
+  "tags": [
+   "diet",
+   "tracker",
+   "health",
+   "fitness",
+   "goals",
+   "nutrition"
+  ]
+ },
+ "com.unknown.myhotel": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "My Hotel is a hotel management simulation game. This version includes unlimited in-game money and unlimited tickets for unrestricted gameplay.",
+  "features": [
+   "Unlimited Money",
+   "Unlimited Tickets"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "382afe72837ac2f87b2ab9dd198d5ae42902ab31e3374aa34aba6a0eb18a9ac9",
+  "subtitle": "Hotel management game with unlimited resources",
+  "tags": [
+   "hotel",
+   "management",
+   "simulation",
+   "unlimited",
+   "money",
+   "tickets"
+  ]
+ },
+ "com.unknown.nenpunkaiartetheme": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Ne\u00f3n Punk - AI Arte Theme is an app that lets you create visual themes using artificial intelligence. It generates artwork based on your input and provides a collection of neon\u2011style designs.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "66894179c284645ce1beef7c8f82856a01ea26f5ab0f67fafcdfb6a2ab9f0c4e",
+  "subtitle": "Create AI\u2011generated art themes",
+  "tags": [
+   "ai",
+   "vision",
+   "theme",
+   "art",
+   "generator",
+   "creative"
   ]
  },
  "com.unofficial.balatro": {
@@ -34012,6 +35443,27 @@
    "game"
   ]
  },
+ "com.wb.MK.Brawler2015": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Mortal Kombat hack by @kamohacks includes instant kill of individual enemies, force swapping enemy characters, and a one\u2011hit KO mode.",
+  "features": [
+   "Instant Kill",
+   "Force Swap",
+   "One\u2011Hit KO"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7d2d275f4a9626fb23591f67889d90faee5c4d8d01e97e378928ddacb4c330c9",
+  "subtitle": "Hack features for Mortal Kombat",
+  "tags": [
+   "mortal",
+   "kombat",
+   "hack",
+   "cheat",
+   "instantkill",
+   "forceswap"
+  ]
+ },
  "com.wb.dc.dcwc": {
   "category": "games",
   "date": "2026-10-20",
@@ -34311,6 +35763,23 @@
    "capacitor",
    "sideload",
    "ios"
+  ]
+ },
+ "com.xd.mbp31": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "MovieBox Pro offers a free tier with 360p video quality and paid tiers providing 720p, 1080p, 1440p, and 4K streaming.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b23956c3ddc458899cae11fc0503347a67175dc8ff63a80fc1f2943d36917061",
+  "subtitle": "Free & paid movie streaming platform",
+  "tags": [
+   "movie",
+   "streaming",
+   "free",
+   "paid",
+   "hd",
+   "4k"
   ]
  },
  "com.xiao.Def1nit3lyN0tAJa1lbr3akTool": {
@@ -34769,6 +36238,63 @@
    "tactics"
   ]
  },
+ "com.zanwingmak.nightfalltv": {
+  "category": "entertainment",
+  "date": "2026-10-31",
+  "description": "Open-source Apple TV app offering white noise, nature sounds, guided breathing, self-led meditation, and bedtime listening. Mix up to three sounds, start timed sessions, and choose an optional nature background or black screen. Built with SwiftUI and AVFoundation. Free, offline-first, no account required, no ads.",
+  "features": [
+   "Open Source",
+   "Free",
+   "Offline First",
+   "No Account",
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d1d5b8cba2c20f25e2188037d96518c3aa7bdc1aebff4631521e213a36f7b90d",
+  "subtitle": "Open-source sleep sounds for Apple TV",
+  "tags": [
+   "sleep",
+   "white-noise",
+   "meditation",
+   "apple-tv",
+   "open-source",
+   "offline"
+  ]
+ },
+ "com.zarz.mornye": {
+  "category": "entertainment",
+  "date": "2026-10-31",
+  "description": "Mornye is a mobile music utility application, rebranded from SpotiFLAC Mobile. Version 5.2.1 with bundle identifier com.zarz.mornye. Developed by scholars lounge under the mornyeapp brand. Built using Flutter framework.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7f377190f42701473d6381fcacfac60015f27d53ac0d350ae5ee9b0378e32bb4",
+  "subtitle": "Mobile music utility built with Flutter",
+  "tags": [
+   "music",
+   "utility",
+   "flutter",
+   "spotiflac",
+   "mobile",
+   "audio"
+  ]
+ },
+ "com.zenlife.tour": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "An IPA file is the installation package format used for iOS devices, allowing users to manually install apps.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6763e30f4d6893c4dc624434ef8727740aaf91dee9971c0ca6de92b286718fd2",
+  "subtitle": "IPA file format for iOS devices",
+  "tags": [
+   "ipa",
+   "ios",
+   "installation",
+   "package",
+   "format",
+   "manual"
+  ]
+ },
  "com.zeph.DynamicCoww": {
   "category": "utilities",
   "date": "2026-10-20",
@@ -34888,6 +36414,27 @@
    "plus",
    "mod",
    "entertainment"
+  ]
+ },
+ "com.zillionwhales.mushroomwars2": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Mushroom Wars 2 is a real-time strategy game for mobile. The modified version includes the full campaign map unlocked from the start. Command mushroom armies across varied maps, capture bases, and upgrade units in fast-paced battles. Supports single-player campaign and multiplayer modes.",
+  "features": [
+   "Full Campaign Unlocked",
+   "Real-Time Strategy",
+   "Multiplayer"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6b1c267e869b7de94a2f0ac7a0494d021bad0040d6213d5a203a95c24d31aef7",
+  "subtitle": "Real-time strategy with full campaign unlocked",
+  "tags": [
+   "strategy",
+   "rts",
+   "mushroom",
+   "campaign",
+   "multiplayer",
+   "mod"
   ]
  },
  "com.zitga.kingdom.defender.idle.rpg.games": {
@@ -35990,6 +37537,146 @@
    "customization"
   ]
  },
+ "cypwn.MobileTSS_TS.2.0.1": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "This app checks the signing status of iOS firmwares from Apple's servers and allows saving SHSH blobs locally.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7e59242bf8a6a77ce740fe3a79f2e880e9bce4245bb66d392a1834f988a2b200",
+  "subtitle": "Check firmware signing status and save SHSH blobs",
+  "tags": [
+   "firmware",
+   "shsh",
+   "signing",
+   "ios",
+   "apple",
+   "blobs"
+  ]
+ },
+ "cypwn.Mugunghwa_TS.3.0.2": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Version 3.0.2 includes a badge color changer, home gesture support, and true icon theming without webclips.",
+  "features": [
+   "Badge Color Changer",
+   "Home Gesture",
+   "True Icon Theming"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5fa08347e36f4b429982588432b08e05fa28f0704afdcb252ff511760e8ad967",
+  "subtitle": "Badge Color Changer & Home Gesture",
+  "tags": [
+   "badge",
+   "color",
+   "changer",
+   "gesture",
+   "icon",
+   "theming"
+  ]
+ },
+ "cypwn.Naiad.1.0": {
+  "category": "photo-video",
+  "date": "2026-10-31",
+  "description": "Naiad generates high\u2011resolution images using AI completely offline.",
+  "features": [
+   "Offline",
+   "High\u2011Resolution",
+   "AI Generation"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a03992ff5f36e50410458a999a829aad81a5d113ed2a73b448df73b8cdc67b96",
+  "subtitle": "Offline AI image generator",
+  "tags": [
+   "ai",
+   "image",
+   "generation",
+   "offline",
+   "high-resolution",
+   "art"
+  ]
+ },
+ "cypwn.NetflixChecker_TS.0.3": {
+  "category": "entertainment",
+  "date": "2026-10-31",
+  "description": "NetflixChecker_TS is a Netflix account checker developed by Julio Verne. The app allows users to verify Netflix account credentials.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bf6e535bbef845dbc1e504a408b157f038e1dbcc310be00e54ad60017d97c041",
+  "subtitle": "Netflix account checker tool",
+  "tags": [
+   "netflix",
+   "account",
+   "checker",
+   "verify",
+   "credentials",
+   "tool"
+  ]
+ },
+ "cypwn.NetworkManager1.1-2_TS.1.1-2": {
+  "category": "utilities",
+  "date": "2026-10-31",
+  "description": "NetworkManager lets you control network access on an app-by-app basis. Choose which applications can connect to the internet and which are blocked from network communication.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bc8c29f8a045c433eea311b6a0d41d96af4572510454bb180a432992f318e144",
+  "subtitle": "Per-app network access control",
+  "tags": [
+   "network",
+   "firewall",
+   "per-app",
+   "control",
+   "privacy",
+   "security"
+  ]
+ },
+ "cypwn.NewOS.1.0": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "NewOS brings the iOS 11 experience in an app. Developed by NewOS x CyPwn.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6fdbfaad24e4fa117b516e07f9cdc3462293a21c0b649076c5c7237de5722a1a",
+  "subtitle": "Experience iOS 11 on your device",
+  "tags": [
+   "ios",
+   "simulator",
+   "interface",
+   "experience",
+   "legacy",
+   "system"
+  ]
+ },
+ "cypwn.NewTerm3_for_Xina_TS.3.0b1": {
+  "category": "developer",
+  "date": "2026-10-31",
+  "description": "NewTerm3 is a terminal emulator designed for XinaA15 jailbreaks.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "155ab4a0aa7e34c6d3c7887e7f073744f13eddcbee111c7c1862037373dbd7b9",
+  "subtitle": "Terminal for XinaA15 jailbreaks",
+  "tags": [
+   "terminal",
+   "xinaa15",
+   "jailbreak",
+   "newterm3",
+   "command line",
+   "ssh"
+  ]
+ },
+ "cypwn.NiceBattery_TS.1.0": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "NiceBattery. The nicest.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fbdb00d5acd1093cdd1bb3c4ae125bbe76f90a5091b82b7bdf9cbe90eac3e1e1",
+  "subtitle": "NiceBattery \u2013 the nicest",
+  "tags": [
+   "nicebattery",
+   "nicest"
+  ]
+ },
  "cypwn.cl1m4x.1.3": {
   "category": "other",
   "date": "2026-10-18",
@@ -36164,6 +37851,25 @@
    "utility"
   ]
  },
+ "de.my-fit-coach.myfitcoach-ios": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "MyFitCoach is a fitness coaching app that has been modified to include pro features.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0a0a4f0451529ce6abf4e578789f8186ff3cd4807dadd0324bc9b26421a4fafa",
+  "subtitle": "Fitness coaching with pro features",
+  "tags": [
+   "fitness",
+   "coach",
+   "pro",
+   "modded",
+   "ipa",
+   "app"
+  ]
+ },
  "de.pinauten.Fugu15": {
   "category": "utilities",
   "date": "2026-10-25",
@@ -36268,6 +37974,26 @@
    "video",
    "watch",
    "entertainment"
+  ]
+ },
+ "dev.blazingonline.gameapp": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Naruto Shippuden includes a damage multiplier to boost attack power and a defense multiplier to increase damage resistance.",
+  "features": [
+   "Damage Multiplier",
+   "Defense Multiplier"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8e8f08ffd0290afb4bc5282149ef77ee7358e9dfef016cbd21fdbd92bc8ef927",
+  "subtitle": "Damage and defense multipliers for Naruto Shippuden",
+  "tags": [
+   "naruto",
+   "shippuden",
+   "damage",
+   "defense",
+   "multiplier",
+   "hack"
   ]
  },
  "dev.bluewake.BlueWake": {
@@ -37025,6 +38751,24 @@
    "projects"
   ]
  },
+ "fun.ask": {
+  "category": "social",
+  "date": "2026-10-31",
+  "description": "NGL is an anonymous messaging application that allows users to receive questions and messages from others without revealing their identity. The app provides a platform for anonymous interactions through shareable links. Version 6.2.111 includes Pro features unlocked.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7a0c50525d68df61f2b8cd2919c12b1a8f2c828f8bd1c5b661a70ab63618400e",
+  "subtitle": "Anonymous Q&A messaging app",
+  "tags": [
+   "anonymous",
+   "messaging",
+   "questions",
+   "social",
+   "privacy"
+  ]
+ },
  "games.calico.mantracker": {
   "category": "lifestyle",
   "date": "2026-10-28",
@@ -37110,6 +38854,23 @@
    "upgrades"
   ]
  },
+ "games.omicron.neonflight": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Neon Wings is an exhilarating game designed for iOS devices that combines fast-paced action, neon aesthetics, and intuitive controls.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a52c59f5cd73efcbf5918fa242e298a962e7a6817fdc0cd41c1c21ff7a702e57",
+  "subtitle": "Fast-paced neon action game",
+  "tags": [
+   "neon",
+   "wings",
+   "action",
+   "ios",
+   "game",
+   "fastpaced"
+  ]
+ },
  "games.onebutton.golfbattle": {
   "category": "games",
   "date": "2026-10-26",
@@ -37162,6 +38923,23 @@
    "magic",
    "adventure",
    "game"
+  ]
+ },
+ "games.rivvy.monstersurvivors": {
+  "category": "games",
+  "date": "2026-10-31",
+  "description": "Monster Survivors is an immersive game for iOS that keeps you on the edge of your seat.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "476af86d38e3f88e886234b2c71f622b4613becdfeda0b208db51c6e57aa5c2f",
+  "subtitle": "Immersive monster survival game",
+  "tags": [
+   "monster",
+   "survival",
+   "ios",
+   "game",
+   "immersive",
+   "mod"
   ]
  },
  "games.synthez.zombie.survival.multiplayer": {
@@ -39622,6 +41400,43 @@
    "monitor"
   ]
  },
+ "mobi.digitalminds.itunerfree": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "myTunerRadio offers a Premium feature. The IPA file has been verified and compiled by the TTJB Team.",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "93b20cf7ce58baf01f7d233322970b7e207dbd31a52419e69dc47503e6b7cad7",
+  "subtitle": "Premium radio streaming app",
+  "tags": [
+   "radio",
+   "tuner",
+   "premium",
+   "ipa",
+   "ttjb"
+  ]
+ },
+ "mobi.digitalminds.itunerfree.watchkitapp": {
+  "category": "entertainment",
+  "date": "2026-10-31",
+  "description": "myTuner Radio is a tweaked version of the radio streaming app with subscription features unlocked. Version 9.5.7. Note: restart the app if the subscription does not appear active. Original app provides access to live radio stations worldwide.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "937b994d93fdc5fb427493c54ac554f95f0be5b743203e58c1c6ab449e74e551",
+  "subtitle": "Live radio stations with subscription unlocked",
+  "tags": [
+   "radio",
+   "live",
+   "stations",
+   "streaming",
+   "music",
+   "news"
+  ]
+ },
  "moe.ampersand.track.sideload": {
   "category": "developer",
   "date": "2026-10-19",
@@ -39938,6 +41753,28 @@
    "utilities"
   ]
  },
+ "net.namedfork.minivmac": {
+  "category": "utilities",
+  "date": "2026-10-31",
+  "description": "Mini vMac emulates early Macintosh computers, including the Mac Plus, Mac II, and Mac 128K. It includes full sound output and a simulated keyboard with all standard Mac keys. The emulator supports external keyboards when connected, allows users to adjust the emulation speed, and provides options to import and export disk images.",
+  "features": [
+   "Full Sound Output",
+   "External Keyboard Support",
+   "Adjustable Speed",
+   "Disk Image Support"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "54371aa408a1c7c6ce1244b3046f6d2f1ec86e3a13979f8a6499eed757fedee9",
+  "subtitle": "Classic Macintosh emulator",
+  "tags": [
+   "emulator",
+   "mac",
+   "macintosh",
+   "retro",
+   "classic",
+   "disk"
+  ]
+ },
  "net.nerd.iNDS": {
   "category": "games",
   "date": "2026-10-27",
@@ -40210,6 +42047,25 @@
    "utility"
   ]
  },
+ "neurolist.app.neurolist": {
+  "category": "utilities",
+  "date": "2026-10-31",
+  "description": "Neurolist is an AI-powered planner designed for ADHD users. This version includes the subscription unlocked tweak from the source library. The app provides planning assistance tailored for attention deficit hyperactivity disorder management.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3fc5199843f59d85e67f43fdcb82ab94683566e25733257fce7edda188aeb8cb",
+  "subtitle": "AI Planner for ADHD with Subscription Unlocked",
+  "tags": [
+   "ai",
+   "planner",
+   "adhd",
+   "subscription",
+   "unlocked",
+   "productivity"
+  ]
+ },
  "nicolaeusebi.-gymlife": {
   "category": "lifestyle",
   "date": "2026-10-26",
@@ -40312,6 +42168,43 @@
    "app"
   ]
  },
+ "nt.nb.ios": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "NBv68279 is a modified application package with premium features injected. Distributed by AppTesters IPA Repo. The base application name and original functionality are not specified in the source data.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e5c88d306e57b96ebafe5c2cfa8fe3aaeffce08af4145a2e83f0acdc1209e7ca",
+  "subtitle": "Premium features unlocked",
+  "tags": [
+   "modified",
+   "premium",
+   "ipa",
+   "injected",
+   "app"
+  ]
+ },
+ "nt.nc.ios": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "This version is injected with premium features.",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3b6959c60bff821c4627ed8e4136df584ae7f8f53b0ef79f54c67c67362180db",
+  "subtitle": "Premium unlocked version",
+  "tags": [
+   "premium",
+   "injected",
+   "app",
+   "testers",
+   "ipa",
+   "repo"
+  ]
+ },
  "nya.asami.ksign": {
   "category": "developer",
   "date": "2026-10-28",
@@ -40343,6 +42236,26 @@
    "ttjb",
    "verified",
    "compiled"
+  ]
+ },
+ "nz.co.petesmith.moonphasefree": {
+  "category": "utilities",
+  "date": "2026-10-31",
+  "description": "Moon Plus is a tweak for the Moon Phase Calendar Plus app that unlocks premium features. Version 8.9.0 is patched and provides full access without additional purchases.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "640362b5bf0846ed401c01da83485878339cfdeb52dfc0ad208fafa72bd85d08",
+  "subtitle": "Moon Phase Calendar Plus \u2013 Premium Unlocked",
+  "tags": [
+   "moon",
+   "phase",
+   "calendar",
+   "tweak",
+   "premium",
+   "unlocked"
   ]
  },
  "nz.owo.DYDL": {
@@ -40619,24 +42532,18 @@
  },
  "org.floeagent.ios": {
   "category": "utilities",
-  "date": "2026-10-30",
-  "description": "The iOS setup guide provides four recommendations to prefill choices for models, search, voice and workspaces while keeping every section editable. Continue setup while voice packs, models or environments download and check progress later. Apple Intelligence is off by default for new users. Cloud model requests go directly to your chosen provider and supported local models run inference on the device. Credentials stay in protected storage on your device. Files, uploads and remote actions follow task permissions, with consequential actions confirmed under the current policy.",
-  "features": [
-   "Model management",
-   "Cloud and local models",
-   "Protected credentials",
-   "Task permissions"
-  ],
+  "date": "2026-10-31",
+  "description": "Get started with an iOS setup guide offering four recommendations to prefill choices for models, search, voice, and workspaces while keeping every section editable. Continue setup while voice packs, models, or environments download, and check progress later. Apple Intelligence is off by default for new users. Cloud model requests go directly to your chosen provider, while supported local models run inference on the device. Credentials stay in protected storage on your device. Files, uploads, and remote actions follow task permissions, with consequential actions confirmed under the current policy.",
+  "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "ebb1299ac7e91a581470be0fcab8db898a31027f3a02ce3d9c7213439bb1fcf8",
-  "subtitle": "Setup guide and cloud or local model management",
+  "src_hash": "3677afe3697ff9884246a7409df384caae0005b5f2ecf6f646dca23389866613",
+  "subtitle": "Setup guide and configuration for AI models",
   "tags": [
    "ai",
    "models",
    "setup",
-   "utility",
-   "cloud",
-   "agent"
+   "utilities",
+   "security"
   ]
  },
  "org.getlantern.lantern": {
@@ -40800,6 +42707,29 @@
    "open-source",
    "free",
    "wifi"
+  ]
+ },
+ "org.masterpiece.player": {
+  "category": "utilities",
+  "date": "2026-10-31",
+  "description": "Masterpiece plays sampled pipe organs. It reads Hauptwerk-format sample sets and GrandOrgue organs, draws each instrument's own console, and plays it from the mouse, a MIDI keyboard or a full console. It is an independent implementation written in C++20 and JUCE under the GPL-3.0 license. The application runs standalone and includes VST3, LV2, and macOS Audio Unit plugins.",
+  "features": [
+   "Hauptwerk and GrandOrgue suppo",
+   "MIDI keyboard compatibility",
+   "Standalone application",
+   "VST3 and LV2 plugins",
+   "macOS Audio Unit support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c84cb7e196ce2d683cc59c85e7d86854543ae98cdb9af548de54160b1dd16585",
+  "subtitle": "Sampled pipe organ player for Hauptwerk and GrandOrgue",
+  "tags": [
+   "organ",
+   "music",
+   "midi",
+   "audio",
+   "instrument",
+   "plugin"
   ]
  },
  "org.omarchy.flux.ios": {
@@ -41031,6 +42961,23 @@
    "utilities"
   ]
  },
+ "paige.Navic": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Navic is a Navidrome client for Android and iOS featuring a Material 3 Expressive design.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9ab64ed4c6a3ab487ce134c5c9aadf4ab31ef3763b7878ac25123d0870a5f290",
+  "subtitle": "Navidrome client with Material 3 design",
+  "tags": [
+   "navidrome",
+   "client",
+   "android",
+   "ios",
+   "material3",
+   "expressive"
+  ]
+ },
  "pl.Garmory.MargonemAdventures": {
   "category": "games",
   "date": "2026-10-29",
@@ -41098,6 +43045,23 @@
    "cute",
    "ios",
    "game"
+  ]
+ },
+ "pw.msan.mlabeler": {
+  "category": "photo-video",
+  "date": "2026-10-31",
+  "description": "mLabeler is a labeling editor designed for singing voice data. It features phoneme and word tiers, notes and pitch editing, and UTAU oto support. Developed with Kotlin and Compose Multiplatform, mLabeler provides a unified tool across desktop and mobile platforms.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "564f1f516a10eb93be76eff556c7514be52b95aa31f31eebc8fb066ef6e35220",
+  "subtitle": "Labeling editor for singing voice data",
+  "tags": [
+   "mlabeler",
+   "labeling",
+   "singing",
+   "audio",
+   "utau",
+   "pitch"
   ]
  },
  "qr.code.reader.cs": {
@@ -41875,6 +43839,22 @@
    "casual"
   ]
  },
+ "us.besttime.enil": {
+  "category": "lifestyle",
+  "date": "2026-10-31",
+  "description": "Level Read delivers daily English news to help you stay informed and practice your reading skills every day. Designed for iOS 15.1 and later.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "017892fbace225e60e9fa022bc99bc01c0df8d6f995b94b9310ecee6e8a52b46",
+  "subtitle": "Daily English News",
+  "tags": [
+   "english",
+   "news",
+   "daily",
+   "reading",
+   "learn"
+  ]
+ },
  "us.electronic.docast": {
   "category": "utilities",
   "date": "2026-10-20",
@@ -42049,6 +44029,23 @@
    "learning",
    "knowledge",
    "ios"
+  ]
+ },
+ "vladchechura.VocabularyEN": {
+  "category": "lifestyle",
+  "date": "2026-10-31",
+  "description": "MyVocab is an iOS application designed to help users learn new words effortlessly. The app provides vocabulary building tools for language learning and word acquisition.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "87c0c08eaa12b00966a3b27d5f51cac75b737812652bb19fd243ebcb7022584b",
+  "subtitle": "Learn new words effortlessly on iOS",
+  "tags": [
+   "vocabulary",
+   "learning",
+   "words",
+   "education",
+   "language",
+   "study"
   ]
  },
  "vn.qifi.gotchigalaxy": {
@@ -42257,6 +44254,23 @@
    "cinema",
    "streaming",
    "kinohome"
+  ]
+ },
+ "xyz.nextalone.nagram": {
+  "category": "other",
+  "date": "2026-10-31",
+  "description": "Nagram is an app by @ipavault that helps sideload IPA files using FastSign operated by CertFish. The service provides an easy way to sideload via cert.fish.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f10ccff79fc53ba63581d40e10a70f9c522b7066b3b38e5a62ff985cbb1951d9",
+  "subtitle": "Sideload IPA files easily",
+  "tags": [
+   "nagram",
+   "sideload",
+   "ipa",
+   "fastsign",
+   "certfish",
+   "vault"
   ]
  },
  "xyz.shameful.Harbour": {
