@@ -253,6 +253,25 @@
    "general"
   ]
  },
+ "HUTAR.PaintingAR": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "Painter Eye is an AR drawing application requiring iOS 18.0 or later. Current version 4.5.1 available on the App Store.",
+  "features": [
+   "AR Drawing"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "202d1d502d8155ad84862221907cfbed3d412a6d43b8042f8e8eb6d830318683",
+  "subtitle": "AR drawing app for iOS 18+",
+  "tags": [
+   "ar",
+   "drawing",
+   "ios",
+   "app",
+   "painter",
+   "eye"
+  ]
+ },
  "InkHunter.inkHunter": {
   "category": "other",
   "date": "2026-10-27",
@@ -573,6 +592,42 @@
    "audio",
    "melody",
    "separation"
+  ]
+ },
+ "ai.nikcli.mobile": {
+  "category": "developer",
+  "date": "2026-11-01",
+  "description": "Nikcli is a fork of OpenCode, the open source coding agent. It is an AI-powered development tool supporting CLI, TUI, server, web, mobile, and bots. All credit for the original project goes to the OpenCode authors and its community, as nikcli is built upon their open source work.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "f8cd1628637b5fd17f89cd75667b7afa724efaf08a8b4a699dfe6e5d7a198e9c",
+  "subtitle": "AI-powered coding agent",
+  "tags": [
+   "coding",
+   "ai",
+   "developer",
+   "cli",
+   "agent"
+  ]
+ },
+ "ai.parrotpal": {
+  "category": "lifestyle",
+  "date": "2026-11-01",
+  "description": "ParrotPal is an AI-powered calorie counter application. This modified version includes subscription features unlocked. Version 200. Patched release from @riftysIPAlibrary.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "813ec6315bf5d0d944f090cb3c5790eb5e199b7602f433d4a3a2cc7a521a77e1",
+  "subtitle": "AI calorie counter with subscription unlocked",
+  "tags": [
+   "ai",
+   "calorie",
+   "counter",
+   "diet",
+   "nutrition",
+   "health"
   ]
  },
  "ai.series.evergrove": {
@@ -1160,6 +1215,23 @@
    "server"
   ]
  },
+ "app.netfish.ios": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "Netfish is a front door application for your home media server. It allows you to browse, discover, request, download, and watch media using the server stack you already run, including Jellyfin, Seerr, Radarr, Sonarr, Prowlarr, Bazarr, and qBittorrent, without changing your existing setup. The app features a streaming service style home screen with continue watching, ready to watch, top picks, recommendations, new arrivals, trending, and coming soon sections. An optional discover tab lets administrators split the home screen to show library content ready for playback separately from items available to request.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "721618fa47450a03ae5330243809a1b511f21e336b55d90894ba6d1b48fe1c56",
+  "subtitle": "Netflix-style front door for home media servers",
+  "tags": [
+   "media",
+   "server",
+   "streaming",
+   "jellyfin",
+   "downloader",
+   "frontdoor"
+  ]
+ },
  "app.nicegram": {
   "category": "utilities",
   "date": "2026-10-31",
@@ -1180,6 +1252,22 @@
    "utility"
   ]
  },
+ "app.notes.Notes": {
+  "category": "developer",
+  "date": "2026-11-01",
+  "description": "Apple Notes meets GitHub. A native SwiftUI iPhone app for local-first notes that can be linked to files in GitHub repositories, featuring real commits, history, diffs, offline editing, and conflict resolution. Requires iOS 26 and newer, and automatically targets iOS 27 once available on the build machine. The bundle is named nbwsc-vX.Y.Z.ipa alongside a sha256 file. Version numbers are computed from the latest tag or entered explicitly without reuse, unit tests are run, and the app is archived to package an ipa.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "93a7e58c0bb284a19ad4de5833243a956243116a4fc85de77e7743bad12baeb9",
+  "subtitle": "Apple Notes meets GitHub for local-first notes",
+  "tags": [
+   "notes",
+   "github",
+   "swiftui",
+   "git",
+   "local-first"
+  ]
+ },
  "appcake2.iphonecake.com": {
   "category": "other",
   "date": "2026-10-15",
@@ -1197,6 +1285,29 @@
    "ipa",
    "library",
    "utilities"
+  ]
+ },
+ "ar.kevinroberts.nicotind": {
+  "category": "entertainment",
+  "date": "2026-11-01",
+  "description": "NicotinD is a self-hosted music server that scans, streams, and enriches your music library. It combines music acquisition and playback into one app, covering your own files and external sources including Soulseek via slskd, YouTube, Spotify, and archive.org. All results go into a single organized, tagged, and analyzed library. Features include offline track saving, cross-device casting and control, metadata-driven radio based on BPM, key, genre, and mood, karaoke-style synced lyrics with vocal mute, listening history and statistics, and auto-generated playlists.",
+  "features": [
+   "Offline playback",
+   "Cross-device casting",
+   "Synced lyrics",
+   "Smart radio",
+   "Unified search"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "8b312af8eb686df94e77a751d277939be0a757c73e806117b304f799ac8226f8",
+  "subtitle": "Self-hosted music server and library manager",
+  "tags": [
+   "music",
+   "streaming",
+   "server",
+   "audio",
+   "player",
+   "self-hosted"
   ]
  },
  "archery.clash.game": {
@@ -1759,6 +1870,25 @@
    "art",
    "social",
    "furry"
+  ]
+ },
+ "ch.b-eng.tor": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Injected with Premium.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "70fe9a251ac098bed2813bedaca928e78b5395d0f9245e2e63fa9a27d4a0f6bc",
+  "subtitle": "Premium version of OrNETBrowser",
+  "tags": [
+   "ornetbrowser",
+   "premium",
+   "browser",
+   "ipa",
+   "repo",
+   "app"
   ]
  },
  "chaoge.ChargeLimiter": {
@@ -2696,6 +2826,45 @@
    "ttjb"
   ]
  },
+ "com.Evrika.FantasyMinerAlpha": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Orecraft: Mining Camp is a mining simulation game where players build and expand a resource camp. The experience focuses on calm, engaging gameplay as you manage resources and develop your mining operation.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6d3b63536cb9b026cf218ebf393b94767dfa8b83df095e6f09759c61c7665b1f",
+  "subtitle": "Calm mining simulation camp builder",
+  "tags": [
+   "mining",
+   "simulation",
+   "camp",
+   "building",
+   "resource",
+   "idle"
+  ]
+ },
+ "com.FaizanDurrani.Paperback": {
+  "category": "entertainment",
+  "date": "2026-11-01",
+  "description": "Paperback is a fully ad-free manga reader for iOS 13 and iPadOS 13.4 or later. It includes iPad support with a double spread chapter reader. MangaDex integration syncs your manga library and settings to and from MangaDex. The app contains no advertisements.",
+  "features": [
+   "Ad-Free",
+   "MangaDex Sync",
+   "iPad Support",
+   "Double Spread Reader"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c029894ea3675b45d2ccc12af0e9317adaa4416f265a5c81ea4d74ef6dcfc97f",
+  "subtitle": "Ad-free manga reader with MangaDex sync",
+  "tags": [
+   "manga",
+   "reader",
+   "ipad",
+   "mangadex",
+   "ad-free",
+   "ios"
+  ]
+ },
  "com.FirstPickStudios.Endless-Wander": {
   "category": "games",
   "date": "2026-10-21",
@@ -3269,6 +3438,23 @@
    "game"
   ]
  },
+ "com.Pattrn": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "Pattrn is an AI-powered self-improvement app for iOS 17.0 and later. Current version 3.0.3.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a1b85017ea53bb907233453c27c09a75f46c129a6ecf845f33067cd6e8cc8765",
+  "subtitle": "AI-powered self-improvement app",
+  "tags": [
+   "ai",
+   "self-improvement",
+   "habits",
+   "tracker",
+   "productivity",
+   "wellness"
+  ]
+ },
  "com.PixelFade.ACEAcademy": {
   "category": "entertainment",
   "date": "2026-10-14",
@@ -3407,6 +3593,23 @@
    "fastsign",
    "certfish",
    "sideload"
+  ]
+ },
+ "com.SpektraGames.ParkingMasterMultiplayer2": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Parking Master Multiplayer 2 is an arcade-style multiplayer parking game that blends competitive driving challenges.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9cf68cc1be5172cd19df98ffb21db7c10673390e88646b2c2120c3760e7ab50a",
+  "subtitle": "Multiplayer arcade parking game",
+  "tags": [
+   "parking",
+   "multiplayer",
+   "arcade",
+   "driving",
+   "competition",
+   "simulation"
   ]
  },
  "com.TDMbest.DT2": {
@@ -4014,6 +4217,23 @@
    "home"
   ]
  },
+ "com.abishkking.pdfreader": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "PDF Reader \u2013 PDF Viewer 2023. IPA files have become an integral part of our digital lives. They are widely used for sharing important documents.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5e1b25d23f6f880b1f2fc59bfb7ea4272a43509a72eb696e00230c4e3cf6b436",
+  "subtitle": "PDF Reader \u2013 View PDF files",
+  "tags": [
+   "pdf",
+   "viewer",
+   "reader",
+   "ipa",
+   "utility",
+   "documents"
+  ]
+ },
  "com.abishkking.workoutformen": {
   "category": "lifestyle",
   "date": "2026-10-27",
@@ -4062,6 +4282,23 @@
    "streamer",
    "shows",
    "entertainment"
+  ]
+ },
+ "com.activision.peanuts": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Peanuts Snoopy Town Tale lets you create and manage a town featuring classic Peanuts characters including Snoopy, Charlie Brown, and Woodstock. Complete quests, unlock new areas, and interact with the beloved cast from Charles Schulz's comic strip. The game includes familiar locations from the Peanuts universe and character-driven storylines.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ac698957ad2fe27b622dc732c8a8850b29b78654eb87d6174ebf11fff4f5295f",
+  "subtitle": "Build a town with Snoopy and friends",
+  "tags": [
+   "peanuts",
+   "snoopy",
+   "charlie brown",
+   "woodstock",
+   "town building",
+   "simulation"
   ]
  },
  "com.adbanao": {
@@ -5477,6 +5714,26 @@
    "free"
   ]
  },
+ "com.apalonapps.pdfeditor": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "PDF Hero is a PDF editor and reader. Version 2.14.20 requires iOS 14.0. The build is patched and the subscription is unlocked. Restart the app if the subscription does not activate. Tweaked by @blatants.",
+  "features": [
+   "Patched",
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9810fa1565d62e2e6a531cd9d429a3dc980f910dcd68cd503300bfbc427db44d",
+  "subtitle": "PDF editor with subscription unlocked",
+  "tags": [
+   "pdf",
+   "editor",
+   "reader",
+   "subscription",
+   "unlocked",
+   "patched"
+  ]
+ },
  "com.apalonapps.plants": {
   "category": "other",
   "date": "2026-10-15",
@@ -5613,6 +5870,23 @@
    "maker",
    "creative",
    "art"
+  ]
+ },
+ "com.appexosolutions.scanner": {
+  "category": "photo-video",
+  "date": "2026-11-01",
+  "description": "PDF Scanner converts photos to PDF files on iPhone. The app functions as a photos to PDF converter for users who need to create PDF documents from images.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2a135dbeb110168565631069774c1baef0add460fc2f9fedc01a01ac1fd32ad0",
+  "subtitle": "Convert photos to PDF documents",
+  "tags": [
+   "pdf",
+   "scanner",
+   "photos",
+   "converter",
+   "document",
+   "image"
   ]
  },
  "com.appitate.callrecorder": {
@@ -6408,6 +6682,28 @@
    "certificate"
   ]
  },
+ "com.battlecreek.offroadoutlaws": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Offroad Outlaws hack provides free in-app purchases, lets users buy their own certificate, includes an Apple ID with paid games, and offers a group chat feature.",
+  "features": [
+   "Free IAP",
+   "Buy Your Own Certificate",
+   "Apple ID With Paid Games",
+   "Group Chat"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "969981b9339cfda30afb91e06eed6254172df2c328afb0eed6978ad842e5983e",
+  "subtitle": "Offroad racing with free IAP hacks",
+  "tags": [
+   "offroad",
+   "outlaws",
+   "hack",
+   "free iap",
+   "certificate",
+   "group chat"
+  ]
+ },
  "com.battleon.aq3d": {
   "category": "games",
   "date": "2026-10-15",
@@ -6720,6 +7016,26 @@
    "village",
    "building",
    "game"
+  ]
+ },
+ "com.bigbrains.parallel": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Parallel Live: Fake Live version 2.3.32 is a patched tweak offering Pro Unlocked and Unlimited Coins. Made by @riftysIPAlibrary.",
+  "features": [
+   "Pro Unlocked",
+   "Unlimited Coins"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fde13580fbce5241edf8accc24e213e401b4b721bdf2d3f26f283fa1631e090a",
+  "subtitle": "Fake live streaming with unlocked features",
+  "tags": [
+   "fake live",
+   "streaming",
+   "modded",
+   "unlocked",
+   "coins",
+   "tweak"
   ]
  },
  "com.bigfishgames.cookingempireuniversalf2p": {
@@ -7672,6 +7988,23 @@
    "editing"
   ]
  },
+ "com.camerasideas.Peachy": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Peachy is an application described as injected with premium features. No additional details about functionality or purpose are provided in the source information.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "46be4d67322c4cc79bf6e121d364ff502fd694ade44f67fc96a2c47e89c5d675",
+  "subtitle": "Peachy app with premium features",
+  "tags": [
+   "peachy",
+   "premium",
+   "modified",
+   "unlocked"
+  ]
+ },
  "com.camila314.icreate": {
   "category": "other",
   "date": "2026-10-27",
@@ -8055,6 +8388,29 @@
    "dungeon",
    "rpg",
    "game"
+  ]
+ },
+ "com.chiraitori.paperand.ios": {
+  "category": "entertainment",
+  "date": "2026-11-01",
+  "description": "Paperand is an ad-free manga reader built with Expo and React Native. It supports Paperback extensions for multiple sources, lets you browse and search manga with genre filters, saves favorites and a personal library, tracks reading progress and history, offers dark mode with custom color themes, and provides vertical scroll or horizontal page-flip reading modes with easy chapter navigation.",
+  "features": [
+   "Ad-Free",
+   "Paperback Extensions",
+   "Dark Mode",
+   "Dual Reading Modes",
+   "Multi-Source Search"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5cf64cc91412a2828a9b6596b21ca637cee2fb640b88c70c9c8ce3ec0c983816",
+  "subtitle": "Ad-free manga reader with Paperback extensions",
+  "tags": [
+   "manga",
+   "reader",
+   "adfree",
+   "extensions",
+   "darkmode",
+   "library"
   ]
  },
  "com.chitralekha.evolution": {
@@ -8913,6 +9269,39 @@
    "customization"
   ]
  },
+ "com.creativemobile.nno": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Drift mode arrives to Nitro Nation. Race, mod, and track dozens of cars in this drag racing experience.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "331424786665c6fc11880c03396b11b14dde48ed87faf82986e4fed6c55963ac",
+  "subtitle": "Drag and drift racing game",
+  "tags": [
+   "racing",
+   "drag",
+   "drift",
+   "cars",
+   "game"
+  ]
+ },
+ "com.creatyglobal.pccreator3": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "PC Creator 3 is an iOS app that lets you assemble and design detailed computer builds. Select components, configure hardware, and simulate the PC building process on your device.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0cb0fb0f86699cba1e1f2313caf6770c41ec9ea6ee3014b7cad2b12685b3ff20",
+  "subtitle": "Build and design custom PCs on iOS",
+  "tags": [
+   "pc building",
+   "simulation",
+   "computer design",
+   "hardware",
+   "tech",
+   "builder"
+  ]
+ },
  "com.cresca.app": {
   "category": "entertainment",
   "date": "2026-10-19",
@@ -8989,6 +9378,24 @@
    "audio",
    "tts",
    "recorder"
+  ]
+ },
+ "com.crossforward.pedometer": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Pedometer app that tracks steps. This version is injected with premium features.",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4b03ccb9f01561b1e8869760ac85539ca8bfeec466191c050094d6a9b281e139",
+  "subtitle": "Step counter with premium features",
+  "tags": [
+   "pedometer",
+   "premium",
+   "ipa",
+   "apptesters",
+   "repo"
   ]
  },
  "com.crunchyroll.bleachsoulres": {
@@ -10100,6 +10507,23 @@
    "racing"
   ]
  },
+ "com.digiset.pdfit": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "An all-in-one PDF converter tool. Created per user request. Last updated June 19, 2024.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "60e694f0ca75715701e52db8fed3d1a6d939aca31ae6773107f2ee0930a29cf6",
+  "subtitle": "All-in-one PDF converter tool",
+  "tags": [
+   "pdf",
+   "converter",
+   "tool",
+   "allinone",
+   "utility",
+   "pdftools"
+  ]
+ },
  "com.dino.bus.out": {
   "category": "games",
   "date": "2026-10-15",
@@ -10315,6 +10739,26 @@
    "city",
    "games",
    "unlocked"
+  ]
+ },
+ "com.downloader.omniForPyload": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "Omni is an iOS app for managing downloads on a pyLoad server. It requires pyLoad version 0.5.0b3.dev98 or newer and an API key to add a server. The app is currently in beta, free, and open\u2011source. It supports multiple pyLoad instances and automatically refreshes all views without manual action. Donations are accepted to fund Apple Developer Program enrollment.",
+  "features": [
+   "Multiple instances",
+   "Auto-refresh views"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "90703f0c7c8fecb17f5c7475e1bced6543922a993f4e39330395a0c487e5e2a9",
+  "subtitle": "Manage pyLoad downloads on iOS",
+  "tags": [
+   "pyload",
+   "download manager",
+   "beta",
+   "open source",
+   "multiple instances",
+   "auto refresh"
   ]
  },
  "com.dpixel.DPixelTV": {
@@ -10719,6 +11163,26 @@
    "game"
   ]
  },
+ "com.ea.nfs2014.bv": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Need for Speed No Limits hack features including dumb opponents, no cops, and unlimited nitro. Sideload the app easily using a certificate.",
+  "features": [
+   "Dumb Opponents",
+   "No Cops",
+   "Unlimited Nitro"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "311665c2f227597344eaf7d1c01716c487b5bb8fbd1ad40cbe4c06c3ac2a49a2",
+  "subtitle": "Need for Speed No Limits hack features",
+  "tags": [
+   "racing",
+   "mod",
+   "nitro",
+   "hack",
+   "sideload"
+  ]
+ },
  "com.ea.starwarscapital.bv": {
   "category": "games",
   "date": "2026-10-27",
@@ -11064,6 +11528,29 @@
    "streaming"
   ]
  },
+ "com.elsterlee.NeoBili": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "NeoBili is a native, third-party Bilibili client for iPhone, built with SwiftUI, Swift 6, and Liquid Glass on iOS 26. Powered by MPVKit, it follows iOS conventions instead of mirroring a cross-platform design and collects no data. NeoBili is an unofficial client developed independently by an individual and is not affiliated with, authorized, or endorsed by Bilibili. It is free for personal and educational use only and may not be used commercially.",
+  "features": [
+   "Native SwiftUI",
+   "Powered by MPVKit",
+   "No Data Collected",
+   "Swift 6",
+   "Free"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "c4624485444788399678b71445bd6584a9653b9ee440e515f74e63a119e51beb",
+  "subtitle": "A native, third-party Bilibili client for iPhone.",
+  "tags": [
+   "bilibili",
+   "client",
+   "video",
+   "streaming",
+   "native",
+   "swiftui"
+  ]
+ },
  "com.elven.blade": {
   "category": "games",
   "date": "2026-10-21",
@@ -11314,6 +11801,23 @@
    "games",
    "ios",
    "epic games"
+  ]
+ },
+ "com.epicgames.FortniteGame.120fps": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Fortnite for iOS with 120 FPS support.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a006d7cf23910d88abc3fbe063d475ecb830856e96923461161f868f0936c1a0",
+  "subtitle": "Fortnite on iOS, 120FPS",
+  "tags": [
+   "fortnite",
+   "ios",
+   "battle royale",
+   "multiplayer",
+   "epic games",
+   "celestial devs"
   ]
  },
  "com.epicoro.castleclashers": {
@@ -12333,6 +12837,29 @@
    "ipa"
   ]
  },
+ "com.firestudios.paperwar": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Paper War is a modified version of the strategy game featuring enabled cheats. This build includes a gold multiplier, infinite diamonds, infinite meat, infinite tickets, summon level 20, 999 boss rush keys, and 999 gold rush keys. The modifications remove resource limits and progression barriers found in the standard release. Published by ipaomtk.com as a pre-modified IPA.",
+  "features": [
+   "Gold Multiplier",
+   "Infinite Diamonds",
+   "Infinite Resources",
+   "Max Summon Level",
+   "Unlimited Keys"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "db7d929f6b41cc5c8e0e1201d19d7fa5b3a3e16a55fb85d0406e49728de39e8f",
+  "subtitle": "Modded strategy game with unlimited resources",
+  "tags": [
+   "strategy",
+   "modded",
+   "unlimited",
+   "cheats",
+   "ipa",
+   "paperwar"
+  ]
+ },
  "com.firsttouch.dls7": {
   "category": "utilities",
   "date": "2026-10-20",
@@ -12475,6 +13002,121 @@
    "productivity",
    "time",
    "utilities"
+  ]
+ },
+ "com.flipline.papasdonuteriatogo": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Modified version of Papa's Donuteria To Go. Injected with premium features unlocked. Original game by Flipline Studios where players run a donut shop, take orders, fry donuts, add toppings, and serve customers to earn tips and upgrade the shop.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "46478fe29b9059f37d2a84b2ad10179a691868b477f4837baa29797757c24dd7",
+  "subtitle": "Papa's Donuteria To Go with premium features",
+  "tags": [
+   "papa's donuteria",
+   "cooking game",
+   "time management",
+   "premium unlocked",
+   "flipline studios",
+   "ipa"
+  ]
+ },
+ "com.flipline.papasfreezeriatogo": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "This build of Papa's Freezeria To Go has all functions unlocked.",
+  "features": [
+   "Unlocked",
+   "All Functions"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "80f0fce482269a44e39cdc4a986af13278873b75fab58b24e211d7fe2f659238",
+  "subtitle": "Unlocked version of Papa's Freezeria To Go",
+  "tags": [
+   "papas",
+   "freezeria",
+   "togo",
+   "unlocked",
+   "ipa",
+   "repo"
+  ]
+ },
+ "com.flipline.papashotdoggeriatogo": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "This version of Papa's Hot Doggeria To Go has been injected with premium features.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "547cbdf3e582d3f32c917855826086cd84f9f4622c0e724de7e059da77bdcf0a",
+  "subtitle": "Premium unlocked version",
+  "tags": [
+   "papas",
+   "hotdoggeria",
+   "togo",
+   "premium",
+   "ipa",
+   "mod"
+  ]
+ },
+ "com.flipline.papaspancakeriatogo": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "The app is a modified version of Papa's Pancakeria To Go with premium features unlocked.",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e4a3538939894bb4c0317bbf20969e4b98012f5dba64ad56fc3d2701589a083b",
+  "subtitle": "Papa's Pancakeria To Go \u2013 Premium unlocked",
+  "tags": [
+   "papas",
+   "pancakeria",
+   "togo",
+   "premium",
+   "ipa",
+   "repo"
+  ]
+ },
+ "com.flipline.papasscooperiatogo": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "This is a modified version of Papa's Scooperia To Go! with premium features injected. Original game by Flipline Studios. Distributed via AppTesters IPA Repo.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "79967edd94fdd22efc58f511ae34fbec0ab3d8eab8db9071c0c003981200bc81",
+  "subtitle": "Premium version of Papa's Scooperia To Go!",
+  "tags": [
+   "papa",
+   "scooperia",
+   "cooking",
+   "simulation",
+   "premium",
+   "modified"
+  ]
+ },
+ "com.flipline.papassushiriatogo": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Papa's Sushiria To Go! is a cooking simulation game where you run a sushi restaurant. Take orders, cook rice, add ingredients, and serve customers. This modified version has premium features injected.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4052d1ff299c4d3e845bf4888454f2d458b50413e69a5afd6e559af230469d16",
+  "subtitle": "Papa's Sushiria cooking game with premium unlocked",
+  "tags": [
+   "papa's",
+   "sushiria",
+   "cooking",
+   "simulation",
+   "game",
+   "premium"
   ]
  },
  "com.fluffyfairygames.idleminertycoon": {
@@ -13727,6 +14369,24 @@
    "remote",
    "utilities",
    "developer"
+  ]
+ },
+ "com.gingerlabs.Notability": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "Notability is a note-taking and PDF annotation application. This version is injected with Pro features.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "54432d1abe391f7a00b222ae18befeed6b35611f4947cfce427c68ee0c713f08",
+  "subtitle": "Note-taking and PDF annotation",
+  "tags": [
+   "notes",
+   "pdf",
+   "annotation",
+   "writing",
+   "productivity"
   ]
  },
  "com.giovlnv.tarotreader": {
@@ -15186,6 +15846,25 @@
    "offline"
   ]
  },
+ "com.handy.optus": {
+  "category": "entertainment",
+  "date": "2026-11-01",
+  "description": "OpusIPTVPublic is a modified IPA of an IPTV streaming application. The modification enables in-app purchase bypass by initiating purchase flows then canceling them. The IPA file has been verified and packaged by the TTJB Team. This is a third-party repackaged version not affiliated with the original app developer.",
+  "features": [
+   "IAP Bypass",
+   "Third-party Build"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a21cca859ac83e96fa7c8a94ed09e64b7704cd4446f9ee8f92454d606367a7a7",
+  "subtitle": "Modified IPTV player with IAP bypass",
+  "tags": [
+   "iptv",
+   "streaming",
+   "modified",
+   "ipa",
+   "ttjb"
+  ]
+ },
  "com.happy.fastdiet": {
   "category": "lifestyle",
   "date": "2026-10-21",
@@ -16244,6 +16923,23 @@
    "trollstore"
   ]
  },
+ "com.ichitaso.otadisablerts": {
+  "category": "developer",
+  "date": "2026-11-01",
+  "description": "OTADisabler is a tool for TrollStore that disables OTA updates. Last updated on 02-01-2024. Status: active.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8bacdbf40ba4717e9ce0cfdc1fc6b7279fe15b851bb56cabeb3e97d6690e9c74",
+  "subtitle": "OTA disabler for TrollStore",
+  "tags": [
+   "otadisabler",
+   "trollstore",
+   "ota",
+   "disabler",
+   "tool",
+   "ios"
+  ]
+ },
  "com.icsm.client": {
   "category": "games",
   "date": "2026-10-27",
@@ -16263,6 +16959,25 @@
    "port",
    "action",
    "gaming"
+  ]
+ },
+ "com.ideation.Peak": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "PeakWatch is an iOS application with premium features injected.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "073b92b6aa5ecdf52d7fe87a1ad0d3be7993317a4e511e1f3a054db03a2b5898",
+  "subtitle": "Premium features unlocked",
+  "tags": [
+   "peakwatch",
+   "premium",
+   "injected",
+   "ios",
+   "app",
+   "modified"
   ]
  },
  "com.identification.plant": {
@@ -16684,6 +17399,26 @@
    "utilities",
    "finance",
    "tools"
+  ]
+ },
+ "com.indiegoodies.Weather2": {
+  "category": "lifestyle",
+  "date": "2026-11-01",
+  "description": "Peek Weather is a rain forecast tweak for iOS. Version 1.7.0 includes a patched subscription unlock. Distributed via @riftysIPAlibrary. Sideloading facilitated by FastSign from CertFish.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d68f9646d930c75715b31fdbf2030051f20b30971fc2a012e03681d6fb586c62",
+  "subtitle": "Rain forecast with unlocked subscription",
+  "tags": [
+   "weather",
+   "rain",
+   "forecast",
+   "tweak",
+   "unlocked",
+   "sideload"
   ]
  },
  "com.inflow.app": {
@@ -19273,6 +20008,74 @@
    "ios"
   ]
  },
+ "com.ipaomtk.overgeared.hero.merge.rpg.152391": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Overgeared Hero: Merge RPG is an iOS game package that combines merge mechanics with role\u2011playing elements. Players merge items to strengthen heroes and progress through stages.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5575904cc3be7cc41957e64bd67034b151a3990463e8dab7d54805f6a6eef62a",
+  "subtitle": "Merge mechanics meet RPG adventure",
+  "tags": [
+   "merge",
+   "rpg",
+   "ios",
+   "game",
+   "hero",
+   "adventure"
+  ]
+ },
+ "com.ipaomtk.pacer.pedometer.step.counter.155443": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Pacer Pedometer Step Counter IPA is an iOS installation package that lets users install the Pacer Pedometer Step Counter app on their devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e9afe922135ff80f252ca338b1b3457c0134cb59f3cd4892a8f6637821e78e58",
+  "subtitle": "iOS IPA for Pacer Pedometer Step Counter",
+  "tags": [
+   "pacer",
+   "pedometer",
+   "step counter",
+   "ipa",
+   "ios",
+   "installation"
+  ]
+ },
+ "com.ipaomtk.pawn.to.don.mafia.crime.story.159768": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Pawn to Don Mafia Crime Story IPA is the iOS installable version of a crime\u2011themed strategy game.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1e9be21347b863e853d45cd1258228b89c015c4407dc6311b261a9714a844aa6",
+  "subtitle": "Crime\u2011themed strategy game for iOS",
+  "tags": [
+   "mafia",
+   "crime",
+   "story",
+   "strategy",
+   "ios",
+   "ipa"
+  ]
+ },
+ "com.ipaomtk.peakwatch.ai.fitness.coach.157796": {
+  "category": "lifestyle",
+  "date": "2026-11-01",
+  "description": "PeakWatch \u2013 AI Fitness Coach IPA is an iOS installation package that allows users to access the app.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a613484a17382fdb6113f382fdebd1d96a5a4b7fd9b21d35b0a221f2fce87c8d",
+  "subtitle": "AI fitness coaching IPA for iOS",
+  "tags": [
+   "peakwatch",
+   "ai",
+   "fitness",
+   "coach",
+   "ipa",
+   "ios"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -19466,6 +20269,23 @@
    "tools"
   ]
  },
+ "com.itwcalculator.worldradarfree": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "This version of OraWeather has the subscription features unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9df531238cbeab4a82372cd80fcdf45da98acdd3c8d2c551d73b30afa4d406e2",
+  "subtitle": "Weather app with subscription unlocked",
+  "tags": [
+   "weather",
+   "ora",
+   "subscription",
+   "unlocked"
+  ]
+ },
  "com.ivanobilenchi.icleaner": {
   "category": "utilities",
   "date": "2026-10-27",
@@ -19618,6 +20438,26 @@
    "iphone"
   ]
  },
+ "com.jarustudios.PauseCamera": {
+  "category": "photo-video",
+  "date": "2026-11-01",
+  "description": "Pause Camera lets you pause and resume video recordings without creating multiple clips. Handle interruptions or adjust settings mid-recording, then continue seamlessly. Designed for smooth video capture workflows.",
+  "features": [
+   "Pause Recording",
+   "Resume Recording"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b81344f975c80af5b38aabbcaa5d40aa706080fff551e510856f91f60745adb2",
+  "subtitle": "Pause and resume video recording seamlessly",
+  "tags": [
+   "video",
+   "camera",
+   "recording",
+   "pause",
+   "resume",
+   "capture"
+  ]
+ },
  "com.javdb.avplay": {
   "category": "entertainment",
   "date": "2026-10-24",
@@ -19647,6 +20487,40 @@
    "javdb",
    "client",
    "owo"
+  ]
+ },
+ "com.jbdotparty.PancakeStore": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "PancakeStore is a sideloading utility for iOS that uses CertFish's FastSign service. The app notes that login may fail at random due to Apple's server-side changes; updating to the latest version is recommended if sign-in does not work.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "63037918292fe228ac6192d90340cf48d3c8658b16d1838bce5760ee7ccabf8c",
+  "subtitle": "Sideload iOS apps via CertFish FastSign",
+  "tags": [
+   "sideload",
+   "ios",
+   "certfish",
+   "fastsign",
+   "app-installer",
+   "utilities"
+  ]
+ },
+ "com.jbxgames.island.wars.fight.defender": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Pandao Wars Fight for Freedom is quickly gaining popularity among iOS gamers who crave action-packed battles, strategic gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4eb16d4f729bf442a53e706bb452dbe8c7da759364b2ce510cb9536481405290",
+  "subtitle": "Action-packed battles and strategy",
+  "tags": [
+   "pandao",
+   "wars",
+   "action",
+   "strategy",
+   "ios",
+   "game"
   ]
  },
  "com.jds.batds": {
@@ -20692,6 +21566,22 @@
    "create",
    "iap",
    "utilities"
+  ]
+ },
+ "com.kylebashour.aqi-wtf": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "Paku for PurpleAir IPA v6.0.1 is a new iOS submission that revolutionizes how users interact with PurpleAir data on their iPhones.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "03042a0ff18cb97a2c5e4283cea76e3b5dd84f43ccbced2464b43a292d80a8ab",
+  "subtitle": "View PurpleAir air quality data",
+  "tags": [
+   "purpleair",
+   "air-quality",
+   "air-quality-monitor",
+   "ios",
+   "ipa"
   ]
  },
  "com.kyrielie.nectar": {
@@ -22395,6 +23285,27 @@
    "editor",
    "face",
    "enhancement"
+  ]
+ },
+ "com.magmic.NYTCrosswords09": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Premium features added. IPA tested and compiled by TTJB Team.",
+  "features": [
+   "Premium",
+   "Tested",
+   "Compiled"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "48405a935feba1c011dad10e1898b473aaabdf7cc010ee1f8193123975d15bff",
+  "subtitle": "Premium NYT Games IPA",
+  "tags": [
+   "nytgames",
+   "premium",
+   "ipa",
+   "ttjb",
+   "tested",
+   "compiled"
   ]
  },
  "com.mak5er.aircard": {
@@ -24171,6 +25082,24 @@
    "library"
   ]
  },
+ "com.mutaeb.OVF-Editor": {
+  "category": "photo-video",
+  "date": "2026-11-01",
+  "description": "OVFEditor is a photo and video application. This version has been injected with Pro features.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "29d1589261a91d9faa348a61ec7d834ce24dd3ee95a7f60ff13da5d8bb60346b",
+  "subtitle": "OVFEditor with Pro features unlocked",
+  "tags": [
+   "ovfeditor",
+   "photo",
+   "video",
+   "editor",
+   "pro"
+  ]
+ },
  "com.mwcompany.MusicWarsRockstar": {
   "category": "games",
   "date": "2026-10-30",
@@ -24203,6 +25132,25 @@
    "unlocked",
    "subscription",
    "app"
+  ]
+ },
+ "com.mwm.nota": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Peanote is a modified version of the original note-taking application. This build has been injected to unlock subscription features without requiring a paid subscription.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6a8a899f1be8b34349f9a5dfc4c3cc4e15044b61268a4ab2af9e9539531df3f3",
+  "subtitle": "Note-taking app with subscription unlocked",
+  "tags": [
+   "notes",
+   "productivity",
+   "subscription",
+   "unlocked",
+   "modified",
+   "ipa"
   ]
  },
  "com.mwm.procolor": {
@@ -25488,6 +26436,22 @@
    "strategy"
   ]
  },
+ "com.nonsense.app": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "Nonsense is a language learning application developed by @Sa1y0miii. This version requires iOS 16.4 or later and is updated to version 5.3.12.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "8e36b0027cd6b8cb7876c93889b0acdc1138323e28b51f1eb3a0bdf3a988c107",
+  "subtitle": "Language Learning App",
+  "tags": [
+   "language",
+   "learning",
+   "education",
+   "study",
+   "utilities"
+  ]
+ },
  "com.noopapp.noop": {
   "category": "developer",
   "date": "2026-11-01",
@@ -25540,6 +26504,22 @@
    "pro",
    "unlocked",
    "patched"
+  ]
+ },
+ "com.notblood.ios": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "NotBlood is a Blood source port featuring bots, new match types, co-op saves, internet play without port forwarding, a live game dashboard, a mods menu, and a LAN game finder. Cross-platform multiplayer is supported when all players use the same version. To play, unzip the files and copy your original Blood game files next to the application. Consult the included README file for complete setup instructions.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "e08df23f2dce029d6ebe2af3c295c80e6f747a472a44b60f215407f7ec3bbaf9",
+  "subtitle": "A Blood source port with bots and online multiplayer",
+  "tags": [
+   "blood",
+   "source port",
+   "shooter",
+   "multiplayer",
+   "retro"
   ]
  },
  "com.notdoppler.earntodierogue": {
@@ -25677,6 +26657,29 @@
    "streamlined",
    "organized",
    "digital"
+  ]
+ },
+ "com.nuvio.media": {
+  "category": "photo-video",
+  "date": "2026-11-01",
+  "description": "Nuvio is a video player for iOS built on an enhanced MPVKit fork. It includes night mode audio that raises quiet dialogue by 12 dB and lowers loud peaks by 8 dB with a limiter. Subtitle size adjusts in 1 sp steps. The player auto-skips segments on HLS and P2P streams and lets users set when the Skip Intro button appears. Plugin scraper streams show badges. Legacy player top and bottom buttons are customizable. Playback continues for 10 seconds after leaving the app to prevent Notification Center from pausing, and the hardware decoder reinitializes to avoid video freeze.",
+  "features": [
+   "Night mode audio",
+   "Auto-skip segments",
+   "Custom skip intro",
+   "Background playback",
+   "Subtitle size steps"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "01ee2f24bd10db25ed72132749515efdf5dcd95e8cf9ecc2a1828c0b3feed24c",
+  "subtitle": "Video player with night mode audio",
+  "tags": [
+   "video player",
+   "mpv",
+   "night mode",
+   "streaming",
+   "subtitles",
+   "ios"
   ]
  },
  "com.nuvio.media.nuvio": {
@@ -26039,6 +27042,25 @@
    "apps"
   ]
  },
+ "com.orange.telephone": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "OrangePhone is an iOS app provided by AppTesters IPA Repo. The build is injected with premium features.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "841e0bc3ff26165ebd5ff26f60549dafe3c0f8324f072e44d6b7a4c29f0e3d5d",
+  "subtitle": "OrangePhone - Premium Injected",
+  "tags": [
+   "orangephone",
+   "premium",
+   "ipa",
+   "apptesters",
+   "repo",
+   "injected"
+  ]
+ },
  "com.orangepixel.gunslugs": {
   "category": "games",
   "date": "2026-10-27",
@@ -26071,6 +27093,41 @@
    "movies",
    "streaming",
    "ios"
+  ]
+ },
+ "com.oribot.origami": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Origami is an application that has been modified to provide subscription features without requiring a paid subscription. This version comes with subscription access pre-enabled.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "01602631be08d239aa20519ec09d509fe575acff243fef6cd398b7215dc49a44",
+  "subtitle": "Origami app with subscription features unlocked",
+  "tags": [
+   "origami",
+   "subscription",
+   "unlocked",
+   "modified",
+   "ipa"
+  ]
+ },
+ "com.ornament.ornament.health": {
+  "category": "lifestyle",
+  "date": "2026-11-01",
+  "description": "Ornament is a health monitoring app for iPhone and iPad. It requires iOS 15.1 or later and is currently at version 4.18.1. The app tracks health data and presents it in a simple interface.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cc334cfb2c4e3b64f87e32838bfda00321af9d177aa499f0ff0f5a392fe8d9f7",
+  "subtitle": "Health monitoring for iOS 15.1+",
+  "tags": [
+   "health",
+   "monitoring",
+   "ios",
+   "tracking",
+   "wellness",
+   "app"
   ]
  },
  "com.orwinik.chesspanel": {
@@ -26161,6 +27218,24 @@
    "entertainment"
   ]
  },
+ "com.osmose-it.osmosis": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Osmosis is a modified application with subscription features unlocked. Original developer unknown.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d9118b45c46be711184e8413d3f7cf558bb519a6b0cdb72b7e3706b8914be0b8",
+  "subtitle": "Subscription unlocked version",
+  "tags": [
+   "osmosis",
+   "subscription",
+   "unlocked",
+   "modified",
+   "app"
+  ]
+ },
  "com.osy86.Jitterbug": {
   "category": "developer",
   "date": "2026-10-28",
@@ -26176,6 +27251,23 @@
    "ios",
    "developer",
    "connection"
+  ]
+ },
+ "com.otraku.app": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Unofficial AniList viewer with improved UI and statistics compared to MyAniList and other apps on the App Store. Last updated on July 1, 2024.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8043f0600309cdcd662c1471ac8b349a9959c1a15ce81879f2df9783a11b9ab4",
+  "subtitle": "Unofficial AniList viewer with stats",
+  "tags": [
+   "anilist",
+   "anime",
+   "tracker",
+   "viewer",
+   "unofficial",
+   "stats"
   ]
  },
  "com.oubplayer.tivi": {
@@ -26390,6 +27482,23 @@
    "features"
   ]
  },
+ "com.pandahelper.deb": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "PandaHelper has been removed from the repository and is deprecated. Last updated on November 30, 2022. The app is no longer available for download.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b6751959f0d9e61fe4d15dc5804050410ef884fbde71de899ca228af8130f6f1",
+  "subtitle": "Deprecated app, no longer available",
+  "tags": [
+   "deprecated",
+   "removed",
+   "unavailable",
+   "archive",
+   "legacy",
+   "ios"
+  ]
+ },
  "com.panicbyte.byephotos": {
   "category": "utilities",
   "date": "2026-10-30",
@@ -26453,6 +27562,26 @@
    "survival",
    "shooter",
    "game"
+  ]
+ },
+ "com.parentsware.ourpact": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "OurPact is a premium IPA that has been tested and compiled by TTJB Team.",
+  "features": [
+   "Premium",
+   "Tested"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e5624a6b2a0a8561e46a4ee9456c016b522d63e00e0e3e74e5c81b162ed021e8",
+  "subtitle": "Premium IPA tested by TTJB Team",
+  "tags": [
+   "ourpact",
+   "premium",
+   "ipa",
+   "ttjb",
+   "tested",
+   "compiled"
   ]
  },
  "com.parksman.LogRide": {
@@ -26519,6 +27648,23 @@
    "story",
    "casual",
    "styling"
+  ]
+ },
+ "com.paxiegames.ropemerge": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Welcome to the glamorous world of Party Project: Merge Makeover, the ultimate fashion and design game that blends creativity and style.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a726f43a2a824f5346cf46958b5c9ae4fa7d212fd403fced27d6db6df1e7470a",
+  "subtitle": "Fashion and design merge game",
+  "tags": [
+   "fashion",
+   "design",
+   "merge",
+   "makeover",
+   "game",
+   "party"
   ]
  },
  "com.peerplay.megamerge": {
@@ -26870,6 +28016,25 @@
    "game",
    "mobile",
    "relaxing"
+  ]
+ },
+ "com.pixby.PackRepeat": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "PackRepeat has been injected with premium features.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5a80865a7ecb07cdd6e76fcc92986224de0dc058b2d746cecbde98d3812ac6d3",
+  "subtitle": "Premium features unlocked",
+  "tags": [
+   "packrepeat",
+   "premium",
+   "injected",
+   "modified",
+   "utility",
+   "app"
   ]
  },
  "com.pixelbyte.harmonyai": {
@@ -27477,6 +28642,25 @@
    "management"
   ]
  },
+ "com.playwindgames.freedefender": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Pal Go is a tower defense game modified with currency cheats. The modifications include frozen currency that does not decrease when spent and always sufficient currency for purchases regardless of actual balance. This version is distributed through third-party sources as an IPA file.",
+  "features": [
+   "Freeze Currency",
+   "Currency Always Enough"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8b76784dc932a1f7dd53835c3b5b33ab9d2080c3dc143df5f405f1610899566d",
+  "subtitle": "Tower defense game with currency mods",
+  "tags": [
+   "tower defense",
+   "modded",
+   "currency cheat",
+   "ipa",
+   "offline"
+  ]
+ },
  "com.plr.expeditionscapes": {
   "category": "games",
   "date": "2026-10-15",
@@ -27869,6 +29053,25 @@
    "utilities"
   ]
  },
+ "com.pspdfkit.viewer": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "PDF Viewer Annotation Expert IPA v2026.3 offers a seamless and intuitive user experience for working with PDF documents.",
+  "features": [
+   "Annotation"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a1e0274ef5cb76cf4ce872b849c8ab1df7490f82b6014fc0f2e3519d59cf29f1",
+  "subtitle": "View and annotate PDFs easily",
+  "tags": [
+   "pdf",
+   "viewer",
+   "annotation",
+   "utilities",
+   "ipa",
+   "expert"
+  ]
+ },
  "com.pujiagames.IslandTime": {
   "category": "games",
   "date": "2026-10-28",
@@ -28213,6 +29416,25 @@
    "planner",
    "events",
    "productivity"
+  ]
+ },
+ "com.readdle.PDFExpert5": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "This version of PDF Expert has been modified to include premium features.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "041cc65c916b23b6b74f89c4757802d00de153610a53edb38591e26ad14d4610",
+  "subtitle": "PDF Expert with Premium Features",
+  "tags": [
+   "pdf",
+   "expert",
+   "premium",
+   "ipa",
+   "repo",
+   "app"
   ]
  },
  "com.readdle.ReaddleDocsIPad": {
@@ -29593,6 +30815,24 @@
    "ios"
   ]
  },
+ "com.saturdaytechnologies.Pause-Camera": {
+  "category": "photo-video",
+  "date": "2026-11-01",
+  "description": "Pause Cam is a camera video recorder that allows pausing during recording. Requires iOS 16.6 or later. Current version 5.02.",
+  "features": [
+   "Pause Recording"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "22e33f7717649d4d95299c5e8c91311bc19b8de35eb99db053bcc233351cb929",
+  "subtitle": "Pause Camera Video Recorder",
+  "tags": [
+   "pause",
+   "camera",
+   "video",
+   "recorder",
+   "ios"
+  ]
+ },
  "com.saulawa.areaandvolumecalc.lite": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -30030,6 +31270,23 @@
    "engine",
    "game",
    "music"
+  ]
+ },
+ "com.shooterhero": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Overspace is an alien shooter RPG for iOS that delivers an intense space combat experience where players pilot spacecraft through hostile environments.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "59c38e6d06940f8bbb575ebeff25e97699197bf918f9030d9cb9d7babb6ad553",
+  "subtitle": "Intense space combat RPG",
+  "tags": [
+   "space",
+   "shooter",
+   "rpg",
+   "alien",
+   "combat",
+   "ios"
   ]
  },
  "com.sillens.iShape": {
@@ -31563,6 +32820,23 @@
    "screen"
   ]
  },
+ "com.straight-tamago.Osushi": {
+  "category": "developer",
+  "date": "2026-11-01",
+  "description": "Osushi for TrollStore adds a new Control Center to the Home Screen and Lock Screen.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e08d0e4d2c539661f2ab964c2d228ce807345e4a82e6875a58fc70251f105237",
+  "subtitle": "Adds Control Center to Home & Lock Screen",
+  "tags": [
+   "trollstore",
+   "control-center",
+   "home-screen",
+   "lock-screen",
+   "osushi",
+   "developer"
+  ]
+ },
  "com.straight-tamago.mikotoX": {
   "category": "other",
   "date": "2026-10-30",
@@ -32223,6 +33497,24 @@
    "atmospheric"
   ]
  },
+ "com.thegenau.NoteCircle": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "NoteCircle is a to do and checklist app. This version is patched with Plus Unlocked.",
+  "features": [
+   "Plus Unlocked"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "e6a036721104c8563b5be9d1057f0c18ad446d1fe9f79624bb55b2e93b1a45f6",
+  "subtitle": "To Do and Checklist Tweak",
+  "tags": [
+   "notecircle",
+   "todo",
+   "checklist",
+   "notes",
+   "tasks"
+  ]
+ },
  "com.thegentlebros.project-star": {
   "category": "games",
   "date": "2026-10-15",
@@ -32339,6 +33631,29 @@
    "gaming",
    "mobile",
    "adventure"
+  ]
+ },
+ "com.tiburonns.NFCove": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "NFCove is a native NFC utility for iPhone focused on a reliable NDEF workflow: read, inspect, save, create, write, and verify compatible NFC tags. It features a native SwiftUI interface and a Core NFC NDEF reader using the current tag NFC entitlement. The app includes an NDEF writer for Text, URL, Email, Phone, SMS, and Location records, alongside a human-readable payload parser. Scan results can be saved as reusable library entries with the original NDEF TNF, type, identifier, payload, and record order when available. The local library is stored atomically in Application Support.",
+  "features": [
+   "Native SwiftUI interface",
+   "Core NFC NDEF reader",
+   "NDEF writer",
+   "Human-readable payload parser",
+   "Local library storage"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "d510efeb8f5611cbbf1b156502658346c31f4705b9f59582ee3a97b6a2d99d39",
+  "subtitle": "Native NFC utility to read, build, and automate tags",
+  "tags": [
+   "nfc",
+   "ndef",
+   "reader",
+   "writer",
+   "utility",
+   "tags"
   ]
  },
  "com.tickettothemoon.gradient": {
@@ -32555,6 +33870,23 @@
    "action"
   ]
  },
+ "com.tipsworks.ios.pascalswager": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Pascal's Wager is an ambitious action RPG for iOS, aiming to deliver a console-level experience on iPhone.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f4559496dba1959fd28a0d89457561f7ac92db16d5e6e1a3a205a245aeb89e1c",
+  "subtitle": "Ambitious action RPG for iOS",
+  "tags": [
+   "action",
+   "rpg",
+   "ios",
+   "game",
+   "console",
+   "ambitious"
+  ]
+ },
  "com.topfreegames.bikeracefree": {
   "category": "games",
   "date": "2026-10-15",
@@ -32713,6 +34045,26 @@
    "strategy",
    "ios",
    "game"
+  ]
+ },
+ "com.tr.paraphrasingtool.rewritertool.textrewriter": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Paraphraser is a paraphrasing tool for iOS. This version includes a subscription unlocked tweak and is patched. Version 1.7.3.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bf607df09ab4be45996403cd41ecb698aac23f5f6e4bc6df3762370d3ef9549c",
+  "subtitle": "Paraphrasing tool with subscription unlocked",
+  "tags": [
+   "paraphraser",
+   "paraphrasing",
+   "tool",
+   "subscription",
+   "unlocked",
+   "patched"
   ]
  },
  "com.tranzmate.tranzmate1": {
@@ -36197,6 +37549,22 @@
    "filter"
   ]
  },
+ "com.unknown.noteshelf3": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "Noteshelf3 note taking application injected with Satella.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "a0c5469a82ca99504687e68e36c56a70a4fc766e5c9650e1802d778be93860cc",
+  "subtitle": "Noteshelf3 note taking application",
+  "tags": [
+   "notes",
+   "productivity",
+   "notebook",
+   "writing",
+   "noteshelf"
+  ]
+ },
  "com.unknown.noteswriter": {
   "category": "utilities",
   "date": "2026-11-01",
@@ -36232,6 +37600,138 @@
    "powerpoint",
    "pdf",
    "editor"
+  ]
+ },
+ "com.unknown.opusvpn": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "OpusVpn is a VPN application developed by Karbin-Store. The app provides virtual private network functionality for secure and private internet connections.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "190d609a0ef18a41181aa986813abc737c1bac0cf111796a73d9d9ea1ea6be63",
+  "subtitle": "VPN service by Karbin-Store",
+  "tags": [
+   "vpn",
+   "privacy",
+   "security",
+   "network",
+   "karbin-store",
+   "opusvpn"
+  ]
+ },
+ "com.unknown.opusvpnhack": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "OPUS VPN Hack is a VPN application that you can try for secure connections.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9c00496abad61daacd5bc97fb3dc68bfa4e1e7e63f4d5953525f1b071f7f11cd",
+  "subtitle": "Fast VPN proxy for secure browsing",
+  "tags": [
+   "vpn",
+   "proxy",
+   "security",
+   "privacy",
+   "network",
+   "tool"
+  ]
+ },
+ "com.unknown.osmosis": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "This app is dedicated to medical students, providing a powerful learning tool that helps them learn more deeply and acquire information more effectively.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e24d788503cb6b8cdad936ff16076b12d6fdfec611a1e98144a138a51ce88907",
+  "subtitle": "Medical learning tool for students",
+  "tags": [
+   "medical",
+   "education",
+   "students",
+   "learning",
+   "study",
+   "tool"
+  ]
+ },
+ "com.unknown.packageinc": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "The app is offered for free on the App Store and includes an IGG modification.",
+  "features": [
+   "Free",
+   "IGG Mod"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b2b20ec1cfa51ec00f4f2f4fe5ccdfae5d67f9f0233716f4dc612404cbd0b6fb",
+  "subtitle": "Free download with IGG mod",
+  "tags": [
+   "package",
+   "inc",
+   "free",
+   "igg",
+   "mod",
+   "app"
+  ]
+ },
+ "com.unknown.paper": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Paper is an app by Karbin-Store with all features unlocked.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "df57b807a20e89b82c3e2be002526a5be8c0e950d6f64b59d8df8d8e9a2f0a6b",
+  "subtitle": "Paper with all features unlocked",
+  "tags": [
+   "paper",
+   "unlocked",
+   "features",
+   "karbin",
+   "store",
+   "app"
+  ]
+ },
+ "com.unknown.pdffactoryplus": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "PDF Factory Plus lets you merge multiple PDF files, extract individual pages, perform OCR on scanned PDFs, convert between PDF and text formats, and repair damaged PDF files.",
+  "features": [
+   "Merge PDFs",
+   "Extract Pages",
+   "OCR Scanned PDF",
+   "PDF to Text",
+   "Repair PDF"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c2a38066a79253250422551f6ac466b4380a5941b100074e9563965f6346fe9b",
+  "subtitle": "Merge, extract, OCR, convert, repair PDFs",
+  "tags": [
+   "pdf",
+   "merge",
+   "extract",
+   "ocr",
+   "convert",
+   "repair"
+  ]
+ },
+ "com.unknown.pedometer": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Pedometer tracks steps and distance. All features are unlocked with no restrictions.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "10a749e75ae7ee8b22201f9aece714c6487d1cf830b42c61dab9339683a05c11",
+  "subtitle": "Step counter with all features unlocked",
+  "tags": [
+   "pedometer",
+   "step counter",
+   "fitness",
+   "tracking",
+   "health",
+   "walking"
   ]
  },
  "com.unofficial.balatro": {
@@ -36591,6 +38091,28 @@
    "app"
   ]
  },
+ "com.vk.vkclient": {
+  "category": "photo-video",
+  "date": "2026-11-01",
+  "description": "OrwellVK lets you download videos, episodes, clips, songs, stories, and voice messages from VK. Includes an incognito mode for invisible browsing.",
+  "features": [
+   "Download media",
+   "Incognito mode",
+   "Voice messages",
+   "Stories support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "518f43fac87ea12c52b0e6e00d3c1d2880457c075fe2f156da840ce6bc67ddf1",
+  "subtitle": "Download VK media with incognito browsing",
+  "tags": [
+   "vk",
+   "downloader",
+   "video",
+   "music",
+   "incognito",
+   "media"
+  ]
+ },
  "com.vladk.pipemasters": {
   "category": "games",
   "date": "2026-10-24",
@@ -36723,6 +38245,24 @@
    "health",
    "mood",
    "calendar"
+  ]
+ },
+ "com.wakdev.wdnfc": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "NFCTools is an application designed for NFC tasks. This version comes injected with Pro features enabled for use.",
+  "features": [
+   "Injected with Pro"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "48913c4c6dc8fa4886c4ce6b5428b97923802790baa7e1d3dc17e02ed4f4f83d",
+  "subtitle": "Tool for NFC tasks",
+  "tags": [
+   "nfc",
+   "tools",
+   "pro",
+   "utilities",
+   "reader"
   ]
  },
  "com.waldostudiobv.century": {
@@ -36971,6 +38511,41 @@
    "cycle"
   ]
  },
+ "com.wiheads.paste": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "Paste is a clipboard manager that stores copied items for quick access. This version has subscription features unlocked through modification.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6f9ff052d831f93c16510652af2c79b35cde1329d706b65555ec9ec48a5b8595",
+  "subtitle": "Clipboard manager with unlocked subscription",
+  "tags": [
+   "clipboard",
+   "manager",
+   "productivity",
+   "unlocked",
+   "utility"
+  ]
+ },
+ "com.wildlifestudios.merge.animal.sanctuary": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "Paradise Paws Merge Animals is an enchanting mobile game designed exclusively for iOS users. It combines the relaxing nature of merging animals.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c9f536b4705eabc569fc2550c4200b3fc06094b0458091a68bc2d8ec1591f0a5",
+  "subtitle": "Merge animals in a relaxing iOS game",
+  "tags": [
+   "merge",
+   "animals",
+   "ios",
+   "game",
+   "relaxing",
+   "puzzle"
+  ]
+ },
  "com.willfaust.madeora": {
   "category": "games",
   "date": "2026-10-29",
@@ -37109,6 +38684,29 @@
    "ttjb",
    "ipa",
    "premium"
+  ]
+ },
+ "com.wrngwrld.Chanyan": {
+  "category": "social",
+  "date": "2026-11-01",
+  "description": "NekoSurf is a fast, privacy-friendly 4chan viewer built with Flutter for iOS. It is designed for smooth browsing with modern card-based layouts, media-first navigation, and practical quality-of-life tools for everyday use. Browse all boards with fast search, open threads directly from pasted 4chan links, and switch board threads between grid and list view. Sort threads by bump order, newest, oldest, reply count, or image count, and configure default preferences in settings. Favorite boards for quick home screen access, bookmark threads with status tracking, and view archived or deleted states. Enjoy an optimized media experience with image and video browsing, plus WebM and MP4 playback supp\u2026",
+  "features": [
+   "Fast search",
+   "Card-based layouts",
+   "Thread bookmarking",
+   "Media playback support",
+   "Privacy-friendly"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "fa9b8f77fb9c18a790322063a898071e8ddddbc47fa1b7d0a199a2d943220de3",
+  "subtitle": "Fast and privacy-friendly 4chan viewer",
+  "tags": [
+   "4chan",
+   "viewer",
+   "forum",
+   "boards",
+   "media",
+   "privacy"
   ]
  },
  "com.wtfapps.apollo16": {
@@ -37816,6 +39414,23 @@
    "plus",
    "mod",
    "entertainment"
+  ]
+ },
+ "com.ziikr.ios.notewise": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "Notewise is an application for managing AI notes, PDF files, and documents. Organize your notes and documents efficiently with dedicated AI tools and file support.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "d20c4bbe99429d4289c2564dc392db03299adad442a6f1326d7e56c5f8bb20e5",
+  "subtitle": "AI Notes, PDF, Docs",
+  "tags": [
+   "notes",
+   "pdf",
+   "docs",
+   "ai",
+   "utilities",
+   "documents"
   ]
  },
  "com.zijayrate.analogcam": {
@@ -39181,6 +40796,23 @@
    "unified"
   ]
  },
+ "cypwn.NovusPhone_36-b1_arm64e_TS.36": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "Novus is a redesigned Phone app tweak that provides a unified design compared to the stock iOS Phone application. It requires an ARM64e device, supporting iPhone XS and newer models running iOS 14.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "d8c565357c1e3a810b689e7738da8cbbe67ce4b96eb8e53ff2fad403d784ae18",
+  "subtitle": "Redesigned Phone app tweak for iOS 14",
+  "tags": [
+   "phone",
+   "tweak",
+   "redesign",
+   "ios14",
+   "arm64e",
+   "novus"
+  ]
+ },
  "cypwn.Opener_1.11.9_TS.1.11.9": {
   "category": "other",
   "date": "2026-11-01",
@@ -39196,6 +40828,56 @@
    "url",
    "handler",
    "utility"
+  ]
+ },
+ "cypwn.Pandolife1.1a_2211.1.2211.1": {
+  "category": "entertainment",
+  "date": "2026-11-01",
+  "description": "Pandora version 2211.1 combined with Pandolife version 1.1a developed by Julio Verne. This is a modified distribution of the Pandora music streaming application.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3fd49d2fb0e0aeaa6024f27fcd7e79199f0f16f7a62ce59fee24e6973325dc66",
+  "subtitle": "Modified Pandora client with Pandolife enhancements",
+  "tags": [
+   "pandora",
+   "music",
+   "streaming",
+   "mod",
+   "pandolife"
+  ]
+ },
+ "cypwn.PandolifeApp_TS.1.6": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Pandolife App v1.6 is a separate add-on application that requires Pandora with the Pandolife tweak already injected. It provides playback and management functions for use alongside the modified Pandora client.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "45ee00260bc399b0f05182a9127ed0590c69d492cee54630b3faebfda6897fbf",
+  "subtitle": "Pandora add-on for Pandolife tweak",
+  "tags": [
+   "pandora",
+   "pandolife",
+   "tweak",
+   "addon",
+   "music",
+   "player"
+  ]
+ },
+ "cypwn.Pandolife_TS.2211.1": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "Pandora v2211.1 with Pandolife 1.1a tweak. For complete Pandolife experience, you should also install the PandolifeApp v1.6 standalone app. By Julio V",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2e0a09987148389689b7bc68f40a21123b914cac058352bc514f10be076cbc10",
+  "subtitle": "Pandora v2211.1 with Pandolife 1.1a tweak",
+  "tags": [
+   "pandora",
+   "pandolife",
+   "tweak",
+   "standalone",
+   "app",
+   "julio"
   ]
  },
  "cypwn.cl1m4x.1.3": {
@@ -39590,6 +41272,27 @@
    "arm64"
   ]
  },
+ "dev.faizandurrani.moe.paperback.app": {
+  "category": "entertainment",
+  "date": "2026-11-01",
+  "description": "Paperback is an ad\u2011free manga reader for iOS 13 and iPadOS 13.4 or later. It offers a friendly iPad layout with a double\u2011spread chapter reader and syncs your library and settings with MangaDex. No advertisements are shown.",
+  "features": [
+   "Ad-free",
+   "iPad double spread",
+   "MangaDex sync"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c029894ea3675b45d2ccc12af0e9317adaa4416f265a5c81ea4d74ef6dcfc97f",
+  "subtitle": "Ad\u2011free manga reader with MangaDex sync",
+  "tags": [
+   "manga",
+   "reader",
+   "adfree",
+   "ipad",
+   "mangadex",
+   "ios"
+  ]
+ },
  "dev.iw4j.iw4l": {
   "category": "games",
   "date": "2026-10-28",
@@ -39794,6 +41497,22 @@
    "local",
    "offline",
    "background"
+  ]
+ },
+ "dev.nori.music": {
+  "category": "entertainment",
+  "date": "2026-11-01",
+  "description": "Nori is an active music player that decodes ahead to let the CPU sleep and save power. It features gapless playback, beat-matched AutoMix transitions, an equalizer with AutoEQ curves, and independent sound profiles for each output. Retrieve lyrics from your server and eleven online services simultaneously, timed word by word where available. Control one device from another or host jam sessions that guests can join using a link or QR code.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "d7abe43d4a89e296ae21b746d37e2f3f7c45cee016a5b92c056d0d3c65d9f050",
+  "subtitle": "Music player with server lyrics and jam sessions",
+  "tags": [
+   "music",
+   "player",
+   "lyrics",
+   "equalizer",
+   "streaming"
   ]
  },
  "dev.objcmsgsend.Climax": {
@@ -40075,6 +41794,27 @@
    "education",
    "premium",
    "app"
+  ]
+ },
+ "es.produkt.app.panels": {
+  "category": "entertainment",
+  "date": "2026-11-01",
+  "description": "Panels3 is a comic reading app that provides a clean, customizable, and feature-rich interface for reading your favorite comic titles. The app focuses on enhancing the comic reading experience with a user-friendly design.",
+  "features": [
+   "Clean Interface",
+   "Customizable",
+   "Feature-Rich"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bd45ecfb2c70a653d38244069a9e6a1668309c62f4b24a23fe6739732a23fcf1",
+  "subtitle": "Clean comic reader with customizable interface",
+  "tags": [
+   "comics",
+   "reader",
+   "customizable",
+   "clean",
+   "interface",
+   "reading"
   ]
  },
  "es.socialpoint.MonsterCity": {
@@ -40673,6 +42413,28 @@
    "gaming"
   ]
  },
+ "gitlab.httpanimations.newtube": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "Watch YouTube videos without ads, tracking, or clutter. Your subscriptions and history stay on your device instead of the cloud. Enjoy a real video player with quality selection, audio-only mode, and proper fullscreen. Subscribe to channels without an account, search for videos and channels, browse channel uploads, and keep a local watch history. Available for desktop and mobile platforms.",
+  "features": [
+   "No Ads",
+   "No Tracking",
+   "Local Subscriptions",
+   "Audio-Only Mode",
+   "Local History"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "6b8249a83e08cbf1824a11f92e140f7dca9eca16c2d97cfc1b65a43a208a0e9b",
+  "subtitle": "A privacy-friendly YouTube client",
+  "tags": [
+   "youtube",
+   "privacy",
+   "video",
+   "streaming",
+   "client"
+  ]
+ },
  "gronda.gmbh": {
   "category": "lifestyle",
   "date": "2026-10-26",
@@ -41062,6 +42824,24 @@
    "building"
   ]
  },
+ "io.betterhalf.app": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "This version of Paired has been modified with premium features injected. The app includes unlocked premium functionality normally requiring a subscription.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "60ee79c0aba8d3e200dbb270cb6e5301742213c1fc5b02662c4c1db83323a70c",
+  "subtitle": "Premium features unlocked",
+  "tags": [
+   "paired",
+   "premium",
+   "unlocked",
+   "modified",
+   "ipa"
+  ]
+ },
  "io.blocktackle.bcg": {
   "category": "games",
   "date": "2026-10-15",
@@ -41281,6 +43061,23 @@
    "game",
    "ios16",
    "sideload"
+  ]
+ },
+ "io.github.possiblypengu.pageturner": {
+  "category": "entertainment",
+  "date": "2026-11-01",
+  "description": "Pageturner is an e-reader and audiobook player for iOS that connects to BookMaster. All content including books, covers, reading positions, and library data are stored locally on the device. It is a native SwiftUI app requiring iOS 17 or later, built using the Readium toolkit.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e2918b7ad36f334b4cc75a16362e1421b66f85f8d99c9ada3c38cfc61c83aa2b",
+  "subtitle": "E-reader and audiobook player linked to BookMaster",
+  "tags": [
+   "e-reader",
+   "audiobook",
+   "bookmaster",
+   "readium",
+   "swiftui",
+   "offline"
   ]
  },
  "io.github.saschb2b.cyberworldendless": {
@@ -43089,6 +44886,23 @@
    "library"
   ]
  },
+ "mumu.ProcFlowGG.OtoolsGG": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "OtoolsGG version 1.3-2 by OtoolsGG_1.3 x CyPwn.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b4ad76312a9acf1264de4c841160b389903cb59721b3ee52c8989112a31e8772",
+  "subtitle": "OtoolsGG version 1.3-2 release",
+  "tags": [
+   "otoolsgg",
+   "tools",
+   "utility",
+   "version",
+   "release",
+   "cypwn"
+  ]
+ },
  "myndarc.newFitnessApp": {
   "category": "lifestyle",
   "date": "2026-10-15",
@@ -43438,6 +45252,23 @@
    "ios"
   ]
  },
+ "net.osmand.maps": {
+  "category": "lifestyle",
+  "date": "2026-11-01",
+  "description": "An offline world map app based on OpenStreetMap. A user requested this app. Last updated on July 18, 2024.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f3543b4d60c77e307c46f3faa5af7f45f6c49923203c34f7aba564113ec82434",
+  "subtitle": "Offline world maps from OpenStreetMap",
+  "tags": [
+   "offline",
+   "maps",
+   "openstreetmap",
+   "navigation",
+   "world",
+   "map"
+  ]
+ },
  "net.peakgames.kammelna": {
   "category": "other",
   "date": "2026-10-28",
@@ -43653,6 +45484,29 @@
    "puzzle"
   ]
  },
+ "net.yuandev.onexray": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "OneXray is a client for managing Xray proxy configurations. It does not provide VPN access or proxy servers; you bring your own subscriptions or servers. The app runs on iPhone, iPad, Mac, Android, Windows, and Linux with light/dark themes and five interface languages. Import share links, Xray JSON, and subscriptions, then group and reorder nodes by dragging. Choose Smart or Custom Routing, or use complete Raw and provider configurations including Remnawave subscriptions. Setup requires installing from the official store and granting system permissions; Windows and Linux also need an outbound-interface selection.",
+  "features": [
+   "Multi-platform",
+   "Import subscriptions",
+   "Drag to reorder",
+   "Custom routing",
+   "Remnawave support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b61af5b78cd20081cb3db4b89ea1364d11fe78d99c0aa581d4f64e0ed515482d",
+  "subtitle": "Xray configuration manager for your servers",
+  "tags": [
+   "xray",
+   "proxy",
+   "vpn",
+   "network",
+   "configuration",
+   "manager"
+  ]
+ },
  "net.yukh.xui.ios": {
   "category": "utilities",
   "date": "2026-10-19",
@@ -43751,6 +45605,22 @@
    "library",
    "player",
    "metadata"
+  ]
+ },
+ "nl.ovapi.ios.ovinfo": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "OVinfoPro is an application developed by Neoncat\u2011OG IPA Library. It is listed under the other category.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4eb7be0c28d286c79dd4c8a0dde80d0368ff1ba13e7c45ea28f8cbc3db72d32b",
+  "subtitle": "OVinfoPro by Neoncat\u2011OG IPA Library",
+  "tags": [
+   "ovinfopro",
+   "neoncat-og",
+   "ipa",
+   "library",
+   "other"
   ]
  },
  "no.agens.bukkenebruse": {
@@ -44003,6 +45873,27 @@
    "health",
    "utility",
    "tracker"
+  ]
+ },
+ "opensource.pansy": {
+  "category": "photo-video",
+  "date": "2026-11-01",
+  "description": "Pansy is an illustration client supporting macOS, Windows, Linux, iOS, and Android. It provides discovery and ranking features for illustrations, along with detailed illustration information. Available in English and Simplified Chinese.",
+  "features": [
+   "Cross-platform",
+   "Discovery",
+   "Rankings",
+   "Illustration details"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e479616aef5293e4ef9ca3081d856048066ef22d30819831e541379b29449ccb",
+  "subtitle": "Multi-platform illustration viewer with discovery",
+  "tags": [
+   "illustration",
+   "viewer",
+   "art",
+   "cross-platform",
+   "discovery"
   ]
  },
  "org.amnezia.AmneziaVPN": {
@@ -44825,6 +46716,28 @@
    "utility"
   ]
  },
+ "pro.neechan.app-dev": {
+  "category": "social",
+  "date": "2026-11-01",
+  "description": "Neechan X is an unofficial native iOS client for the 2ch and 4chan imageboards, built with Swift 6, SwiftUI, and the Liquid Glass design system. Browse boards as a catalog or page by page in list, card, or grid layouts. Read threads with reply counts, quote popups, a replies window, in-thread search, and automatic position saving so threads reopen where you left off. Translate posts or entire threads directly on your device. View and cast 2ch likes and dislikes.",
+  "features": [
+   "Native iOS client",
+   "On-device translation",
+   "In-thread search",
+   "Position saving",
+   "Multiple layouts"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "5be6c086bc9ce2385cd9ee1a1457cd25ca3d7f3d01d17978626374091b54faf8",
+  "subtitle": "Native client for 2ch and 4chan imageboards",
+  "tags": [
+   "imageboard",
+   "2ch",
+   "4chan",
+   "forum",
+   "client"
+  ]
+ },
  "pro.writer": {
   "category": "utilities",
   "date": "2026-10-27",
@@ -45065,6 +46978,25 @@
    "utilities"
   ]
  },
+ "ru.routes.peakvisor": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "PeakVisor with subscription features unlocked. This modified version provides access to premium functionality without requiring an active subscription.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "624bd45ce886828985a74e4dfcb01c7625cc4153679a4e74e0e006bb70641bf9",
+  "subtitle": "Subscription features unlocked",
+  "tags": [
+   "peakvisor",
+   "mountains",
+   "ar",
+   "navigation",
+   "outdoors",
+   "unlocked"
+  ]
+ },
  "rw.sp.flitsmeister": {
   "category": "other",
   "date": "2026-10-24",
@@ -45299,6 +47231,23 @@
    "gaming"
   ]
  },
+ "sh.ppy.osulazer": {
+  "category": "games",
+  "date": "2026-11-01",
+  "description": "osu! is a free-to-win rhythm game developed by ppy. The project is under constant development with regular releases. Players can install from releases alongside the stable osu! client. The game continues to evolve with the goal of surpassing the previous osu!stable release.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "06df9fa34c35f42f8d7eaaac57646a45a00b5129d11a01b55caf4eba97176168",
+  "subtitle": "Free-to-win rhythm game",
+  "tags": [
+   "rhythm",
+   "game",
+   "free",
+   "osu",
+   "music",
+   "beat"
+  ]
+ },
  "snacktimegames.elementalworld": {
   "category": "games",
   "date": "2026-10-21",
@@ -45347,6 +47296,23 @@
    "reading",
    "library",
    "utilities"
+  ]
+ },
+ "so.outside.app": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "App that allows you to include unlimited plans and widgets. Created per user request.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "18aa34eb7dd222faf989ec5c4aaf63d73d90511aaf93c0b19b56c9c4b4718963",
+  "subtitle": "Unlimited plans and widgets",
+  "tags": [
+   "plans",
+   "widgets",
+   "unlimited",
+   "productivity",
+   "organization",
+   "outsidepro"
   ]
  },
  "social.drooid": {
@@ -45511,6 +47477,23 @@
    "widget",
    "ios",
    "app"
+  ]
+ },
+ "tech.miidii.off-screen": {
+  "category": "other",
+  "date": "2026-11-01",
+  "description": "In today\u2019s digital world, managing screen time has become a major challenge. With smartphones and apps taking up more hours.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8820a8f8db159b54e337c76c875bfc3945c6254ceeb2328bf6b849146b8ed969",
+  "subtitle": "Manage screen time effectively",
+  "tags": [
+   "screen time",
+   "management",
+   "digital",
+   "smartphone",
+   "app",
+   "challenge"
   ]
  },
  "thebaselab.VS-Code": {
@@ -45709,6 +47692,29 @@
    "bottle",
    "strategy",
    "casual"
+  ]
+ },
+ "uk.runtian.orbit": {
+  "category": "developer",
+  "date": "2026-11-01",
+  "description": "Orbit for iPhone is a live window onto your Orbit AI workspace running on Mac. It runs any model through the real Claude Code or Codex agent, lets chats hand work to each other, keeps working toward goals, and queues or schedules messages. All chats, files, and the model stay on your Mac. Connect from any network without a VPN via your own Cloudflare Tunnel, over Tailscale, or over local Wi\u2011Fi. The app also shows the Mac's cluster, Crew, helper, and shared\u2011project screens. Approve or deny steps directly from Lock Screen notifications without opening the app.",
+  "features": [
+   "Lock Screen Approvals",
+   "No VPN Required",
+   "Tailscale Support",
+   "Local Wi\u2011Fi Access",
+   "Cloudflare Tunnel"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7cbec73cc4b53a2412c7831a61bc0111a9f8c56742888f8710ecfad814d2fd7b",
+  "subtitle": "Remote AI workspace for your Mac",
+  "tags": [
+   "ai",
+   "workspace",
+   "remote",
+   "mac",
+   "claude",
+   "codex"
   ]
  },
  "us.besttime.enil": {
@@ -46090,6 +48096,22 @@
    "health"
   ]
  },
+ "ws.hbang.Terminal3": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "NewTerm3 is a powerful tool that allows users to access the command line interface on their XinaA15 jailbreak devices.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "4fb98d41ffc12a390bc3dcc2c8779429c900567c8b6b4578bcfd4600d9233587",
+  "subtitle": "Terminal for XinaA15 jailbreak devices",
+  "tags": [
+   "terminal",
+   "command line",
+   "jailbreak",
+   "xinaa15",
+   "tools"
+  ]
+ },
  "wtf.riedel.one-sec": {
   "category": "utilities",
   "date": "2026-11-01",
@@ -46238,6 +48260,22 @@
    "fastsign",
    "certfish",
    "vault"
+  ]
+ },
+ "xyz.pythonplayer123.nekojb": {
+  "category": "utilities",
+  "date": "2026-11-01",
+  "description": "Semi Untethered Jailbreak utility compatible with A12 and newer devices running iOS 15.0 through iOS 15.8.2.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "36f70115c5c50d07fe2cb2807fa376708716e6eb0d38d19d88f9896fd93b9cbc",
+  "subtitle": "Semi Untethered Jailbreak for iOS 15",
+  "tags": [
+   "jailbreak",
+   "ios15",
+   "semi-untethered",
+   "nekojb",
+   "utility"
   ]
  },
  "xyz.shameful.Harbour": {
