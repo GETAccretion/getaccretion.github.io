@@ -184,6 +184,11 @@
   "real": true,
   "reason": "Valid GitHub raw JSON repository serving as an AltStore/SideStore app source."
  },
+ "https://raw.githubusercontent.com/BCYAYAY14/bluebox/main/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate AltStore/SideStore app source hosted raw on GitHub, following the standard source structure."
+ },
  "https://raw.githubusercontent.com/Balackburn/Apollo/main/apps.json": {
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
@@ -193,6 +198,11 @@
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
   "reason": "This is a legitimate GitHub raw JSON link serving as a personal AltStore/SideStore app source."
+ },
+ "https://raw.githubusercontent.com/D4SuCE/oni-releases/main/sidestore.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid raw GitHub JSON file formatted as an AltStore/SideStore source for a specific app release (Oni)."
  },
  "https://raw.githubusercontent.com/Epyke/plezy-sidestore-source/master/apps.json": {
   "model": "gemini:gemini-3.5-flash-lite",
@@ -238,6 +248,11 @@
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
   "reason": "This is a legitimate AltStore/SideStore app source hosted raw on GitHub, providing a JSON catalog of iOS apps."
+ },
+ "https://raw.githubusercontent.com/M4th12/RepoIPAs/main/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "The URL points to a raw GitHub JSON file which is the standard hosting method for community AltStore and SideStore app repositories."
  },
  "https://raw.githubusercontent.com/MarkusSela/IW4-Pocket/main/source.json": {
   "model": "gemini:gemini-flash-lite-latest",
@@ -409,6 +424,11 @@
   "real": true,
   "reason": "This is a valid raw GitHub JSON URL hosting an AltStore/SideStore app source for tvOS applications."
  },
+ "https://raw.githubusercontent.com/Vaibhavsh0120/Expo-Go-Builds/main/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate GitHub raw JSON file acting as an AltStore source for custom Expo Go SDK builds."
+ },
  "https://raw.githubusercontent.com/WSF-Team/WSF/main/repo/app-repo.json": {
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
   "real": true,
@@ -433,6 +453,11 @@
   "model": "gemini:gemini-3.5-flash",
   "real": true,
   "reason": "Valid raw GitHub JSON link hosting an official AltStore source repository by developer auties00."
+ },
+ "https://raw.githubusercontent.com/azamoviich/afterhours/main/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "Valid GitHub raw JSON app source for AltStore/SideStore."
  },
  "https://raw.githubusercontent.com/azu0609/repo/main/altstore_repo.json": {
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -499,6 +524,11 @@
   "real": true,
   "reason": "URL points to a raw GitHub file named source.json which is an AltStore source containing apps."
  },
+ "https://raw.githubusercontent.com/codeboy2012/PwEevee/main/source/esign-source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": false,
+  "reason": "This is an ESign source plist/json file hosted on GitHub, not an official AltStore or SideStore repository JSON source."
+ },
  "https://raw.githubusercontent.com/codeboy2012/PwEevee/main/website/pweevee/apps.json": {
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
@@ -563,6 +593,11 @@
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
   "reason": "The URL points to a raw GitHub-hosted apps.json file that serves as an AltStore app catalogue, containing a list of 9 apps, which matches the expected format of a legitimate AltStore/SideStore source."
+ },
+ "https://raw.githubusercontent.com/lammersbjorn/taima/main/sidestore/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate raw JSON app source hosted on GitHub for the Taima app, designed for SideStore/AltStore."
  },
  "https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/CyPwn%20iPA%20Library/source.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
