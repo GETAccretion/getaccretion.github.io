@@ -1,0 +1,40 @@
+name: "Store: post to Telegram"
+
+# Posts one message the owner types to the Telegram channel, through the bot that posts releases
+# (scripts/telegram_post.py). For announcements the automatic posts don't cover. Run it from
+# Actions -> Store: post to Telegram -> Run workflow (the GitHub app works too).
+on:
+  workflow_dispatch:
+    inputs:
+      text:
+        description: 'Message, plain text (\n for a new line)'
+        required: true
+        type: string
+      dry_run:
+        description: Only show the message in the run's log, send nothing
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency: telegram-post
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - name: Post the message
+        env:
+          POST_TEXT: ${{ inputs.text }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT: ${{ vars.TELEGRAM_CHAT }}
+        run: python scripts/telegram_post.py $([ "$DRY_RUN" = true ] && echo --dry-run)
