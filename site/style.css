@@ -23,7 +23,7 @@
   --rose-fill: #E11D48;
   --star: #F5B83B;
   --avatar-ink: #12111C;
-  --glow: 0%;
+  --glow: 10%;
   --grid-line: rgba(255, 255, 255, 0.035);
   --display: "Sora", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -51,7 +51,7 @@
     --bad: #AA390B;
     --rose: #BA0B29;
     --star: #B87F09;
-    --glow: 0%;
+    --glow: 6%;
     --grid-line: rgba(24, 20, 48, 0.05);
     color-scheme: light;
   }
@@ -75,7 +75,7 @@
   --bad: #AA390B;
   --rose: #BA0B29;
   --star: #B87F09;
-  --glow: 0%;
+  --glow: 6%;
   --grid-line: rgba(24, 20, 48, 0.05);
   color-scheme: light;
 }
@@ -90,6 +90,16 @@ body {
   background-size: 28px 28px; min-height: 100vh;
   padding-bottom: env(safe-area-inset-bottom, 0px);
 }
+/* a soft violet and cyan light drifting behind the grid (strength: --glow). It is painted once and only moved
+   with transform, so phones composite it without repainting; it stands still with Reduce Motion. */
+body::before {
+  content: ""; position: fixed; inset: -20vmax; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(42vmax 42vmax at 30% 25%, color-mix(in srgb, var(--accent) var(--glow), transparent), transparent 70%),
+    radial-gradient(36vmax 36vmax at 75% 70%, color-mix(in srgb, var(--accent-2) calc(var(--glow) * 0.7), transparent), transparent 70%);
+}
+@media (prefers-reduced-motion: no-preference) { body::before { animation: drift 40s ease-in-out infinite alternate; will-change: transform; } }
+@keyframes drift { 0% { transform: translate3d(0, 0, 0); } 50% { transform: translate3d(6vmax, -4vmax, 0); } 100% { transform: translate3d(-5vmax, 5vmax, 0); } }
 a { color: var(--link); }
 img { max-width: 100%; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
