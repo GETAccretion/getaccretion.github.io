@@ -907,7 +907,7 @@
 
     box.replaceChildren(
       h("div", { class: "view-head" },
-        h("p", { class: "eyebrow" }, h("span", { class: `live ${liveTone(s.updated)}`, "aria-hidden": "true" }), `live index · build ${s.updated || ""}`),
+        h("p", { class: "eyebrow" }, h("span", { class: `live ${liveTone(s.updated)}`, "aria-hidden": "true" }), `Index · built ${s.updated || ""}`),
         h("h1", { class: "view-title" }, "Status"),
         h("p", { class: "muted" }, "The whole index at a glance. Rebuilt every 6 hours from every source.")),
       h("div", { class: "st-grid" },
@@ -1564,7 +1564,7 @@
       $("h-sources").textContent = fmt(stats.sources || state.sources.length);
       $("s-7d").textContent = fmt(stats.updated_7d);
       $("s-new").textContent = fmt(stats.new_30d);
-      $("built").textContent = stats.updated ? `built ${stats.updated}` : "live";
+      $("built").textContent = stats.updated ? `built ${stats.updated}` : "rebuilt every 6 hours";
       $("live-dot").className = `live ${liveTone(stats.updated)}`;
       if (lastVisit) {
         const since = state.apps.filter((a) => !a.u && a.t > lastVisit).length;

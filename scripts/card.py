@@ -17,26 +17,26 @@ MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
 
 THEMES = {
     "dark": {
-        "bg": "#07070D",
-        "panel": "#0E0E1A",
+        "bg": "#0A0A0D",
+        "panel": "#111115",
         "grid": "#FFFFFF",
         "grid_op": "0.035",
-        "border": "#262145",
-        "text": "#ECEAFF",
-        "muted": "#8B87B3",
+        "border": "#26262D",
+        "text": "#EDEDF0",
+        "muted": "#8E8E99",
         "a1": "#8B5CF6",
         "a2": "#22D3EE",
         "good": "#34D399",
         "warn": "#F59E0B",
     },
     "light": {
-        "bg": "#FBFBFE",
+        "bg": "#F7F7F8",
         "panel": "#FFFFFF",
-        "grid": "#1E1B4B",
+        "grid": "#141418",
         "grid_op": "0.05",
-        "border": "#DDD8F3",
-        "text": "#15122B",
-        "muted": "#6A6690",
+        "border": "#DEDEE3",
+        "text": "#141418",
+        "muted": "#5D5D68",
         "a1": "#7C3AED",
         "a2": "#0891B2",
         "good": "#059669",
@@ -61,12 +61,11 @@ def frame(h, theme, title, right):
     c = theme
     b = 14  # bracket length
     corners = "".join(
-        f'<path d="M{x0} {y0 + dy * b} V{y0} H{x0 + dx * b}" stroke="url(#acc)" stroke-width="2" fill="none"/>'
+        f'<path d="M{x0} {y0 + dy * b} V{y0} H{x0 + dx * b}" stroke="{c["a1"]}" stroke-width="2" fill="none"/>'
         for x0, y0, dx, dy in ((8, 8, 1, 1), (W - 8, 8, -1, 1), (8, h - 8, 1, -1), (W - 8, h - 8, -1, -1))
     )
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" role="img">
 <defs>
-  <linearGradient id="acc" x1="0" x2="1"><stop offset="0" stop-color="{c["a1"]}"/><stop offset="1" stop-color="{c["a2"]}"/></linearGradient>
   <linearGradient id="area" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="{c["a1"]}" stop-opacity="0.35"/><stop offset="1" stop-color="{c["a1"]}" stop-opacity="0"/></linearGradient>
   <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="{c["grid"]}" stroke-opacity="{c["grid_op"]}"/></pattern>
 </defs>
@@ -74,11 +73,11 @@ def frame(h, theme, title, right):
 <rect width="{W}" height="{h}" rx="14" fill="url(#grid)"/>
 <rect x="0.5" y="0.5" width="{W - 1}" height="{h - 1}" rx="14" fill="none" stroke="{c["border"]}"/>
 {corners}
-<circle cx="{PAD + 5}" cy="31" r="4.5" fill="{c["good"]}"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
-{t(PAD + 18, 35, "ACCRETION", 13, weight=700, spacing=3, theme=c)}
-{t(PAD + 128, 35, title, 12, "muted", spacing=1, theme=c)}
+<circle cx="{PAD + 5}" cy="31" r="4.5" fill="{c["good"]}"/>
+{t(PAD + 18, 35, "Accretion", 13, weight=600, theme=c)}
+{t(PAD + 104, 35, title, 12, "muted", theme=c)}
 {t(W - PAD, 35, right, 11, "muted", anchor="end", theme=c)}
-<rect x="{PAD}" y="50" width="{W - 2 * PAD}" height="1.5" fill="url(#acc)" opacity="0.8"/>
+<rect x="{PAD}" y="50" width="{W - 2 * PAD}" height="1" fill="{c["border"]}"/>
 """
 
 
@@ -86,8 +85,8 @@ def tile(x, y, w, h, label, value, sub, theme, big=True, value_fill="text"):
     c = theme
     return (
         f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="9" fill="{c["panel"]}" stroke="{c["border"]}"/>'
-        + t(x + 14, y + 22, label.upper(), 10, "muted", spacing=1.5, theme=c)
-        + t(x + 14, y + (56 if big else 47), value, 28 if big else 20, value_fill, SANS, 700, theme=c)
+        + t(x + 14, y + 22, label[:1].upper() + label[1:], 11, "muted", theme=c)
+        + t(x + 14, y + (56 if big else 47), value, 28 if big else 20, value_fill, SANS, 600, theme=c)
         + (t(x + 14, y + h - 12, sub, 10.5, "muted", theme=c) if sub else "")
     )
 
@@ -100,14 +99,14 @@ def category_bars(x, y, w, cats, theme):
     if rest:
         top.append(("rest", rest))
     peak = max(v for _, v in top) or 1
-    out = [t(x, y, "CATEGORIES", 10, "muted", spacing=1.5, theme=c)]
+    out = [t(x, y, "Categories", 11, "muted", theme=c)]
     bar_x, bar_w = x + 108, w - 108 - 56
     for i, (name, v) in enumerate(top):
         yy = y + 22 + i * 18
         out.append(t(x, yy, name, 11, theme=c))
         out.append(f'<rect x="{bar_x}" y="{yy - 9}" width="{bar_w}" height="8" rx="4" fill="{c["border"]}"/>')
         width = max(3, bar_w * v / peak)
-        out.append(f'<rect x="{bar_x}" y="{yy - 9}" width="{width:.1f}" height="8" rx="4" fill="url(#acc)"/>')
+        out.append(f'<rect x="{bar_x}" y="{yy - 9}" width="{width:.1f}" height="8" rx="4" fill="{c["a1"]}"/>')
         out.append(t(x + w, yy, n(v), 11, "muted", anchor="end", theme=c))
     return "".join(out)
 
@@ -115,7 +114,7 @@ def category_bars(x, y, w, cats, theme):
 def growth(x, y, w, h, m, history, theme):
     """Catalog growth by month from release dates; falls back to daily build history."""
     c = theme
-    out = [t(x, y, "GROWTH", 10, "muted", spacing=1.5, theme=c)]
+    out = [t(x, y, "Growth", 11, "muted", theme=c)]
     top, bottom = y + 14, y + h - 30
     series = m.get("timeline") or [{"month": p["date"], "apps": p["apps"]} for p in history]
     pts = [p["apps"] for p in series]
@@ -134,10 +133,10 @@ def growth(x, y, w, h, m, history, theme):
     line = " ".join(f"{px:.1f},{py:.1f}" for px, py in coords)
     out.append(f'<polygon points="{x},{bottom} {line} {x + w},{bottom}" fill="url(#area)"/>')
     out.append(
-        f'<polyline points="{line}" fill="none" stroke="url(#acc)" stroke-width="2" stroke-linejoin="round"/>'
+        f'<polyline points="{line}" fill="none" stroke="{c["a1"]}" stroke-width="2" stroke-linejoin="round"/>'
     )
     lx, ly = coords[-1]
-    out.append(f'<circle cx="{lx:.1f}" cy="{ly:.1f}" r="3.5" fill="{c["a2"]}"/>')
+    out.append(f'<circle cx="{lx:.1f}" cy="{ly:.1f}" r="3.5" fill="{c["a1"]}"/>')
     out.append(t(x + w, y, f"{n(pts[-1])} apps", 10.5, "text", anchor="end", theme=c))
     out.append(t(x, bottom + 12, series[0]["month"], 9.5, "muted", theme=c))
     out.append(t(x + w, bottom + 12, "now", 9.5, "muted", anchor="end", theme=c))
@@ -168,7 +167,7 @@ def stats_card(m, history, theme):
         ("dead links purged", n(m["dead_links_removed"]), "text"),
         ("failed spec", n(m["rejected"]), "warn" if m["rejected"] else "text"),
     ]
-    parts = [frame(h, c, "/ live index", f"build {m['updated']}")]
+    parts = [frame(h, c, "/ index", f"built {m['updated']}")]
     for i, (label, value, sub) in enumerate(row1):
         parts.append(tile(PAD + i * (tw + gap), 66, tw, 96, label, value, sub, c))
     for i, (label, value, fill) in enumerate(row2):
