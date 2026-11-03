@@ -788,6 +788,23 @@
    "utility"
   ]
  },
+ "app.bluebox.Bluebox": {
+  "category": "entertainment",
+  "date": "2026-11-03",
+  "description": "Bluebox is a media player styled after Netflix designed for your own personal sources. Stream and play content from Stremio add-ons, torrents, debrid services, Jellyfin servers, and your local files. Enjoy a unified interface for your custom personal builds and media library.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "5e3fe9d7c932f1f464fc00d0a5a42a60b601f4aa5477114921ccd3fc319e959f",
+  "subtitle": "Netflix-style player for your personal media sources",
+  "tags": [
+   "streaming",
+   "player",
+   "media",
+   "torrent",
+   "jellyfin",
+   "stremio"
+  ]
+ },
  "app.budgetbestie.budgetbestie": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -1477,6 +1494,26 @@
    "utility"
   ]
  },
+ "au.com.savageinteractive.procreate-pocket": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "This is a modified IPA of Pocket with Pro features added. The package has been tested and compiled by TTJB Team. It is distributed through the TTJB IPA Repo, a third-party source. Install via sideloading tools.",
+  "features": [
+   "Pro Unlocked",
+   "Tested Build"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "62191e09f3d602ddd35d7be642805181706ce5819f414e96c2fdfd9428c2b8bf",
+  "subtitle": "Pro features unlocked, tested IPA build",
+  "tags": [
+   "pocket",
+   "ipa",
+   "modified",
+   "pro",
+   "ttjb",
+   "sideload"
+  ]
+ },
  "au.ingo.betterattend": {
   "category": "utilities",
   "date": "2026-10-19",
@@ -1987,6 +2024,25 @@
    "utilities"
   ]
  },
+ "club.pitwall.app.ios": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "This version has premium features injected.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0d906165a8018dbfcde34d2bc04bc6cd662447c2bf4ce94a9a14e4214182398b",
+  "subtitle": "Premium features injected version",
+  "tags": [
+   "pitwall",
+   "premium",
+   "injected",
+   "modified",
+   "ipa",
+   "app"
+  ]
+ },
  "cn.bswbw.AppsDump": {
   "category": "developer",
   "date": "2026-10-15",
@@ -2000,6 +2056,24 @@
    "decrypt",
    "developer",
    "files"
+  ]
+ },
+ "cn.danatech.xingseus": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "PictureThis is a plant identification application that recognizes plants, flowers, trees, and more from photos. This version has been modified with premium features injected, providing access to subscription-only functionality without a paid account.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4f8397ef47e09cd2cf7cc6bff5047893c551aa9935e242ec6793c6c37a7d518d",
+  "subtitle": "Plant identification with premium features unlocked",
+  "tags": [
+   "plant identification",
+   "nature",
+   "gardening",
+   "premium",
+   "modified"
   ]
  },
  "cn.gblw.AppsDump": {
@@ -2676,20 +2750,22 @@
   ]
  },
  "com.CalculatorForiPad.InternetRocks": {
-  "category": "utilities",
-  "date": "2026-10-29",
-  "description": "CalculatorAir with added functions including unlocked subscription. This IPA has been tested and compiled by the TTJB Team.",
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "This version of CalculatorAir has the subscription unlocked.",
   "features": [
-   "Unlocked subscription"
+   "Subscription Unlocked"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "228272c071ebc79996c94c6670bce7131a1ef8930c5ba02fc74194d6e8ad1cb1",
-  "subtitle": "Modified calculator application",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5f83f2b8227b7b2d97be260797ed75b2a30978e203b962dae4a9742aec6990f1",
+  "subtitle": "Calculator with subscription unlocked",
   "tags": [
    "calculator",
-   "utilities",
-   "ipa",
-   "ttjb"
+   "unlocked",
+   "subscription",
+   "air",
+   "utility",
+   "math"
   ]
  },
  "com.CanYouJB.SamoXcZ": {
@@ -2757,6 +2833,26 @@
    "relaxation",
    "focus",
    "sound"
+  ]
+ },
+ "com.CoreySmith.Infinite-Pong": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Ultra Ping Pong is a modified version of the ping pong game by Corey Smith (bundle ID: com.CoreySmith.Infinite-Pong, version 1.3.14). This tweaked build includes unlimited diamonds, removed advertisements, and a jailbreak detection bypass that is not guaranteed to work. The app is distributed through third-party channels.",
+  "features": [
+   "Unlimited Diamonds",
+   "Ads Removed",
+   "JB Detection Bypass"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8b875cd1be9e29d6739e185e42fdc24609710b5641eff6c3ffdf1b00ed2238d4",
+  "subtitle": "Ping pong game with unlimited diamonds and no ads",
+  "tags": [
+   "ping pong",
+   "arcade",
+   "tweaked",
+   "unlimited",
+   "no ads"
   ]
  },
  "com.CosmicCrocodileEntertainment.EchoOfElements": {
@@ -3665,6 +3761,23 @@
    "sideload"
   ]
  },
+ "com.SpektraGames.ParkingMasterMultiplayer2": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Parking Master Multiplayer 2 IPA has emerged as a noteworthy contender in the arcade genre. Blending the thrill of competition",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9cf68cc1be5172cd19df98ffb21db7c10673390e88646b2c2120c3760e7ab50a",
+  "subtitle": "Arcade parking multiplayer game",
+  "tags": [
+   "parking",
+   "multiplayer",
+   "arcade",
+   "competition",
+   "game",
+   "ipa"
+  ]
+ },
  "com.TDMbest.DT2": {
   "category": "other",
   "date": "2026-10-20",
@@ -4111,19 +4224,37 @@
  },
  "com.aagame.aagame": {
   "category": "games",
-  "date": "2026-10-18",
-  "description": "aa is a minimalist and addictive iOS game that challenges players with precision, timing, and focus. Known for its clean design and simple gameplay, test your timing skills as you aim for high scores in this straightforward arcade challenge.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "fd6b26d872cc0ea122cc752e08e16da5cadbf286f35d9d1e013c710fd332f311",
-  "subtitle": "Minimalist and addictive game of precision and focus",
+  "date": "2026-11-03",
+  "description": "aa is a minimalist timing game developed by General Adaptive Apps Pty Ltd. This version (6.6.7) includes a tweak for free in-app purchases. The game challenges players to tap pins onto a rotating circle without collisions. Bundle ID: com.aagame.aagame. Distributed via riftysIPAlibrary.",
+  "features": [
+   "Free IAP"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "55474bbdeb1e75958ef26416d78ba040b487867fb4173b714547edf14b1c0a15",
+  "subtitle": "Minimalist timing game with free IAP tweak",
   "tags": [
-   "arcade",
-   "minimalist",
-   "puzzle",
    "timing",
-   "focus",
-   "casual"
+   "minimalist",
+   "arcade",
+   "tweak",
+   "free-iap"
+  ]
+ },
+ "com.aapplication.photoEnhanceApp": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "Photo enhancer and photo unblur IPA. Capturing high-quality photos has become a common goal for many iOS users. Despite having advanced sm",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "60725c0f76dab81bb22981364584548626a4cf62ad752d9fe70eb6a7b260ad96",
+  "subtitle": "Photo enhancer & unblur for iOS",
+  "tags": [
+   "photo",
+   "enhancer",
+   "unblur",
+   "ipa",
+   "ios",
+   "enhance"
   ]
  },
  "com.aaronray.fontcandy": {
@@ -4859,6 +4990,25 @@
    "ai",
    "student",
    "education"
+  ]
+ },
+ "com.ai.photo.generator.art.wallpaper.image": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "PictAI by Karbin-Store is a photo and video application with Pro features unlocked. The modified version provides access to premium functionality without subscription requirements.",
+  "features": [
+   "Pro Features Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "261505d10d2d1a5c4636db99f8c19a49027c135b02687eabf16e372967f1ef85",
+  "subtitle": "AI Photo Editor with Pro Features Unlocked",
+  "tags": [
+   "photo",
+   "editor",
+   "ai",
+   "pro",
+   "unlocked",
+   "photography"
   ]
  },
  "com.ai.tattoo.generator.app": {
@@ -5632,6 +5782,23 @@
    "hub",
    "video",
    "shows"
+  ]
+ },
+ "com.animo.plays": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "Plays is the iOS installable version of Motion Design with AI, a creative design application. It brings AI\u2011assisted motion design tools to iPhone and iPad.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b3511dfee9d20e41de86f24c837ad7ad56e98ac2a91027c6562d7fee3201b065",
+  "subtitle": "AI motion design app for iOS",
+  "tags": [
+   "motion design",
+   "ai",
+   "creative",
+   "ios",
+   "installable",
+   "design"
   ]
  },
  "com.aniwings.app": {
@@ -6640,6 +6807,25 @@
    "phantomreset"
   ]
  },
+ "com.avntech.ar-drawing": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "PicTrace is a modified version with premium features injected. The app includes unlocked premium functionality.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9b23bf52c2fbb0ca1f3a83123210d4806b2d0c6589e75a2b51c6fc6925d8fa72",
+  "subtitle": "Premium features unlocked",
+  "tags": [
+   "premium",
+   "unlocked",
+   "modified",
+   "pictrace",
+   "ipa",
+   "repo"
+  ]
+ },
  "com.awave.noisemachine": {
   "category": "lifestyle",
   "date": "2026-11-01",
@@ -6993,6 +7179,38 @@
    "action",
    "rpg",
    "fantasy"
+  ]
+ },
+ "com.bdor14026.aditor": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "App for downloading videos.",
+  "features": [
+   "Video Download"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fd0769fb5da1acb0301b2a915a013f845aa5c606c805a5cba9a1593d8b608e02",
+  "subtitle": "Video downloader app",
+  "tags": [
+   "video",
+   "download"
+  ]
+ },
+ "com.beansbytes.pine": {
+  "category": "utilities",
+  "date": "2026-11-03",
+  "description": "Pine \u2013 Deep Breathing is the iOS installation file of a wellness-focused application designed to guide users through deep breathing exercises.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "25203568016f79df653d937e941f67a85989e4329141d0d788a4668c2c6f5cc9",
+  "subtitle": "Deep breathing wellness app",
+  "tags": [
+   "wellness",
+   "breathing",
+   "ios",
+   "ipa",
+   "deep",
+   "relaxation"
   ]
  },
  "com.bearmore": {
@@ -8296,6 +8514,22 @@
    "gaming"
   ]
  },
+ "com.cardinalblue.PicCollage": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "PicCollage is a photo editor application for creating collages and editing images. The app provides tools to combine photos and craft visual layouts.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e69d0fb9a380a577203c14040d197bdf80e3f500bf06f83254dac3dd6856356d",
+  "subtitle": "Photo editor for collages and image layouts",
+  "tags": [
+   "collage",
+   "photo editor",
+   "image editing",
+   "layouts",
+   "visuals"
+  ]
+ },
  "com.carlosribas.HoursTrackerLite": {
   "category": "utilities",
   "date": "2026-10-29",
@@ -8551,20 +8785,23 @@
   ]
  },
  "com.charliemchapman.dark-noise": {
-  "category": "lifestyle",
-  "date": "2026-10-20",
-  "description": "Dark Noise provides ambient soundscapes designed to help you focus, relax, and sleep better. Use soundscapes to improve your daily routine, whether you need concentration for work or calming sounds for rest.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "927c7535f3a6bad97b2f1a9173443146fe032da1eb802e901b414fcce8e7da6b",
-  "subtitle": "Ambient soundscapes for focus, relaxation, and sleep",
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "Dark Noise provides ambient sound tracks for relaxation or focus. The tweak unlocks the subscription content. Version 3.4.6 is patched.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "80b28c477afa590b4faf0dea05cc1e062c6a553d754f99cfd68ee7b4d9f3f5e0",
+  "subtitle": "Ambient sounds with subscription unlocked",
   "tags": [
    "ambient",
    "sounds",
-   "focus",
-   "relaxation",
-   "sleep",
-   "noise"
+   "noise",
+   "subscription",
+   "unlocked",
+   "patched"
   ]
  },
  "com.charliemonroe.Downie": {
@@ -8645,6 +8882,29 @@
    "dungeon",
    "rpg",
    "game"
+  ]
+ },
+ "com.chiraitori.paperand.ios": {
+  "category": "entertainment",
+  "date": "2026-11-03",
+  "description": "Paperand is an ad\u2011free manga reader built with Expo and React Native. It supports Paperback extension sources for browsing and searching manga, offers a personal library with favorites, tracks reading progress and history, provides dark mode with custom color support, and includes both vertical scroll and horizontal page\u2011flip reading modes with chapter navigation.",
+  "features": [
+   "Ad-Free",
+   "Paperback Extensions",
+   "Dark Mode",
+   "Dual Reading Modes",
+   "Multi-Source Search"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5cf64cc91412a2828a9b6596b21ca637cee2fb640b88c70c9c8ce3ec0c983816",
+  "subtitle": "Ad-free manga reader with Paperback extensions",
+  "tags": [
+   "manga",
+   "reader",
+   "adfree",
+   "paperback",
+   "darkmode",
+   "extensions"
   ]
  },
  "com.chitralekha.evolution": {
@@ -8943,6 +9203,23 @@
    "theater",
    "film",
    "entertainment"
+  ]
+ },
+ "com.circular.pixels": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "Pixelcut is an AI-powered photo editor for iOS that helps users capture and edit stunning photos. The app provides tools for photo editing and enhancement using artificial intelligence technology.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bb194cf8aed4c8d8be941b63ecbd6af408b64af77062452f936e1e15807f94df",
+  "subtitle": "AI Photo Editor for iOS",
+  "tags": [
+   "ai",
+   "photo",
+   "editor",
+   "ios",
+   "editing",
+   "photography"
   ]
  },
  "com.cisc0freak.cardio": {
@@ -10357,19 +10634,26 @@
   ]
  },
  "com.degenk.boorusama": {
-  "category": "other",
-  "date": "2026-10-15",
-  "description": "Boorusama is an unofficial, cross-platform client for major booru imageboards. It covers all core functionality and gives you total control over browsing imageboards.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "90c8737f98d51c3d72f05d751e94f6f918edc5795b1331b910576101de7fcea4",
-  "subtitle": "Unofficial cross-platform client for major boorus",
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "Boorusama is an unofficial client for major booru imageboards. It supports Gelbooru 0.2.5, Gelbooru 0.1, Gelbooru 0.2, and Hydrus Network. Core features include bulk downloads, favorite tags, advanced blacklisting, and full control over the browsing experience.",
+  "features": [
+   "Bulk Downloads",
+   "Favorite Tags",
+   "Advanced Blacklisting",
+   "Cross-Platform",
+   "Multiple Booru Support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a614d9eab178efe521feed2b953d43ccf649046454d7de92ddab29112fc4ecf7",
+  "subtitle": "Unofficial cross-platform booru client",
   "tags": [
-   "boorusama",
    "booru",
+   "gelbooru",
+   "hydrus",
    "imageboard",
    "client",
-   "photos"
+   "downloader"
   ]
  },
  "com.degisner.fivecents": {
@@ -10647,23 +10931,23 @@
  },
  "com.devz.cod4ios": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Call of Duty 4: Modern Warfare on iPhone and iPad, based on KisakCOD. COD4iOS includes single-player and CoD4x multiplayer in one app, with touch controls and Xbox-style controller support. This source release is 1.0.3, build 4. The port is still in development, so expect bugs and differences between devices and servers. You need your own copy of the original PC game, Call of Duty 4: Modern Warfare (2007). Modern Warfare Remastered files will not work. The source and IPA do not include the retail game data. Requires an iPhone or iPad running iOS or iPadOS 17 or later.",
+  "date": "2026-11-03",
+  "description": "Call of Duty 4: Modern Warfare on iPhone and iPad, based on KisakCOD. COD4iOS includes single-player and CoD4x multiplayer in one app, with touch controls and Xbox-style controller support. This release is version 1.0.3, build 4. The port is in development, so expect bugs and differences between devices and servers. You need your own copy of the original PC game, Call of Duty 4: Modern Warfare (2007). Modern Warfare Remastered files will not work. The source and IPA do not include the retail game data. Requires an iPhone or iPad running iOS or iPadOS 17 or later.",
   "features": [
    "Single-player",
-   "Multiplayer",
+   "CoD4x multiplayer",
    "Touch controls",
-   "Controller support"
+   "Xbox controller support"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "9da9381b382cce672728bcb2c2e9d43afabda76b9c697c4e1b3eaf3b47ece7fc",
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "1346a06bf8986e460593b148be0546c5782c215a2d28f88acfbbf723509e53ae",
   "subtitle": "Play Call of Duty 4 on iPhone and iPad",
   "tags": [
    "cod4",
-   "fps",
    "shooter",
-   "action",
    "multiplayer",
+   "fps",
+   "action",
    "game"
   ]
  },
@@ -10875,6 +11159,24 @@
    "puzzle",
    "game",
    "mod"
+  ]
+ },
+ "com.djitlabs.pixelcolor": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "PixelColor is an iOS app provided by AppTesters IPA Repo. The version offered has the subscription feature unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1008eb859263eee70827076bc8531b4114f3ea903e7be07e24a9b34131d91ec0",
+  "subtitle": "PixelColor \u2013 Subscription Unlocked",
+  "tags": [
+   "pixelcolor",
+   "subscription",
+   "unlocked",
+   "ipa",
+   "repo"
   ]
  },
  "com.dmg.carsalessimulator": {
@@ -11262,6 +11564,25 @@
    "manager",
    "ios13",
    "developer"
+  ]
+ },
+ "com.dsrtech.colorsplash": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "PhotoSplash is a modified version of the original photo editing app with Pro features injected. This IPA package provides access to premium functionality without requiring a subscription. The app includes advanced editing tools, filters, and export options typically reserved for paid users. Distributed through the AppTesters IPA repository.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f470108f0dd43d9e232b8a0d97537a64d17108e81984852b524f792ece73f818",
+  "subtitle": "Pro features unlocked for photo editing",
+  "tags": [
+   "photosplash",
+   "pro",
+   "unlocked",
+   "ipa",
+   "modified",
+   "photo"
   ]
  },
  "com.dtd.aroundu": {
@@ -11720,6 +12041,23 @@
    "mod"
   ]
  },
+ "com.efsoft.piximagine": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "PixImagine AI Image Generator IPA MOD. The demand for visually stunning and captivating content has never been greater.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "97185d0e252862e9efcf2d8780475f27171868e4ee3698be216f0e13f9156bc3",
+  "subtitle": "AI Image Generator MOD",
+  "tags": [
+   "pix",
+   "imagine",
+   "ai",
+   "image",
+   "generator",
+   "mod"
+  ]
+ },
  "com.eifrig.blitzerdepro": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -12157,6 +12495,26 @@
    "game"
   ]
  },
+ "com.erichuju.pomodoro": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "Plantie - Stay focused is a tweak that provides unlimited coins and removes ads. Version 1.11.100.",
+  "features": [
+   "Unlimited Coins",
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c5b1d1d7b452ed85a3bd1d7e03ac56cc4f55664130b15c1893510642d8506926",
+  "subtitle": "Stay focused with unlimited coins and no ads",
+  "tags": [
+   "focus",
+   "productivity",
+   "coins",
+   "ad-free",
+   "tweak",
+   "plantie"
+  ]
+ },
  "com.erkaneroglu.kutu": {
   "category": "utilities",
   "date": "2026-10-29",
@@ -12546,6 +12904,20 @@
    "fitness",
    "whoop",
    "privacy"
+  ]
+ },
+ "com.example.piliplus": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "The app is described as injected with nothing.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d6863d7a44e911b93ed949cb2b278d19d5f6e85de791443d0bf536724f8d30ed",
+  "subtitle": "Injected with Nothing",
+  "tags": [
+   "piliplus",
+   "injected",
+   "nothing"
   ]
  },
  "com.ezbeq.mobile": {
@@ -13343,6 +13715,24 @@
    "premium"
   ]
  },
+ "com.flipline.papasdonuteriatogo": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "Injected with Premium",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "46478fe29b9059f37d2a84b2ad10179a691868b477f4837baa29797757c24dd7",
+  "subtitle": "Injected with Premium",
+  "tags": [
+   "papasdonuteria",
+   "premium",
+   "ipa",
+   "repo",
+   "apptesters"
+  ]
+ },
  "com.flipline.papasfreezeriatogo": {
   "category": "other",
   "date": "2026-11-02",
@@ -13379,6 +13769,44 @@
    "premium",
    "ipa",
    "app"
+  ]
+ },
+ "com.flipline.papaspancakeriatogo": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Modified build of Papa's Pancakeria To Go with premium features injected. Original game is a cooking time-management title where players run a pancake shop, take orders, cook batter, add toppings, and serve customers. This version provides premium access without purchase.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e4a3538939894bb4c0317bbf20969e4b98012f5dba64ad56fc3d2701589a083b",
+  "subtitle": "Premium unlocked version",
+  "tags": [
+   "papa's",
+   "pancakeria",
+   "cooking",
+   "time-management",
+   "premium",
+   "unlocked"
+  ]
+ },
+ "com.flipline.papaspizzeriatogo": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Papa's Pizzeria To Go! is a cooking simulation game where players manage a pizzeria, take orders, prepare pizzas, and serve customers. This version has been modified with premium features injected.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4cef0996887588c8d51e5cba475031dffffc952365c9ca86fbc33636e5146e23",
+  "subtitle": "Papa's Pizzeria To Go! with premium features",
+  "tags": [
+   "papa's",
+   "pizzeria",
+   "cooking",
+   "simulation",
+   "premium",
+   "unlocked"
   ]
  },
  "com.fluffyfairygames.idleminertycoon": {
@@ -14493,23 +14921,20 @@
   ]
  },
  "com.getmimo.mimo": {
-  "category": "lifestyle",
-  "date": "2026-10-30",
-  "description": "Mimo is an app for learning coding and programming. Version 12.21.0 requires iOS 17.0. The app is patched with a max subscription modifier.",
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "Mimo is an application marked as injected with Pro modifications. The source indicates this version includes Pro-level alterations. No further details about original functionality or developer are provided.",
   "features": [
-   "Patched",
-   "Max Subscription"
+   "Pro Injected"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "c277a18c03ea7ccc5719ae6830d632a366f55c1451da52cc4213bb899b24a05a",
-  "subtitle": "Learn coding and programming",
+  "src_hash": "318dd8a86ee00bdff5693f3f975707f55208fc47577160237f7365a9e1ddba85",
+  "subtitle": "Modified app with Pro features",
   "tags": [
-   "coding",
-   "programming",
-   "learn",
    "mimo",
-   "patched",
-   "subscription"
+   "modified",
+   "pro",
+   "injected"
   ]
  },
  "com.getmotobit.motobit": {
@@ -15729,6 +16154,23 @@
    "ttjb"
   ]
  },
+ "com.gryphongames.planetminer": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Planet Miner is an iOS idle simulation and action game package.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9c376f72230c3d89dc1187df385bb51ea3aa94408e214f6531c8d4bc13b9a024",
+  "subtitle": "Idle simulation and action game",
+  "tags": [
+   "idle",
+   "simulation",
+   "action",
+   "game",
+   "planet",
+   "miner"
+  ]
+ },
  "com.guistudios.advance.car.parking.car.driver.simulator": {
   "category": "games",
   "date": "2026-10-14",
@@ -16325,6 +16767,23 @@
    "collection"
   ]
  },
+ "com.headupgames.bridgeconstructorplayground": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Bridge Constructor Playground offers a relaxed and educational puzzle experience on iPhone. Players design and test bridges across various scenarios, learning engineering principles through gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "901fabb8b2b20d71757b2e104dbcb120668e03d25ecddc229489344c1f51d7c0",
+  "subtitle": "Relaxed educational bridge-building puzzles",
+  "tags": [
+   "bridge",
+   "constructor",
+   "puzzle",
+   "educational",
+   "physics",
+   "engineering"
+  ]
+ },
  "com.headupgames.bridgeconstructorstudio": {
   "category": "games",
   "date": "2026-10-15",
@@ -16413,6 +16872,23 @@
    "music",
    "utilities",
    "tool"
+  ]
+ },
+ "com.herocraft.game.piratearena": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Pirate Ships is a mobile game for iOS where players engage in player-versus-player sea battles. The game transports players into a high-seas pirate world for competitive naval combat.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ceb87d1453368ccc0465702cbf3a5ab673f14e2dfa6d6d4312c091235b9f38cb",
+  "subtitle": "PvP sea battles on iOS",
+  "tags": [
+   "pirate",
+   "pvp",
+   "sea",
+   "battle",
+   "naval",
+   "multiplayer"
   ]
  },
  "com.hevyapp.hevy": {
@@ -16861,24 +17337,24 @@
   ]
  },
  "com.husk.app": {
-  "category": "games",
-  "date": "2026-11-01",
-  "description": "Add an APK, tap it, and it opens full-screen. Features a translation layer where the game\u2019s own 64-bit Android code runs on the iPhone. Husk stands in for Android around it including C library, Java, GL, Vulkan, audio, and input without an Android boot so games start in seconds. Includes emulation with a full LineageOS guest under QEMU for apps the translation layer cannot run yet. Also supports fake packages and game folders for PS4 on iOS 17.4 and later.",
+  "category": "utilities",
+  "date": "2026-11-03",
+  "description": "Husk 1.0.1 by Leviidev (scholars lounge) lets you run Android on your iPhone either natively or via emulation. The app is sideloaded using FastSign from CertFish (cert.fish). Bundle ID: com.husk.app.",
   "features": [
-   "Translation layer",
-   "QEMU emulation",
-   "PS4 support"
+   "Native Android",
+   "Emulated Android",
+   "Sideload via CertFish"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "df442b3ac64ee241a910a2bd2286911aea5dcd46be07ecc7177c9e3b1252c3fa",
-  "subtitle": "Android translation layer and game emulation on iOS",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "957b151ae01aa8844b2e6da732bfafc8e86a28e1ba4871e7c17ec1027521ac6d",
+  "subtitle": "Run Android on iPhone natively or emulated",
   "tags": [
    "android",
    "emulator",
-   "translation",
-   "games",
-   "apk",
-   "ps4"
+   "sideload",
+   "ios",
+   "utility",
+   "certfish"
   ]
  },
  "com.husk.app.1.1.1": {
@@ -17704,6 +18180,26 @@
    "forecast",
    "tweak",
    "unlocked"
+  ]
+ },
+ "com.infinitix.plusfinity": {
+  "category": "lifestyle",
+  "date": "2026-11-03",
+  "description": "Plusfinity is a study app that offers a patched version with subscription unlocked. Version 2.0.2 includes tweaks for improved learning.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7d8f8563e84d9c39c7d1e4360ac97e6f28ce3d7d5c881e2ab3bacd68555bc87a",
+  "subtitle": "Study Better with Subscription Unlocked",
+  "tags": [
+   "study",
+   "subscription",
+   "unlocked",
+   "patched",
+   "tweak",
+   "education"
   ]
  },
  "com.inflow.app": {
@@ -20378,6 +20874,91 @@
    "ios"
   ]
  },
+ "com.ipaomtk.phone.diagnostics.159922": {
+  "category": "utilities",
+  "date": "2026-11-03",
+  "description": "Phone Diagnostics is an iOS installation package (IPA) that enables users to install a comprehensive device diagnostics tool on their iPhone or iPad. It provides detailed hardware and system information for troubleshooting and analysis.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "171ad8856c695ffe88ab6bb324cb6c3249fd033c57fd92657a621ee22f627b43",
+  "subtitle": "Comprehensive device diagnostics for iOS",
+  "tags": [
+   "diagnostics",
+   "ios",
+   "ipa",
+   "device",
+   "tools",
+   "utilities"
+  ]
+ },
+ "com.ipaomtk.picture.collage.maker.frames.154851": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "Picture Collage Maker \u2013 Frames is an iOS photo editing app for creating collages with frames on iPhone.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5ad22196007303f5e4aa10e497245ffa515bc87f174c36dffa7dcba724f2f5f4",
+  "subtitle": "Create photo collages with frames",
+  "tags": [
+   "collage",
+   "photo",
+   "frames",
+   "editing",
+   "iphone",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.pillars.prayer.times.qibla.159532": {
+  "category": "utilities",
+  "date": "2026-11-03",
+  "description": "Pillars: Prayer Times & Qibla is an iOS app that provides prayer times and Qibla direction.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "daa14b14c37840c9d9b46e89b23b29afafd92ca23125bb32c9afd276bb9a7f84",
+  "subtitle": "Prayer times and Qibla direction",
+  "tags": [
+   "prayer",
+   "times",
+   "qibla",
+   "islam",
+   "utility",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.planet.wars.casual.rpg.152003": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Planet Wars: Casual RPG is an iOS game package offering a space-themed role-playing experience.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e06feb47fd07c4d7f70e15c6cd2da9f92c42c0ecd667d1c66c92c55a927b4ab2",
+  "subtitle": "Space-themed casual RPG adventure",
+  "tags": [
+   "space",
+   "rpg",
+   "casual",
+   "game",
+   "ios",
+   "planet"
+  ]
+ },
+ "com.ipaomtk.plant.identifier.plantiary.154848": {
+  "category": "utilities",
+  "date": "2026-11-03",
+  "description": "Plant Identifier: Plantiary is an iOS utility and education app that allows iPhone users to identify plants. The app uses camera input to recognize plant species and provide information about them.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8896a0b61a3857f6094dc9a736b708ed504248ff2aec628d4e3c9d05400bf9b4",
+  "subtitle": "Identify plants with your iPhone camera",
+  "tags": [
+   "plant",
+   "identifier",
+   "education",
+   "utility",
+   "ios",
+   "nature"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -21658,25 +22239,25 @@
  },
  "com.kodjodevf.mangayomi": {
   "category": "entertainment",
-  "date": "2026-11-01",
-  "description": "Mangayomi is an open-source Flutter app for reading manga, novels, and watching anime across multiple platforms. Read manga, webtoons, comics, novels, anime, movies, and more with local reading support. Customize your experience with a configurable reader featuring multiple viewers and reading directions. Connect your accounts with tracker support for MyAnimeList, AniList, SIMKL, trakt, and Kitsu. Organize your library using custom categories, switch between light and dark themes, and create local backups for offline reading or cloud storage.",
+  "date": "2026-11-03",
+  "description": "Mangayomi is a free and open-source manga reader and anime streaming application that works across multiple platforms. It is inspired by Tachiyomi and built using the Flutter framework. The app provides access to manga content from various sources and supports anime streaming functionality.",
   "features": [
-   "Read manga and novels",
-   "Watch anime and movies",
-   "Configurable reader",
-   "Tracker support",
-   "Light and dark themes"
+   "Free",
+   "Open Source",
+   "Cross-platform",
+   "Manga Reader",
+   "Anime Streaming"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "f64a765b63c5c876ebc3cf27739e16b03732054e5fb93be9e7070dfe9e96287f",
-  "subtitle": "Read manga, novels and watch anime across platforms",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "48b7547637b04aabe759859a68b1e7700cca4e84bf7f2e575f4b05d3bf0397a4",
+  "subtitle": "Free open-source manga reader and anime streamer",
   "tags": [
    "manga",
    "anime",
-   "novel",
    "reader",
-   "tracker",
-   "entertainment"
+   "streaming",
+   "open-source",
+   "flutter"
   ]
  },
  "com.kommadot.casesimulator": {
@@ -22720,24 +23301,46 @@
  },
  "com.ligg.anime_flow": {
   "category": "entertainment",
-  "date": "2026-10-27",
-  "description": "AnimeFlow is a cross-platform anime video player application supporting Android, iOS, Windows, macOS, and Linux. It includes multiple data sources and custom XPath crawler configurations, supports real-time video 4K super-resolution based on Anime4K, integrates with Bangumi to sync collections and tracking data, and supports multi-platform bullet comment sources along with extensive bullet comment settings.",
+  "date": "2026-11-03",
+  "description": "AnimeFlow is a cross-platform anime video playback application available for Android, iOS, Windows, macOS, and Linux. It includes built-in multiple data sources and custom XPath crawler configuration. It supports real-time video 4K super resolution based on Anime4K, connects with Bangumi to synchronize collections and tracking data, and supports multi-platform danmaku sources along with rich danmaku settings.",
   "features": [
-   "Multi-platform support",
+   "Cross-platform",
    "Custom XPath crawler",
-   "Anime4K super-resolution",
+   "Anime4K super resolution",
    "Bangumi sync",
-   "Bullet comment settings"
+   "Multi-platform danmaku"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2622d0d824ecd770b335298e81741a2c1944852018e74185db2a635c57a306d4",
-  "subtitle": "Cross-platform anime video player",
+  "src_hash": "cf697e936525daffc8c109425be4a7fd0f98a16e10cd9911d6152997095566f8",
+  "subtitle": "Cross-platform anime video streaming app",
   "tags": [
    "anime",
-   "player",
    "video",
+   "player",
    "streaming",
-   "bangumi"
+   "bangumi",
+   "danmaku"
+  ]
+ },
+ "com.ligg.animeflow": {
+  "category": "entertainment",
+  "date": "2026-11-03",
+  "description": "AnimeFlow \u662f\u4e00\u6b3e\u8de8\u5e73\u53f0\u8ffd\u756a\u5e94\u7528\uff0c\u652f\u6301 Bangumi \u6536\u85cf\u540c\u6b65\u4e0e\u5f39\u5e55\u64ad\u653e\u529f\u80fd\u3002\u672c\u9879\u76ee\u9075\u5faa AGPL-3.0 \u5f00\u6e90\u534f\u8bae\u3002",
+  "features": [
+   "Open Source",
+   "Bangumi Sync",
+   "Danmaku Playback"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "31e4f18200ec0c3ee86b93870e8abaa88887ab7c048bd7974224ba5150e0781f",
+  "subtitle": "\u8de8\u5e73\u53f0\u8ffd\u756a\u5e94\u7528\uff0c\u652f\u6301 Bangumi \u540c\u6b65\u4e0e\u5f39\u5e55\u64ad\u653e",
+  "tags": [
+   "animeflow",
+   "anime",
+   "bangumi",
+   "danmaku",
+   "open source",
+   "\u8ffd\u756a"
   ]
  },
  "com.lightricks.Enlight-Editor": {
@@ -23157,19 +23760,22 @@
  },
  "com.llayerlinux.LSX4RuntimeProbe": {
   "category": "games",
-  "date": "2026-10-30",
-  "description": "LSX4 is an open-source PlayStation 4 and 5 emulator for Android and iOS. The current iOS build supports PS4 gameplay and requires iOS 26+ with JIT.",
+  "date": "2026-11-03",
+  "description": "LSX4 is an open-source PlayStation 4 and 5 emulator. The current iOS build supports PS4 gameplay and requires iOS 26 or later with JIT compilation enabled.",
   "features": [
-   "Open-source"
+   "Open Source",
+   "PS4 Support",
+   "JIT Required"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "642c970a68775102ee8d5b46986a034bf631bef442d97d46a4314ca75c224c62",
-  "subtitle": "PlayStation 4 and 5 emulator for mobile devices",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "67d40039dbe6147ed469320e04fff74abd83f203729ec45e685f1c171921c462",
+  "subtitle": "Open-source PS4/5 emulator for iOS",
   "tags": [
    "emulator",
-   "playstation",
    "ps4",
    "ps5",
+   "open-source",
+   "jit",
    "gaming"
   ]
  },
@@ -23867,6 +24473,23 @@
    "marble"
   ]
  },
+ "com.marchukevich.tripplanner": {
+  "category": "lifestyle",
+  "date": "2026-11-03",
+  "description": "Plan & Go is a travel app and smart trip planner designed for iOS 15.0 and later. Version 2.2.8 is available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5a7f2abcb137a91f5fe0f5e4084f0e4e135a2b42c39e7ec491e92ab1e4ac273c",
+  "subtitle": "Smart Trip Planner for Travel",
+  "tags": [
+   "travel",
+   "trip",
+   "planner",
+   "itinerary",
+   "vacation",
+   "organizer"
+  ]
+ },
  "com.marcuszhou.NineAnimator": {
   "category": "entertainment",
   "date": "2026-11-01",
@@ -24069,6 +24692,26 @@
    "ios 16",
    "ios 17",
    "personalization"
+  ]
+ },
+ "com.matthwlabs.cupola": {
+  "category": "utilities",
+  "date": "2026-11-03",
+  "description": "Cupola is a native app for your self-hosted media stack and the box it runs on, supporting seventeen services across iOS, Android, and macOS. Designed to replace managing a dozen separate web user interfaces that are often difficult to use on mobile devices, Cupola combines them into a single application. The app operates with no cloud dependency, no account requirement, and no middleman.",
+  "features": [
+   "No cloud",
+   "No account",
+   "No middleman"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "ea8536c97abd361a9941ade24f54de9d9efbd5f0e18748d27c79296f8ff957f9",
+  "subtitle": "Control your entire self-hosted media stack",
+  "tags": [
+   "server",
+   "media",
+   "self-hosted",
+   "utilities",
+   "native"
   ]
  },
  "com.mayaiptv.client": {
@@ -24422,6 +25065,23 @@
    "game"
   ]
  },
+ "com.michaelclay.BackTracks": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "PlayTally helps you track and manage your tallies.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "786abb8394c35ee51b9e5f479dfc3e72119ff1c10a52f31bd3cd1fc5b5d4d291",
+  "subtitle": "Track and manage your tallies",
+  "tags": [
+   "tally",
+   "tracker",
+   "counter",
+   "score",
+   "plays",
+   "manager"
+  ]
+ },
  "com.microblink.PhotoMath": {
   "category": "utilities",
   "date": "2026-11-02",
@@ -24599,6 +25259,49 @@
    "ios",
    "ipad",
    "wkwebview"
+  ]
+ },
+ "com.mikevillarroel.buildbox": {
+  "category": "utilities",
+  "date": "2026-11-03",
+  "description": "Compile Swift apps directly from your iPhone using a GitHub Actions backend, then sign them on-device with your own certificate and install them in one complete cycle. The app can also import any IPA file for signing and inject deb or zip tweak packages before the signing process. It ships as an unsigned IPA and is available for free with an optional donate button.",
+  "features": [
+   "Compile Swift apps",
+   "GitHub Actions backend",
+   "On-device signing",
+   "Import any IPA",
+   "Inject deb and zip tweaks"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "8924ca93bcaf0ff17c39e5b51ac9209490e76297837698efa50671039524bc6b",
+  "subtitle": "Compile and sign Swift apps on your iPhone",
+  "tags": [
+   "swift",
+   "compiler",
+   "ipa",
+   "signing",
+   "github",
+   "developer"
+  ]
+ },
+ "com.mikevillarroel.layers": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "Bakes icon borders, dock tint and depth shadows into your wallpaper at the exact icon-grid positions for home screen customization without jailbreak.",
+  "features": [
+   "No Jailbreak",
+   "Home Screen Customization"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4ebf0a60f5003cf9e9b574ac02879c2fcacbdd3b0b3afebf7af184076641d4b7",
+  "subtitle": "Bakes icon borders and shadows into wallpaper",
+  "tags": [
+   "wallpaper",
+   "customization",
+   "icons",
+   "grid",
+   "shadows",
+   "no-jailbreak"
   ]
  },
  "com.mileways.app": {
@@ -25116,6 +25819,25 @@
    "tools"
   ]
  },
+ "com.mobivalley.LookAroundApp": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "PlaceGuesser is a location-based guessing game. This version has been injected with Pro features from the AppTesters IPA repository.",
+  "features": [
+   "Injected with Pro"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a2172e23bfe20c0603fe957018be8f9dbb0abe7efc31eb4e3644e895e7bbb8b5",
+  "subtitle": "Location guessing game with Pro features",
+  "tags": [
+   "placeguesser",
+   "guessing",
+   "game",
+   "location",
+   "pro",
+   "injected"
+  ]
+ },
  "com.mobivio.cutecutpro": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -25415,25 +26137,17 @@
   ]
  },
  "com.mori.downloader": {
-  "category": "photo-video",
-  "date": "2026-10-30",
-  "description": "Mori saves and downloads videos, photos, and music from 16 platforms. No watermarks are added. No accounts are required. No tracking occurs. All content stays on your device.",
-  "features": [
-   "No Watermarks",
-   "No Accounts",
-   "No Tracking",
-   "Offline Storage"
-  ],
+  "category": "utilities",
+  "date": "2026-11-03",
+  "description": "Mori is a utility application. The provided source description states: Injected with Nothing. No additional features or functionality are documented in the available information.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "47def2984e861da5b5ed4350550ff522788e7c37659d0b17938f769a6ee3adf3",
-  "subtitle": "Download media from 16 platforms privately",
+  "src_hash": "379afbef5d6b8efdcd074520770140e6d7b962ca73d1c4ce6ae863b160b413ff",
+  "subtitle": "Minimal utility tool",
   "tags": [
-   "downloader",
-   "video",
-   "photo",
-   "music",
-   "privacy",
-   "offline"
+   "utility",
+   "tool",
+   "minimal"
   ]
  },
  "com.most.stories": {
@@ -25638,6 +26352,23 @@
    "ipa",
    "repo",
    "app"
+  ]
+ },
+ "com.mwm.piano-app": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "This version has the subscription unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bec8d1ec9799d9645e5f0a8c43af59026b65f72955f93c2398ed733a8b7b1757",
+  "subtitle": "Piano app with subscription unlocked",
+  "tags": [
+   "piano",
+   "music",
+   "subscription",
+   "unlocked"
   ]
  },
  "com.mwm.procolor": {
@@ -26495,19 +27226,21 @@
  },
  "com.newmarketinglab.ImageCompressor": {
   "category": "utilities",
-  "date": "2026-10-18",
-  "description": "Compress files with subscription unlocked.",
+  "date": "2026-11-03",
+  "description": "Compress is a utility application for compression tasks. This version includes premium features injected.",
   "features": [
-   "Subscription Unlocked"
+   "Premium Unlocked"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "589a74d17bb0e925543ff5669ff049ae635c5cec1cdf42c7c645ee2ebc93c468",
-  "subtitle": "File compression tool",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5ee439ad942284b6673c8af2410918bc8cb3b57283699295832cc45f32dc0d72",
+  "subtitle": "Compress files with premium features unlocked",
   "tags": [
    "compress",
-   "files",
-   "utilities",
-   "unlocked"
+   "utility",
+   "file",
+   "premium",
+   "archive",
+   "zip"
   ]
  },
  "com.nexelon.fishinglife": {
@@ -26573,6 +27306,25 @@
    "tactical",
    "heroes",
    "battle"
+  ]
+ },
+ "com.neybox.Pillow": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "This version of Pillow has been injected with the subscription unlocked. The app is distributed through AppTesters IPA Repo.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "525224395a18e4f5a0af9f8f8cb693a6702bcb65004b52d89984b69dd6304a4b",
+  "subtitle": "Modified version with subscription unlocked",
+  "tags": [
+   "pillow",
+   "subscription",
+   "unlocked",
+   "modified",
+   "ipa",
+   "apptesters"
   ]
  },
  "com.nfg.lod.survival": {
@@ -27022,6 +27774,29 @@
    "kitchen",
    "food",
    "arcade"
+  ]
+ },
+ "com.northcutt.PicStrip": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "PicStrip removes EXIF location data, camera metadata, and visually redacts personally identifiable information from photos and videos before sharing. All scanning and processing run on the device using Apple frameworks. The app has no developer photo server, analytics, or advertising SDK. Imports, saves, and shares follow the chosen service settings; optional Apple models may require a download. Available in English and 16 additional localizations, including separate Spanish for Spain and Latin America.",
+  "features": [
+   "No Ads",
+   "No Analytics",
+   "On-Device Processing",
+   "Metadata Removal",
+   "PII Redaction"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3bef1b1ee56c8f9e949bb707698485c02af4c94ba68a91945a2059a83cbdb295",
+  "subtitle": "Remove metadata & redact PII on device",
+  "tags": [
+   "metadata",
+   "privacy",
+   "redact",
+   "exif",
+   "photos",
+   "videos"
   ]
  },
  "com.northstar.gratitude": {
@@ -27799,20 +28574,23 @@
  },
  "com.osmose-it.nursing": {
   "category": "other",
-  "date": "2026-11-02",
-  "description": "Osmosis provides nursing exam preparation. Version 6.0.8 requires iOS 15.1 or later.",
+  "date": "2026-11-03",
+  "description": "Osmosis provides nursing videos and notes. Version 5.6.11 requires iOS 15.1 or later. The app is patched and the subscription is unlocked.",
   "features": [
+   "Subscription Unlocked",
    "Patched",
-   "Subscription"
+   "Tweaked"
   ],
-  "model": "gemini:gemini-3.5-flash",
-  "src_hash": "7f68b5c228805db5153f38b7e2ca160aa93df9736334f26610e6d3bb3649d5b6",
-  "subtitle": "Nursing Exam Prep",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ff5ca93627aadb19e6d60668e6f1080cea48877f060d617f8c33a74be1c2f77e",
+  "subtitle": "Nursing videos & notes with subscription unlocked",
   "tags": [
-   "osmosis",
    "nursing",
-   "exam",
-   "prep"
+   "videos",
+   "notes",
+   "education",
+   "study",
+   "subscription"
   ]
  },
  "com.osmose-it.osmosis": {
@@ -28009,6 +28787,23 @@
    "privacy",
    "web",
    "unlocked"
+  ]
+ },
+ "com.overhaulgames.pstee": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Planescape: Torment on iOS brings one of the most narrative-focused role-playing games ever created to iPhone, offering a unique experience.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f7aece989c556c539771807f9515ed816ba57c49d6c8559531a8cb024dcf51a0",
+  "subtitle": "Planescape: Torment \u2013 narrative RPG on iOS",
+  "tags": [
+   "planescape",
+   "torment",
+   "rpg",
+   "narrative",
+   "ios",
+   "port"
   ]
  },
  "com.ovilex.drivingschoolsim": {
@@ -28297,21 +29092,44 @@
    "game"
   ]
  },
+ "com.pendo324.Phoebus": {
+  "category": "social",
+  "date": "2026-11-03",
+  "description": "Phoebus is a native iOS Reddit client that recreates the experience of the Apollo Reborn tweak. The app is built entirely on Linux with xtool and written from scratch in SwiftUI, following Apollo's design while containing none of Apollo's code. It is a personal, non\u2011commercial project, not sold or advertised, and has no affiliation with Apollo Reborn, Christian Selig, or Reddit. Users should report issues via the project's repository.",
+  "features": [
+   "Native iOS",
+   "SwiftUI",
+   "Non\u2011commercial"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1f49992849d18f6f9aa67c15efd20d468687d1d31edff40c2ea33fd8cea4a1c3",
+  "subtitle": "Native Reddit client inspired by Apollo",
+  "tags": [
+   "reddit",
+   "client",
+   "apollo",
+   "swiftui",
+   "personal",
+   "noncommercial"
+  ]
+ },
  "com.penguinbit.fastdownload": {
   "category": "other",
-  "date": "2026-10-25",
-  "description": "Pro IPA files verified and compiled by TTJB Team.",
+  "date": "2026-11-03",
+  "description": "fGet is an iOS application distributed as a Pro-injected version. The original developer is unknown. No additional functionality details are provided in the source information.",
   "features": [
-   "Pro"
+   "Pro Injected"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "42f1d8be894daaefc90dc770dd28b31011e6e2bdc061995caf0e5101eead7b2b",
-  "subtitle": "IPA files verified and compiled by TTJB Team",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "042db89b60067b8cc6160c3df45eeccc6455ac3866c1d7252e3b340f5578439d",
+  "subtitle": "Pro-injected iOS application",
   "tags": [
-   "ipa",
-   "ttjb",
    "pro",
-   "utilities"
+   "injected",
+   "ios",
+   "app",
+   "unknown",
+   "modified"
   ]
  },
  "com.perblue.disneyheroes.ios": {
@@ -28564,6 +29382,25 @@
    "meditation"
   ]
  },
+ "com.piano.star.tiles.music.circles.dancing.beat.magic": {
+  "category": "entertainment",
+  "date": "2026-11-03",
+  "description": "Piano Star is a music app that lets you tap to play songs. The tweak provides premium unlocked features. Version 1.7.9. On first launch after installation, additional setup may be required.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ff87037c892f610d977cc55aafce40039465e17ba834d1a13a3453bc71e49567",
+  "subtitle": "Tap your music with premium unlocked",
+  "tags": [
+   "piano",
+   "music",
+   "tap",
+   "premium",
+   "unlocked",
+   "tweak"
+  ]
+ },
  "com.picretouch.photoeditor": {
   "category": "photo-video",
   "date": "2026-10-14",
@@ -28580,6 +29417,25 @@
    "retouch",
    "editor",
    "images"
+  ]
+ },
+ "com.picsart.studio": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "Picsart is a photo and video editing app. This version has the subscription unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b657b8c8dff73a56d2c30f33baba2dd47c712e339357f5d47c5ac7f871de7063",
+  "subtitle": "Photo and video editor with subscription unlocked",
+  "tags": [
+   "picsart",
+   "photo",
+   "video",
+   "editor",
+   "subscription",
+   "unlocked"
   ]
  },
  "com.picspacehd.anilistclient": {
@@ -28615,6 +29471,23 @@
    "train",
    "management",
    "game"
+  ]
+ },
+ "com.pikatorrent.PikaTorrent": {
+  "category": "entertainment",
+  "date": "2026-11-03",
+  "description": "PikaTorrent lets you pick a torrent and stream or download it across all your devices. The app aims to modernize torrent clients for 2025.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a9dc6276aca37f9579ec9ceeae5f7283438cff4c1ccd05618d818016958e49b0",
+  "subtitle": "Stream and download torrents on all devices",
+  "tags": [
+   "torrent",
+   "streaming",
+   "download",
+   "client",
+   "p2p",
+   "files"
   ]
  },
  "com.pikpok.br.iosstore": {
@@ -28752,6 +29625,23 @@
    "apex"
   ]
  },
+ "com.pixelmatorteam.pixelmator.touch": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "Pixelmator is a well-known image editing software that has made a significant impact in the digital art and photography communities.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "501a4f1daebb01b1a0d67cc9b673833988c577fe53bea8e5bf54c020f0cf57bf",
+  "subtitle": "Professional image editor for digital art and photography",
+  "tags": [
+   "image",
+   "editing",
+   "digital",
+   "art",
+   "photography",
+   "editor"
+  ]
+ },
  "com.pixelperfectdude.htdrive": {
   "category": "games",
   "date": "2026-10-14",
@@ -28870,6 +29760,26 @@
    "graphics"
   ]
  },
+ "com.pixite.pigment": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "Pigment is an adult coloring book app. The tweak unlocks the subscription. Version 3.14 is patched.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "19244b1a243d823315d53d6be425300f7d8611f66845249e6d8c44d1b75f16f5",
+  "subtitle": "Adult coloring book with subscription unlocked",
+  "tags": [
+   "coloring",
+   "adult",
+   "subscription",
+   "unlocked",
+   "patched",
+   "pigment"
+  ]
+ },
  "com.pixodust.games.free.rpg.medieval.merge.puzzle.empire": {
   "category": "games",
   "date": "2026-10-30",
@@ -28904,6 +29814,29 @@
    "strategy",
    "mobile",
    "game"
+  ]
+ },
+ "com.pkgsender.app": {
+  "category": "utilities",
+  "date": "2026-11-03",
+  "description": "PKG Sender is a native iOS app for managing and sending PS4 PKG files. It supports network transfers through PS4 Remote Package Installer and USB transfers using the built-in Payload v1.0. Requires iOS 16 or later and is available in Arabic and English. The app handles GAME, UPDATE, and DLC packages, includes a PKG library with metadata and artwork, a Game Hub for per-game transfer selection, a transfer queue showing live progress, speed, and ETA, and a transfer history recording completed and cancelled transfers, transfer type, average and peak speed, transfer time, and package metadata.",
+  "features": [
+   "USB Transfer",
+   "Network Transfer",
+   "GAME/UPDATE/DLC Support",
+   "PKG Library",
+   "Transfer Queue"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d954778d4676fff071478247fded78c37c324194700a2a0991be8a22969bd7ff",
+  "subtitle": "Send PS4 PKG files via network or USB",
+  "tags": [
+   "pkg",
+   "ps4",
+   "transfer",
+   "usb",
+   "network",
+   "ios"
   ]
  },
  "com.planblabs.drops.italian": {
@@ -29112,6 +30045,27 @@
    "apptesters",
    "injected",
    "tweak"
+  ]
+ },
+ "com.playgendary.pinatamasters": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Pinatamasters tweak version 1.5.0 provides unlimited coins, unlimited gems, and removes advertisements. Created by riftysIPAlibrary.",
+  "features": [
+   "Unlimited Coins",
+   "Unlimited Gems",
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "52d3e2bcb3e9cbc7d00e7f378152101982ac4db6bcc352b3bf2d39efa5d9dfd1",
+  "subtitle": "Unlimited coins, gems, no ads mod",
+  "tags": [
+   "pinatamasters",
+   "mod",
+   "tweak",
+   "unlimited",
+   "coins",
+   "gems"
   ]
  },
  "com.playhardlab.defenders": {
@@ -29752,6 +30706,23 @@
    "2026"
   ]
  },
+ "com.pt.playdiary": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "PlayDiary offers the HDO Play catalog with an alternative user interface. Last updated on 11-10-2022. Status flagged.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "385a0446390d1c63f24082b593c981e52098ad69392e13dc606244135a87be1b",
+  "subtitle": "HDO Play catalog with alternate UI",
+  "tags": [
+   "streaming",
+   "catalog",
+   "ui",
+   "play",
+   "diary",
+   "media"
+  ]
+ },
  "com.pujiagames.IslandTime": {
   "category": "games",
   "date": "2026-10-28",
@@ -30028,6 +30999,23 @@
    "dragonfist",
    "limitless",
    "games"
+  ]
+ },
+ "com.rawhand.pixelexpedition": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "PixelExpedition: Survivor.IO is a pixelated survival arena for iOS that combines classic .IO multiplayer dynamics.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1a46c18eb6f03d432ee375fd3aa78e3472af9e898ec4fbf5a6c66c98258a8896",
+  "subtitle": "Pixelated .IO survival arena",
+  "tags": [
+   "pixel",
+   "survival",
+   "io",
+   "multiplayer",
+   "arena",
+   "ios"
   ]
  },
  "com.ray.games.ancient.defense": {
@@ -30953,6 +31941,26 @@
    "wars"
   ]
  },
+ "com.ristretto.pillfortress": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Pill Fortress is a modified version of the original game. This tweak provides unlimited in-game currencies and removes all advertisements. Version 6.3 includes these modifications for enhanced gameplay without interruptions or resource limits.",
+  "features": [
+   "Unlimited Currencies",
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "67f93a7c29e2e6668194220ebfac6e80417bc8412d2a0cdaa1f834441907417d",
+  "subtitle": "Tweaked game with unlimited currency and no ads",
+  "tags": [
+   "tweak",
+   "unlimited",
+   "no-ads",
+   "game",
+   "mod",
+   "ipa"
+  ]
+ },
  "com.rk.horoscope": {
   "category": "lifestyle",
   "date": "2026-10-27",
@@ -31236,6 +32244,23 @@
    "injected",
    "lifestyle",
    "productivity"
+  ]
+ },
+ "com.rogueuniongames.pickaxekingisland": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Pickaxe King Island is an engaging and immersive game that has captured the attention of many iOS gamers worldwide.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f6ec7d414519c01de06756b256952f2025aaf2334bb0bfc2d45f3b70e68afa73",
+  "subtitle": "Engaging immersive iOS game",
+  "tags": [
+   "pickaxe",
+   "king",
+   "island",
+   "game",
+   "ios",
+   "engaging"
   ]
  },
  "com.rome.caesar.war.strategy.conqueror.games.2021": {
@@ -31559,6 +32584,25 @@
    "ios"
   ]
  },
+ "com.saturdaytechnologies.Pause-Camera": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "Pause Cam is a video recorder that lets you pause and resume recording. Requires iOS 16.6 or later. Current version 5.02.",
+  "features": [
+   "Pause Recording"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "22e33f7717649d4d95299c5e8c91311bc19b8de35eb99db053bcc233351cb929",
+  "subtitle": "Video recorder with pause function",
+  "tags": [
+   "video",
+   "recorder",
+   "pause",
+   "camera",
+   "ios",
+   "recording"
+  ]
+ },
  "com.saulawa.areaandvolumecalc.lite": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -31613,6 +32657,26 @@
    "tested",
    "editing",
    "app"
+  ]
+ },
+ "com.scaleup.plantid": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "PlantApp modified IPA with Pro features unlocked. This version has been tested and compiled by TTJB Team. Original app functionality enhanced with premium features.",
+  "features": [
+   "Pro Unlocked",
+   "Tested Build"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c7ae4eff8de5f2ad9b006bad2abd9f7f0e04c4b676d170588f467fb1a7628076",
+  "subtitle": "Modified PlantApp with Pro features",
+  "tags": [
+   "plantapp",
+   "modified",
+   "pro",
+   "ipa",
+   "ttjb",
+   "unlocked"
   ]
  },
  "com.scottgames.fivenights": {
@@ -32016,6 +33080,23 @@
    "engine",
    "game",
    "music"
+  ]
+ },
+ "com.shervinkoushan.anytracker": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "AnyTracker is a price tracking app for iOS 16.0 and later. Version 5.2.2. Monitor product prices and receive alerts when prices drop. Available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b29abfc865c747b7986d86a6d45290600b98ea5c884e53b6b2413c59e2780a22",
+  "subtitle": "Track prices across stores",
+  "tags": [
+   "price",
+   "tracker",
+   "shopping",
+   "deals",
+   "alerts",
+   "monitor"
   ]
  },
  "com.shooterhero": {
@@ -33653,6 +34734,26 @@
    "utilities"
   ]
  },
+ "com.stromming.Plants": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "Planta is a modified IPA with Premium features added. The package has been tested and compiled by TTJB Team. This version comes from the TTJB IPA Repo.",
+  "features": [
+   "Premium",
+   "Tested IPA"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bf68041f74993a0889eec405bfab5129396c73c06e756a736a0ab86ad0804eb9",
+  "subtitle": "Premium IPA by TTJB Team",
+  "tags": [
+   "planta",
+   "premium",
+   "ipa",
+   "ttjb",
+   "tested",
+   "modified"
+  ]
+ },
  "com.strv.labs.float": {
   "category": "other",
   "date": "2026-10-24",
@@ -34142,6 +35243,23 @@
    "clock"
   ]
  },
+ "com.techconsolidated.photosolve": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "App that offers instant solutions and personalized AI chat support across a wide range of subjects, all through a simple snap of your homework.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8db39d0be6492dc9a61a80a8f465918d2dca861ef2c8c8d47fbd69c0caec8ff2",
+  "subtitle": "Instant homework solutions with AI chat",
+  "tags": [
+   "homework",
+   "ai",
+   "chat",
+   "solutions",
+   "photo",
+   "study"
+  ]
+ },
  "com.techguy.megagames": {
   "category": "games",
   "date": "2026-10-30",
@@ -34178,24 +35296,23 @@
  },
  "com.thebcd69.bcd": {
   "category": "games",
-  "date": "2026-10-31",
-  "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS with Steam and GOG built in. Powered by Wine, FEX and Metal via DXMT.",
+  "date": "2026-11-03",
+  "description": "BCD is a fast, controller-friendly launcher that runs Windows games on iOS and iPadOS. It features built-in Steam and GOG integration and is powered by Wine, FEX, and Metal via DXMT.",
   "features": [
-   "Steam built in",
-   "GOG built in",
-   "Controller friendly",
-   "Fast launcher"
+   "Controller Support",
+   "Steam Built In",
+   "GOG Built In"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "8c46bf388305af135a4b377645cc8bdf121ba4be805b4afdc823ef6b7f1b4387",
-  "subtitle": "Run Windows games on iOS and iPadOS",
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "508f083751382705843e0ab6b8a2a2aca5203ee43783aa9c282ad0c5e00e0a84",
+  "subtitle": "Windows game launcher for iOS and iPadOS",
   "tags": [
-   "games",
    "launcher",
    "windows",
    "steam",
    "gog",
-   "emulator"
+   "wine",
+   "games"
   ]
  },
  "com.theblackholecompany.ImageCompressor1": {
@@ -34478,6 +35595,26 @@
    "subscription",
    "unlocked",
    "patched"
+  ]
+ },
+ "com.tickettothemoon.video.persona": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "Persona is a beauty camera app. The tweak unlocks the subscription features. Version 1.16.4. Restart the app if the subscription does not appear unlocked. The app is patched.",
+  "features": [
+   "Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c73353df40fcd2ed642b89287a210b41e754117194dce2e8149288266c93db9f",
+  "subtitle": "Beauty camera with unlocked subscription",
+  "tags": [
+   "beauty",
+   "camera",
+   "unlocked",
+   "patched",
+   "subscription",
+   "persona"
   ]
  },
  "com.tigisoftware.ADManager": {
@@ -38558,6 +39695,29 @@
    "pdfexpert"
   ]
  },
+ "com.unknown.pdffactoryplus": {
+  "category": "utilities",
+  "date": "2026-11-03",
+  "description": "PDF Factory Plus lets you merge multiple PDF files, extract individual pages, convert scanned PDFs using OCR, convert between PDF and text formats, and repair damaged PDF files.",
+  "features": [
+   "Merge PDFs",
+   "Extract Pages",
+   "OCR",
+   "PDF \u2194 Text",
+   "Repair PDF"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c2a38066a79253250422551f6ac466b4380a5941b100074e9563965f6346fe9b",
+  "subtitle": "PDF merge, extract, OCR, convert & repair",
+  "tags": [
+   "pdf",
+   "merge",
+   "extract",
+   "ocr",
+   "convert",
+   "repair"
+  ]
+ },
  "com.unknown.pedometer": {
   "category": "other",
   "date": "2026-11-02",
@@ -38594,6 +39754,25 @@
    "unlocked",
    "keyboard",
    "instrument"
+  ]
+ },
+ "com.unknown.perfectvideolite": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "Premium features are unlocked.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "790984cab9bef9bdc9ca5c7d157c0e0a805c99d5dab2a182d7a9f4ec32b8438e",
+  "subtitle": "Premium video editor, lite version",
+  "tags": [
+   "video",
+   "editor",
+   "lite",
+   "premium",
+   "unlocked",
+   "karbin"
   ]
  },
  "com.unknown.pfdmaker": {
@@ -38722,6 +39901,55 @@
    "image",
    "unlocked",
    "ocr"
+  ]
+ },
+ "com.unknown.pixelcut": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "Pixelcut is a photo editor and graphic design app that lets you create striking images in a few steps. It offers a comprehensive editing suite with intelligent tools.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2a00f4941a2a77eb18d8abd1f85d27fb14bf40a029aa7e2eba311fe179756499",
+  "subtitle": "Photo editor & graphic design tool",
+  "tags": [
+   "photo editor",
+   "graphic design",
+   "image editing",
+   "pixelcut",
+   "design tool",
+   "creative"
+  ]
+ },
+ "com.unknown.placeguesser": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "PlaceGuesser is an app developed by Karbin-Store. Category: other.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "917afca5e45db72863d4323f309d88cc8d3e649a19779729e8cc6ebfd464ead1",
+  "subtitle": "Place guessing game by Karbin-Store",
+  "tags": [
+   "place",
+   "guessing",
+   "game",
+   "karbin-store"
+  ]
+ },
+ "com.unknown.playhomeplus": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "A virtual house where a child can use everything, including rooms, television, and shower.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "94a7d95f3c85e068f9bd6589ec40a19c12636812980dfc240a1108e0db60adff",
+  "subtitle": "Kids interactive house with TV and shower",
+  "tags": [
+   "kids",
+   "house",
+   "tv",
+   "shower",
+   "interactive",
+   "playhome"
   ]
  },
  "com.unofficial.balatro": {
@@ -38862,6 +40090,23 @@
    "utilities",
    "ipa",
    "ttjb"
+  ]
+ },
+ "com.vanilla.picoboom": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Picoboom is a group party game designed for multiplayer fun. Requires iOS 13.0 or later. Current version: 1.0.40.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cd2a23e5694931aa5b9290075aec676df1e4c461c3e35093519c31a8ee23816f",
+  "subtitle": "Group party game for friends",
+  "tags": [
+   "party",
+   "game",
+   "multiplayer",
+   "group",
+   "ios",
+   "fun"
   ]
  },
  "com.vasu.math.scanner.math.solver": {
@@ -39082,6 +40327,23 @@
    "ios"
   ]
  },
+ "com.virtualapplications.play": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "Play! is a PlayStation 2 emulator that lets users run classic PS2 games on iOS devices. The app provides emulation for retro gaming enthusiasts to play their favorite PlayStation 2 titles.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "576d49fbf61b90f0a55a27642e6b33075782667a8220f09664cffa5bf5363bc0",
+  "subtitle": "PlayStation 2 emulator for iOS",
+  "tags": [
+   "emulator",
+   "playstation",
+   "ps2",
+   "retro",
+   "gaming",
+   "classic"
+  ]
+ },
  "com.vitalii.mind": {
   "category": "other",
   "date": "2026-10-30",
@@ -39122,20 +40384,22 @@
  },
  "com.vladk.pipemasters": {
   "category": "games",
-  "date": "2026-10-24",
-  "description": "Flow Legends is a puzzle game featuring a patched premium unlocked version. Minimum operating system version required is iOS 1.",
+  "date": "2026-11-03",
+  "description": "Flow Legends: Pipe Games is a pipe puzzle game where players connect matching colors with pipes to cover the board. This modified version 1.11.100 includes unlimited coins and removes all advertisements. The tweak was created by riftysIPAlibrary.",
   "features": [
-   "Premium Unlocked"
+   "Unlimited Coins",
+   "No Ads"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "da3add02cf95c283b92c08a32534c14f73a6f501fdfd1403df759692df46732c",
-  "subtitle": "Flow Legends patched with premium unlocked",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "413b4a13305a4c3b3567e1dd88aa644e9d24ce1a571bddb5b92beebade16ae92",
+  "subtitle": "Pipe puzzle game with unlimited coins and no ads",
   "tags": [
    "puzzle",
-   "flow",
-   "legends",
-   "premium",
-   "game"
+   "pipe",
+   "game",
+   "unlimited-coins",
+   "no-ads",
+   "flow"
   ]
  },
  "com.voicecopy.app": {
@@ -39692,6 +40956,23 @@
    "wombo",
    "dream",
    "creative"
+  ]
+ },
+ "com.woo-interactive.PixelWeather": {
+  "category": "lifestyle",
+  "date": "2026-11-03",
+  "description": "PixelWeather provides a retro-style weather forecast that can be used on its own or alongside Carrot Weather.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ff021547fd917d2a2da5cc7b160ebf139c6f90cda4134b02a50dc90334b3f35a",
+  "subtitle": "Retro style weather forecast",
+  "tags": [
+   "weather",
+   "retro",
+   "forecast",
+   "carrot-weather",
+   "independent",
+   "companion"
   ]
  },
  "com.woopss.faker2": {
@@ -40287,19 +41568,19 @@
  },
  "com.zarz.mornye": {
   "category": "entertainment",
-  "date": "2026-11-01",
-  "description": "Mornye combines a Flutter and Dart user interface with a Rust backend and platform bridges for Android and iOS. The app features a decentralized extension repository system where extensions are hosted independently. Users can add repositories by entering a GitHub repository URL containing a registry.json file in the Repo tab to browse and install extensions.",
+  "date": "2026-11-03",
+  "description": "Mornye is the rebranded SpotiFLAC Mobile app. Version 5.2.1, bundle ID com.zarz.mornye. Built with Flutter as a mobile music utility by mornyeapp.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "723705d8c2c20004303cbb3b2121feb1efe6c1adc41c0c9b5b586385c7b3cdfd",
-  "subtitle": "Decentralized extension app with Rust backend",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7f377190f42701473d6381fcacfac60015f27d53ac0d350ae5ee9b0378e32bb4",
+  "subtitle": "Mobile music utility, SpotiFLAC rebranded",
   "tags": [
-   "mornye",
-   "extensions",
-   "rust",
+   "music",
+   "utility",
    "flutter",
-   "repository",
-   "github"
+   "spotiflac",
+   "mobile",
+   "audio"
   ]
  },
  "com.zenlife.tour": {
@@ -40492,6 +41773,23 @@
    "ipa",
    "modified",
    "iap"
+  ]
+ },
+ "com.zilliongames.hunteridle": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "PixelHunter is a hybrid idle game featuring colorful Pok\u00e9mon-inspired aesthetics. Players embark on an adventure with idle gameplay mechanics combined with monster collection elements.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0b5d5e0fd21361d13c704a42f9ed00f8928770f73c2fd3ad5b1a5b05a620a980",
+  "subtitle": "Idle Pok\u00e9mon-style adventure game",
+  "tags": [
+   "idle",
+   "pokemon",
+   "adventure",
+   "pixel",
+   "game",
+   "collection"
   ]
  },
  "com.zillionwhales.mushroomwars2": {
@@ -41978,6 +43276,40 @@
    "learning"
   ]
  },
+ "cypwn.PicsArtGold_21.8.6.21.8.6": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "PicsArt Gold subscription.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7fc50f2a071afcb76670395fe8647eb1871582e6aba007ea2661f394820fc37f",
+  "subtitle": "PicsArt Gold Subscription",
+  "tags": [
+   "picsart",
+   "gold",
+   "subscription",
+   "photo",
+   "video",
+   "edit"
+  ]
+ },
+ "cypwn.Pixelmator2.7.3.2.7.3": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "Powerful, full-featured image editor for iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2412d0762bd3b4340cfa8d224f27fdb012b063806395a1759552dc1f2377fee2",
+  "subtitle": "Powerful full-featured image editor",
+  "tags": [
+   "image editor",
+   "photo editing",
+   "ios",
+   "pixelmator",
+   "graphics",
+   "design"
+  ]
+ },
  "cypwn.cl1m4x.1.3": {
   "category": "other",
   "date": "2026-10-18",
@@ -42812,6 +44144,23 @@
    "ios",
    "creative",
    "application"
+  ]
+ },
+ "dk.mbh.play-Sub": {
+  "category": "entertainment",
+  "date": "2026-11-03",
+  "description": "A client for Subsonic music servers. Stream your music library from a Subsonic-compatible server. Browse artists, albums, playlists, and play audio. Supports offline caching and background playback.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6dbec4f0ecceb171e416d04058ddc38ce996ff0c3e6566b593625140daf8ace5",
+  "subtitle": "Subsonic music streaming client",
+  "tags": [
+   "subsonic",
+   "music",
+   "streaming",
+   "client",
+   "audio",
+   "player"
   ]
  },
  "dk.tactile.lilysgarden": {
@@ -44596,6 +45945,23 @@
    "game"
   ]
  },
+ "io.supercent.pizzaidle": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "Pizza Ready! is an app for pizza enthusiasts. It aims to be the ultimate destination for pizza lovers, offering choices such as classic Margherita.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6426f9b664a758c808b9f073d7c2a2962bdd18150540f24c0bf36aed1c60650a",
+  "subtitle": "Pizza recipes and ideas for enthusiasts",
+  "tags": [
+   "pizza",
+   "recipes",
+   "food",
+   "cooking",
+   "menu",
+   "app"
+  ]
+ },
  "io.uros.triprank": {
   "category": "utilities",
   "date": "2026-10-21",
@@ -44893,6 +46259,26 @@
    "robot"
   ]
  },
+ "jp.co.bandainamcoent.BNEI0455": {
+  "category": "games",
+  "date": "2026-11-03",
+  "description": "BLEACH Mirrors High provides gameplay features including a damage multiplier to boost attack output and a defense multiplier to increase defensive resilience.",
+  "features": [
+   "Damage Multiplier",
+   "Defense Multiplier"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "56d4410f6f8f4b4f1b128687be487be4a20e0c949e93a750a3174efbe85f9312",
+  "subtitle": "Enhance attack output and defensive resilience",
+  "tags": [
+   "bleach",
+   "game",
+   "enhancement",
+   "multiplier",
+   "damage",
+   "defense"
+  ]
+ },
  "jp.co.bandainamcogames.BNGI0221": {
   "category": "games",
   "date": "2026-10-20",
@@ -45102,23 +46488,21 @@
   ]
  },
  "jp.naver.linecamera": {
-  "category": "photo-video",
-  "date": "2026-10-29",
-  "description": "LINE Camera is a photo editor application. Version 18.4.7 requires iOS 16.0 or later. This patched release includes an unlocked subscription modifier. Bundle identifier: jp.naver.linecamera.",
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "This version of LINECamera includes a subscription-unlocked build.",
   "features": [
-   "Patched",
    "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "5cf66acea203b9897b84e446829daf0075fffa396f0785eecd84fd58c2d9b487",
-  "subtitle": "Photo editor with unlocked subscription",
+  "src_hash": "7873dbc23d4cf7786970ed5c8237f3a44ffb0ed180b1789e291becd7ee62f9e7",
+  "subtitle": "Camera app with subscription unlocked",
   "tags": [
-   "photo",
-   "editor",
+   "linecamera",
    "camera",
-   "line",
-   "patched",
-   "subscription"
+   "photo",
+   "subscription",
+   "unlocked"
   ]
  },
  "jp.ne.ibis.ibisPaint": {
@@ -45488,6 +46872,29 @@
    "client",
    "sdk",
    "compatibility"
+  ]
+ },
+ "local.wave.player": {
+  "category": "entertainment",
+  "date": "2026-11-03",
+  "description": "An unofficial client for Yandex Music featuring a Japanese-style interface. It offers a \"My Wave\" mode without repeat tracks, a Daylist feature, and Spotify\u2011style curated playlists. The app is not affiliated with Yandex. Access to full tracks requires an active Yandex Plus subscription.",
+  "features": [
+   "Unofficial",
+   "Japanese UI",
+   "No Repeats",
+   "Daylist",
+   "Spotify\u2011like Playlists"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2f3f8b261f1c40dc516757dd44eb6a3056dc789384816ccd5bfbd67397b965cc",
+  "subtitle": "Unofficial Yandex Music client with Japanese UI",
+  "tags": [
+   "yandex",
+   "music",
+   "unofficial",
+   "japanese",
+   "daylist",
+   "playlist"
   ]
  },
  "lottery.ticket.scanner": {
@@ -46544,6 +47951,25 @@
    "edit",
    "creative",
    "ios"
+  ]
+ },
+ "net.plantsnap.freemium": {
+  "category": "utilities",
+  "date": "2026-11-03",
+  "description": "PlantSnap is a plant identifier application. This version is a patched tweak (version 8.0.0) with the subscription unlocked, distributed by @riftysIPAlibrary.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8b5a0266ff220db27aaf2df7f2719147b38093fb4d39e532b11c61a4b8f52927",
+  "subtitle": "Plant identification with unlocked subscription",
+  "tags": [
+   "plant",
+   "identifier",
+   "subscription",
+   "unlocked",
+   "tweak",
+   "patched"
   ]
  },
  "net.quochuywdm.collanote496": {
@@ -47725,6 +49151,21 @@
    "game"
   ]
  },
+ "org.piratesfight.app": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "Pirates Fight is an app from piratesfight. Official site: https://piratesfight.org. No further details provided in source.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1301b6dcd0ad7e960ac40c93f6e2a9ca515aa69b89353c446a1bcc5f5b3c2ccc",
+  "subtitle": "Pirates Fight game",
+  "tags": [
+   "pirates",
+   "fight",
+   "game",
+   "piratesfight"
+  ]
+ },
  "org.reactjs.native.Inkitt.App.Colt": {
   "category": "lifestyle",
   "date": "2026-10-25",
@@ -48013,6 +49454,45 @@
    "subscription unlocked",
    "patched",
    "version 2.5.2"
+  ]
+ },
+ "pilotpro": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "PilotPro is an iOS application distributed via AppTesters IPA Repo. The package is described as injected with Pro features.",
+  "features": [
+   "Pro Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2e430dbcad8793fc15f4fc12e1fe23bbb439d43478b20f3f9407d37bb4e487f9",
+  "subtitle": "Injected with Pro features",
+  "tags": [
+   "pilotpro",
+   "pro",
+   "injected",
+   "ipa",
+   "apptesters",
+   "repo"
+  ]
+ },
+ "pinterest": {
+  "category": "social",
+  "date": "2026-11-03",
+  "description": "This is a tweaked version of Pinterest (v14.30) that enables video downloads and removes sponsored pins. The app is patched for these modifications.",
+  "features": [
+   "Download Videos",
+   "Sponsored Pins Removed"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8fbb883cdf851f0da16356a181c520809d0985d0e17e30c24c32974be291237c",
+  "subtitle": "Download videos, remove sponsored pins",
+  "tags": [
+   "pinterest",
+   "tweak",
+   "download",
+   "video",
+   "ad-free",
+   "social"
   ]
  },
  "pl.Garmory.MargonemAdventures": {
@@ -48970,6 +50450,25 @@
    "text"
   ]
  },
+ "uk.co.leeus.planefinderfree": {
+  "category": "other",
+  "date": "2026-11-03",
+  "description": "PlaneFinder is a flight tracking application. This version has been modified to include premium features.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3adc5a647684bd8265c931f03739c82689c86806b39d3a565baa18fc2cd97226",
+  "subtitle": "Flight tracker with premium features unlocked",
+  "tags": [
+   "flight",
+   "tracker",
+   "premium",
+   "unlocked",
+   "planefinder",
+   "aviation"
+  ]
+ },
  "uk.co.mediatonic.fallguys": {
   "category": "games",
   "date": "2026-10-21",
@@ -49121,6 +50620,62 @@
    "game",
    "mod",
    "arcade"
+  ]
+ },
+ "us.pixomaticpro.PixomaticPro": {
+  "category": "photo-video",
+  "date": "2026-11-03",
+  "description": "Pixomatic is a photo editing application. This version has the subscription features unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a42051070d39a13dcd9759b1a45befeba1213a0f63bc6230dfd63c8b0487711c",
+  "subtitle": "Photo editor with subscription unlocked",
+  "tags": [
+   "photo editor",
+   "image editing",
+   "subscription unlocked"
+  ]
+ },
+ "uz.benefitmotors.app": {
+  "category": "lifestyle",
+  "date": "2026-11-03",
+  "description": "Benefit Motors is a demo application for browsing fictional vehicle inventory. Use the app to calculate financing options, schedule a test drive, and request a trade-in estimate. This is a demonstration app only and not a real dealership. All vehicle listings and prices are fictional.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "be6f3226bfc4c5575fac327b5fded4d9b1f125fce0eb325388b965f070f2f4f3",
+  "subtitle": "Car inventory and financing demo app",
+  "tags": [
+   "car",
+   "inventory",
+   "financing",
+   "test drive",
+   "trade in",
+   "demo"
+  ]
+ },
+ "uz.plagueson.blare": {
+  "category": "utilities",
+  "date": "2026-11-03",
+  "description": "Blare uses AlarmKit to deliver system alarms that sound even when the device is in Silent or Focus mode. It includes five loud alarm tones. Wake\u2011up missions require solving math problems, shaking the phone, or typing text to dismiss. No Escape mode restarts the alarm every minute if Stop is pressed without completing the mission. The app is a personal demo project.",
+  "features": [
+   "AlarmKit system alarms",
+   "Rings in Silent & Focus",
+   "5 loud sounds",
+   "Wake-up missions",
+   "No Escape mode"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bbfc706c1ed1606691f64235beee488fe553e5e13ad9b558ebbb4a9dda7da7ca",
+  "subtitle": "Real alarms that bypass Silent & Focus",
+  "tags": [
+   "alarm",
+   "alarmkit",
+   "wakeup",
+   "missions",
+   "noescape",
+   "demo"
   ]
  },
  "valsar.dungeonwarfare": {
