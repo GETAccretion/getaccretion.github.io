@@ -215,7 +215,8 @@ h1 em { font-style: normal; color: var(--accent-text); }
 .detail { padding-block: 20px 40px; }
 .back { margin-bottom: 14px; }
 .d-head { position: relative; display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 20px; align-items: center; padding: 22px; border: 1px solid var(--line); border-radius: 22px;
-  background: var(--surface); }
+  /* a soft light in the app icon's own colour (--tint, from app.js), the page's one coloured moment */
+  background: radial-gradient(45% 140% at 72% 20%, color-mix(in srgb, var(--tint, var(--accent)) 30%, transparent), transparent), var(--surface); }
 @property --edge { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
 .d-head::after, .shelf.own::after { content: ""; position: absolute; inset: -1px; border-radius: inherit; padding: 1px; pointer-events: none;
   background: conic-gradient(from var(--edge), var(--line) 0deg, var(--accent) 40deg, var(--accent-2) 80deg,
