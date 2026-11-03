@@ -172,6 +172,7 @@ discovered ──┘       ▲
 | On demand | [`links.yml`](.github/workflows/links.yml) | Tests download links right away, then publishes |
 | Weekly | [`discover.yml`](.github/workflows/discover.yml) | Finds new sources, then publishes |
 | Every PR | [`ci.yml`](.github/workflows/ci.yml) | Lint, unit tests, validation of the published files |
+| On demand | [`telegram-post.yml`](.github/workflows/telegram-post.yml) | Posts one message you type to the Telegram channel |
 
 All three publishing workflows run the same pipeline
 ([`publish.yml`](.github/workflows/publish.yml)) and never overlap.
