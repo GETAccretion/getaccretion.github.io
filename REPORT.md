@@ -1,18 +1,18 @@
 # Source report
 
-Built 2026-11-03 19:46 UTC.
+Built 2026-11-03 20:15 UTC.
 
 | | |
 |---|---|
 | Apps in `source.json` | **4572** (5537 KB) |
 | Apps in `curated.json` | **738** (757 KB) |
-| Listings read | 34536 |
+| Listings read | 34533 |
 | Apps listed by more than one source (newest kept) | 1818 |
-| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6898 |
+| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6899 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
 | Dead download links held back (retested every build) | 9857 |
 | Links on hold (whole host failing, kept for now) | 0 |
-| Sources | 182: 179 ok, 3 from cache, 0 failed |
+| Sources | 182: 177 ok, 5 from cache, 0 failed |
 
 ## Sources
 
@@ -20,7 +20,7 @@ Built 2026-11-03 19:46 UTC.
 
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
-| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3741 | 3465 | 4619 | 2026-11-03 | discovered |
+| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3741 | 3464 | 4619 | 2026-11-03 | discovered |
 | [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1628 | 557 | 333 | 2026-11-03 | discovered |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 441 | 328 | 5 | 2026-11-03 | discovered |
 | [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 100 | 13 | 2025-01-01 | curated |
@@ -28,7 +28,7 @@ Built 2026-11-03 19:46 UTC.
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
 | [iDevPatcher](https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json) | ok | 20 | 8 | 1 | 2025-12-12 | discovered |
 | [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 52 | 7 | 0 | 2026-11-03 | discovered |
-| [AppTesters IPA Repo](https://repo.apptesters.org) | ok | 9822 | 4 | 169 | 2026-11-04 | discovered |
+| [AppTesters IPA Repo](https://repo.apptesters.org) | ok | 9823 | 5 | 169 | 2026-11-04 | discovered |
 | [CyPwn IPA Library](https://repos.gabrx.eu.org/cypwn.json) | ok | 204 | 4 | 6 | 2026-08-28 | curated |
 | [RipeStore](https://bit.ly/RipeStore) | ok | 9 | 4 | 0 | 2025-12-17 | discovered |
 | [AltStore Complete](https://bit.ly/Altstore-complete) | ok | 8 | 4 | 0 | 2025-05-12 | discovered |
@@ -38,7 +38,7 @@ Built 2026-11-03 19:46 UTC.
 | [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9817 | 2 | 169 | 2026-11-03 | discovered |
 | [OwO Source](https://repo.owo.network/) | ok | 165 | 2 | 0 | 2026-11-03 | curated |
 | [Quantum Source++](https://quarksources.github.io/dist/quantumsource%2B%2B.min.json) | ok | 32 | 2 | 3 | 2025-05-20 | curated |
-| [WuXu's Library++](https://wuxu1.github.io/wuxu-complete-plus.json) | ok | 32 | 2 | 2 | 2026-11-03 | curated |
+| [WuXu's Library++](https://wuxu1.github.io/wuxu-complete-plus.json) | cached | 32 | 2 | 2 | 2026-11-03 | curated |
 | [Fouad's Source](https://source.fouadraheb.com) | ok | 7 | 2 | 0 | 2026-11-03 | curated |
 | [FrizzleM's AltSource](https://raw.githubusercontent.com/FrizzleM/SideInstaller/main/frizzlem.json) | ok | 2 | 2 | 0 | 2026-11-02 | discovered |
 | [iAnyFeature's Source](https://raw.githubusercontent.com/Leo7247/iAnyFeature/main/source.json) | ok | 2 | 2 | 0 | 2026-10-18 | discovered |
@@ -89,12 +89,12 @@ Built 2026-11-03 19:46 UTC.
 | [AppTesters IPA Repo](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/source.json) | ok | 4599 | 0 | 228 | 2025-09-05 | discovered |
 | [Neoncat-OG IPA Library](https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/apps_esign.json) | ok | 1988 | 0 | 0 | 2026-04-11 | curated |
 | [swaggyP36000 IPA Library](https://raw.githubusercontent.com/swaggyP36000/TrollStore-IPAs/main/apps_esign.json) | ok | 623 | 0 | 0 | 2023-12-27 | curated |
-| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 204 | 0 | 6 | 2026-08-28 | discovered |
+| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 200 | 0 | 7 | 2026-04-17 | discovered |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json) | cached | 152 | 0 | 4 | 2026-10-14 | discovered |
 | [Omni-Development IPA Repo](https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json) | ok | 103 | 0 | 13 | 2024-11-17 | discovered |
 | [Sidelix App Store](https://repos.gabrx.eu.org/nabzclan.json) | ok | 36 | 0 | 1276 | 2026-09-30 | curated |
 | [Quantum Source++](https://bit.ly/Quantumsource-plus) | ok | 32 | 0 | 3 | 2025-05-20 | discovered |
-| [WuXu's Library](https://bit.ly/wuxuslibrary) | ok | 32 | 0 | 2 | 2026-11-03 | discovered |
+| [WuXu's Library](https://bit.ly/wuxuslibrary) | cached | 32 | 0 | 2 | 2026-11-03 | discovered |
 | [SideStore Team Picks](https://community-apps.sidestore.io/sidecommunity.json) | ok | 23 | 0 | 0 | 2025-02-28 | curated |
 | [SideStore Team Picks](https://raw.githubusercontent.com/RipeStore/repos/main/sidestore-community.json) | ok | 23 | 0 | 0 | 2025-02-28 | discovered |
 | [NightFox](https://raw.githubusercontent.com/lyjj0912/NightFox_Repository-fork/main/NightFox.json) | ok | 13 | 0 | 1 | 2026-08-21 | discovered |
@@ -205,7 +205,9 @@ Built 2026-11-03 19:46 UTC.
 
 ## Problems
 
+- `https://wuxu1.github.io/wuxu-complete-plus.json`: cached (HTTPError: HTTP Error 404: Not Found)
 - `https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json`: cached (HTTPError: HTTP Error 404: Not Found)
+- `https://bit.ly/wuxuslibrary`: cached (HTTPError: HTTP Error 404: Not Found)
 - `https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json`: cached (HTTPError: HTTP Error 404: Not Found)
 - `https://raw.githubusercontent.com/codeboy2012/PwEevee/main/website/pweevee/apps.json`: cached (HTTPError: HTTP Error 404: Not Found)
 
@@ -213,6 +215,7 @@ Built 2026-11-03 19:46 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
+| MyFitnessPal | 26.44.0 | 2026-11-04 | repo.apptesters.org |
 | Notability | 16.13.4 | 2026-11-04 | repo.apptesters.org |
 | Caliber | 5.18.0 | 2026-11-04 | repo.apptesters.org |
 | Accretion | 1.0.47 | 2026-11-03 | raw.githubusercontent.com |
@@ -237,4 +240,3 @@ Built 2026-11-03 19:46 UTC.
 | NeoBili | 1.3.2 | 2026-11-03 | raw.githubusercontent.com |
 | Pageturner | 2.20.0 | 2026-11-03 | raw.githubusercontent.com |
 | Empo | 0.10.4 | 2026-11-03 | raw.githubusercontent.com |
-| Manatan | 6.3.3 | 2026-11-03 | raw.githubusercontent.com |
