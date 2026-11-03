@@ -459,7 +459,8 @@
     );
   }
 
-  function shelf(title, note, apps, seeAll, { ranked = false } = {}) {
+  // own: Accretion's own mods, the one shelf that carries the moving edge
+  function shelf(title, note, apps, seeAll, { ranked = false, own = false } = {}) {
     if (!apps.length) return null;
     const list = apps.slice(0, SHELF);
     const pages = [];
@@ -477,7 +478,7 @@
       : null;
     return h(
       "section",
-      { class: list.length <= 2 ? "shelf short" : "shelf" },
+      { class: `shelf${list.length <= 2 ? " short" : ""}${own ? " own" : ""}` },
       h("div", { class: "shelf-head" }, h("h2", {}, title, note ? h("span", {}, note) : null), h("span", { class: "shelf-tools" }, arrows, seeAll ? h("a", { href: seeAll }, "See all") : null)),
       scroller,
     );
@@ -513,7 +514,7 @@
           const card = sponsorCard(null);
           return card && h("div", { class: "sponsor-slot" }, card);
         })(),
-        shelf("Made by Accretion", "our own mods", mods.slice(0, SHELF), mods.length > SHELF ? homeHash({ ...state.f, src: modSrc, s: "updated", l: true }) : null),
+        shelf("Made by Accretion", "our own mods", mods.slice(0, SHELF), mods.length > SHELF ? homeHash({ ...state.f, src: modSrc, s: "updated", l: true }) : null, { own: true }),
         shelf("Updates for your saved apps", `${savedUpd.length}`, savedUpd.slice(0, SHELF), "#/saved"),
         shelf("Fresh today", `${fmt(fresh.length)} updated`, top(fresh), homeHash({ ...state.f, s: "updated", l: true })),
         shelf("New this month", `${fmt(byNew.length)} apps`, top(byNew), homeHash({ ...state.f, s: "new", l: true })),
@@ -907,7 +908,7 @@
 
     box.replaceChildren(
       h("div", { class: "view-head" },
-        h("p", { class: "eyebrow" }, h("span", { class: `live ${liveTone(s.updated)}`, "aria-hidden": "true" }), `live index · build ${s.updated || ""}`),
+        h("p", { class: "eyebrow" }, h("span", { class: `live ${liveTone(s.updated)}`, "aria-hidden": "true" }), `Index · built ${s.updated || ""}`),
         h("h1", { class: "view-title" }, "Status"),
         h("p", { class: "muted" }, "The whole index at a glance. Rebuilt every 6 hours from every source.")),
       h("div", { class: "st-grid" },
@@ -1564,7 +1565,7 @@
       $("h-sources").textContent = fmt(stats.sources || state.sources.length);
       $("s-7d").textContent = fmt(stats.updated_7d);
       $("s-new").textContent = fmt(stats.new_30d);
-      $("built").textContent = stats.updated ? `built ${stats.updated}` : "live";
+      $("built").textContent = stats.updated ? `built ${stats.updated}` : "rebuilt every 6 hours";
       $("live-dot").className = `live ${liveTone(stats.updated)}`;
       if (lastVisit) {
         const since = state.apps.filter((a) => !a.u && a.t > lastVisit).length;
