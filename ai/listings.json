@@ -799,6 +799,25 @@
    "ios"
   ]
  },
+ "ai.topicfinder.podcastdiscovery": {
+  "category": "entertainment",
+  "date": "2026-11-06",
+  "description": "Snipd is an AI-powered podcast player requiring iOS 15.0 or later. Current version 4.1.19.",
+  "features": [
+   "AI Podcast Player"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "98a3e0f090d125f374cada304b4604df853b24abf07a1f434a7b7d9769e2a60f",
+  "subtitle": "AI Podcast Player for iOS",
+  "tags": [
+   "ai",
+   "podcast",
+   "player",
+   "ios",
+   "snipd",
+   "entertainment"
+  ]
+ },
  "ai.unblur.photo.enhancer.neural.loopsie": {
   "category": "photo-video",
   "date": "2026-11-05",
@@ -1079,21 +1098,24 @@
  },
  "app.concat.editor": {
   "category": "photo-video",
-  "date": "2026-10-20",
-  "description": "Concat is a free, open-source video editor and alternative for macOS, Windows, Linux, and Android. It includes auto-captions, text-to-speech, background removal, keyframe animation, effects and titles, multi-track cutting, and 4K export. It operates with no watermark, no account, no subscription, and no file uploads. The application runs locally using a native Rust engine and a GPU compositor. AI models for captions, voices, and cutout download once from settings and function offline afterward, keeping your footage on your disk. Suitable for TikTok, Reels, Shorts, YouTube videos, tutorials, screen recordings, podcast clips, and memes.",
+  "date": "2026-11-05",
+  "description": "Concat is a free, open-source video editor for macOS, Windows, Linux and Android. It features auto-captions, text-to-speech, background removal, keyframe animation, effects and titles, multi-track cutting, and 4K export. It has no watermarks, requires no account, and has no subscriptions or uploads.\n\nEverything runs locally on a native Rust engine with a GPU compositor. AI models download once and work offline. Your footage never leaves your disk. It is suitable for TikTok, Reels, Shorts, YouTube videos, tutorials, screen recordings, podcast clips, and memes. It also includes a built-in MCP server for AI agents and a JSON-RPC API for scripts.",
   "features": [
-   "No Ads",
-   "Unlocked"
+   "No Watermark",
+   "No Account",
+   "No Subscription",
+   "4K Export",
+   "Open Source"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "0180f0e2a15a03519037854af4fe6365976d77b33570582cde0cb384031b0c39",
-  "subtitle": "Open-source local video editor",
+  "src_hash": "c8e5d6b885db9ec3aff3825c4ad6738b435d00b05456c3c2b4d6f2439b0731f9",
+  "subtitle": "Free open-source video editor",
   "tags": [
    "video editor",
    "open source",
-   "captions",
    "rust",
-   "video editing"
+   "video editing",
+   "editor"
   ]
  },
  "app.cranberry.cure": {
@@ -1662,6 +1684,88 @@
    "scenebox",
    "utility",
    "app"
+  ]
+ },
+ "app.seanime.server": {
+  "category": "entertainment",
+  "date": "2026-11-05",
+  "description": "This is a standalone port of Seanime designed to run the server in the background of iOS devices. By running the server locally at http://127.0.0.1:43211, it serves as the backend engine for the Seanime Tenji client app, enabling torrenting, library management, and more on your phone. This is a highly experimental project and stability and performance are not guaranteed. Seanime does not provide, host, or distribute any media content. Users are responsible for obtaining media through legal means and complying with local laws.",
+  "features": [
+   "Full Backend",
+   "iOS Keep-Alive"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9cc2fe161f5fb16b78cb34428af627938a9712b8a7af54c1dfd3fd4cc7f4b391",
+  "subtitle": "Run Seanime backend server in the background",
+  "tags": [
+   "seanime",
+   "server",
+   "backend",
+   "torrent",
+   "library",
+   "media"
+  ]
+ },
+ "app.seanime.tenji": {
+  "category": "entertainment",
+  "date": "2026-11-05",
+  "description": "Seanime Tenji is a mobile and TV client app for your Seanime media server with a built-in player and offline support for streaming anime and reading manga. The app does not provide, host, or distribute any media content. Users are responsible for obtaining media through legal means and complying with local laws. Features include cross-platform availability, a built-in media player powered by libmpv supporting most anime codecs and formats, and playback options supporting server local files, torrent, debrid, and online streaming. It also supports opening media in external mobile players such as VLC, MX Player, and Outplayer.",
+  "features": [
+   "Built-in media player",
+   "Offline support",
+   "External player support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "555ba0ff6f288f9880dfdb2e32428f7e139948edd58d7777748642de39dc915a",
+  "subtitle": "Client app for your Seanime media server",
+  "tags": [
+   "seanime",
+   "anime",
+   "manga",
+   "media",
+   "streaming",
+   "server"
+  ]
+ },
+ "app.sleepmaster": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "SleepMaster provides a collection of sleep sounds with premium features unlocked. Version 2.7.5 includes patched content for full access.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "db626b0f5f45cf282b16ad4757f5a3ce7749861502a4210fe17b2e24eda6ded4",
+  "subtitle": "Premium sleep sounds unlocked",
+  "tags": [
+   "sleep",
+   "sounds",
+   "premium",
+   "unlocked",
+   "patched",
+   "relax"
+  ]
+ },
+ "app.sonara.music": {
+  "category": "photo-video",
+  "date": "2026-11-06",
+  "description": "Sonara brings SoundCloud and YouTube together into one music app featuring an endless Wave that learns your taste, synced lyrics, comments inside tracks and a Liquid Glass interface. Type an artist, a track, a genre or a mood to have Sonara build a stream of matching tracks that continues forever. Skips, likes and full listens reshape the Wave in real time, and every pick shows why it was chosen.",
+  "features": [
+   "Synced Lyrics",
+   "Endless Wave Playlist",
+   "Track Comments"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3357bb4347b74a54261c14c737e7ac2b647a6b238f2726200c095964a54c6039",
+  "subtitle": "Combine SoundCloud and YouTube in one music app",
+  "tags": [
+   "music",
+   "soundcloud",
+   "youtube",
+   "streaming",
+   "playlist",
+   "audio"
   ]
  },
  "appcake2.iphonecake.com": {
@@ -2512,6 +2616,29 @@
    "app"
   ]
  },
+ "cn.bobochang.sonar": {
+  "category": "entertainment",
+  "date": "2026-11-06",
+  "description": "Sonar is a native music player for iOS and macOS. It supports offline local music playback for MP3, FLAC, M4A, and WAV formats with automatic ID3 metadata and synchronized LRC lyrics. The app includes online querying through NetEase via ChKSz, while QQ Music, Kugou, and other sources are temporarily disabled. Existing favorites and backups are preserved, with disabled tracks marked unavailable and excluded from playback. Features include local playlists, JSON backup, synchronized lyrics, and playback queues. The macOS app offers a menu bar library and a notch player, using a top capsule on displays without a notch.",
+  "features": [
+   "Offline playback",
+   "Synchronized lyrics",
+   "Local playlists",
+   "JSON backup",
+   "Playback queues"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b0344163050eec0ab4301fd3f76adb1c8c4ca882a723c61582baa48343881ea9",
+  "subtitle": "Native music player for iOS and macOS",
+  "tags": [
+   "music",
+   "player",
+   "audio",
+   "offline",
+   "lyrics",
+   "playlists"
+  ]
+ },
  "cn.bswbw.AppsDump": {
   "category": "developer",
   "date": "2026-10-15",
@@ -2944,6 +3071,26 @@
    "apptesters"
   ]
  },
+ "co.montanafloss.Shareshot": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "Shareshot adds device frames to screenshots. Requires iOS 18.0 or later. Current version 2.0.1. Available on the App Store.",
+  "features": [
+   "Frame Screenshots",
+   "iOS 18.0+"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ebc5d77b61ce1d8911a233d48950c7393f2ebffa2ea43e1332ef6fa46481ee1a",
+  "subtitle": "Frame your screenshots with device frames",
+  "tags": [
+   "screenshot",
+   "frame",
+   "device-frame",
+   "ios",
+   "photo-editing",
+   "utility"
+  ]
+ },
  "co.noteplan.NotePlan3": {
   "category": "other",
   "date": "2026-11-01",
@@ -3011,6 +3158,41 @@
    "shows",
    "video",
    "entertainment"
+  ]
+ },
+ "co.slidebox.Slidebox": {
+  "category": "photo-video",
+  "date": "2026-11-05",
+  "description": "Slidebox Photo Manager IPA MOD is an iOS app that lets you organize, manage, and share your photos and memos.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a480cda4d3ca617fe1e99dd8f3b9dfc418ddf1e85a62ff6ebfe2d6e8aa142ab7",
+  "subtitle": "Organize and share photos with Slidebox",
+  "tags": [
+   "slidebox",
+   "photo",
+   "manager",
+   "ipa",
+   "mod",
+   "organize"
+  ]
+ },
+ "co.smartreceipts.ios": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "Smart Receipts is an app for managing expenses and taxes. This version includes the Pro feature unlocked.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c2e7195bb4f9f8b85aeb4609c6e44738b3684ea7c1044ecf77362ec793a228e9",
+  "subtitle": "Track expenses and taxes",
+  "tags": [
+   "receipts",
+   "expenses",
+   "tax",
+   "finance",
+   "tracker"
   ]
  },
  "co.thomasmenzel.proddy": {
@@ -3524,6 +3706,26 @@
    "elements",
    "ios",
    "mobile"
+  ]
+ },
+ "com.DebianArch.ScarletPersonalXYZZZ": {
+  "category": "developer",
+  "date": "2026-11-05",
+  "description": "Scarlet is an iOS signer that does not require a PC and has no app limit. It can be revoked easily; the developer recommends using E-Sign.",
+  "features": [
+   "No PC required",
+   "No app limit"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "957c65987fee59685ab7cda108d0210c7fdd46b8b781d51eaf0b8e4e0b3bd9f8",
+  "subtitle": "iOS signer without PC or app limits",
+  "tags": [
+   "ios",
+   "signer",
+   "no-pc",
+   "no-limit",
+   "revoked",
+   "e-sign"
   ]
  },
  "com.DetailGames.HungryAliens": {
@@ -4074,6 +4276,29 @@
    "darksurvival"
   ]
  },
+ "com.LiberalDust.DarkSurvival2": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Shadow Survival is a vampire-themed survival game for iOS distributed as an IPA. The modified version includes anti-cheat protection, adjusted skill cooldowns, increased damage, a mod that grants skills during gameplay, and an extended pickup range.",
+  "features": [
+   "Anti-Cheat",
+   "Skill Cooldown",
+   "Damage Mod",
+   "Skill Gain In-Play",
+   "Pickup Range"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6af2b4e95dc757aee1ced0a0256ed702d52f1ed952676e0805e7c2abdff2ca4b",
+  "subtitle": "Vampire survival with mods",
+  "tags": [
+   "vampire",
+   "survival",
+   "ipa",
+   "mod",
+   "ios",
+   "game"
+  ]
+ },
  "com.MDickie.HardTimeIII": {
   "category": "other",
   "date": "2026-10-27",
@@ -4519,6 +4744,23 @@
    "action"
   ]
  },
+ "com.Shimmer.SoloKnightIOS": {
+  "category": "games",
+  "date": "2026-11-06",
+  "description": "Solo Knight is an action RPG for iOS focused on fast-paced dungeon crawling gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b5eb8243e5556ec543870b1187957c57965a6768f7bb521f35418b66c2df1f1f",
+  "subtitle": "Fast immersive action RPG dungeon crawler",
+  "tags": [
+   "action",
+   "rpg",
+   "dungeon",
+   "crawler",
+   "immersive",
+   "fast"
+  ]
+ },
  "com.SideStore.SideStore": {
   "category": "developer",
   "date": "2026-11-05",
@@ -4590,6 +4832,44 @@
    "mod",
    "rewards",
    "fun"
+  ]
+ },
+ "com.SofaScore.iOS": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "Sofascore provides live sports scores and updates. This version includes premium features unlocked for users.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6d8ddccb5da05fa31772c513da3628da53427a64bd709750bfdc2fc1e0f244fc",
+  "subtitle": "Live sports scores with premium features unlocked",
+  "tags": [
+   "sports",
+   "scores",
+   "live",
+   "tweak",
+   "premium"
+  ]
+ },
+ "com.SofaScore.iOS.Watch": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "Sofascore is a live sports scores application. This version is a tweaked release with premium features unlocked and patched. Version 25.05.08. Distributed by @riftysIPAlibrary.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8fb4cedd63cced46cdf2d749e05df30d8fd1481ac220b397536d37f768d871be",
+  "subtitle": "Live sports scores with premium unlocked",
+  "tags": [
+   "sports",
+   "scores",
+   "live",
+   "premium",
+   "unlocked",
+   "patched"
   ]
  },
  "com.SoltyGames.EliteAutoBrasil": {
@@ -4971,6 +5251,23 @@
    "tweak",
    "patch",
    "free iap"
+  ]
+ },
+ "com.TrickStArStudio.SlotAndBrave": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Slot & Brave: Roguelike RPG is an iOS role\u2011playing game package for iPhone.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "af385b842f6cebff484dee559c89d78921f27dfb1724ac93114ba46659b2e5ac",
+  "subtitle": "Roguelike RPG for iPhone",
+  "tags": [
+   "rogue",
+   "rpg",
+   "ios",
+   "iphone",
+   "game",
+   "roleplay"
   ]
  },
  "com.TwiceApps.IdleCashRun": {
@@ -5391,6 +5688,25 @@
    "document",
    "ios",
    "utility"
+  ]
+ },
+ "com.abishkking.sixpack": {
+  "category": "lifestyle",
+  "date": "2026-11-05",
+  "description": "SixPackAbsAbsWorkout provides abdominal exercise routines. This version has in-app purchases injected, meaning premium features are accessible without payment.",
+  "features": [
+   "Unlocked IAP"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "227d4c09ab0d18bfd2d0d0cb9c8a8316d63285e0179af3f60639af747c64c4a6",
+  "subtitle": "Abs workout with unlocked purchases",
+  "tags": [
+   "abs",
+   "workout",
+   "fitness",
+   "exercise",
+   "sixpack",
+   "health"
   ]
  },
  "com.abishkking.workoutformen": {
@@ -5940,22 +6256,18 @@
  "com.ahmedbafkir.dlipa": {
   "category": "utilities",
   "date": "2026-11-05",
-  "description": "Inspired by ipatool. Sign in with your Apple ID to search the App Store, download any app as an IPA file including older versions, and install or share apps without requiring a jailbreak.",
-  "features": [
-   "No Jailbreak",
-   "Older Versions",
-   "IPA Download"
-  ],
+  "description": "DLiPA_v1.1 is an iOS application inspired by ipatool. It provides functionality for working with IPA files on iOS devices. Developed by DLiPA_v1.1 x CyPwn.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ee398c3ccc9e4e15fd1aae7db29d8ad08aede96aa5de4289c217213d37f08a5d",
-  "subtitle": "Download IPAs without jailbreak",
+  "src_hash": "bc3821e82aa95cda641e972e3a840b7306dc777ba8a258a3e154f435d31b3e12",
+  "subtitle": "iOS app inspired by ipatool for IPA management",
   "tags": [
    "ipa",
-   "app store",
-   "download",
-   "jailbreak",
-   "install",
-   "share"
+   "downloader",
+   "tool",
+   "utility",
+   "ios",
+   "app"
   ]
  },
  "com.ahmetserdarkaradeniz.Goru": {
@@ -6475,6 +6787,23 @@
    "music",
    "audio",
    "app"
+  ]
+ },
+ "com.algotwist.AI-Homework-Helper": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "AI Homework Helper \u2013 SolveThis is an iOS app that provides smart academic assistance.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a8d28344bd7a5f123577fff205898f521a4684f48fe2a8294ae3bc20b43dd4d9",
+  "subtitle": "AI Homework Helper for iPhone",
+  "tags": [
+   "ai",
+   "homework",
+   "helper",
+   "academic",
+   "assistance",
+   "ios"
   ]
  },
  "com.alightcreative.motion": {
@@ -7150,6 +7479,25 @@
    "app"
   ]
  },
+ "com.apalonapps.cameracalculator": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "SnapCalc is a math problem solver app for iOS. Use your camera to solve math problems quickly and efficiently. This version includes subscription features unlocked. If subscriptions are not activated upon opening, simply restart the app to apply the changes. Requires iOS 13.0 or later.",
+  "features": [
+   "Subscription Unlocked",
+   "Math Problem Solver"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "98f0dd26ff82a26986306a3842764006219475e550490746f994ba0c179e069d",
+  "subtitle": "Math problem solver",
+  "tags": [
+   "math",
+   "calculator",
+   "solver",
+   "camera",
+   "utilities"
+  ]
+ },
  "com.apalonapps.clrbook": {
   "category": "lifestyle",
   "date": "2026-10-18",
@@ -7273,6 +7621,26 @@
    "clime",
    "unlocked",
    "subscription"
+  ]
+ },
+ "com.apalonapps.smartalarmfree": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "Sleepzy is a sleep cycle tracker and smart alarm app. This version is patched and has the subscription unlocked. Minimum iOS 13.0. Restart the app if the subscription does not activate.",
+  "features": [
+   "Patched",
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fcdf20276aac8f1330ce3498a92489a4098a61daa93ae0fbb98693b4dfac28d1",
+  "subtitle": "Sleep cycle tracker with subscription unlocked",
+  "tags": [
+   "sleep",
+   "tracker",
+   "alarm",
+   "subscription",
+   "unlocked",
+   "patched"
   ]
  },
  "com.app-livity": {
@@ -7907,6 +8275,25 @@
    "photography",
    "procam",
    "modus"
+  ]
+ },
+ "com.astrio.Sofa": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "This modified version of Sofa has the subscription unlocked via injection. Original app functionality otherwise unchanged.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7790863627d5c183f758150a57ba49edac299f5025ad2336a65f8bd232cf2fb2",
+  "subtitle": "Subscription unlocked version",
+  "tags": [
+   "sofa",
+   "subscription",
+   "unlocked",
+   "injected",
+   "modified",
+   "ipa"
   ]
  },
  "com.atari.mobile.rctempire": {
@@ -8729,6 +9116,25 @@
    "info"
   ]
  },
+ "com.bendingspoonsapps.SleepHelp": {
+  "category": "lifestyle",
+  "date": "2026-11-05",
+  "description": "Sleep is a lifestyle app from Bending Spoons (bundle ID: com.bendingspoonsapps.SleepHelp) version 2.7.16 requiring iOS 13.0 or later. This modified version has been patched by @blatants with subscription features unlocked. Users may need to restart the app if subscriptions do not activate immediately.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8b7d36531191811498182d6d8d1740b5027a1832e3d0560b2abc62df96a912bd",
+  "subtitle": "Sleep aid with subscription features unlocked",
+  "tags": [
+   "sleep",
+   "health",
+   "wellness",
+   "relaxation",
+   "bedtime",
+   "modified"
+  ]
+ },
  "com.benricemccarthy.ketchup": {
   "category": "games",
   "date": "2026-10-28",
@@ -8863,6 +9269,28 @@
    "historical",
    "action",
    "game"
+  ]
+ },
+ "com.bh.hypergoal": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Score Masters IPA offers modified gameplay with auto ads disabled, mission rewards for gems and coins, player score capped at twenty maximum, and always win player features.",
+  "features": [
+   "Auto ADS Disable",
+   "Gems Mission Rewards",
+   "Coins Mission Rewards",
+   "Player Score 20 Max",
+   "Always Win Player"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "1aae98c8a543e1e3cccbe0c057bc0ce7ecd4fb60a70a068a07476756569b111f",
+  "subtitle": "Score Masters IPA MOD",
+  "tags": [
+   "score",
+   "masters",
+   "ipa",
+   "game",
+   "mod"
   ]
  },
  "com.bickster.myFitnessSync": {
@@ -9934,6 +10362,22 @@
    "video"
   ]
  },
+ "com.c4rlox.simpsons.ios": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "The Simpsons Hit and Run is an unofficial community port for iPhone and iPad, adapted from the Android port. Bring your own files from an owned retail PC copy of the game. Game data is not included in normal iOS builds. Requirements include an arm64 iPhone or iPad running iOS or iPadOS 15 or later, an iOS build installed and signed for your device, and the retail PC game data files with roughly 2 GB of free storage for data, transfers, and saves.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "75299f03b3cb66289b82c7fc21345c187319265ff124f2cbb99e9d4877e38e4a",
+  "subtitle": "An unofficial community port for iPhone and iPad",
+  "tags": [
+   "simpsons",
+   "port",
+   "game",
+   "action",
+   "community"
+  ]
+ },
  "com.calculated.laurene": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -10093,6 +10537,25 @@
    "icreate pro",
    "ios",
    "gaming"
+  ]
+ },
+ "com.campmobile.snow": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "This build of SNOW is injected with Pro features.",
+  "features": [
+   "Pro Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "25d0fffc9cd36ca74be40c0fa80b2a04bc55d6526c38808563a78ec82e15bdc5",
+  "subtitle": "SNOW with Pro features injected",
+  "tags": [
+   "snow",
+   "injected",
+   "pro",
+   "modified",
+   "ipa",
+   "app"
   ]
  },
  "com.canoe.FocusFour": {
@@ -10778,19 +11241,21 @@
  },
  "com.chromanoir.Zeit": {
   "category": "photo-video",
-  "date": "2026-11-04",
-  "description": "Halide Mark II is a professional-grade camera application designed for iPhone users seeking advanced photography controls. Version 2.17.3 offers powerful features for manual capture.",
-  "features": [],
+  "date": "2026-11-05",
+  "description": "Halide is a photography application. The provided source indicates this version has been injected with subscription features unlocked. No additional details about functionality or features are available from the source text.",
+  "features": [
+   "Subscription Unlocked"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "97f227ad976aeaaf89426d44cfab0c88dcb7fd6b7302698d0dfa3e34f946ec35",
-  "subtitle": "Professional camera app for iPhone",
+  "src_hash": "510df75c54432a3e341c5cef1aa71cb8c71600b6d4cb5522ae09c8be70293774",
+  "subtitle": "Photography app with subscription unlocked",
   "tags": [
-   "halide",
-   "camera",
    "photography",
-   "professional",
-   "iphone",
-   "advanced"
+   "camera",
+   "subscription",
+   "unlocked",
+   "halide",
+   "photo"
   ]
  },
  "com.chucklefish.inmost": {
@@ -11287,6 +11752,23 @@
    "game"
   ]
  },
+ "com.com2us.soccerspirits.normal.freefull.apple.global.ios.universal": {
+  "category": "games",
+  "date": "2026-11-06",
+  "description": "Soccer Spirits is an iOS game combining soccer gameplay with strategic card-based mechanics. Build teams, collect player cards, and compete in matches using tactical card play.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1da16e9a79345ae00cd8162e6de3b99ba2f7e95b7c4a8ea22f560164aa5dd7b0",
+  "subtitle": "Soccer strategy card game",
+  "tags": [
+   "soccer",
+   "strategy",
+   "card game",
+   "sports",
+   "tactical",
+   "collectible"
+  ]
+ },
  "com.comicreader.app": {
   "category": "entertainment",
   "date": "2026-11-04",
@@ -11365,6 +11847,25 @@
    "game",
    "campaign",
    "weapons"
+  ]
+ },
+ "com.consumedbycode.slopes": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "Slopes is an app with subscription features unlocked. The source indicates this version has been injected with subscription access.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "18120ad4968290a297e1b04c12250b676cb0001a7fc7251aa677605b400229fc",
+  "subtitle": "Subscription unlocked version",
+  "tags": [
+   "slopes",
+   "subscription",
+   "unlocked",
+   "app",
+   "ios",
+   "utility"
   ]
  },
  "com.contentarcade.LogoMaker": {
@@ -12458,6 +12959,25 @@
    "premium"
   ]
  },
+ "com.debotoshdey.slideshow": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "This modified version includes an in-app purchase bypass (tap buy then cancel). The IPA has been verified and compiled by TTJB Team.",
+  "features": [
+   "IAP Bypass"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "12bf0ab8b8adc61eeee15ab8f88d1f09b35ba330a671aca3a48de32942c48258",
+  "subtitle": "Slide show maker with IAP bypass",
+  "tags": [
+   "slideshow",
+   "maker",
+   "iap",
+   "bypass",
+   "hack",
+   "ipa"
+  ]
+ },
  "com.dec.privatemusic2": {
   "category": "entertainment",
   "date": "2026-11-03",
@@ -12995,6 +13515,29 @@
    "racing"
   ]
  },
+ "com.devz.slamjam96": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "The app provides native iOS and Windows ports of five classic games. Each port runs the original program through an embedded emulator core and shares a common frontend featuring touch and controller support, a NewPixie CRT filter, and a customizable touch layout. Users must supply their own ROMs or disc images; none are included. On\u2011screen controls include a floating stick, haptic feedback, and a layout that can be customized per game, with six action buttons labeled for each title.",
+  "features": [
+   "Touch Controls",
+   "Controller Support",
+   "CRT Filter",
+   "Custom Layout",
+   "Haptic Feedback"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1c17eb48fc29d0963517f7426f8c728a42c180f7f43d3c6f1fd9799ce3bf9570",
+  "subtitle": "Native ports of five classic games with emulator cores",
+  "tags": [
+   "nativeports",
+   "emulator",
+   "retro",
+   "games",
+   "ios",
+   "windows"
+  ]
+ },
  "com.diagnostics.ios": {
   "category": "other",
   "date": "2026-11-02",
@@ -13026,6 +13569,25 @@
    "utility",
    "all-in-one",
    "tool"
+  ]
+ },
+ "com.digitas.solidstarts": {
+  "category": "lifestyle",
+  "date": "2026-11-06",
+  "description": "Solid Starts is a baby first foods app designed to help parents introduce solid foods to infants. This version includes the subscription unlocked tweak. Access guidance on how to cut and prepare foods safely for babies, track food introduction, and follow expert recommendations for infant feeding stages. Designed to support parents through baby-led weaning and traditional purees with verified features and patched content.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ee1d30e0e43aab29e8a74197b9631faed0e8a5c5dc27c0b340551dba2a64f7fc",
+  "subtitle": "Baby first foods guide with subscription unlocked",
+  "tags": [
+   "baby",
+   "food",
+   "infant",
+   "feeding",
+   "parenting",
+   "solids"
   ]
  },
  "com.dino.bus.out": {
@@ -13244,6 +13806,26 @@
    "ios14",
    "decrypted",
    "app"
+  ]
+ },
+ "com.dopedevelopment.Panels": {
+  "category": "photo-video",
+  "date": "2026-11-05",
+  "description": "SCRL is a photo collage maker app. This version is a tweak with premium features unlocked and patched. Version 9.47. Minimum OS version not specified.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ec908ccc84231fa187f24e04b47bb8609ec5302133823a50864b00d91aa1d787",
+  "subtitle": "Premium unlocked photo collage maker",
+  "tags": [
+   "photo",
+   "collage",
+   "maker",
+   "premium",
+   "unlocked",
+   "patched"
   ]
  },
  "com.doubledaggerstudio.littlekittybigcity": {
@@ -14912,6 +15494,26 @@
    "kamohacks"
   ]
  },
+ "com.eu.euklqb": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Skull Up is a game by @kamohacks with hack features: speed multiplier (1-5) to accelerate idle rewards and gameplay, and freeze game to pause action at any moment.",
+  "features": [
+   "Speed Multiplier (1-5)",
+   "Freeze Game"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d18ae64fc348e302fd3b6b21fe90ebe386057045e94efe17fe6a43554d63a51d",
+  "subtitle": "Speed multiplier & freeze game hack",
+  "tags": [
+   "skull up",
+   "game hack",
+   "speed multiplier",
+   "freeze game",
+   "idle rewards",
+   "kamohacks"
+  ]
+ },
  "com.eup.heyjapan": {
   "category": "lifestyle",
   "date": "2026-10-27",
@@ -15752,6 +16354,45 @@
    "app"
   ]
  },
+ "com.fifteenjugglers.solarwatch": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "SolarWatch is an iOS tweak that displays sunrise and sunset times. The premium version is unlocked and the tweak is patched. Current version 2026.26.1.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0d0fc607ce61434bc19dbbd50aeb094bfb5814a6f656d5f2711b017a11c8d197",
+  "subtitle": "Sunrise & sunset times, premium unlocked",
+  "tags": [
+   "sunrise",
+   "sunset",
+   "tweak",
+   "premium",
+   "unlocked",
+   "patched"
+  ]
+ },
+ "com.fifthstarlabs.skyguide": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "SkyGuide is an app that has been injected with a Plus version.",
+  "features": [
+   "Plus"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7951bc2612bdcc73f26a02a661fe8c1b530ab23cb5bdd4ea12185c3a55edf9b6",
+  "subtitle": "SkyGuide Plus injected version",
+  "tags": [
+   "skyguide",
+   "plus",
+   "injected",
+   "app",
+   "testers",
+   "ipa"
+  ]
+ },
  "com.fiftythree.paper": {
   "category": "other",
   "date": "2026-11-02",
@@ -16101,6 +16742,23 @@
    "freeze",
    "infinite",
    "mod"
+  ]
+ },
+ "com.fivedragonsgames.smoqgames26": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Smoq Games 26 is a football simulation game for iPhone and iPad. It is described as the newest and most exciting football simulation game.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "edf043f112382af9caa70e29dbb98667b732b749c94e000d2945e112388fb479",
+  "subtitle": "Football simulation game for iPhone and iPad",
+  "tags": [
+   "football",
+   "simulation",
+   "game",
+   "iphone",
+   "ipad",
+   "smoq"
   ]
  },
  "com.flaregames.royalrevoltonline": {
@@ -16550,21 +17208,18 @@
  },
  "com.fouadraheb.regram": {
   "category": "social",
-  "date": "2026-10-27",
-  "description": "Duplicate Instagram client with regram functionality. Based on Instagram version 443.0 with Regram version 6.0. Bundle identifier com.fouadraheb.regram. Developed by Fouad Raheb. Not a cracked version.",
-  "features": [
-   "Regram Support"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "cd82fea42630d8c5f73f6682701ca61840e45e17085681355299a31c99340b5f",
-  "subtitle": "Regram-enabled Instagram client",
+  "date": "2026-11-05",
+  "description": "Regram is a duplicated app that can be installed alongside the original Instagram. It functions as an all-in-one tweak for Instagram. Access Regram settings by long-pressing on the Home tab bar button or directly from the Instagram settings menu. This app requires an active Patreon subscription for access and license activation is done by connecting your Patreon account from within the Regram settings.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "90aef72cfdd3fdb5e03f8fc701238c9618d7f8efc8bcd779230e9d3b4730adaf",
+  "subtitle": "An all-in-one tweak for Instagram",
   "tags": [
    "instagram",
-   "regram",
+   "tweak",
+   "duplicate",
    "social",
-   "photo",
-   "video",
-   "client"
+   "regram"
   ]
  },
  "com.fourwalls.app": {
@@ -16694,6 +17349,25 @@
    "ios",
    "installer",
    "certfish"
+  ]
+ },
+ "com.frizzlem.sideinstaller": {
+  "category": "developer",
+  "date": "2026-11-05",
+  "description": "SideInstaller lets you install SideStore and LiveContainer directly on your iPhone without a computer.",
+  "features": [
+   "No PC required"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "20f71131ea7271f30367d390ea4ce3590e79badb319685afaaf417b554d32a1a",
+  "subtitle": "Install SideStore and LiveContainer on iPhone",
+  "tags": [
+   "installer",
+   "sidestore",
+   "livecontainer",
+   "ipa",
+   "ios",
+   "no-pc"
   ]
  },
  "com.frontpocketsoftware.happyscale": {
@@ -17775,6 +18449,27 @@
    "open source",
    "client",
    "entertainment"
+  ]
+ },
+ "com.github.pacalini.picaComic": {
+  "category": "entertainment",
+  "date": "2026-11-05",
+  "description": "PicaComic is a multi-source comic reader built with Flutter. It includes built-in comic sources such as picacg, E-Hentai, JM, hitomi, and nhentai. The app supports online reading, offline downloading, local and network favorites, reading history, and WebDAV data synchronization. This is an unsigned iOS build that requires self-signing for installation.",
+  "features": [
+   "Online Reading",
+   "Offline Downloading",
+   "Reading History",
+   "WebDAV Sync"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f987404caf6456f8565ea82f88d4a2d96c4db312f2c0b47c8966b3e9c747a230",
+  "subtitle": "Multi-source comic reader built with Flutter",
+  "tags": [
+   "comic",
+   "reader",
+   "manga",
+   "download",
+   "sync"
   ]
  },
  "com.glaze.glazeFlutter": {
@@ -19450,6 +20145,27 @@
    "utilities"
   ]
  },
+ "com.harkhowalia.smartshot": {
+  "category": "photo-video",
+  "date": "2026-11-05",
+  "description": "SmartShot is a camera app supporting HEIF or Apple ProRAW at 12, 24, or 48 MP, depending on your device. It automatically switches lenses for 0.5x and telephoto when using 48 MP. The interface features Liquid Glass controls on iOS 26 and later, with a material look on earlier versions. Controls include zoom buttons, pinch to zoom, tap to focus and expose, flash, and front and back cameras. With the back camera, the flash blinks after every automatic photo to signal completion. Icons rotate with your phone, and the app recovers cleanly from calls, FaceTime, and Split View. On Mac, it supports built-in, external, or iPhone cameras, allowing you to press Space to start.",
+  "features": [
+   "HEIF and ProRAW",
+   "Auto lens switching",
+   "Flash photo notification",
+   "Mac camera support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8e9978bdc8577da50573884ea42aa8246b7ecc25e1ef418100f179642946a395",
+  "subtitle": "Camera app with HEIF, ProRAW, and flash notification",
+  "tags": [
+   "camera",
+   "photo",
+   "raw",
+   "heif",
+   "zoom"
+  ]
+ },
  "com.harmony.pulse.musicmuse": {
   "category": "other",
   "date": "2026-10-26",
@@ -19676,6 +20392,21 @@
    "music",
    "utilities",
    "tool"
+  ]
+ },
+ "com.hero.may.cry.adventure.game": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Dive into the fascinating world of Slime Legion. Experience gameplay designed for Slime Legion enthusiasts.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8b83c984822d575abe2fc98e818a0e4d3dbf675a1db4882371660a2f25535828",
+  "subtitle": "Dive into the world of Slime Legion",
+  "tags": [
+   "slime",
+   "legion",
+   "game",
+   "strategy"
   ]
  },
  "com.herocraft.game.piratearena": {
@@ -19966,6 +20697,29 @@
    "mobile"
   ]
  },
+ "com.homesweethome.SimilarPhotos": {
+  "category": "photo-video",
+  "date": "2026-11-05",
+  "description": "Similar Photos scans your photo library and builds a visual fingerprint index. Search by selecting a photo or pasting from clipboard to find visually similar images. Results show similarity percentage, photo date, and location.",
+  "features": [
+   "Visual Search",
+   "Similarity Score",
+   "Date & Location",
+   "Clipboard Search",
+   "Library Scan"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1bcfaa6024fd40498fff2cc8ffa9944a6ce141559d37e1ce2b856f867416cd01",
+  "subtitle": "Find visually similar photos in your library",
+  "tags": [
+   "photos",
+   "search",
+   "similar",
+   "visual",
+   "library",
+   "organize"
+  ]
+ },
  "com.hook.axeofhexpires": {
   "category": "games",
   "date": "2026-11-04",
@@ -20214,20 +20968,21 @@
   ]
  },
  "com.husk.app": {
-  "category": "games",
+  "category": "utilities",
   "date": "2026-11-05",
-  "description": "Add an APK, tap it, and it opens full screen. Features a translation layer where the game's own 64-bit Android code runs on the iPhone, with Husk standing in for Android around it including the C library, Java, GL, Vulkan, audio, and input without an Android boot so games start in seconds. Also includes emulation using a full LineageOS guest under QEMU for apps the translation layer cannot run yet, and fake packages and game folders for PS4 on iOS 17.4 and later.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "df442b3ac64ee241a910a2bd2286911aea5dcd46be07ecc7177c9e3b1252c3fa",
-  "subtitle": "Android translation layer and emulation tool",
+  "description": "Husk is an iOS app that lets you run Android on your iPhone. It supports both native and emulated execution. Version 1.0.1. Bundle ID: com.husk.app. Developed by Leviidev.",
+  "features": [
+   "Run Android natively or emulat"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "957b151ae01aa8844b2e6da732bfafc8e86a28e1ba4871e7c17ec1027521ac6d",
+  "subtitle": "Run Android apps on iPhone natively or emulated",
   "tags": [
    "android",
    "emulator",
-   "translation",
-   "gaming",
-   "apk",
-   "ps4"
+   "virtualization",
+   "sideload",
+   "developer"
   ]
  },
  "com.husk.app.1.1.1": {
@@ -20344,6 +21099,23 @@
    "cars",
    "ipa",
    "ios"
+  ]
+ },
+ "com.hutchgames.smashcopsheat": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Smash Heat is an arcade game where you fight criminals using powerful cars. It is a paid app from the App Store, created by GLESign.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d1ea1cac1d2ff69bba2a381372bf6fec304b5b26f0ac2fdbeaf623a46101d5cc",
+  "subtitle": "Arcade car combat against criminals",
+  "tags": [
+   "arcade",
+   "cars",
+   "criminals",
+   "paid",
+   "glesign",
+   "smash"
   ]
  },
  "com.hwqgrhhjfd.idlefastfood": {
@@ -20933,6 +21705,23 @@
    "game"
   ]
  },
+ "com.ihybeis.SketchFanPro": {
+  "category": "lifestyle",
+  "date": "2026-11-05",
+  "description": "Sketch Tree Pro provides a portable digital art studio designed for creators who want to sketch, paint, and illustrate on iOS.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "640af5f8854e7655a9b9298071fd6d76bd0801a39fb18984b380215147c13e3f",
+  "subtitle": "Portable digital art studio for creators",
+  "tags": [
+   "sketch",
+   "paint",
+   "art",
+   "draw",
+   "illustration",
+   "studio"
+  ]
+ },
  "com.ikemen.go": {
   "category": "games",
   "date": "2026-10-28",
@@ -20971,6 +21760,23 @@
    "mindfulness",
    "wellness",
    "health"
+  ]
+ },
+ "com.ilios.optimaltilt": {
+  "category": "utilities",
+  "date": "2026-11-06",
+  "description": "PV Solar Tilt is a practical iOS application designed to help users calculate the optimal tilt angle for solar panels.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5f69e9adbeae3bc7495949f0c39c23cefdc1e0a08d30ffcf0545f19484b8becc",
+  "subtitle": "Calculate optimal solar panel tilt angle",
+  "tags": [
+   "solar",
+   "panel",
+   "tilt",
+   "angle",
+   "calculator",
+   "pv"
   ]
  },
  "com.ilmfinity.evocreo2": {
@@ -21282,6 +22088,27 @@
    "pets",
    "hats",
    "no ads"
+  ]
+ },
+ "com.innovativedigitaltechnologies.FollowersWidget": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "The app includes Pro features. The IPA has been tested and compiled by TTJB Team.",
+  "features": [
+   "Pro",
+   "Tested",
+   "TTJB Team"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "64d2860267c981199305dc433551112d7cb7c659e892d62e3bf0e3af6a7d3aad",
+  "subtitle": "Pro IPA tested by TTJB Team",
+  "tags": [
+   "socialstats",
+   "pro",
+   "ipa",
+   "ttjb",
+   "tested",
+   "compiled"
   ]
  },
  "com.inspiredsquare.sand.blast": {
@@ -24290,6 +25117,40 @@
    "time-tracking"
   ]
  },
+ "com.ipaomtk.skullburn.154269": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Skullburn is a high-energy action game for iOS that blends fast-paced combat with a dark, atmospheric world.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3573b091fc2cd9d9111c183c63a5b77ac6af23c8d3e958fceb65418c7c46d44f",
+  "subtitle": "High-energy action game with dark atmosphere",
+  "tags": [
+   "action",
+   "game",
+   "ios",
+   "combat",
+   "dark",
+   "atmospheric"
+  ]
+ },
+ "com.ipaomtk.snapbg.remove.background.ai.156516": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "SnapBG: Remove Background AI IPA is an iOS installation package that enables users to install the app.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fb3b655a22845e3d08d73c0fb2bd056c2ea76b89c3e8b0550a40083307e878b2",
+  "subtitle": "Remove backgrounds with AI on iOS",
+  "tags": [
+   "snapbg",
+   "remove",
+   "background",
+   "ai",
+   "ios",
+   "installation"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -24486,6 +25347,22 @@
    "log",
    "exercise",
    "tracker"
+  ]
+ },
+ "com.irrationalcode.screengrab": {
+  "category": "photo-video",
+  "date": "2026-11-05",
+  "description": "ScreenGrab is an app for taking screenshots. It provides essential capture capabilities suitable for users and parents alike.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e8bfae5646fdbe97bd03d78e6ac815c769c32d078c144f82ea9f453f179cc501",
+  "subtitle": "Take screenshots easily",
+  "tags": [
+   "screengrab",
+   "screenshot",
+   "capture",
+   "photo",
+   "image"
   ]
  },
  "com.islamalimi": {
@@ -25197,6 +26074,26 @@
    "utilities"
   ]
  },
+ "com.joytunes.Draw": {
+  "category": "lifestyle",
+  "date": "2026-11-05",
+  "description": "Simply Draw is a drawing tutorial app. Version 1.7.2 requires iOS 15.2 or later. Bundle ID: com.joytunes.Draw. This version is patched with subscription unlocked.",
+  "features": [
+   "Patched",
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c1d691b2350ac84376547ec7a659973835226d285049a7f1b41e2d10825f2ff1",
+  "subtitle": "Learn to draw with guided lessons",
+  "tags": [
+   "drawing",
+   "tutorial",
+   "learn",
+   "art",
+   "sketch",
+   "education"
+  ]
+ },
  "com.joytunes.SimplyGuitar": {
   "category": "other",
   "date": "2026-11-05",
@@ -25602,6 +26499,26 @@
    "developer"
   ]
  },
+ "com.keerstinnesmithi.habittracker.habitwise": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "SmithKeer is a TestFlight application known as Yellow Bank. It functions exclusively through the TrollStore sideloading utility. Created by GLESign.",
+  "features": [
+   "TestFlight",
+   "TrollStore Required"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3cd1e0e5825eb48127c2cd08026a2913e9d583c0c4d8ac3b4a1854e8bb71b212",
+  "subtitle": "TestFlight app requiring TrollStore",
+  "tags": [
+   "testflight",
+   "trollstore",
+   "yellow bank",
+   "banking",
+   "sideload",
+   "ios"
+  ]
+ },
  "com.keinois.PrettyProgressApp": {
   "category": "utilities",
   "date": "2026-11-03",
@@ -25728,6 +26645,23 @@
    "evoday",
    "premium",
    "utilities"
+  ]
+ },
+ "com.kevinreutter.Interstellar": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "Sleevi is a sleep laboratory app for iOS 17.0 and later. Current version 27.2.1. Available on the App Store. Designed for sleep monitoring and analysis.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ea55e06d37d4deca8671693217156ef04993d89427d406cddae57b6b14302f64",
+  "subtitle": "Mobile sleep tracking and analysis utility",
+  "tags": [
+   "sleep",
+   "health",
+   "tracking",
+   "analysis",
+   "ios",
+   "utility"
   ]
  },
  "com.khanov.BlockerX": {
@@ -26052,6 +26986,45 @@
    "communism",
    "game",
    "adventure"
+  ]
+ },
+ "com.kongsoftware.kickpfm": {
+  "category": "games",
+  "date": "2026-11-06",
+  "description": "Soccer Dynasty Club Manager is an iOS game that combines soccer action with management strategy.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9e319be845f8a6a5224558018056c475a5e99225d5dbc199ee7d5f53ca837185",
+  "subtitle": "Manage your club and lead it to victory",
+  "tags": [
+   "soccer",
+   "management",
+   "club",
+   "strategy",
+   "ios",
+   "game"
+  ]
+ },
+ "com.kongsoftware.project02sj.gl": {
+  "category": "games",
+  "date": "2026-11-06",
+  "description": "Soccer Journey 2026 includes hack features for added resources and items. Modify your gameplay with included options for gold, cash, player energy, match energy, tokens, and user EXP. Access additional scout tickets and standard scouts to progress through the game.",
+  "features": [
+   "Gold",
+   "Cash",
+   "Player Energy",
+   "Match Energy",
+   "Tokens"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0763108c411d07f9258e0db4a604b50f0a672d715e78e6f63ed5575e58e72c20",
+  "subtitle": "Soccer Journey 2026 game hacks",
+  "tags": [
+   "soccer",
+   "journey",
+   "game",
+   "hack",
+   "sports"
   ]
  },
  "com.koofei.matchmansion": {
@@ -26562,6 +27535,26 @@
    "speed",
    "internet",
    "utilities"
+  ]
+ },
+ "com.leapfitness.Sleeptracker": {
+  "category": "lifestyle",
+  "date": "2026-11-05",
+  "description": "Sleep Tracker: Recorder, Sound version 2.18.1 is a patched tweak with premium features unlocked.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "81230b57b11d137b31e86bf32a473e2dcc152cc24e103aaad41955c1e4e229da",
+  "subtitle": "Sleep recorder with premium features",
+  "tags": [
+   "sleep",
+   "tracker",
+   "recorder",
+   "sound",
+   "premium",
+   "patched"
   ]
  },
  "com.leapfitness.fasting": {
@@ -27160,6 +28153,25 @@
    "classic",
    "music",
    "retro"
+  ]
+ },
+ "com.lexwarelabs.goodmorning": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "Modified version of SleepCycle sleep tracking app with premium subscription features injected. Tracks sleep patterns and provides analysis. Distributed via third-party repository.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "44aba964098293fb59481447aff1edc0374e80d987b5bb9d74c0e0360569097a",
+  "subtitle": "Sleep tracking with premium features unlocked",
+  "tags": [
+   "sleep",
+   "tracking",
+   "health",
+   "premium",
+   "modified",
+   "ipa"
   ]
  },
  "com.libretro.RetroArchiOS11": {
@@ -27905,6 +28917,23 @@
    "cut",
    "paste",
    "images"
+  ]
+ },
+ "com.lrdsnow.test": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "Simple KFD Tweaks using the KFD exploit. Status: working.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "879ae2f564701182c8f28449bfed2d9255eda83812c4566fc37f117e90963ee5",
+  "subtitle": "Simple KFD Tweaks using KFD exploit",
+  "tags": [
+   "kfd",
+   "tweaks",
+   "exploit",
+   "simple",
+   "ios",
+   "jailbreak"
   ]
  },
  "com.luckyclan.artstudio2.ios": {
@@ -29007,6 +30036,24 @@
    "fun"
   ]
  },
+ "com.mediocre.smashhit": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "Smash Hit tweak providing free in-app purchases. Version 1.5.5 from third-party source.",
+  "features": [
+   "Free iAP"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fa130f061920327fc47bc0404d97898fbc34580cc61f28f772cf251284a666ee",
+  "subtitle": "Free in-app purchases tweak",
+  "tags": [
+   "tweak",
+   "free-iap",
+   "smash-hit",
+   "ipa",
+   "mod"
+  ]
+ },
  "com.meepo.Notepad": {
   "category": "developer",
   "date": "2026-11-01",
@@ -29981,6 +31028,29 @@
    "streamermode"
   ]
  },
+ "com.mobile.scrcpy-ios": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "Screen Remote is a mobile port of scrcpy that lets you control an Android device from an iPhone. It connects via ADB over Wi\u2011Fi, uses hardware decoding to reduce power and CPU usage, and optimizes gestures for unstable networks. The app can be launched from a URL scheme, pairs devices with a pairing code, provides on\u2011screen Android navigation buttons (Back, Home, Switch App), toggles the iOS keyboard to send keys, syncs clipboard contents between devices, manages ADB keys (generate, modify, import, export), and forwards audio from Android 11+ devices to the iPhone.",
+  "features": [
+   "ADB over WiFi",
+   "Hardware decoding",
+   "Gesture optimization",
+   "Clipboard sync",
+   "Audio forward"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1523cbf5a883a96df4fa762fd731166f829e5ac778855f52bfd454712574e8ed",
+  "subtitle": "Remote control Android from iPhone",
+  "tags": [
+   "scrcpy",
+   "adb",
+   "remote",
+   "android",
+   "ios",
+   "control"
+  ]
+ },
  "com.mobilefootie.fotmobpro": {
   "category": "utilities",
   "date": "2026-10-25",
@@ -29998,6 +31068,29 @@
    "scores",
    "sports",
    "football"
+  ]
+ },
+ "com.mobilenext.devicekit-ios": {
+  "category": "developer",
+  "date": "2026-11-05",
+  "description": "Control any iOS device or simulator over a simple JSON-RPC API. Tap, swipe, stream video, and inspect the UI from any language over localhost. Build interactive automation with tap, swipe, long-press, text typing, and hardware button controls. Launch, terminate, and detect foreground apps by bundle ID. Stream live video via MJPEG and H264 with configurable FPS, bitrate, and quality. Inspect the UI with full accessibility tree dumps, capture PNG or JPEG screenshots, control system orientation, open URLs, and query screen size. Broadcast audio and video using ReplayKit over TCP with flexible transport options over WebSocket or HTTP.",
+  "features": [
+   "Interactive automation",
+   "App control",
+   "Live screen streaming",
+   "UI inspection",
+   "Flexible transport"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "14d88f118bab4237ade15bf34fc7706314e72cc172b3e6753e88b82418e60ed7",
+  "subtitle": "Control iOS devices and simulators over a JSON-RPC API",
+  "tags": [
+   "automation",
+   "streaming",
+   "api",
+   "simulator",
+   "developer",
+   "testing"
   ]
  },
  "com.mobirate.rovercraft": {
@@ -30321,6 +31414,25 @@
    "ipa",
    "ios",
    "finance"
+  ]
+ },
+ "com.monkeyibrowstudios.worldsoccerchamps": {
+  "category": "games",
+  "date": "2026-11-06",
+  "description": "World Soccer Champs is a football and soccer game available as an IPA MOD for iOS. The app is designed for football and soccer fans looking for a mobile soccer experience.",
+  "features": [
+   "IPA MOD"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "930ae55b59f7b1c504783ce7db0a47fc84c77be6d8b5b409dca9d065f303e9c1",
+  "subtitle": "Football soccer game with IPA MOD for iOS",
+  "tags": [
+   "soccer",
+   "football",
+   "game",
+   "ipa",
+   "mod",
+   "sports"
   ]
  },
  "com.monokaitoolkit.pro": {
@@ -30648,6 +31760,26 @@
    "unlocked",
    "subscription",
    "app"
+  ]
+ },
+ "com.mwm.moments": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "SnapCut provides an unlocked subscription feature. The IPA has been tested and compiled by TTJB Team.",
+  "features": [
+   "Unlocked Subscription",
+   "Tested IPA"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "23861c8e020196c6b1c586985f11a03b15dab7f75f1a30750b835a71d27c86a6",
+  "subtitle": "Unlock subscription features",
+  "tags": [
+   "snapcut",
+   "ipa",
+   "subscription",
+   "unlocked",
+   "ttjb",
+   "tested"
   ]
  },
  "com.mwm.nota": {
@@ -31031,6 +32163,23 @@
    "uikit"
   ]
  },
+ "com.nakas.skate3": {
+  "category": "developer",
+  "date": "2026-11-05",
+  "description": "A setup tool to recompile Skate 3 for iOS using your own game disc image. Runs on macOS, signs the build with your personal Apple ID, and installs it to your device. Requires a Mac and an Apple Developer account for signing. Sideloading facilitated via FastSign service.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "349d5f06edab64402ed5c659f36d2cd15d8f9cfb071dbdd58ff36b3c5fba2d0a",
+  "subtitle": "Build Skate 3 for iOS from your disc image",
+  "tags": [
+   "skate3",
+   "recompilation",
+   "ios",
+   "build-tool",
+   "sideload",
+   "developer"
+  ]
+ },
  "com.nami.hydrationtracker": {
   "category": "utilities",
   "date": "2026-10-31",
@@ -31179,18 +32328,19 @@
  },
  "com.nathanhanapps.styleport": {
   "category": "photo-video",
-  "date": "2026-11-03",
-  "description": "Palettify is an experimental tool that takes a HEIC photo from an iPhone older than the iPhone 16 and adds the metadata carried by iPhone 16 and 17 photos. This allows Apple Photos to offer the Photographic Styles palette on older images. Starting with version 0.5, it also adds iOS 27 Texture and Grain controls introduced with the iPhone 18 Pro. Ported photos receive these controls as part of the process, while native iPhone 16 and 17 photos receive only the controls with their existing image data remaining byte-identical.",
+  "date": "2026-11-05",
+  "description": "Palettify is an experimental tool that takes HEIC photos from older iPhone models and adds metadata from newer devices. This allows Apple Photos to offer the Photographic Styles palette on your images. The app also adds Texture and Grain controls to ported photos while keeping existing image data byte-identical.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c056f95083f01ccd7545338e5be62bd5c76ce18b1508c4aa5e2e1504ea6e1488",
-  "subtitle": "Add Photographic Styles to older iPhone HEIC photos",
+  "src_hash": "4475d7b95a257d21101b8d8b5d5bdc419795701156a1e16eea4a701941ec4a46",
+  "subtitle": "Add Photographic Styles to older iPhone photos",
   "tags": [
-   "photos",
-   "editing",
-   "metadata",
+   "photographic",
+   "styles",
    "heic",
-   "apple"
+   "metadata",
+   "photo",
+   "editor"
   ]
  },
  "com.naturalmotion.csrclassics": {
@@ -31307,6 +32457,26 @@
    "ttjb"
   ]
  },
+ "com.nekki.shadowfight.paid": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "An action game with RPG elements where you fight powerful enemies in different combat arenas. Paid app from AppStore. License verification disabled.",
+  "features": [
+   "Paid",
+   "License check disabled"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "80769928b847c641629435ecc551a314dc2549f855a3579294f424fc1121443e",
+  "subtitle": "Action RPG fighting game",
+  "tags": [
+   "action",
+   "rpg",
+   "fighting",
+   "shadow",
+   "fight",
+   "game"
+  ]
+ },
  "com.nekki.shadowfight3": {
   "category": "games",
   "date": "2026-11-05",
@@ -31323,6 +32493,24 @@
    "freeze enemy",
    "games",
    "mobile",
+   "action"
+  ]
+ },
+ "com.nekki.shadowfightarena": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Play Shadow Fight 4 Arena with hack features including freeze enemy. This version works on some iOS versions including the latest releases, but does not support lower versions.",
+  "features": [
+   "Freeze Enemy"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ddc14a228abdee38099ddc7d95a5c00b838c03a996662c79691affa2a7c3962e",
+  "subtitle": "Shadow Fight 4 Arena hack features",
+  "tags": [
+   "shadow fight",
+   "arena",
+   "hack",
+   "fighting",
    "action"
   ]
  },
@@ -32492,23 +33680,23 @@
   ]
  },
  "com.nuvio.media": {
-  "category": "entertainment",
-  "date": "2026-11-04",
-  "description": "Unofficial fork of Nuvio Mobile with added Live TV and performance improvements. This app is not affiliated with or supported by the Nuvio team. Please report bugs found here directly to this repository rather than upstream, unless the bug also reproduces on an official build. Added features include Live TV, which is not present in upstream Nuvio, faster startup on Android by loading saved data in the background during the splash screen, and instant home, which saves the last home screen per profile to display on the next launch while fresh rows load.",
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "Nuvio Enhanced is a custom variant of Nuvio version 0.4.2 (bundle ID: com.nuvio.media) developed by tapframe. This version includes experimental features not found in the standard release.",
   "features": [
-   "Live TV",
-   "Faster startup",
-   "Instant home"
+   "Experimental features",
+   "Custom variant"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "71864905d2a6e4e30bab8a0d0ffa1a7e024ac36e6e57df5240c702877e063b8a",
-  "subtitle": "An unofficial enhanced fork of Nuvio Mobile",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "968ffd49f486fcf1681f49909fd897eb4a66906cdbf455d998c574e14869d9b7",
+  "subtitle": "Custom Nuvio variant with experimental features",
   "tags": [
    "nuvio",
-   "enhanced",
-   "fork",
-   "live tv",
-   "streaming"
+   "custom",
+   "experimental",
+   "variant",
+   "media",
+   "tapframe"
   ]
  },
  "com.nuvio.media.nuvio": {
@@ -33639,6 +34827,25 @@
    "game"
   ]
  },
+ "com.paradyme.solarsmasher": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "Solar Smash is a planet destruction simulator. This version includes a tweak to remove ads. Version 2.6.4 provided by riftysIPAlibrary.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c194c5f2694c66ecf236be85ece3afb16508c61c379491b8f6fe32130eb4bccb",
+  "subtitle": "Planet destruction simulator with no ads",
+  "tags": [
+   "simulation",
+   "destruction",
+   "planet",
+   "noads",
+   "tweak",
+   "ipa"
+  ]
+ },
  "com.parallaxlabs.ShiftCalendar": {
   "category": "utilities",
   "date": "2026-11-04",
@@ -34177,6 +35384,23 @@
    "gold"
   ]
  },
+ "com.picshift.slowmotion": {
+  "category": "photo-video",
+  "date": "2026-11-05",
+  "description": "Slow Motion Video Maker Editor is an advanced iOS application designed to help users create stunning slow-motion videos.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5823698257878966d9a65321431fd2cc3b9cc7252e23acfafc25a93cede62889",
+  "subtitle": "Create stunning slow-motion videos",
+  "tags": [
+   "slow",
+   "motion",
+   "video",
+   "editor",
+   "ipa",
+   "ios"
+  ]
+ },
  "com.picspacehd.anilistclient": {
   "category": "other",
   "date": "2026-10-14",
@@ -34364,6 +35588,26 @@
    "premium",
    "unlocked",
    "packrepeat"
+  ]
+ },
+ "com.pixel.aisolver": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "AI Math Solver: Problem Helper version 1.3. This tweak unlocks the subscription feature and is patched. Created by @riftysIPAlibrary.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "96b0d36a5ad3036982f2acb1d78ec95c6f37aca963d538e76d61f1f623121b54",
+  "subtitle": "AI math problem solver with subscription unlocked",
+  "tags": [
+   "math",
+   "solver",
+   "ai",
+   "subscription",
+   "unlocked",
+   "patched"
   ]
  },
  "com.pixelbyte.harmonyai": {
@@ -34609,6 +35853,23 @@
    "strategy",
    "mobile",
    "game"
+  ]
+ },
+ "com.pixsterstudio.quitalcohol": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "Soberly is an iOS application designed to support individuals who want to track and maintain a sober lifestyle.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1ce4fed7b1b3a4616da95e5fe493a6a09fdb8bd826817e1a6b34971ea9546ec1",
+  "subtitle": "Sobriety Counter App for iOS",
+  "tags": [
+   "soberly",
+   "sobriety",
+   "counter",
+   "ios",
+   "track",
+   "app"
   ]
  },
  "com.pkgsender.app": {
@@ -35194,6 +36455,24 @@
    "odyssey"
   ]
  },
+ "com.plusblog.smpro": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "This application offers the Pro version, which has been thoroughly checked and compiled by the TTJB Team. It provides the modified IPA package for installation.",
+  "features": [
+   "Pro Version"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "14b8aee1abfb59c062af157c6150462130d2663d2cc838fb3182d7e599886b87",
+  "subtitle": "Pro IPA version verified and compiled by TTJB Team",
+  "tags": [
+   "smpro",
+   "ttjb",
+   "ipa",
+   "pro",
+   "utilities"
+  ]
+ },
  "com.plusmediapps.itransmission": {
   "category": "utilities",
   "date": "2026-10-28",
@@ -35654,6 +36933,23 @@
    "ios",
    "design",
    "professional"
+  ]
+ },
+ "com.protostar.sling": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Sling Kong is an arcade action game where simple touch gestures control movement and progression. Swing, climb, and navigate through levels in this fast-paced game.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "69f5bf4f623de416ce8e2616c148d2108ce3dab6169dc51e57b835b4651236d7",
+  "subtitle": "Arcade action with touch gestures",
+  "tags": [
+   "arcade",
+   "action",
+   "touch",
+   "gesture",
+   "game",
+   "ios"
   ]
  },
  "com.provenance-emu.icube": {
@@ -36301,6 +37597,23 @@
    "ios"
   ]
  },
+ "com.reactable.density-drums": {
+  "category": "entertainment",
+  "date": "2026-11-05",
+  "description": "SNAP is the iOS installable version of the Reactable Drum Machine, a creative music production tool.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ccc7e4f09b3f22f37ec78bcb7de235719d59b244c84268fea02ba55d9afeafff",
+  "subtitle": "Reactable Drum Machine for iOS",
+  "tags": [
+   "snap",
+   "reactable",
+   "drum",
+   "machine",
+   "music",
+   "ios"
+  ]
+ },
  "com.readaware.app": {
   "category": "entertainment",
   "date": "2026-11-04",
@@ -36381,20 +37694,20 @@
  "com.readdle.Scanner": {
   "category": "utilities",
   "date": "2026-11-05",
-  "description": "ScannerPro is a document scanning utility. The provided version has the subscription unlocked.",
+  "description": "ScannerPro is a modified version of the document scanning application with Pro features injected. This utility app provides document scanning capabilities with premium functionality included.",
   "features": [
-   "Subscription Unlocked"
+   "Pro Features Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "7d541f234ea28e9ee43bbcabeed3489539bf3582f15efcf645319009d104baf0",
-  "subtitle": "Scan documents with unlocked subscription",
+  "src_hash": "761414e47cdecda9d025a07b9acdcac0af2f164424b1beb643e73914a39147ea",
+  "subtitle": "Modified scanner with Pro features",
   "tags": [
    "scanner",
    "document",
    "pdf",
-   "subscription",
-   "unlocked",
-   "utility"
+   "utility",
+   "modified",
+   "pro"
   ]
  },
  "com.realbyteapps.MoneyManager2": {
@@ -36832,6 +38145,28 @@
    "gaming"
   ]
  },
+ "com.rebelancap.soh": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Ship of Harkinian ports The Legend of Zelda: Ocarina of Time to iPhone and Apple Vision Pro. The app runs the full quest using a custom engine built from the game's decompiled source code. It supports original assets, controller input, and high-resolution rendering. Requires a legally obtained Ocarina of Time ROM to play.",
+  "features": [
+   "Full Quest",
+   "Vision Pro Support",
+   "Controller Support",
+   "High-Resolution Rendering"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5ca409a3b6f12fdc5ae43d986dc795649631db226dd11005a977b376f4efe43d",
+  "subtitle": "Play Ocarina of Time on iPhone & Vision Pro",
+  "tags": [
+   "zelda",
+   "ocarina of time",
+   "n64",
+   "emulator",
+   "vision pro",
+   "port"
+  ]
+ },
  "com.reblazing.nbrc": {
   "category": "other",
   "date": "2026-11-03",
@@ -36903,6 +38238,23 @@
    "sports",
    "game",
    "mobile"
+  ]
+ },
+ "com.redtailworks.slimetd": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Slime Castle is an idle tower defense game for iOS that combines tower defense mechanics with whimsical charm.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "47abb3ce8a3b0a300abc916454e8196947febe98bbb6abd4b705a12a056e1fc4",
+  "subtitle": "Whimsical idle tower defense game",
+  "tags": [
+   "idle",
+   "tower-defense",
+   "whimsical",
+   "slime",
+   "castle",
+   "ios"
   ]
  },
  "com.reederapp.5.iOS": {
@@ -37197,6 +38549,26 @@
    "visual",
    "photo",
    "find"
+  ]
+ },
+ "com.revivasoftworks.Snore-Lab": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "SnoreLab records your snoring during sleep. Version 6.4.6 requires iOS 17.0 or later. The app is patched and includes a modifier.",
+  "features": [
+   "Patched",
+   "Modifier"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9fae2b57fcb0d3f4b6ecea3e6da2e1c467d42578b21dcc51889fb9cdef296ba2",
+  "subtitle": "Record and analyze your snoring",
+  "tags": [
+   "snoring",
+   "record",
+   "tracker",
+   "health",
+   "sleep",
+   "ios"
   ]
  },
  "com.revoicers.autocc": {
@@ -37512,6 +38884,23 @@
    "advance",
    "riley testut",
    "games"
+  ]
+ },
+ "com.ripestore.skein": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "Skein is a native BitTorrent client for macOS and iOS, built with SwiftUI over libtorrent using Swift and C++ interop. It includes support for configuration management using environment variables, Local.env files, and Project.swift defaults to handle bundle identity and signing for local development and continuous integration setups.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7a93e6e8b7a57ae3c8ebe789f931c606972bdad532bbd1b152103d4f58fae5a1",
+  "subtitle": "A native BitTorrent client for macOS and iOS",
+  "tags": [
+   "bittorrent",
+   "client",
+   "torrent",
+   "macos",
+   "ios",
+   "swift"
   ]
  },
  "com.risesci.nyx": {
@@ -38075,6 +39464,26 @@
    "coins"
   ]
  },
+ "com.rubygames.slingdrift": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Sling Drift is a driving game where you navigate tracks by slinging and drifting. This version includes unlimited diamonds, removes all advertisements, and unlocks VIP content for players.",
+  "features": [
+   "Unlimited Diamonds",
+   "No Ads",
+   "VIP Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7b4b7c5d8042a242696bbb8fd4c8b9fee6a38899f22ed5ed11ef665adb933e9e",
+  "subtitle": "Drift and sling through the track",
+  "tags": [
+   "sling",
+   "drift",
+   "racing",
+   "arcade",
+   "cars"
+  ]
+ },
  "com.run.monster.era": {
   "category": "other",
   "date": "2026-10-25",
@@ -38149,23 +39558,24 @@
  "com.rushhours.app": {
   "category": "games",
   "date": "2026-11-05",
-  "description": "A free sliding-block traffic puzzle where you slide cars and trucks along their lanes to drive the red car out. Includes over 700 campaign levels plus daily and weekly challenges.",
+  "description": "A free sliding-block traffic puzzle where you slide cars and trucks along their lanes to drive the red car out. Includes 700+ campaign levels, daily and weekly challenges, a level creator, and optional self-hosted multiplayer. No ads, no in-app purchases, no tracking.",
   "features": [
-   "Free",
-   "700+ Levels",
-   "Daily Challenges",
-   "Weekly Challenges"
+   "No Ads",
+   "No In-App Purchases",
+   "No Tracking",
+   "Level Creator",
+   "Self-Hosted Multiplayer"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "6e9527fc11d6dc984f17548d29455521b3b8be552c4eeda9f6b10fd95e1927b8",
-  "subtitle": "Slide vehicles to free the red car",
+  "src_hash": "1d30a679a6edf679749b3fc8fd3933f922bc587768fddb0dd59b19a4bd71f1a1",
+  "subtitle": "Slide cars to free the red car",
   "tags": [
    "puzzle",
    "traffic",
    "sliding-block",
-   "levels",
-   "daily",
-   "weekly"
+   "level-editor",
+   "multiplayer",
+   "offline"
   ]
  },
  "com.ry0.ryP0": {
@@ -38425,6 +39835,23 @@
    "math"
   ]
  },
+ "com.saygin.brickgame": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Slidey: Block Puzzle is a simple yet addictive puzzle game for iPhone that transforms classic block-sliding mechanics.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2101b1c057c4c49eaf548f1de2ca9964747b3e35ffc44f6cc833ecb3ff376314",
+  "subtitle": "Block sliding puzzle game for iPhone",
+  "tags": [
+   "slidey",
+   "block puzzle",
+   "puzzle",
+   "game",
+   "sliding",
+   "classic"
+  ]
+ },
  "com.sbs.diet": {
   "category": "lifestyle",
   "date": "2026-10-29",
@@ -38482,6 +39909,28 @@
    "ipa",
    "ttjb",
    "unlocked"
+  ]
+ },
+ "com.scankit.ScanKit": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "ScanKit is a native iOS document scanner built for power users who want full control over capturing, processing and exporting documents. All processing runs on-device, and data stays local unless iCloud sync is enabled. The app features smart camera controls with live edge detection, auto-capture, and manual corner adjustment. Process documents using color, grayscale, or black and white modes, and extract text using on-device OCR with Spotlight indexing. Export files as searchable PDFs, images, or plain text using the native share sheet. Manage your library with nested folders, tags, favorites, and bulk operations.",
+  "features": [
+   "Smart camera with edge detecti",
+   "On-device OCR and text extract",
+   "Searchable and password-protec",
+   "Nested folders and tags",
+   "Siri and Shortcuts support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ab04271d52b33981021e18d43363595a7d8f543b2f8b40053c30868a4a9178b7",
+  "subtitle": "Native iOS document scanner with advanced controls",
+  "tags": [
+   "scanner",
+   "pdf",
+   "ocr",
+   "document",
+   "utilities"
   ]
  },
  "com.scarlet.app": {
@@ -38614,6 +40063,29 @@
    "sort",
    "tactile",
    "ios"
+  ]
+ },
+ "com.scyphomote.scyphomote": {
+  "category": "entertainment",
+  "date": "2026-11-05",
+  "description": "Scyphomote is a Flutter\u2011built remote for Jellyfin that lets you manage multiple servers and users. It provides playback controls such as play, pause, stop, seek, and volume, plus fast forward, rewind, and track skipping. You can browse movies, shows, and music, manage the queue, view cast and synopsis info, resume watching, skip intros and outros, send messages to active sessions, change audio tracks and subtitles, and navigate Jellyfin interfaces with a full directional remote.",
+  "features": [
+   "Multi-server support",
+   "Playback controls",
+   "Queue management",
+   "Segment skipping",
+   "Remote navigation"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5aab7deec33103a4d3295b4b0746d5271d2543bbb67a2b2ff0182759f7713151",
+  "subtitle": "Remote control for Jellyfin media servers",
+  "tags": [
+   "jellyfin",
+   "remote",
+   "flutter",
+   "media",
+   "control",
+   "streaming"
   ]
  },
  "com.sean.roamcontrol": {
@@ -38815,6 +40287,24 @@
    "maps",
    "money",
    "tokens"
+  ]
+ },
+ "com.sfun.snapedit": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "SnapEdit is an app injected with Pro features to enhance your photo editing workflow.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2f8e9fa0c22909a343336b98c06453f40ecdddebb37c65d6a2beca726bbea642",
+  "subtitle": "Pro features injected",
+  "tags": [
+   "snapedit",
+   "photo",
+   "editor",
+   "pro",
+   "utilities"
   ]
  },
  "com.sgn.cookiejam": {
@@ -39100,6 +40590,28 @@
    "unlocked"
   ]
  },
+ "com.shirox.app": {
+  "category": "entertainment",
+  "date": "2026-11-05",
+  "description": "Track, read, and watch your anime and manga library across iPhone, iPad, and Mac. Shirox is a free, source-available library manager that connects to your AniList or MyAnimeList accounts and your own sources, including modules, a Jellyfin server, or local device files. The app ships with no content of its own and does not host or provide media. All tracking, progress updates, downloads, playback, and reading happen directly on your device. Features include side-by-side support for AniList and MyAnimeList with per-provider sync toggles, and Continue Watching and Continue Reading lists that pick up right where you left off.",
+  "features": [
+   "Free",
+   "Source-available",
+   "AniList sync",
+   "MyAnimeList sync"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6d3e8b3065379e73a191f97c97068e9ffd7d49b76f76439d766ae6187b155349",
+  "subtitle": "Your anime and manga library manager.",
+  "tags": [
+   "anime",
+   "manga",
+   "library",
+   "tracker",
+   "anilist",
+   "myanimelist"
+  ]
+ },
  "com.shooterhero": {
   "category": "games",
   "date": "2026-11-01",
@@ -39115,6 +40627,25 @@
    "space",
    "combat",
    "ios"
+  ]
+ },
+ "com.showmania.co": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "ShowMania is a modified version of HDO Play that removes advertisements. The app was last updated on June 25, 2023 and carries a warning status.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e25a3021d5330a9592ea707e4c816d9314974bdc64854dd7b58dddbab0d361c2",
+  "subtitle": "Ad\u2011free HDO Play clone",
+  "tags": [
+   "hdo",
+   "play",
+   "modded",
+   "noads",
+   "streaming",
+   "video"
   ]
  },
  "com.shred.shredlabs": {
@@ -39137,6 +40668,29 @@
    "health"
   ]
  },
+ "com.signos.app": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "SignOs is an on-device signing store that provides App Store-style automatic updates, background signing, and certificate renewal. It is built on the open-source Feather project.",
+  "features": [
+   "Automatic Updates",
+   "Background Signing",
+   "Certificate Renewal",
+   "On-Device Store",
+   "Open Source"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d1cc7ae7def0f6079f6005ed4c26c2bcef706429609092655862b3762332d3f8",
+  "subtitle": "On-device signing store with auto updates",
+  "tags": [
+   "signing",
+   "ipa",
+   "feather",
+   "certificate",
+   "updates",
+   "store"
+  ]
+ },
  "com.sillens.iShape": {
   "category": "other",
   "date": "2026-10-28",
@@ -39154,6 +40708,25 @@
    "health",
    "fitness",
    "subscription"
+  ]
+ },
+ "com.silverai.magiccut": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "SnapBG is a modified application with premium features injected. The app comes from the AppTesters IPA repository and includes unlocked premium functionality.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "69ea50a48f2462398bea4ff3e003360620bb5431bbf4887690cbd1ca077dbc25",
+  "subtitle": "Premium features unlocked",
+  "tags": [
+   "snapbg",
+   "premium",
+   "modified",
+   "ipa",
+   "unlocked",
+   "app"
   ]
  },
  "com.silverphase.editor": {
@@ -39193,6 +40766,23 @@
    "tracker",
    "arrivals",
    "departures"
+  ]
+ },
+ "com.simloc.app": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "SimLoc is a location simulation app that lets you set custom GPS coordinates for testing and development purposes.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0acfa49942586ff37e4a526f941cb08a955b0df39cd9ec7be503a1adf1b8cecf",
+  "subtitle": "Simulate GPS locations on iOS",
+  "tags": [
+   "location",
+   "simulation",
+   "gps",
+   "testing",
+   "development",
+   "ios"
   ]
  },
  "com.simonpersson.repsapp": {
@@ -39294,6 +40884,26 @@
    "reflexes",
    "ios",
    "game"
+  ]
+ },
+ "com.skinsort": {
+  "category": "lifestyle",
+  "date": "2026-11-05",
+  "description": "SkinSort - Skincare Scanner version 1.54. The tweak provides a subscription unlocked state and is marked as patched. Distributed by riftysIPAlibrary.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ad2078357daf69813dc56626798fa4367d3d066bc328f19aab101c93cffd9b55",
+  "subtitle": "Skincare scanner with subscription unlocked",
+  "tags": [
+   "skincare",
+   "scanner",
+   "subscription",
+   "unlocked",
+   "patched",
+   "ipa"
   ]
  },
  "com.skybornegames.adorablegarden": {
@@ -39417,6 +41027,102 @@
    "ipa"
   ]
  },
+ "com.sled.surfers.game": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Sled Surfers is an adrenaline-pumping endless runner game tailored for iPhone users who crave high-speed ac.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6d6b871ca9ac1b22726517a9fa8fa8e0176e644ea28bcd6dd4ab68adde30c3bc",
+  "subtitle": "Endless runner game for iPhone",
+  "tags": [
+   "sled",
+   "surfers",
+   "endless",
+   "runner",
+   "game",
+   "iphone"
+  ]
+ },
+ "com.sleepmonitor.aio": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "SleepMonitor is an app for sleep tracking. The source indicates it has been injected with Pro features. Developer information is not available.",
+  "features": [
+   "Pro Features"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b0541d8cc2f93042335f0ff656595c07d7555464ccc0524f80f48512578bf4fb",
+  "subtitle": "Sleep tracking and monitoring app",
+  "tags": [
+   "sleep",
+   "monitor",
+   "tracker",
+   "health",
+   "pro",
+   "app"
+  ]
+ },
+ "com.sm64coopdx.ios": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "sm64coopdx is an online multiplayer project for the Super Mario 64 PC port that synchronizes all entities and every level for multiple players. Created to maintain, improve, and continue sm64ex-coop, it offers more features, customization, and power to the Lua API for modders and players. Unlike previous multiplayer projects, this one synchronizes enemies and events, allowing players to interact with the same world at the same time. The goal of the project includes constantly maintaining and improving the Lua API.",
+  "features": [
+   "Online multiplayer",
+   "Synchronized enemies",
+   "Synchronized levels",
+   "Lua API support",
+   "Customization options"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c39de7319c891c7534a877c7af556f27d43854ff5ede332ae11e235484fe1bec",
+  "subtitle": "Online multiplayer for the Super Mario 64 PC port",
+  "tags": [
+   "mario",
+   "multiplayer",
+   "mod",
+   "gaming",
+   "pc"
+  ]
+ },
+ "com.smallpdf.app.ios": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "Smallpdf IPA package with premium features added. This version has been tested and compiled by TTJB Team for distribution via TTJB IPA Repo. The app provides PDF conversion, compression, editing, and other document tools with premium functionality unlocked.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4ea7ae9ba47058545d9569b052ce46f74e8e62e850ace5b05206bfbbd60573ff",
+  "subtitle": "PDF tools with premium features unlocked",
+  "tags": [
+   "pdf",
+   "smallpdf",
+   "premium",
+   "converter",
+   "tools",
+   "utilities"
+  ]
+ },
+ "com.smule.sing": {
+  "category": "entertainment",
+  "date": "2026-11-05",
+  "description": "Karaoke music app unlocked with VIP. Last updated January 23, 2024.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7d36bf4adf01306388d6fc6e616e7845989f482b70b98e3c08ee64e3960d91cb",
+  "subtitle": "Karaoke music app with VIP unlock",
+  "tags": [
+   "karaoke",
+   "music",
+   "vip",
+   "unlocked",
+   "app",
+   "sing"
+  ]
+ },
  "com.snapbreak.silt": {
   "category": "games",
   "date": "2026-11-05",
@@ -39431,6 +41137,23 @@
    "haunting",
    "meditative",
    "game",
+   "ios"
+  ]
+ },
+ "com.sniper3d.game": {
+  "category": "games",
+  "date": "2026-11-06",
+  "description": "Sniper OPS: Covert Missions on iOS offers a focused first-person sniper experience built around precision, patience, and strategic execution.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8aad2e5ab81625018ffacb8efdf38931c1a88abe7ecd5ba92846cb3f3ba59b12",
+  "subtitle": "First-person sniper game with precision",
+  "tags": [
+   "sniper",
+   "first-person",
+   "shooter",
+   "stealth",
+   "precision",
    "ios"
   ]
  },
@@ -39449,6 +41172,26 @@
    "retro",
    "action",
    "free"
+  ]
+ },
+ "com.snoregym.app": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "SnoreGym version 1.3.1 is an app designed to help reduce snoring. This release is a patched tweak with premium features unlocked. The original source lists it as a premium unlocked tweak from @riftysIPAlibrary.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ec5343217e6bc91e5fe7446ac8990245c2d63c032100f4cf38e1b55450fc4d9d",
+  "subtitle": "Reduce snoring with guided exercises",
+  "tags": [
+   "snoring",
+   "sleep",
+   "health",
+   "premium",
+   "unlocked",
+   "patched"
   ]
  },
  "com.snowcorp.epik": {
@@ -39484,6 +41227,25 @@
    "ipa",
    "repo",
    "test"
+  ]
+ },
+ "com.snowcorp.soda": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "SODA is a modified version with subscription features unlocked. This injected build provides access to premium functionality without requiring an active subscription.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2b45b7efd7fc76b1522bf5f6a1488cd925c8f0e6065f16d17def52f1d839ff8e",
+  "subtitle": "Subscription features unlocked",
+  "tags": [
+   "soda",
+   "subscription",
+   "unlocked",
+   "modified",
+   "premium",
+   "ipa"
   ]
  },
  "com.snowman.altos-adventure.the-spirit-of-the-mountain": {
@@ -39550,6 +41312,29 @@
    "fitness",
    "workout",
    "soccer"
+  ]
+ },
+ "com.softify.softify": {
+  "category": "entertainment",
+  "date": "2026-11-06",
+  "description": "Softify is an ad-free, paywall-free music streaming app for Android and iOS built with Flutter and Clean Architecture. It streams studio-quality 320 kbps audio, offers instant search, synchronized lyrics, custom playlists, and offline downloads. The app is in beta, not affiliated with Spotify, YouTube, or JioSaavn, and hosts no copyrighted content.",
+  "features": [
+   "Ad-free",
+   "Paywall-free",
+   "High-fidelity audio",
+   "Offline downloads",
+   "Synchronized lyrics"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f1192f65a5c1284442ab12280fe79a610d8700e78367c1127c3ca71e76b37754",
+  "subtitle": "Ad-free high-fidelity music streaming",
+  "tags": [
+   "music",
+   "streaming",
+   "offline",
+   "lyrics",
+   "playlists",
+   "flutter"
   ]
  },
  "com.softissimo.ReversoContext": {
@@ -39738,6 +41523,25 @@
    "app"
   ]
  },
+ "com.spacegab.slideshow": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "This version of SlideShow has been injected to unlock subscription features.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f9049f203b4852ffcbe992f51aa485cdc4bf5c86cc679bcbe416350af8f97c3d",
+  "subtitle": "SlideShow with subscription unlocked",
+  "tags": [
+   "slideshow",
+   "subscription",
+   "unlocked",
+   "ipa",
+   "repo",
+   "mod"
+  ]
+ },
  "com.sparklechan.swiftyrh": {
   "category": "developer",
   "date": "2026-10-25",
@@ -39895,6 +41699,23 @@
    "ipa",
    "offline",
    "resources"
+  ]
+ },
+ "com.spcomes.wwr": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Slash King is a high-energy action game for iPhone that combines fast-paced slicing mechanics with addictive combat. Players engage in rapid slicing action across various levels.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "aaec3b99f4f74faf0cda72e0f6df7c3ad1ebf82d9b0989318cad80dc150dcc13",
+  "subtitle": "Fast-Paced Action Slicer Game",
+  "tags": [
+   "action",
+   "slicer",
+   "combat",
+   "fast-paced",
+   "iphone",
+   "game"
   ]
  },
  "com.spotify.client.ios.chroma.pw.0.50.0.beta.not.patched.9.1.78": {
@@ -40715,6 +42536,22 @@
    "ios",
    "pomelo",
    "stossy11"
+  ]
+ },
+ "com.stossy11.SideJIT": {
+  "category": "developer",
+  "date": "2026-11-05",
+  "description": "SideJIT is an application designed to enable JIT on iOS 17 with macOS or Windows without needing to interact with the computer at all. It utilizes the SideJITServer to function.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5dad23626af68aa850ae7ba3c5cadcf9af35f9490381fb803225cb6ea80dc158",
+  "subtitle": "Enable JIT on iOS 17 using macOS or Windows",
+  "tags": [
+   "jit",
+   "ios 17",
+   "developer",
+   "server",
+   "utility"
   ]
  },
  "com.straight-tamago.DockTransparent": {
@@ -41609,6 +43446,27 @@
    "utilities"
   ]
  },
+ "com.tgc.sky.ios": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "Mod menu for Sky Children of the Light containing 126 hack features and debug functions. Hold with your four fingers on the screen to open the menu.",
+  "features": [
+   "126 Hack features",
+   "Mod menu",
+   "Debug functions"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2e564d60ba4cfbf779643a928cfaa7cdf5261d1bbb03d70a84f7da01b7dd1873",
+  "subtitle": "Mod menu for Sky Children of the Light",
+  "tags": [
+   "sky",
+   "children",
+   "light",
+   "mod",
+   "menu",
+   "hack"
+  ]
+ },
  "com.thebcd69.bcd": {
   "category": "games",
   "date": "2026-11-05",
@@ -41659,6 +43517,23 @@
    "recreation",
    "engine",
    "classic"
+  ]
+ },
+ "com.theclashsoft.tvsofa3": {
+  "category": "lifestyle",
+  "date": "2026-11-06",
+  "description": "SofaTime helps you track and manage your relaxation time. This version includes injected premium access for all features.",
+  "features": [
+   "Injected Premium"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e87bf2c471214c390979e0c8c5292ca96b076034988f29505d3ff6049aa00128",
+  "subtitle": "Track your favorite sofa time",
+  "tags": [
+   "sofatime",
+   "relaxation",
+   "tracker",
+   "premium"
   ]
  },
  "com.thefreevpn": {
@@ -42352,6 +44227,26 @@
    "strategy",
    "ios",
    "game"
+  ]
+ },
+ "com.toyopagroup.picaboo": {
+  "category": "social",
+  "date": "2026-11-05",
+  "description": "Modified Snapchat version 14.17.1 distributed as Iris v1.1.0. Cracked by k?r and distributed by @compiledipas. Includes crack credentials: username kanji, password isastupidnonce. This is an unofficial, modified build of the official Snapchat social media application.",
+  "features": [
+   "Cracked",
+   "Modified"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0affe57a87997edc19758e9ec9aec09be3e10d742b4e447cce899c84862e1059",
+  "subtitle": "Cracked Snapchat v14.17.1 (Iris v1.1.0)",
+  "tags": [
+   "snapchat",
+   "cracked",
+   "modified",
+   "iris",
+   "social",
+   "ipa"
   ]
  },
  "com.tr.paraphrasingtool.rewritertool.textrewriter": {
@@ -46833,6 +48728,23 @@
    "app"
   ]
  },
+ "com.unknown.sendanywhere": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "Send files to any device. Unlocked features available after purchase.",
+  "features": [
+   "Unlocked features"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f7683d6b0caa835b8c03285c15e7b036eda646ec9b1176962720eeb5ce46f216",
+  "subtitle": "Send files to any device",
+  "tags": [
+   "file transfer",
+   "send files",
+   "unlocked",
+   "any device"
+  ]
+ },
  "com.unknown.sendsnap": {
   "category": "photo-video",
   "date": "2026-11-05",
@@ -46848,6 +48760,28 @@
    "quality",
    "send",
    "snap"
+  ]
+ },
+ "com.unknown.shadowfight2": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Shadow Fight 2 is an action fighting game. This version includes ninety nine percent unlocked items, unlimited currency, unlimited shadow orbs, and all legendary magic spells unlocked.",
+  "features": [
+   "Unlocked",
+   "Unlimited Currency",
+   "Unlimited Orbs",
+   "All Magic Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b2700161c33fd9a06cea970374cd3c9a78cb7ca01b14b37237496b14c96bac81",
+  "subtitle": "Action fighting game with unlocked features",
+  "tags": [
+   "shadow",
+   "fight",
+   "action",
+   "game",
+   "unlocked",
+   "magic"
   ]
  },
  "com.unknown.shadowfight3": {
@@ -46868,6 +48802,43 @@
    "mod",
    "game",
    "cheat"
+  ]
+ },
+ "com.unknown.shadowfight4": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "Shadow Fight 4 modification features by Karbin-Store. Double attack capability. Double defense strength. Undamaged player feature.",
+  "features": [
+   "Double Attack",
+   "Double Defense",
+   "Undamaged Player"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "06ab3921b76c39e8a2ea400b0b81f1ecde3f19292756d9137f1944bc8aeabdf4",
+  "subtitle": "Shadow Fight 4 mod features",
+  "tags": [
+   "shadow",
+   "fight",
+   "mod",
+   "game",
+   "action"
+  ]
+ },
+ "com.unknown.shadowgun": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Shadowgun is a third\u2011person shooter set in the year 2350 where space corporations act as law enforcement. Players take on the role of a bounty hunter completing missions across futuristic environments.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "aef5ec7d31c2723b14322013465cbf7b11553d9c6eb591666e1de87b678fbe86",
+  "subtitle": "Sci\u2011fi third\u2011person shooter set in 2350",
+  "tags": [
+   "shadowgun",
+   "shooter",
+   "sci-fi",
+   "2350",
+   "bounty",
+   "action"
   ]
  },
  "com.unknown.shadowofthedepth": {
@@ -46912,6 +48883,24 @@
    "store"
   ]
  },
+ "com.unknown.shadowwar": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Shadow War offers unlimited ammunition where you can increase your limits, along with renewable energy features.",
+  "features": [
+   "Unlimited ammunition",
+   "Renewable energy"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "18989ca2247a00dbb1a645b2a6fa6153aeeba73d8b813e698a64878283eb8c3f",
+  "subtitle": "Unlimited ammunition and renewable energy features",
+  "tags": [
+   "shadow",
+   "war",
+   "action",
+   "game"
+  ]
+ },
  "com.unknown.shoof": {
   "category": "entertainment",
   "date": "2026-11-05",
@@ -46929,6 +48918,136 @@
    "ad-free",
    "kurdish",
    "entertainment"
+  ]
+ },
+ "com.unknown.sixpackpremium": {
+  "category": "lifestyle",
+  "date": "2026-11-05",
+  "description": "Lose weight in the shortest time through this application without needing to go to a gym.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "67a84856a141c284e56bdbbe9f527f412a494274ffd27a4e802befe68327cccc",
+  "subtitle": "Lose weight quickly without going to the gym",
+  "tags": [
+   "fitness",
+   "weight loss",
+   "workout",
+   "health",
+   "gym",
+   "sixpack"
+  ]
+ },
+ "com.unknown.sizesnap": {
+  "category": "photo-video",
+  "date": "2026-11-05",
+  "description": "SizeSnap is an app for editing photos. It provides tools to adjust and modify images.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a1f18a0bf5c7ac22b1978cbe5262118fd367c7108acf477e1702e38e35a61ead",
+  "subtitle": "Photo editor for quick image adjustments",
+  "tags": [
+   "photo",
+   "editor",
+   "image",
+   "edit",
+   "resize",
+   "adjust"
+  ]
+ },
+ "com.unknown.skygamblersstormraiders2": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "You fly in fully created cities with realistic weather in locations such as the United States, Egypt, Russia, Norway, and Germany. Control your weapons.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f62456446156cc66dfc269cef2fedc8dff7834f097174b34239fd833ae82bfdf",
+  "subtitle": "Fly realistic weather across historic cities",
+  "tags": [
+   "flight",
+   "simulation",
+   "weather",
+   "cities",
+   "historical",
+   "weapons"
+  ]
+ },
+ "com.unknown.slaughterthelostoutpost": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "The game is set in a bloody prison where a gang is formed. The gang seeks to control a violent city within a dominated world, taking place in a dark location.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "14b0c7f4ff1e85de9c33f9e8c67f810e049a9ed39f29ba5a622c69aca718209d",
+  "subtitle": "Prison gang battles in a dark world",
+  "tags": [
+   "prison",
+   "gang",
+   "violent",
+   "dark",
+   "world",
+   "control"
+  ]
+ },
+ "com.unknown.sniper": {
+  "category": "games",
+  "date": "2026-11-06",
+  "description": "The app offers unlimited draw resources, a one\u2011shot kill mechanic, and unlimited ammunition that does not decrease. It is a sniper\u2011style game providing these features.",
+  "features": [
+   "Unlimited Draw",
+   "One\u2011shot Kill",
+   "Unlimited Ammo"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e791372aee359d7e2fee6e1b5f4c999999f2f81ebde729984e2949cedce5cc3d",
+  "subtitle": "Unlimited ammo & one\u2011shot kills",
+  "tags": [
+   "sniper",
+   "unlimited",
+   "ammo",
+   "one\u2011shot",
+   "draw",
+   "game"
+  ]
+ },
+ "com.unknown.sniper3d": {
+  "category": "games",
+  "date": "2026-11-06",
+  "description": "Play Sniper3D with modified features provided by Karbin-Store. Enjoy unlimited gold after winning missions, unlimited energy, and premium activation. Features include one-hit kills and zero weapon recoil for enhanced gameplay.",
+  "features": [
+   "Unlimited gold",
+   "Unlimited energy",
+   "Premium active",
+   "One-hit kill",
+   "No weapon recoil"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c3c98cdd38fd94d6e92a443234b2ab6860ff9f8a680e98f66d72dc4ecac9771d",
+  "subtitle": "Sniper action with modified features",
+  "tags": [
+   "sniper",
+   "action",
+   "shooting",
+   "game",
+   "karbin"
+  ]
+ },
+ "com.unknown.soccerstar": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "Get items for free in Soccer Star. Click on purchase for ads. To buy, tap buy and then choose cancel.",
+  "features": [
+   "Free items",
+   "Ad purchase option"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "eb55ee822b8eb5a25e919da8813156dc34c5d8ac7cc3b0823cf31ff2980e6449",
+  "subtitle": "Get items for free in Soccer Star",
+  "tags": [
+   "soccer",
+   "game",
+   "free",
+   "sports",
+   "karbin"
   ]
  },
  "com.unofficial.balatro": {
@@ -47053,6 +49172,23 @@
    "board"
   ]
  },
+ "com.uzero.cn.eraseit": {
+  "category": "photo-video",
+  "date": "2026-11-05",
+  "description": "Smoothrase is an iOS photo editing app that uses AI to remove unwanted objects from photos.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e143aff9c1ba317a0016ae6be0b2a035fa4c508ad7caebae581933f6a18cc034",
+  "subtitle": "AI-powered photo eraser for iOS",
+  "tags": [
+   "photo",
+   "editing",
+   "ai",
+   "erase",
+   "object",
+   "removal"
+  ]
+ },
  "com.v43years.avatarify2": {
   "category": "other",
   "date": "2026-10-15",
@@ -47069,6 +49205,29 @@
    "utilities",
    "ipa",
    "ttjb"
+  ]
+ },
+ "com.valyc.folha.scanner": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "Scanner REA is an independent, on-device document scanner for iPhone. Built with SwiftUI, VisionKit, Vision, Core Image and PDFKit, it requires iOS 17 or later. Features include multi-page capture, photo import, perspective correction, image filters, rotation, a local document library, optical character recognition and searchable PDF export. The app requires no account, subscription, advertising service or remote document upload. All scanned documents are stored locally on the device.",
+  "features": [
+   "Multi-page capture",
+   "Perspective correction",
+   "Local document library",
+   "OCR",
+   "Searchable PDF export"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2851d82978581371485e2533934d11ab14188e12fe17516e59414d0e8d45b0de",
+  "subtitle": "Independent on-device document scanner for iPhone",
+  "tags": [
+   "scanner",
+   "pdf",
+   "ocr",
+   "documents",
+   "swift",
+   "utilities"
   ]
  },
  "com.vanilla.fivesecondbattle": {
@@ -47471,6 +49630,29 @@
    "gaming",
    "retro",
    "console"
+  ]
+ },
+ "com.void.smarttube.app": {
+  "category": "photo-video",
+  "date": "2026-11-05",
+  "description": "SmartTube is a free, open-source YouTube client for iPhone, iPad, and Apple TV. It blocks ads, supports background playback, and integrates SponsorBlock for skipping sponsored segments.",
+  "features": [
+   "No Ads",
+   "Background Playback",
+   "SponsorBlock",
+   "Open Source",
+   "Apple TV Support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4ecafe41132cc8be430f4782fed951ea06faa42239ea9dd9dd47bbc544e5f6b4",
+  "subtitle": "Free open-source YouTube client with ad blocking",
+  "tags": [
+   "youtube",
+   "video",
+   "adblock",
+   "opensource",
+   "background-playback",
+   "sponsorblock"
   ]
  },
  "com.vpnbottle.melon.unblock.fast.vpn": {
@@ -48059,18 +50241,25 @@
  },
  "com.wrngwrld.Chanyan": {
   "category": "social",
-  "date": "2026-11-04",
-  "description": "Browse all boards in one place, view your favorites first, and check a feed of threads from all boards. View threads in a grid or list, sorted by bump order, newest, oldest, replies, or images. Search your favorite boards or all of 4chan, hide threads by keyword or regex, and paste 4chan links to open threads. Read replies nested under the posts they answer. Use bookmarks that show when a thread is archived or deleted. Threads can open where you left off, and a history keeps track of visited threads. Watch WebM and MP4 videos that start quickly and play as you scroll.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "6eb1657c531e92ebb3d308d04bcbcb0fb5f6f0696bfa261c96c4dd59f1d5ff14",
-  "subtitle": "Browse and read imageboards with ease",
+  "date": "2026-11-05",
+  "description": "NekoSurf is a 4chan browser that displays all boards with favorites first and a combined feed. Threads can be viewed in grid or list layout, sorted by bump order, newest, oldest, replies, or images. Search covers favorite boards or all of 4chan. Threads can be hidden by keyword or regex, and 4chan links open directly. Reading modes include nested replies that fold with a tap, or a flat chronological list. Bookmarks show archive or deletion status. Threads resume at the last position with new replies marked until viewed, and a history tracks visited threads.",
+  "features": [
+   "Threaded Replies",
+   "Bookmarks",
+   "Search Boards",
+   "Hide Threads",
+   "History"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "967fec785355ca31358facac3d542d55aa0c19e593e4590dc45a58c6c2592eda",
+  "subtitle": "4chan browser with threaded replies and bookmarks",
   "tags": [
-   "board",
+   "4chan",
+   "browser",
    "threads",
-   "forum",
-   "media",
-   "reader"
+   "bookmarks",
+   "anonymous",
+   "imageboard"
   ]
  },
  "com.wtfapps.apollo16": {
@@ -48684,19 +50873,22 @@
  },
  "com.zarz.mornye": {
   "category": "entertainment",
-  "date": "2026-11-03",
-  "description": "Mornye is the rebranded SpotiFLAC Mobile app. Version 5.2.1, bundle ID com.zarz.mornye. Built with Flutter as a mobile music utility by mornyeapp.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "7f377190f42701473d6381fcacfac60015f27d53ac0d350ae5ee9b0378e32bb4",
-  "subtitle": "Mobile music utility, SpotiFLAC rebranded",
+  "date": "2026-11-05",
+  "description": "Mornye combines a Flutter and Dart user interface with a Rust backend and platform bridges for Android and iOS. The app uses a decentralized extension repository system where extensions are hosted independently instead of on a built-in server. Anyone can create and host a compatible repository. In the Repo tab, you can add a repository by entering a GitHub repository URL that contains a registry.json file to browse and install its available extensions.",
+  "features": [
+   "Rust backend",
+   "Decentralized extensions",
+   "GitHub repo support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "723705d8c2c20004303cbb3b2121feb1efe6c1adc41c0c9b5b586385c7b3cdfd",
+  "subtitle": "Decentralized extension platform",
   "tags": [
-   "music",
-   "utility",
+   "extensions",
+   "repository",
+   "rust",
    "flutter",
-   "spotiflac",
-   "mobile",
-   "audio"
+   "open source"
   ]
  },
  "com.zenlife.tour": {
@@ -50701,6 +52893,23 @@
    "utilities"
   ]
  },
+ "cypwn.Scarlet_TS.1.0": {
+  "category": "developer",
+  "date": "2026-11-05",
+  "description": "Scarlet_TS is a third-party app installer and repository manager for iOS. It allows users to install applications from external sources and manage repositories.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0a01b2e7a56ab19af7e774a8ceef88f2f269a7528ae858a137c22c3269967612",
+  "subtitle": "Third-party app installer and repo manager",
+  "tags": [
+   "installer",
+   "repo",
+   "manager",
+   "third-party",
+   "ios",
+   "sideload"
+  ]
+ },
  "cypwn.ScreenshotX1.0.1.0": {
   "category": "other",
   "date": "2026-11-05",
@@ -50764,6 +52973,23 @@
    "shark",
    "tweak",
    "social"
+  ]
+ },
+ "cypwn.SleepCycle_Premium.6.22.34": {
+  "category": "lifestyle",
+  "date": "2026-11-05",
+  "description": "Sleep Cycle Premium version unlocked by Dz.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6f9097bc9eed16dc8f5fee8d769e5368a3430d64d61418c8aba52da916bcc63a",
+  "subtitle": "Premium sleep tracking unlocked",
+  "tags": [
+   "sleep",
+   "cycle",
+   "premium",
+   "unlocked"
   ]
  },
  "cypwn.cl1m4x.1.3": {
@@ -51075,20 +53301,18 @@
   ]
  },
  "design.jli.minipaper": {
-  "category": "photo-video",
-  "date": "2026-10-30",
-  "description": "Minipaper is a wallpaper maker app. It requires iOS 18.6 or later. The current version is 5.4.0. Available on the App Store.",
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "Minipaper is a simple wallpaper editor.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "8c55f2d5b11a075000d144717216bf2e6d37a479f2034719271d3cdded4f8232",
-  "subtitle": "Wallpaper Maker for iOS",
+  "src_hash": "6e62a53641ce68ae2982b55c4e22cefca6fdc3417b9babfd7c815e98fada4849",
+  "subtitle": "Simple wallpaper editor",
   "tags": [
    "wallpaper",
-   "maker",
-   "ios",
-   "app",
-   "version",
-   "5.4.0"
+   "editor",
+   "simple",
+   "minipaper"
   ]
  },
  "design.vek.colorGearX": {
@@ -51139,6 +53363,23 @@
    "video",
    "watch",
    "entertainment"
+  ]
+ },
+ "dev.akash.skystream": {
+  "category": "entertainment",
+  "date": "2026-11-05",
+  "description": "SkyStream is a modern, cross-platform media streaming client built with Flutter. It draws inspiration from the versatile architecture of CloudStream and implements a custom JavaScript engine for extensions, enabling support across Android, iOS, and Desktop from a single codebase. By default, the app does not provide any video sources; you have to install extensions to add functionality. This project is an independent application and is not a direct clone or fork of the official client.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "123b18d2f94c67a9a74cf00f6cf173771c3426cd6bebf2f652bf160513f9f472",
+  "subtitle": "Modern cross-platform media streaming application",
+  "tags": [
+   "streaming",
+   "media",
+   "flutter",
+   "cross-platform",
+   "extensions",
+   "video"
   ]
  },
  "dev.audaro.runemobile": {
@@ -51573,6 +53814,23 @@
    "independent"
   ]
  },
+ "dev.seedseeker.ios": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "An extremely fast seed finder for Shattered Pixel Dungeon, written in Rust. Features rich queries for multiple requirements across melee and thrown weapons, armor, wands, and rings. Share your searches easily with short links. Scout today's UTC daily run, or choose a past or future date. Explore interactive fullscreen floors, the Imp Vault, reveal secrets, and find the Rat King.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0abe218f4e861fb2b0beec9d4ddb6f248d7553697647067f5da27aa59c209df5",
+  "subtitle": "Fast seed finder for Shattered Pixel Dungeon",
+  "tags": [
+   "seed",
+   "finder",
+   "dungeon",
+   "rust",
+   "game",
+   "utility"
+  ]
+ },
  "dev.sparkison.tv": {
   "category": "entertainment",
   "date": "2026-10-30",
@@ -51767,6 +54025,23 @@
    "design",
    "match",
    "game"
+  ]
+ },
+ "dk.tactile.skylineskaters": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "An arcade game with skateboarding tricks where you dodge obstacles and collect coins. Paid app from AppStore. Created by GLESign.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4efba739a9f2e64891446d2295536b3e0dc059fcb267b577b18b01936ef98c78",
+  "subtitle": "Arcade skateboarding game with tricks and obstacles",
+  "tags": [
+   "skateboarding",
+   "arcade",
+   "game",
+   "tricks",
+   "obstacles",
+   "coins"
   ]
  },
  "doordash.DoorDashConsumer": {
@@ -52175,6 +54450,29 @@
    "design",
    "custom",
    "projects"
+  ]
+ },
+ "fr.orvidia.shefu": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "Shefu is an offline, open source digital cookbook and kitchen assistant designed to help you track, organize, and cook your recipes in your native language. All data is stored locally with no internet connection required. Easily add, edit, set favorites, and search all your recipes using categories such as mains and desserts. Features advanced full-text search and multi-term filtering by favorites, country, and ingredients.",
+  "features": [
+   "Offline mode",
+   "Open source",
+   "Full-text search",
+   "Local storage",
+   "Recipe categories"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "50d6ed14c35ed6f9f8664fe27b63f35b0fd23f669e831973d3d1d2efca84edd8",
+  "subtitle": "Offline open source digital cookbook and kitchen assistant",
+  "tags": [
+   "cookbook",
+   "recipe",
+   "kitchen",
+   "cooking",
+   "offline",
+   "food"
   ]
  },
  "fun.ask": {
@@ -52653,6 +54951,24 @@
    "pro",
    "manager",
    "utility"
+  ]
+ },
+ "health.sleep.sounds.tracker.alarm.calm": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "ShutEye helps you monitor your sleep patterns and record sleep sounds. This version includes injected premium features.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a3c54e85317c7379c8240ae5a6d336dd41bfcf55893e058055a6da1710ded897",
+  "subtitle": "Sleep tracker and sound recorder",
+  "tags": [
+   "sleep",
+   "tracker",
+   "recorder",
+   "sounds",
+   "health"
   ]
  },
  "hedonic.games.arrowrush.td": {
@@ -53197,6 +55513,26 @@
    "retro"
   ]
  },
+ "io.github.johnny901901901.applesauce.skateitfix": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Run the 2010 EA game Skate It on modern iPhones using this port based on Applesauce, touchHLE, and HyperHLE. It includes fixes to help the game run and a workflow to build the app without a Mac. The app starts Skate It automatically upon opening instead of waiting in the library, and automatically requests JIT enablement via StikDebug if JIT is off. This project is not affiliated with or endorsed by EA, Applesauce, HyperHLE, or touchHLE, and does not include any games.",
+  "features": [
+   "Automatic game startup",
+   "JIT enablement via StikDebug",
+   "Build without a Mac"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e557af3883d2b1197b3674836e1d1e39d273981d0cdc0d7b13fb7bf5bfc9f89f",
+  "subtitle": "Run Skate It on modern iPhones",
+  "tags": [
+   "skate",
+   "emulator",
+   "port",
+   "game",
+   "retro"
+  ]
+ },
  "io.github.larchk7.ios": {
   "category": "games",
   "date": "2026-10-28",
@@ -53378,6 +55714,29 @@
    "rom",
    "multiplayer",
    "companion"
+  ]
+ },
+ "io.github.scripta": {
+  "category": "developer",
+  "date": "2026-11-05",
+  "description": "Scripta is an open-source, local-first note-taking app for thinkers, writers, and developers. It uses a Markdown-first editor with a rendered reading view, stores notes in SQLite for instant startup and sub-millisecond search, works offline, and syncs across devices. No cloud required; data stays on your device.",
+  "features": [
+   "Open Source",
+   "Local First",
+   "Markdown Editor",
+   "Offline Access",
+   "Fast Search"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6a90fc1be0038939c50c6860df71950d29f110e7c4b0fb816e5086bc2e0a1cc3",
+  "subtitle": "Open-source Markdown note app, local-first",
+  "tags": [
+   "markdown",
+   "notes",
+   "open-source",
+   "offline",
+   "privacy",
+   "cross-platform"
   ]
  },
  "io.github.thatguymcd.dkrr.ios": {
@@ -53609,6 +55968,29 @@
    "app"
   ]
  },
+ "io.linuxserver.sealskinisolation": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "SealSkin runs desktop applications in isolated containers on a server you control and streams them to any browser or phone. A browser extension turns every link, file, download, and text selection into something you open remotely instead of locally, so nothing from the web ever runs on the device in front of you. With nothing installed, the server's own web app does the same from any browser. It is built on Selkies and the LinuxServer.io application images.",
+  "features": [
+   "Isolated Containers",
+   "Browser Extension",
+   "Remote Streaming",
+   "Self-Hosted",
+   "No Local Execution"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e9a77f2cbf30606ac5bcd68cc4a6acf0639b8f78dad11f0a6f234e854cf58282",
+  "subtitle": "Stream desktop apps from your server to any device",
+  "tags": [
+   "remote desktop",
+   "container streaming",
+   "self hosted",
+   "browser extension",
+   "isolated apps",
+   "selkies"
+  ]
+ },
  "io.lonepalm.Retro": {
   "category": "social",
   "date": "2026-11-04",
@@ -53718,6 +56100,25 @@
    "video",
    "media",
    "library"
+  ]
+ },
+ "io.nekohasekai.screensharing": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "Open Screen Sharing develops superior servers and clients based on the private protocol used by Apple VNC. The app is optimized for local networks and runs smoothly on public networks with Tailscale P2P. The App Store version excludes the Apple VNC server, which relies on background keep-alive mechanisms and a lockdown exploit, and direct file dragging from a remote Mac into other apps, which relies on a private API. Nightly builds are available by switching to the Nightly track in the settings of the macOS app.",
+  "features": [
+   "Optimized for local networks",
+   "Tailscale P2P support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d34c83d58fcc9014bac23696d3c5d185bf77d19d0ab39c16ef28a35108602d8d",
+  "subtitle": "Apple VNC client and server for iOS and macOS",
+  "tags": [
+   "screen sharing",
+   "vnc",
+   "remote desktop",
+   "apple",
+   "network"
   ]
  },
  "io.paraga.money-manager": {
@@ -54360,6 +56761,24 @@
    "wallpaper",
    "trollstore",
    "customization"
+  ]
+ },
+ "jp.ebisusoft.shiftworkcallite": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "ShiftWorkCal is an application designed to help users manage their shift schedules. The app comes injected with a premium status.",
+  "features": [
+   "Premium Injected"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4530a2af675dd9931498b55439f43e168e0de6b6e99abbd4478bc135db4e7d4c",
+  "subtitle": "Shift work calendar",
+  "tags": [
+   "shift",
+   "work",
+   "calendar",
+   "schedule",
+   "premium"
   ]
  },
  "jp.goodsmile.grandsummonersglobal": {
@@ -55189,6 +57608,24 @@
    "offline"
   ]
  },
+ "me.hirmer.SimplePi.free": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "SimplePi is an application that helps you calculate Pi. This version includes an unlocked subscription feature for full access. The IPA has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "97aea1ba7215ca5a1acc6db3e1f42e65a1994b7eef300cdbe6d47f7e0e05990b",
+  "subtitle": "Calculate Pi values easily",
+  "tags": [
+   "simplepi",
+   "math",
+   "calculation",
+   "pi",
+   "utilities"
+  ]
+ },
  "me.imgbase.imgplay": {
   "category": "other",
   "date": "2026-10-27",
@@ -55781,6 +58218,21 @@
    "action",
    "adventure",
    "game"
+  ]
+ },
+ "net.flist.solstice": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "Solstice is a mobile variant of Horizon.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "250ea7ab53de54a1944d7cc8da34c0a65dcd6599f44d35387473330d5378502f",
+  "subtitle": "Mobile variant of Horizon",
+  "tags": [
+   "horizon",
+   "mobile",
+   "variant",
+   "solstice"
   ]
  },
  "net.gameduo.bbc": {
@@ -56962,6 +59414,29 @@
    "google",
    "open source",
    "web"
+  ]
+ },
+ "org.coolstar.SileoDemo": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "Sileo is a fast, beautiful, powerful, and efficient APT package manager designed for jailbroken devices running iOS 11 and later, focusing on being up to date and reliable.",
+  "features": [
+   "Fast",
+   "Beautiful",
+   "Powerful",
+   "Efficient",
+   "Reliable"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a87bfbcb985626a7ed295040357cc4b0493d2bfd71af9b6bf031f47742bcca04",
+  "subtitle": "Fast APT package manager for jailbroken iOS",
+  "tags": [
+   "sileo",
+   "apt",
+   "package",
+   "manager",
+   "jailbreak",
+   "ios"
   ]
  },
  "org.coolstar.electra1141": {
@@ -58614,18 +61089,22 @@
  "sb.moe.kumone-ios": {
   "category": "entertainment",
   "date": "2026-11-05",
-  "description": "Kumone is a native NetEase Cloud Music client for iOS that talks directly to the official API with no third-party server. Features include QR-code login, gray-track unblocking, synced lyrics with translation, immersive artwork-tinted now-playing screen, and playlist management. The app supports both English and Simplified Chinese localization.",
-  "features": [],
+  "description": "Kumone is a native NetEase Cloud Music client for iOS. It communicates directly with NetEase's real API with no third-party server required. Features include QR-code login and gray-track unlocking.",
+  "features": [
+   "Native client",
+   "Direct API access",
+   "QR-code login",
+   "Gray-track unlock"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2c9410dcd9d039ee365556a8fb3fbbf56a3c05e05686743eb8406896c041b87f",
+  "src_hash": "20d83260740d2fb28dd6ee3163c2f3a113894e9bfa697e506512167976c6138c",
   "subtitle": "Native NetEase Cloud Music client for iOS",
   "tags": [
    "music",
    "netease",
-   "player",
-   "lyrics",
    "client",
-   "audio"
+   "audio",
+   "streaming"
   ]
  },
  "scannerapp.free": {
@@ -58733,6 +61212,25 @@
    "design",
    "interior",
    "iphone"
+  ]
+ },
+ "serkankara.ScannerApp": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "Scanly-AI Scanner Pro Scan IPA is a powerful iOS productivity app designed to transform iPhone and iPad devices into an advanced scanner.",
+  "features": [
+   "AI Scanner"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "04812a05e50603b308982527fc4c5ed7261b33a335c5835df00b50975b5fba58",
+  "subtitle": "AI-powered document scanner for iOS",
+  "tags": [
+   "scanner",
+   "ai",
+   "productivity",
+   "ios",
+   "ipa",
+   "scanly"
   ]
  },
  "sg.bamboozled.bamboozled": {
@@ -58858,6 +61356,38 @@
    "captain"
   ]
  },
+ "sleepwave.app": {
+  "category": "utilities",
+  "date": "2026-11-05",
+  "description": "Sleepwave Alarm and Tracker offers a redesigned approach to sleep monitoring.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f236aa5b971845781b2c774c996c842b6f52239cb944039e8432c171e89157eb",
+  "subtitle": "Sleep alarm and tracker",
+  "tags": [
+   "sleep",
+   "alarm",
+   "tracker",
+   "monitoring"
+  ]
+ },
+ "slime.tower.defense.idle.games": {
+  "category": "games",
+  "date": "2026-11-05",
+  "description": "Slime Force IPA is the iOS installation package for the Slime Force game, allowing iPhone and iPad users to install the game.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e0f08dbc92b768f621e1e3d3acabd7eb3328b9d90d896f1e48a08a006b02ebdb",
+  "subtitle": "iOS installation package for Slime Force game",
+  "tags": [
+   "slime",
+   "force",
+   "ipa",
+   "ios",
+   "game",
+   "installation"
+  ]
+ },
  "snacktimegames.elementalworld": {
   "category": "games",
   "date": "2026-10-21",
@@ -58923,6 +61453,23 @@
    "productivity",
    "organizer",
    "app"
+  ]
+ },
+ "soccer.score.star": {
+  "category": "games",
+  "date": "2026-11-06",
+  "description": "Soccer Superstar is an immersive football game designed for iOS users who want the thrill of professional football.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b12f16475b2a65aa66d9cc6296f96ed3e8533d791e6f436a46d64ab1e9c6f4f7",
+  "subtitle": "Immersive football game for iOS",
+  "tags": [
+   "soccer",
+   "football",
+   "game",
+   "immersive",
+   "ios",
+   "sports"
   ]
  },
  "social.drooid": {
@@ -59126,6 +61673,22 @@
    "productivity"
   ]
  },
+ "tech.sketchar.ios": {
+  "category": "other",
+  "date": "2026-11-05",
+  "description": "Sketchar is an app with subscription features unlocked.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "78c4a0c27da7937bc0d6bd1915107b0aab19d5a548c7a165413080596c19f772",
+  "subtitle": "Subscription unlocked drawing app",
+  "tags": [
+   "sketchar",
+   "subscription",
+   "unlocked"
+  ]
+ },
  "thebaselab.VS-Code": {
   "category": "developer",
   "date": "2026-10-18",
@@ -59236,6 +61799,29 @@
    "live"
   ]
  },
+ "tv.solea.player": {
+  "category": "entertainment",
+  "date": "2026-11-06",
+  "description": "Solea plays live TV, movies, and series from subscriptions you already have. It offers a clean interface with dubbed or original audio, multiple profiles, resume playback, and Chromecast casting. The app provides, sells, and recommends no content or subscriptions of its own.",
+  "features": [
+   "Clean interface",
+   "Dubbed & original audio",
+   "Multiple profiles",
+   "Resume playback",
+   "Chromecast support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e2971a5f9676e29cc7210cf5b6838acb32dc2d922d08ec6624ecf11f33b3d1d0",
+  "subtitle": "Play your TV subscriptions with a clean interface",
+  "tags": [
+   "tv",
+   "movies",
+   "series",
+   "streaming",
+   "chromecast",
+   "subscriptions"
+  ]
+ },
  "uclort.com.AppInfo": {
   "category": "other",
   "date": "2026-10-15",
@@ -59250,6 +61836,26 @@
    "details",
    "utility",
    "tools"
+  ]
+ },
+ "uk.co.alexanderlogan.snippit": {
+  "category": "other",
+  "date": "2026-11-06",
+  "description": "Snippit is an AI-powered snippets manager for iOS. The tweak unlocks the subscription features. Version 4.3.3 is patched. Provided by riftysIPAlibrary.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "80cbf3779d618071a50e300747c16acc98680540bcf980b7948d8a62ce63a135",
+  "subtitle": "AI snippets manager with subscription unlocked",
+  "tags": [
+   "snippets",
+   "ai",
+   "manager",
+   "tweak",
+   "unlocked",
+   "patched"
   ]
  },
  "uk.co.codingcorner.iFont": {
@@ -59302,6 +61908,25 @@
    "sideload",
    "gaming",
    "action"
+  ]
+ },
+ "uk.co.snappy-code.snappierIPTV": {
+  "category": "entertainment",
+  "date": "2026-11-06",
+  "description": "SnappierIPTV is an IPTV streaming application that has been injected with Pro features. The app allows users to watch live television channels and video content through IPTV playlists. This version includes Pro functionality that is normally restricted in the standard release.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0b9a0377def0a2b5c4a2c2b02f1ecd7dcef6a6546f514af9b21b4062afd0450a",
+  "subtitle": "IPTV player with Pro features unlocked",
+  "tags": [
+   "iptv",
+   "streaming",
+   "tv",
+   "pro",
+   "unlocked",
+   "player"
   ]
  },
  "uk.gleissner.c64commander": {
