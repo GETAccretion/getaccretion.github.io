@@ -2195,6 +2195,24 @@
    "tts"
   ]
  },
+ "app.uplens": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "This version has subscription features unlocked. Original app functionality with premium access enabled.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3b42a7d9bcc359ee729387c325ce19923b81b2bf62c8a91fb5e2758ac27bc3be",
+  "subtitle": "Subscription features unlocked",
+  "tags": [
+   "subscription",
+   "unlocked",
+   "premium",
+   "patched",
+   "ipa"
+  ]
+ },
  "appcake2.iphonecake.com": {
   "category": "other",
   "date": "2026-10-15",
@@ -2674,22 +2692,20 @@
  },
  "breakthroughapps.com.stretch": {
   "category": "lifestyle",
-  "date": "2026-11-06",
-  "description": "Stretch is a stretching and mobility app. This version 6.5.1 includes a tweak that unlocks the subscription. The app has been patched.",
+  "date": "2026-11-08",
+  "description": "Stretch is a stretching and mobility application designed to help users with flexibility routines. This version includes an unlocked subscription, providing access to all features and content within the app without requiring a paid subscription plan.",
   "features": [
-   "Subscription Unlocked",
-   "Patched"
+   "Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "37dcd552d1294399643b8bdd70db2d887e5f313b153992018f945f11d3e5088b",
-  "subtitle": "Stretching & mobility with unlocked subscription",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e17830b1d6f6653a3384668c49218e5590350f021772acd600dc91bea387ac73",
+  "subtitle": "Stretching and mobility app",
   "tags": [
-   "stretching",
+   "stretch",
    "mobility",
+   "flexibility",
    "fitness",
-   "health",
-   "unlocked",
-   "patched"
+   "health"
   ]
  },
  "build.robin.RedmiBuds": {
@@ -2799,6 +2815,23 @@
    "cocoa top alternative",
    "ios utilities",
    "system tools"
+  ]
+ },
+ "ca.bomberfish.TrollStoreHelperHelper": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "This is an install method that uses the MacDirtyCow exploit for iOS 16.0 through 16.1.2.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "803376856b631a3f48392135cd757397231cc56950ef8396a63d2563ee0279b3",
+  "subtitle": "MacDirtyCow install helper for iOS 16.0-16.1.2",
+  "tags": [
+   "macdirtycow",
+   "install",
+   "ios16",
+   "exploit",
+   "trollstore",
+   "helper"
   ]
  },
  "ca.lbcstudios.hempire": {
@@ -3083,6 +3116,23 @@
    "charge",
    "limiter",
    "ios"
+  ]
+ },
+ "chaoge.TrollStoreRemoteHelper": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "TrollStoreRemoteHelper installs tipa files and integrates with Xcode scripts. After installing the tipa via AirDrop or a URL, the tool enables SSH login to an iOS device without requiring a jailbreak. It works with any environment that supports TrollStore.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c9a2bfe408087e4afe5e30e1be75c8973b2a1c5aae71232b5a63ea8df528fc65",
+  "subtitle": "Install tipa via Xcode and SSH without jailbreak",
+  "tags": [
+   "trollstore",
+   "remote",
+   "helper",
+   "tipa",
+   "ssh",
+   "xcode"
   ]
  },
  "chat.bitchat": {
@@ -3787,6 +3837,23 @@
    "tracker"
   ]
  },
+ "co.theplanty.plant.identification.care": {
+  "category": "lifestyle",
+  "date": "2026-11-08",
+  "description": "Planty identifies plants and provides care instructions. Requires iOS 16.0 or later. Current version 1.23.37. Developed by Sa1y0miii.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ab23287dbc6ea2d0d6f8e8b449409a8661180d50ef2176aed8d868917b711319",
+  "subtitle": "Plant identification and care guide",
+  "tags": [
+   "plant",
+   "identifier",
+   "care",
+   "gardening",
+   "ios",
+   "app"
+  ]
+ },
  "co.thomasmenzel.proddy": {
   "category": "other",
   "date": "2026-11-04",
@@ -4013,6 +4080,28 @@
    "exploration"
   ]
  },
+ "com.686udjie.Trop": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "Trop is a free and open source YouTube Music client for iOS. Stream songs and videos directly from YouTube Music. Enjoy synced lyrics from multiple providers including Musixmatch, Netease, Kugou, LRCLIB, and Genius. Sync your library including playlists, albums, artists, and podcasts. Personalize your experience with custom app icons and themes. Manage your listening queue and view your complete listening history.",
+  "features": [
+   "No ads",
+   "Synced lyrics",
+   "Library sync",
+   "Custom themes",
+   "Queue management"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "717bb7eac0ca0d70295071bc35a9ca5b7c6a8baeb673a9547ea3bedceaa7f967",
+  "subtitle": "Open source YouTube Music client",
+  "tags": [
+   "music",
+   "streaming",
+   "youtube",
+   "client",
+   "lyrics"
+  ]
+ },
  "com.82flex.SFSymbolsPreview": {
   "category": "other",
   "date": "2026-11-05",
@@ -4075,6 +4164,25 @@
    "cooking",
    "kitchen",
    "food"
+  ]
+ },
+ "com.AXgamesoft.TurbopropFS": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Turboprop Flight Simulator version 1.33.1 modified with an unlimited credits tweak. The tweak is provided by riftysIPAlibrary. This is a flight simulation game featuring turboprop aircraft.",
+  "features": [
+   "Unlimited Credits"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a7cdf2eb26f09c3c5506394e1c70ead9347f4767e22a6aaa4e4d73d966ba13c9",
+  "subtitle": "Turboprop flight sim with unlimited credits tweak",
+  "tags": [
+   "flight",
+   "simulator",
+   "turboprop",
+   "unlimited",
+   "credits",
+   "tweak"
   ]
  },
  "com.AkhirPekan.LaundrySimulator": {
@@ -4303,23 +4411,41 @@
    "ios"
   ]
  },
- "com.CalculatorForiPad.InternetRocks": {
+ "com.Bureau-81.OPERATOR": {
   "category": "other",
   "date": "2026-11-08",
-  "description": "CalculatorAir is a calculator app that includes a subscription unlocked feature.",
+  "description": "Access all cases and game content with tweaks by iGameGod. This app provides full game unlocking for The Operator, allowing you to experience all available content.",
+  "features": [
+   "Full Game Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0b02f6af3e2698d7c8b16df09fadaceb39ba6437a1e67459cdc112839aab77e5",
+  "subtitle": "Unlock full game access and all cases",
+  "tags": [
+   "operator",
+   "tweaks",
+   "unlocked",
+   "cases",
+   "game"
+  ]
+ },
+ "com.CalculatorForiPad.InternetRocks": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "CalculatorAir is a calculator application with subscription features unlocked. The IPA file has been tested and compiled by TTJB Team. This is a modified version distributed through a third-party repository.",
   "features": [
    "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "5f83f2b8227b7b2d97be260797ed75b2a30978e203b962dae4a9742aec6990f1",
-  "subtitle": "Calculator with subscription unlocked",
+  "src_hash": "228272c071ebc79996c94c6670bce7131a1ef8930c5ba02fc74194d6e8ad1cb1",
+  "subtitle": "Calculator with unlocked subscription",
   "tags": [
    "calculator",
-   "subscription",
-   "unlocked",
    "utility",
-   "math",
-   "tools"
+   "unlocked",
+   "subscription",
+   "ipa",
+   "modified"
   ]
  },
  "com.CanYouJB.SamoXcZ": {
@@ -4683,6 +4809,40 @@
    "action",
    "adventure",
    "mobile"
+  ]
+ },
+ "com.FreeDust.UnderDarkOffense": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "UnderGuild: Offense is a dark fantasy strategy RPG designed for iOS players who enjoy thoughtful tactical gameplay. Build your guild, manage resources, and engage in strategic combat within a grim fantasy setting.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dcf1458952fe9878f8d270ca6479df7fadef6309e72c8d394daab5bdc0933420",
+  "subtitle": "Dark fantasy strategy RPG for iOS",
+  "tags": [
+   "dark fantasy",
+   "strategy",
+   "rpg",
+   "tactical",
+   "guild",
+   "ios"
+  ]
+ },
+ "com.GCenter.com.universe.invaders.alien.war.attack.V2": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Universe Invader 2: Alien War is a space shooter for iOS where players defend the galaxy from alien invaders. Version 1.0.25.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0a4811f9ff0108f80a705d52fbb7725d38e8e26750f623ba10eb442248e20e26",
+  "subtitle": "Space shooter defending the galaxy",
+  "tags": [
+   "space",
+   "shooter",
+   "alien",
+   "galaxy",
+   "ios",
+   "game"
   ]
  },
  "com.GGBall.mumu": {
@@ -5211,6 +5371,23 @@
    "auto"
   ]
  },
+ "com.MasonD3V.Tweetdeck": {
+  "category": "social",
+  "date": "2026-11-08",
+  "description": "Adds new features to your iOS Twitter experience.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a5b3ac5845e3e967ea0b0512aa2ba228559d9fa6c14f9a8f4366e49b3782586f",
+  "subtitle": "Enhances Twitter on iOS",
+  "tags": [
+   "twitter",
+   "ios",
+   "tweetdeck",
+   "social",
+   "client",
+   "enhancement"
+  ]
+ },
  "com.Matter.MatterApp": {
   "category": "utilities",
   "date": "2026-10-31",
@@ -5463,6 +5640,23 @@
    "story",
    "narrative",
    "fiction"
+  ]
+ },
+ "com.PixelMiller.UnrealChemist": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Unreal Chemist is a chemistry simulation application that allows users to conduct virtual experiments. The app provides a laboratory environment for testing chemical reactions and exploring scientific concepts through interactive simulation.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "75bf870834c6482add2acc79547e5d0e12a20255fd0837e42fd6b3065778732b",
+  "subtitle": "Chemistry simulation for virtual experiments",
+  "tags": [
+   "chemistry",
+   "simulation",
+   "education",
+   "science",
+   "lab",
+   "experiments"
   ]
  },
  "com.Polyculture.Prune": {
@@ -6180,6 +6374,23 @@
    "roleplay"
   ]
  },
+ "com.Trucker-Path-Pro": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "TruckerPathDiamond",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "48e2b5a2825641258bd53640cfa0218c953f3bed68c7a5da8730bf305efad027",
+  "subtitle": "TruckerPathDiamond",
+  "tags": [
+   "truckerpathdiamond",
+   "trucker",
+   "path",
+   "diamond",
+   "truck",
+   "app"
+  ]
+ },
  "com.TrueSoft.SuperPigIdle": {
   "category": "games",
   "date": "2026-11-06",
@@ -6295,6 +6506,23 @@
    "game",
    "mobile",
    "playful"
+  ]
+ },
+ "com.WandaSoftware.TruckersofEurope3": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Truckers of Europe 3 is a game for iOS that takes players on a virtual trucking adventure across stunning European landscapes.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "88aeeac0658e7d1ff54b82d10cb1e2c39e685db49a269afb8f6b8db6f84cdfa9",
+  "subtitle": "Virtual trucking adventure across Europe",
+  "tags": [
+   "trucking",
+   "simulation",
+   "europe",
+   "driving",
+   "game",
+   "ios"
   ]
  },
  "com.WonderHive.HyperHome": {
@@ -6787,6 +7015,27 @@
    "counter",
    "walking",
    "fitness"
+  ]
+ },
+ "com.adamsmaka.aivoicejournal": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "The Architect is a Voice Memo tweak (version 1.0.15) with Pro features unlocked. The patched version requires an app restart to activate the subscription. Provided by @riftysIPAlibrary.",
+  "features": [
+   "Pro Unlocked",
+   "Patched",
+   "Requires Restart"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c3811e07c22bf59487615285163378692966ac6691c2d168c460ff255c520e67",
+  "subtitle": "Voice Memo Tweak \u2013 Pro Unlocked",
+  "tags": [
+   "voice memo",
+   "tweak",
+   "pro",
+   "unlocked",
+   "patched",
+   "utilities"
   ]
  },
  "com.adbanao": {
@@ -7427,21 +7676,20 @@
   ]
  },
  "com.aiarlabs.prequel": {
-  "category": "utilities",
-  "date": "2026-11-07",
-  "description": "PREQUEL app with Subscription Unlocked.",
-  "features": [
-   "Unlocked"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4345db9f308f96a423c56bb9a5e93f50358300c0759b8d0da4d0c7101901201a",
-  "subtitle": "Subscription Unlocked",
+  "category": "photo-video",
+  "date": "2026-11-08",
+  "description": "Prequel is a photo and video editor. Version 2.97 requires iOS 16.0 or later. The app is patched and includes a subscription modifier. Bundle ID: com.aiarlabs.prequel.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "069a6785b929841bafc7f891736f6a41377c07fda93c5890dbaa0b1020f6428a",
+  "subtitle": "Photo & Video Editor",
   "tags": [
-   "prequel",
-   "unlocked",
    "photo",
    "video",
-   "editor"
+   "editor",
+   "prequel",
+   "ios",
+   "subscription"
   ]
  },
  "com.aiby.aiart": {
@@ -7823,6 +8071,24 @@
    "utility"
   ]
  },
+ "com.alexanderben.RadioIn": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "TuneInRadio with added premium functions. The IPA has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Premium"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3c589100c1f83c3a70d9e3122740902202e3033692635cf3e69115bf08cd683f",
+  "subtitle": "TuneInRadio Premium IPA",
+  "tags": [
+   "radio",
+   "music",
+   "audio",
+   "premium",
+   "streaming"
+  ]
+ },
  "com.alexandersergienko.TabataTimer": {
   "category": "lifestyle",
   "date": "2026-11-07",
@@ -7946,6 +8212,23 @@
    "climbing",
    "game",
    "ios"
+  ]
+ },
+ "com.allconnected.turbovpn": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "This app was removed from the repository and is deprecated. Last updated on March 24, 2023. Status indicates it is no longer available.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "550d045f5669d1cfcd2c9515e14f46017a3b4e533d2bc398ca666713118eb6f9",
+  "subtitle": "Deprecated VPN app removed from repository",
+  "tags": [
+   "vpn",
+   "deprecated",
+   "removed",
+   "turbo",
+   "kamo",
+   "hacks"
   ]
  },
  "com.allenjoy.galaxypirates": {
@@ -9602,6 +9885,21 @@
    "social"
   ]
  },
+ "com.atebits.Tweetie2": {
+  "category": "social",
+  "date": "2026-11-08",
+  "description": "Twitter (NF) is a social networking app developed by iOSDecrypted.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f8c908ca47b1b123632fd27d75a249045f0040d2eedb4e00ff567a8fcb43f87a",
+  "subtitle": "Twitter (NF) by iOSDecrypted",
+  "tags": [
+   "twitter",
+   "social",
+   "iosdecrypted",
+   "nf"
+  ]
+ },
  "com.ates.DELTARUNE": {
   "category": "other",
   "date": "2026-10-20",
@@ -9617,6 +9915,23 @@
    "2",
    "3",
    "4"
+  ]
+ },
+ "com.atesquik.uty": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Welcome to UNDERTALE YELLOW, a fan-made prequel to the hit RPG, 'UNDERTALE'. When a child named Clover sets out on a mission, they find themself deep within the Underground. In this foreign land, monsters lurk around every corner, but are they friend or foe?",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3552774ba93b251ebf99730c6e77126be61ab4736240266c3ccdd8a17fac118f",
+  "subtitle": "Fan-made Undertale prequel",
+  "tags": [
+   "undertale",
+   "fan-made",
+   "prequel",
+   "rpg",
+   "clover",
+   "underground"
   ]
  },
  "com.atistudios.MondlyLanguages": {
@@ -9677,6 +9992,24 @@
    "streaming",
    "unlocked",
    "player"
+  ]
+ },
+ "com.auramarker.varlens": {
+  "category": "photo-video",
+  "date": "2026-11-08",
+  "description": "Varlens is a camera and photo editor app for iOS. This version comes injected with premium features unlocked for users.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "cb4e2515d126fd5331150434fc72fd85ec8566553d624057ab33b76ed2dcd8ba",
+  "subtitle": "Camera and photo editor with premium features",
+  "tags": [
+   "camera",
+   "photo",
+   "editor",
+   "premium",
+   "injected"
   ]
  },
  "com.ausappstudio.brainbuddy": {
@@ -11460,6 +11793,23 @@
    "record"
   ]
  },
+ "com.bravolol.bravoLang.chineseDictionary": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "UnifiedDictionary is a dictionary application. This version has subscription features unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "59786c23d8f0dd00ba9a8dcb571c168a31eb77ae97e3ef1b7922f1f14c67fc21",
+  "subtitle": "Dictionary with subscription unlocked",
+  "tags": [
+   "dictionary",
+   "reference",
+   "subscription",
+   "unlocked"
+  ]
+ },
  "com.breathwrk.ios": {
   "category": "lifestyle",
   "date": "2026-10-29",
@@ -11718,6 +12068,25 @@
    "pvp",
    "ios",
    "stickman"
+  ]
+ },
+ "com.byteapp.tubepod": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "TubePod is a premium IPA that has been tested and compiled by the TTJB Team. The premium features have been added to this version.",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2679a3feed492dc9b320073b0321f49c44261a9dbc815aa08194114ec52d4c52",
+  "subtitle": "Premium IPA tested by TTJB Team",
+  "tags": [
+   "tubepod",
+   "premium",
+   "ipa",
+   "ttjb",
+   "tested",
+   "compiled"
   ]
  },
  "com.bytecrossing.Egern": {
@@ -12814,6 +13183,25 @@
    "tactics"
   ]
  },
+ "com.chrissotraidis.vaultpad": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "VaultPad provides touch controls for Fallout 2 Community Edition. It does not include Fallout 2 or any Bethesda, ZeniMax, or Microsoft assets. You need data from a legally purchased copy. All file imports happen locally, and VaultPad does not download or upload your game files. The app turns necessary actions into clear, persistent choices designed for touch screens instead of emulating a mouse.",
+  "features": [
+   "Touch Controls",
+   "Local File Import"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9da45dd75a3516683e056ace25a48ae8d74c338863609b0899e402f2bc451101",
+  "subtitle": "Play Fallout 2 Community Edition on touch devices",
+  "tags": [
+   "fallout",
+   "rpg",
+   "retro",
+   "gaming",
+   "touch"
+  ]
+ },
  "com.christian.PixelPals": {
   "category": "lifestyle",
   "date": "2026-11-03",
@@ -13105,6 +13493,23 @@
    "simulation"
   ]
  },
+ "com.clickteam.ultimatecustomnight": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Ultimate Custom Night is a point-and-click survival horror video game created by Scott Cawthon. It is the second official spin-off of the Five Nights at Freddy's game series, the first one being FNaF World, and the eighth game overall.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5ed8d810f9c38673958c1194844d8275eedb2647690f8836e14b7a56f3790cf2",
+  "subtitle": "Point-and-click survival horror spin-off",
+  "tags": [
+   "fnaf",
+   "survival",
+   "horror",
+   "pointclick",
+   "spinoff",
+   "scottcawthon"
+  ]
+ },
  "com.cloud-compiler": {
   "category": "developer",
   "date": "2026-10-24",
@@ -13221,6 +13626,23 @@
    "diary"
   ]
  },
+ "com.codeway.AIKeyboard": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "This is a modified version of TypeAI with subscription features unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ef0afd55046652e912da439fb87875b0a97c8b9d1bb3dd6063d7d6b8b4093c21",
+  "subtitle": "Subscription unlocked version",
+  "tags": [
+   "subscription",
+   "unlocked",
+   "modified",
+   "utility"
+  ]
+ },
  "com.codeway.cleanerplus": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -13305,6 +13727,23 @@
    "game",
    "simulation",
    "mobile"
+  ]
+ },
+ "com.codigames.idle.tv.empire.tycoon": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "TV Empire Tycoon is an engaging simulation title for iPhone that puts players in control of running and managing a television empire.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6abaa9d20f2ac7aa564e506edd2008f8ebd8b3057bf27920861312f8efc9c30d",
+  "subtitle": "Idle simulation game for managing a television empire",
+  "tags": [
+   "simulation",
+   "idle",
+   "management",
+   "tycoon",
+   "strategy",
+   "game"
   ]
  },
  "com.codigames.supermarket.village.farm.craft.tycoon": {
@@ -14264,6 +14703,40 @@
    "ios"
   ]
  },
+ "com.crunchyroll.gv.twostrikes": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "This is a modified IPA of Crunchyroll called Two Strikes version 1.0.2. It provides access to Crunchyroll's anime streaming library.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ce10809b3044febe290310eccaa43cc431116b6dbe94622f07a564dc790868cc",
+  "subtitle": "Crunchyroll Two Strikes MOD v1.0.2",
+  "tags": [
+   "crunchyroll",
+   "anime",
+   "streaming",
+   "mod",
+   "ipa",
+   "twostrikes"
+  ]
+ },
+ "com.crunchyroll.gv.umiro": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Umiro is a game published by Crunchyroll for iOS that emphasizes atmosphere over fast-paced action.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "35846bfc7a29827d8fb72a05fcdc66edd774831e2d20cc6d3b0c13c14807eb6e",
+  "subtitle": "Atmospheric puzzle adventure from Crunchyroll",
+  "tags": [
+   "crunchyroll",
+   "umiro",
+   "ios",
+   "puzzle",
+   "atmosphere",
+   "game"
+  ]
+ },
  "com.crunchyroll.iphone": {
   "category": "entertainment",
   "date": "2026-10-18",
@@ -14316,6 +14789,25 @@
    "unlimited coins",
    "game",
    "tactical"
+  ]
+ },
+ "com.cuilingshi.fileextract": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Unzip is a file extraction utility. This version has the subscription unlocked via injection.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8c98a5e377fd3d4688de5bfed76c684d9e07a449f807ab10f6a6253a97e64256",
+  "subtitle": "File extraction with subscription unlocked",
+  "tags": [
+   "unzip",
+   "file",
+   "extraction",
+   "utility",
+   "subscription",
+   "unlocked"
   ]
  },
  "com.cuilingshi.flipclock": {
@@ -15678,6 +16170,29 @@
    "port"
   ]
  },
+ "com.devz.umk3": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Native iPhone and iPad port of a classic game, running its original program through an embedded emulator core. Features touch and controller support, a NewPixie CRT filter, and a customizable touch layout with a floating stick and haptics. You need your own copy of the game as ROMs and disc images are not included.",
+  "features": [
+   "Touch controls",
+   "Controller support",
+   "Customizable layout",
+   "CRT filter",
+   "Haptics"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "dcb70662ed3abba074b8090f8d2e22ca4eb3aedebff165f10f714f26709c2610",
+  "subtitle": "Native classic game port with embedded emulator core",
+  "tags": [
+   "emulator",
+   "arcade",
+   "retro",
+   "classic",
+   "gaming",
+   "port"
+  ]
+ },
  "com.dhinakg.trollinstallermdc": {
   "category": "developer",
   "date": "2026-11-08",
@@ -16034,6 +16549,23 @@
    "city",
    "games",
    "unlocked"
+  ]
+ },
+ "com.douglas.upflix": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "Upflix is a movie and TV show streaming platform offering a wide selection of entertainment content.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3a2caad1cbc3609517f3d33848826a1bbd6b2fb068bbf7144627d2b1023faf98",
+  "subtitle": "Movie and TV show streaming platform",
+  "tags": [
+   "streaming",
+   "movies",
+   "tv shows",
+   "entertainment",
+   "video",
+   "watch"
   ]
  },
  "com.downloader.omniForPyload": {
@@ -16751,6 +17283,23 @@
    "heroes",
    "ios",
    "ipa"
+  ]
+ },
+ "com.earlymorningstudio.trident": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Vampire\u2019s Fall 2 is an immersive RPG adventure now available on iOS devices, featuring a rich narrative and retro style.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "caec3a0dcdc2842ea3dba30f26d1922f4be654e2aa80478145d0be080969896e",
+  "subtitle": "Immersive RPG adventure for iOS",
+  "tags": [
+   "rpg",
+   "adventure",
+   "ios",
+   "vampire",
+   "retro",
+   "immersive"
   ]
  },
  "com.eastmoon.gk2live": {
@@ -17944,6 +18493,22 @@
    "ai",
    "images",
    "pictures"
+  ]
+ },
+ "com.everybodyhouse.paperclipsuniquetest": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "UniversalPaperclips by UniversalPaperclips x CyPwn is a classic clicker.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "eac506614c0b0f13983da0e11ff7d2cf03dd47a2a8b28d85ea3bb7aae4c3537a",
+  "subtitle": "Classic clicker game",
+  "tags": [
+   "clicker",
+   "game",
+   "universalpaperclips",
+   "classic",
+   "cypwn"
   ]
  },
  "com.everydaytools.SuperPhotoZoomAdvanceYourCameraamzmpb": {
@@ -20681,6 +21246,23 @@
    "game"
   ]
  },
+ "com.gamious.turmoilplus": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Turmoil+ is an economic strategy game set during an oil rush. Players search for oil deposits, drill and extract oil, and sell it to expand their operations.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e251b7f21b8a929d36a78ec4eaab0c5b6dec39f52c00b55c9c9860d42444fea5",
+  "subtitle": "Oil rush economic strategy game",
+  "tags": [
+   "oil",
+   "strategy",
+   "simulation",
+   "economic",
+   "game",
+   "turmoil"
+  ]
+ },
  "com.gamoper.candysweetstory.ios": {
   "category": "games",
   "date": "2026-10-15",
@@ -20905,6 +21487,25 @@
    "modified",
    "app",
    "tool"
+  ]
+ },
+ "com.getupnote.ios": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "UpNote is a note-taking application designed to help you organize your thoughts, write notes, and manage information efficiently. This version comes with the subscription unlocked, granting access to all premium features included in the subscription tier without requiring an additional purchase. Capture your ideas, format your text, and keep your notes synchronized and accessible.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4ee747105b766a1316fd9e54d274a1cdb4212694bb1464bd6e1d03e62c87413a",
+  "subtitle": "Notes app with subscription unlocked",
+  "tags": [
+   "notes",
+   "productivity",
+   "writing",
+   "organization",
+   "unlocked",
+   "utility"
   ]
  },
  "com.gfal.ddreams": {
@@ -21845,6 +22446,29 @@
    "fastsign"
   ]
  },
+ "com.google.ios.youtube.uyouenhanced.3.0.5": {
+  "category": "photo-video",
+  "date": "2026-11-08",
+  "description": "This is a modded version of YouTube that includes several built-in tweaks. Features include uYou, YouPiP, YTClassicVideoQuality, YTNoHoverCards, and YouRememberCaption. Designed to enhance the standard video viewing experience with additional controls and customizations.",
+  "features": [
+   "uYou",
+   "YouPiP",
+   "Classic Video Quality",
+   "No Hover Cards",
+   "Remember Caption"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c507495abea58ca3ed3b5f657fbfbce0d881b75c533fe5bc5686bbe3727b82e5",
+  "subtitle": "Modded YouTube client with custom tweaks",
+  "tags": [
+   "youtube",
+   "modded",
+   "video",
+   "streaming",
+   "player",
+   "tweaks"
+  ]
+ },
  "com.google.photos": {
   "category": "photo-video",
   "date": "2026-10-26",
@@ -21859,6 +22483,26 @@
    "sideload",
    "googlephotos",
    "photo",
+   "video"
+  ]
+ },
+ "com.google.tvos.youtube.4.54.01": {
+  "category": "photo-video",
+  "date": "2026-11-08",
+  "description": "MuTube enhances YouTube on Apple TV using TizenTube Cobalt's userscript. It removes ads and adds SponsorBlock support for skipping sponsored segments. This version is for tvOS only.",
+  "features": [
+   "Removes Ads",
+   "SponsorBlock"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "632a20b7340d1f5245a2609bb2ae9c98a47bb6c70a88d6132a6ef2c0a6270579",
+  "subtitle": "Enhanced YouTube for Apple TV with ad removal",
+  "tags": [
+   "youtube",
+   "apple-tv",
+   "ad-block",
+   "sponsorblock",
+   "tvos",
    "video"
   ]
  },
@@ -22113,6 +22757,25 @@
    "frontier",
    "ipa",
    "ios"
+  ]
+ },
+ "com.graz.upscaler": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "This version has been modified to include premium features without requiring a subscription.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4aca28561d9f9365ab635e92fc8d920d42215bb9d08c13d0ef30dc6bd4ccd857",
+  "subtitle": "Premium features unlocked",
+  "tags": [
+   "premium",
+   "unlocked",
+   "modified",
+   "upscale",
+   "injection",
+   "free"
   ]
  },
  "com.gree.shadow": {
@@ -23466,6 +24129,23 @@
    "game"
   ]
  },
+ "com.highbrowinteractive.truck.masters.world.america.euro.highway.offroad.cargo.driving.simulator.game": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Truck Masters: World Simulator is a detailed iOS simulation game focused on truck driving. The game provides a simulation experience with truck operations in a world environment.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8c59185bf749fa49c8ea587cec8b29c20522cb2789ba7ed4e168b5af691b1675",
+  "subtitle": "Detailed truck driving simulation game",
+  "tags": [
+   "truck",
+   "simulation",
+   "simulator",
+   "driving",
+   "world",
+   "game"
+  ]
+ },
  "com.highglossy.cutStory": {
   "category": "photo-video",
   "date": "2026-10-18",
@@ -24386,6 +25066,22 @@
    "bugs",
    "glitches",
    "emulator"
+  ]
+ },
+ "com.ibit.UNPOSED": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Unscripted is an application injected with Pro features.",
+  "features": [
+   "Pro"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "85d7147b9cb9c5f0ea4fc6797c95990b69dff86c1d56b460316cbd2406ae9426",
+  "subtitle": "Pro features included",
+  "tags": [
+   "unscripted",
+   "pro",
+   "utility"
   ]
  },
  "com.icandiapps.nightsky": {
@@ -25327,6 +26023,23 @@
    "ttjb",
    "tested",
    "compiled"
+  ]
+ },
+ "com.inspectorstudios.ultimateflightsimulatorpro": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Ultimate Flight Simulator Pro is a flight simulation game for iOS designed for players seeking more than a casual flying experience. It offers realistic flight mechanics and detailed aircraft controls on iPhone.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9cbcc911a167626c0e18d60d732ae904cd1193f0bc51278552773a3896b7703a",
+  "subtitle": "Advanced flight simulator for iOS",
+  "tags": [
+   "flight",
+   "simulator",
+   "airplane",
+   "aviation",
+   "realistic",
+   "ios"
   ]
  },
  "com.inspiredsquare.sand.blast": {
@@ -28846,6 +29559,107 @@
    "installable"
   ]
  },
+ "com.ipaomtk.tweeload.twitter.video.saver.151722": {
+  "category": "social",
+  "date": "2026-11-08",
+  "description": "Tweeload is an iOS application that lets you download and save videos from Twitter. It is distributed as an IPA installation package.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1b8ee21727082eac2142c99c5d63afc1a86dd1f02a2ddd139726aaf364938dfc",
+  "subtitle": "Save Twitter videos to your device",
+  "tags": [
+   "twitter",
+   "video",
+   "saver",
+   "downloader",
+   "ios",
+   "social"
+  ]
+ },
+ "com.ipaomtk.twip.video.player.for.twitter.153293": {
+  "category": "social",
+  "date": "2026-11-08",
+  "description": "Twip Video Player for Twitter is an iOS video utility app that allows iPhone users to play Twitter videos.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0af3d956461eaf85c4fc20f3681d677b5e79dd1f3dd0c1fe16fa75411a82de50",
+  "subtitle": "Watch Twitter videos on iOS",
+  "tags": [
+   "twitter",
+   "video",
+   "player",
+   "ios",
+   "utility"
+  ]
+ },
+ "com.ipaomtk.unagent.154294": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Unagent is an iOS utility application focused on improving user privacy, device control, and system-level management. The app provides tools for users to manage privacy settings and control device functions.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3a18134d9502a360075b4ac17647f3f0690cbaf95df57805b4c9eb7bf8cb7ff2",
+  "subtitle": "Privacy and device control utility",
+  "tags": [
+   "privacy",
+   "utility",
+   "device-control",
+   "system",
+   "ios",
+   "security"
+  ]
+ },
+ "com.ipaomtk.undead.slayer.offline.premium.157910": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Undead Slayer: Offline Premium is the iOS installation file (IPA) of a fast-paced hack-and-slash game playable offline. The app provides the game package for installation on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3d160fec2fb89130eec268e6a4590d5d45db86f6ab9f402524d1f520d139a414",
+  "subtitle": "Fast-paced offline hack-and-slash action",
+  "tags": [
+   "hack-and-slash",
+   "offline",
+   "action",
+   "rpg",
+   "ios",
+   "game"
+  ]
+ },
+ "com.ipaomtk.urban.heat.fps.151400": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Urban Heat: FPS IPA is the iOS installation package of Urban Heat: FPS that allows iPhone and iPad users to install the game.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a113fbce961854297bc6c7de6a7673b269c5f8a6d4c4284aa8149d81d8870fe2",
+  "subtitle": "FPS game installation package for iOS",
+  "tags": [
+   "fps",
+   "game",
+   "ipa",
+   "ios",
+   "install",
+   "urban"
+  ]
+ },
+ "com.ipaomtk.us.citizenship.test.2025.pro.154689": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "US Citizenship Test 2025 \u2013 Pro provides practice questions and study resources to help you prepare for the U.S. naturalization exam.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "24d9013e01e88922c3e866460041dd1e3576100fb88637a9ae560ec3129040c2",
+  "subtitle": "Prepare for US naturalization exam",
+  "tags": [
+   "citizenship",
+   "test",
+   "naturalization",
+   "preparation",
+   "study",
+   "exam"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -29163,6 +29977,26 @@
    "empire"
   ]
  },
+ "com.itranslate.grammatica.ios": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Typeright is a grammar check app designed to help you improve your writing on iOS devices. The application requires iOS 14.0 or later. Please note that configuring the keyboard to work with certificates may require additional steps.",
+  "features": [
+   "Subscription Unlocked",
+   "Grammar Check"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6d7c8e9bed78c023808b1710caedd103403a5d3d60e0b00692d3e722daf994a9",
+  "subtitle": "Grammar check and typing assistant",
+  "tags": [
+   "grammar",
+   "typing",
+   "keyboard",
+   "check",
+   "productivity",
+   "assistant"
+  ]
+ },
  "com.itranslate.itranslateone": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -29304,6 +30138,23 @@
    "remix",
    "audio",
    "music"
+  ]
+ },
+ "com.jackelholm.undertale": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "You play as a human who falls underground into a world of monsters and must find a way out or stay trapped forever. The game includes a warning about imagery that may affect players with photosensitive epilepsy.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "30f8e6cf8dc8909343ca8c756f2dcfd8b91bf073d1da29c792661ad0cede5336",
+  "subtitle": "RPG adventure in a monster world",
+  "tags": [
+   "rpg",
+   "underground",
+   "monsters",
+   "adventure",
+   "pixel",
+   "story"
   ]
  },
  "com.jakemor.firness-ai": {
@@ -31839,6 +32690,23 @@
    "ios"
   ]
  },
+ "com.lema.TumblrApp": {
+  "category": "social",
+  "date": "2026-11-08",
+  "description": "TumblrBear is a third-party Tumblr client that integrates Bear for Tumblr by Michael Lema. Last updated on April 13, 2023. Current status shows a warning indicator.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d0c9dabb4b8e9ae8b672b82d6380f25af37de278f329cb5303d259fbd5c2e4e1",
+  "subtitle": "Third-party Tumblr client with Bear integration",
+  "tags": [
+   "tumblr",
+   "client",
+   "bear",
+   "third-party",
+   "social",
+   "app"
+  ]
+ },
  "com.leminlimez.Cluckabunga": {
   "category": "utilities",
   "date": "2026-10-18",
@@ -32862,11 +33730,11 @@
  },
  "com.local.pokedextracker": {
   "category": "other",
-  "date": "2026-11-03",
-  "description": "Track your Pok\u00e9dex progress. Monitor which Pok\u00e9mon you've caught and see your completion status.",
+  "date": "2026-11-08",
+  "description": "Track your Pok\u00e9dex progress.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ba01ff0a4b032d5fb13377012d050cd5ef44ec4342b2fd32bddbeed7cfd885e5",
+  "src_hash": "68236f8491dac06815b2d8e0c554caa2e529589fbe170eab6f5591a35ca941c6",
   "subtitle": "Track your Pok\u00e9dex progress",
   "tags": [
    "pokedex",
@@ -32874,7 +33742,7 @@
    "pokemon",
    "collection",
    "progress",
-   "guide"
+   "app"
   ]
  },
  "com.locket.Locket": {
@@ -33479,6 +34347,23 @@
    "ios",
    "shooter",
    "action"
+  ]
+ },
+ "com.madfingergames.unkilled": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "UNKILLED IPA is an exciting online zombie shooting game, designed to give players an immersive and thrilling experience in the fight aga",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "83a81d11ebae2365e61231099410a9a0a1dc9c9c3b63f6bccceda40b5d0174ed",
+  "subtitle": "Online zombie shooting game",
+  "tags": [
+   "zombie",
+   "shooting",
+   "online",
+   "game",
+   "unkilled",
+   "ipa"
   ]
  },
  "com.madfut.madfut25": {
@@ -34319,6 +35204,22 @@
    "programming"
   ]
  },
+ "com.megagames.valkyrie": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Valkyrie Heart is an action RPG for iOS featuring dynamic battles and an evocative world.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b45501d5b12a278e2d96829f7b9128af7ee86fefad68853ed75f60e57f02217a",
+  "subtitle": "Action RPG with dynamic battles",
+  "tags": [
+   "action rpg",
+   "valkyrie",
+   "ios",
+   "dynamic battles",
+   "evocative world"
+  ]
+ },
  "com.meitu.mtxx": {
   "category": "other",
   "date": "2026-10-30",
@@ -34778,26 +35679,25 @@
   ]
  },
  "com.mikevillarroel.buildbox": {
-  "category": "utilities",
+  "category": "developer",
   "date": "2026-11-08",
-  "description": "BuildBox compiles Swift apps on iPhone using a GitHub Actions backend, then signs them on-device with your own certificate and installs them. It can import any IPA to sign it, and inject .deb or .zip tweak packages before signing. The app ships as an unsigned IPA and is free with an optional donate button.",
+  "description": "Compile Swift apps directly from your iPhone using a GitHub Actions backend. Sign your applications on-device with your own certificate and install them for the complete development cycle.",
   "features": [
-   "Compile Swift",
-   "Sign On-Device",
-   "Import IPA",
-   "Inject Tweaks",
-   "Free"
+   "GitHub Actions backend",
+   "On-device signing",
+   "Certificate support",
+   "Direct installation"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "8924ca93bcaf0ff17c39e5b51ac9209490e76297837698efa50671039524bc6b",
-  "subtitle": "Compile and sign Swift apps on iPhone",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6c6c15b16eaa4a0050fd4260b93e797ec205ddca686a28663d0dfab88f5b5258",
+  "subtitle": "Compile and sign Swift apps on your iPhone",
   "tags": [
-   "compile",
    "swift",
-   "sign",
-   "ipa",
-   "tweaks",
-   "github-actions"
+   "compiler",
+   "sideload",
+   "github",
+   "actions",
+   "developer"
   ]
  },
  "com.mikevillarroel.layers": {
@@ -35283,6 +36183,28 @@
    "accessible"
   ]
  },
+ "com.mob.volley": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Blast Busters is a mobile game featuring PVP mob battles. This modified version includes integrated tweaks using iGameGod. Players can use the auto win feature for instant victory in every battle. Add currency gives you unlimited resources to upgrade your squad. Never die provides complete invincibility during combat. Damage max delivers maximum weapon power for instant eliminations. Sideload the application easily using a signing service.",
+  "features": [
+   "Auto Win",
+   "Add Currency",
+   "Never Die",
+   "Damage Max"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "db134978f40601dc5a4a92d8dbffc961cf7f702725e96efbe2df612b67e6a04f",
+  "subtitle": "PVP mob battles hack",
+  "tags": [
+   "blast",
+   "busters",
+   "battles",
+   "pvp",
+   "game",
+   "tweaks"
+  ]
+ },
  "com.mobage.ww.a1171.motorworldcarfactoryios": {
   "category": "games",
   "date": "2026-10-30",
@@ -35512,6 +36434,40 @@
    "demon",
    "hunter",
    "game"
+  ]
+ },
+ "com.mobirix.tdwt": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Turret Defense King is a mobile strategy game where players build and upgrade defensive turrets to protect against waves of enemies. The game features tactical placement mechanics and progression systems typical of the tower defense genre. Available as an IPA for iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "90f1f7a1830b68c5807b76a5724baa986c70bdbd4525dc7d504d19a629d95bf5",
+  "subtitle": "Strategy turret defense game for iOS",
+  "tags": [
+   "strategy",
+   "tower defense",
+   "turret",
+   "tactical",
+   "mobile game",
+   "ipa"
+  ]
+ },
+ "com.mobirix.valkyrieidle": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Valkyrie Idle is an idle game provided as an IPA file. It offers an engaging experience that does not require constant attention.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d40d24921338efbf43738739eeaca90744d44a5869442c658a9d97f0d94da49d",
+  "subtitle": "Valkyrie Idle - idle RPG adventure",
+  "tags": [
+   "idle",
+   "rpg",
+   "valkyrie",
+   "ipa",
+   "offline",
+   "auto"
   ]
  },
  "com.mobisystems.OxfordDictionaryOfEnglishFree": {
@@ -35848,6 +36804,25 @@
    "ios",
    "multiplayer",
    "classic"
+  ]
+ },
+ "com.moonlab.unfoldstories": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Create reels and stories with Unfold. This version requires iOS 16.6 or later. Developed by @blatants, the app includes subscriber modifications and has been patched.",
+  "features": [
+   "Patched",
+   "Subscriber Modifier"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a1da3bf971e0c74cf8a7be50e5a752bd333fd90ed4c1dd3dbc7be9943f67dbcb",
+  "subtitle": "Reels & Story Maker",
+  "tags": [
+   "unfold",
+   "reels",
+   "stories",
+   "maker",
+   "editor"
   ]
  },
  "com.moonlight.dragoncity": {
@@ -36229,6 +37204,24 @@
    "app"
   ]
  },
+ "com.mwm.guitartuner": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "TunerPro is available with Pro features injected. Use this application to tune instruments and audio with professional tools.",
+  "features": [
+   "Injected Pro"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "582cd1c9a691d6de549a7c1704b62d74f71fa078ca6fa84344aa3451331a36fd",
+  "subtitle": "Pro version tuner",
+  "tags": [
+   "tuner",
+   "audio",
+   "music",
+   "pro",
+   "instruments"
+  ]
+ },
  "com.mwm.moments": {
   "category": "other",
   "date": "2026-11-06",
@@ -36338,6 +37331,85 @@
    "apptesters",
    "ipa",
    "repo"
+  ]
+ },
+ "com.mxfia19.TwitchUnblock": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "TwitchUnblock by @ipavault. No tweak information supplied by the source. FastSign is operated by CertFish. The easy way to sideload: https://cert.fish/",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8ef2a11cfe533b7617e44685ee9028b9279976b1995fd556e6409d5c904e5c2d",
+  "subtitle": "Twitch unblock tweak for sideloading",
+  "tags": [
+   "twitch",
+   "unblock",
+   "sideload",
+   "certfish",
+   "fastsign",
+   "tweak"
+  ]
+ },
+ "com.mxfia19.TwitchUnblock.test": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "TwitchUnblock is an open-source Twitch client that lets you watch VODs and live streams without a subscription, at full quality. It is a native iOS app built with SwiftUI, and is also available in your browser. This project is built with AI coding assistants, and bug reports on Discord are welcome. Installation requires no configuration, no server setup, and no keys to paste. The backend is already hosted and shared by every install. Note that this app is not on the App Store and must be sideloaded.",
+  "features": [
+   "Open-source",
+   "No configuration required",
+   "Full quality playback",
+   "Native SwiftUI app"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "1836b98c027004a9a2dd7de7f73c5155dd34ade30c1d9a2cc3f2a6133f9fb44b",
+  "subtitle": "Watch Twitch live streams and VODs at full quality",
+  "tags": [
+   "twitch",
+   "stream",
+   "vod",
+   "client",
+   "open-source"
+  ]
+ },
+ "com.mxfia19.twitchunblock.1.6.0": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "TwitchUnblock is an open-source Twitch client that lets you watch VODs and live streams without a subscription, at full quality.",
+  "features": [
+   "Open Source",
+   "No Subscription",
+   "Full Quality"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d8d2de8416146ea8e922a2af247fb8666c098809d93134f89028b53b5a603006",
+  "subtitle": "Open-source Twitch client for VODs and live streams",
+  "tags": [
+   "twitch",
+   "vods",
+   "live streams",
+   "open source",
+   "no subscription"
+  ]
+ },
+ "com.mxfia19.twitchunblock.1.7.0.ipavault": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "TwitchUnblock is an open-source Twitch client for tvOS that lets you watch VODs and live streams without a subscription at full quality.",
+  "features": [
+   "Open Source",
+   "No Subscription",
+   "Full Quality"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2a10d6656d0d458180c0c8d988acfaf49c87baff672042da6448fac2f558d45a",
+  "subtitle": "Open-source Twitch client for VODs and live streams",
+  "tags": [
+   "twitch",
+   "vod",
+   "livestream",
+   "open-source",
+   "tvos",
+   "entertainment"
   ]
  },
  "com.mxfia19.twitchunblock.1.7.0.patched.ipavault": {
@@ -37072,6 +38144,25 @@
    "hack",
    "fighting",
    "action"
+  ]
+ },
+ "com.nekki.vector.iphone.free": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Play Vector, a parkour run game. This version includes an injected menu for unlimited currencies.",
+  "features": [
+   "Unlimited Currencies",
+   "Injected Mod Menu"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "44665510481aec162d235fdf7e56c34cf8b7786fdd9828d1c1d50636f7e7814a",
+  "subtitle": "Parkour run game with unlimited currencies",
+  "tags": [
+   "vector",
+   "parkour",
+   "run",
+   "action",
+   "game"
   ]
  },
  "com.neo.NeoMan": {
@@ -38597,6 +39688,23 @@
    "ios"
   ]
  },
+ "com.olegst.usage": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Keep an eye on your device activity, data consumption, connection velocity and more. Features 21 Home Screen widgets to help you track your usage directly from your home screen.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6232c7d4e64a14f118d70a602d4003771ea50c6f86075e099ab3b484a44e4326",
+  "subtitle": "Monitor device activity, data and connection speed",
+  "tags": [
+   "usage",
+   "monitor",
+   "data",
+   "widgets",
+   "network",
+   "activity"
+  ]
+ },
  "com.olleyo.piggy.match": {
   "category": "games",
   "date": "2026-11-03",
@@ -38907,6 +40015,23 @@
    "dopamine"
   ]
  },
+ "com.opa334.Trollstore": {
+  "category": "developer",
+  "date": "2026-11-08",
+  "description": "This app mimics the appearance of TrollStore to prank others into believing you have the real TrollStore installed.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1ce89e8cbc2110ff45bb6eafe236046d241db2e07e1eb47e4a17d404d0676d5c",
+  "subtitle": "Fake TrollStore prank app",
+  "tags": [
+   "trollstore",
+   "prank",
+   "fake",
+   "troll",
+   "store",
+   "ipa"
+  ]
+ },
  "com.opa334.trollnonce": {
   "category": "other",
   "date": "2026-11-08",
@@ -38922,6 +40047,23 @@
    "device",
    "explanation",
    "guide"
+  ]
+ },
+ "com.opa334.u0launcher": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "The u0Launcher iOS is an innovative mobile application that provides users with a simple, easy-to-use platform for creating and managing",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "beca70331a22d5c205f5021192ee6aa86b988f34b8e456966397246be3972844",
+  "subtitle": "Simple iOS launcher for creating and managing",
+  "tags": [
+   "launcher",
+   "ios",
+   "mobile",
+   "application",
+   "platform",
+   "manage"
   ]
  },
  "com.openagentd.mobile": {
@@ -39269,6 +40411,23 @@
    "connection"
   ]
  },
+ "com.osy86.UTM": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "UTM is a full featured virtual machine host for iOS. In short, it allows you to run Windows, Android, and more on your iPhone and iPad.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "429b9ba1209cfdaf60e59a82818a28d295408b105d25454d25f8af74a524f600",
+  "subtitle": "Run Windows and Android on iOS",
+  "tags": [
+   "virtual",
+   "machine",
+   "windows",
+   "android",
+   "ios",
+   "emulator"
+  ]
+ },
  "com.otraku.app": {
   "category": "other",
   "date": "2026-11-01",
@@ -39389,6 +40548,23 @@
    "ipa",
    "mod",
    "game"
+  ]
+ },
+ "com.outfit7neo.onehelsing": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Vampirio Defend & Survive is a tower defense and survival game for iOS. The app combines strategic tower placement with survival mechanics in a mobile gaming format.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e796af33d6dec8e32fb466e1cb1c5d735773e556c52c3e8646068d053385a097",
+  "subtitle": "Tower defense survival game",
+  "tags": [
+   "tower defense",
+   "survival",
+   "game",
+   "strategy",
+   "vampirio",
+   "ios"
   ]
  },
  "com.overdesigned.Cheatsheet": {
@@ -41071,6 +42247,27 @@
    "action"
   ]
  },
+ "com.playgendary.bowmastersremastered": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Ultimate Bowmasters is a modified version of the Bowmasters game. It removes advertisements and provides unlimited coins and gems. Version 1.1.1.",
+  "features": [
+   "No Ads",
+   "Unlimited Coins",
+   "Unlimited Gems"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "31abc6d9f333218a6262aac8cbd19c534946bd773d6c664329629a7940747230",
+  "subtitle": "No ads, unlimited coins & gems",
+  "tags": [
+   "bowmasters",
+   "archery",
+   "multiplayer",
+   "unlimited coins",
+   "no ads",
+   "game"
+  ]
+ },
  "com.playgendary.ktb2": {
   "category": "games",
   "date": "2026-10-28",
@@ -41751,6 +42948,25 @@
    "education",
    "study",
    "courses"
+  ]
+ },
+ "com.poncle.VampireSurvivors": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "This tweak enables free in-app purchases for Vampire Survivors version 1.12.108. It is provided by riftysIPAlibrary.",
+  "features": [
+   "Free IAP"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ec009ab7e50d8916387452b29b509259e25e4181e23ede5772a7406af535e911",
+  "subtitle": "Free in-app purchases tweak for Vampire Survivors",
+  "tags": [
+   "vampire survivors",
+   "tweak",
+   "free iap",
+   "ipa",
+   "jailbreak",
+   "riftys"
   ]
  },
  "com.poopsnaggle.IPTVUltra": {
@@ -43091,6 +44307,23 @@
    "protection"
   ]
  },
+ "com.realmzer.tsjitenabler": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "TrollStoreJITEnabler is a tweak that enables Just-In-Time (JIT) compilation for applications installed via TrollStore. It allows apps that require JIT execution to run properly on supported devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8f0647eb97c99d7a87175553863f94da126833606de2f58d9d23f6a42597c09a",
+  "subtitle": "Enable JIT for TrollStore apps",
+  "tags": [
+   "jit",
+   "trollstore",
+   "tweak",
+   "ios",
+   "compilation",
+   "utility"
+  ]
+ },
  "com.rebelancap.2ship": {
   "category": "other",
   "date": "2026-10-14",
@@ -43398,6 +44631,23 @@
    "rts",
    "local multiplayer",
    "engine"
+  ]
+ },
+ "com.rebelgames.tropicmatch": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Tropic Match is a puzzle game that blends colorful visuals with addictive matching mechanics. Players swap and match tiles to progress through levels.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "edad986f5cbf60df75f84ade8ac9bd3f517afc91160fbf2904ea888ed6d28da2",
+  "subtitle": "Colorful match-3 puzzle game",
+  "tags": [
+   "puzzle",
+   "match3",
+   "colorful",
+   "mobile",
+   "game",
+   "casual"
   ]
  },
  "com.reblazing.nbrc": {
@@ -44119,6 +45369,22 @@
    "games"
   ]
  },
+ "com.riotgames.valorant": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Valorant (Outdated) is an outdated version of the Valorant game for iOS, developed by Riot Games and Celestial Devs. This version may not receive updates or support.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0738e9970217c09eb39167e31566e12a84d22c2e3cd81deea5b0dc1ed96ebad9",
+  "subtitle": "Outdated Valorant port for iOS",
+  "tags": [
+   "valorant",
+   "outdated",
+   "ios",
+   "riot games",
+   "celestial devs"
+  ]
+ },
  "com.ripestore.skein": {
   "category": "utilities",
   "date": "2026-11-05",
@@ -44810,6 +46076,28 @@
    "ios"
   ]
  },
+ "com.rusergames.overpeak": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "OverPeak offers various modifications and enhancements for the app. Features include removing ads for uninterrupted gameplay, infinite energy, no cooldowns, and the ability to refill health and energy on demand. Players can defeat enemies with one hit, break props instantly, access a free store, multiply earned credits, and start with maximum skill levels. All suits and laser weapons are unlocked from the start, and abilities like charged punch, flight boost, and force hover are always ready for use.",
+  "features": [
+   "Remove Ads",
+   "Infinite Energy",
+   "No Cooldown",
+   "Free Store",
+   "All Suits Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b3b62b6ff414c8a1c5ad8354dd7bc8b2a7760806a0a179c33a02e540d3cedaba",
+  "subtitle": "Tweaked app with multiple gameplay enhancements",
+  "tags": [
+   "tweaks",
+   "mod",
+   "enhancement",
+   "utilities",
+   "gameplay"
+  ]
+ },
  "com.rushhours.app": {
   "category": "games",
   "date": "2026-11-06",
@@ -45405,6 +46693,23 @@
    "history"
   ]
  },
+ "com.seastar.turrit": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Turrit (TS) is an iOS app developed by iOSDecrypted.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "729290cfa27dcf0c1899671ebc20ae6b622a3eb5cab7be698ca7c18f7d6871b0",
+  "subtitle": "Turrit (TS) by iOSDecrypted",
+  "tags": [
+   "turrit",
+   "ts",
+   "ios",
+   "decrypted",
+   "app",
+   "utility"
+  ]
+ },
  "com.seawardhyacinth.pokecut": {
   "category": "photo-video",
   "date": "2026-11-03",
@@ -45422,6 +46727,23 @@
    "free",
    "premium",
    "unlocked"
+  ]
+ },
+ "com.secretexit.trdismount": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Turbo Dismount is an iOS entertainment game package that allows iPhone users to engage in physics-driven gameplay. Experience dismantling action directly on your mobile device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4c6d23134d3fcb5819ce52ce2aa2f5bf6a3870fd2f7a31695f1f8d3d66eed6bd",
+  "subtitle": "Physics-driven entertainment game for iPhone",
+  "tags": [
+   "turbodismount",
+   "game",
+   "ios",
+   "physics",
+   "entertainment",
+   "iphone"
   ]
  },
  "com.seg-soft.dungeonscall": {
@@ -48437,19 +49759,19 @@
  },
  "com.stik.stikdebug": {
   "category": "developer",
-  "date": "2026-11-07",
-  "description": "StikDebug is an on-device debugger and developer toolbox for iOS 17.4 and later, powered by idevice. It requires LocalDevVPN and cannot be used natively inside LiveContainer to enable JIT for the same LiveContainer.",
+  "date": "2026-11-08",
+  "description": "StikDebug is a developer tool for iPhone that addresses the JIT (Just-In-Time) compilation restriction affecting emulators and advanced sideloaded applications. It provides debugging capabilities to work around the iOS limitation that prevents runtime code generation, enabling developers to test and run JIT-dependent software on iOS devices.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "7b0f2c270c0541534dad38be70d9436c93d75c9b6f6531f621280ae85439066c",
-  "subtitle": "On-device debugger & toolbox for iOS 17.4+",
+  "src_hash": "2194c12e110328f46e60341046db02164be4140c162ed3d67b4be866a50f4411",
+  "subtitle": "JIT debugging for emulators and sideloaded apps",
   "tags": [
-   "debugger",
-   "toolbox",
+   "jit",
+   "debug",
+   "emulator",
+   "sideload",
    "ios",
-   "idevice",
-   "localdevvpn",
-   "livecontainer"
+   "developer"
   ]
  },
  "com.stippl.stippl": {
@@ -48800,6 +50122,22 @@
    "ios",
    "trollmisaka",
    "developer"
+  ]
+ },
+ "com.straight-tamago.uiharux": {
+  "category": "developer",
+  "date": "2026-11-08",
+  "description": "Brings a variety of interesting features to your device. This application requires installation via TrollStore to function properly. The IPA has been thoroughly tested and compiled by the TTJB Team.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3a1762a4e5a32a7e3da560f9477da5849c3fe51445eb50fe3211915013260b7c",
+  "subtitle": "Brings interesting features to your device",
+  "tags": [
+   "trollstore",
+   "ttjb",
+   "ipa",
+   "utility",
+   "tools"
   ]
  },
  "com.stratospheregames.dawnofages": {
@@ -49328,6 +50666,23 @@
    "open-source"
   ]
  },
+ "com.surplusai.app": {
+  "category": "lifestyle",
+  "date": "2026-11-08",
+  "description": "TurboFit AI is an iOS fitness app that uses artificial intelligence to provide a smart, personalized fitness coach.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "59de5905fb5fecf61657bc41d5a4f2d4558b1844f1512ea05ef6ed9c0d805c12",
+  "subtitle": "AI-Powered Personal Fitness Coach",
+  "tags": [
+   "fitness",
+   "ai",
+   "coach",
+   "personalized",
+   "ios",
+   "health"
+  ]
+ },
  "com.survivor.ace": {
   "category": "games",
   "date": "2026-11-06",
@@ -49347,6 +50702,51 @@
    "attack-multiplier",
    "sideload",
    "certfish"
+  ]
+ },
+ "com.suwayomi.tachideskSorayomi": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "Tsumiru is a native client for reading manga and manhwa from a Suwayomi-Server instance, built for long webtoon binges. The app includes offline downloads with an on-device catalog, a rebuilt continuous-scroll webtoon reader, incognito mode, and 13 built-in themes.",
+  "features": [
+   "Offline downloads",
+   "Continuous-scroll reader",
+   "Incognito mode",
+   "13 built-in themes"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "355e3123784652d30216534fcb558d8ba8f4807704351fde6fdacb1386d4a85e",
+  "subtitle": "Native client for Suwayomi-Server manga reading",
+  "tags": [
+   "manga",
+   "manhwa",
+   "webtoon",
+   "reader",
+   "server",
+   "offline"
+  ]
+ },
+ "com.suwayomi.tachideskSorayomi.tsumiru": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "Tsumiru is a webtoon reader that loads chapters as a continuous scroll with pinch-to-zoom. It includes a guided setup that discovers your server on the local network, an incognito mode that prevents history tracking and hides library categories, 13 built-in themes plus a custom accent colour and pure black OLED mode, and server login supporting simple_login and ui_login with credentials stored in the device secure storage.",
+  "features": [
+   "Webtoon Reader",
+   "Guided Setup",
+   "Incognito Mode",
+   "Themes",
+   "Server Login"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5b096eb1b1b185c0a15847a40f61cabaa656eb206f4af8f2182cc5f3d6a90547",
+  "subtitle": "Webtoon reader with server sync",
+  "tags": [
+   "webtoon",
+   "reader",
+   "manga",
+   "server",
+   "themes",
+   "incognito"
   ]
  },
  "com.suykorng.iptv": {
@@ -49381,6 +50781,22 @@
    "discontinued",
    "utility",
    "theoderoy"
+  ]
+ },
+ "com.swiftsphere.notes": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Simple and intuitive notes app.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c3f2e4f3df6745af1109f6793768ce2b2ff419060f1952c50146c656062ef380",
+  "subtitle": "Simple notes app",
+  "tags": [
+   "notes",
+   "simple",
+   "intuitive",
+   "utility",
+   "app"
   ]
  },
  "com.swipeguru": {
@@ -50297,6 +51713,22 @@
    "wellness"
   ]
  },
+ "com.thirteenleafclover.art.generator": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "UniDream offers an unlocked subscription experience.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ea0796546847d2e1f9a9a50baea6741b659d80191a6179bf475bc80e57ea10fd",
+  "subtitle": "Subscription Unlocked",
+  "tags": [
+   "unidream",
+   "subscription",
+   "unlocked"
+  ]
+ },
  "com.thomasyoung.dailydadish": {
   "category": "games",
   "date": "2026-10-20",
@@ -50402,6 +51834,23 @@
    "esign",
    "install",
    "tool"
+  ]
+ },
+ "com.thuthuatjb.ttapps": {
+  "category": "developer",
+  "date": "2026-11-08",
+  "description": "Version 2.3 fixes a bug where games were not shown when opening the app. Adds a reminder if the app was not installed via TrollStore or encounters an error. Includes minor display changes.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c7fc217984f7f49449119ebef3f57dc5db128e5dde0803b5a93698c8ab994f17",
+  "subtitle": "TTStore - TrollStore IPA repository",
+  "tags": [
+   "trollstore",
+   "ttstore",
+   "ttjb",
+   "ipa",
+   "repo",
+   "games"
   ]
  },
  "com.tibith.badboxing2": {
@@ -51426,6 +52875,60 @@
    "\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u0438"
   ]
  },
+ "com.trst.storek": {
+  "category": "developer",
+  "date": "2026-11-08",
+  "description": "TSStore gathers a selection of Trollstore-compatible IPA files. Last updated on October 17, 2022. Provided by CyPwn IPA Library.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "146d7a846fbe283c6658ab5df4c0d7e2c0efda091f9b0634bc98a13301e9f292",
+  "subtitle": "Trollstore compatible app collection",
+  "tags": [
+   "trollstore",
+   "ipa",
+   "collection",
+   "apps",
+   "utility",
+   "library"
+  ]
+ },
+ "com.trueaxis.skate": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "The ultimate skateboarding sim.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "baab861459dae4b7e2fdd91adfa681ccdd3fcfcdeb564eccd65e8c2cb6a49cd1",
+  "subtitle": "The ultimate skateboarding sim",
+  "tags": [
+   "skateboarding",
+   "sim",
+   "skate",
+   "sports",
+   "game"
+  ]
+ },
+ "com.truesoftware.TrueCallerOther": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "This is a modified IPA of Truecaller that includes the Premium features. The package has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Premium",
+   "Tested",
+   "Compiled"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ae8f900d4c2c2d9d62ab8f66650c8ef2a28c2bb7fcbd14e5436c22cdff9e4260",
+  "subtitle": "Truecaller Premium IPA by TTJB Team",
+  "tags": [
+   "truecaller",
+   "premium",
+   "ipa",
+   "ttjb",
+   "tested",
+   "compiled"
+  ]
+ },
  "com.tryagaingamestudio.spacelanders": {
   "category": "games",
   "date": "2026-11-06",
@@ -51465,6 +52968,52 @@
    "unlimited",
    "chef",
    "kitchen"
+  ]
+ },
+ "com.tsuzuri.tsuzuri": {
+  "category": "photo-video",
+  "date": "2026-11-08",
+  "description": "Tsuzuri v2 is a quiet, lightweight, completely offline, cross-platform Markdown document reader and editor built with Flutter and Dart. Designed with a reader-first philosophy and an AMOLED aesthetic, it provides a mutually exclusive formatted view for long reading sessions with a true black dark canvas and light canvas. It supports typeset mathematics, chemical equations, SVG Mermaid diagrams, and structured code cards running completely offline on mobile hardware, while preserving native desktop performance, offline independence, and typographic fidelity.",
+  "features": [
+   "Completely offline",
+   "Lightweight",
+   "Cross-platform",
+   "AMOLED dark canvas",
+   "Typeset mathematics"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0b7b53be0f51f91960cff8fe98774052fc4de4b2bff917b463c498472a3e6918",
+  "subtitle": "Offline Markdown document reader and editor",
+  "tags": [
+   "markdown",
+   "reader",
+   "editor",
+   "offline",
+   "flutter",
+   "document"
+  ]
+ },
+ "com.tumoflip.unleashedcompanion": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "TumoCompanion is a native iOS app for Flipper Zero. It connects via Bluetooth LE for live control, App Bridge, screen mirroring, and RPC actions. Browse the SD card over BLE or USB SD Mode, create folders, upload files and whole folders, multi-select and move items in bulk, and clean macOS junk files (._*, .DS_Store) with one tap. Features include Sub-GHz and NFC tools, a Sber smart-relay failsafe, Marauder log analysis, ESP32 firmware flashing, and live Claude Code status on the Flipper.",
+  "features": [
+   "BLE/USB SD Access",
+   "Screen Mirror",
+   "Sub-GHz/NFC",
+   "Marauder Log Analysis",
+   "ESP32 Firmware Flash"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "593145907545d2b56de8ee966d59ea6dcd9a2d036e4306c3304058aba81cdee5",
+  "subtitle": "Native Flipper Zero companion with BLE/USB SD access",
+  "tags": [
+   "flipper zero",
+   "ble",
+   "usb",
+   "sd card",
+   "firmware",
+   "nfc"
   ]
  },
  "com.turner.pocketmorties": {
@@ -51610,6 +53159,39 @@
    "subscription",
    "unlocked",
    "patched"
+  ]
+ },
+ "com.type.ai.app": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Type AI is an AI-powered keyboard app for iOS that offers smart typing and writing assistance.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d45bbec3eaa84accf5841c463ae85030f1551b38dd5f54a812ea10edaa09e47f",
+  "subtitle": "AI-powered smart keyboard for iOS",
+  "tags": [
+   "ai",
+   "keyboard",
+   "writing",
+   "smart",
+   "ios",
+   "utility"
+  ]
+ },
+ "com.ubercab.UberEats": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Uber Eats application for iOS 14.x. This version is personally decrypted for users who encounter the minimum iOS version requirement banner in the App Store.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "fae1856501c25e3050139a8f63fcc7497d71f2a52ae19b72c246e26c2da3aa2d",
+  "subtitle": "Uber Eats decrypted for iOS 14.x",
+  "tags": [
+   "ubereats",
+   "delivery",
+   "food",
+   "decrypted",
+   "ios14"
   ]
  },
  "com.ubisoft.csi.HiddenCrimes": {
@@ -51764,19 +53346,23 @@
   ]
  },
  "com.ulisesolave.Fitia": {
-  "category": "other",
+  "category": "lifestyle",
   "date": "2026-11-08",
-  "description": "This version has the subscription unlocked. No further details about app functionality are provided in the source.",
+  "description": "Fitia is a calorie counter and diet tracking application. This patched version 24.2.9 requires iOS 16 or later. The modification includes subscription features unlocked. Bundle identifier: com.ulisesolave.Fitia.",
   "features": [
+   "Patched",
    "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "e293289e79500bae288bcbc5bf5f0fb8e68488e6a07de9198c5ee17848508813",
-  "subtitle": "Subscription unlocked version",
+  "src_hash": "d2560d5c5b29418fc79672e1ddd639f8cdc9ce20eda568c6dbd00e547d4dc540",
+  "subtitle": "Calorie Counter & Diet Tracker",
   "tags": [
-   "subscription",
-   "unlocked",
-   "injected"
+   "calorie",
+   "counter",
+   "diet",
+   "tracker",
+   "fitness",
+   "health"
   ]
  },
  "com.ultimateguitar.tabs100": {
@@ -51793,6 +53379,23 @@
    "guitar",
    "lessons",
    "music"
+  ]
+ },
+ "com.ultrakill.ios.port": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Runs the retail Steam build of ULTRAKILL on iOS. Uses an IL2CPP player built with Unity 2022.3.29f1. Windows game data is converted for iOS: DX11 shaders are translated to Metal via Unity's HLSLcc, and files are re\u2011tagged as an iOS build. The converted data and a shell IPA are merged into ULTRAKILL.ipa.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "429fb1637d20e234612821aa657e395c4a0f183f2a222d367e0ef1e88d490299",
+  "subtitle": "Play ULTRAKILL on iOS via IL2CPP",
+  "tags": [
+   "ultrakill",
+   "unity",
+   "il2cpp",
+   "metal",
+   "ios",
+   "port"
   ]
  },
  "com.ultraman.puzzshuwa": {
@@ -51850,6 +53453,25 @@
    "community"
   ]
  },
+ "com.undeadslayer.athree.epl.as": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Undead Slayer is an offline action game for iOS featuring hack-and-slash combat against undead enemies. The game offers fast-paced gameplay without requiring an internet connection.",
+  "features": [
+   "Offline Play"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ecee6a072a501470b81b1ee77e78fdda235add527108caaac90e4eee04e685f0",
+  "subtitle": "Offline hack-and-slash action game",
+  "tags": [
+   "action",
+   "offline",
+   "hack-and-slash",
+   "undead",
+   "combat",
+   "ios"
+  ]
+ },
  "com.underdecodedhd.gen2recomped": {
   "category": "games",
   "date": "2026-10-25",
@@ -51865,6 +53487,24 @@
    "retro",
    "rpg",
    "gaming"
+  ]
+ },
+ "com.underneath.v2": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Underneath is a food scanner application requiring iOS 16.4 or later. Current version is 1.1. The app is distributed through the Apple App Store and includes subscription-based features.",
+  "features": [
+   "Subscriptions"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "173a0ad904769f78242bf77d9ee0c358a952165c221878decff01136779d4c42",
+  "subtitle": "Food Scanner for iOS 16.4+",
+  "tags": [
+   "food scanner",
+   "nutrition",
+   "health",
+   "ios",
+   "subscription"
   ]
  },
  "com.underthing.focus.friend": {
@@ -56845,6 +58485,196 @@
    "tweak"
   ]
  },
+ "com.unknown.truecaller": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Truecaller features a professional and graphical call screen. You have the ability to add custom numbers to your contact database. Easily copy contact numbers as needed.",
+  "features": [
+   "Call screen",
+   "Add custom numbers",
+   "Copy contact numbers"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "924bd8941210b6aec787dba71f18fdd53fa21b5c8da97e736e80f9d792f265fc",
+  "subtitle": "Professional call screen and contact database",
+  "tags": [
+   "calls",
+   "contacts",
+   "database",
+   "screen",
+   "numbers"
+  ]
+ },
+ "com.unknown.tvremote": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "TV Remote is an application that lets you control your television using your smartphone. It provides a virtual remote interface for basic TV functions such as power, volume, channel navigation, and input selection.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6e0c72db3b65b4c2e9587f9523e059cab7b7153a6e36293863b86934cad93896",
+  "subtitle": "Control your TV from your phone",
+  "tags": [
+   "tv",
+   "remote",
+   "control",
+   "television",
+   "smartphone",
+   "utility"
+  ]
+ },
+ "com.unknown.twitch": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "Stream online and offline games directly from the app. Archive your videos easily with built-in functionality. This version includes ad removal for an uninterrupted viewing experience.",
+  "features": [
+   "No Ads",
+   "Stream Games",
+   "Archive Videos"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0c74f46b655024dd5ef42aaf1fe72fb145b24c1ec9d5ba1330d040db68b6a99e",
+  "subtitle": "Stream online and offline games",
+  "tags": [
+   "twitch",
+   "streaming",
+   "games",
+   "video",
+   "offline"
+  ]
+ },
+ "com.unknown.twodots": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Two Dots offers unlimited steps and unlimited hearts.",
+  "features": [
+   "Unlimited Steps",
+   "Unlimited Hearts"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5fdbedc4c4b5d8e9e9e02db6b69b245827810f7a36a34bed9615711078bdda01",
+  "subtitle": "Unlimited steps and hearts",
+  "tags": [
+   "two dots",
+   "unlimited steps",
+   "unlimited hearts",
+   "puzzle",
+   "mobile",
+   "game"
+  ]
+ },
+ "com.unknown.typeon": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "TypeOn is a keyboard application that includes AI support. It offers a premium feature which can be cancelled by the user.",
+  "features": [
+   "AI Support",
+   "Premium",
+   "Cancel Subscription"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4cd4542700023b7a551d140865b1ed53fce98e36d6f69df5947d1b8aa3214c82",
+  "subtitle": "AI-powered keyboard with premium features",
+  "tags": [
+   "keyboard",
+   "ai",
+   "premium",
+   "cancel",
+   "subscription",
+   "typeon"
+  ]
+ },
+ "com.unknown.udictionary": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "An effective translation dictionary supporting 180 different languages. Premium features are unlocked.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "76447992f726fa2b250682da8a169b3169dbfcb60f2d15391761dbab824830f8",
+  "subtitle": "Translation dictionary supporting 180 languages",
+  "tags": [
+   "dictionary",
+   "translation",
+   "languages",
+   "translate",
+   "words"
+  ]
+ },
+ "com.unknown.ultraplayer": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Ultra Player is an application designed for playing videos and M3U playlists. This app has all advertisements completely removed.",
+  "features": [
+   "No Ads",
+   "M3U Playlists",
+   "Video Playback"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5d800526ec5e79250d5bb1d76a763082380da9c96db5e2f00e574e2e27c3f7a3",
+  "subtitle": "Play videos and M3U playlists",
+  "tags": [
+   "player",
+   "video",
+   "m3u",
+   "playlist",
+   "media"
+  ]
+ },
+ "com.unknown.unmix": {
+  "category": "photo-video",
+  "date": "2026-11-08",
+  "description": "Unmix removes music from video files. The app separates audio tracks, allowing you to extract or delete background music from videos.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "88b38c33a31aedbb3a4b3edde3a84aeb14f67f2f7c4d5753c2bd0ab34dbb515e",
+  "subtitle": "Remove music from videos",
+  "tags": [
+   "video",
+   "audio",
+   "music",
+   "remove",
+   "editor",
+   "tool"
+  ]
+ },
+ "com.unknown.uplsnap": {
+  "category": "social",
+  "date": "2026-11-08",
+  "description": "UPLsnap lets you upload photos and videos to Snapchat.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "89775c4847642eacf7e8f942b0ceab0997969ee3afde2aa094778dba6ecdc516",
+  "subtitle": "Upload photos and videos to Snapchat",
+  "tags": [
+   "snapchat",
+   "upload",
+   "photos",
+   "videos",
+   "social",
+   "media"
+  ]
+ },
+ "com.unknown.vampiresurvivors": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "This version of Vampire Survivors includes modifications: unlimited money, high player defense, and all weapons unlocked. Access unlocked weapons via Options menu and Sounds button. Published by Karbin-Store.",
+  "features": [
+   "Unlimited Money",
+   "High Defense",
+   "All Weapons Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7f1a7c4630575fa010f77f534181402a3313898896b198bf22ae3b1e73ab18c7",
+  "subtitle": "Modified Vampire Survivors with cheats",
+  "tags": [
+   "vampire survivors",
+   "action",
+   "roguelike",
+   "modified",
+   "cheats"
+  ]
+ },
  "com.unofficial.balatro": {
   "category": "games",
   "date": "2026-10-15",
@@ -56877,6 +58707,23 @@
    "expenses",
    "finance",
    "manager"
+  ]
+ },
+ "com.unstuckstudy": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Unstuck is an AI-powered virtual notepad that organizes your thoughts and stimulates clarity and creativity.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9fff01511d1ba2836605c7de5c5fbdaa857456a6310b9f89563620cccc0c5657",
+  "subtitle": "AI-powered virtual notepad for clarity",
+  "tags": [
+   "unstuck",
+   "ai",
+   "notepad",
+   "organize",
+   "thoughts",
+   "creativity"
   ]
  },
  "com.untitledinbrackets.untitled-ios": {
@@ -56984,6 +58831,106 @@
    "board"
   ]
  },
+ "com.utbnpios.undertale": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Undertale Bits & Pieces is an unofficial fan-made mod of Toby Fox's Undertale created by Team BnP. The project was abandoned after complications with the lead developer. The page has been archived and the incomplete Suzy Update is released in a buggy state. Installation instructions are provided for the available releases.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a7972eb4742d4f35dcd7eaf0ed8eb22be23034f006d68e4f13783e89213658e8",
+  "subtitle": "Unofficial Undertale mod archive",
+  "tags": [
+   "undertale",
+   "mod",
+   "unofficial",
+   "archive",
+   "suzy-update",
+   "team-bnp"
+  ]
+ },
+ "com.utmapp.UTM": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "UTM is a full featured virtual machine host for iOS. It allows you to run operating systems like Windows and Android on your iPhone and iPad.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5c3b9156ab2e1765f6d341416bf5f69a1837024e9c4aab57ac02c5e4e1db5a7d",
+  "subtitle": "Virtual machine host for iOS",
+  "tags": [
+   "virtual machine",
+   "emulator",
+   "windows",
+   "android",
+   "host"
+  ]
+ },
+ "com.utmapp.UTM-SE": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "UTM SE is a full featured virtual machine host for iOS. It allows you to run Windows, Android, and other operating systems on your iPhone and iPad. This version provides virtualization capabilities for multiple guest systems.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bf9d2bedc2856a8536f35094b34fbdff9ba3a9af374ca01b937e4ec9c466431e",
+  "subtitle": "Run Windows, Android, and more on iOS",
+  "tags": [
+   "virtual machine",
+   "vm",
+   "windows",
+   "android",
+   "ios",
+   "emulator"
+  ]
+ },
+ "com.utmapp.UTM-SE454": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "UTM is a full-featured system emulator and virtual machine host for iOS and macOS. It is based on QEMU and lets you run Windows, Linux, and other operating systems on your Mac, iPhone, and iPad.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2b241c2a8a8da5b7c8d747810aaa2b174b05f8d48d68dfacb695f49a68b88888",
+  "subtitle": "Run Windows, Linux, and more on iOS",
+  "tags": [
+   "emulator",
+   "virtual-machine",
+   "qemu",
+   "windows",
+   "linux",
+   "ios"
+  ]
+ },
+ "com.utmapp.UTM454": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "UTM is a full featured system emulator and virtual machine host for iOS and macOS. Based on QEMU, it allows you to run Windows, Linux, and more on your iPhone, iPad, and Mac.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "faf7830d60f072fe863f9078011bd2d9c09053a65d3f2f2ee787073e94ed1a69",
+  "subtitle": "Virtual machine host and system emulator",
+  "tags": [
+   "emulator",
+   "virtual machine",
+   "windows",
+   "linux",
+   "qemu"
+  ]
+ },
+ "com.utryios.undertale": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Undertale Red & Yellow is a fan-made modification of Undertale that combines elements from the Undertale Yellow fan project. It is created by Shinix and is marked as complete.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "67b432cdecbf0f8ef6c8e3561de25de9e28902fca236ed5a1df175da3cc3a683",
+  "subtitle": "Undertale fan mod combining Red and Yellow",
+  "tags": [
+   "undertale",
+   "mod",
+   "fan",
+   "red",
+   "yellow",
+   "shinix"
+  ]
+ },
  "com.uzero.cn.eraseit": {
   "category": "photo-video",
   "date": "2026-11-05",
@@ -57017,6 +58964,23 @@
    "utilities",
    "ipa",
    "ttjb"
+  ]
+ },
+ "com.valowiki.app": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "ValWiki provides a Valorant reference with a home screen showing featured agent, live patch, current act timer, and map pool. Agents tab includes role filter, search, and full dossiers with ability details. Arsenal lists every weapon by class with cost, fire rate, handling gauges, damage\u2011by\u2011range tables, and all skins with edition filter, variant switcher, upgrade levels, and level videos. Maps show competitive pool and mode maps with splash art and an interactive minimap with callouts from API coordinates, filterable by site and full\u2011screen zoom. A universal search covers agents, weapons, skins, maps, and bundles.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f95a84d3d7ab9f8f45e94d57f016308f79d578f5add843e6d050ae2a330aff03",
+  "subtitle": "Valorant reference guide",
+  "tags": [
+   "valorant",
+   "agents",
+   "weapons",
+   "maps",
+   "skins",
+   "search"
   ]
  },
  "com.valyc.folha.scanner": {
@@ -57073,6 +59037,25 @@
    "group",
    "ios",
    "fun"
+  ]
+ },
+ "com.vanson.modifier": {
+  "category": "developer",
+  "date": "2026-11-08",
+  "description": "VansonMod_2.3 is an iOS memory editor developed by VansonMod_2.3 x CyPwn.",
+  "features": [
+   "Memory Editor"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "eb8ee0498ba5a187c04369be933ee6fcd5a49c06dbc3cd6c3e14784efda0229a",
+  "subtitle": "iOS memory editing tool",
+  "tags": [
+   "memory",
+   "editor",
+   "ios",
+   "developer",
+   "tool",
+   "debug"
   ]
  },
  "com.vasu.math.scanner.math.solver": {
@@ -57996,6 +59979,40 @@
    "private",
    "health",
    "cycle"
+  ]
+ },
+ "com.whiostudios.UnpromptedWriting": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Unprompted is a creative writing application for iOS. It requires iOS 17.6 or later. Current version is 1.30. The app is available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "909d6d875d500d95d5836a28eaec959900a1914b1f9a4ef4c6463eeea6fb77e3",
+  "subtitle": "Creative writing tool for iOS 17.6+",
+  "tags": [
+   "creative",
+   "writing",
+   "ios",
+   "app",
+   "utilities",
+   "storytelling"
+  ]
+ },
+ "com.whitedot.udsios": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Undead Siege is a strategy survival game for iOS. It offers thrilling gameplay combining strategy and survival elements.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fea16c9088ade319b1603eb74b0b11775034bf69551dbc75a0424c1e863612a5",
+  "subtitle": "Strategy survival game for iOS",
+  "tags": [
+   "strategy",
+   "survival",
+   "game",
+   "ios",
+   "undead",
+   "siege"
   ]
  },
  "com.widget-kid": {
@@ -59467,6 +61484,23 @@
    "game"
   ]
  },
+ "com.zynga.FarmVilleTropicEscape": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "FarmVille 2 Tropic Escape is an exciting mobile game from Zynga that takes you on a journey to a lush, sun-drenched island where you can build and manage your tropical escape.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "678c32867102904a3ec4ff9522279c110546fd3316888239cb87c5200af6fdf8",
+  "subtitle": "Farm on a lush sun-drenched island",
+  "tags": [
+   "farming",
+   "island",
+   "tropical",
+   "zynga",
+   "game",
+   "mobile"
+  ]
+ },
  "com.zynga.borderlandsmobile": {
   "category": "games",
   "date": "2026-10-15",
@@ -59556,6 +61590,46 @@
    "offline",
    "books",
    "entertainment"
+  ]
+ },
+ "computer.unbill.apple": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Unbill records who paid and who owes whom for households, trips, couples, and small trusted groups. Data stays on member devices and syncs directly between them without a cloud account or telemetry. The app works offline; changes merge automatically when devices reconnect. It runs on desktop, iPhone, iPad, Mac, Android, CLI, TUI, and a self-hosted relay server. Unbill does not move money or integrate with banks.",
+  "features": [
+   "Peer-to-peer sync",
+   "No cloud account",
+   "Offline support",
+   "Cross-platform",
+   "Self-hosted relay"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1a93e9218fb5a9ec2b1dcb833f07ee3d5d73111cfe6d0df3e8f0fdde4a4d78bd",
+  "subtitle": "Peer-to-peer shared expense ledger",
+  "tags": [
+   "expense",
+   "shared",
+   "peer-to-peer",
+   "offline",
+   "cross-platform",
+   "sync"
+  ]
+ },
+ "con.TDMbest.UCG": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Uncanny Cat Golf is a mobile port by fog waves of the game created by slappyhappy2000 (SH2K). The update adds mini games ported by cvgd. Links to the Itch.io page and Discord are provided.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "075a36536a52aa51f7c4cc571ba6ceef9e7c9f2d8fa6f78249166dee32128479",
+  "subtitle": "Mobile port of Uncanny Cat Golf with mini games",
+  "tags": [
+   "cat",
+   "golf",
+   "mobile",
+   "port",
+   "mini-games",
+   "itchio"
   ]
  },
  "crowd.champs.game": {
@@ -61399,6 +63473,23 @@
    "tool"
   ]
  },
+ "cypwn.TSstore_TS.3.0.1": {
+  "category": "developer",
+  "date": "2026-11-08",
+  "description": "App Store for downloading TrollStore compatible apps.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7d5462f476eab194590da8b6bff578b6f058aad73c1eac94b4c0d009a9a4d361",
+  "subtitle": "Download TrollStore compatible apps",
+  "tags": [
+   "appstore",
+   "trollstore",
+   "ipa",
+   "download",
+   "ios",
+   "jailbreak"
+  ]
+ },
  "cypwn.Textastic_TS.9.8.7": {
   "category": "photo-video",
   "date": "2026-11-07",
@@ -61480,6 +63571,96 @@
    "app",
    "signing",
    "utility"
+  ]
+ },
+ "cypwn.TrollTools_TS.2.2": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Version 2.2 beta 4 for iOS 15 only. Includes icon themes, badge themes, and passcode themes.",
+  "features": [
+   "Icon Themes",
+   "Badge Themes",
+   "Passcode Themes"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f7987c9552d75b853a14c369184623ed52b73f1e716f310c06f9a006a445588a",
+  "subtitle": "iOS 15 theming tool with icon, badge, passcode themes",
+  "tags": [
+   "theming",
+   "ios15",
+   "icons",
+   "badges",
+   "passcode",
+   "beta"
+  ]
+ },
+ "cypwn.TweakSettings_for_Xina_TS.1.0.6": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "This app provides a settings interface for tweaks on XinaA15 jailbreaks. It is designed exclusively for devices running the XinaA15 jailbreak.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "28e45e8e89ff8b40ff1449ad4cb2fb2da0e44ee0c9418c4f8da4c6b2be89c42e",
+  "subtitle": "TweakSettings for XinaA15 jailbreaks",
+  "tags": [
+   "tweaksettings",
+   "xinaa15",
+   "jailbreak",
+   "settings",
+   "tweaks",
+   "utility"
+  ]
+ },
+ "cypwn.Ulysses_27.3k.27.3": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Modified version of the Ulysses writing application with subscription restrictions removed. Includes full access to markdown editing, document organization, export options, and sync features without recurring payment requirements.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d7fa489d299198679e1109e7061f89294c0048c9df6fe9f0b3ae78d69234675b",
+  "subtitle": "Writing app with subscription unlocked",
+  "tags": [
+   "writing",
+   "markdown",
+   "text editor",
+   "productivity",
+   "unlocked",
+   "ulysses"
+  ]
+ },
+ "cypwn.Unc0verLauncher_TS.1.0.1": {
+  "category": "developer",
+  "date": "2026-11-08",
+  "description": "u0Launcher v1.0.1 fixes the codesign error that occurs at Unc0ver steps 18\u201119. The tool requires Unc0ver to be installed via TrollStore. When jailbreaking, launch this u0Launcher to apply the fix.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5974f0aef9548213145a7d74c6b8d1f0f82c5d19cbd68cde6a1f86b9f55d73d9",
+  "subtitle": "Fixes Unc0ver step 18\u201119 codesign error",
+  "tags": [
+   "jailbreak",
+   "unc0ver",
+   "trollstore",
+   "launcher",
+   "codesign",
+   "fix"
+  ]
+ },
+ "cypwn.Unc0ver_TS.8.0.2": {
+  "category": "developer",
+  "date": "2026-11-08",
+  "description": "unc0ver 8.0.2 for TrollStore. Use with u0Launcher to launch this patched version and jailbreak successfully.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2e09322586a3121c2d835a44ad5db20991a5db9fc5b6823254d9d60f34605c63",
+  "subtitle": "unc0ver 8.0.2 for TrollStore",
+  "tags": [
+   "unc0ver",
+   "trollstore",
+   "jailbreak",
+   "u0launcher",
+   "developer"
   ]
  },
  "cypwn.cl1m4x.1.3": {
@@ -62079,6 +64260,26 @@
    "forum"
   ]
  },
+ "dev.ismaeltech.kickunblock": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "KickUnblock is a native Kick client for iPhone and iPad built with SwiftUI. Watch live streams, VODs, clips, and participate in chat without needing an account. The app uses the same Amazon IVS player as Kick for livestreams and Apple's player for VODs and clips. Your follows and saved clips are stored directly on your device. This open-source viewer provides an ad-free experience.",
+  "features": [
+   "No Ads",
+   "Open Source",
+   "No Account Needed"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "dc77ddc59122c081d6d78fc68f74f627c60a2f3b9f58f25a239b69a416052af0",
+  "subtitle": "Native Kick client for iPhone and iPad",
+  "tags": [
+   "kick",
+   "streaming",
+   "client",
+   "video",
+   "chat"
+  ]
+ },
  "dev.iw4j.iw4l": {
   "category": "games",
   "date": "2026-10-28",
@@ -62120,6 +64321,22 @@
    "media",
    "swiftui",
    "search"
+  ]
+ },
+ "dev.jjtech.experiments.ValidationRelay": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "ValidationRelay is a TrollStore application that relays validation data for OpenBubbles.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5e61eacdaf70e5e28976cf963c34f7df82cefabd70596a45f4e879c5299b9212",
+  "subtitle": "Relay validation data for OpenBubbles",
+  "tags": [
+   "trollstore",
+   "openbubbles",
+   "validation",
+   "relay",
+   "data"
   ]
  },
  "dev.jotalac.git-writer": {
@@ -62940,6 +65157,26 @@
    "ipa"
   ]
  },
+ "eu.vcmi.vcmiclient": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "VCMI is an open-source, cross-platform reimplementation of the Heroes of Might and Magic III game engine written from scratch. It requires game data files copied from the original Heroes of Might and Magic III installation to function. Follow the setup instructions to configure the required data files before playing.",
+  "features": [
+   "Open Source",
+   "Cross-platform"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "eb553660c13918e6d3d617c054a25eaa718007b76594b9b549331b219a3566be",
+  "subtitle": "Open-source Heroes of Might and Magic III engine",
+  "tags": [
+   "homm3",
+   "strategy",
+   "turn-based",
+   "engine",
+   "open-source",
+   "retro"
+  ]
+ },
  "evolly.app.chatgpt": {
   "category": "utilities",
   "date": "2026-10-14",
@@ -62955,6 +65192,24 @@
    "ask",
    "chat",
    "utilities"
+  ]
+ },
+ "evolly.app.rokuremote": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "TVRemote is an application that allows you to control your television. This version includes an in-app purchase hack where users can tap to buy and then cancel. The IPA file has been tested and compiled by the TTJB Team.",
+  "features": [
+   "In-App Purchase Hack"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "16210b426756cf02bbf20e6305e7f305d2175c92f0f4f3bc2bf547455ca685f8",
+  "subtitle": "Control your television with in-app purchase hack",
+  "tags": [
+   "tvremote",
+   "remote",
+   "television",
+   "control",
+   "ttjb"
   ]
  },
  "f1.widgets.app": {
@@ -65817,6 +68072,25 @@
    "robot"
   ]
  },
+ "jp.co.bandainamcoent.BNEI0423": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "Mobile Suit Gundam U.C. Engage modification features including damage multiplier to increase outgoing mech damage and defense multiplier to boost incoming defense.",
+  "features": [
+   "Damage Multiplier",
+   "Defense Multiplier"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8bf50f3d2a029f207f9f498c8fd319bece780a99eabfdbc697bcc354a9f08904",
+  "subtitle": "Mobile Suit Gundam U.C. Engage hack features",
+  "tags": [
+   "gundam",
+   "engage",
+   "hack",
+   "mobile",
+   "suit"
+  ]
+ },
  "jp.co.bandainamcoent.BNEI0455": {
   "category": "games",
   "date": "2026-11-03",
@@ -65959,6 +68233,23 @@
    "ttjb",
    "tested",
    "repo"
+  ]
+ },
+ "jp.colopl.mask": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Tsukuyomi is an action-RPG game for iOS featuring mythological themes and intense gameplay. Players take on the role of a divine hunter in this immersive mobile title.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c9c169e8ab5a203485aeb58e573844b7b3b9ca27c3f5749d95c518db93f15db3",
+  "subtitle": "Action-RPG with mythological themes",
+  "tags": [
+   "action-rpg",
+   "mythology",
+   "ios",
+   "game",
+   "hunter",
+   "immersive"
   ]
  },
  "jp.dcsyhi.CarMovie": {
@@ -66944,6 +69235,23 @@
    "offline"
   ]
  },
+ "me.goduni.unissh": {
+  "category": "developer",
+  "date": "2026-11-08",
+  "description": "UniSSH is a cross-platform SSH client featuring end-to-end-encrypted vaults that are local-first and optionally synced through a server you host. Your keys, hosts, and machine remain entirely under your control. The client operates completely on its own without requiring an account, cloud service, or external server. You can choose to run a sync server only when you want the same vault on a second device or within a team, and the server cannot read your data. The first run creates a local vault where your hosts and keys are encrypted on your device. A Secret Key is provided on first run to recover the vault.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "57e2689f48ebd26d07289039b4a6c6816c3ebb2c2ad9f662414719a2d5c0efc0",
+  "subtitle": "Cross-platform SSH client with encrypted vaults",
+  "tags": [
+   "ssh",
+   "client",
+   "vault",
+   "encryption",
+   "terminal",
+   "sync"
+  ]
+ },
  "me.hirmer.SimplePi.free": {
   "category": "other",
   "date": "2026-11-05",
@@ -66998,6 +69306,26 @@
    "ttjb",
    "tested",
    "compiled"
+  ]
+ },
+ "me.imgbase.videoday": {
+  "category": "photo-video",
+  "date": "2026-11-08",
+  "description": "VDIT is a video caption editor. Version 4.2.0 requires iOS 16.0 or later. This patched version unlocks the subscription features.",
+  "features": [
+   "Patched",
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "70e7b3d0067293e5698cf4f5fae7d7eb5d99ce0d434b5065421deb4714aad312",
+  "subtitle": "Video caption editor with subscription unlocked",
+  "tags": [
+   "video",
+   "caption",
+   "editor",
+   "subtitle",
+   "patched",
+   "subscription"
   ]
  },
  "me.keet.HDRezka": {
@@ -68254,6 +70582,23 @@
    "ios"
   ]
  },
+ "net.sourceloc.TrollTools": {
+  "category": "other",
+  "date": "2026-11-08",
+  "description": "In short, an alternative to Mugunghwa. Use this if the other one gives you issues, and vice versa. Last updated 01-04-2023.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5fb7102ba1878845444b733ced0dabe6c646e9c031faef578292f60437681eba",
+  "subtitle": "Alternative to Mugunghwa",
+  "tags": [
+   "trolltools",
+   "alternative",
+   "mugunghwa",
+   "utility",
+   "tool",
+   "ios"
+  ]
+ },
  "net.sourceloc.deb-to-ipa-app": {
   "category": "developer",
   "date": "2026-10-20",
@@ -68303,6 +70648,23 @@
    "ios"
   ]
  },
+ "net.tengl.frmd": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "FRMD is a utility application developed by @Sa1y0miii. Current version 2.5 requires iOS 16.2 or later. The app is available on the App Store with subscription features unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bb1a97e52965caceaafb6ac79eb1eda677c317ab5217f336f212975a07954043",
+  "subtitle": "Utility app with subscription unlocked",
+  "tags": [
+   "utility",
+   "subscription",
+   "ios",
+   "app"
+  ]
+ },
  "net.voidstern.fiery-feeds": {
   "category": "utilities",
   "date": "2026-10-24",
@@ -68349,6 +70711,23 @@
    "game",
    "mobile",
    "puzzle"
+  ]
+ },
+ "net.wooga.tropicats-tropical-cats-puzzle-paradise": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Tropicats is a Match-3 puzzle game for iOS featuring colorful tropical themes and adorable cat characters.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "45a142f367fc433f0dd74deff277cc44d24a65cdafa9b13419fbca5aa96ec2bd",
+  "subtitle": "Match-3 puzzle with tropical cats",
+  "tags": [
+   "match-3",
+   "puzzle",
+   "tropical",
+   "cats",
+   "ios",
+   "game"
   ]
  },
  "net.yuandev.onexray": {
@@ -69050,6 +71429,23 @@
    "taurine"
   ]
  },
+ "org.cpartisans.vartagram": {
+  "category": "social",
+  "date": "2026-11-08",
+  "description": "Vartagram is a third-party Telegram application that adds features beyond the official app. It includes fixes to work when sideloaded. The IPA has been verified and compiled by TTJB Tea.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "45b8f6f4eef96fc103447abacfa0cf1c6309c064565d4e470127be8d19b3f343",
+  "subtitle": "Third-party Telegram client with added features",
+  "tags": [
+   "telegram",
+   "third-party",
+   "client",
+   "sideload",
+   "ipa",
+   "messaging"
+  ]
+ },
  "org.d2rmobile.app": {
   "category": "games",
   "date": "2026-10-24",
@@ -69089,25 +71485,24 @@
  },
  "org.emexlabs.nyxian": {
   "category": "developer",
-  "date": "2026-11-01",
-  "description": "Nyxian is an iOS app that provides a full development toolchain for iPhone and iPad. It supports Swift, C, Objective\u2011C, C++, and Objective\u2011C++. After an initial download of the SDK and resources, the IDE works entirely offline \u2014 even in airplane mode \u2014 with no cloud dependency. It officially supports iOS 18.0 through the latest iOS/iPadOS versions (tested up to 27.2 Beta 2) and includes the iOS 26.5 SDK for compiling and running apps on device.",
+  "date": "2026-11-08",
+  "description": "Nyxian is an iOS app that empowers developers with a full toolchain they can use while even being offline for iOS development on iPhone. It supports Swift, C, Objective-C, C++ and Objective-C++. It provides a native on-device build environment, a userspace microkernel, and the tooling to compile, run, and manage app packages without needing a desktop or a jailbroken device. Everything is located at Nyxian/LindChain/ProcEnvironment/Surface.",
   "features": [
-   "Offline after setup",
-   "Multi\u2011language support",
-   "No cloud required",
-   "Airplane mode compatible",
-   "Latest SDK included"
+   "Offline support",
+   "Native build environment",
+   "No desktop required",
+   "No jailbreak required"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "abe24263f0dda4198874e09a70e61c39a0f3cea1b20f2fbadc0207feeb795e73",
-  "subtitle": "On-device iOS IDE for Swift, C, C++ development",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "77e3a58be31ee174cb6485bea480cd581f51c57d5a45d8f442b34c21b684ddc5",
+  "subtitle": "Offline iOS development toolchain",
   "tags": [
-   "ide",
+   "developer",
    "swift",
-   "c",
-   "cpp",
-   "ios development",
-   "offline"
+   "compiler",
+   "toolchain",
+   "programming",
+   "ios"
   ]
  },
  "org.epicgames.FortniteGame": {
@@ -70026,6 +72421,22 @@
    "sideload"
   ]
  },
+ "org.vita3k.experimental.ios": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Tsubomi is an experimental PlayStation Vita emulator for iPhone and iPad. The app is a fork of Vita3K and uses it as its emulation base.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f733aa71411e145f51b702463c79d3660661025cde4cd985cd2c43177c6b0c46",
+  "subtitle": "Experimental PlayStation Vita emulator for iOS",
+  "tags": [
+   "emulator",
+   "vita",
+   "playstation",
+   "gaming",
+   "console"
+  ]
+ },
  "org.wamwoowam.RSDKv5": {
   "category": "games",
   "date": "2026-11-06",
@@ -70062,22 +72473,18 @@
  "org.zhaohe.MiniWatts": {
   "category": "utilities",
   "date": "2026-11-08",
-  "description": "MiniWatts is an iPhone and iPad battery and charging monitor that uses Apple's private power-management APIs. It displays charger output, power reaching the cell, heat loss, and all device temperature sensors during charging. The app must be sideloaded because it relies on private APIs and cannot be distributed on the App Store. It contains no network code; all data stays on the device.",
-  "features": [
-   "Sideload Only",
-   "No Network",
-   "Private APIs"
-  ],
+  "description": "MiniWatts is an iPhone and iPad battery and charging monitor built on Apple's private APIs. It reads the device's own power-management data.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "acf0ba7d0e7854156443a17006e41a81f66f785514a4345e9b81676123848f2b",
-  "subtitle": "Battery & charging monitor via private APIs",
+  "src_hash": "2dc7e6b523797e0cb55cd4ff78c6c8f0a972a61d26445f7aa6fd693971845f49",
+  "subtitle": "Battery & charging monitor for iPhone & iPad",
   "tags": [
    "battery",
    "charging",
    "monitor",
-   "private-apis",
-   "sideload",
-   "no-network"
+   "ios",
+   "ipad",
+   "utility"
   ]
  },
  "oss.krtirtho.spotube.stable": {
@@ -70231,6 +72638,23 @@
    "subscription unlocked",
    "patched",
    "version 2.5.2"
+  ]
+ },
+ "photofix.photo.enhancer": {
+  "category": "photo-video",
+  "date": "2026-11-08",
+  "description": "Unblur \u2013 AI Photo Enhancer IPA is a powerful iOS application designed to improve image clarity and restore details using ad",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "96090f33c9b1dbe39518a0e028c3d541fd2d71b49aec31dff4f25aa0ea558cfe",
+  "subtitle": "AI photo enhancer for iOS",
+  "tags": [
+   "unblur",
+   "photo",
+   "enhancer",
+   "ai",
+   "ios",
+   "clarity"
   ]
  },
  "pilotpro": {
@@ -70898,6 +73322,26 @@
    "premium"
   ]
  },
+ "science.xnu.undecimus": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "unc0ver is an advanced jailbreaking tool designed to unlock the capabilities of your iOS device. Customize your device appearance, gain full control over operations, and obtain access to hidden iOS features. The app supports iOS 11.0 through iOS 14.3, excluding versions 13.5.1 and 13.3.1. It utilizes the latest stable APT and Mobile Substrate to guarantee stability, and relies on native system sandbox exceptions to keep security intact while enabling access to jailbreak files.",
+  "features": [
+   "Stable APT",
+   "Mobile Substrate",
+   "Sandbox Security"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ec477bdaa61ea2908cd7333c5ee0c12abe566b75376d43e6816e4f63e6bb120c",
+  "subtitle": "Advanced jailbreaking tool for iOS devices",
+  "tags": [
+   "jailbreak",
+   "ios",
+   "customize",
+   "utility",
+   "tool"
+  ]
+ },
  "se.itatake.gumslinger2": {
   "category": "games",
   "date": "2026-10-26",
@@ -71197,6 +73641,23 @@
    "alarm",
    "tracker",
    "monitoring"
+  ]
+ },
+ "slickerthanmost.overview": {
+  "category": "utilities",
+  "date": "2026-11-08",
+  "description": "Vantage Calendar is an iOS calendar and scheduling application designed to help users manage their time and appointments. The IPA file format allows installation on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "92f3ac6b586e5f87971536e89a0c00d3f91d3a915db722d69188236786cf978c",
+  "subtitle": "Calendar and scheduling utility",
+  "tags": [
+   "calendar",
+   "scheduling",
+   "utility",
+   "ios",
+   "planner",
+   "ipa"
   ]
  },
  "slime.tower.defense.idle.games": {
@@ -71785,6 +74246,65 @@
    "subscriptions"
   ]
  },
+ "tv.twitch": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "Twitch version 30.6 featuring Tweach 2.4 cracked by achu and TwitchControl 0.0.6 by zeroxdeadbeef. Tweach developed by dvntms and cracked by achu.",
+  "features": [
+   "Tweach included",
+   "TwitchControl included"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9f6b45e7597d6d9c866d09a020a3d991f989e00b87d787919a7ca04bc1a56237",
+  "subtitle": "Tweached Twitch app with custom control features",
+  "tags": [
+   "twitch",
+   "tweach",
+   "streaming",
+   "live",
+   "video"
+  ]
+ },
+ "tv.twitch.twitch": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "TwitchPlusK is a tweak for the official Twitch iOS app that keeps the native app and adds a fully customizable chat, 7TV, BTTV, and FFZ emotes, ad blocking, Channel Points Auto Claim, OLED mode, and more. Available in English and French from the Settings menu. Chat and emotes features include replying to messages, viewing threads, customizing deleted-message display, using animated and Zero-Width emotes, searching emotes, managing favorites, and importing favorites from PC. Ad blocking features include proxy stream ad blocking, local ad blocking without a video proxy, and a combined proxy and local method.",
+  "features": [
+   "Customizable Chat",
+   "7TV BTTV FFZ Emotes",
+   "Adblock",
+   "Auto Claim Points",
+   "OLED Mode"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "34478be77fc9ab1979372eac09c98a1f7ac634c489c47b4a99e2697f302af463",
+  "subtitle": "A tweak for the official Twitch iOS app",
+  "tags": [
+   "twitch",
+   "tweak",
+   "emotes",
+   "adblock",
+   "chat",
+   "streaming"
+  ]
+ },
+ "tycoon.building.simulator.games.aldagames.com": {
+  "category": "games",
+  "date": "2026-11-08",
+  "description": "Transport Tycoon Empire: City on iOS delivers a detailed simulation experience that focuses on building.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0b02ba2aa3c39cb314d4103968c3b5e98c704f338bf2f8fc306241410c73f398",
+  "subtitle": "Detailed transport tycoon simulation",
+  "tags": [
+   "simulation",
+   "tycoon",
+   "city",
+   "transport",
+   "building",
+   "strategy"
+  ]
+ },
  "uclort.com.AppInfo": {
   "category": "other",
   "date": "2026-10-15",
@@ -71990,6 +74510,23 @@
    "subscription",
    "unlocked",
    "health"
+  ]
+ },
+ "universeye.co.TuneTally": {
+  "category": "entertainment",
+  "date": "2026-11-08",
+  "description": "TuneTally is an app that has been modified to include premium functionality. The source indicates it is injected with premium features, though specific capabilities are not detailed in the provided information.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "35c23c7eb36c76a23557b0f67461dc99cd96445e6505f6fd99dd72dbfe6ff55b",
+  "subtitle": "Music tracking with premium features",
+  "tags": [
+   "music",
+   "tracking",
+   "premium",
+   "modified"
   ]
  },
  "us.besttime.enil": {
