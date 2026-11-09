@@ -379,6 +379,22 @@
    "utility"
   ]
  },
+ "Lilliana.Violyn": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "Violyn enables searching and downloading content from CyDown.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d9a86cf95c537eb07952097fb1bb665eb1b45b0feaa3c6b76c673bf305deae00",
+  "subtitle": "Search and download from CyDown",
+  "tags": [
+   "search",
+   "download",
+   "cydown",
+   "utility",
+   "content"
+  ]
+ },
  "LiveScore": {
   "category": "utilities",
   "date": "2026-10-28",
@@ -950,6 +966,26 @@
    "ai",
    "subscription",
    "unlocked"
+  ]
+ },
+ "ai.vocal.remover.karaoke.maker.ninja": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "Vocal Remover & AI Separator version 1.1.0 with Satella tweak applied to unlock subscription features. The app separates vocals from instrumental tracks using AI processing.",
+  "features": [
+   "Subscription Unlocked",
+   "AI Separation"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "17e00faed8c53c67cb3cabb1a205f6631b06890278f736c18a096b68a4b82254",
+  "subtitle": "AI vocal removal and audio separation",
+  "tags": [
+   "vocal remover",
+   "ai separator",
+   "audio",
+   "tweak",
+   "unlocked",
+   "subscription"
   ]
  },
  "ai.x.GrokApp": {
@@ -1552,8 +1588,8 @@
  },
  "app.lightnovel.shelf": {
   "category": "utilities",
-  "date": "2026-11-08",
-  "description": "LightNovelShelf is the official Flutter client designed for iOS, iPadOS and Android. It provides core functionality for bookshelf management and online reading. Users can enjoy page turning animations, double page reading mode, and automatic updates.",
+  "date": "2026-11-09",
+  "description": "LightNovelShelf is the official client for iOS, iPadOS and Android. It supports bookshelf management, online reading, page turning animations, double page reading and automatic updates.",
   "features": [
    "Bookshelf management",
    "Online reading",
@@ -1562,14 +1598,14 @@
    "Automatic updates"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "975e3b85f813b634ef927646380de78e3cff1927702a2a41d51a2e4546bbd386",
+  "src_hash": "2485235a75dc327bcfc00c6f96045d1ee0c42e1ce51fa05d5573b672bb9f7b21",
   "subtitle": "Official Flutter client for LightNovelShelf",
   "tags": [
    "reader",
    "bookshelf",
    "novels",
-   "flutter",
-   "books"
+   "books",
+   "flutter"
   ]
  },
  "app.linkwarden": {
@@ -1611,25 +1647,25 @@
  },
  "app.mangatan.mangatan": {
   "category": "entertainment",
-  "date": "2026-10-31",
-  "description": "Watch anime and YouTube, and read manga and novels in one app. Look up words and save useful sentences without leaving your story. Access local videos, YouTube, manga, EPUBs, web novels, and podcasts. Understand content in context with imported dictionaries, on-device manga OCR, and interactive subtitles. Save sentences with audio and images, and review them using Manatan SRS with account sync or export to Anki. Install the app to get a pre-installed dictionary and start learning while you read or watch.",
+  "date": "2026-11-09",
+  "description": "Manatan is an all-in-one app for watching anime and reading manga and novels with Japanese lookup support. It removes the need for complex setups, Python scripts, browser extensions, and local servers. Features include built-in optical character recognition for manga to make text selectable for dictionary lookups, subtitle parsing with popup dictionary lookups for anime, and single-click Anki card generation from anime sentences complete with audio. It also supports reading EPUB novels with device synchronization, instant dictionary lookups, and card generation, along with universal language support.",
   "features": [
-   "Dictionary Included",
-   "Manga OCR",
-   "Interactive Subtitles",
-   "Anki Export",
-   "Account Sync"
+   "Zero Configuration",
+   "Universal Language Support",
+   "Built-in OCR",
+   "Anime Subtitle Parsing",
+   "Anki Card Generation"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "7e473968330ff708efea9dbd5720d5cc2ac46320bc26b1deaec4abb3e8423475",
-  "subtitle": "Watch, read, and learn with built-in dictionaries",
+  "src_hash": "269224eae154d319694f756f2c1c303200c2ba41a05e217ae9bd0d0a479f36e6",
+  "subtitle": "Stream anime, read manga and novels with instant lookup",
   "tags": [
    "anime",
    "manga",
+   "novels",
    "dictionary",
-   "reader",
-   "player",
-   "learning"
+   "japanese",
+   "anki"
   ]
  },
  "app.mmap.mobile": {
@@ -1707,18 +1743,18 @@
  },
  "app.naviamp.ios": {
   "category": "entertainment",
-  "date": "2026-11-01",
-  "description": "Naviamp is a music player client that connects to your chosen music server. It functions as an independent third-party client and is not affiliated with or endorsed by the Navidrome project.",
+  "date": "2026-11-09",
+  "description": "Naviamp is an independent third\u2011party client for Navidrome music servers. It connects to your chosen Navidrome instance and plays the music stored there. The app is not affiliated with or endorsed by the Navidrome project. Naviamp is available for iOS and macOS through TestFlight beta, for macOS via the Mac App Store, for Windows via the Microsoft Store, and for Linux as a Flatpak, DEB, RPM, or portable ZIP.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash",
-  "src_hash": "663f3d4a24d2d71adc2c7d93dfd0a17b0a950fb0c09547c685bc1c7e2b9f8418",
-  "subtitle": "Third-party music player for Navidrome",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3bb2d56a428338add899783505b50abd1eed1716c6f1631090251953fd3f1ef7",
+  "subtitle": "Third\u2011party Navidrome music player",
   "tags": [
-   "naviamp",
+   "navidrome",
    "music",
    "player",
-   "navidrome",
    "client",
+   "streaming",
    "server"
   ]
  },
@@ -1867,6 +1903,26 @@
    "transcription",
    "audio",
    "watch"
+  ]
+ },
+ "app.remux.video.converter": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Video Converter, Compressor is an application designed for converting and compressing video files. This version includes subscription unlocked access.",
+  "features": [
+   "Video converting",
+   "Video compressing",
+   "Subscription unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "530aad7fff87137fdd2dbbc911270d838ddbe0c2d896be259faedd8974f4d9b5",
+  "subtitle": "Convert and compress videos",
+  "tags": [
+   "video",
+   "converter",
+   "compressor",
+   "tools",
+   "media"
   ]
  },
  "app.renovateai": {
@@ -2234,6 +2290,115 @@
    "ipa",
    "modified",
    "app"
+  ]
+ },
+ "app.velunivo.mobile": {
+  "category": "lifestyle",
+  "date": "2026-11-09",
+  "description": "Velunivo is an iOS-first navigator and route planner designed for e-scooters and e-bikes. Compare bicycle and car-road route candidates, estimate travel time for your specific vehicle, and plan your journey on a fullscreen map with floating controls. Scheduled ETAs exclude traffic conditions and traffic simulations, while an optional current traffic overlay is available. Battery usage is estimated based on range, speed, and available elevation, with Bluetooth providing a separate actual battery percentage reading.",
+  "features": [
+   "Route planner",
+   "Fullscreen map",
+   "Traffic overlay",
+   "Battery estimation"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "de02f7ad89fccfbfe7f84d107a91bfb6210684df0dfbbf8a1091448780aeb174",
+  "subtitle": "Route planner and navigator for e-scooters and e-bikes",
+  "tags": [
+   "navigation",
+   "route planner",
+   "e-bike",
+   "scooter",
+   "map"
+  ]
+ },
+ "app.vesper": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "Vesper is a native iOS content hub that utilizes Stremio add-ons for browsing and streaming media content. Version 0.3 by DjangoCustard225.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8ae534e22acf039fbf18657df157aba0bff2bc75d3281af2e6b908a73d384352",
+  "subtitle": "Native iOS content hub with Stremio add-ons",
+  "tags": [
+   "stremio",
+   "content hub",
+   "streaming",
+   "media",
+   "ios",
+   "addons"
+  ]
+ },
+ "app.vger.voyager": {
+  "category": "social",
+  "date": "2026-11-09",
+  "description": "Voyager is an Apollo-like open source web client for Lemmy. It is a mobile-first application that also functions well on desktop devices.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "bee4e50b0854baef60c0b8be345727994557b31e6d1d785710fb5be6a26ba120",
+  "subtitle": "An open source web client for Lemmy",
+  "tags": [
+   "lemmy",
+   "client",
+   "open source",
+   "social",
+   "web"
+  ]
+ },
+ "app.vinylreleases.studio": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "VinylStudio is an iOS app for creating record mockups. Requires iOS 17.0 or later. Current version is 1.8.1. Available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b120079ad2a0c6ecc7f01f26e8c00aea9d1410b1754ebef033b657b877a40b67",
+  "subtitle": "Create vinyl record mockups on iOS",
+  "tags": [
+   "vinyl",
+   "mockups",
+   "record",
+   "studio",
+   "ios",
+   "app"
+  ]
+ },
+ "app.vocalimage.bessia": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VocalImage is a premium IPA that has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Premium",
+   "Tested",
+   "TTJB Team"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5375e28fae98be151559c63ed1da3cd2dc6b4f8b60ccd31d730492c90d9fabba",
+  "subtitle": "Premium IPA compiled by TTJB Team",
+  "tags": [
+   "vocalimage",
+   "ipa",
+   "premium",
+   "ttjb",
+   "tested",
+   "compiled"
+  ]
+ },
+ "app.voxeltrail.local": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "VoxelTrail is a native iOS build of the Gen 1 recomp engine, which reimplements the Generation 1 Pok\u00e9mon games in Lua on the L\u00d6VE framework.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e8771576b2316e101fd0f27c81bf8dc82cedf7555e271e12052fadd96511209b",
+  "subtitle": "Gen 1 Pok\u00e9mon recompiled for iOS",
+  "tags": [
+   "pokemon",
+   "gen1",
+   "lua",
+   "love2d",
+   "recomp",
+   "ios"
   ]
  },
  "appcake2.iphonecake.com": {
@@ -3939,6 +4104,25 @@
    "export"
   ]
  },
+ "co.visualsupply.cam": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "This version of VSCO has the subscription unlocked, providing access to all premium features without a paid subscription.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ecb10ef15192657278b23e4c9a276373f0db8e50eab6c2a67fcc07837bd1b194",
+  "subtitle": "VSCO with subscription unlocked",
+  "tags": [
+   "vsco",
+   "photo",
+   "editor",
+   "subscription",
+   "unlocked",
+   "premium"
+  ]
+ },
  "co.vulcanlabs.moodtracker": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -4283,6 +4467,23 @@
    "satella",
    "ios",
    "utility"
+  ]
+ },
+ "com.AndresCanella.Wakeouts": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Wakeout is a desk stretch and energy app for iOS 17.2 or later. Current version 100.17.2. Available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a03729cae5ffd3c83acb20c6b9cf90bba4ec3bb7e578d433185cc52b45fbf044",
+  "subtitle": "Desk stretches and energy boosts",
+  "tags": [
+   "desk",
+   "stretch",
+   "energy",
+   "ios",
+   "app",
+   "wakeout"
   ]
  },
  "com.AnotherLife.LifeSimulator": {
@@ -5843,6 +6044,23 @@
    "library"
   ]
  },
+ "com.SimpleBitStudios.VikingHeroTD": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "Viking Hero TD is a roguelike real-time strategy game that combines three genres.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a19514e1f5f11cbce76380209d8fcebdeadd79eb4af2c68d385400973be45998",
+  "subtitle": "Roguelike RTS hybrid strategy",
+  "tags": [
+   "viking",
+   "hero",
+   "td",
+   "roguelike",
+   "rts",
+   "strategy"
+  ]
+ },
  "com.SixThree.POV": {
   "category": "photo-video",
   "date": "2026-11-03",
@@ -6382,6 +6600,23 @@
    "tweak",
    "patch",
    "free iap"
+  ]
+ },
+ "com.TreetopCrew.VirtualBeggar": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Virtual Beggar for iOS is an engaging simulation experience that lets players step into the shoes of a virtual beggar.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "64027a65e9fb51f4a2b3180e5de88246f0e10a5baf8f4fad2ceb47c83140203b",
+  "subtitle": "Simulation of a virtual beggar",
+  "tags": [
+   "simulation",
+   "beggar",
+   "ios",
+   "game",
+   "virtual",
+   "experience"
   ]
  },
  "com.TrickStArStudio.SlotAndBrave": {
@@ -8672,6 +8907,24 @@
    "ttjb"
   ]
  },
+ "com.andyworks.vibes": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "This version of Vibes has the subscription unlocked. It is injected with subscription unlocked features.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "03caf99ce2a97b788be511e1bf4e75d4771a097eb985b7e6b719e807199f7f26",
+  "subtitle": "Vibes with subscription unlocked",
+  "tags": [
+   "vibes",
+   "subscription",
+   "unlocked",
+   "ipa",
+   "repo"
+  ]
+ },
  "com.andyworks.weather": {
   "category": "lifestyle",
   "date": "2026-11-05",
@@ -9586,6 +9839,23 @@
    "game"
   ]
  },
+ "com.appwallet.videosplitter": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Video Splitter Cut Story Maker provides quick, precise control over video cutting and splitting for story creation on iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "35d06bbd08a6da3761191c1f544991c3b0d30ef2492f7c1dc39aae846a681780",
+  "subtitle": "Quick, precise video splitting and story making",
+  "tags": [
+   "video",
+   "split",
+   "cut",
+   "story",
+   "maker",
+   "editor"
+  ]
+ },
  "com.appxplore.masketeers": {
   "category": "other",
   "date": "2026-10-29",
@@ -9603,6 +9873,21 @@
    "ipa",
    "ttjb",
    "repo"
+  ]
+ },
+ "com.appyogi.vpnapp": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VPNERO by iApps is a deprecated VPN application. It was removed from the repository and last updated on December 23, 2023. The app is no longer maintained.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a7b4fcac15e3220dcd585df2a17359554ba80daf695d4520b7d90cac4122ac44",
+  "subtitle": "Deprecated VPN app",
+  "tags": [
+   "vpn",
+   "deprecated",
+   "iapps",
+   "removed"
   ]
  },
  "com.ar.trace.drawing": {
@@ -9717,20 +10002,20 @@
  },
  "com.armsx2.ios": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "ARMSX2 is a free and open-source PlayStation 2 emulator based on PCSX2, featuring native ARM64 JIT recompilers. It allows you to play PS2 games on your phone, PC, or gaming handheld.",
+  "date": "2026-11-09",
+  "description": "ARMSX2 is a free and open-source PlayStation 2 emulator based on PCSX2, featuring native ARM64 JIT recompilers. Play your favorite PS2 games directly on your mobile phone, PC, or gaming handheld device.",
   "features": [
    "Open Source",
-   "Free"
+   "ARM64 JIT"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "9f5e1707676c63fb3d9abf5ceeda9f0c66c9ee9673d0866fdc96ccc7f0d2977e",
-  "subtitle": "PlayStation 2 emulator for ARM64 devices",
+  "src_hash": "9af5120cffc8a0eb838ece37212eccd6444a72dcef16f4497db0ab4396e9ade2",
+  "subtitle": "Play PS2 games on your phone or PC",
   "tags": [
    "emulator",
-   "playstation",
    "ps2",
    "gaming",
+   "pcsx2",
    "arm64"
   ]
  },
@@ -9842,6 +10127,23 @@
    "game"
   ]
  },
+ "com.asanarebel.visualgpt": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VisualMind combines artificial intelligence with visual mind mapping to help users organize ideas and brainstorm effectively.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "af854c89a98254e1ff56612b6359019f6b4a12f6908da0bd118083c60d7b1ac4",
+  "subtitle": "AI-powered mind mapping tool",
+  "tags": [
+   "mindmapping",
+   "ai",
+   "visual",
+   "productivity",
+   "brainstorm",
+   "organization"
+  ]
+ },
  "com.ashutoshbilla.procam": {
   "category": "photo-video",
   "date": "2026-10-31",
@@ -9857,6 +10159,23 @@
    "photography",
    "procam",
    "modus"
+  ]
+ },
+ "com.astrapaging.VesselFinder": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "This vessel tracking application has been removed from the repository because it is non-functional and outdated. Refer to issue #615 for details. The app is no longer maintained or operational.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "70b57ea6ef9b8db82b8be9b41bd183200383b0002047536890498c3e96dba741",
+  "subtitle": "Vessel tracking app (non-functional)",
+  "tags": [
+   "vessel",
+   "tracking",
+   "maritime",
+   "ships",
+   "non-functional",
+   "outdated"
   ]
  },
  "com.astrio.Sofa": {
@@ -10255,6 +10574,22 @@
    "simple"
   ]
  },
+ "com.awesomenull.goldennugget": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "Unlock your device potential with iOS 27 support. Customize your device using animated wallpapers and disable system daemons. Requirements must be installed if you are using Windows or Linux. Sideloading is operated by CertFish.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "23304968beaf685deadb5b22c22ed5c45274a66998f35e9148e011f3e67d1385",
+  "subtitle": "Unlock your device and customize with animated wallpapers",
+  "tags": [
+   "sideload",
+   "wallpapers",
+   "daemons",
+   "customization",
+   "ios"
+  ]
+ },
  "com.awesomepiece.axisblade": {
   "category": "games",
   "date": "2026-10-15",
@@ -10610,6 +10945,23 @@
    "game",
    "multiplayer",
    "action"
+  ]
+ },
+ "com.baviux.voicechanger": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Voice changer with effects on iOS offers a lively and entertaining tool for transforming your voice.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e4a382c28331f367484e6e1ffb85abd81cdbe890258b77904946f183e274cd36",
+  "subtitle": "Transform your voice with fun effects",
+  "tags": [
+   "voice",
+   "changer",
+   "effects",
+   "ios",
+   "audio",
+   "fun"
   ]
  },
  "com.bb.Presets": {
@@ -12657,26 +13009,40 @@
    "tools"
   ]
  },
+ "com.centurygames.idlecourier": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "IdleCourier is a tweaked app featuring infinite currencies for building and expanding without resource constraints, along with uninterrupted gameplay with no ads. It includes the NetworkPrewarm and iGameGod tweaks.",
+  "features": [
+   "Infinite Currencies",
+   "No Ads"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "97bff53bc4fb03c8830205019ea88d1c695a9922eae1a4d5bcfe3ca31bdecbce",
+  "subtitle": "Build and expand without resource constraints",
+  "tags": [
+   "idle",
+   "courier",
+   "strategy",
+   "simulation",
+   "game"
+  ]
+ },
  "com.ceres.suwatte": {
   "category": "entertainment",
-  "date": "2026-11-06",
-  "description": "Suwatte is an ad-free, open-source comic and manga reader for iOS. This build is distributed by a third party not affiliated with the original Suwatte project.",
-  "features": [
-   "Ad-free",
-   "Open Source",
-   "Comic Reader",
-   "Manga Reader"
-  ],
+  "date": "2026-11-09",
+  "description": "Suwatte provides IPA files for a manga and comic reading app on iOS. The IPAs are dumped TestFlight versions and may lag behind the source code available on GitHub. For IPAs built from source, visit the GitHub repository.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "bbbddae787fb2ded26ee5254d582293aba3f24c136251291ef23d8e36d4206af",
-  "subtitle": "Ad-free open-source comic and manga reader",
+  "src_hash": "09ddc3a189dd03d793697a11364a89e268af2d4d33fc2570c998d94516b6d925",
+  "subtitle": "Manga & comic reader IPA builds",
   "tags": [
-   "comic",
    "manga",
+   "comic",
    "reader",
-   "open-source",
-   "ad-free",
-   "ios"
+   "ios",
+   "testflight",
+   "github"
   ]
  },
  "com.certlium.crumb": {
@@ -13039,6 +13405,27 @@
    "signing",
    "developer",
    "utility"
+  ]
+ },
+ "com.choiceapps.recipesfdw": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Voicepal is a premium IPA that has been tested and compiled by TTJB Team.",
+  "features": [
+   "Premium",
+   "Tested",
+   "Compiled"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fb28cedb48c20fb94b02ea21f713ab683b5547d2c6989e8911352f0fc4e50f20",
+  "subtitle": "Premium IPA voice app by TTJB Team",
+  "tags": [
+   "voicepal",
+   "premium",
+   "ipa",
+   "ttjb",
+   "tested",
+   "compiled"
   ]
  },
  "com.chopraglobal.chopra": {
@@ -13895,6 +14282,26 @@
    "game"
   ]
  },
+ "com.colossi.survival.vikings": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "Vinland Tales Viking Survival is an immersive mobile game that plunges players into the harsh and unforgiving world of the Vikings. Experience survival gameplay set in the Viking age, gather resources, build settlements, and face the challenges of the wild.",
+  "features": [
+   "Damage Multiplier",
+   "Defense Multiplier"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c106188d7a50cad8dfb0a2c45f591ccc0d148630231346ad2b2c0f80244181e7",
+  "subtitle": "Immersive Viking survival game",
+  "tags": [
+   "vikings",
+   "survival",
+   "action",
+   "strategy",
+   "rpg",
+   "adventure"
+  ]
+ },
  "com.com2us.smon.normal.freefull.apple.kr.ios.universal": {
   "category": "other",
   "date": "2026-11-06",
@@ -14267,6 +14674,23 @@
    "media",
    "player",
    "entertainment"
+  ]
+ },
+ "com.cozylabs.waddlewars": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "Waddle Wars is a roguelike defense game for iOS that combines strategic tower defense elements with roguelike progression. Published via ipaomtk.com as a modified IPA.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "18da21436e4be14670062068033640c902332853ef5498fe0d0b5b442b7104ef",
+  "subtitle": "Roguelike tower defense game",
+  "tags": [
+   "roguelike",
+   "tower defense",
+   "strategy",
+   "ios",
+   "game",
+   "defense"
   ]
  },
  "com.cpdigitaldarkroom.SongShift": {
@@ -15112,6 +15536,23 @@
    "diamonds"
   ]
  },
+ "com.daerigame.volleygirls": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "Volley Girls: High School Story is a narrative-driven game combining high school storytelling with volleyball themes. The app is distributed as an IPA file from a third-party source.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "aabae87461608ced8a2b94e5ce9e37fa6868010e1e0cc7597ce76b4d0c47b60d",
+  "subtitle": "High school volleyball story game",
+  "tags": [
+   "volleyball",
+   "high-school",
+   "story",
+   "simulation",
+   "visual-novel",
+   "anime"
+  ]
+ },
  "com.dailymotion.dailymotion": {
   "category": "photo-video",
   "date": "2026-10-20",
@@ -15826,6 +16267,23 @@
    "game",
    "tactics",
    "defense"
+  ]
+ },
+ "com.devkrushna.mxplayer": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Video Player \u2013 All in One IPA is a versatile iOS media application designed to deliver a seamless and flexible video playback experience.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f4de5bab531774926435b495c4b95bd1d32b170b091da230e83d93df9eb83388",
+  "subtitle": "All-in-One Video Player for iOS",
+  "tags": [
+   "video player",
+   "all in one",
+   "ipa",
+   "ios",
+   "media",
+   "playback"
   ]
  },
  "com.devlaps.harekat2": {
@@ -17949,6 +18407,24 @@
    "game"
   ]
  },
+ "com.elven.video": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "VideoGPTPublic is a photo and video application. This modified IPA includes an in-app purchase hack feature where users can tap to buy and then cancel. The IPA has been tested and compiled by the TTJB Team.",
+  "features": [
+   "In-app purchase hack"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6ec8cb10d1edaae0e232322eb0ef125100be127bf40c6bd4c3f1a4f56c415617",
+  "subtitle": "Video generator application",
+  "tags": [
+   "video",
+   "generator",
+   "photo",
+   "ipa",
+   "ttjb"
+  ]
+ },
  "com.elymsyr.dungeonMasterTool": {
   "category": "utilities",
   "date": "2026-10-20",
@@ -18160,6 +18636,24 @@
    "mystery",
    "challenge",
    "special"
+  ]
+ },
+ "com.enjoy.VideoShow": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Access the VIP version of VideoShow with all premium features unlocked and ready to use.",
+  "features": [
+   "VIP Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "752f71c10dd0c3d3cc8a5238313551b66b4f63909b032d282f1644a888c0f7cb",
+  "subtitle": "VIP access included",
+  "tags": [
+   "videoshow",
+   "vip",
+   "video",
+   "editor",
+   "app"
   ]
  },
  "com.enjoy.aichat.chatbot.openchat": {
@@ -20203,6 +20697,25 @@
    "console"
   ]
  },
+ "com.flyingnayeem.nmVideoMergerJune": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "VideoMusic is a video and music application. This version has been modified with subscription features unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2b5ae9554779dfbe6e5576232a41434364358cb4b130d29f445db2d8684f1a65",
+  "subtitle": "Video and music app with subscription unlocked",
+  "tags": [
+   "video",
+   "music",
+   "subscription",
+   "unlocked",
+   "modified",
+   "app"
+  ]
+ },
  "com.focalread.megacubos": {
   "category": "utilities",
   "date": "2026-10-24",
@@ -20503,6 +21016,24 @@
    "no-pc"
   ]
  },
+ "com.frontierdesign.videostar": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VideoStar app described as injected with Pro. No further details provided in source.",
+  "features": [
+   "Pro Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c99886e9ef85860a8e9e3057b8f42f925725a39a3f067321fd91f75c6027f120",
+  "subtitle": "VideoStar with Pro features injected",
+  "tags": [
+   "video",
+   "editor",
+   "pro",
+   "injected",
+   "videostar"
+  ]
+ },
  "com.frontpocketsoftware.happyscale": {
   "category": "lifestyle",
   "date": "2026-10-26",
@@ -20519,6 +21050,23 @@
    "health",
    "fitness",
    "scale",
+   "unlocked"
+  ]
+ },
+ "com.frontrow.vlog": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VlogNow is a video editing application. This version comes with the subscription unlocked, giving you access to all premium editing features and tools directly within the app.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "02d95ec6dc305eb9ded40558ab4948d8f0348e818fd0fffaa42e0d2301b82d27",
+  "subtitle": "Video editor with subscription unlocked",
+  "tags": [
+   "vlognow",
+   "video editor",
+   "editing",
    "unlocked"
   ]
  },
@@ -21378,6 +21926,26 @@
    "notes"
   ]
  },
+ "com.genau.MemoryCircle": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VocaCircle is an AI-powered smart flashcard tweak. The subscription is unlocked in this version. Version 3.3.6 is patched.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ea28545391cb6c06b9c36adab2ce690b8ae470575f0a35339f98ca032b6d99ce",
+  "subtitle": "AI Smart Flashcard with Subscription Unlocked",
+  "tags": [
+   "ai",
+   "flashcard",
+   "tweak",
+   "subscription",
+   "unlocked",
+   "patched"
+  ]
+ },
  "com.genau.MoneyCircle": {
   "category": "other",
   "date": "2026-10-31",
@@ -21484,21 +22052,19 @@
   ]
  },
  "com.getmimo.mimo": {
-  "category": "lifestyle",
-  "date": "2026-11-03",
-  "description": "Mimo helps you learn coding and programming. This version includes maximum subscription features. Requires iOS 17.0 or later.",
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "Mimo with subscription unlocked.",
   "features": [
-   "Max Subscription"
+   "Subscription Unlocked"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c277a18c03ea7ccc5719ae6830d632a366f55c1451da52cc4213bb899b24a05a",
-  "subtitle": "Learn coding and programming",
+  "src_hash": "fba42442395117dd56843ec5e3fafdcd4f73e1432516b13eacbbe79f1564c539",
+  "subtitle": "Subscription Unlocked",
   "tags": [
-   "coding",
-   "programming",
-   "learn",
    "mimo",
-   "education"
+   "unlocked",
+   "subscription"
   ]
  },
  "com.getmotobit.motobit": {
@@ -21741,6 +22307,46 @@
    "entertainment"
   ]
  },
+ "com.github.cyrilpeng.veneranext": {
+  "category": "developer",
+  "date": "2026-11-09",
+  "description": "VeneraNext is a Flutter-based cross-platform manga reader that supports local manga files, WebDAV manga sources, and third-party online manga sources. It runs on Android, iOS, Windows, Linux, and macOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fa2b1196201d21c53f2098ca9a2b9420d314f75539fcb9c75d818b788b876d91",
+  "subtitle": "Cross-platform manga reader for multiple sources",
+  "tags": [
+   "manga",
+   "reader",
+   "flutter",
+   "cross-platform",
+   "webdav",
+   "comic"
+  ]
+ },
+ "com.github.kiastr.venera-ssr": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "Modified comic reader supporting multiple comic sources with three types of local enhancements. Features real-time AI colorization for black and white comics during reading, Anime4K super-resolution including the Real-ESRGAN inference model V4, and OCR translation for text embedded in images with Google free API, large model API, and download translation models modes. Includes four independent Venera series readers that can be installed simultaneously. The iOS version requires downloading model files separately from the upstream model release.",
+  "features": [
+   "Multiple Comic Sources",
+   "AI Colorization",
+   "Anime4K Super-Resolution",
+   "OCR Translation",
+   "Local Processing"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "61d257a6fb325ed14d243a2e39a03279a97c4288a819351288abe369d4cbb32e",
+  "subtitle": "Modified comic reader supporting multiple comic sources",
+  "tags": [
+   "reader",
+   "comics",
+   "ai",
+   "translation",
+   "manga",
+   "utilities"
+  ]
+ },
  "com.github.pacalini.picaComic": {
   "category": "entertainment",
   "date": "2026-11-05",
@@ -21760,6 +22366,29 @@
    "manga",
    "download",
    "sync"
+  ]
+ },
+ "com.github.wgh136.venera.prime": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "Venera Prime is a next-generation rewrite of the original Venera app, built with Flutter and Rust. It supports reading local comics and online sources, writing custom comic sources using JavaScript, collection management, downloads, comments, and tag viewing. Chinese tag translations are powered by the EhTagTranslation project. Note that this is an independent application with its own bundle ID and features highly overlapping with other Venera series readers.",
+  "features": [
+   "Local and web sources",
+   "Custom JS sources",
+   "Collection management",
+   "Downloads support",
+   "Tag translation"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8f7023bcc9d0bd8b971d1837692f9d589538890951553c0d1c85e0c8876243d0",
+  "subtitle": "Next-generation comic reader for local and web sources",
+  "tags": [
+   "comic",
+   "reader",
+   "manga",
+   "flutter",
+   "rust",
+   "source"
   ]
  },
  "com.glaze.glazeFlutter": {
@@ -23788,6 +24417,23 @@
    "feel"
   ]
  },
+ "com.hd.video.downloader": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Video Downloader is an iOS app that lets you download and manage video content directly on your iPhone.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "20ad9fd38ed598f1be60c6066ac6be57b5845dd749a0d0384987b87e9c699047",
+  "subtitle": "Download and manage videos on iPhone",
+  "tags": [
+   "video",
+   "downloader",
+   "iphone",
+   "ios",
+   "manager",
+   "media"
+  ]
+ },
  "com.hdnwbtb.uixnoe": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -23922,6 +24568,25 @@
    "life",
    "game",
    "strategy"
+  ]
+ },
+ "com.hedef.vpnunlimitedproxy": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "VPN_FAST is a VPN application developed by VPN_FAST x CyPwn. The app provides VPN functionality with premium features unlocked.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "006d9da3d5afbc653055f5534c731307852085eb15bc1f5251a527b8af056e44",
+  "subtitle": "VPN with premium features unlocked",
+  "tags": [
+   "vpn",
+   "privacy",
+   "security",
+   "network",
+   "unlocked",
+   "cybersecurity"
   ]
  },
  "com.hemin.mp3editor": {
@@ -25226,23 +25891,18 @@
  },
  "com.ideation.Stress": {
   "category": "other",
-  "date": "2026-11-06",
-  "description": "StressWatch is an AI-powered stress monitoring application. Version 3.3.1 requires iOS 15.0 or later. The app has been patched with a subscription modifier.",
+  "date": "2026-11-09",
+  "description": "StressWatch: Injected with Subscription Unlocked.",
   "features": [
-   "AI Monitoring",
-   "Patched",
-   "Subscription Modified"
+   "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "5316902a0aa0b38a26c9270c33ef444dce0be1da9b19a76aa60e007536cd29ca",
-  "subtitle": "AI Stress Monitor for iOS 15+",
+  "src_hash": "c725b0dafe2276d170b6e4e4b5d5985a0c9923131c995f41f48903b0bbda6683",
+  "subtitle": "Subscription Unlocked",
   "tags": [
-   "stress",
-   "ai",
-   "monitor",
-   "health",
-   "wellness",
-   "patched"
+   "stresswatch",
+   "subscription",
+   "unlocked"
   ]
  },
  "com.identification.plant": {
@@ -25993,6 +26653,24 @@
    "streaming",
    "video",
    "tools"
+  ]
+ },
+ "com.inkriver.vidle": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Viddle is a video browser application for iOS that provides an ad-free viewing experience. The app is designed for users who want to browse and watch videos without advertisements.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f7d47e6f1c167b51bd98b68a700e6e39d267fd8d89e4688cee2ce0330d803888",
+  "subtitle": "Ad-free video browser for iOS",
+  "tags": [
+   "video",
+   "browser",
+   "ad-free",
+   "media",
+   "player"
   ]
  },
  "com.innersloth.amongus": {
@@ -29692,6 +30370,90 @@
    "preparation"
   ]
  },
+ "com.ipaomtk.video.captions.auto.subtitles.158041": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Video Captions: Auto Subtitles is an iOS video editing utility that automatically generates captions and subtitles for video content. The app processes video files to create timed text overlays.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6e7020c6abb252fccafdd2619d914390b640259c2fe22750a999b179a14e9468",
+  "subtitle": "Auto-generate subtitles for videos",
+  "tags": [
+   "captions",
+   "subtitles",
+   "video editing",
+   "auto caption",
+   "video utility",
+   "text overlay"
+  ]
+ },
+ "com.ipaomtk.video.editor.c2.b7.159420": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Video Editor IPA is an iOS installation package that allows users to install a versatile video editing application on their devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "accc09a1ad99eca07e82a97781551745736c1d2503cf3fb37db908b841158191",
+  "subtitle": "Versatile video editing application for iOS",
+  "tags": [
+   "video",
+   "editor",
+   "editing",
+   "ios",
+   "ipa"
+  ]
+ },
+ "com.ipaomtk.videogame.guardians.153128": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "Videogame Guardians is an iOS game package that lets iPhone users play a dynamic action game.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f4fda274720dd407a9c3b5bccf3159952ad5ccc2d67cddeb04beb0fcd725387a",
+  "subtitle": "Dynamic action game for iPhone",
+  "tags": [
+   "videogame guardians",
+   "ios",
+   "action",
+   "game",
+   "iphone",
+   "ipa"
+  ]
+ },
+ "com.ipaomtk.vocabulary.builder.by.atlas.159509": {
+  "category": "lifestyle",
+  "date": "2026-11-09",
+  "description": "Vocabulary Builder by Atlas is an iOS installable version of a language learning application designed to help users build and improve their vocabulary.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "675301877f45a03e3d1a0e6b623e9e81422ffb9e43764e820c550199bc9b2352",
+  "subtitle": "Language learning app",
+  "tags": [
+   "vocabulary",
+   "language",
+   "learning",
+   "education",
+   "atlas",
+   "ipa"
+  ]
+ },
+ "com.ipaomtk.voicemod.157101": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "Voicemod is a real-time voice modification application for iOS designed to change and enhance your voice. The IPA file enables installation on iOS devices for live voice changing capabilities.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0f63f77a611102e06a26740c3dbf9cd3bdd5087662e780f7227f5bc06eb26e08",
+  "subtitle": "Real-time voice modification app",
+  "tags": [
+   "voice changer",
+   "real-time",
+   "audio",
+   "modification",
+   "ipa",
+   "ios"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -29724,6 +30486,25 @@
    "quran",
    "religion",
    "assistant"
+  ]
+ },
+ "com.iphoneislam.wavenet": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VoiceOver is a Pro version IPA that has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Pro"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dc7c8c3305ba524aa186e7d6aa91c1508fa37a11bff53700c4f3fa21810cdafc",
+  "subtitle": "Pro version tested by TTJB Team",
+  "tags": [
+   "voiceover",
+   "pro",
+   "ipa",
+   "ttjb",
+   "tested",
+   "compiled"
   ]
  },
  "com.ipopapp.imagesearchfree": {
@@ -30375,6 +31156,41 @@
    "accessibility"
   ]
  },
+ "com.jarustudios.VideoLooper": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Video Looper is an iOS application designed for replaying videos. It allows users to loop video playback continuously.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9d7a7b5fa634e0e85ff835a1f08d6eca86c570156244c4e8692347a5d73364b6",
+  "subtitle": "Loop and replay videos on iOS",
+  "tags": [
+   "video",
+   "loop",
+   "replay",
+   "ios",
+   "player",
+   "media"
+  ]
+ },
+ "com.jarustudios.VideoToPhoto": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Convert your videos into high quality photos. This application allows you to extract image stills from video files.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "fa814d3c1bf73c52379a5d4abdcebee7396ac9b1f5c2cc6a1f31aac8eaf8e545",
+  "subtitle": "Convert videos to high quality photos",
+  "tags": [
+   "video",
+   "photo",
+   "converter",
+   "images",
+   "media"
+  ]
+ },
  "com.javdb.avplay": {
   "category": "entertainment",
   "date": "2026-10-24",
@@ -30752,6 +31568,25 @@
    "protocol"
   ]
  },
+ "com.jonbui.videoplayer": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Video Player version 3.11.4 with Satella added for unlocking subscription features. Play your media files and manage video playback with integrated subscription unlocking capabilities.",
+  "features": [
+   "Satella added",
+   "Unlocked subscription"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "596456e0eb25dc0f6282238a713608c6f9dfeffc486519605e76d934388b72cb",
+  "subtitle": "Modified video player application",
+  "tags": [
+   "video",
+   "player",
+   "media",
+   "satella",
+   "unlocked"
+  ]
+ },
  "com.jonny.spring": {
   "category": "social",
   "date": "2026-11-06",
@@ -30850,22 +31685,23 @@
   ]
  },
  "com.joytunes.asla": {
-  "category": "other",
-  "date": "2026-11-08",
-  "description": "Injected with Subscription Unlocked.",
+  "category": "lifestyle",
+  "date": "2026-11-09",
+  "description": "Simply Piano teaches piano through guided lessons and real-time feedback. Version 9.10.84 requires iOS 15.0 or later. This patched release includes subscription features unlocked.",
   "features": [
+   "Patched",
    "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "003fa8da571df93f869440ef08b5c35c32922c05a920659aa9aa683998e4417f",
-  "subtitle": "Subscription unlocked piano lessons",
+  "src_hash": "c60eaae13c52ab6db13fbb1ce1a386ea3d0245856366b186f053eef04e6947e9",
+  "subtitle": "Learn piano fast with guided lessons",
   "tags": [
    "piano",
-   "learning",
-   "subscription",
-   "unlocked",
+   "learn",
    "music",
-   "education"
+   "lessons",
+   "education",
+   "subscription"
   ]
  },
  "com.jps.gpspeedhud": {
@@ -32243,21 +33079,20 @@
  },
  "com.lake.coloring": {
   "category": "lifestyle",
-  "date": "2026-10-30",
-  "description": "Lake is a digital coloring book designed for adults. This patched version includes subscription modifiers. Access a variety of coloring pages and illustrations to relax and create artwork directly on your iOS device. Requires iOS 18.0 or later.",
+  "date": "2026-11-09",
+  "description": "Lake is a coloring book app designed for adults. This version includes subscription features unlocked. Requires iOS 16.0 or later. Compatible with TrollStore and jailbroken devices.",
   "features": [
-   "Subscription Unlocked",
-   "Adult Coloring"
+   "Subscription Unlocked"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "895e46970b063d331a4cf1fe912c6a9c1d522313ac9bc54936892bcdad54df4e",
-  "subtitle": "Coloring Book for Adults",
+  "src_hash": "7e59a3bac9e48945573750c7c2db76d1c36b4dd17ec97af0aa64567bba88acf7",
+  "subtitle": "Digital coloring book for adults",
   "tags": [
    "coloring",
    "book",
    "adults",
    "art",
-   "relaxation"
+   "lifestyle"
   ]
  },
  "com.lalapp.gloryagessamurais": {
@@ -32275,6 +33110,23 @@
    "adventure",
    "action",
    "game"
+  ]
+ },
+ "com.lamaplayerpro.app.Lama-Player": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VOXA PRO provides a sophisticated toolset for creative professionals and enthusiasts who demand precise control on iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7bed463685665e53f75ea68482d9b776c8c23a49664afa29918f6a1a273a6921",
+  "subtitle": "Professional creative toolset for iOS",
+  "tags": [
+   "voxa",
+   "pro",
+   "creative",
+   "toolset",
+   "ios",
+   "professional"
   ]
  },
  "com.lampa.photo": {
@@ -32446,6 +33298,23 @@
    "speed",
    "internet",
    "utilities"
+  ]
+ },
+ "com.ldw.vf3": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "Virtual Families 3 is an immersive simulation game that allows you to create and nurture your own virtual family and guide them through life.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "cdb500082501c1081f72f044614056a5192da632cda13b60c719d8078d3c1f01",
+  "subtitle": "Create and nurture your own virtual family",
+  "tags": [
+   "simulation",
+   "family",
+   "virtual",
+   "game",
+   "life",
+   "ios"
   ]
  },
  "com.leapfitness.Sleeptracker": {
@@ -33279,6 +34148,26 @@
    "lightleap"
   ]
  },
+ "com.lightricks.Enlight-Video": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Videoleap is an AI video editor for iOS. This version is patched with subscription features unlocked. Requires iOS 17.0 or later.",
+  "features": [
+   "Patched",
+   "Subscription Unlocked",
+   "AI Video Editor"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "37b14e308152db7ed83de28e5a39949981e2719c343df02c69c0c886b7b353b7",
+  "subtitle": "AI Video Editor",
+  "tags": [
+   "videoleap",
+   "video editor",
+   "ai",
+   "patched",
+   "unlocked"
+  ]
+ },
  "com.lightricks.Facetune2": {
   "category": "photo-video",
   "date": "2026-10-21",
@@ -33710,19 +34599,24 @@
  },
  "com.llayerlinux.LSX4RuntimeProbe": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "LSX4 is an open-source PlayStation 4 and 5 emulator for Android and iOS. The current iOS build supports PS4 gameplay and requires iOS 26 or later with JIT compilation.",
-  "features": [],
+  "date": "2026-11-09",
+  "description": "An open-source PlayStation 4/5 emulator for Android and iOS. The current iOS build supports PS4 gameplay and requires iOS 26+ with JIT.",
+  "features": [
+   "Open Source",
+   "PS4 Emulation",
+   "iOS 26+ Required",
+   "JIT Required"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "67d40039dbe6147ed469320e04fff74abd83f203729ec45e685f1c171921c462",
+  "src_hash": "642c970a68775102ee8d5b46986a034bf631bef442d97d46a4314ca75c224c62",
   "subtitle": "Open-source PS4/5 emulator for iOS",
   "tags": [
    "ps4",
-   "ps5",
    "emulator",
    "open-source",
    "ios",
-   "android"
+   "jit",
+   "gaming"
   ]
  },
  "com.llloooggg.letsflutssh": {
@@ -34269,6 +35163,23 @@
    "version",
    "appstore",
    "update"
+  ]
+ },
+ "com.mac.utility.media.hub": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "VidHub is a video library and player application for iOS. It is designed for users who want complete control over their video content.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "137eecc8123accd5e104a7aee21c908e4985d4beb3a7ea4a4ba21b983e2a04f5",
+  "subtitle": "Video Library & Player for iOS",
+  "tags": [
+   "video",
+   "library",
+   "player",
+   "ios",
+   "media",
+   "control"
   ]
  },
  "com.macpaw.iosgemini": {
@@ -35311,6 +36222,23 @@
    "patched",
    "scenario",
    "tab"
+  ]
+ },
+ "com.merekdavis.vellum": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Vellum Wallpapers is an elegant app dedicated to providing stunning wallpapers that instantly elevate the look of your device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5add3deed38cc4983ca89034650a3f11f86fca2fc329e0684d232d96e7dc65d0",
+  "subtitle": "Stunning wallpapers for your iOS device",
+  "tags": [
+   "wallpapers",
+   "backgrounds",
+   "themes",
+   "ios",
+   "vellum",
+   "images"
   ]
  },
  "com.merge.cooking.theme.restaurant.food": {
@@ -37087,6 +38015,25 @@
    "cypwn"
   ]
  },
+ "com.muntaha.tasVideoMergerJune": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Video Maker with Music Editor lets you create videos with music. This version has the subscription unlocked. Restart the app if the subscription does not activate.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "10c4c8175692ee75994a084afd34fadf918e9eec942990eee42f7e77bb2cbf79",
+  "subtitle": "Video maker with music editor",
+  "tags": [
+   "video",
+   "music",
+   "editor",
+   "maker",
+   "subscription",
+   "unlocked"
+  ]
+ },
  "com.musclemotion.strengthnative": {
   "category": "lifestyle",
   "date": "2026-11-06",
@@ -37159,6 +38106,22 @@
    "client",
    "streaming",
    "player",
+   "audio"
+  ]
+ },
+ "com.music.bitchord.1.0.1.4.not.patched": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "BitChord is a modern YouTube music client designed with clean aesthetics inspired by Apple Music. Stream and enjoy your favorite music videos and tracks through a sleek interface tailored for music lovers.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b12c7fae9b05ba41f2467daeee3f32ed5f59bac6c23a719f2563fd96753cf41e",
+  "subtitle": "Modern YouTube music client with clean aesthetics",
+  "tags": [
+   "music",
+   "youtube",
+   "client",
+   "streaming",
    "audio"
   ]
  },
@@ -38164,6 +39127,25 @@
    "hack",
    "fighting",
    "action"
+  ]
+ },
+ "com.nekki.vector.iphone.free": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "Vector is a parkour-inspired action game. This version includes an injected menu for unlimited currencies.",
+  "features": [
+   "Unlimited currencies",
+   "Injected cheat menu"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "44665510481aec162d235fdf7e56c34cf8b7786fdd9828d1c1d50636f7e7814a",
+  "subtitle": "Parkour run game with unlimited currencies",
+  "tags": [
+   "parkour",
+   "run",
+   "action",
+   "game",
+   "mod"
   ]
  },
  "com.neo.NeoMan": {
@@ -41297,6 +42279,25 @@
    "ios"
   ]
  },
+ "com.photoclean.videocompress": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "VideoCompress is a video compression application. The provided version includes injected in-app purchases.",
+  "features": [
+   "IAP Modified"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a9aae2d3413737b2f9fbe628c2cad120e99b07499c059ef568657bb07cb3b7f4",
+  "subtitle": "Video compression tool with modified purchases",
+  "tags": [
+   "video",
+   "compression",
+   "compress",
+   "media",
+   "utility",
+   "tools"
+  ]
+ },
  "com.photoedit.cleanwatermark": {
   "category": "photo-video",
   "date": "2026-10-28",
@@ -43139,6 +44140,23 @@
    "money"
   ]
  },
+ "com.project-violet.violetta": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "Violetta is a modern, native iOS client designed to connect seamlessly to your self-hosted Violet server. It provides a fast and clean reading experience for your personal manga collection. Requires iOS 18.0+ and a running instance of the Violet server.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0410b278c9afc5513cfa28cc72ce563cee5379ec9ea15ae44a5b9d46d5831cf5",
+  "subtitle": "iOS client for Violet manga server",
+  "tags": [
+   "violetta",
+   "manga",
+   "client",
+   "ios",
+   "self-hosted",
+   "violet"
+  ]
+ },
  "com.pronetis.ironballride2": {
   "category": "other",
   "date": "2026-10-26",
@@ -43702,6 +44720,23 @@
    "dpixel"
   ]
  },
+ "com.quvideo.XiaoYing": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "VivaVideo is a popular iOS video editing application designed for users who want to create engaging videos directly on their devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6f54e86937b03982ee6a8e400fbc6af5ff4272180631972b295e5c4a31bcacc2",
+  "subtitle": "Video editing app for iOS",
+  "tags": [
+   "video",
+   "editing",
+   "ios",
+   "creator",
+   "maker",
+   "editor"
+  ]
+ },
  "com.qxgame.gmerge": {
   "category": "games",
   "date": "2026-10-25",
@@ -43766,6 +44801,23 @@
    "forecast",
    "rain",
    "personalized"
+  ]
+ },
+ "com.raktech.wallgenie": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "WallGenie includes premium features unlocked. No additional purchase required for premium functionality.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e9d2403a1edb860f0c32ace50c7c8571deb2ec5e3dfc89af4211422d84545998",
+  "subtitle": "Premium features included",
+  "tags": [
+   "premium",
+   "unlocked",
+   "modified",
+   "injected"
   ]
  },
  "com.ramus.app": {
@@ -44636,6 +45688,29 @@
    "engine"
   ]
  },
+ "com.rebelancap.vkquake": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "Play Quake on your iPhone and Apple Vision Pro with the full campaign, mission packs, custom mods, a stereoscopic 3D mode with real depth, and a full VR mode with a gun in each hand. Built on the Vulkan-powered engine and running natively through Metal. Note that vkQuake ships with no game content and you must own Quake and provide your own files by copying pak0.pak and pak1.pak into the app folder.",
+  "features": [
+   "Full campaign",
+   "Mission packs",
+   "Custom mods",
+   "Stereoscopic 3D mode",
+   "Full VR mode"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "607dce1c51b4150c22e6a273619035bbfd15995a5e79f2bd215719026471714f",
+  "subtitle": "Play Quake on iPhone and Apple Vision Pro",
+  "tags": [
+   "quake",
+   "fps",
+   "retro",
+   "vr",
+   "gaming",
+   "action"
+  ]
+ },
  "com.rebelgames.tropicmatch": {
   "category": "games",
   "date": "2026-11-08",
@@ -44844,6 +45919,25 @@
    "powerful",
    "utilities",
    "remoter"
+  ]
+ },
+ "com.resonantcavity.Voloco": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Voloco is a vocal recording studio app that functions as a portable recording studio and audio editor. This version includes a subscription unlocked tweak, providing access to premium features for recording and processing vocals.",
+  "features": [
+   "Subscription Unlocked",
+   "Vocal Recording"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2d8aca022948b73babb3dd9c77f5e60aafbdc2f874e70dcf4dcda55daeb56510",
+  "subtitle": "Vocal Recording Studio",
+  "tags": [
+   "voloco",
+   "vocal",
+   "recording",
+   "studio",
+   "audio"
   ]
  },
  "com.restoreoldphotos": {
@@ -45406,6 +46500,52 @@
    "swift"
   ]
  },
+ "com.ripestore.suwattebuilder": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "Suwatte is an open source comic and manga reader for iOS. Read external comics in CBR, CBZ, RAR, and ZIP formats, as well as OPDS V1 and external sources. Features include progress tracking, automatic library management with categories and reading flags, partial iCloud sync, update notifications, panel bookmarks, deep linking, and point accurate reading resumption. This build is distributed by a third-party not related to Suwatte.",
+  "features": [
+   "No Ads",
+   "External Comics",
+   "Progress Tracking",
+   "Library Management",
+   "Panel Bookmarks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a0f9010645e30b6ebbe5fe945ae709c374eb4bce0bdbb87d4aeedccdc4c657bb",
+  "subtitle": "Open source comic and manga reader for iOS",
+  "tags": [
+   "manga",
+   "comic",
+   "reader",
+   "books",
+   "cbz",
+   "cbr"
+  ]
+ },
+ "com.ripestore.tachidesk-sorayomi": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "Tachidesk-Sorayomi is a client application for interacting with Sorayomi, a manga reading server. It allows managing installed extensions, browsing sources, viewing your library, reading manga and chapters, and tracking chapter updates. The app connects to Suwayomi-Server version 0.6.6 or later. Note that Sorayomi and Suwayomi-Server are alpha software and may have issues. On iOS, the app is installed via AltStore.",
+  "features": [
+   "Extension management",
+   "Library access",
+   "Source browsing",
+   "Chapter tracking",
+   "Alpha software"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f05523dad23e917799f83fd6bc42569051efae6bc03bf5c870ced9b5df8d2d8f",
+  "subtitle": "Manga reader client for Sorayomi server",
+  "tags": [
+   "manga",
+   "reader",
+   "sorayomi",
+   "suwayomi",
+   "altstore",
+   "comics"
+  ]
+ },
  "com.risesci.nyx": {
   "category": "other",
   "date": "2026-11-04",
@@ -45787,6 +46927,23 @@
    "unlocked",
    "patched",
    "tweak"
+  ]
+ },
+ "com.rockybrain.videocompressor": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "VideoCompress is an IPA package that has been checked and compiled by TTJB Team. The app provides video compression functionality for iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "856377446d49bbdc6ad2dc5a0326f7e40f9bc65843c86edecb6a757fbb476875",
+  "subtitle": "Video compression tool from TTJB Team",
+  "tags": [
+   "video",
+   "compress",
+   "ipa",
+   "ttjb",
+   "utility",
+   "ios"
   ]
  },
  "com.roehl.habitkit": {
@@ -46999,6 +48156,27 @@
    "games"
   ]
  },
+ "com.sgs.emhq.ios": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "EMHQ provides tweaks for EMERGENCY HQ: Firefighter using iGameGod. Features include infinite water cannon so the water cannon never runs empty, no fire spread to prevent fires from spreading to neighbouring objects, and no time limit to avoid losing due to running out of time.",
+  "features": [
+   "Infinite Water Cannon",
+   "No Fire Spread",
+   "No Time Limit"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "bb55a54ad116e772964854b75f44d24e07b1fbc1be88b780775bb365a0dadb4d",
+  "subtitle": "Tweaks for EMERGENCY HQ: Firefighter",
+  "tags": [
+   "emhq",
+   "emergency",
+   "firefighter",
+   "tweaks",
+   "igamegod",
+   "hack"
+  ]
+ },
  "com.shaamsoftware.seemecook": {
   "category": "utilities",
   "date": "2026-11-05",
@@ -47310,23 +48488,19 @@
   ]
  },
  "com.shred.shredlabs": {
-  "category": "lifestyle",
-  "date": "2026-11-05",
-  "description": "SHRED provides gym and home workout routines. Version 5.5.1 requires iOS 17.0 or later. The app has been patched with subscription unlocked.",
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "SHRED is an app provided by an unknown developer. The source description states it is injected with subscription unlocked.",
   "features": [
-   "Subscription Unlocked",
-   "Patched"
+   "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4fca0c3f8500e9b6692c31ecfe8094f5a2bbe0d45de550047541639fc44fb2fe",
-  "subtitle": "Gym & Home Workouts",
+  "src_hash": "744ede39acd2f66caf65047293d3358e5738f9bf411c23e1ea024a71ec9725f4",
+  "subtitle": "Subscription unlocked version",
   "tags": [
-   "fitness",
-   "workout",
-   "gym",
-   "home",
-   "exercise",
-   "health"
+   "subscription",
+   "unlocked",
+   "shred"
   ]
  },
  "com.signos.app": {
@@ -48068,6 +49242,23 @@
    "ipa"
   ]
  },
+ "com.softissimo.VoiceTranslator": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "Voice Translator \u2013 Reverso is an iOS application designed to help users translate speech.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e3d6de4b09496b614e22f0314e1de703623813384995daf3359d28845949554d",
+  "subtitle": "Voice translation with Reverso",
+  "tags": [
+   "voice",
+   "translator",
+   "reverso",
+   "ios",
+   "translate",
+   "speech"
+  ]
+ },
  "com.softwings.DigitalPlanner": {
   "category": "utilities",
   "date": "2026-10-20",
@@ -48183,22 +49374,23 @@
  },
  "com.soundcloud.TouchApp": {
   "category": "entertainment",
-  "date": "2026-11-06",
-  "description": "SoundCloud version 8.7.0 modified with NexaSC Beta v3.0 injection. This build includes NexaSC b3 features: SoundCloud Go+ subscription unlocked and advertisements removed. The app provides access to the full SoundCloud music streaming catalog with premium features enabled without a paid subscription.",
+  "date": "2026-11-09",
+  "description": "Unlock SoundCloud Go+ subscription features and download songs for offline listening. Access settings through the app interface to enable plus subscription features and song downloads. Play any song and use the download icon to save it to your device. Manage downloaded tracks, play them back directly, and export saved audio files to your device storage using the built-in file manager.",
   "features": [
-   "Go+ Unlocked",
-   "No Ads"
+   "Unlock Plus",
+   "Download Songs",
+   "Export to Files"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "3f25bac14094793f538a1e22ec9eeeedadace08b5f60b738b18966c8f97d6236",
-  "subtitle": "Modified SoundCloud with Go+ features unlocked",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8ee6213296346760d9a1d17a9b78e698174ed84b3dad5c797d8cf74a77ae11d5",
+  "subtitle": "Unlock Go+ and download songs",
   "tags": [
    "soundcloud",
    "music",
-   "streaming",
-   "go+",
-   "modified",
-   "premium"
+   "audio",
+   "download",
+   "offline",
+   "player"
   ]
  },
  "com.soundscape.music": {
@@ -49008,6 +50200,23 @@
    "streaming"
   ]
  },
+ "com.spotify.client.ios.eeveespotifyreincarnated.pixie.9.1.90": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "This is a modded version of Spotify that includes EeveeSpotifyReincarnated v7.0.0, SpotifyAudioProbe, and Pixie Download Manager v1.4. This app provides modified audio and download features for the streaming service.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ccec8e3065a33984e045e1c1b8ad6b6da7e1f08df7672f74a5be2328d9e6bf25",
+  "subtitle": "Modded version of Spotify with tweaks",
+  "tags": [
+   "spotify",
+   "music",
+   "modded",
+   "tweaks",
+   "audio",
+   "download"
+  ]
+ },
  "com.spotify.client.ios.eeveespotifyreincarnated.pixie.not.patched.9.1.92": {
   "category": "entertainment",
   "date": "2026-10-28",
@@ -49264,6 +50473,153 @@
    "streaming",
    "fork",
    "vitrine"
+  ]
+ },
+ "com.spotify.client.ios.taurus.0.60.6.9.1.90": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "Taurus is a modded version of Spotify that includes the SpotifyAudioProbe and spotifyglass tweaks. It grants Free Premium and a Liquid Glass UI. This is an open-sourced tweak for Spotify.",
+  "features": [
+   "Free Premium",
+   "Liquid Glass UI",
+   "SpotifyAudioProbe",
+   "spotifyglass"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b54b0bc4c05b08332b29dfa05167a1c36f7e16ffa14522b842d60fbf1d49683c",
+  "subtitle": "Modded version of Spotify with tweaks",
+  "tags": [
+   "spotify",
+   "music",
+   "audio",
+   "mod",
+   "tweak"
+  ]
+ },
+ "com.spotify.client.ios.vitrine.1.0.0.beta.16.not.patched.9.1.90": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "Vitrine is a modified version of Spotify based on spoti.pw by Vojt\u011bch \u0160kopek, taken from version 0.21.1 (commit c790445). The app works with Sidestore for installation. FastSign by CertFish provides sideloading support.",
+  "features": [
+   "Modded Spotify",
+   "Sidestore compatible"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0f6d84faeec5b6c438aa401cf9f87e25e16b190245613379e514ac9e97f7a6b8",
+  "subtitle": "Modded Spotify client forked from spoti.pw",
+  "tags": [
+   "spotify",
+   "music",
+   "modded",
+   "sidestore",
+   "fork",
+   "audio"
+  ]
+ },
+ "com.spotify.client.ios.vitrine.1.0.0.beta.16.patched.9.1.90": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "Vitrine is a modded version of Spotify and a fork of spoti.pw by Vojt\u011bch \u0160kopek, taken from version 0.21.1. Please note that this version does not work with Sidestore.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4510e860bb23d35257b9ceb36440e549fe4853ac0683f4c68f9786141efd67a0",
+  "subtitle": "Modded version of Spotify",
+  "tags": [
+   "spotify",
+   "modded",
+   "audio",
+   "music",
+   "vitrine",
+   "beta"
+  ]
+ },
+ "com.spotify.client.ios.vitrine.eeveespotifyreincarnated.beta.patched.9.1.88": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "This is a modded version of Spotify, featuring Vitrine v1.0.0-b7 and EeveeSpotifyReincarnated v7.0.0. Please note that this version does not work with sidestore.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4de9cac21b3ea1ade2b109e817612d337603ae64bf0b19d57a447370276d1ed9",
+  "subtitle": "Modded music streaming app",
+  "tags": [
+   "spotify",
+   "modded",
+   "music",
+   "streaming",
+   "audio"
+  ]
+ },
+ "com.spotify.client.ios.vitrine.eeveespotifyreincarnated.not.patched.9.1.88": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "This is a modded version of Spotify that works with sidestore. This includes both Vitrine version 1.0.0-b7 and EeveeSpotifyReincarnated version 7.0.0.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d43c810d0fe19a6bf9a2b6cd7b9e0795ba24315f178798db673f32637fdd3995",
+  "subtitle": "Modded version of Spotify",
+  "tags": [
+   "spotify",
+   "modded",
+   "music",
+   "audio"
+  ]
+ },
+ "com.spotify.client.ios.vitrine.pixie.9.1.90": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "This is a modded version of Spotify that includes Vitrine v1.0.0-b16 and Pixie Download Manager v1.4. Tweaks include spotifyglass and SpotifyAudioProbe.",
+  "features": [
+   "SpotifyAudioProbe",
+   "spotifyglass",
+   "Pixie Download Manager",
+   "Vitrine"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "99445389307beec28804e62d3ddc54628f0e0761f11bb0326549cfd4f7778484",
+  "subtitle": "Modded Spotify with download manager",
+  "tags": [
+   "spotify",
+   "music",
+   "audio",
+   "mod",
+   "media"
+  ]
+ },
+ "com.spotify.client.ios.vitrine.pixie.not.patched.9.1.90": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "This is a modded version of Spotify that works with SideStore. This includes both Vitrine version 1.0.0-b13 and Pixie Download Manager version 1.1.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f55655388f77d4d7a2c951c4b8dcfb75b872aa3b3cb9a09b51af52354564dd4b",
+  "subtitle": "Modded version of Spotify with download manager",
+  "tags": [
+   "spotify",
+   "mod",
+   "vitrine",
+   "pixie",
+   "sidestore",
+   "music"
+  ]
+ },
+ "com.spotify.client.ios.vitrine.pixie.patched.9.1.90": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "This is a modded version of Spotify that includes both Vitrine version 1.0.0-b13 and Pixie Download Manager version 1.1. Please note that this version does not work with Sidestore.",
+  "features": [
+   "Vitrine v1.0.0-b13",
+   "Pixie Download Manager v1.1"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "82a78fa6cc5cfd16e103d4be491a4cb43a88c88e91eb43aace5711d6e23bc5b8",
+  "subtitle": "Modded audio streaming and download app",
+  "tags": [
+   "spotify",
+   "modded",
+   "music",
+   "streaming",
+   "audio",
+   "downloads"
   ]
  },
  "com.spotify.client.patched": {
@@ -50303,6 +51659,28 @@
    "entertainment"
   ]
  },
+ "com.stremiox.app.native": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "VortX is a native media application available for Apple TV, iPhone, iPad, and Mac, as well as Android devices. Browse your add-ons and personal media, pick a source, and keep your profiles and progress synced with a VortX account. Built using SwiftUI with native playback engines, it is not a web wrapper. This release removes the old comparison engine and Node runtime while retaining Stremio-compatible add-ons, optional Stremio account and library import, and Cinemeta support. Android remains a technical preview.",
+  "features": [
+   "Native playback engines",
+   "Add-on browsing",
+   "Personal media support",
+   "Profile and progress sync",
+   "Stremio-compatible add-ons"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e3ee9e146919740420b8cd6fd66519940f55aeab88b31345016b457e70571968",
+  "subtitle": "Native media app for your add-ons and personal media",
+  "tags": [
+   "media",
+   "streaming",
+   "player",
+   "video",
+   "entertainment"
+  ]
+ },
  "com.stromming.Plants": {
   "category": "other",
   "date": "2026-11-03",
@@ -50714,48 +52092,38 @@
  },
  "com.suwayomi.tachideskSorayomi": {
   "category": "entertainment",
-  "date": "2026-11-08",
-  "description": "Tsumiru is a native client for reading manga and manhwa from a Suwayomi-Server instance. It supports offline downloads with an on-device catalog, a continuous-scroll webtoon reader, incognito mode, and 13 built-in themes.",
+  "date": "2026-11-09",
+  "description": "Tsumiru is a native client for reading manga and manhwa from a Suwayomi-Server instance. It is built for long webtoon reading sessions and supports offline downloads to the device.",
   "features": [
-   "Offline Downloads",
-   "On-Device Catalog",
-   "Continuous Scroll",
-   "Incognito Mode",
-   "13 Themes"
+   "Offline downloads"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "355e3123784652d30216534fcb558d8ba8f4807704351fde6fdacb1386d4a85e",
+  "src_hash": "73b1ed2e553f2713a550446943da3c6677956f294a38ecf6548e3352a98f0e23",
   "subtitle": "Manga & manhwa reader for Suwayomi-Server",
   "tags": [
    "manga",
    "manhwa",
-   "suwayomi",
+   "webtoon",
    "reader",
    "offline",
-   "themes"
+   "server"
   ]
  },
  "com.suwayomi.tachideskSorayomi.tsumiru": {
   "category": "entertainment",
-  "date": "2026-11-08",
-  "description": "Tsumiru connects to your self-hosted server to read webtoons with continuous chapter scrolling and pinch-to-zoom that works mid-scroll. Guided setup discovers your server on the local network. Incognito mode reads without adding to history and can hide library categories. Thirteen built-in themes, a custom accent color, and a pure black OLED mode are included. Server login supports simple_login and ui_login modes with credentials kept in the device's secure storage.",
-  "features": [
-   "Continuous scroll",
-   "Guided setup",
-   "Incognito mode",
-   "13 themes + OLED",
-   "Secure server login"
-  ],
+  "date": "2026-11-09",
+  "description": "Tsumiru (\u7a4d\u307f\u308b) takes the \u7a4d, meaning \"pile up\", from tsundoku (\u7a4d\u3093\u8aad), the Japanese habit of buying books faster than you can read them. It swaps the \"read\" for managing your reading backlog.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "5b096eb1b1b185c0a15847a40f61cabaa656eb206f4af8f2182cc5f3d6a90547",
-  "subtitle": "Webtoon reader for self-hosted libraries",
+  "src_hash": "e27c7fbd944e1e86d164c68c42ab240c5ef3e0908d03f06a0392c8aa89fb5727",
+  "subtitle": "Track your book pile habit",
   "tags": [
-   "webtoon",
-   "reader",
-   "manga",
-   "selfhosted",
-   "server",
-   "themes"
+   "books",
+   "reading",
+   "tsundoku",
+   "tracking",
+   "japanese",
+   "habit"
   ]
  },
  "com.suykorng.iptv": {
@@ -50937,6 +52305,26 @@
    "photo",
    "ios",
    "hipstamatic"
+  ]
+ },
+ "com.t4mag0.vidgrab": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "VidGrab is a video downloader for iPhone. Paste a link and select a quality to save the video. The app also includes a built-in browser where you can play videos and tap a Download button to save them.",
+  "features": [
+   "Paste link to download",
+   "Choose video quality",
+   "Built-in browser",
+   "Tap to download from browser"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "20066a3f598caeeb7a942e5ef39d1df23f975d5d12d9e3f64ec09cee7860bfdb",
+  "subtitle": "Video downloader with built-in browser",
+  "tags": [
+   "video downloader",
+   "browser download",
+   "quality selection",
+   "iphone"
   ]
  },
  "com.taapgame.farmadventure.horizonisland": {
@@ -51867,6 +53255,25 @@
    "games",
    "fix",
    "install"
+  ]
+ },
+ "com.tiaoge.gamecase": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "GameCase is a sideloading game container built for iOS game ports. Import a game IPA and its romfs datapack into the library, manage each game's own launcher settings in one place, and play without needing a jailbreak.",
+  "features": [
+   "No Jailbreak Required"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4ae57a241aa1339c5a696b0d8952ad49ebe8c09fc2265fc42396bf3f759537dc",
+  "subtitle": "Sideloading game container for iOS game ports",
+  "tags": [
+   "gamecase",
+   "sideload",
+   "emulator",
+   "container",
+   "ports",
+   "library"
   ]
  },
  "com.tibith.badboxing2": {
@@ -58693,6 +60100,168 @@
    "action roguelike"
   ]
  },
+ "com.unknown.videocaptions": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "An app for designing video captions intelligently.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b1cf7a4441994cec47aefb5d3966271abe542513a27a6dcb05de8c346cc853e1",
+  "subtitle": "Smart video caption design",
+  "tags": [
+   "video",
+   "captions",
+   "design",
+   "smart",
+   "editor",
+   "tool"
+  ]
+ },
+ "com.unknown.videocompress": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "The app compresses video clips and reduces their file size professionally.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "18922c7924a9b54f6be05a9fcc19cc25cd70f4fb8b86b0c42f0f5974ced999b1",
+  "subtitle": "Compress video clips and reduce size",
+  "tags": [
+   "video",
+   "compress",
+   "compression",
+   "size",
+   "reduce",
+   "professional"
+  ]
+ },
+ "com.unknown.videolite": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Video Lite lets you search websites without ads, download YouTube videos, and play YouTube videos in the background. The app provides a video player that supports background playback and offline viewing of downloaded clips.",
+  "features": [
+   "No Ads",
+   "Background Play",
+   "Download Videos",
+   "Video Search"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1530a36f9bb2fd5e7d9ec7bef96038d271ba904d7f772c54a35bc81efcc32e4f",
+  "subtitle": "YouTube video downloader with background play, no ads",
+  "tags": [
+   "youtube",
+   "video",
+   "downloader",
+   "background",
+   "no-ads",
+   "player"
+  ]
+ },
+ "com.unknown.videoremover": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "VideoRemover is an application for editing video clips and reducing their file size.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e79558cad8091f56ef8f2e022d91982ddc82bd451471ccf3cd6790b46c145ace",
+  "subtitle": "Edit and compress video clips",
+  "tags": [
+   "video",
+   "editor",
+   "compressor",
+   "editing",
+   "size",
+   "reduction"
+  ]
+ },
+ "com.unknown.videosplitter": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "An application designed for cutting and editing your videos. Tap on purchase to handle advertisements. To complete the action, tap buy and then select cancel.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "122419231ef9c5f4bf6665ca23288177eb69d0934b8f61cc0622e6d92ffddb6e",
+  "subtitle": "Video cutting and editing application",
+  "tags": [
+   "video",
+   "splitter",
+   "editor",
+   "cutter",
+   "media"
+  ]
+ },
+ "com.unknown.videotoringtone": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VideoToRingtone lets you convert video files into ringtones for your mobile device.",
+  "features": [
+   "Video to ringtone conversion"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "59aaf31108154a6f53421d2c5ec9dd1380d3aa1c84eab9ea399cdcac0373c5f8",
+  "subtitle": "Convert videos to ringtones",
+  "tags": [
+   "video",
+   "ringtone",
+   "converter",
+   "mobile",
+   "audio",
+   "tool"
+  ]
+ },
+ "com.unknown.voicesai": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "This application is used to change voices using artificial intelligence. Premium features are unlocked.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "26068163bb86bb6346b664c5fe80ec2f94b2a8dbcd7aefdc4fdc2804e14eae79",
+  "subtitle": "AI voice changer app",
+  "tags": [
+   "ai",
+   "voice",
+   "changer",
+   "audio",
+   "sound"
+  ]
+ },
+ "com.unknown.voloco": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Voloco is a video editing application that lets users edit videos on their device. It provides tools for trimming, adding effects, and exporting finished clips.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b7b29e757c64b535c92bef813b712bb355c291e9c69cfe17a5abba3ab196af05",
+  "subtitle": "Video editing app for mobile",
+  "tags": [
+   "video editing",
+   "video editor",
+   "mobile",
+   "media",
+   "creative",
+   "tools"
+  ]
+ },
+ "com.unknown.wallcraftwallpaperslive": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "An application dedicated to changing screen backgrounds. Premium features are unlocked for use.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "82a23573f45e1a311fc5bc9f4583575284708ec6ea5ac7eea96c38177a65d1dc",
+  "subtitle": "Wallpaper and background changer",
+  "tags": [
+   "wallpapers",
+   "backgrounds",
+   "changer",
+   "screen",
+   "live",
+   "custom"
+  ]
+ },
  "com.unofficial.balatro": {
   "category": "games",
   "date": "2026-10-15",
@@ -59316,6 +60885,40 @@
    "film"
   ]
  },
+ "com.vesc-project.vesc-tool": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Vesc Tool lets you configure your VESC ecosystem.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fb661b4cb7b92b6b8af01648d4d34bca4dd5be158494c8fc7492e691f561cf18",
+  "subtitle": "Configure VESC ecosystem",
+  "tags": [
+   "vesc",
+   "tool",
+   "configuration",
+   "ecosystem",
+   "firmware",
+   "esc"
+  ]
+ },
+ "com.vfulup.vpn": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "VPN Freedom is a virtual private network application. The source indicates this version is cracked. Developer: VPN_Freedom x CyPwn. Category: utilities.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2f86d251c10abd36048bcec4cea38ccc896671c5cba4ca0060d3277f0ded553c",
+  "subtitle": "VPN service with unlocked features",
+  "tags": [
+   "vpn",
+   "freedom",
+   "privacy",
+   "security",
+   "network",
+   "utilities"
+  ]
+ },
  "com.vgfit.fitnessvip": {
   "category": "other",
   "date": "2026-10-21",
@@ -59333,6 +60936,23 @@
    "app"
   ]
  },
+ "com.vh.vhub": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VidList_1.2 is an app by VidList_1.2 x CyPwn. It is categorized as other and marked NSFW.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "39ad43fac75109083c1bbbf926387f5f2c2c1057aa19341a4ed67b6035f111ad",
+  "subtitle": "Video list app",
+  "tags": [
+   "video",
+   "list",
+   "nsfw",
+   "app",
+   "utility",
+   "other"
+  ]
+ },
  "com.vibecode.tradetracker.rusxpp": {
   "category": "utilities",
   "date": "2026-11-08",
@@ -59348,6 +60968,43 @@
    "tracking",
    "portfolio",
    "analysis"
+  ]
+ },
+ "com.video.aivideogenerator": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "AI Video Generator \u2013 VidaxAI IPA is an iOS creative tool that allows iPhone users to generate",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c19d80b929290a6ff6bc1b0b69cab4b6993f6183bf466366bda09d22bb076a2c",
+  "subtitle": "AI video generation tool for iPhone",
+  "tags": [
+   "ai",
+   "video",
+   "generator",
+   "creative",
+   "tool",
+   "ios"
+  ]
+ },
+ "com.videobrowser.ios": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Pro features added; IPA tested and compiled by TTJB Team.",
+  "features": [
+   "Pro",
+   "Tested by TTJB Team"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cd133855e7a143718f0f47696d124e6114feb718d377a5d708e99bcc381a47f5",
+  "subtitle": "Pro video player, tested by TTJB Team",
+  "tags": [
+   "video",
+   "lite",
+   "pro",
+   "ipa",
+   "ttjb",
+   "tested"
   ]
  },
  "com.vigorapps.30DayFitness": {
@@ -59402,6 +61059,23 @@
    "classic"
   ]
  },
+ "com.visionWallpaper.dev12br": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Vision IPA is an iOS app that provides a vast library of high-resolution 4K 3D wallpapers for device personalization.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "351e7dc1ffc879b47d9c7269779abd205eef29daa8470df7155dc8d2f5f5689d",
+  "subtitle": "4K 3D wallpapers for iOS",
+  "tags": [
+   "wallpapers",
+   "4k",
+   "3d",
+   "personalization",
+   "ios",
+   "backgrounds"
+  ]
+ },
  "com.visualhype.pedometer": {
   "category": "other",
   "date": "2026-11-06",
@@ -59440,6 +61114,24 @@
    "app"
   ]
  },
+ "com.vivacut.videoeditor": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VivaCut is a video editing app. This version has been injected to unlock the subscription features.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f75d5847a024e9c7e0c91f4978d4949074742f2569139ab468b6511fc761f242",
+  "subtitle": "Video editor with subscription unlocked",
+  "tags": [
+   "video editor",
+   "subscription unlocked",
+   "ipa",
+   "mod",
+   "vivacut"
+  ]
+ },
  "com.vivastudios.tower.battle": {
   "category": "games",
   "date": "2026-11-08",
@@ -59472,6 +61164,25 @@
    "fight",
    "ios",
    "game"
+  ]
+ },
+ "com.vixerapp.Vixer": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Vixer is an app that has been modified to unlock subscription features.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5c490625c05547da5a11f35b0a6d0c7546447d8d7408d600411f8f8e9636c4c5",
+  "subtitle": "Subscription unlocked version of Vixer",
+  "tags": [
+   "vixer",
+   "subscription",
+   "unlocked",
+   "ipa",
+   "repo",
+   "apptesters"
   ]
  },
  "com.vizor-apps.Road-Trip": {
@@ -59528,6 +61239,23 @@
    "unlimited-coins",
    "no-ads",
    "flow"
+  ]
+ },
+ "com.vocably.app": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "Verbi helps you speak a new language. Requires iOS 15.1 or later. Current version 5.2.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "afed92fe5500ef6194d77ac7452d710bcc5cfe63d1de3ebc45076f8a38d7da9a",
+  "subtitle": "Learn a new language with Verbi",
+  "tags": [
+   "language",
+   "learning",
+   "speak",
+   "ios",
+   "app",
+   "verbi"
   ]
  },
  "com.voicecopy.app": {
@@ -59595,6 +61323,43 @@
    "sponsorblock"
   ]
  },
+ "com.voidlink.tf.iOS": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Enhanced version of the Moonlight game streaming app.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1433ad7552d44f8c0d9107329198a311553f24a69029847e5430352f46dc39d9",
+  "subtitle": "Enhanced Moonlight game streaming client",
+  "tags": [
+   "moonlight",
+   "game",
+   "streaming",
+   "enhanced",
+   "voidlink",
+   "pc"
+  ]
+ },
+ "com.voidpet.dungeon": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "Voidpet Dungeon is a pet-based dungeon crawler featuring hack modifications. The mod includes Always Crit, ensuring pets land critical hits on every attack, and a Battle Speed Multiplier adjustable from 1x to 10x to accelerate combat pacing.",
+  "features": [
+   "Always Crit",
+   "Battle Speed 1x-10x"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ac0fcd9f33a0c05f90a7eafdd7476476d3e0d11a76de07dad0fd6e753b08b1f6",
+  "subtitle": "Pet dungeon crawler with battle modifiers",
+  "tags": [
+   "pet",
+   "dungeon",
+   "rpg",
+   "battle",
+   "mod",
+   "hack"
+  ]
+ },
  "com.vpn.sunrise": {
   "category": "utilities",
   "date": "2026-11-06",
@@ -59630,6 +61395,23 @@
    "purchase",
    "ttjb",
    "utilities"
+  ]
+ },
+ "com.vpnsatoshi.vpnsatoshiapp": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VPNSatoshi was previously available through binnichtaktiv's iPA Library. The app has been deprecated and removed from the repository. Last updated on March 27, 2024. Current status shows as unavailable.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "eb4e2cdc8f62909967ce5e0b8703b5a10d91665143ebff2bbdd98c4d24c1348e",
+  "subtitle": "Deprecated VPN app, removed from repository",
+  "tags": [
+   "vpn",
+   "deprecated",
+   "removed",
+   "satoshi",
+   "ipa",
+   "library"
   ]
  },
  "com.vqw.aelh": {
@@ -59737,6 +61519,22 @@
    "snore",
    "sleep",
    "lifestyle"
+  ]
+ },
+ "com.wallpaperscraft.wallpapers": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Wallcraft is an app featuring a Pro injection.",
+  "features": [
+   "Injected with Pro"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f450a50852afe5d18ec491b2bfa7e098641548fb97d62fe7e1349c57f8f2ab84",
+  "subtitle": "Wallcraft Pro",
+  "tags": [
+   "wallcraft",
+   "pro",
+   "app"
   ]
  },
  "com.wallpapershub.anime": {
@@ -61227,22 +63025,18 @@
  },
  "com.zhiliaoapp.musically": {
   "category": "social",
-  "date": "2026-11-08",
-  "description": "iOSDecrypted processed IPA file with custom tweak file injected. This is a modified version of the TikTok application for iOS devices.",
-  "features": [
-   "Custom tweak injected",
-   "Decrypted IPA"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ef1c67693bf2fe54c797ff1d035e5c780dfbc6d4d382021e7ce8efc03096a119",
-  "subtitle": "Decrypted TikTok IPA with custom tweak",
+  "date": "2026-11-09",
+  "description": "Unofficial region modification supporting Canada, France, Germany, Great Britain, United States, and Kazakhstan. Open Settings and privacy, then access the mod settings to change your region. Restart the application after changing your region. Installation via AltStore is currently experimental. This application is an independent modification by TikTokModIos contributors and is not affiliated with TikTok.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "91b468773a83828770670c4c7f406557320fdf418bbfb907a75650baab5e5115",
+  "subtitle": "Unofficial region modification for TikTok",
   "tags": [
    "tiktok",
+   "region",
+   "mod",
    "social",
-   "modified",
-   "ipa",
-   "decrypted",
-   "tweak"
+   "unofficial"
   ]
  },
  "com.zhiliaoapp.musically1": {
@@ -61427,19 +63221,19 @@
  },
  "com.zurac.BudgetBuddy": {
   "category": "utilities",
-  "date": "2026-11-01",
-  "description": "OldOS recreates a fully functional version of iOS 4 using SwiftUI. The app replicates the interface and behavior of Apple's 2010 mobile operating system on modern iOS devices.",
+  "date": "2026-11-09",
+  "description": "OldOS recreates a fully functional version of iOS 4 using SwiftUI.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "76c510bb9ac023f2e33c22ffd19b93dc064441e0571178f368f13afe5b5f74f2",
-  "subtitle": "iOS 4 recreation built with SwiftUI",
+  "src_hash": "fcb69ade747466c26f213193fbd2a5bfbc591d4e9475f075b0f3753c5730b0ea",
+  "subtitle": "Recreation of iOS 4 built with SwiftUI",
   "tags": [
    "ios4",
-   "recreation",
    "swiftui",
-   "retro",
-   "emulation",
-   "oldos"
+   "recreation",
+   "legacy",
+   "simulation",
+   "open-source"
   ]
  },
  "com.zurac.OldOS": {
@@ -63680,6 +65474,99 @@
    "8.0.2"
   ]
  },
+ "cypwn.VidList_0.5.1.0.5.1": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VidList version 0.5.1 by VidList_0.5.1 x CyPwn. The source description indicates NSFW content.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c9d4a851bab28896c59220555959e9a971b809cef6dcec0dfaef0b2086eed490",
+  "subtitle": "NSFW content listing app",
+  "tags": [
+   "nsfw",
+   "video",
+   "list",
+   "cypwn",
+   "vidlist"
+  ]
+ },
+ "cypwn.VideoShow_5.7.5.5.7.5": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "VideoShow Pro version 5.7.5 cracked by @Demoxing and distributed by CyPwn. This is a modified version of the VideoShow video editing application with Pro features unlocked.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "638f02f9b434cc54d14f1a1918f171178ab6c619c8d82240e39b300e91e25802",
+  "subtitle": "VideoShow Pro cracked version 5.7.5",
+  "tags": [
+   "videoshow",
+   "video",
+   "editor",
+   "pro",
+   "cracked",
+   "5.7.5"
+  ]
+ },
+ "cypwn.Vinegar_2.4.2.2.4.2": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Vinegar is a Safari extension that replaces the YouTube player with a minimal HTML video tag. It removes ads, restores picture-in-picture, and keeps video playing in the background.",
+  "features": [
+   "Removes Ads",
+   "Picture-in-Picture",
+   "Background Playback"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fa21cb017ba7c03a9037c21402cdf63a4d656a4e2983ae54d4bcca3a013fc543",
+  "subtitle": "Safari extension for ad-free YouTube playback",
+  "tags": [
+   "safari",
+   "extension",
+   "youtube",
+   "video",
+   "ad-blocker",
+   "pip"
+  ]
+ },
+ "cypwn.VivaVideo_VIP_9.3.6.9.3.6": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "VivaVideo VIP version with premium features unlocked. This modified release provides access to VIP subscription content without payment.",
+  "features": [
+   "VIP Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "372b40d08b268a7ad336df1d7bae6080745baa56b7ef96f2ae438163731b56bb",
+  "subtitle": "Video editor with VIP features unlocked",
+  "tags": [
+   "video editor",
+   "vip unlocked",
+   "video editing",
+   "premium features",
+   "modified app"
+  ]
+ },
+ "cypwn.Wallcraft_Pro_2.8.2.8": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Wallcraft Pro offers a vast collection of wallpapers for your device. Access all Pro features and enjoy endless wallpaper options to customize your screen.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0e41c6425779bca9316f92b1a9cec3f8116fb0a6c781015b0a6645d10658f027",
+  "subtitle": "Wallpapers for days",
+  "tags": [
+   "wallpapers",
+   "backgrounds",
+   "pro",
+   "customization",
+   "themes",
+   "images"
+  ]
+ },
  "cypwn.cl1m4x.1.3": {
   "category": "other",
   "date": "2026-10-18",
@@ -64380,20 +66267,20 @@
   ]
  },
  "dev.kartpad.app": {
-  "category": "games",
-  "date": "2026-10-28",
-  "description": "KartPad builds on the WiiCompiled Mario Kart Wii static recompilation project. It provides Apple and Android integration, native controls, a game chooser, game data management, packaging, and releases. KartPad is free and requires users to bring their own legally obtained supported PAL RMCP01 revision 0 Mario Kart Wii image. tvOS support remains experimental. The development workflow incorporates substantial AI assistance for code, tests, documentation, debugging, and maintenance.",
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "KartPad builds on WiiCompiled, the original Mario Kart Wii static recompilation project created by patchzyy. WiiCompiled provides the foundation.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "64c9071b47b04dacbbfeb11976dcdefca3496e68f1d91e3b3df6171c6d3c48ef",
-  "subtitle": "Mario Kart Wii static recompilation runtime for mobile",
+  "src_hash": "71efca7bc0d9c6757336be06b2ec124091a72263693d954ebd00728c0671994d",
+  "subtitle": "Mario Kart Wii static recompilation project",
   "tags": [
    "kartpad",
+   "wiicompiled",
    "mario",
    "kart",
    "wii",
-   "recompilation",
-   "runtime"
+   "recompilation"
   ]
  },
  "dev.leoestremadoyro.AnimeTracker": {
@@ -64716,6 +66603,23 @@
    "engineered"
   ]
  },
+ "dev.vita3k.Vita3KIos": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "Veeb is an experimental PlayStation Vita emulator built specifically for iOS 26 and newer. The project focuses on bringing Vita games to iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "20df817546817432ecec8e7aea78e4ed039164e2a0176320fc7892797f839a7a",
+  "subtitle": "Experimental PlayStation Vita emulator for iOS 26+",
+  "tags": [
+   "playstation vita",
+   "emulator",
+   "ios",
+   "experimental",
+   "gaming",
+   "retro"
+  ]
+ },
  "dev.vodik7.atvtools.atvTools": {
   "category": "entertainment",
   "date": "2026-10-15",
@@ -64730,6 +66634,29 @@
    "google",
    "entertainment",
    "tools"
+  ]
+ },
+ "dev.voxline.ios": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "Voxline is a subtitle tool built natively with SwiftUI for macOS and iOS, focused on system-level capabilities. It supports a complete end-to-end on-device processing workflow including local media import, on-device WhisperKit Core ML speech recognition, Apple native offline translation, synchronized bilingual proofreading, and native subtitle and video packaging and export. The app includes a batch media pipeline for multi-file local media queues supporting MP4, MOV, M4V, M4A, MP3, and WAV, and automatically inspects container formats, durations, file sizes, and audio tracks.",
+  "features": [
+   "Batch Media Pipeline",
+   "On-Device WhisperKit Transcrip",
+   "Apple Translation",
+   "Hard and Soft Subtitle Export",
+   "iCloud Sync"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8f7d1badd7bf27b0a46b2ecd9e8591cc30a7bb473a45ac8c954c6e0f77ef4eb7",
+  "subtitle": "Subtitle transcription, translation, and proofreading",
+  "tags": [
+   "subtitles",
+   "transcription",
+   "translation",
+   "whisperkit",
+   "macos",
+   "ios"
   ]
  },
  "dev.xzebra.apps.TimeDeposit": {
@@ -65176,6 +67103,26 @@
    "ipa"
   ]
  },
+ "eu.vcmi.vcmiclient": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "VCMI is an open-source, cross-platform rewrite of the Heroes of Might and Magic III game engine. It requires data files copied from the original game to run. Follow the project's instructions to set up the necessary game assets.",
+  "features": [
+   "Open Source",
+   "Cross-Platform"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "eb553660c13918e6d3d617c054a25eaa718007b76594b9b549331b219a3566be",
+  "subtitle": "Open-source Heroes of Might & Magic III engine",
+  "tags": [
+   "vcmi",
+   "homm3",
+   "heroes",
+   "open-source",
+   "engine",
+   "strategy"
+  ]
+ },
  "evolly.app.chatgpt": {
   "category": "utilities",
   "date": "2026-10-14",
@@ -65330,6 +67277,28 @@
    "fonts",
    "subscription",
    "unlocked"
+  ]
+ },
+ "fork.upscayl.ios": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Unofficial mobile port of Upscayl for iOS. Enlarge images using AI with Core ML. Features batch processing, background calculation, and before and after comparison. This is an independent project and is not affiliated with the Upscayl team.",
+  "features": [
+   "Core ML support",
+   "Batch processing",
+   "Background calculation",
+   "Before and after comparison"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9d4a3d97644667379299a50c8bd016c70d9ec32d512563854680eff149ea4510",
+  "subtitle": "AI image upscaler for iOS",
+  "tags": [
+   "upscayl",
+   "ai",
+   "image",
+   "upscale",
+   "coreml",
+   "photos"
   ]
  },
  "fr.adriencarvalot.Timetable": {
@@ -66589,6 +68558,22 @@
    "prompt"
   ]
  },
+ "io.fadel.VidCap": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "VidCap is a video capturing app that allows users to capture multi-scene videos with one tap on iOS devices.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "abe23b63d7441ba476fd9ef70fd7a5ab8c1d0135e786e713d3c575333866c476",
+  "subtitle": "Capture multi-scene videos with one tap",
+  "tags": [
+   "video",
+   "capture",
+   "multiscene",
+   "camera",
+   "recording"
+  ]
+ },
  "io.github.accretionmods.thewandererplus": {
   "category": "games",
   "date": "2026-11-07",
@@ -66796,6 +68781,28 @@
    "retro"
   ]
  },
+ "io.github.kyosee.venera": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "VeneraX is an enhanced personal maintenance branch of the original Venera app. It supports accessing multiple manga sources through plugins, local collections, and reading progress synchronization. This is an independent application with its own bundle ID under the GPL-3.0 open source license.",
+  "features": [
+   "Plugin manga sources",
+   "Local collections",
+   "Progress sync",
+   "Open source"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "129898c0b640c69bed7c197afd3f826ccf1b2b93827430d79c71bdf6005055a2",
+  "subtitle": "An enhanced personal fork of the Venera manga reader",
+  "tags": [
+   "manga",
+   "reader",
+   "plugins",
+   "comics",
+   "opensource",
+   "sync"
+  ]
+ },
  "io.github.larchk7.ios": {
   "category": "games",
   "date": "2026-10-28",
@@ -66998,24 +69005,18 @@
  },
  "io.github.saschb2b.cyberworldendless": {
   "category": "games",
-  "date": "2026-10-25",
-  "description": "Cyberworld is a companion tool for Mega Man Battle Network 6: Cybeast Gregar and Battle Network 5: Team Colonel. It connects players for online features, including netbattles, trades, and the weekly DeepNet. Use it to host a net square and manage your network experience. This application requires your own unmodified USA ROMs to function. It does not include game data, ROMs, or Capcom files.",
-  "features": [
-   "NetBattles",
-   "Trades",
-   "DeepNet Access",
-   "Host Net Square"
-  ],
+  "date": "2026-11-09",
+  "description": "Cyberworld requires your own unmodified Mega Man Battle Network 6: Cybeast Gregar USA ROM to play. Battle Network 5 Team Colonel USA and Battle Network 4 Red Sun USA are optional to include their areas, viruses, and features. Includes a player's guide, project page, discussions, and the ability to host a Net Square.",
+  "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "a4234a971fa3045cb41f7d1e87249a392775db6137d8f3f1caceb5f89b5b5152",
-  "subtitle": "Companion app for network battles and trades",
+  "src_hash": "d8c25fe51045a4b3647d42b2723be4665fa390e7cf6d5b53dc4271bd5e0b5203",
+  "subtitle": "Fan-made crossover and guide for Battle Network fans",
   "tags": [
    "cyberworld",
-   "netbattles",
+   "megaman",
    "battlenetwork",
-   "rom",
-   "multiplayer",
-   "companion"
+   "rpg",
+   "rom"
   ]
  },
  "io.github.scripta": {
@@ -67059,25 +69060,18 @@
  },
  "io.github.thatguymcd.dkrr.ios": {
   "category": "games",
-  "date": "2026-11-05",
-  "description": "DKR-R version 1.0.14 introduces improvements to online input delay, joining and frame pacing. The launcher and in-game overlay now share the same pages. New features include display options, automatic seasonal themes, launcher languages, optional analogue driving and controller feedback settings. Custom cars and road wheels on custom characters now respond to lighting properly. Gameplay fades into a new starting game screen with mod progress shown beneath the logo. Linux now requests GPU acceleration for the launcher with a software fallback. Existing saves, mods and settings are retained.",
-  "features": [
-   "Online updates",
-   "Display options",
-   "Seasonal themes",
-   "Analogue driving",
-   "Controller feedback"
-  ],
+  "date": "2026-11-09",
+  "description": "DKR-R v1.0.15 brings online enhancements including late-input recovery, reduced rollback CPU work, and buffered confirmed playback for spectators. Hosts can adjust the prediction window and input delay directly from the lobby or in-game overlay. This version features automatic cleanup for old downloads and caches, a redesigned Play page, and custom character names in Player Select. File dialogs now run in a separate helper, and crash reports include additional diagnostic information. Existing saves, mods, and settings remain compatible, but matching complete v1.0.15 packages are required for all machines in an online lobby.",
+  "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "7ed6e807f67c86c74316e393dade0b2b205eadf13967195defea6a92a43512b5",
-  "subtitle": "Online racing updates, display options and custom lighting",
+  "src_hash": "dbf69ea1209d308399cf5138726e679ed9e6b9978ae642b00f74820764d3670e",
+  "subtitle": "Online multiplayer improvements and performance updates",
   "tags": [
    "racing",
+   "online",
    "multiplayer",
-   "mods",
-   "custom",
-   "launcher",
-   "game"
+   "update",
+   "patch"
   ]
  },
  "io.github.thomasthanos.An1me-Tracker": {
@@ -67139,6 +69133,28 @@
    "creativity",
    "tool",
    "design"
+  ]
+ },
+ "io.github.vancevcs.vcsmobile": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "Grand Theft Auto: Vice City Stories, the 2006 PSP game, made to play like a PC GTA. You get mouse look and mouse aiming, WASD, controls that change between walking, driving and flying, an HD texture pack, real-time shadows, shaded water and rain-soaked roads, and a GTA-style menu. The tutorial messages name your keys instead of PSP buttons. It runs on Windows, macOS, Android and iOS. Bring your own copy of the game: no game files are included. The iOS build is a pre-release and has not yet been tested on an iPhone.",
+  "features": [
+   "HD texture pack",
+   "Real-time shadows",
+   "Shaded water and rain",
+   "GTA-style menu"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ec493e7ca8a9314113a0f6e2ff59838cb10d3e02ccfc593fe00d8057a9d656b1",
+  "subtitle": "Play the classic open-world game on your device",
+  "tags": [
+   "action",
+   "open world",
+   "retro",
+   "driving",
+   "classic",
+   "adventure"
   ]
  },
  "io.github.vandosketch.camgrid": {
@@ -67360,6 +69376,22 @@
    "ipa",
    "business",
    "utilities"
+  ]
+ },
+ "io.limeware.voicerecorder": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Voxly is a voice recorder and memos application for iOS 15.0 and later. Record audio quickly and easily manage your voice memos directly on your device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ea5025dc601ae96b4109a8aab154286a0140a48945eaa10e3355154302ec84c6",
+  "subtitle": "Voice Recorder and Memos",
+  "tags": [
+   "voice",
+   "recorder",
+   "memos",
+   "audio",
+   "voxly"
   ]
  },
  "io.linga": {
@@ -67738,6 +69770,23 @@
    "travel"
   ]
  },
+ "io.veed.appstore": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "VEEDCaptions with subscription unlocked.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7edd1bcd41a24ef3c4158f7114cc3063eb20e18bde5d7d4fae6de7db39c4d7d8",
+  "subtitle": "VEEDCaptions",
+  "tags": [
+   "veedcaptions",
+   "captions",
+   "video",
+   "unlocked"
+  ]
+ },
  "io.voodoo.blockpals": {
   "category": "games",
   "date": "2026-10-15",
@@ -68068,6 +70117,23 @@
    "strategy",
    "action",
    "robot"
+  ]
+ },
+ "jp.co.bandainamcoent.BNEI0422": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "Very Little Nightmares+ on iOS brings a haunting and carefully crafted puzzle-adventure experience to iPhone, expanding the eerie universe.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6c5922b7ec6395ce5e2f281191412d6b9b4c589b45a7ee99a95262ed753066dc",
+  "subtitle": "A haunting puzzle-adventure experience on iOS",
+  "tags": [
+   "puzzle",
+   "adventure",
+   "nightmares",
+   "game",
+   "ios",
+   "iphone"
   ]
  },
  "jp.co.bandainamcoent.BNEI0423": {
@@ -69311,6 +71377,25 @@
    "compiled"
   ]
  },
+ "me.imgbase.videoday": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "VDIT is a video caption editor app. Version 4.2.0 requires iOS 16.0 or later. This is a patched version with subscription features unlocked. Bundle identifier: me.imgbase.videoday.",
+  "features": [
+   "Patched",
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "70e7b3d0067293e5698cf4f5fae7d7eb5d99ce0d434b5065421deb4714aad312",
+  "subtitle": "Video Caption Editor with subscription unlocked",
+  "tags": [
+   "video",
+   "caption",
+   "editor",
+   "patched",
+   "subscription"
+  ]
+ },
  "me.keet.HDRezka": {
   "category": "other",
   "date": "2026-10-27",
@@ -69345,24 +71430,23 @@
  },
  "me.lampu.lampcord": {
   "category": "social",
-  "date": "2026-10-29",
-  "description": "Lampcord is a beta Discord client built with Compose Multiplatform for mobile and desktop. It uses a native UI instead of Electron or WebViews, aiming for low memory usage and fast performance. Features include password and token login, remote QR code login, a multi-account switcher, markdown parsing with code highlighting, custom emojis, reactions, stickers, message replies, editing, deletion, pinning, thread views, and a local message deletion logger.",
+  "date": "2026-11-09",
+  "description": "Lampcord is a lightweight Discord client built with Compose Multiplatform for mobile and desktop. It is designed to provide a native, fast, and customizable Discord experience without the resource footprint of Electron or WebViews. The app is currently in beta and under active development. Authentication features include password and token login, remote QR code login, and a multi-account switcher. Messaging tools feature markdown parsing, code highlighting, custom emojis, reactions, stickers, message replies, editing, deletion, pinning, thread views, a local message deletion logger, and slash commands. Voice and media capabilities include voice channels, in-call controls, an image and video\u2026",
   "features": [
-   "Lightweight",
-   "Native UI",
-   "Multi-account",
-   "Markdown support",
-   "Threaded messages"
+   "Multi-account switcher",
+   "Voice channels",
+   "Markdown parsing",
+   "Remote QR login"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4866aeca4fbcf2943c36be646b101f92ab895656b462590dea5fab3d55283834",
-  "subtitle": "Lightweight native Discord client",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "906a0a7faae783dc135a9b86ec1dd2cd2ec4f8882af0cc8985fa4430ca5a2702",
+  "subtitle": "Lightweight native Discord client for mobile and desktop",
   "tags": [
    "discord",
+   "chat",
    "client",
-   "lightweight",
-   "multiaccount",
-   "markdown",
+   "messaging",
+   "voice",
    "beta"
   ]
  },
@@ -69476,6 +71560,28 @@
    "ios",
    "dolphin",
    "retro"
+  ]
+ },
+ "me.octonezd.vnds": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "VNDS-LOVE-TOUCH is a fork of VNDS-LOVE designed to work with touchscreens, particularly iPadOS devices. VNDS-LOVE is a cross-platform visual novel interpreter.",
+  "features": [
+   "Touchscreen support",
+   "iPadOS optimized",
+   "VNDS-LOVE fork",
+   "Cross-platform"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b6b7d479616b7dd83910d07d79ad28ff3d6c604777f6ff660889fd03ad91dafc",
+  "subtitle": "Touch-optimized visual novel engine for iPadOS",
+  "tags": [
+   "visual novel",
+   "vn",
+   "interpreter",
+   "touch",
+   "ipad",
+   "engine"
   ]
  },
  "me.soongyu.mugunghwautil": {
@@ -69746,6 +71852,29 @@
    "library"
   ]
  },
+ "moye.MeloX": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "MeloX is a native NetEase Cloud Music client built with SwiftUI for iPhone, iPad, and Apple Watch. The interface references Apple Music's Liquid Glass design. It supports word-by-word lyrics, text PV lyrics, and full-screen horizon lyrics display.",
+  "features": [
+   "Word-by-word lyrics",
+   "Text PV lyrics",
+   "Full-screen horizon lyrics",
+   "Apple Watch support",
+   "SwiftUI native"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "edb154a8df842a5c3c4581059ad0b969f5960b23934687841f5da4d2613ed590",
+  "subtitle": "Native NetEase Cloud Music client for iOS and watchOS",
+  "tags": [
+   "netease",
+   "music",
+   "lyrics",
+   "swiftui",
+   "watchos",
+   "player"
+  ]
+ },
  "moye.PicaX": {
   "category": "entertainment",
   "date": "2026-11-02",
@@ -69913,6 +72042,23 @@
    "premium"
   ]
  },
+ "net.dreamdownloader.vpn": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "VPN Proxy Master cracked.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ecf126d8d8853bc0c5ed13a83d649c6d5750ffa28ac2689a5be4fd4847885d68",
+  "subtitle": "VPN Proxy Master utility",
+  "tags": [
+   "vpn",
+   "proxy",
+   "master",
+   "utility",
+   "network",
+   "tool"
+  ]
+ },
  "net.ekgames.fclasshero": {
   "category": "games",
   "date": "2026-10-21",
@@ -69931,6 +72077,23 @@
    "afk",
    "action",
    "adventure",
+   "game"
+  ]
+ },
+ "net.ekgames.projectz": {
+  "category": "games",
+  "date": "2026-11-09",
+  "description": "Waggle Squad is an iOS game focusing on fast-paced squad gameplay while remaining approachable for casual players.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e3b5699ff846b36593a01bd34c506f99ee7dd32bae2a5480e6754c9bb6ca5499",
+  "subtitle": "Fast-paced squad gameplay for casual players",
+  "tags": [
+   "squad",
+   "fast-paced",
+   "casual",
+   "gameplay",
+   "ios",
    "game"
   ]
  },
@@ -70681,6 +72844,26 @@
    "viewer",
    "polyhedron",
    "interactive"
+  ]
+ },
+ "net.whatsapp.WhatsAppSMB": {
+  "category": "social",
+  "date": "2026-11-09",
+  "description": "WA Business is a modified version of the messaging app featuring built-in tweaks. It includes WGold 2.3 by alibusut, WATranslator 2.1 by n9ipa, and WAFonts v2.0.0. Designed for enhanced functionality and customization options for business communication needs.",
+  "features": [
+   "WGold Tweaks",
+   "WATranslator",
+   "Custom Fonts"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3f3a6b945337ad78f8d32d5726fc510eb2af709ba4eb7841f60b3f08236637df",
+  "subtitle": "Modified WhatsApp Business with tweaks and translations",
+  "tags": [
+   "whatsapp",
+   "business",
+   "messaging",
+   "translator",
+   "fonts"
   ]
  },
  "net.wooga.junes-journey-hidden-object-mystery-game": {
@@ -72408,6 +74591,23 @@
    "audio",
    "port",
    "sideload"
+  ]
+ },
+ "org.videolan.vlc-ios": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "VLC is the official release build of the popular open-source media player from VideoLAN. It plays most multimedia files, discs, devices, and network streaming protocols without additional codecs.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0bd6046e1a3af9264550da52ef307318b9415b54d1c177c6b1a17ef63fb8f374",
+  "subtitle": "Official VLC media player release",
+  "tags": [
+   "vlc",
+   "video",
+   "player",
+   "media",
+   "open-source",
+   "videolan"
   ]
  },
  "org.vita3k.experimental.ios": {
@@ -74235,21 +76435,22 @@
  },
  "tv.twitch": {
   "category": "entertainment",
-  "date": "2026-11-08",
-  "description": "Twitch version 30.6. Includes Tweach 2.4 cracked by achu, and TwitchControl 0.0.6 by zeroxdeadbeef. Tweach developed by dvntms and cracked by achu.",
+  "date": "2026-11-09",
+  "description": "Twitch for iOS featuring customizable chat, extra emotes, and ad blocking.",
   "features": [
-   "Tweach included",
-   "TwitchControl included"
+   "Ad Blocking",
+   "Customizable Chat",
+   "Extra Emotes"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "9f6b45e7597d6d9c866d09a020a3d991f989e00b87d787919a7ca04bc1a56237",
-  "subtitle": "Cracked Twitch app with control tweaks",
+  "src_hash": "82608e87d7742ffd36ab84564ad9e32be0b49581f4e2bf2026ecef3a25abf788",
+  "subtitle": "Customizable Twitch client with extra emotes and ad blocking",
   "tags": [
    "twitch",
-   "tweach",
-   "twitchcontrol",
    "streaming",
-   "cracked"
+   "chat",
+   "emotes",
+   "video"
   ]
  },
  "tv.twitch.twitch": {
@@ -74273,6 +76474,25 @@
    "adblock",
    "streaming",
    "chat"
+  ]
+ },
+ "tw.tyche.voicetube": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "VoiceTube is an IPA compiled by the TTJB Team with Pro features added. The package has been tested and assembled by TTJB.",
+  "features": [
+   "Pro",
+   "Tested"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8d0e6cf6063418ab140325a5f67f31984ff8f78be3764847ae8817544de854b8",
+  "subtitle": "VoiceTube Pro IPA",
+  "tags": [
+   "voicetube",
+   "ipa",
+   "pro",
+   "ttjb",
+   "tested"
   ]
  },
  "tycoon.building.simulator.games.aldagames.com": {
@@ -74750,6 +76970,76 @@
    "engineer"
   ]
  },
+ "video.up.editor.maker": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Video Up! is a video editor and maker app. Version 3.2.0 includes subscription features unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4750ac8125545226b7c9f67e81f26bd9bbb1e529f22beb9bb268c13ca496b7da",
+  "subtitle": "Video Editor and Maker",
+  "tags": [
+   "video editor",
+   "video maker",
+   "editor",
+   "maker"
+  ]
+ },
+ "videoeditor.app": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "VideoStudio is a video editing application. This version has subscription features unlocked, providing access to premium editing tools and content without a recurring payment.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "894fc3ccc1b38e9ec5beadc560eddbddfba439dfa41b04b1ead55e64b2d95d34",
+  "subtitle": "Video editing with subscription features unlocked",
+  "tags": [
+   "video editing",
+   "unlocked",
+   "premium features"
+  ]
+ },
+ "vintage.photo.editor.retro.aesthetic.effect": {
+  "category": "photo-video",
+  "date": "2026-11-09",
+  "description": "Vintify is a photo and video app that includes premium features.",
+  "features": [
+   "Premium"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fc8635d3156fbfb4090f388ec7aef5396e72588e063616fb53489fac03639bfc",
+  "subtitle": "Vintify \u2013 photo & video editor with premium features",
+  "tags": [
+   "vintify",
+   "photo",
+   "video",
+   "premium",
+   "editor",
+   "app"
+  ]
+ },
+ "viral.vision.vids": {
+  "category": "other",
+  "date": "2026-11-09",
+  "description": "Vids is a video playback application that comes pre-injected with Pro features. Enjoy enhanced media playback capabilities and advanced controls built directly into the app.",
+  "features": [
+   "Injected Pro"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "68ce106bdc55c5747a3a76a074e30c14e806ae3064d1860de413345fa61a6b04",
+  "subtitle": "Video player with injected Pro features",
+  "tags": [
+   "vids",
+   "video",
+   "player",
+   "media",
+   "pro"
+  ]
+ },
  "vix.fitness": {
   "category": "utilities",
   "date": "2026-10-24",
@@ -74914,6 +77204,21 @@
    "threes",
    "ios",
    "game"
+  ]
+ },
+ "vpn.vpn.proxy": {
+  "category": "utilities",
+  "date": "2026-11-09",
+  "description": "VPNPremium by HertzSign iPA Library is deprecated and removed from the repository as of December 19, 2023.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "12f28519d1e425618f1ed71459e8a04db4c0ef494af6c2dbebef2216d8ad12dd",
+  "subtitle": "Deprecated VPN app removed from repo",
+  "tags": [
+   "vpn",
+   "deprecated",
+   "removed",
+   "utility"
   ]
  },
  "webelinx.EscapeRoom.Free.Portrait.Game.free2": {
@@ -75262,6 +77567,22 @@
    "fastsign",
    "certfish",
    "vault"
+  ]
+ },
+ "xyz.project.violet": {
+  "category": "entertainment",
+  "date": "2026-11-09",
+  "description": "Violet is an 18+ NSFW manga reader. The app downloads a database on first launch. It may freeze during initial setup; closing and reopening the app can resolve this. The developer notes the app is somewhat buggy.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c691c1cd6f9b8daa3295d9b79f043f6d2671737c4a8e3ab037262af4e317c81f",
+  "subtitle": "18+ NSFW manga reader app",
+  "tags": [
+   "manga",
+   "reader",
+   "nsfw",
+   "adult",
+   "18+"
   ]
  },
  "xyz.pythonplayer123.nekojb": {
