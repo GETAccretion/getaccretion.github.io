@@ -1298,24 +1298,25 @@
  },
  "app.concat.editor": {
   "category": "photo-video",
-  "date": "2026-11-05",
-  "description": "Concat is a free, open-source video editor for macOS, Windows, Linux and Android. It features auto-captions, text-to-speech, background removal, keyframe animation, effects and titles, multi-track cutting, and 4K export. It has no watermarks, requires no account, and has no subscriptions or uploads.\n\nEverything runs locally on a native Rust engine with a GPU compositor. AI models download once and work offline. Your footage never leaves your disk. It is suitable for TikTok, Reels, Shorts, YouTube videos, tutorials, screen recordings, podcast clips, and memes. It also includes a built-in MCP server for AI agents and a JSON-RPC API for scripts.",
+  "date": "2026-11-10",
+  "description": "Concat is a free, open-source video editor for macOS, Windows, Linux and Android. It covers auto-captions, text-to-speech, background removal, keyframe animation, effects and titles, multi-track cutting, and 4K export with no watermarks, accounts, subscriptions, or uploads. Everything runs locally on your machine. AI models download once and work offline. Good for TikTok, Reels, Shorts, YouTube videos, tutorials, screen recordings, podcast clips, and memes. Includes a built-in MCP server for AI agents and a JSON-RPC API for scripts.",
   "features": [
    "No Watermark",
-   "No Account",
    "No Subscription",
+   "Works Offline",
    "4K Export",
    "Open Source"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c8e5d6b885db9ec3aff3825c4ad6738b435d00b05456c3c2b4d6f2439b0731f9",
+  "src_hash": "005c5c079d13022181e152f0a44f2f7b41b60951aa1f22b8dc645fd72fc32d95",
   "subtitle": "Free open-source video editor",
   "tags": [
-   "video editor",
-   "open source",
-   "rust",
-   "video editing",
-   "editor"
+   "video",
+   "editor",
+   "captions",
+   "ai",
+   "open-source",
+   "cutting"
   ]
  },
  "app.cranberry.cure": {
@@ -2447,6 +2448,26 @@
    "lua",
    "love2d",
    "recomp",
+   "ios"
+  ]
+ },
+ "app.youplay.YouPlay": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "YouPlay includes the SatellaJailed tweak, which unlocks in\u2011app purchases in certain apps and games, and an Auto RevenueCat unlock feature. It is provided by iOSDecrypted and can be sideloaded using FastSign (CertFish).",
+  "features": [
+   "Unlock In-App Purchases",
+   "Auto RevenueCat Unlock"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3281e9f1853b06684c100c3792decf67fc13d35025aa28359ec99885ce55ca87",
+  "subtitle": "Unlock in-app purchases with Satella tweak",
+  "tags": [
+   "satella",
+   "iap",
+   "revenuecat",
+   "tweak",
+   "sideload",
    "ios"
   ]
  },
@@ -3607,20 +3628,21 @@
   ]
  },
  "co.airapps.waterreminder": {
-  "category": "utilities",
-  "date": "2026-11-05",
-  "description": "H2O is an iOS application for monitoring water and air quality. The app helps users track two critical environmental elements that impact health and wellbeing. Designed for iOS devices.",
-  "features": [],
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WaterAir is an app that has been modified to unlock subscription features. The original app functionality is not described in the source data.",
+  "features": [
+   "Subscription Unlocked"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "b01febc9cbf9df01f80557d7d17ca6d58cf15cbd04f1ef714491167332535f3c",
-  "subtitle": "Track water and air quality metrics",
+  "src_hash": "6385c5d075da6dae96c2a29981a31eee155656c59da64648ddd09871bbd862cd",
+  "subtitle": "WaterAir with subscription unlocked",
   "tags": [
    "water",
    "air",
-   "tracker",
-   "health",
-   "environment",
-   "monitoring"
+   "subscription",
+   "unlocked",
+   "modified"
   ]
  },
  "co.allconnected.speedtest": {
@@ -3784,37 +3806,38 @@
   ]
  },
  "co.codeleap.bearable": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Bearable is a symptom tracker application designed to help you monitor your health and well-being. This version requires iOS 15.1 or later. The app includes patched functionality and subscription modifiers.",
+  "features": [
+   "Symptom Tracker"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0e7051924657594feb09715604acec5cebe5eafafcd81cc561839950a6fe273c",
+  "subtitle": "Track symptoms and manage health records",
+  "tags": [
+   "symptom",
+   "tracker",
+   "health",
+   "wellness",
+   "medical"
+  ]
+ },
+ "co.detail.duo": {
   "category": "other",
   "date": "2026-11-10",
-  "description": "This version has been modified with subscription features unlocked. Original developer information is not available.",
+  "description": "This version of Detail has the subscription unlocked. No further details about the app's functionality are provided in the source.",
   "features": [
    "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "88b8d324e83d769dacf899c3afaeb3c78fe79f37fc75d8141fbba8b9eb5044e5",
-  "subtitle": "Subscription features unlocked",
+  "src_hash": "4aa62341c5db0f773e6dbba9ef014c71119a32a3c0d367b18b70955c10cae368",
+  "subtitle": "Subscription unlocked version",
   "tags": [
+   "detail",
    "subscription",
    "unlocked",
-   "utility",
    "modified"
-  ]
- },
- "co.detail.duo": {
-  "category": "photo-video",
-  "date": "2026-10-25",
-  "description": "Detail is an AI video editor for iOS developed by @blatants. This version includes subscription unlocked features and requires iOS 17.0 or later.",
-  "features": [
-   "Subscription Unlocked"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "f200834d134cf7ce9dd70b6e73f6acea805cc578a62c461c820d4896587444da",
-  "subtitle": "AI Video Editor",
-  "tags": [
-   "video editor",
-   "ai",
-   "editing",
-   "tools"
   ]
  },
  "co.findship.FindShip-Lite": {
@@ -5408,16 +5431,11 @@
  },
  "com.InputStreamPlayer": {
   "category": "utilities",
-  "date": "2026-10-28",
-  "description": "InputStream Player is a media player for your own playlists of live TV, movies and series on iPhone, iPad, Apple TV, Mac, and Android or Google TV. The app ships with no playlists, credentials or third-party keys, and is intended solely for content you are entitled to access. Features include live TV playback with an XMLTV guide, remote-control zapping, and catch-up functionality. It is available for verifiable distribution through SideStore.",
-  "features": [
-   "Live TV Guide",
-   "Remote-Control Zapping",
-   "Catch-Up Support",
-   "Multi-Platform"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "088cab8654b9a5c5bd909d26422ab5615b87d9c9dc05384ee8d367b3657313e5",
+  "date": "2026-11-10",
+  "description": "InputStream Player allows you to play your own playlists of live TV, movies, and series on iPhone, iPad, Apple TV, Mac, and Android or Google TV. The application ships with no playlists, credentials, or third-party keys, and is intended solely for content you are entitled to access. Verifiable releases, documentation, and sample playlists are supported.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "a618eb193880dd63983d437c610926252d41c8a7da4643d800a23bcd97c55fad",
   "subtitle": "Play your own live TV, movies and series playlists",
   "tags": [
    "player",
@@ -5425,7 +5443,7 @@
    "livetv",
    "movies",
    "series",
-   "media"
+   "streaming"
   ]
  },
  "com.InvisibleIsland.InvisibleIsland": {
@@ -6218,17 +6236,17 @@
  "com.SideStore.SideStore": {
   "category": "developer",
   "date": "2026-11-10",
-  "description": "SideStore is an untethered, community-driven alternative app store for non-jailbroken iOS devices. It resigns and installs .ipa files using your personal Apple ID and refreshes them in the background, removing the need for AltServer during sideloading.",
+  "description": "SideStore is an alternative app store for non-jailbroken devices. It allows you to sideload .ipa files and apps from the Files app or other sources without requiring a jailbreak.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "7ac42f16322f6f01ab60b24a7e05b34a247f7ac001580bb55a15dd0d78abe8ff",
-  "subtitle": "Alternative app store for non-jailbroken iOS devices",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a9aa75ed4d2f4f094a1847b1c09ba2e69b6244af294c260a7819c5db5d11ee7f",
+  "subtitle": "Alternative app store for non-jailbroken iOS",
   "tags": [
-   "sidestore",
-   "sideloading",
+   "alternative",
+   "app-store",
+   "sideload",
    "ipa",
-   "apps",
-   "altserver",
+   "non-jailbroken",
    "ios"
   ]
  },
@@ -9845,6 +9863,25 @@
    "create"
   ]
  },
+ "com.app.yousum": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YouSum is an AI-powered iOS app designed to transform long YouTube content into summaries for faster viewing.",
+  "features": [
+   "AI-powered",
+   "Content summarization"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5e44aa0f48ac8723f47a8fd6c90a4d71e7c479d39196fe3b7236b7c0b97b33f9",
+  "subtitle": "AI YouTube content summarizer",
+  "tags": [
+   "youtube",
+   "summarizer",
+   "ai",
+   "video",
+   "summary"
+  ]
+ },
  "com.appatakkars.lumy": {
   "category": "other",
   "date": "2026-10-29",
@@ -10341,6 +10378,22 @@
    "ps2",
    "emulator",
    "nightly",
+   "gaming",
+   "console"
+  ]
+ },
+ "com.armsx3.ARMSX3": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "ARMSX3 is an open-source PlayStation 3 emulator for iOS based on RPCS3. It requires an A14 or newer chip and iOS 17.4 or later. Running games requires JIT enabled via the built-in activator with paired files or StikDebug, along with user-provided PS3 system software and game ROMs which are not included. Re-signing with AltStore or SideStore preserves required entitlements. Starting from version 0.0.2, the bundle ID is changed to com.armsx3.ARMSX3, so users must manually export saves and settings using the backup and restore function from older versions before upgrading.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "80e3a5527afbba277eaf2d663b8d89e73d85f7e89107a92ef467e06f9b1bd7bf",
+  "subtitle": "PlayStation 3 emulator for iOS",
+  "tags": [
+   "emulator",
+   "ps3",
+   "rpcs3",
    "gaming",
    "console"
   ]
@@ -12533,6 +12586,23 @@
    "tools"
   ]
  },
+ "com.breakthroughapps.Mary-Ochsner-Yoga": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Yoga+ by Mary is a calming, professionally designed iOS app that supports yoga practice, improves flexibility, and encourages mindful living.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "763985741652280c716132063561f970497c2f5524c7eb167827510d39f3da05",
+  "subtitle": "Calming yoga app for practice and mindful living",
+  "tags": [
+   "yoga",
+   "flexibility",
+   "mindfulness",
+   "wellness",
+   "exercise",
+   "meditation"
+  ]
+ },
  "com.breathwrk.ios": {
   "category": "lifestyle",
   "date": "2026-10-29",
@@ -12757,39 +12827,43 @@
  },
  "com.burbn.barcelona": {
   "category": "social",
-  "date": "2026-11-07",
-  "description": "Threads is a social application described as injected with premium features. The source indicates this version includes premium functionality.",
+  "date": "2026-11-10",
+  "description": "Modified Threads app version 441.0.0 that includes ThreadSaver by @swiftLeopard and OpeninThreadsSafariExtension. Extension fixes provided by @erupts0. Published by @compiledipas.",
   "features": [
-   "Premium Unlocked"
+   "ThreadSaver included",
+   "Safari extension included",
+   "Extension fixes"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "d339affda29a03985460d0334937a2d828011ff14b957521699b7ab077545f49",
-  "subtitle": "Social app with premium features",
+  "src_hash": "899948e16b3cb31e1ea8db72271cbde01c4d0419b31e72dce36fce9870c78ad0",
+  "subtitle": "ThreadSaver with Safari extension",
   "tags": [
-   "social",
    "threads",
-   "premium",
-   "messaging",
-   "communication"
+   "threadsaver",
+   "safari",
+   "extension",
+   "social",
+   "meta"
   ]
  },
  "com.burbn.instagram": {
   "category": "social",
-  "date": "2026-11-06",
-  "description": "Instagram is a social media app. This version includes premium features.",
+  "date": "2026-11-10",
+  "description": "RyukGram version 1.3.3 based on Instagram 441.0.0. This is a sideloaded variant with no plugins for Sidestore or AltStore. Sideloaded for Feather. Bug reports are directed to the bug reports channel.",
   "features": [
-   "Premium Unlocked"
+   "No Sidestore/AltStore plugins",
+   "Sideloaded for Feather"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "722388a574258c446b4db94fbe2dfb96050f9ac7fdd3a7ed8b25aa6ebdff34c1",
-  "subtitle": "Instagram with Premium features",
+  "src_hash": "f9c9d0675c2c7b032d4006071972e103c8944c40d368fe57588bc24ec179a4f7",
+  "subtitle": "RyukGram v1.3.3 \u2022 Instagram v441.0.0",
   "tags": [
    "instagram",
+   "ryukgram",
+   "sideloaded",
    "social",
-   "premium",
-   "photo",
-   "video",
-   "sharing"
+   "modified",
+   "feather"
   ]
  },
  "com.busuu.english.app": {
@@ -15876,6 +15950,22 @@
    "free iap",
    "modified",
    "spill it"
+  ]
+ },
+ "com.cyberlink.youperfect": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YouCam Perfect Beauty Camera IPA MOD iOS app comes in. With its wide range of features and user-friendly interface, YouCam Perfect is",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4d9e3344d5f63e1f2270874add23fc727a6a7164eaba2c25bc8b770a808b3f10",
+  "subtitle": "Beauty Camera IPA MOD for iOS",
+  "tags": [
+   "beauty",
+   "camera",
+   "ipa",
+   "mod",
+   "ios"
   ]
  },
  "com.d3p.olympic": {
@@ -19575,22 +19665,20 @@
   ]
  },
  "com.evolve.helm": {
-  "category": "lifestyle",
-  "date": "2026-11-04",
-  "description": "Rest helps users improve their sleep patterns. This version includes subscription features unlocked and is patched for use. Version 3.197.0.",
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "This version of Rest has the subscription unlocked via injection.",
   "features": [
    "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "72f35c5e84905aa1b377a9ae6f9e96dd65fb59f61b0f33b0aa19e2ab06bc28d3",
-  "subtitle": "Fix Your Sleep For Good",
+  "src_hash": "fd222e2da84dbbc867e30790c785734e6b739eb176d086b88550336c895c4247",
+  "subtitle": "Subscription unlocked version",
   "tags": [
-   "sleep",
-   "health",
-   "wellness",
+   "rest",
    "subscription",
-   "patched",
-   "rest"
+   "unlocked",
+   "injected"
   ]
  },
  "com.evolve.podcast": {
@@ -19645,6 +19733,25 @@
    "video",
    "ipad",
    "iphone"
+  ]
+ },
+ "com.example.HermesEnabler": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "HermesEnabler allows you to enable Herm\u00e8s and Ultra watch faces on any Apple Watch. It includes display, sensor, and Siri tweaks powered by MobileGestalt changes, as well as automatic backups. This tool requires watchOS 27.0 through 27.3 beta 1.",
+  "features": [
+   "Automatic Backups"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "6a175cf87e69b3d9a591bf3dffe45ce32aceab36f3c4687af3d9cd80fd28811a",
+  "subtitle": "Enable Hermes and Ultra watch faces on Apple Watch",
+  "tags": [
+   "apple watch",
+   "watch faces",
+   "hermes",
+   "ultra",
+   "mobilegestalt",
+   "watchos"
   ]
  },
  "com.example.Mirarr": {
@@ -22606,20 +22713,23 @@
   ]
  },
  "com.getmimo.mimo": {
-  "category": "other",
+  "category": "developer",
   "date": "2026-11-10",
-  "description": "This version of Mimo has been injected with Pro features. Original developer information is not available. The app is categorized as other in the source data.",
+  "description": "Mimo: Learn Coding/Programming version 12.21.0. Requires iOS 17.0 or later. This patched version includes the Max Subscrip modifier unlocking subscription features. Bundle identifier: com.getmimo.mimo.",
   "features": [
-   "Injected with Pro"
+   "Unlocked Subscription",
+   "Patched Version"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "318dd8a86ee00bdff5693f3f975707f55208fc47577160237f7365a9e1ddba85",
-  "subtitle": "Mimo - Injected with Pro features",
+  "src_hash": "c277a18c03ea7ccc5719ae6830d632a366f55c1451da52cc4213bb899b24a05a",
+  "subtitle": "Learn coding and programming skills",
   "tags": [
-   "mimo",
-   "pro",
-   "injected",
-   "modified"
+   "coding",
+   "programming",
+   "learn",
+   "education",
+   "swift",
+   "python"
   ]
  },
  "com.getmotobit.motobit": {
@@ -22836,6 +22946,20 @@
    "poc",
    "customization",
    "system"
+  ]
+ },
+ "com.ginsu.ytmusicultimate": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "A tweaked version of YouTube Music.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "503512c77c8ab272a534e6650a9cf37400890f9a6868a7ac6d15fe0bc46996b5",
+  "subtitle": "Tweaked YouTube Music client",
+  "tags": [
+   "youtube",
+   "music",
+   "tweaked"
   ]
  },
  "com.ginsudev.WDBFontOverwrite": {
@@ -23476,6 +23600,23 @@
    "web"
   ]
  },
+ "com.google.ios.youtube": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YTLite + Tweaks is a modified version of YouTube enhanced with YTLite by developer dayanch96. The app provides an alternative YouTube viewing experience with additional tweaks and modifications built on top of the YTLite foundation.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7ed6943040f7e121f51247d119537b8bbd1c5d4a812cb6366fc9e183966cddfd",
+  "subtitle": "Modified YouTube client with YTLite enhancements",
+  "tags": [
+   "youtube",
+   "modified",
+   "ytlite",
+   "video",
+   "player",
+   "tweaks"
+  ]
+ },
  "com.google.ios.youtube.asjtube.1.4.0": {
   "category": "photo-video",
   "date": "2026-10-15",
@@ -23689,6 +23830,70 @@
    "dislike counts"
   ]
  },
+ "com.google.ios.youtube.music.maxmusic.all": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "MaxMusic is a modified version of YouTube Music (version 1.3) that adds several community-developed tweaks. Included modifications: Return YouTube Music Dislikes (forked by Mark02-2012), Last.fm scrobbling (by Mark02-2012), volume boost, picture-in-picture playback (YouMusicPiP), YTMABConfig, and downloading capability. The tweaks are sourced from the YTMUltimatePLUS project on GitHub. Installation requires sideloading via CertFish/FastSign.",
+  "features": [
+   "Return Dislikes",
+   "Last.fm Scrobbling",
+   "Volume Boost",
+   "Picture-in-Picture",
+   "Downloading"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bd3e4a3cf113743ca93d0dd3c404649fee1570e70201003bc21c56671e842cfb",
+  "subtitle": "Modded YouTube Music with extra features",
+  "tags": [
+   "youtube music",
+   "mod",
+   "scrobbling",
+   "pip",
+   "download",
+   "tweak"
+  ]
+ },
+ "com.google.ios.youtube.music.maxmusic.all.no.ymp": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "MaxMusic is a modded version of YouTube Music that includes several built-in tweaks. Features include Return-YouTube-Music-Dislikes, YTMABConfig, Last.FM scrobbling, VolumeBoostYT, and downloading capabilities.",
+  "features": [
+   "Return Dislikes",
+   "Last.FM scrobbling",
+   "Volume Boost",
+   "Downloading"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "d4c4de4278cd0a9ad3c6f65bd7fbfab272cfe82fb50f4f6ad355046692071926",
+  "subtitle": "Modded version of YouTube Music with custom tweaks",
+  "tags": [
+   "music",
+   "streaming",
+   "mod",
+   "audio",
+   "youtube"
+  ]
+ },
+ "com.google.ios.youtube.music.maxmusic.no.last.fm": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "MaxMusic is a modded version of YouTube Music that includes several built-in tweaks. It features ReturnYouTubeMusicDislikes to bring back dislike counts, VolumeBoostYT for audio enhancement, YTMABConfig, and YTMusicUltimate with downloading capabilities. This application is designed for users looking for an enhanced music streaming experience with integrated modifications.",
+  "features": [
+   "Dislike count restoration",
+   "Volume boost",
+   "Downloading support"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "ac5680983370c9a4879282263ee52b42f67b75430c4172dc2aa5d451a2b8c7d9",
+  "subtitle": "Modded YouTube Music client with tweaks",
+  "tags": [
+   "music",
+   "streaming",
+   "mod",
+   "audio",
+   "youtube"
+  ]
+ },
  "com.google.ios.youtube.music.maxmusic.no.youmusicpip": {
   "category": "photo-video",
   "date": "2026-10-30",
@@ -23710,6 +23915,44 @@
    "download",
    "tweaks",
    "music player"
+  ]
+ },
+ "com.google.ios.youtube.music.maxmusic.no.youmusicpip.no.last.fm": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "MaxMusic is a modded version of YouTube Music that includes several tweaks and features. It features ReturnYouTubeMusicDislikes to show dislike counts, VolumeBoostYT for audio enhancement, YTMABConfig, and YTMusicUltimate. The application also supports downloading music. This release includes Return-YouTube-Music-Dislikes, YTMABConfig, VolumeBoostYT, and downloading capabilities.",
+  "features": [
+   "Return YouTube Dislikes",
+   "Volume Boost",
+   "Downloading",
+   "Custom Tweaks"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "319adca941c7fda02561e8dfe19ca8e534390cfa6534801d02599cdd71bd8909",
+  "subtitle": "Modded YouTube Music app with built-in tweaks",
+  "tags": [
+   "music",
+   "mod",
+   "streaming",
+   "audio",
+   "tweaks"
+  ]
+ },
+ "com.google.ios.youtube.music.ytmusicultimate.mark02.2012": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "Modded version of YouTube Music. Additional information available on GitHub. Distributed via FastSign sideloading service operated by CertFish.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c3e9689006f954ad5313b5a5a5b499a7e9a761b14bd4f7a5813641f0a1e267d2",
+  "subtitle": "Modded YouTube Music client",
+  "tags": [
+   "ytmusic",
+   "youtube",
+   "music",
+   "mod",
+   "modded",
+   "sideload"
   ]
  },
  "com.google.ios.youtube.sy.2.0.patched": {
@@ -23750,6 +23993,549 @@
    "pip",
    "quality",
    "caption"
+  ]
+ },
+ "com.google.ios.youtube.youmod.1.3.0.moe.21.24.3": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YouMod is a modified version of YouTube (21.24.3) that includes several tweaks: DontEatMyContent, iSponsorBlock for skipping sponsored segments, sideloadFixerLol for sideloading fixes, YouChooseQuality for manual quality selection, and YouGro. The package is distributed via CertFish's FastSign sideloading service.",
+  "features": [
+   "Sponsor Block",
+   "Quality Selection",
+   "Sideload Fixes",
+   "Content Protection",
+   "Extra Tweaks"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "594e834a12ca7c690186ca6c9fd4c05f6f88e3a3f3c1b2fb2429a79cbb00a082",
+  "subtitle": "Modded YouTube with sponsor block and quality controls",
+  "tags": [
+   "youtube",
+   "mod",
+   "sponsorblock",
+   "video",
+   "player",
+   "tweaks"
+  ]
+ },
+ "com.google.ios.youtube.youmod.2.0.0.ballermc": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "This is a modified version of the YouTube app created by Tonwalter888. It is distributed for sideloading via CertFish.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2c2117d230c50298eedf494cf85bbecfbafe502d89bedb9bb5e7e43ff053ba95",
+  "subtitle": "Modded YouTube client by Tonwalter888",
+  "tags": [
+   "youtube",
+   "mod",
+   "sideload",
+   "certfish",
+   "tonwalter888",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.youmod.2.0.0.ballermc.ios16": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YouMod is a modified version of the YouTube app created by Tonwalter888. It supports iOS 16 and later.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "37dfd58ff12798614fb761beaf5682d433363f145f85ea94cece8efc3e93b18d",
+  "subtitle": "Modded YouTube for iOS 16+",
+  "tags": [
+   "youtube",
+   "mod",
+   "ios16",
+   "video",
+   "streaming",
+   "modified"
+  ]
+ },
+ "com.google.ios.youtube.youmod.2.0.0.drifty": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YouMod is a modified version of the YouTube app created by Tonwalter888. This release includes version 2.0.0 with additional bonus tweaks labeled Drifty. The mod alters the standard YouTube experience on iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2b21da61bc92bee4f6b0b4a6a5a24214d525d0ff20478efcd481a2659a622717",
+  "subtitle": "Modded YouTube with bonus tweaks",
+  "tags": [
+   "youtube",
+   "mod",
+   "tweaks",
+   "video",
+   "streaming",
+   "custom"
+  ]
+ },
+ "com.google.ios.youtube.youmod.2.0.0.ipavault": {
+  "category": "entertainment",
+  "date": "2026-11-10",
+  "description": "This is a modded version of YouTube created by Tonwalter888. Includes bonus tweaks via IPAVault. Requires sideloading via FastSign or CertFish.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "747e5ef78fa74012ee3b9af1d81fe1f1aea91dabe853637e3c4c2b80bf7244aa",
+  "subtitle": "Modded YouTube by Tonwalter888",
+  "tags": [
+   "youtube",
+   "mod",
+   "modded",
+   "sideload",
+   "ipa",
+   "tweaks"
+  ]
+ },
+ "com.google.ios.youtube.youmod.2.0.0.jayden": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YouMod is a modded version of YouTube created by Tonwalter888. This release includes bonus tweaks by Jayden. The app is distributed via FastSign, operated by CertFish, and can be sideloaded through cert.fish.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "24abdb16ee88dc968853256ee8b868a7a39b9ac6c869df2255d62457a865bbb6",
+  "subtitle": "Modded YouTube with bonus tweaks",
+  "tags": [
+   "youtube",
+   "mod",
+   "tweaks",
+   "sideload",
+   "certfish",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.youmod.2.0.0.mrdrvt99": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "A modified version of the YouTube app created by Tonwalter888 with additional bonus tweaks by mrdrvt99. This is a sideloaded alternative to the official YouTube application.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8a80a1d35b466fb2785feecaad2d64fcf8d0d7d829cc39aad6434e0a51614f39",
+  "subtitle": "Modded YouTube with bonus tweaks",
+  "tags": [
+   "youtube",
+   "modded",
+   "video",
+   "streaming",
+   "sideload",
+   "tweaks"
+  ]
+ },
+ "com.google.ios.youtube.youpro.1.3.2.ipastar": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "This is a modified version of the YouTube app that includes YouPro functionality. It is distributed as a sideloadable package for iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "03d39930bf57865de2dfc9f1d732dbbb1023b85c2feedf72ab5c50e57e8fa5f4",
+  "subtitle": "Modded YouTube with YouPro features",
+  "tags": [
+   "youtube",
+   "modded",
+   "video",
+   "streaming",
+   "youpro",
+   "client"
+  ]
+ },
+ "com.google.ios.youtube.youproextra.0.3.moe.21.24.3.patched": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "This is a modded version of YouTube (version 21.24.3) that includes several tweaks: DontEatMyContent, iSponsorBlock for skipping sponsored segments, sideloadFixerLol for sideloading fixes, YouChooseQuality for video quality selection, and additional YouGr tweaks. The app is patched for sideload installation on iOS.",
+  "features": [
+   "Sponsor Block",
+   "Quality Selector",
+   "Sideload Fix",
+   "Content Protection",
+   "Patched Build"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "616f85c041fdf1e0b4a10a6cac04bf9720c690cd8734d9063210125eaa0cad9b",
+  "subtitle": "Modded YouTube with sponsor block and quality controls",
+  "tags": [
+   "youtube",
+   "modded",
+   "tweaks",
+   "sideload",
+   "ipa",
+   "ios"
+  ]
+ },
+ "com.google.ios.youtube.ytkace.1.1.5": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YTKACE is a modded version of YouTube. The source code is hosted on GitHub. The app can be sideloaded using FastSign, a service operated by CertFish.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "18ea14a4ebb10a58dee29b2f1fa5b36bf05d4dcb93cdb4ad3c2d3a2abb752e95",
+  "subtitle": "Modded YouTube client",
+  "tags": [
+   "youtube",
+   "modded",
+   "sideload",
+   "certfish",
+   "fastsign",
+   "github"
+  ]
+ },
+ "com.google.ios.youtube.ytkace.1.1.5.bonus.ipavault.ios16": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YTKACE is a modified version of YouTube for iOS 16 and later. It includes the following tweaks: YTABConfig, YTweaks, YouPIP, VolumeBoostYT, DontEatMyContent, and ReturnYouTube. The app is sideloaded using FastSign from CertFish.",
+  "features": [
+   "YTABConfig",
+   "YTweaks",
+   "YouPIP",
+   "VolumeBoostYT",
+   "DontEatMyContent"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cb59cacd5eea80c1801893ca168d355d536a170299f1938cb27521b3b53b32ff",
+  "subtitle": "Modded YouTube with custom tweaks",
+  "tags": [
+   "youtube",
+   "modded",
+   "tweaks",
+   "ios",
+   "sideload",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.ytkace.1.1.5.ios16": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YTKACE is a modded version of the YouTube app that works on iOS 16 and later devices. The source code is available on GitHub at github.com/itzzace/YTKACE. This app requires sideloading to install on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "577245e8914ea231d66f372582e7a3a2b3d597aeed840fe919c1ecf3bf5d6310",
+  "subtitle": "Modded YouTube client for iOS 16+",
+  "tags": [
+   "youtube",
+   "modded",
+   "ios16",
+   "video",
+   "player",
+   "sideload"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.bonus.itzzace0.5.7.6": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "Cracked version of YTKillerPlus that removes the paywall. Includes additional tweaks: DontEatMyContent, Gonerino, and SideloadKeychainFix. Sideloading facilitated through FastSign operated by CertFish.",
+  "features": [
+   "No Paywall",
+   "DontEatMyContent",
+   "Gonerino",
+   "SideloadKeychainFix"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9e7b0789a88216b396c2f4e076a96944e91c1403b308bfbce6b30388f452b829",
+  "subtitle": "Cracked YouTube tweak with bonus features",
+  "tags": [
+   "youtube",
+   "tweak",
+   "cracked",
+   "sideload",
+   "certfish",
+   "youtubekiller"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.canpng.6.6.4": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "This is the cracked version of YTKillerPlus, removing the paywall. Sidestore is no longer supported. FastSign is operated by CertFish. The app can be sideloaded via cert.fish.",
+  "features": [
+   "Cracked",
+   "No Paywall",
+   "Sideload"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7054d76acb3ec32f19f2ed5c6189d2c342e22135fd110c3f464d5a27c698846b",
+  "subtitle": "Cracked YTKillerPlus without paywall",
+  "tags": [
+   "youtube",
+   "ytkillerplus",
+   "cracked",
+   "sideload",
+   "certfish",
+   "fastsign"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.itzzace0.5.7.6": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YTKillerPlus Cracked is a modified version of YTKillerPlus that removes the paywall. The app is distributed through FastSign, a sideloading service operated by CertFish. Users can install it via the CertFish website.",
+  "features": [
+   "No Paywall",
+   "Sideloaded"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b7e1d7ca0de3f912540c85e5fb1a98327fdeaa4efd4aa64cdfff0cb3e25d42fa",
+  "subtitle": "Cracked YouTube client without paywall",
+  "tags": [
+   "youtube",
+   "cracked",
+   "sideload",
+   "video",
+   "player",
+   "mod"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.itzzace0.5.8.8": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YTKillerPlus Cracked is a modified version of YTKillerPlus with the paywall removed. The app requires a paid developer certificate to function and is sideloaded via FastSign operated by CertFish.",
+  "features": [
+   "No Paywall",
+   "Cracked Version"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "41e5b10bac469349e9ecdf47fdfd8f62b4cc5c7ebd553d001dc0100cc59baa20",
+  "subtitle": "Cracked YouTube mod without paywall",
+  "tags": [
+   "youtube",
+   "mod",
+   "cracked",
+   "sideload",
+   "video",
+   "player"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.itzzace0.5.9.4.bonus": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YTKillerPlus Cracked removes the paywall from the original tweak. Requires a paid developer certificate to function. Includes bonus tweaks such as DontEa. Distributed for sideloading via CertFish FastSign service.",
+  "features": [
+   "No Paywall",
+   "Bonus Tweaks",
+   "Requires Dev Cert"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f32d37e23d0f65d5426c890de6ef9863e3b134584a1dcdb50e84d41ae2adda5e",
+  "subtitle": "Cracked YouTube tweak with bonus features",
+  "tags": [
+   "youtube",
+   "tweak",
+   "cracked",
+   "sideload",
+   "certfish",
+   "dev-cert"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.13.0": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "This is the cracked version of YTKillerPlus with the paywall removed. Sideloading is supported via CertFish.",
+  "features": [
+   "Cracked",
+   "No Paywall",
+   "Sideload Support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "988434506acc6e24559f0f46601cff2489119deda35541d8998264e71100813c",
+  "subtitle": "Cracked YouTube client without paywall",
+  "tags": [
+   "ytkillerplus",
+   "cracked",
+   "youtube",
+   "sideload",
+   "certfish",
+   "paywall"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.14.0": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "This is the cracked version of YTKillerPlus, a YouTube client that removes the paywall. The app is distributed for sideloading via CertFish.",
+  "features": [
+   "Cracked",
+   "No Paywall"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "af50f7ec8f79eb4149a0370386862b27aaf3094f6ac76ddea864ff8a27295344",
+  "subtitle": "Cracked YouTube client with no paywall",
+  "tags": [
+   "youtube",
+   "cracked",
+   "sideload",
+   "video",
+   "player",
+   "no-paywall"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.19.0": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "Cracked version of YTKillerPlus without paywall.",
+  "features": [
+   "Cracked",
+   "No Paywall"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c57c730cf279d8ea2cc86758beb468fe0e39bf721da1661b8f2183348424db89",
+  "subtitle": "Cracked YouTube client without paywall",
+  "tags": [
+   "youtube",
+   "cracked",
+   "client",
+   "paywall",
+   "sideload",
+   "youtubekillerplus"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.21.0": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "This is the cracked version of YTKillerPlus that removes the paywall. FastSign is operated by CertFish for easy sideloading via cert.fish.",
+  "features": [
+   "No Paywall"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "15881055c33f5659cd39ffab167718269dbfc14016d01a15988d56b3104b6fc7",
+  "subtitle": "Cracked YouTube client without paywall",
+  "tags": [
+   "youtube",
+   "client",
+   "cracked",
+   "sideload",
+   "video",
+   "player"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.5.2.2.21.16.2": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "This is a cracked version of YTPlus with Patreon DRM removed. The modification was created by Zarzel (shinewake). The app is downgraded to version 21.16.2. Sideloading is facilitated through CertFish's FastSign service.",
+  "features": [
+   "DRM Removed",
+   "Downgraded Version"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "faefc70ce61534f97ef000bff19a9b0f3c4fd81b1773f6a19d86577dc3482948",
+  "subtitle": "Cracked YouTube client without Patreon DRM",
+  "tags": [
+   "youtube",
+   "cracked",
+   "ytplus",
+   "sideload",
+   "video",
+   "modified"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.5.2.2.21.24.3": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "This is a cracked version of YTPlus that removes the Patreon DRM. It was cracked by Zarzel (shinewake) and updated to version 21.24.3.",
+  "features": [
+   "Cracked",
+   "No Patreon DRM",
+   "Version 21.24.3"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3f6b14ab82b2187a7795fb5878237a4aa24ca3edefa38087dd9995aab0860960",
+  "subtitle": "Cracked YTPlus v21.24.3 without Patreon DRM",
+  "tags": [
+   "youtube",
+   "ytplus",
+   "cracked",
+   "downgraded",
+   "21.24.3",
+   "sideload"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.ios15": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YTPlus/YTLite Cracked version 6.0 for iOS 15 and later. This build removes the Dan Account System DRM originally present in YTPlus. Cracked by Spy_G. Installation requires sideloading via CertFish FastSign service.",
+  "features": [
+   "DRM Removed",
+   "Cracked Build",
+   "iOS 15+ Support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "79d43d35a72f833c5f367dfb272429c73e6894a690154f0c4d229b91eff3a9ad",
+  "subtitle": "Cracked YouTube client with DRM removed",
+  "tags": [
+   "youtube",
+   "cracked",
+   "sideload",
+   "dr-free",
+   "ytplus",
+   "ytlite"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.ios16": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "Cracked version of YTPlus without the Dan Account System DRM, cracked by Spy_G.",
+  "features": [
+   "No DRM",
+   "Cracked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "22464e2cd97ef59054ae3f163b390f29c2546e495924e6f478094b22786ba4b7",
+  "subtitle": "Cracked YTPlus for iOS 16+",
+  "tags": [
+   "youtube",
+   "ytplus",
+   "cracked",
+   "ios",
+   "sideload",
+   "video"
+  ]
+ },
+ "com.google.ios.youtubeliteplus": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "YouTubeLitePlus is a YouTube client that includes the YouTubeLitePlus tweak. It does not work on SideStore or AltStore.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ed778edb83cef86828d2cb7d77217239bbcdeef54bba912fda7ef36f83535739",
+  "subtitle": "YouTube client with LitePlus tweak",
+  "tags": [
+   "youtube",
+   "liteplus",
+   "tweak",
+   "sideload",
+   "altstore",
+   "ios"
+  ]
+ },
+ "com.google.ios.youtubemusic": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "Modified YouTube Music (YTM v9.31.4) packaged as YTMusicUltimate+ v2.4.1. Includes injected tweaks: Return YouTube Music Dislikes, YTMABConfig, and VolumeBoost. YouMusicPiP removed.",
+  "features": [
+   "Return YouTube Music Dislikes",
+   "YTMABConfig",
+   "VolumeBoost"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "696560309f416fa39f42d8a85d79048b90f9dc162a17be411dbf81849845f59b",
+  "subtitle": "YouTube Music with tweaks",
+  "tags": [
+   "youtube",
+   "music",
+   "player",
+   "tweak",
+   "ipa",
+   "mod"
+  ]
+ },
+ "com.google.ios.ytliteplus": {
+  "category": "entertainment",
+  "date": "2026-11-10",
+  "description": "YTLitePlus is a YouTube client for iOS that includes YouTube Plus (formerly YTLite) and additional tweaks. It provides an enhanced YouTube experience with modifications.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a11fdd20694fe62c8ec22337df41944862671509cebb70c4c4e2faab60160bcc",
+  "subtitle": "YouTube for iOS with Plus tweaks",
+  "tags": [
+   "youtube",
+   "plus",
+   "tweaks",
+   "ios",
+   "video",
+   "player"
   ]
  },
  "com.google.photos": {
@@ -25366,6 +26152,22 @@
    "game"
   ]
  },
+ "com.hghub.huangguo": {
+  "category": "entertainment",
+  "date": "2026-11-10",
+  "description": "HGhub \u662f\u4e00\u6b3e\u652f\u6301\u6a2a\u5c4f\u548c\u7ad6\u5c4f\u6a21\u5f0f\u7684\u5237\u5267\u5e94\u7528\u3002\u5e94\u7528\u63d0\u4f9b\u5185\u5bb9\u63a8\u8350\u6d41\u3001\u70ed\u95e8\u699c\u5355\u3001\u641c\u7d22\u529f\u80fd\u4ee5\u53ca\u9009\u96c6\u548c\u7eed\u64ad\u652f\u6301\u3002\u5b89\u88c5\u5305\u672a\u7ecf\u7b7e\u540d\uff0c\u9700\u81ea\u884c\u7b7e\u540d\u540e\u5b89\u88c5\u3002\u672c\u9879\u76ee\u57fa\u4e8e PolyForm Noncommercial 1.0.0 \u534f\u8bae\u53d1\u5e03\uff0c\u7981\u6b62\u7528\u4e8e\u4efb\u4f55\u5546\u4e1a\u7528\u9014\u3002",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "613b0e72215f6a0bcb3cc72f4c77a653d249f47b5019323b2b3bdd923d886f09",
+  "subtitle": "\u6a2a\u7ad6\u5c4f\u5237\u5267\u5e94\u7528\uff0c\u652f\u6301\u63a8\u8350\u3001\u699c\u5355\u4e0e\u7eed\u64ad",
+  "tags": [
+   "hghub",
+   "\u5237\u5267",
+   "\u89c6\u9891",
+   "\u64ad\u653e\u5668",
+   "\u8ffd\u5267"
+  ]
+ },
  "com.hhp.magicEraser": {
   "category": "other",
   "date": "2026-10-29",
@@ -25835,6 +26637,27 @@
    "utility",
    "ios",
    "modification"
+  ]
+ },
+ "com.huami.gestultx": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "GestaltX is a MobileGestalt editor for iOS 27.x. It features region-code and sales-region tweaks, device presets, backups, and a typed field editor. Powered by worse_query. Requires iOS 27 for on-device MobileGestalt access and a common App Group when re-signing.",
+  "features": [
+   "Backups",
+   "Device Presets",
+   "Typed Field Editor"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "da155fddcbb19b69655918ad4719f9d02c9d459f1cfc16ca4793fb0160287df6",
+  "subtitle": "MobileGestalt editor for iOS 27.x",
+  "tags": [
+   "mobilegestalt",
+   "editor",
+   "ios",
+   "tweaks",
+   "backups",
+   "gestaltx"
   ]
  },
  "com.hubx.imagination": {
@@ -26351,20 +27174,22 @@
   ]
  },
  "com.iaftt.flightplusfree": {
-  "category": "utilities",
-  "date": "2026-10-27",
-  "description": "Flight Tracker allows you to monitor flights easily. This version includes a subscription unlock and is patched for use on iOS 16.0 and later.",
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "FlightTracker provides flight tracking with the subscription unlocked.",
   "features": [
-   "Subscription Unlock"
+   "Subscription Unlocked"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "1014aeafd67b1a7c3345abbdf19e6623a63adf2d2ab1e1c459c26e12fd22e9e0",
-  "subtitle": "Track flights with subscription unlock",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "65f0be72b4f11abed263060de73bad589dd334a542a1766695296b71d16b3b14",
+  "subtitle": "Track flights with unlocked subscription",
   "tags": [
    "flight",
    "tracker",
-   "flights",
-   "travel"
+   "subscription",
+   "unlocked",
+   "travel",
+   "tracking"
   ]
  },
  "com.ianclawson.DeltaPacEdition": {
@@ -26514,18 +27339,22 @@
  },
  "com.ideation.Stress": {
   "category": "other",
-  "date": "2026-11-09",
-  "description": "StressWatch: Injected with Subscription Unlocked.",
+  "date": "2026-11-10",
+  "description": "StressWatch is an AI-powered stress monitoring app. Bundle ID: com.ideation.Stress. Current version: 3.3.1. Requires iOS 15.0 or later. The build is patched and uses a subscription modifier.",
   "features": [
-   "Subscription Unlocked"
+   "Patched",
+   "Subscription"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "c725b0dafe2276d170b6e4e4b5d5985a0c9923131c995f41f48903b0bbda6683",
-  "subtitle": "Subscription Unlocked",
+  "src_hash": "5316902a0aa0b38a26c9270c33ef444dce0be1da9b19a76aa60e007536cd29ca",
+  "subtitle": "AI Stress Monitor",
   "tags": [
-   "stresswatch",
-   "subscription",
-   "unlocked"
+   "stress",
+   "monitor",
+   "ai",
+   "ios",
+   "patched",
+   "subscription"
   ]
  },
  "com.identification.plant": {
@@ -26566,22 +27395,22 @@
   ]
  },
  "com.idevtal.Wallpapers": {
-  "category": "other",
-  "date": "2026-10-27",
-  "description": "This version of ImgAI has the subscription unlocked.",
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Unblink is an iOS application with subscription features unlocked. The modified version provides access to premium functionality without requiring an active subscription.",
   "features": [
    "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "0cb2ce545f952dba8c8a1487fa2ff4cf5c43e27c1977472038be244cf8de02c0",
-  "subtitle": "Subscription unlocked version",
+  "src_hash": "6109471830a8e3d420fcac83c306373ccc77bddb7996286992feba2a73aa8cc7",
+  "subtitle": "Subscription features unlocked",
   "tags": [
-   "imgai",
+   "unblink",
    "subscription",
    "unlocked",
-   "ai",
-   "image",
-   "photo"
+   "premium",
+   "ios",
+   "utility"
   ]
  },
  "com.idle.dog.hotel.tycoon": {
@@ -26720,6 +27549,26 @@
    "grounded",
    "health",
    "support"
+  ]
+ },
+ "com.iflow.lastbeacon.ios": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Last Beacon: Survival. Hack features include Never Die (survive any encounter unharmed) and Damage Multiplier (amplify combat effectiveness).",
+  "features": [
+   "Never Die",
+   "Damage Multiplier"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "03bba925460503c19fbbc9ecd7a7a3f13147377808016a289f7d41362be85ba8",
+  "subtitle": "Survival with never die and damage multiplier",
+  "tags": [
+   "survival",
+   "hack",
+   "neverdie",
+   "damagemultiplier",
+   "game",
+   "mod"
   ]
  },
  "com.ifttt.ifttt": {
@@ -31201,6 +32050,22 @@
    "ios"
   ]
  },
+ "com.ipaomtk.yacyn.tv.159878": {
+  "category": "entertainment",
+  "date": "2026-11-10",
+  "description": "Yacyn TV is an iOS application package designed to bring live TV streaming and IPTV channels to your device.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2b82dfc595cf0a1f818cf2d237e4ce1bf5d87e08afc9c157cf2ef9ea3094bb41",
+  "subtitle": "Live TV streaming and IPTV channels",
+  "tags": [
+   "live tv",
+   "iptv",
+   "streaming",
+   "tv channels",
+   "ios app"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -31631,6 +32496,23 @@
    "voice",
    "languages",
    "tools"
+  ]
+ },
+ "com.itspector.yardrage": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Yard Rage is a satirical HOA game from ITSpector LLC. Play as a board member who patrols the neighborhood, investigates complaints, photographs evidence, manages residents, navigates board politics, and attempts to keep your seat. Requires iOS 13 or later. Installed via AltStore using a public GitHub release source; the game source code is not included.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3f0788d89acd7c306be7c55954b9e1ffc94c8aa3aa301eb1a8561e2aaa2a456b",
+  "subtitle": "Satirical HOA neighborhood management game",
+  "tags": [
+   "hoa",
+   "satire",
+   "management",
+   "simulation",
+   "neighborhood",
+   "board"
   ]
  },
  "com.itwcalculator.calculatorforipadfree": {
@@ -38830,25 +39712,20 @@
   ]
  },
  "com.mori.downloader": {
-  "category": "photo-video",
-  "date": "2026-11-05",
-  "description": "Mori saves videos, photos, and music from 16 platforms without watermarks. No account required, no tracking, and all content stays on your device.",
-  "features": [
-   "No watermarks",
-   "No accounts",
-   "No tracking",
-   "Local storage"
-  ],
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Mori is a utility application. The provided description states: \"Injected with Nothing.\" No additional features or functionality details are available from the source.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "47def2984e861da5b5ed4350550ff522788e7c37659d0b17938f769a6ee3adf3",
-  "subtitle": "Download videos, photos, music from 16 platforms",
+  "src_hash": "379afbef5d6b8efdcd074520770140e6d7b962ca73d1c4ce6ae863b160b413ff",
+  "subtitle": "Utility app with minimal description",
   "tags": [
-   "downloader",
-   "video",
-   "photo",
-   "music",
-   "privacy",
-   "offline"
+   "utility",
+   "mori",
+   "minimal",
+   "injected",
+   "nothing",
+   "tool"
   ]
  },
  "com.morpholioapps.trace": {
@@ -39211,19 +40088,21 @@
  "com.mwm.guitartuner": {
   "category": "utilities",
   "date": "2026-11-10",
-  "description": "TunerPro is a tuner application that has been modified to unlock subscription features. The original app functionality includes instrument tuning capabilities. This version provides access to subscription-only features without requiring a paid subscription.",
+  "description": "TunerPro is a modified version of a tuning application with professional features enabled. The app has been injected with pro capabilities, providing access to advanced tuning functions without additional purchases.",
   "features": [
-   "Subscription Unlocked"
+   "Pro Unlocked",
+   "No Ads"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "b28518b37315f86362afde245e1b281f3680e3cf40a8d9e1130e91d222e067c6",
-  "subtitle": "Tuner app with subscription unlocked",
+  "src_hash": "582cd1c9a691d6de549a7c1704b62d74f71fa078ca6fa84344aa3451331a36fd",
+  "subtitle": "Professional tuning tool with pro features unlocked",
   "tags": [
    "tuner",
-   "instrument",
-   "music",
+   "pro",
    "unlocked",
-   "subscription"
+   "audio",
+   "tools",
+   "utility"
   ]
  },
  "com.mwm.moments": {
@@ -41005,6 +41884,29 @@
    "sync",
    "notes",
    "widgets"
+  ]
+ },
+ "com.nitro70.youtubedownloader": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "YT Downloader is a cross-platform video downloader for YouTube. On Windows and Linux it runs as a desktop GUI and CLI wrapping yt-dlp and FFmpeg. On Android and iOS it is a native app that performs YouTube extraction in pure C#. Every version includes YouTube search so a direct link is not required. Paste a URL to fetch video details such as title, channel, duration and thumbnail, with copy link and copy player link options. A player page plays the video in any browser, remembers playback position and follows re-uploads. Choose custom filenames and save locations. A live progress bar shows size, speed and ETA. The app auto-updates yt-dlp on startup and supports cookies.txt for age-restricte\u2026",
+  "features": [
+   "YouTube search built-in",
+   "Custom filename and location",
+   "Live progress with ETA",
+   "Auto-updates yt-dlp",
+   "Cookies.txt support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a170bd8923b11fea07502c5077ce2cd8acf75d3f263f7012b9c5841f7bce695b",
+  "subtitle": "Cross-platform YouTube video downloader",
+  "tags": [
+   "youtube",
+   "downloader",
+   "video",
+   "yt-dlp",
+   "cross-platform",
+   "offline"
   ]
  },
  "com.nitrodog.jetpacksurvivor": {
@@ -45171,24 +46073,25 @@
  },
  "com.porksphere.comical": {
   "category": "entertainment",
-  "date": "2026-11-06",
-  "description": "Comical is an app for reading and tracking your series. It features both paged and long-strip readers, a library to manage your collections and groups, and a new-chapter feed with notifications. Track your reading progress with AniList and MyAnimeList integration, and sync your data between your devices. Browse and read series sourced through bridges and registries.",
+  "date": "2026-11-10",
+  "description": "Comical is a comic and manga reader with support for paged and long-strip reading modes. Organize your reading with a library, collections, and groups. Stay updated with a new-chapter feed and push notifications. Track your reading progress with AniList and MyAnimeList integration. Sync your data seamlessly between your phones and computer. Browse series through configurable registries and bridges, and run the frontend and backend as Docker containers if needed.",
   "features": [
    "Paged and long-strip readers",
    "Library and collections",
    "New-chapter feed with notifica",
    "AniList and MyAnimeList tracki",
-   "Device sync"
+   "Cross-device sync"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "a0691ed7fef0d1c63d19623dbc167982c93c78ff518134d3553e65849cae76d0",
-  "subtitle": "Read and track your favorite series",
+  "src_hash": "bd934e61aa6a786a78741ab22e9851a788bea82bdee61094dae42e6ca211d36d",
+  "subtitle": "Read and track your comics and manga",
   "tags": [
-   "reader",
+   "comics",
    "manga",
+   "reader",
    "tracker",
-   "library",
-   "sync"
+   "sync",
+   "library"
   ]
  },
  "com.powen.ModMyIPA": {
@@ -49528,6 +50431,25 @@
    "music"
   ]
  },
+ "com.shantanu.YouCut": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "This version of YouCut has been injected with premium features, providing access to premium tools without additional purchase.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c4b889f74e3d77ff0e67705ec6787d9a15fe9bcf921a2cd955d21cd8f050ac74",
+  "subtitle": "Premium video editor with unlocked features",
+  "tags": [
+   "video",
+   "editor",
+   "premium",
+   "ipa",
+   "testers",
+   "youcut"
+  ]
+ },
  "com.shapr3d.shapr": {
   "category": "other",
   "date": "2026-11-05",
@@ -49678,19 +50600,23 @@
   ]
  },
  "com.shred.shredlabs": {
-  "category": "other",
-  "date": "2026-11-09",
-  "description": "SHRED is an app provided by an unknown developer. The source description states it is injected with subscription unlocked.",
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "SHRED provides gym and home workout routines. Version 5.5.1 requires iOS 17.0 or later. The app is patched with subscription features unlocked. Bundle identifier: com.shred.shredlabs.",
   "features": [
-   "Subscription Unlocked"
+   "Subscription Unlocked",
+   "Patched"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "744ede39acd2f66caf65047293d3358e5738f9bf411c23e1ea024a71ec9725f4",
-  "subtitle": "Subscription unlocked version",
+  "src_hash": "4fca0c3f8500e9b6692c31ecfe8094f5a2bbe0d45de550047541639fc44fb2fe",
+  "subtitle": "Gym & Home Workouts",
   "tags": [
+   "fitness",
+   "workout",
+   "gym",
+   "home",
    "subscription",
-   "unlocked",
-   "shred"
+   "unlocked"
   ]
  },
  "com.signos.app": {
@@ -50601,20 +51527,21 @@
  "com.soundcloud.TouchApp": {
   "category": "entertainment",
   "date": "2026-11-10",
-  "description": "SoundCloud provides access to audio streaming and music. This version includes injected premium features.",
+  "description": "SoundCloud v8.7.0 with NexaSC Beta v3.0 injected. Provides SoundCloud Go+ unlock with ads.",
   "features": [
-   "Premium"
+   "SoundCloud Go+ unlock",
+   "NexaSC injection"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "a9b48ff30520fd76a5ce32717ab0b05858f13c56203d18132daeca0e471369a3",
-  "subtitle": "Audio streaming platform",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3f25bac14094793f538a1e22ec9eeeedadace08b5f60b738b18966c8f97d6236",
+  "subtitle": "SoundCloud with Go+ unlock via NexaSC",
   "tags": [
+   "soundcloud",
    "music",
-   "audio",
    "streaming",
-   "songs",
-   "sound",
-   "tracks"
+   "go+",
+   "nexasc",
+   "beta"
   ]
  },
  "com.soundscape.music": {
@@ -51359,6 +52286,23 @@
    "ipa"
   ]
  },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.0.0.not.patched.9.1.98.ipavault": {
+  "category": "entertainment",
+  "date": "2026-11-10",
+  "description": "EeveeSpotifyReincarnated is a modified version of the Spotify music streaming application. Version 7.0.0 is marked as not patched. The app is designed to work with Sidestore for installation on iOS devices. This is an unofficial third-party modification, not the official Spotify application.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "982e49c2d3bd31d200448a6f84cb7a89d2d896c93700b4ceaed47d55a031cc5f",
+  "subtitle": "Modded Spotify client for sideloading",
+  "tags": [
+   "spotify",
+   "music",
+   "modded",
+   "sideload",
+   "ipa",
+   "tweaks"
+  ]
+ },
  "com.spotify.client.ios.eeveespotifyreincarnated.7.0.0.patched.9.1.88": {
   "category": "entertainment",
   "date": "2026-10-21",
@@ -51422,6 +52366,25 @@
    "modded",
    "entertainment",
    "streaming"
+  ]
+ },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.0.0.patched.9.1.98.ipavault": {
+  "category": "entertainment",
+  "date": "2026-11-10",
+  "description": "This is a modded version of Spotify (EeveeSpotify). It does not work with Sidestore. FastSign, operated by CertFish, provides an easy way to sideload the app.",
+  "features": [
+   "Modded"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0e08262cfa4d9f7af37cbc95fa50be30449fb0276d585a55ae840590d2b11365",
+  "subtitle": "Modded Spotify client",
+  "tags": [
+   "spotify",
+   "modded",
+   "eeveespotify",
+   "sidestore",
+   "fastsign",
+   "certfish"
   ]
  },
  "com.spotify.client.ios.eeveespotifyreincarnated.pixie.9.1.90": {
@@ -53033,22 +53996,22 @@
  },
  "com.sublime.capture": {
   "category": "other",
-  "date": "2026-11-01",
-  "description": "Oniri is a dream journal app. This version has the subscription unlocked. Version 6.0.7, patched.",
+  "date": "2026-11-10",
+  "description": "Oniri is a dream journal application for recording and tracking dreams. This version 4.7.3 has been patched with the subscription feature unlocked, providing full access without recurring payments. The app allows users to document dream content, patterns, and details in a personal journal format.",
   "features": [
    "Subscription Unlocked",
-   "Patched"
+   "Patched Version"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "d051aa0c11fb40a01820915e33f3c66c04e9e1f8c952890f968790e6e6df2d2a",
+  "src_hash": "de994f04f5a6aced4349bdc12a144c91a794dc45c1833c2d28f4c500b80e808f",
   "subtitle": "Dream journal with subscription unlocked",
   "tags": [
    "dream",
    "journal",
+   "tracking",
    "subscription",
    "unlocked",
-   "patched",
-   "tweak"
+   "patched"
   ]
  },
  "com.sugarmo.ScrollClip": {
@@ -53756,6 +54719,23 @@
    "radiant"
   ]
  },
+ "com.taobao.fleamarket": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "XianYu by OwO Source. Description: Injected with Nothing. Category: other.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ea6af7f80a0cd19d0c82839275e2c9b33794c3cb94fcad776f586a12da1e8c6e",
+  "subtitle": "Injected with Nothing utility app",
+  "tags": [
+   "xianyu",
+   "owo",
+   "injected",
+   "utility",
+   "other",
+   "app"
+  ]
+ },
  "com.tapanywhere.magicarena": {
   "category": "games",
   "date": "2026-11-06",
@@ -54358,6 +55338,24 @@
    "health"
   ]
  },
+ "com.thelostproject.dreams": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Dreams is a personal dream journal application designed to help you record, track, and review your dreams over time. This version includes the pro version unlocked.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2308896a6c66a1b2eccb5786de6d95cbc7faa1814161e1a0064a5e474a004a8a",
+  "subtitle": "Record and analyze your dreams",
+  "tags": [
+   "dreams",
+   "journal",
+   "sleep",
+   "diary",
+   "tracker"
+  ]
+ },
  "com.thenetaji.pawse": {
   "category": "other",
   "date": "2026-11-02",
@@ -54908,6 +55906,23 @@
    "testing",
    "code generation",
    "developer"
+  ]
+ },
+ "com.timi2506.YT-TV": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "The YouTube TV UI for iOS, made possible with WebView and a custom user agent.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f9ce78fe71ad79a9670a6c4c62049b1ffa6800566469c06aea5c211a16adbefc",
+  "subtitle": "YouTube TV UI for iOS via WebView",
+  "tags": [
+   "youtube",
+   "tv",
+   "ui",
+   "ios",
+   "webview",
+   "user-agent"
   ]
  },
  "com.timi2506.macosicons": {
@@ -61777,6 +62792,100 @@
    "game"
   ]
  },
+ "com.unknown.yacinetv": {
+  "category": "entertainment",
+  "date": "2026-11-10",
+  "description": "Yacine TV provides football match results, live scores, and match schedules for football competitions.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f7b403c142082dfb0bfab586e85e2c99b3668b6e85d8401ea65254b955ef6d7a",
+  "subtitle": "Football match results and live scores",
+  "tags": [
+   "football",
+   "soccer",
+   "scores",
+   "results",
+   "matches",
+   "live"
+  ]
+ },
+ "com.unknown.yallalive": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Yalla Live is an application that provides access to live sports channels for streaming on your device.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a66343f9ca0d928574d6d97bd7ce642acafd8b5e4f2d71225db27049a38f3b79",
+  "subtitle": "Watch live sports channels",
+  "tags": [
+   "sports",
+   "live",
+   "channels",
+   "watch",
+   "streaming"
+  ]
+ },
+ "com.unknown.youcamaipro": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "YouCam AI Pro is an application for editing images using artificial intelligence.",
+  "features": [
+   "AI Editing"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2478ebc83cb040ee6f38f264507684bac5bf63345cad9898614a179e0cf2edb1",
+  "subtitle": "AI-powered image editing app",
+  "tags": [
+   "ai",
+   "image editing",
+   "photo editor",
+   "artificial intelligence",
+   "camera",
+   "pro"
+  ]
+ },
+ "com.unknown.youtify": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Youtify lets you download YouTube clips and play them in the background. An optional in\u2011app purchase unlocks the feature.",
+  "features": [
+   "Background Playback",
+   "Download Clips",
+   "In\u2011App Purchase"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "688359e438966b8f48ddb921ce1860fc45132a9aa1e42b6c59fe2a05ae4d790b",
+  "subtitle": "Download & background play YouTube clips",
+  "tags": [
+   "youtube",
+   "download",
+   "background",
+   "player",
+   "in-app purchase",
+   "video"
+  ]
+ },
+ "com.unknown.youtubemucic": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YouTube.MUCIC lets you delete the original app and then download a PLUS version for playback and downloading music.",
+  "features": [
+   "Playback",
+   "Download Music",
+   "Delete Original"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3f6003f02f43c79ec0fc29ca5c20ab4cd001fa00da90fd6c384ad2a512c68a33",
+  "subtitle": "Play and download YouTube music",
+  "tags": [
+   "youtube",
+   "music",
+   "download",
+   "playback",
+   "plus",
+   "video"
+  ]
+ },
  "com.unofficial.balatro": {
   "category": "games",
   "date": "2026-10-15",
@@ -63428,6 +64537,23 @@
    "camera"
   ]
  },
+ "com.wh0ba.xpatcher": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "XPatcher is a GUI front\u2011end for flips, libppf, xdelta, and libRUP patching libraries. It lets you apply patches to files on iOS devices, commonly used to apply ROM hacks to video game ROMs with a simple interface.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "83d4b5baa982d207ce5c4f4ec5f4ba0f8f2b994e43b165765bde83ec8781455e",
+  "subtitle": "Apply patches to files on iOS",
+  "tags": [
+   "patching",
+   "rom",
+   "hacks",
+   "ios",
+   "gui",
+   "libraries"
+  ]
+ },
  "com.whaleapp.hiddenhotel": {
   "category": "games",
   "date": "2026-10-27",
@@ -63533,23 +64659,22 @@
   ]
  },
  "com.wikiloc.wikiloc": {
-  "category": "utilities",
+  "category": "other",
   "date": "2026-11-10",
-  "description": "Wikiloc - Trails of the World (bundle ID com.wikiloc.wikiloc) version 3.30.2. Requires iOS 16.4 or later. This is a patched release with the subscription modifier applied. The original app provides trail maps, GPS navigation, and outdoor route recording for hiking, cycling, and other activities.",
+  "description": "Wikiloc is a modified version of the outdoor navigation app with subscription features unlocked. The original app provides GPS trails for hiking, cycling, and other outdoor activities with offline maps and route tracking.",
   "features": [
-   "Patched",
    "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "2d00196f2f0b9faadaf6c8a015bfc02e86e3230beab2691739e4d6361ba9be51",
-  "subtitle": "Trails of the World \u2014 patched build",
+  "src_hash": "d51dfe1acdb9802834673d9df9685f82cb7dc774465e5724dabe4cb77f2ab604",
+  "subtitle": "Outdoor trails and navigation with subscription unlocked",
   "tags": [
-   "trails",
-   "hiking",
-   "gps",
+   "wikiloc",
    "outdoor",
    "navigation",
-   "maps"
+   "trails",
+   "hiking",
+   "gps"
   ]
  },
  "com.wildlifestudios.merge.animal.sanctuary": {
@@ -64127,6 +65252,23 @@
    "ios"
   ]
  },
+ "com.xina.jailbreak": {
+  "category": "developer",
+  "date": "2026-11-10",
+  "description": "Xina2_2.1.6~f1 is a developer tool by Xina2_2.1.6~f1 x CyPwn. The source describes it as \"Xina2\u2026 but better,\" indicating an enhanced version of the original Xina2 utility. No additional features or functionality details are provided in the source material.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a768121e4039e15df4879d0134eb61db3a48b57533dc8cc34e921cbcf189cd06",
+  "subtitle": "Improved Xina2 development tool",
+  "tags": [
+   "xina2",
+   "developer",
+   "tool",
+   "cypwn",
+   "utility",
+   "ios"
+  ]
+ },
  "com.xitrix.RPCS3": {
   "category": "games",
   "date": "2026-11-05",
@@ -64312,6 +65454,44 @@
    "ttjb",
    "utility",
    "tested"
+  ]
+ },
+ "com.yahoo.Aerogram": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Yahoo Mail app with ads disabled.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "afa4761194b9e45382d3df71825145c2d57f9a858258bbd8603e8294024a8af5",
+  "subtitle": "Yahoo Mail without ads",
+  "tags": [
+   "yahoo",
+   "mail",
+   "email",
+   "no ads",
+   "ad-free"
+  ]
+ },
+ "com.yana.yanapp": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Yana is a Pro version IPA package that has been tested and compiled by the TTJB Team. This is a third-party iOS app package distributed through the TTJB IPA repository.",
+  "features": [
+   "Pro Version",
+   "Tested Build"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "65b23d82c18faea93be0cc25e8f9a94db4d6c22e609c661ff49290098c661eda",
+  "subtitle": "Pro IPA build from TTJB Team",
+  "tags": [
+   "ipa",
+   "pro",
+   "ttjb",
+   "ios",
+   "package",
+   "modified"
   ]
  },
  "com.yangjii.fifa23": {
@@ -67640,6 +68820,23 @@
    "tool"
   ]
  },
+ "cypwn.YouTuber_TS.3.6": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "YouTuber v3.6 lets you download YouTube videos and convert them to audio or ringtone files.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9a954bea929d96864a1b141c0ca9a6c9081839d428ec911a6fbec20989a3c3b4",
+  "subtitle": "Download YouTube videos, convert to audio or ringtones",
+  "tags": [
+   "youtube",
+   "downloader",
+   "audio",
+   "ringtone",
+   "video",
+   "converter"
+  ]
+ },
  "cypwn.cl1m4x.1.3": {
   "category": "other",
   "date": "2026-10-18",
@@ -67781,20 +68978,19 @@
   ]
  },
  "dazz.camera.vintagecamera": {
-  "category": "photo-video",
+  "category": "games",
   "date": "2026-11-10",
-  "description": "Dazz is a photo-video app. The source indicates it is injected with Pro features.",
+  "description": "Dazz offers full access to all features with premium unlocked. Experience the game with enhanced options and complete functionality.",
   "features": [
-   "Pro Unlocked"
+   "Premium Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "1f70ac61e562effd9571331ad6b0cad778333b73bc7fead18a6bb1ff16d6cf7c",
-  "subtitle": "Photo editor with Pro features",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "34d86b81aaf6494ca82affdcbc2e1adddca7b1c2a835403014e74b47d84a4337",
+  "subtitle": "Premium Unlocked",
   "tags": [
-   "photo",
-   "video",
-   "editor",
-   "pro",
+   "dazz",
+   "games",
+   "premium",
    "unlocked"
   ]
  },
@@ -70215,6 +71411,23 @@
    "tracker"
   ]
  },
+ "hltek.YaoYao": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "YaoYao is a jump rope counting app for iOS 15.0 and later. Current version 4.2.45. Tracks rope skipping sessions and provides workout statistics. Available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2a08b2c16d3ea2798911f30c170ff1d00c103d19598c02503f3aab211c3bbd78",
+  "subtitle": "Jump rope counter and workout tracker",
+  "tags": [
+   "jump rope",
+   "fitness",
+   "workout",
+   "counter",
+   "health",
+   "exercise"
+  ]
+ },
  "host.exp.Exponent": {
   "category": "other",
   "date": "2026-11-03",
@@ -70396,6 +71609,27 @@
    "modified",
    "ios",
    "app"
+  ]
+ },
+ "in.umango.xml": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Premium features added. The IPA has been tested and compiled by TTJB Team.",
+  "features": [
+   "Premium",
+   "Tested",
+   "TTJB Team"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8f665e3101fb0c15fba47e6ff0844f6a745c17b6e2bf60466b1af30f9f10ed4c",
+  "subtitle": "Premium IPA tested by TTJB Team",
+  "tags": [
+   "xml",
+   "ipa",
+   "premium",
+   "ttjb",
+   "tested",
+   "repo"
   ]
  },
  "inc.animation.AniClaw": {
@@ -70608,6 +71842,28 @@
    "eternia",
    "action",
    "game"
+  ]
+ },
+ "io.bubbleapps.yawn": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Yawn provides sleep sounds and audiobooks. The tweak unlocks the subscription and is patched for version 2.0.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched",
+   "Sleep Sounds",
+   "Audiobooks"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2b59007c603b527041fac0b44dc9b68a245b957d8f561b826c53a3567d87f86a",
+  "subtitle": "Sleep sounds and audiobooks, subscription unlocked",
+  "tags": [
+   "sleep",
+   "sounds",
+   "audiobooks",
+   "subscription",
+   "unlocked",
+   "patched"
   ]
  },
  "io.castain.Art-Toolkit": {
@@ -72033,6 +73289,25 @@
    "cheat",
    "resources",
    "beta"
+  ]
+ },
+ "io.yogger.Yogger": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "This is a modified version of Yogger that has been injected with Pro features. The original app has been altered to include Pro functionality without requiring a separate purchase or subscription. Distributed via AppTesters IPA repository for sideloading onto iOS devices.",
+  "features": [
+   "Pro Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9a12804a017768bc22e02f063135ac2f77218f72e030484e532fd813394a0578",
+  "subtitle": "Modified Yogger with Pro features injected",
+  "tags": [
+   "yogger",
+   "modified",
+   "pro",
+   "injected",
+   "ipa",
+   "sideload"
   ]
  },
  "ios.aplicacion.tiempo-com": {
@@ -74226,6 +75501,27 @@
    "pixel",
    "game",
    "action"
+  ]
+ },
+ "net.cecinestpasparis.yomu": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Independent ebook reader app for book lovers, featuring custom styles and a distraction-free, carefully crafted design for optimal readability.",
+  "features": [
+   "Custom Styles",
+   "Distraction-Free",
+   "Optimized Readability"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1dbde33b8f15f1aede905d81ca781632a10019ffd13088c132b29911c01317d2",
+  "subtitle": "Independent ebook reader with custom styles",
+  "tags": [
+   "ebook",
+   "reader",
+   "books",
+   "reading",
+   "custom-styles",
+   "distraction-free"
   ]
  },
  "net.clynamic.e1547": {
@@ -77061,22 +78357,23 @@
   ]
  },
  "phone.location.tracker": {
-  "category": "other",
-  "date": "2026-11-02",
-  "description": "Phone Tracker is a family locator app. The tweak unlocks the subscription and is patched at version 2.5.2.",
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Phone Tracker - Family Locator version 2.0.5, patched release with subscription unlocked. Provided by riftysIPAlibrary.",
   "features": [
    "Subscription Unlocked",
    "Patched"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ea5fd8ce74c48dbeba17cc44412695e4d84b6344ed4a0c2fe295099a26e7ffbc",
-  "subtitle": "Family locator with subscription unlocked",
+  "src_hash": "bd0961de7bedbd7c5a034663e961fc99f5c11d8880d7b0fb3b496a4065c2d548",
+  "subtitle": "Family location tracking with subscription unlocked",
   "tags": [
    "phone tracker",
    "family locator",
    "subscription unlocked",
    "patched",
-   "version 2.5.2"
+   "ios tweak",
+   "location"
   ]
  },
  "photofix.photo.enhancer": {
@@ -77630,6 +78927,43 @@
    "ipa",
    "app",
    "tools"
+  ]
+ },
+ "ru.shopper.app.main.prod": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "YourShopper v5.1.1 is Gazprombank's mobile application. The app was removed from the App Store. Created by GLESign.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8a0a6c53efdcb4ae1723543040440b1006842e3342f323c2f8d6ed13275d5bd9",
+  "subtitle": "Gazprombank app (removed from App Store)",
+  "tags": [
+   "gazprombank",
+   "banking",
+   "removed",
+   "glesign",
+   "yourshopper",
+   "v5.1.1"
+  ]
+ },
+ "ru.yandex.mobile.music": {
+  "category": "entertainment",
+  "date": "2026-11-10",
+  "description": "Modified version of Yandex Music streaming service (v671) with Plus subscription features activated. Requires iOS 15.0 or later. This is a hacked release created by GLESign that unlocks premium functionality of the Russian music streaming platform.",
+  "features": [
+   "Plus Activated",
+   "Modified Version"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "61303aea171fb12d37d004da78e7e4db9b2a00149abe4c13bf4403ca8d505fb5",
+  "subtitle": "Yandex Music with Plus subscription activated",
+  "tags": [
+   "yandex",
+   "music",
+   "streaming",
+   "plus",
+   "modified",
+   "russia"
   ]
  },
  "rw.sp.flitsmeister": {
@@ -78292,6 +79626,28 @@
    "unlocked",
    "patched",
    "lifestyle"
+  ]
+ },
+ "stream.yattee.app": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "Yattee is an alternative YouTube frontend for iOS, tvOS, and macOS built with Invidious and Piped. It features a native user interface built with SwiftUI and supports multiple instances.",
+  "features": [
+   "Native SwiftUI Interface",
+   "Multiple Instances",
+   "Invidious Support",
+   "Piped Support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "933e1d597729a958d18e9cb55ae79dbfa77e61394c3584d64db73b907343678d",
+  "subtitle": "Alternative YouTube frontend for iOS, tvOS, macOS",
+  "tags": [
+   "youtube",
+   "frontend",
+   "invidious",
+   "piped",
+   "ios",
+   "tvos"
   ]
  },
  "studio.gameberry.idlehunter": {
@@ -79009,22 +80365,21 @@
   ]
  },
  "uni.cbum": {
-  "category": "lifestyle",
-  "date": "2026-11-06",
-  "description": "STNDRD provides workout and fitness plans. Version 4.1.50 requires iOS 15.6 or later. The subscription is unlocked.",
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "This is an injected version of Stndrd with subscription features unlocked.",
   "features": [
    "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "8dacd4543b9059851a59d564b7452ab3ab6bbc7c82d21b2f78030f6f336c60d1",
-  "subtitle": "Workout & Fitness Plans",
+  "src_hash": "ba7d278ee110649a822f4da401fa5149680c3af2805f9978438607172df23fec",
+  "subtitle": "Subscription unlocked version",
   "tags": [
-   "workout",
-   "fitness",
-   "plans",
+   "stndrd",
    "subscription",
    "unlocked",
-   "health"
+   "injected",
+   "modified"
   ]
  },
  "universeye.co.TuneTally": {
