@@ -648,6 +648,55 @@
    "radiance"
   ]
  },
+ "WR3DFree": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Wrestling Revolution 3D is a wrestling recreation where you can play as your favorite wrestlers.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3e692375e86160a36f1ced8c7c2c45f6de3f4c0f38e1d16f9204fb539de75f30",
+  "subtitle": "Play as your favorite wrestlers in 3D",
+  "tags": [
+   "wrestling",
+   "recreation",
+   "play",
+   "favorite",
+   "wrestlers"
+  ]
+ },
+ "Wallpapers.iPad": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "Islamic Wallpapers & Themes offers iPhone users a serene and spiritual way to personalize their device with a collection of Islamic-themed wallpapers and themes.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a7809c848d78f47b3489543cedaa0f574e2895b9da7bbbccb0f1fa3e2320dac2",
+  "subtitle": "Islamic wallpapers and themes for iPhone",
+  "tags": [
+   "islamic",
+   "wallpapers",
+   "themes",
+   "iphone",
+   "personalize",
+   "spiritual"
+  ]
+ },
+ "WeekendWarriors": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Weekend Warriors is an app from @binnichtaktivsipas.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "33512110e2bd4934313bcbb694e2de3263e4840fa1b9abec95062bcace6d3211",
+  "subtitle": "App by @binnichtaktivsipas",
+  "tags": [
+   "weekend",
+   "warriors",
+   "app",
+   "unknown",
+   "developer"
+  ]
+ },
  "aayushpokharel.Magnetometer": {
   "category": "other",
   "date": "2026-11-01",
@@ -1647,25 +1696,25 @@
  },
  "app.mangatan.mangatan": {
   "category": "entertainment",
-  "date": "2026-11-09",
-  "description": "Manatan is an all-in-one app for watching anime and reading manga and novels with Japanese lookup support. It removes the need for complex setups, Python scripts, browser extensions, and local servers. Features include built-in optical character recognition for manga to make text selectable for dictionary lookups, subtitle parsing with popup dictionary lookups for anime, and single-click Anki card generation from anime sentences complete with audio. It also supports reading EPUB novels with device synchronization, instant dictionary lookups, and card generation, along with universal language support.",
+  "date": "2026-11-10",
+  "description": "Watch anime and YouTube, and read manga and novels in one app. Look up words and save useful sentences without leaving your story. Access local videos, YouTube, manga, EPUBs, web novels, and podcasts. Understand content in context by looking up words with imported dictionaries, using on-device manga OCR, and working with interactive subtitles. Keep what matters by saving sentences with audio and images. Review using Manatan SRS with account sync, or export to Anki. Install the app to start with an automatically included dictionary, open any supported media, look up words, and save sentences while you go.",
   "features": [
-   "Zero Configuration",
-   "Universal Language Support",
-   "Built-in OCR",
-   "Anime Subtitle Parsing",
-   "Anki Card Generation"
+   "Interactive Subtitles",
+   "Manga OCR",
+   "Dictionary Support",
+   "SRS Review",
+   "Anki Sync"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "269224eae154d319694f756f2c1c303200c2ba41a05e217ae9bd0d0a479f36e6",
-  "subtitle": "Stream anime, read manga and novels with instant lookup",
+  "src_hash": "7e473968330ff708efea9dbd5720d5cc2ac46320bc26b1deaec4abb3e8423475",
+  "subtitle": "Watch, read, and learn with integrated tools",
   "tags": [
    "anime",
    "manga",
-   "novels",
+   "reader",
    "dictionary",
-   "japanese",
-   "anki"
+   "srs",
+   "learning"
   ]
  },
  "app.mmap.mobile": {
@@ -3021,6 +3070,26 @@
    "utility"
   ]
  },
+ "ca.bomberfish.Whitelist": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Whitelist is a jailed iOS utility that removes blacklist restrictions from enterprise-signed applications. Designed for jailbroken devices, it allows enterprise-signed apps to run without being blocked by Apple's revocation mechanisms. The tool operates on the device to modify app signatures and bypass blacklist checks.",
+  "features": [
+   "Jailbreak Required",
+   "Enterprise App Support"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c9e24cf0628741465b7ea59eb3a93b92c1911fe01f3b7389f9a08dc8015cfb0a",
+  "subtitle": "Un-blacklist enterprise-signed apps on jailbroken iOS",
+  "tags": [
+   "jailbreak",
+   "enterprise",
+   "whitelist",
+   "unblacklist",
+   "utility",
+   "ios"
+  ]
+ },
  "ca.lbcstudios.hempire": {
   "category": "games",
   "date": "2026-11-03",
@@ -3715,21 +3784,20 @@
   ]
  },
  "co.codeleap.bearable": {
-  "category": "utilities",
-  "date": "2026-10-24",
-  "description": "Bearable is a symptom tracker application designed to help users monitor their health and well-being. This patched version includes subscription modifiers. It requires iOS 15.1 or later. The app helps keep track of daily health data and symptoms in a structured format.",
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "This version has been modified with subscription features unlocked. Original developer information is not available.",
   "features": [
-   "Subscription"
+   "Subscription Unlocked"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "0e7051924657594feb09715604acec5cebe5eafafcd81cc561839950a6fe273c",
-  "subtitle": "Track symptoms and manage health records",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "88b8d324e83d769dacf899c3afaeb3c78fe79f37fc75d8141fbba8b9eb5044e5",
+  "subtitle": "Subscription features unlocked",
   "tags": [
-   "health",
-   "tracker",
-   "symptoms",
-   "medical",
-   "wellness"
+   "subscription",
+   "unlocked",
+   "utility",
+   "modified"
   ]
  },
  "co.detail.duo": {
@@ -3884,6 +3952,23 @@
    "ipa",
    "repo",
    "apptesters"
+  ]
+ },
+ "co.meali.writingapp": {
+  "category": "entertainment",
+  "date": "2026-11-10",
+  "description": "Writing Space: Books & Scripts IPA is the iOS installation file of a writing-focused application.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f4b2de8090003be4bd6c12630dbf02e4bdf53ab675fcc6f4393abdc9ebe8225a",
+  "subtitle": "Writing Space: Books & Scripts",
+  "tags": [
+   "writing",
+   "books",
+   "scripts",
+   "ipa",
+   "ios",
+   "app"
   ]
  },
  "co.montanafloss.Shareshot": {
@@ -4139,6 +4224,43 @@
    "agent"
   ]
  },
+ "co.windyapp.Windy": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Windyapp from AppTesters IPA Repo. Injected with Pro features.",
+  "features": [
+   "Pro Unlocked",
+   "Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fb81c11eadfbfd16761efdfafc7b92e395b40a5695f3659520de407c45fbb2fc",
+  "subtitle": "Windyapp \u2013 Injected with Pro",
+  "tags": [
+   "windyapp",
+   "pro",
+   "injected",
+   "ipa",
+   "repo",
+   "apptesters"
+  ]
+ },
+ "co.windyapp.Windy.watchkitapp": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Expert weather application designed for aquatic and wind-based activities including sailing, surfing, and fishing. Provides detailed weather data for these activities.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ea67468ec3bb3bf7eab3b30e2c70df74b5e8714134606a6fac4daec129a26620",
+  "subtitle": "Weather for sailing, surfing, fishing",
+  "tags": [
+   "weather",
+   "sailing",
+   "surfing",
+   "fishing",
+   "wind",
+   "aquatic"
+  ]
+ },
  "com.100k31d.esse": {
   "category": "photo-video",
   "date": "2026-10-21",
@@ -4219,6 +4341,23 @@
    "status",
    "monitor",
    "utilities"
+  ]
+ },
+ "com.34306.watching": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "An app that reveals more detailed information about your iPhone's battery, which Apple does not disclose. Last updated March 17, 2024.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2d4af8b3bd7ba0fef9dde511ba35776d911c8e44305100ae499a984bdc36f4a7",
+  "subtitle": "Detailed iPhone battery info",
+  "tags": [
+   "battery",
+   "information",
+   "iphone",
+   "apple",
+   "detailed",
+   "reveals"
   ]
  },
  "com.365scores.365scroesapp": {
@@ -4795,6 +4934,23 @@
    "elements",
    "ios",
    "mobile"
+  ]
+ },
+ "com.DL.war.planes.inc.torpedo.bomber.fighter.aircraft.ww2": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Warplane Inc. is an aerial combat game where players engage in intense air battles. Pilot warplanes through combat scenarios featuring dogfights and mission-based gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "35f7e4ad3f10fb8a6add4eed52d567774b88218f46da5f15f3e4cd26c297bf35",
+  "subtitle": "Aerial combat game with intense battles",
+  "tags": [
+   "aerial",
+   "combat",
+   "warplane",
+   "battle",
+   "flight",
+   "dogfight"
   ]
  },
  "com.DebianArch.ScarletPersonalXYZZZ": {
@@ -5548,6 +5704,23 @@
    "sideload"
   ]
  },
+ "com.MDickie.WrestlingEmpire": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Wrestling Empire is a wrestling simulation game. The world of wrestling gaming has experienced developments over the years, catering to fans. Players can engage in wrestling matches and build a career in the sport.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3be65dbc5a4426ad13efa9dbafa9bb6ae98c0d1e24d494f84a3ae679253dbc3a",
+  "subtitle": "Wrestling simulation game with career mode",
+  "tags": [
+   "wrestling",
+   "game",
+   "simulation",
+   "sports",
+   "career",
+   "mobile"
+  ]
+ },
  "com.MISHIKinc.Caucasus-Parking": {
   "category": "games",
   "date": "2026-10-15",
@@ -5597,6 +5770,26 @@
    "game",
    "iphone",
    "auto"
+  ]
+ },
+ "com.MadarGames.WarboxSandbox": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Warbox Sandbox provides full access to all features with the included premium hack. Experience the sandbox simulation game with unlocked premium content. Sideload and install the application directly using your own certificate or Apple ID.",
+  "features": [
+   "Premium",
+   "Full Access",
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "abe0c7ce3fbd0bafee40be87bb51f09c486ce811d5cb58a30814cf73d156bd39",
+  "subtitle": "Warbox Sandbox simulation game",
+  "tags": [
+   "warbox",
+   "sandbox",
+   "simulation",
+   "game",
+   "premium"
   ]
  },
  "com.MasonD3V.Tweetdeck": {
@@ -6024,24 +6217,19 @@
  },
  "com.SideStore.SideStore": {
   "category": "developer",
-  "date": "2026-11-05",
-  "description": "SideStore is an alternative app store for non-jailbroken devices. It allows you to sideload .ipa files from the Files app or through the built-in SideStore Library.",
-  "features": [
-   "Sideload IPA files",
-   "Files app integration",
-   "Built-in app library",
-   "No jailbreak required"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "440e82bc9e3ef9167176ddfc4b6f898856c6c24b47bb4d2faa43e3133e6de4d9",
-  "subtitle": "Alternative app store for non-jailbroken iOS",
+  "date": "2026-11-10",
+  "description": "SideStore is an untethered, community-driven alternative app store for non-jailbroken iOS devices. It resigns and installs .ipa files using your personal Apple ID and refreshes them in the background, removing the need for AltServer during sideloading.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7ac42f16322f6f01ab60b24a7e05b34a247f7ac001580bb55a15dd0d78abe8ff",
+  "subtitle": "Alternative app store for non-jailbroken iOS devices",
   "tags": [
-   "sideload",
+   "sidestore",
+   "sideloading",
    "ipa",
-   "app store",
-   "non-jailbroken",
-   "files app",
-   "library"
+   "apps",
+   "altserver",
+   "ios"
   ]
  },
  "com.SimpleBitStudios.VikingHeroTD": {
@@ -6462,6 +6650,22 @@
    "alliance"
   ]
  },
+ "com.TeamSparta.WiggleDefender": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Wiggle Defender is a fast-paced tower defense strategy game for iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1c4884aa952f8a8a83c68ffef930c597d5f2296d582a7a28212f0b26aa3dffe7",
+  "subtitle": "Fast-paced tower defense strategy game",
+  "tags": [
+   "tower defense",
+   "strategy",
+   "game",
+   "ios",
+   "fast-paced"
+  ]
+ },
  "com.TeamSparta.battleshipgo": {
   "category": "games",
   "date": "2026-10-15",
@@ -6765,6 +6969,23 @@
    "game",
    "mobile",
    "playful"
+  ]
+ },
+ "com.WOFProduction.WheelofFaithArena": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Wheel of Faith - Arena is a high-intensity iOS action game built around competitive arena battles where reflexes and timing determine victory. Players engage in fast-paced combat matches against opponents in various arena environments.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "521a30b54cf46fe81b36fe0798ae07a452ced5b69ce682997227b276d1e74f63",
+  "subtitle": "High-intensity arena action battles",
+  "tags": [
+   "action",
+   "arena",
+   "battle",
+   "competitive",
+   "reflexes",
+   "timing"
   ]
  },
  "com.WandaSoftware.TruckersofEurope3": {
@@ -8226,6 +8447,40 @@
    "training"
   ]
  },
+ "com.akdev.wheelie-life-2": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Wheelie Life 2 is a highly anticipated game for iOS that aims to captivate gamers worldwide. It builds upon the success of its predecessor.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "13e0d35c20c71a45318a63e9d7803d3ccf7891cd2eefc915af3ad78fda289121",
+  "subtitle": "Highly anticipated iOS game",
+  "tags": [
+   "wheelie life 2",
+   "ios",
+   "game",
+   "anticipated",
+   "sequel",
+   "gaming"
+  ]
+ },
+ "com.akdev.wheelie-life-3": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Wheelie Life 3 is an action-packed iOS game that challenges players to master balance, timing, and precision.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4cad4662b932ea25ad4414efebd4cba6fbb992c3fd7d029d7f6e2c9002a7f13c",
+  "subtitle": "Action iOS game testing balance and timing",
+  "tags": [
+   "wheelie",
+   "life",
+   "3",
+   "action",
+   "balance",
+   "timing"
+  ]
+ },
  "com.akilastudio.day": {
   "category": "utilities",
   "date": "2026-11-07",
@@ -9174,6 +9429,23 @@
    "citra"
   ]
  },
+ "com.antonchuiko.wthrd": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Weather Fit is an intelligent iOS lifestyle app designed to help users make better clothing decisions based on current weather conditions.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d0dff57362d99835e52682e56764111b6bcce27cd52cc794d05c663c2dbd4ae6",
+  "subtitle": "Smart clothing choices based on weather",
+  "tags": [
+   "weather",
+   "clothing",
+   "outfit",
+   "lifestyle",
+   "smart",
+   "decisions"
+  ]
+ },
  "com.aoklab.fewerphotos": {
   "category": "other",
   "date": "2026-11-06",
@@ -9429,6 +9701,40 @@
    "subscription",
    "unlocked",
    "patched"
+  ]
+ },
+ "com.apalonapps.wallpaperspys": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "This app provides wallpapers with subscription features unlocked. No additional details provided.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2a88f7120d8a91f3499168f20f73d0857ddbec816ec3067cee171c71e10bf3a4",
+  "subtitle": "Wallpapers with subscription unlocked",
+  "tags": [
+   "wallpapers",
+   "subscription",
+   "unlocked",
+   "customization",
+   "backgrounds",
+   "images"
+  ]
+ },
+ "com.apalonapps.wlf": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Weather application. Injected with Pro features.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ee781998b9d7b35236f4c6695d47f192de818cbaea5ed54e4f1d2d71e9783790",
+  "subtitle": "Weather forecast with Pro features",
+  "tags": [
+   "weather",
+   "forecast",
+   "lifestyle",
+   "pro"
   ]
  },
  "com.app-livity": {
@@ -10246,6 +10552,23 @@
    "iosdecrypted"
   ]
  },
+ "com.atebits.Tweetie2.x": {
+  "category": "social",
+  "date": "2026-11-10",
+  "description": "NeoFreeBird adds a hidden settings page to Twitter/X. Open it by holding the Twitter/X icon at the top of the main feed. The settings are not in Twitter's own Settings or iOS Settings. DEB packages include only the tweak; IPA or TIPA builds provide full branding.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5d33ea17c1ef21feffb6497b5cc12a3bf3fc1aba590f3b824fb68372cfe1f324",
+  "subtitle": "Tweak Twitter/X with hidden settings",
+  "tags": [
+   "twitter",
+   "x",
+   "tweak",
+   "settings",
+   "ipa",
+   "deb"
+  ]
+ },
  "com.ates.DELTARUNE": {
   "category": "other",
   "date": "2026-10-20",
@@ -11014,6 +11337,24 @@
    "action",
    "rpg",
    "fantasy"
+  ]
+ },
+ "com.bcanada.weedfirm2": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Weed Firm 2 is available via the AppTesters IPA Repo. This version comes pre-injected with IGG for modified gameplay experiences.",
+  "features": [
+   "Injected with IGG"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "963d8ad5aea8f2791672471d681de34736ed432a74463f4ffc698c5b156459b1",
+  "subtitle": "Weed Firm 2",
+  "tags": [
+   "weed firm 2",
+   "mod",
+   "igg",
+   "ipa",
+   "game"
   ]
  },
  "com.bdor14026.aditor": {
@@ -12247,6 +12588,23 @@
    "log"
   ]
  },
+ "com.bridgetech.WhiteNoise": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "White Noise is a sound machine app by @Sa1y0miii. Requires iOS 17.0 or later. Current version 4.2. Available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0548f84a720cb2a8567fe096381f7a2b47260617eb207553141215b3123133c0",
+  "subtitle": "Sound machine for sleep and focus",
+  "tags": [
+   "white noise",
+   "sound machine",
+   "sleep",
+   "focus",
+   "relaxation",
+   "utilities"
+  ]
+ },
  "com.brokksindri.sevenhearts.ios.kr": {
   "category": "games",
   "date": "2026-11-05",
@@ -12305,6 +12663,40 @@
    "chromium",
    "automation",
    "tools"
+  ]
+ },
+ "com.bubble.buster.rescue": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Wool Crush \u2013 Escape Traffic Jam is an arcade puzzle game for iOS. The game spins everyday traffic frustration into a fun and addictive challenge. Players solve puzzles to clear gridlock and progress through levels.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "eed1d8fbf4edf701979e3509890df22c23e6e79945e938a0d0c0f582bd0c1afe",
+  "subtitle": "Arcade puzzle: escape traffic jams",
+  "tags": [
+   "arcade",
+   "puzzle",
+   "traffic",
+   "jam",
+   "fun",
+   "addictive"
+  ]
+ },
+ "com.buburo.webink": {
+  "category": "entertainment",
+  "date": "2026-11-10",
+  "description": "Webink is a manga reader for third-party sources. It does not host manga content. Browse new and trending manga from multiple supported sources, search for titles across sources, and keep your saved titles, reading status, and chapter progress in one library. Sign in to sync your library across devices. The app also provides installation guides for iOS, iPadOS, macOS, and Android.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4476a5dfe2490ec3715bdacf772e35141cc79911bf7f4966979b1dc2ba2ed723",
+  "subtitle": "Manga reader for third-party sources",
+  "tags": [
+   "manga",
+   "reader",
+   "comics",
+   "library",
+   "sync",
+   "browse"
   ]
  },
  "com.budgestudios.BarbieDreamhouse": {
@@ -13030,19 +13422,21 @@
  },
  "com.ceres.suwatte": {
   "category": "entertainment",
-  "date": "2026-11-09",
-  "description": "Suwatte provides IPA files for a manga and comic reading app on iOS. The IPAs are dumped TestFlight versions and may lag behind the source code available on GitHub. For IPAs built from source, visit the GitHub repository.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "09ddc3a189dd03d793697a11364a89e268af2d4d33fc2570c998d94516b6d925",
-  "subtitle": "Manga & comic reader IPA builds",
+  "date": "2026-11-10",
+  "description": "Suwatte is an ad-free, open source and feature-rich comic and manga reader designed for iOS devices.",
+  "features": [
+   "Ad-Free",
+   "Open Source"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "bbbddae787fb2ded26ee5254d582293aba3f24c136251291ef23d8e36d4206af",
+  "subtitle": "Open source comic and manga reader for iOS",
   "tags": [
    "manga",
    "comic",
    "reader",
-   "ios",
-   "testflight",
-   "github"
+   "books",
+   "entertainment"
   ]
  },
  "com.certlium.crumb": {
@@ -13789,6 +14183,22 @@
    "images"
   ]
  },
+ "com.ckbusiness.Wishlists": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Wishlists is an online wishlist application. Create and manage your personal wishlists easily. Requires iOS 16.0 or later.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6d22a45c154a7730fcbc192f08975ff670547f521527a6ae3c1560f88c4eea75",
+  "subtitle": "Online wishlist app",
+  "tags": [
+   "wishlist",
+   "shopping",
+   "gifts",
+   "list",
+   "utilities"
+  ]
+ },
  "com.clarity.cozycouples": {
   "category": "lifestyle",
   "date": "2026-10-24",
@@ -14451,6 +14861,23 @@
    "utility"
   ]
  },
+ "com.contactposter.wallpaper.app": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "Glass Wallpapers OS 26 \u2013 4K is an iOS installable wallpaper customization app. It provides high-resolution glass-style wallpapers for device personalization.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "244641b4e4a801d45fb49a7828a9870f7e2a1eb470ed4eb23128079f99fe1960",
+  "subtitle": "4K glass wallpaper customization",
+  "tags": [
+   "wallpaper",
+   "customization",
+   "4k",
+   "glass",
+   "ios",
+   "personalization"
+  ]
+ },
  "com.contentarcade.LogoMaker": {
   "category": "photo-video",
   "date": "2026-10-29",
@@ -14853,6 +15280,25 @@
    "audio",
    "tts",
    "recorder"
+  ]
+ },
+ "com.crossforward.WidgetSmith": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Modified version of Widgetsmith with subscription features unlocked. This build has been injected to provide full subscription access without payment.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "88ec977a5d2c84708b76187fb635dd2647e3d186a836281503036c5ceb415eb5",
+  "subtitle": "Subscription unlocked version of Widgetsmith",
+  "tags": [
+   "widgetsmith",
+   "subscription",
+   "unlocked",
+   "modified",
+   "widgets",
+   "customization"
   ]
  },
  "com.crossforward.pedometer": {
@@ -16681,6 +17127,25 @@
    "port"
   ]
  },
+ "com.dhara.ytsummerize": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Walnote is an AI-powered note taking and learning application. This version includes a subscription unlock tweak. Version 1.5 distributed by riftysIPAlibrary.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "04ed09e5e4ecba2ed4282a199a76cd9cc7c4b3c70e9a2f9f47725d69c1a331b2",
+  "subtitle": "AI note taker with subscription unlocked",
+  "tags": [
+   "ai",
+   "notes",
+   "learning",
+   "subscription",
+   "unlocked",
+   "tweak"
+  ]
+ },
  "com.dhinakg.trollinstallermdc": {
   "category": "developer",
   "date": "2026-11-08",
@@ -16853,6 +17318,23 @@
    "repo"
   ]
  },
+ "com.dlxstudio.LastDeadlands": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Wasteland: Rogue Survivor is an immersive iOS survival role-playing game that throws players into a challenging post-apocalyptic environment where survival requires strategic decision-making and resource management.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c4e1f096232ac97131c0d2de638c597398309f949fe9e8d4c8d710a39f7dc753",
+  "subtitle": "Immersive iOS survival role-playing game",
+  "tags": [
+   "survival",
+   "rpg",
+   "role playing",
+   "strategy",
+   "post apocalyptic",
+   "games"
+  ]
+ },
  "com.dmg.carsalessimulator": {
   "category": "games",
   "date": "2026-10-15",
@@ -17003,23 +17485,21 @@
   ]
  },
  "com.dopedevelopment.Panels": {
-  "category": "photo-video",
-  "date": "2026-11-05",
-  "description": "SCRL is a photo collage maker app. This version is a tweak with premium features unlocked and patched. Version 9.47. Minimum OS version not specified.",
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "SCRL is a modified application with subscription features unlocked. The original subscription requirements have been removed, providing full access to premium functionality without recurring payments.",
   "features": [
-   "Premium Unlocked",
-   "Patched"
+   "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ec908ccc84231fa187f24e04b47bb8609ec5302133823a50864b00d91aa1d787",
-  "subtitle": "Premium unlocked photo collage maker",
+  "src_hash": "b9068e2cbcde9460ea4c3c895d290e332d90692ca9370de192d33203f6c701a3",
+  "subtitle": "Subscription unlocked version",
   "tags": [
-   "photo",
-   "collage",
-   "maker",
-   "premium",
+   "subscription",
    "unlocked",
-   "patched"
+   "premium",
+   "modified",
+   "free"
   ]
  },
  "com.doubledaggerstudio.littlekittybigcity": {
@@ -17524,6 +18004,25 @@
    "exercises",
    "wellness",
    "health"
+  ]
+ },
+ "com.dynamicapps.Vocab-Builder": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "WordPal is a modified IPA version with premium features added. The package has been tested and compiled by TTJB Team. Original app functionality includes word-related tools; this build unlocks premium tier access.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "27118d61234cbc0d5ff277581ee91b75df70411e5b0bf55564a7f6b00e9b4828",
+  "subtitle": "Premium word tool with unlocked features",
+  "tags": [
+   "word",
+   "premium",
+   "ipa",
+   "modified",
+   "tools",
+   "ttjb"
   ]
  },
  "com.dynamicdust.CharlieTheSteak": {
@@ -20716,6 +21215,23 @@
    "app"
   ]
  },
+ "com.flyvoip.wifiapplite": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WiFi Map is an iOS app that shows a map of WiFi networks to help you connect to them.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fd3afb86910abc1fc7c3a8a539cd2d35375a6f98d085e2a4f95941844bd40c02",
+  "subtitle": "Find and connect to WiFi networks",
+  "tags": [
+   "wifi",
+   "map",
+   "ios",
+   "connect",
+   "network",
+   "ipa"
+  ]
+ },
  "com.focalread.megacubos": {
   "category": "utilities",
   "date": "2026-10-24",
@@ -20852,6 +21368,44 @@
    "regram",
    "social",
    "duplicate"
+  ]
+ },
+ "com.fouadraheb.watusi": {
+  "category": "social",
+  "date": "2026-11-10",
+  "description": "Watusi is a modification for WhatsApp Messenger that enables a duplicated installation. The app uses a separate bundle identifier (com.fouadraheb.watusi) so it can run side by side with the official WhatsApp client on the same device. Developed by Fouad Raheb.",
+  "features": [
+   "Dual Install",
+   "Separate Bundle ID",
+   "WhatsApp Tweak"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "979aa023eaae5c9cc9208f9c568040ff911405e37afa48decd9f34010f80d192",
+  "subtitle": "WhatsApp tweak with dual-install support",
+  "tags": [
+   "whatsapp",
+   "tweak",
+   "duplicate",
+   "messaging",
+   "mod",
+   "ios"
+  ]
+ },
+ "com.fouadraheb.watusiSMB": {
+  "category": "social",
+  "date": "2026-11-10",
+  "description": "This is a duplicated app that can be installed alongside the original WhatsApp Business. Bundle ID: com.fouadraheb.watusiSMB. Watusi is an all-in-one tweak for WhatsApp Messenger.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a0bfe3823b497c2e38bd6a7e6e66d8adb2f259108defe89adb3b09e760bc412b",
+  "subtitle": "Duplicate WhatsApp Business with tweaks",
+  "tags": [
+   "whatsapp",
+   "business",
+   "duplicate",
+   "tweak",
+   "messenger",
+   "watusi"
   ]
  },
  "com.foundry63.tailor": {
@@ -22052,19 +22606,20 @@
   ]
  },
  "com.getmimo.mimo": {
-  "category": "utilities",
-  "date": "2026-11-09",
-  "description": "Mimo with subscription unlocked.",
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "This version of Mimo has been injected with Pro features. Original developer information is not available. The app is categorized as other in the source data.",
   "features": [
-   "Subscription Unlocked"
+   "Injected with Pro"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "fba42442395117dd56843ec5e3fafdcd4f73e1432516b13eacbbe79f1564c539",
-  "subtitle": "Subscription Unlocked",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "318dd8a86ee00bdff5693f3f975707f55208fc47577160237f7365a9e1ddba85",
+  "subtitle": "Mimo - Injected with Pro features",
   "tags": [
    "mimo",
-   "unlocked",
-   "subscription"
+   "pro",
+   "injected",
+   "modified"
   ]
  },
  "com.getmotobit.motobit": {
@@ -22230,6 +22785,23 @@
    "developer"
   ]
  },
+ "com.gigamow.Wheelz": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Wheelz is a utility app developed by @Sa1y0miii that tracks speed and driving data. It requires iOS 18.0 or later and is currently at version 3.2. The app is available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d5800418e05e0d2e958c0f02e4749480c31fafa7addaf1eb8c9e858e15f8397b",
+  "subtitle": "Speed and drive tracking for iOS 18+",
+  "tags": [
+   "speed",
+   "drive",
+   "tracker",
+   "ios",
+   "wheelz",
+   "utility"
+  ]
+ },
  "com.gingerlabs.Notability": {
   "category": "other",
   "date": "2026-11-01",
@@ -22247,6 +22819,40 @@
    "pro",
    "ipa",
    "repo"
+  ]
+ },
+ "com.ginsu.WDBFontOverwrite": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WDBFontOverwrite is a font changer application that allows users to override system fonts on iOS devices. It supports iOS versions 14 through 16.1.2. The developer released this app as a proof of concept; use at your own risk. Last updated on March 27, 2023.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "eaba990af78e20ee0d21574f15b947c21d141caf10fa83347bba7db358c2587a",
+  "subtitle": "Font changer for iOS 14-16.1.2",
+  "tags": [
+   "font",
+   "changer",
+   "ios",
+   "poc",
+   "customization",
+   "system"
+  ]
+ },
+ "com.ginsudev.WDBFontOverwrite": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "An app that allows you to override the system used iOS font with one of the fonts from the built-in selection. It is meant as a demo of what you can do with MacDirtyCow.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6f7fd28eb678e76eacecc9366cc0d77decfaac105f6909d4e4a41d4171024d51",
+  "subtitle": "Override system fonts with built-in selection",
+  "tags": [
+   "font",
+   "override",
+   "system",
+   "macdirtycow",
+   "demo",
+   "customization"
   ]
  },
  "com.giovlnv.tarotreader": {
@@ -22616,6 +23222,23 @@
    "premium unlocked",
    "patched",
    "tweak"
+  ]
+ },
+ "com.gma.water.sort.puzzle": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Water Sort Puzzle IPA v19.2.2 is a puzzle game that combines problem\u2011solving with visual satisfaction.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a07df28ee1796e04df0b79619ddb018f55092d6ba806653a7279ff1ee190b1ad",
+  "subtitle": "Water Sort Puzzle \u2013 IPA v19.2.2",
+  "tags": [
+   "water",
+   "sort",
+   "puzzle",
+   "ipa",
+   "v19.2.2",
+   "game"
   ]
  },
  "com.gnetop.thewarrior": {
@@ -26530,6 +27153,23 @@
    "tools"
   ]
  },
+ "com.incredum.wrd": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "WRD is a word learning app. Requires iOS 17.0 or later. Current version 3.1.5.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3f0494e6de68b9804aac150e1baa0dcbaea4f761588af27509f993a51db75df6",
+  "subtitle": "Learn words and expand vocabulary",
+  "tags": [
+   "word",
+   "learning",
+   "vocabulary",
+   "education",
+   "ios",
+   "app"
+  ]
+ },
  "com.indiegoodies.Weather2": {
   "category": "lifestyle",
   "date": "2026-11-02",
@@ -26766,6 +27406,25 @@
    "relaxing",
    "mental",
    "game"
+  ]
+ },
+ "com.instantbits.cast.webvideo": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Cast web videos, online movies, IPTV streams and live television shows directly to your television. This version includes premium features injected for full access.",
+  "features": [
+   "Injected with Premium"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "42b006cabf7ca8a42d743615389e72920bceb31b9fb775085dac0ce55ea3d644",
+  "subtitle": "Cast web videos to your TV",
+  "tags": [
+   "cast",
+   "video",
+   "stream",
+   "iptv",
+   "television",
+   "web"
   ]
  },
  "com.internet-rocks.codescanner": {
@@ -30454,6 +31113,94 @@
    "ios"
   ]
  },
+ "com.ipaomtk.weathershot.instaweather.157078": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "Weathershot \u2013 Instaweather is a creative weather-based photo editing application for iOS. The app allows users to incorporate weather information into their photos.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ff6e66e26fc292b05d1e27701f86e32397b0847431b54d191629098aed839e0c",
+  "subtitle": "Weather-based photo editing app",
+  "tags": [
+   "weather",
+   "photo",
+   "editing",
+   "creative",
+   "instagram",
+   "filter"
+  ]
+ },
+ "com.ipaomtk.wednesdays.mobile.152926": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Wednesday Mobile is a story-driven horror adventure game packaged in IPA format for iOS devices. Experience a dark narrative and atmospheric horror gameplay tailored for mobile platforms.",
+  "features": [
+   "Story-driven",
+   "Horror adventure"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "579eac360d5474e9070ae86924ecb46e8fc798e359799c97c297e660368654c0",
+  "subtitle": "A story-driven horror adventure game for iOS",
+  "tags": [
+   "horror",
+   "adventure",
+   "story",
+   "mobile",
+   "ipa",
+   "game"
+  ]
+ },
+ "com.ipaomtk.weekend.warriors.mma.152053": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Weekend Warriors MMA is an iOS game package that brings a full mixed martial arts simulation experience.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1ceb8ad43e3ff78c2e6a54a32fce681714f292f0cd0cf92524d23a2688bf9560",
+  "subtitle": "Mixed martial arts simulation game",
+  "tags": [
+   "mma",
+   "mixed martial arts",
+   "simulation",
+   "game",
+   "ios",
+   "ipa"
+  ]
+ },
+ "com.ipaomtk.west.survivor.155041": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "West Survivor is an iOS survival action game package that allows iPhone users to experience life in a harsh environment. Face the challenges of the western frontier, manage resources, and survive against various dangers in this action-packed mobile gaming experience designed for Apple devices.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b451622711d6f873452f22dd0a0c86ed3e49d352f8c43c754e4b086cf4d09a4f",
+  "subtitle": "An iOS survival action game set in the wild west",
+  "tags": [
+   "survival",
+   "action",
+   "western",
+   "game",
+   "iphone",
+   "ios"
+  ]
+ },
+ "com.ipaomtk.whisper.castle.merge.story.151925": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Whisper Castle: Merge & Story is a relaxing merge puzzle game for iOS. Combine items to restore a mysterious castle and uncover its story through puzzle gameplay.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6cbb6f74f8c14a4c9c3decb6cf0af1f0f58ceabe698fc581a07ebe88fd74abb1",
+  "subtitle": "Relaxing merge puzzle adventure",
+  "tags": [
+   "merge",
+   "puzzle",
+   "relaxing",
+   "castle",
+   "story",
+   "ios"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -30739,6 +31486,44 @@
    "ios"
   ]
  },
+ "com.ispazio.Wallpapers-Central": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WallpapersCentral is a premium IPA package that has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Premium",
+   "Tested",
+   "Compiled by TTJB Team"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "be46365fc1bd7319107872c0e1aee56b2724a725f1adc705b9591b800facae42",
+  "subtitle": "Premium wallpapers IPA tested by TTJB Team",
+  "tags": [
+   "wallpapers",
+   "premium",
+   "ipa",
+   "ttjb",
+   "tested",
+   "compiled"
+  ]
+ },
+ "com.itaysoft.wifilist": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WiFiList lets you view previously saved passwords for Wi\u2011Fi networks you have connected to. The app shows each network name and its stored password. Updated on 12\u201112\u20112023.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7e915771e5adfa0a87623d68018e80ad5b9383c0f4669513355d9e66dc39de72",
+  "subtitle": "View saved Wi\u2011Fi passwords",
+  "tags": [
+   "wifi",
+   "passwords",
+   "network",
+   "saved",
+   "view",
+   "manager"
+  ]
+ },
  "com.itchmedia.mfp18": {
   "category": "games",
   "date": "2026-11-06",
@@ -30788,6 +31573,25 @@
    "tycoon",
    "nightclub",
    "empire"
+  ]
+ },
+ "com.itimeteo.webssh": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "WebSSH is an SSH client for iOS. This version has been modified with injected in-app purchases. The original app provides terminal access to remote servers via SSH protocol.",
+  "features": [
+   "IAP Injected"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4ab747b5d6f2436aa1a5f232cdadf327dbc30290b90122bed31089a0c84e6415",
+  "subtitle": "SSH client with injected in-app purchases",
+  "tags": [
+   "ssh",
+   "terminal",
+   "remote",
+   "client",
+   "network",
+   "admin"
   ]
  },
  "com.itranslate.grammatica.ios": {
@@ -30843,6 +31647,23 @@
    "utility",
    "math",
    "tools"
+  ]
+ },
+ "com.itwcalculator.weatherplusfree": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Weather+ version 3.2.12 is a user-friendly mobile application designed to provide accurate and up-to-date weather information. The app delivers current conditions and forecasts for your location.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5779523720f228de3bcc65fd726bd93c2f98e99101aa5e65a1d971330f5a0dfe",
+  "subtitle": "Accurate weather forecasts and conditions",
+  "tags": [
+   "weather",
+   "forecast",
+   "lifestyle",
+   "ipa",
+   "mod",
+   "mobile"
   ]
  },
  "com.itwcalculator.worldradarfree": {
@@ -31627,23 +32448,21 @@
   ]
  },
  "com.joytunes.Draw": {
-  "category": "lifestyle",
-  "date": "2026-11-05",
-  "description": "Simply Draw is a drawing tutorial app. Version 1.7.2 requires iOS 15.2 or later. Bundle ID: com.joytunes.Draw. This version is patched with subscription unlocked.",
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "SimplyDraw is a drawing application. This version has the subscription feature unlocked.",
   "features": [
-   "Patched",
    "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "c1d691b2350ac84376547ec7a659973835226d285049a7f1b41e2d10825f2ff1",
-  "subtitle": "Learn to draw with guided lessons",
+  "src_hash": "616f463aff272f655792806d749893111dde9bd448e9b18dc29b27831aff8ff7",
+  "subtitle": "Drawing app with subscription unlocked",
   "tags": [
    "drawing",
-   "tutorial",
-   "learn",
    "art",
    "sketch",
-   "education"
+   "unlocked",
+   "subscription"
   ]
  },
  "com.joytunes.SimplyGuitar": {
@@ -31723,6 +32542,23 @@
    "utility"
   ]
  },
+ "com.jsbak.Warship": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Warship Craft is an immersive mobile game for iOS that brings naval warfare and ship building to your device.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "56d1a375ad8a75b78eef318c71f00da664f1b7024a85524753b3e1e7d32ad909",
+  "subtitle": "Naval warfare and ship building game",
+  "tags": [
+   "naval",
+   "warfare",
+   "ship",
+   "building",
+   "game",
+   "immersive"
+  ]
+ },
  "com.juananzzz.resonus": {
   "category": "entertainment",
   "date": "2026-11-04",
@@ -31776,6 +32612,23 @@
    "native",
    "port",
    "game"
+  ]
+ },
+ "com.jumpgames.rswrb": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "World Robot Boxing is an iOS fighting game where players control giant robots in combat arenas. The game features robot customization, multiple fight modes, and progression through leagues. This is the iOS installation package for the title.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "22b3f744e4f82472a120ea1405decc896ddd6513c246f689f05b0d2a31e33d2d",
+  "subtitle": "Action-packed robot fighting game",
+  "tags": [
+   "fighting",
+   "robots",
+   "action",
+   "multiplayer",
+   "customization",
+   "arcade"
   ]
  },
  "com.justvolleyball.game": {
@@ -31964,6 +32817,25 @@
    "creative-writing",
    "llm",
    "roleplay"
+  ]
+ },
+ "com.karolsmolak.WL-analysis": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "WL Analysis is a barbell path tracker designed for athletes and coaches. This innovative tool utilizes advanced tracking to help you monitor and analyze your barbell lifts.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6c2b10c3e48f650f69d8daf5429031bc8cbc2c9592c862e97296fe4f1a9011f3",
+  "subtitle": "Barbell path tracker for athletes and coaches",
+  "tags": [
+   "barbell",
+   "tracker",
+   "athlete",
+   "coach",
+   "analysis",
+   "fitness"
   ]
  },
  "com.karteto.application": {
@@ -32450,6 +33322,25 @@
    "multiplayer",
    "base-building",
    "post-apocalyptic"
+  ]
+ },
+ "com.kingsoft.office.g.wpsoffice": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Modified version of WPS Office with Pro features injected. Provides access to premium office suite tools for documents, spreadsheets, and presentations without subscription.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "eee29a3af5545dbbba6bf3ae39fcceb1b0b250c9854705bc9dd4cacbc32a28cb",
+  "subtitle": "WPS Office with Pro features unlocked",
+  "tags": [
+   "wps",
+   "office",
+   "pro",
+   "productivity",
+   "documents",
+   "spreadsheets"
   ]
  },
  "com.kiragan.blastjam": {
@@ -32980,6 +33871,23 @@
    "data"
   ]
  },
+ "com.kyragames.AestheticSadWallppapers": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WallPics IPA MOD v3.0.78 is a platform tailored for iOS users seeking to elevate their digital experience with stunning 4K wallpapers.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "95796f13246a9f8194a9b374a2dd301df9ec3c076dbfd089d8a14b4aab3ba40f",
+  "subtitle": "Stunning 4K wallpapers for iOS",
+  "tags": [
+   "wallpapers",
+   "4k",
+   "ios",
+   "ipa",
+   "mod",
+   "customization"
+  ]
+ },
  "com.kyrielie.nectar": {
   "category": "other",
   "date": "2026-11-01",
@@ -33181,6 +34089,29 @@
    "utilities"
   ]
  },
+ "com.laoyue.whitenoise": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "White Noise Pro includes a variety of sounds in categories ranging from sleep, meditation, ASMR, lullaby, classical and relaxing music.",
+  "features": [
+   "VIP Injected",
+   "Sleep sounds",
+   "Meditation audio",
+   "ASMR tracks",
+   "Classical music"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5a7183ffef02607b5d3b2db7ae4e81d837af4f24c2f60020fc87fb11af97de54",
+  "subtitle": "Relaxing sounds for sleep, meditation and ASMR",
+  "tags": [
+   "whitenoise",
+   "sleep",
+   "meditation",
+   "asmr",
+   "music",
+   "relaxation"
+  ]
+ },
  "com.lappir.carnivore": {
   "category": "other",
   "date": "2026-10-15",
@@ -33213,6 +34144,24 @@
    "health",
    "nutrition",
    "weight loss"
+  ]
+ },
+ "com.lasmit.World-Time": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "World clock and timezone converter app with pro version unlocked.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d0e719148f5a2f83de67d16acb372f0aba9a2b618a301fb7d982c50e7c92d9cb",
+  "subtitle": "World clock and timezone converter",
+  "tags": [
+   "world clock",
+   "timezone",
+   "converter",
+   "utilities",
+   "time"
   ]
  },
  "com.latenightking.TrueFilm": {
@@ -33384,6 +34333,24 @@
    "men",
    "pro",
    "ipa",
+   "ttjb"
+  ]
+ },
+ "com.leapfitness.womenlose": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "This is a modified IPA version of womenlose that includes an in-app purchase bypass feature (press buy then cancel). The IPA has been checked and compiled by TTJB Team.",
+  "features": [
+   "In-App Purchase Bypass"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "101296b460e472864ff70faa37b171d324c3b17c36c42d22a6a36c8dad44748a",
+  "subtitle": "Modified IPA with in-app purchase bypass",
+  "tags": [
+   "modified",
+   "ipa",
+   "iap-bypass",
+   "womenlose",
    "ttjb"
   ]
  },
@@ -35025,25 +35992,23 @@
  },
  "com.lumisound.ios": {
   "category": "entertainment",
-  "date": "2026-11-07",
-  "description": "Lumisound is a full-featured iOS music player with a 10-band EQ, 8D spatial audio, crossfade, gapless playback, AB repeat, sleep timer, and lyrics support. Access your music through your personal cloud library or stream directly from SoundCloud and YouTube.",
+  "date": "2026-11-10",
+  "description": "Lumisound is an entertainment app written in Rust. It provides iOS installation via AltStore or Sideloadly, supports self-hosting the bridge, and can be built from source. The app includes a full Help & Feature Guide accessible from Settings \u2192 Help with usage tips for each feature.",
   "features": [
-   "10-band EQ",
-   "8D spatial audio",
-   "Crossfade",
-   "Gapless playback",
-   "Sleep timer"
+   "In-app help guide",
+   "Self-hosting bridge",
+   "Build from source"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "b72af78b10772078406a5435fd21b93dd1e0c1a22f5421e6e7fd1e75eb8432c5",
-  "subtitle": "Full-featured iOS music player with spatial audio",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4ab0650dfb7a5258337eb9a60ea0cc535abed718e9e5aa5fe0b21d5398074d89",
+  "subtitle": "Rust-based audio app with self-hosting bridge",
   "tags": [
-   "music",
-   "player",
-   "streaming",
+   "rust",
    "audio",
-   "equalizer",
-   "cloud"
+   "sideload",
+   "self-host",
+   "open-source",
+   "help-guide"
   ]
  },
  "com.lunch.cellstosingularity": {
@@ -36910,6 +37875,23 @@
    "action"
   ]
  },
+ "com.miniclip.drone1": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "War Drone is a 3D action shooter game for iOS. The package allows iPhone users to play a shooting game with three-dimensional graphics.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1d45d2e27a44ab659e0c484b5e9e33c9d1905754e28b2b87746080699e0e5d87",
+  "subtitle": "3D action shooter game for iPhone",
+  "tags": [
+   "3d",
+   "shooter",
+   "action",
+   "game",
+   "ios",
+   "iphone"
+  ]
+ },
  "com.miniclip.ghostinvasion": {
   "category": "games",
   "date": "2026-10-25",
@@ -37066,6 +38048,23 @@
    "iphone",
    "professional graphics",
    "instant design"
+  ]
+ },
+ "com.mkarpenko.worldbox": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WorldBox is a god sandbox game where you can create and destroy worlds. This version includes free in\u2011app purchases. Version 0.22.21.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f727d6bb21bc01a7619a29bfca7e8cd97c4e7ba36e2111e08bc758b81a55b145",
+  "subtitle": "God Sandbox with Free In\u2011App Purchases",
+  "tags": [
+   "worldbox",
+   "god",
+   "sandbox",
+   "free",
+   "iap",
+   "game"
   ]
  },
  "com.mlobodzinski.Stoic": {
@@ -37692,6 +38691,22 @@
    "finance"
   ]
  },
+ "com.monirapps.thermomete": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Weather Flutter is an iOS application designed to run on iPhone and iPad devices. This app is available as an IPA file for manual installation.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "735197e74d53227a8582b5c57d0201299a5d3ff73dd838c81afbaaae963fff77",
+  "subtitle": "Weather app for iPhone and iPad",
+  "tags": [
+   "weather",
+   "ipa",
+   "app",
+   "iphone",
+   "ipad"
+  ]
+ },
  "com.monkeyibrowstudios.worldsoccerchamps": {
   "category": "games",
   "date": "2026-11-06",
@@ -38194,22 +39209,21 @@
   ]
  },
  "com.mwm.guitartuner": {
-  "category": "other",
-  "date": "2026-11-08",
-  "description": "TunerPro is a modified tuner application with Pro features injected. The app provides tuning functionality for musical instruments with premium capabilities unlocked.",
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "TunerPro is a tuner application that has been modified to unlock subscription features. The original app functionality includes instrument tuning capabilities. This version provides access to subscription-only features without requiring a paid subscription.",
   "features": [
-   "Pro Unlocked"
+   "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "582cd1c9a691d6de549a7c1704b62d74f71fa078ca6fa84344aa3451331a36fd",
-  "subtitle": "Pro tuner with unlocked features",
+  "src_hash": "b28518b37315f86362afde245e1b281f3680e3cf40a8d9e1130e91d222e067c6",
+  "subtitle": "Tuner app with subscription unlocked",
   "tags": [
    "tuner",
-   "pro",
-   "music",
-   "audio",
    "instrument",
-   "unlocked"
+   "music",
+   "unlocked",
+   "subscription"
   ]
  },
  "com.mwm.moments": {
@@ -39313,6 +40327,23 @@
    "communication"
   ]
  },
+ "com.netease.yysls": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Where Winds Meet is an ambitious open-world action RPG inspired by classic Chinese wuxia culture, blending open-world exploration with martial arts combat.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0910a040d7c1c6dee8637c070e23de5c2eb6f6034b78a84ad3c0c3f4a5248e44",
+  "subtitle": "An open-world action RPG inspired by wuxia culture",
+  "tags": [
+   "action",
+   "rpg",
+   "open world",
+   "wuxia",
+   "martial arts",
+   "game"
+  ]
+ },
  "com.netflix.NGP.BloonsTDSix": {
   "category": "games",
   "date": "2026-10-15",
@@ -40371,6 +41402,23 @@
    "empire"
   ]
  },
+ "com.nrkvv.wifiscanner": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Wifiscanner is a tool for scanning and analyzing WiFi networks on iOS devices. The app detects nearby wireless networks and displays information such as signal strength, channel, and security type.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cdeff7ffb064671235403e77b73a65d997112d6a06759208eaa087e804542849",
+  "subtitle": "WiFi network scanner and analyzer",
+  "tags": [
+   "wifi",
+   "scanner",
+   "network",
+   "analyzer",
+   "signal",
+   "security"
+  ]
+ },
  "com.nspgames.dungeonslasher": {
   "category": "games",
   "date": "2026-10-20",
@@ -40457,23 +41505,23 @@
   ]
  },
  "com.nuvio.media": {
-  "category": "other",
-  "date": "2026-11-05",
-  "description": "Nuvio Enhanced is a custom variant of Nuvio version 0.4.2 (bundle ID: com.nuvio.media) developed by tapframe. This version includes experimental features not found in the standard release.",
+  "category": "entertainment",
+  "date": "2026-11-10",
+  "description": "This unofficial fork is not affiliated with or supported by the Nuvio team. Report bugs to this repository rather than upstream unless they occur on an official build. This version adds Live TV, which is not present in upstream Nuvio. Performance improvements include faster startup on Android by loading saved data in the background during the splash screen, and instant home screen loading where the last home screen is saved per profile and displayed on launch while fresh rows load.",
   "features": [
-   "Experimental features",
-   "Custom variant"
+   "Live TV",
+   "Faster startup",
+   "Instant home"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "968ffd49f486fcf1681f49909fd897eb4a66906cdbf455d998c574e14869d9b7",
-  "subtitle": "Custom Nuvio variant with experimental features",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "71864905d2a6e4e30bab8a0d0ffa1a7e024ac36e6e57df5240c702877e063b8a",
+  "subtitle": "An unofficial fork of Nuvio with Live TV and speed",
   "tags": [
    "nuvio",
-   "custom",
-   "experimental",
-   "variant",
+   "livetv",
+   "streaming",
    "media",
-   "tapframe"
+   "fork"
   ]
  },
  "com.nuvio.media.nuvio": {
@@ -40785,6 +41833,29 @@
    "pc",
    "gaming",
    "gyro"
+  ]
+ },
+ "com.omrajput.wyrmios": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Play and manage Snakey Rain with the native loadout controller. Access public or personal logins, character editors, and compatible skin, tag, and accessory editors. Choose from 14 modes with live settings and use the adjustable arena panel. Character patterns maintain palette, colour-wheel, and Wyrm bead colours across previews, with customizable panel text, border, and fill colours. Settings are shared with Android, and credentials and private bot tag codes are stored securely in your device Keychain.",
+  "features": [
+   "Native Snakey Rain controller",
+   "Character and skin editors",
+   "14 game modes",
+   "Adjustable arena panel",
+   "Keychain credential storage"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b9be61d9e29e61ddf12994b83ece9930315066f18b95f04df9f2e1159de14164",
+  "subtitle": "Snakey Rain controller and editors",
+  "tags": [
+   "snakey rain",
+   "controller",
+   "loadout",
+   "editor",
+   "game",
+   "utility"
   ]
  },
  "com.ondi.fortias.saga": {
@@ -42101,6 +43172,23 @@
    "apps"
   ]
  },
+ "com.peoplefun.wordcross": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Wordscapes is a word puzzle game where players swipe letters to form words and fill crossword grids. This version is an IPA compiled and tested by TTJB Team, featuring IGG functionality.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9e6a05d8d4b4d169c9dc5ee7626515988c618863bde01a380b5eca90b7b90b24",
+  "subtitle": "Word puzzle game with crossword challenges",
+  "tags": [
+   "wordscapes",
+   "word game",
+   "puzzle",
+   "ipa",
+   "ttjb",
+   "igg"
+  ]
+ },
  "com.peoplefun.wordsearch": {
   "category": "games",
   "date": "2026-11-05",
@@ -42422,6 +43510,23 @@
    "premium",
    "unlocked",
    "tweak"
+  ]
+ },
+ "com.pical.app": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Weel is an iOS productivity app designed as an ADHD schedule planner. The IPA file allows installation on iOS devices for task and time management tailored to ADHD needs.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "eef4d8e459d41cd1f8ab5897375e2aaea2b5bc5b7483a204742178d74d6c1e33",
+  "subtitle": "ADHD schedule planner for productivity",
+  "tags": [
+   "adhd",
+   "planner",
+   "schedule",
+   "productivity",
+   "ios",
+   "ipa"
   ]
  },
  "com.picretouch.photoeditor": {
@@ -42998,6 +44103,23 @@
    "merge",
    "survival",
    "strategy",
+   "mobile",
+   "game"
+  ]
+ },
+ "com.pixonic.wwr": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "War Robots Multiplayer Battles is a cutting-edge mobile game that offers an immersive and action-packed experience.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "28846d0a1ab8bf7e0a54617c1614aec40f0bee7dedf14250eff3e510d9e8a71c",
+  "subtitle": "Multiplayer robot battle game",
+  "tags": [
+   "multiplayer",
+   "battle",
+   "robots",
+   "action",
    "mobile",
    "game"
   ]
@@ -44417,6 +45539,23 @@
    "ios"
   ]
  },
+ "com.pujiagames.deeeersimulatorwild": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "DEEEER Simulator: Wild World is an unconventional open-world sandbox game for iPhone.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "40a846d2c853f40bc5627c6de671e8fc1bf49c2a90fe2f6ed3016487435b1490",
+  "subtitle": "Open-world sandbox deer simulator for iPhone",
+  "tags": [
+   "open-world",
+   "sandbox",
+   "deeer",
+   "simulator",
+   "iphone",
+   "game"
+  ]
+ },
  "com.pungme.combyne": {
   "category": "lifestyle",
   "date": "2026-10-18",
@@ -45379,6 +46518,19 @@
    "developer"
   ]
  },
+ "com.realmzer.whatsappfreeze": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WhatsAppFreeze shows a status indicator.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7e80fba1ae5960a433fe1e4b660b1d1f449bbaf0432049d80a8a57bfdbc4b3c2",
+  "subtitle": "WhatsAppFreeze",
+  "tags": [
+   "whatsappfreeze",
+   "status"
+  ]
+ },
  "com.rebelancap.2ship": {
   "category": "other",
   "date": "2026-10-14",
@@ -45868,6 +47020,25 @@
    "iap",
    "modified",
    "ipa"
+  ]
+ },
+ "com.relentlessco.zesty": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "WeChef is a recipe journal application designed to help you organize and manage your recipes. This version comes with premium content unlocked. To activate the premium features, restart the application when you reach the purchase page.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "428b09c9eb3b2228cb9560a4487991618a179a110410cfbe8b2e072ac994292f",
+  "subtitle": "Recipe Journal with premium features unlocked",
+  "tags": [
+   "wechef",
+   "recipes",
+   "journal",
+   "cooking",
+   "food",
+   "utilities"
   ]
  },
  "com.reliancegames.rschampions": {
@@ -47603,6 +48774,25 @@
    "lifestyle"
   ]
  },
+ "com.sbs.train": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "This version of Workouts has the subscription unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2c03c7b2867f50272ce7830d9cc44ee61f02a3393e8149fea6b7564315a37e36",
+  "subtitle": "Fitness workouts with subscription unlocked",
+  "tags": [
+   "workouts",
+   "fitness",
+   "subscription",
+   "unlocked",
+   "ipa",
+   "repo"
+  ]
+ },
  "com.scaleup.photofx": {
   "category": "other",
   "date": "2026-11-02",
@@ -48687,6 +49877,42 @@
    "download"
   ]
  },
+ "com.sina.weibo": {
+  "category": "social",
+  "date": "2026-11-10",
+  "description": "Weibo is a social media application developed by OwO Source. This version has been modified to remove advertisements from the user experience.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2102f952c694e425a074d8d4f9d57254e867f68053761d83e86899d677aa45ae",
+  "subtitle": "Weibo social app with no advertisements",
+  "tags": [
+   "weibo",
+   "social",
+   "ad-free",
+   "china",
+   "microblog",
+   "messaging"
+  ]
+ },
+ "com.sixiaobo.xcolor": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "ColorMax \u2013 Aesthetic Palettes is an iOS app for creative design with aesthetic color palettes. It provides an installable IPA version for iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b7f50e7160ecbbe738cda9761c18a79ec68e24b6bcadcb2e39606d51f8ad2c03",
+  "subtitle": "Aesthetic color palettes for creative design",
+  "tags": [
+   "color",
+   "palette",
+   "design",
+   "aesthetic",
+   "creative",
+   "ios"
+  ]
+ },
  "com.sixtysevenbits.idleislandscv": {
   "category": "games",
   "date": "2026-10-28",
@@ -49374,23 +50600,21 @@
  },
  "com.soundcloud.TouchApp": {
   "category": "entertainment",
-  "date": "2026-11-09",
-  "description": "Unlock SoundCloud Go+ subscription features and download songs for offline listening. Access settings through the app interface to enable plus subscription features and song downloads. Play any song and use the download icon to save it to your device. Manage downloaded tracks, play them back directly, and export saved audio files to your device storage using the built-in file manager.",
+  "date": "2026-11-10",
+  "description": "SoundCloud provides access to audio streaming and music. This version includes injected premium features.",
   "features": [
-   "Unlock Plus",
-   "Download Songs",
-   "Export to Files"
+   "Premium"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "8ee6213296346760d9a1d17a9b78e698174ed84b3dad5c797d8cf74a77ae11d5",
-  "subtitle": "Unlock Go+ and download songs",
+  "src_hash": "a9b48ff30520fd76a5ce32717ab0b05858f13c56203d18132daeca0e471369a3",
+  "subtitle": "Audio streaming platform",
   "tags": [
-   "soundcloud",
    "music",
    "audio",
-   "download",
-   "offline",
-   "player"
+   "streaming",
+   "songs",
+   "sound",
+   "tracks"
   ]
  },
  "com.soundscape.music": {
@@ -50807,6 +52031,23 @@
    "game"
   ]
  },
+ "com.stanga.projectKu": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Walli is an app from AppTesters IPA Repo, injected with Pro features.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2fbcb71249ea1ff77466399f254f065b76361848292fb3fe8d55f4f9f18d7c20",
+  "subtitle": "Walli - Injected with Pro",
+  "tags": [
+   "walli",
+   "app",
+   "pro",
+   "injected",
+   "ipa",
+   "repo"
+  ]
+ },
  "com.starfish.mergevia.tile.match.ios": {
   "category": "games",
   "date": "2026-10-30",
@@ -51738,6 +52979,22 @@
    "unlocked"
   ]
  },
+ "com.studio-maximus.wallpapers": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Provides a collection of 8K resolution wallpapers and 4K backgrounds for iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0e89c7eb1fc744c0a0ab034a75f18c73a67bfca0ecbf23ccffe8f0d6049ec3b2",
+  "subtitle": "8K wallpapers and 4K backgrounds",
+  "tags": [
+   "wallpapers",
+   "8k",
+   "4k",
+   "backgrounds",
+   "ios"
+  ]
+ },
  "com.studiolico.woodenstick": {
   "category": "games",
   "date": "2026-10-14",
@@ -52090,6 +53347,29 @@
    "certfish"
   ]
  },
+ "com.suversal.wrappin": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "WrapPin sets a fixed location or moves along a walking or driving route on an iPhone running iOS 18 or newer, without a jailbreak and without installing a MITM root certificate. It uses the iOS developer location simulation service. The app interface is available in English and Simplified Chinese and follows the system language. Use WrapPin only on devices you own and control. Do not use it to deceive other people, fabricate evidence, bypass security restrictions, or break the rules of third-party services.",
+  "features": [
+   "No jailbreak required",
+   "No MITM certificate",
+   "iOS developer service",
+   "Walking and driving routes",
+   "English and Chinese"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "88bfb190fe409154eeca28fdcccb66063f5683bfe52a305fb3666e5bfdb01b62",
+  "subtitle": "Simulate location on iOS 18 or newer",
+  "tags": [
+   "location",
+   "simulator",
+   "gps",
+   "route",
+   "ios18",
+   "developer"
+  ]
+ },
  "com.suwayomi.tachideskSorayomi": {
   "category": "entertainment",
   "date": "2026-11-09",
@@ -52111,19 +53391,25 @@
  },
  "com.suwayomi.tachideskSorayomi.tsumiru": {
   "category": "entertainment",
-  "date": "2026-11-09",
-  "description": "Tsumiru (\u7a4d\u307f\u308b) takes the \u7a4d, meaning \"pile up\", from tsundoku (\u7a4d\u3093\u8aad), the Japanese habit of buying books faster than you can read them. It swaps the \"read\" for managing your reading backlog.",
-  "features": [],
+  "date": "2026-11-10",
+  "description": "Tsumiru is a webtoon reader that scrolls chapters continuously while pinch\u2011to\u2011zoom remains active. On first launch it scans the local network for a server and connects automatically. An incognito mode lets you read without adding entries to history, and library categories can be hidden. The app includes 13 built\u2011in themes, a custom accent colour, and a pure black mode for OLED screens. It supports the server's simple_login and ui_login methods, storing credentials in the device's secure storage. Builds for Windows, macOS and the web are available from the project's releases.",
+  "features": [
+   "Webtoon Reader",
+   "Guided Setup",
+   "Incognito Mode",
+   "Themes",
+   "Server Login"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "e27c7fbd944e1e86d164c68c42ab240c5ef3e0908d03f06a0392c8aa89fb5727",
-  "subtitle": "Track your book pile habit",
+  "src_hash": "5b096eb1b1b185c0a15847a40f61cabaa656eb206f4af8f2182cc5f3d6a90547",
+  "subtitle": "Webtoon reader with incognito mode",
   "tags": [
-   "books",
-   "reading",
-   "tsundoku",
-   "tracking",
-   "japanese",
-   "habit"
+   "webtoon",
+   "reader",
+   "incognito",
+   "themes",
+   "server",
+   "cross-platform"
   ]
  },
  "com.suykorng.iptv": {
@@ -52800,6 +54086,23 @@
    "beta"
   ]
  },
+ "com.tencent.xin": {
+  "category": "social",
+  "date": "2026-11-10",
+  "description": "Injected with PKC 0.7.8, MiYou 3.8.7, XNSP 2.2.5, WCElite 1.3.4, HBWechatHelper 1.9.0, wx.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "007ff79e2d0068dc019607b3b2505f26ce9d2cbabc245329146be8063a697c65",
+  "subtitle": "WeChat with multiple injected tweaks",
+  "tags": [
+   "wechat",
+   "pkc",
+   "miyou",
+   "xnsp",
+   "wcelite",
+   "hbwechathelper"
+  ]
+ },
  "com.tensaiasobi.app": {
   "category": "games",
   "date": "2026-11-07",
@@ -53160,6 +54463,23 @@
    "game",
    "ipa",
    "ios"
+  ]
+ },
+ "com.thp020.stickman.casual.war.game": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Warventure: Stickman Clash IPA MOD brings an energetic and action-driven experience.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "630ffa701466f253851448fa873e20be00635dcc0ab0903115ae0ecd9108e97a",
+  "subtitle": "Stickman action clash adventure",
+  "tags": [
+   "warventure",
+   "stickman",
+   "clash",
+   "action",
+   "mod",
+   "ipa"
   ]
  },
  "com.threeKM.packMonsterIdle.app": {
@@ -54766,6 +56086,27 @@
    "game",
    "matching",
    "casual"
+  ]
+ },
+ "com.uldineogames.magic-swipe": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Wizard Tower Defense Idle Game with unlimited gold, unlimited gems, and no skill cooldown for iOS.",
+  "features": [
+   "Unlimited Gold",
+   "Unlimited Gems",
+   "No Skill Cooldown"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "89776f04fc9f5605645491d48f1425b5f5e553dcd03241c6113b7d4b085e14d1",
+  "subtitle": "Wizard Tower Defense Idle Game MOD",
+  "tags": [
+   "wizard",
+   "tower",
+   "defense",
+   "idle",
+   "mod",
+   "ios"
   ]
  },
  "com.ulisesolave.Fitia": {
@@ -60262,6 +61603,180 @@
    "custom"
   ]
  },
+ "com.unknown.walli": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "This application provides wallpapers for your mobile phone screen. Premium features are unlocked in this version.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "70e9bba249ac8af719cae149f0b147da8480553a8bba97fa0c8ca95c20c0a802",
+  "subtitle": "Walli mobile wallpapers",
+  "tags": [
+   "wallpapers",
+   "backgrounds",
+   "phone",
+   "screen",
+   "images"
+  ]
+ },
+ "com.unknown.wallicoolwallpapershd": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "Walli Cool WallpapersHD provides a premium unlocked version with a collection of high-quality wallpapers. Users can select and set wallpapers in the best possible way.",
+  "features": [
+   "Premium Unlocked",
+   "High-Quality Wallpapers"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1b54b07550f58a5278722bfe9b205275b9c06733e947438c65853db27fb2bbe9",
+  "subtitle": "Premium unlocked HD wallpapers",
+  "tags": [
+   "wallpapers",
+   "hd",
+   "premium",
+   "unlocked",
+   "backgrounds",
+   "cool"
+  ]
+ },
+ "com.unknown.wallpapers": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "Application for downloading wallpapers with high resolution.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9b500810e0a5d5e8b3b5dcf9667b3f4437334468add3552ad0764c92dfe4aff5",
+  "subtitle": "High-resolution wallpaper downloads",
+  "tags": [
+   "wallpapers",
+   "backgrounds",
+   "high resolution",
+   "download",
+   "images",
+   "photos"
+  ]
+ },
+ "com.unknown.wappear": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Wappear offers prime features unlocked for users.",
+  "features": [
+   "Prime Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d57580b98617a9d9d0e9b3629fde4ea6a327ed9671108e5061902f37eb9ff2d3",
+  "subtitle": "Prime features unlocked",
+  "tags": [
+   "wappear",
+   "prime",
+   "unlocked"
+  ]
+ },
+ "com.unknown.wearfitpro": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "\u062a\u0627\u06cc\u0628\u06d5\u062a\u0645\u06d5\u0646\u062f\u06cc\u06d5\u06a9\u0627\u0646 \u0628\u06d5 \u0634\u06ce\u0648\u06d5\u06cc\u06d5\u06a9\u06cc \u0626\u06c6\u062a\u06c6\u0645\u0627\u062a\u06cc\u06a9\u06cc \u0686\u0627\u0644\u0627\u06a9 \u062f\u06d5\u06a9\u0631\u06ce\u0646",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a79b5b7d513d9237c2678dc30d025a1c221f2dda8d195efcbc0c6f244d58cebc",
+  "subtitle": "Wearfit Pro",
+  "tags": [
+   "wearfit",
+   "pro",
+   "karbin",
+   "store"
+  ]
+ },
+ "com.unknown.weather": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Weather is an application for checking weather forecasts and current conditions. The app provides weather information for your location.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "33cf193cc44bde361caa6a336af984ab38350b1c8388851c70888c1ea986eee0",
+  "subtitle": "Weather forecast and conditions app",
+  "tags": [
+   "weather",
+   "forecast",
+   "temperature",
+   "conditions",
+   "climate",
+   "meteorology"
+  ]
+ },
+ "com.unknown.wolframalphaclassic": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WolframAlpha Classic is a computational knowledge engine that covers multiple fields including chemistry, biology, engineering, economics, astronomy, statistics, and more. It serves as a tool for homework and research.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a020e6425027e1e7345a57b61842e032f74ffde7e53144bc39a7859d5c4e0509",
+  "subtitle": "Computational knowledge engine for homework and research",
+  "tags": [
+   "wolframalpha",
+   "knowledge",
+   "homework",
+   "research",
+   "computational",
+   "engine"
+  ]
+ },
+ "com.unknown.womenlose": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "The app lets you drop your bag through the program.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7c1b3eb343b6e53da31e8ada2e4e65bcb6556f5dabe6b1c791998a1d313c0e94",
+  "subtitle": "Drop your bag via this app",
+  "tags": [
+   "women",
+   "weight",
+   "loss",
+   "bag",
+   "app"
+  ]
+ },
+ "com.unknown.worldrobotboxing": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "World Robot Boxing is a game where players control robots in boxing matches. Collect upgrade tokens by completing missions to improve your bot.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3bed44fc1fdcfd41fbaaf594c6c8896596ad7edc9002aa9db0a51dc210c3cf40",
+  "subtitle": "Fight robots in boxing matches",
+  "tags": [
+   "robot",
+   "boxing",
+   "game",
+   "action",
+   "fighting",
+   "karbin"
+  ]
+ },
+ "com.unknown.worldwar": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "World War is a shooter where the player never dies, has unlimited ammunition, and weapons continue firing during reloads.",
+  "features": [
+   "Never Die",
+   "Unlimited Ammo",
+   "Fire on Reload"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "de1fc60478bf3dc36558ea56c37873cc46ae6fd0940744b80d427bc91b1ff45c",
+  "subtitle": "Endless combat with unlimited ammo",
+  "tags": [
+   "shooter",
+   "unlimited",
+   "invincible",
+   "reload",
+   "action",
+   "game"
+  ]
+ },
  "com.unofficial.balatro": {
   "category": "games",
   "date": "2026-10-15",
@@ -60936,6 +62451,26 @@
    "app"
   ]
  },
+ "com.vgfit.waterreminder": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Water Reminder is a daily water intake tracker for iOS 12.0 and later. The app is version 1.9.29 with bundle ID com.vgfit.waterreminder. This version is patched and has the subscription unlocked.",
+  "features": [
+   "Patched",
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "01589f0c8ec1e6ad649abb0f2f1fb01d8545a6951ea7ddd30d7a44cc010d373b",
+  "subtitle": "Water tracker with subscription unlocked",
+  "tags": [
+   "water",
+   "reminder",
+   "tracker",
+   "subscription",
+   "unlocked",
+   "patched"
+  ]
+ },
  "com.vh.vhub": {
   "category": "other",
   "date": "2026-11-09",
@@ -61202,6 +62737,23 @@
    "games"
   ]
  },
+ "com.vjsjlqvlmp.wearewarriors": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "This highly immersive game takes you on a journey through a mystical world filled with danger and excitement.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d03da1af8affeab41f35b512f23f43a588a1742289cc05ea5aa74cede05ceef4",
+  "subtitle": "Immersive journey through a mystical world",
+  "tags": [
+   "immersive",
+   "mystical",
+   "adventure",
+   "danger",
+   "excitement",
+   "journey"
+  ]
+ },
  "com.vk.vkclient": {
   "category": "photo-video",
   "date": "2026-11-02",
@@ -61358,6 +62910,22 @@
    "battle",
    "mod",
    "hack"
+  ]
+ },
+ "com.vottzapps.wordle": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Wordle is a word puzzle game where players try to guess a hidden word. Test your vocabulary and problem solving skills with daily word challenges.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d955d2a55cef202875a40e8775eb681e1b35c248a6639f299d9ea123d346469e",
+  "subtitle": "Wordle puzzle game",
+  "tags": [
+   "wordle",
+   "puzzle",
+   "words",
+   "game",
+   "vocabulary"
   ]
  },
  "com.vpn.sunrise": {
@@ -61573,6 +63141,59 @@
    "player"
   ]
  },
+ "com.wasteland.heart": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "The world of Wasteland Life Survival Idle IPA is a stark contrast to the comforts of the pre-apocalyptic era. Gone are the luxuries and",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "88de2a68ccada07440465f485ce42ce15fbd727bb9b731f4e472251b3ab02b88",
+  "subtitle": "Survival idle in a post-apocalyptic world",
+  "tags": [
+   "wasteland",
+   "life",
+   "survival",
+   "idle",
+   "pre-apocalyptic",
+   "world"
+  ]
+ },
+ "com.waterminder.waterminder": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WaterMinder is a water tracking application. This version has been injected with premium features.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c1c9f6faa21d65fb6dc36dc2518644cdfb20f93467a54bc634262b077a06e094",
+  "subtitle": "Water tracking with premium unlocked",
+  "tags": [
+   "water",
+   "tracking",
+   "health",
+   "hydration",
+   "premium",
+   "unlocked"
+  ]
+ },
+ "com.waterminder.waterminder.watchkitapp": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "An easy and intuitive app to track your water intake. Based on your body weight or personal goal, WaterMinder reminds you to drink water to meet your hydration target.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8beaf84521c2c92d593b76e7c9568958d23e5404af6be80c9ee6e799a270a63d",
+  "subtitle": "Track water intake with reminders",
+  "tags": [
+   "water",
+   "tracker",
+   "hydration",
+   "reminder",
+   "health",
+   "intake"
+  ]
+ },
  "com.wavera.ios.famefy": {
   "category": "other",
   "date": "2026-10-21",
@@ -61586,6 +63207,23 @@
    "app",
    "mobile",
    "ios"
+  ]
+ },
+ "com.waze.iphone": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Waze / Plus. A navigation app that assists drivers in reaching their destinations by providing real-time road alerts, ensuring up-to-date information.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8daf0e9a238cdaf9a691b8c5e1289897d4c9288ed2b5da81e22f42090704cad1",
+  "subtitle": "Real-time navigation with road alerts",
+  "tags": [
+   "navigation",
+   "real-time",
+   "alerts",
+   "waze",
+   "plus",
+   "driver"
   ]
  },
  "com.wb.Injustice.Brawler2013": {
@@ -61694,6 +63332,26 @@
    "heroes",
    "quests",
    "mobile"
+  ]
+ },
+ "com.wedbox.planning": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Wedding Planner by Wedsly is a tweaked version with premium features unlocked. Version 3.6.2, patched by @riftysIPAlibrary.",
+  "features": [
+   "Premium Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7f64626bbef8444444dc9345f88a6d5c1f460b249e2f4e065c9c2afebc164c12",
+  "subtitle": "Wedding planner with premium features unlocked",
+  "tags": [
+   "wedding",
+   "planner",
+   "premium",
+   "unlocked",
+   "patched",
+   "tweak"
   ]
  },
  "com.weiranzhang.Hackers": {
@@ -61874,6 +63532,26 @@
    "utility"
   ]
  },
+ "com.wikiloc.wikiloc": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Wikiloc - Trails of the World (bundle ID com.wikiloc.wikiloc) version 3.30.2. Requires iOS 16.4 or later. This is a patched release with the subscription modifier applied. The original app provides trail maps, GPS navigation, and outdoor route recording for hiking, cycling, and other activities.",
+  "features": [
+   "Patched",
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2d00196f2f0b9faadaf6c8a015bfc02e86e3230beab2691739e4d6361ba9be51",
+  "subtitle": "Trails of the World \u2014 patched build",
+  "tags": [
+   "trails",
+   "hiking",
+   "gps",
+   "outdoor",
+   "navigation",
+   "maps"
+  ]
+ },
  "com.wildlifestudios.merge.animal.sanctuary": {
   "category": "games",
   "date": "2026-11-02",
@@ -61889,6 +63567,25 @@
    "ios",
    "relaxing",
    "mobile"
+  ]
+ },
+ "com.wildventures.wildjourney": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Wild Journey \u2013 Nature Sounds offers a collection of ambient nature audio. The app includes a free in-app purchase that unlocks the subscription content. Version 5.3 from Wild Ventures.",
+  "features": [
+   "Free IAP"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d5c3d615ca25b1ebd4406ae7d01ae7be9b1cb6993349f70b489abe60d6979607",
+  "subtitle": "Nature sounds with free in-app purchase",
+  "tags": [
+   "nature",
+   "sounds",
+   "relaxation",
+   "free iap",
+   "subscription",
+   "wild ventures"
   ]
  },
  "com.willbishop.Simmer": {
@@ -61999,6 +63696,23 @@
    "ios"
   ]
  },
+ "com.wiz.weed.game": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "The popular rap artist Wiz Khalifa recently released a weed farm mod IPA for iOS users. This modified version",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b2bc2673276fe07c5f48515f21bb1e77543da34042b9c150892db1a26119b2ca",
+  "subtitle": "Wiz Khalifa's Weed Farm mod IPA",
+  "tags": [
+   "wiz",
+   "khalifa",
+   "weed",
+   "farm",
+   "mod",
+   "ipa"
+  ]
+ },
  "com.wolf.piggy": {
   "category": "games",
   "date": "2026-10-15",
@@ -62013,6 +63727,62 @@
    "fantasy",
    "game",
    "heroes"
+  ]
+ },
+ "com.wolframalpha.wolframalpha": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Use the power of Wolfram's computational intelligence to answer your questions. Building on 30+ years of development led by Stephen Wolfram, WolframAlpha provides expert-level knowledge and computation.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "51bf498902183279ff0c97f9a0c91df1a2ddbd2746999e1e5810f9d94b0e22ee",
+  "subtitle": "Computational intelligence for your questions",
+  "tags": [
+   "computation",
+   "answers",
+   "math",
+   "science",
+   "knowledge",
+   "intelligence"
+  ]
+ },
+ "com.wolframalpha.wolframalphaviewer": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Modified version of WolframAlpha computational knowledge engine with Pro features injected.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bac6366eeb19a3fccad8fd19fcf6e9d9042a533d8491be79441e981f1f86c7a8",
+  "subtitle": "Computational knowledge engine",
+  "tags": [
+   "wolframalpha",
+   "computational",
+   "knowledge",
+   "engine",
+   "pro",
+   "modified"
+  ]
+ },
+ "com.wolow": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Wolow is a Wake on LAN application that sends network requests to remotely power on computers. Version 2.13.3 includes a premium purchase option via Satella. Developed by melonn01.",
+  "features": [
+   "Wake on LAN",
+   "Premium available"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "11defb976855910ff7258b6c3f0d2ff44135bad671d6b4107ae20d593e858a98",
+  "subtitle": "Wake on LAN utility for remote computer startup",
+  "tags": [
+   "wake on lan",
+   "remote",
+   "network",
+   "utility",
+   "premium",
+   "computer"
   ]
  },
  "com.womboai.paint": {
@@ -62049,6 +63819,45 @@
    "companion"
   ]
  },
+ "com.woodout.puzzle.game": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Woodout! is a mobile game for iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cc2ac3e101b6e986397f6cfa9665996cbe012b4b0ae26acfaa77b6fbe029a41f",
+  "subtitle": "Latest mobile gaming sensation",
+  "tags": [
+   "woodout",
+   "ios",
+   "game",
+   "mobile",
+   "ipa"
+  ]
+ },
+ "com.woodsign.Widgy": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Widgy provides widgets for Home Screen, Lock Screen, and Apple Watch. Version 4.20 requires iOS 16.0. The app is patched with Pro features unlocked. A paid certificate with App Groups configured is required. Restart the app if features remain locked.",
+  "features": [
+   "Pro Unlocked",
+   "Patched",
+   "Home Screen Widgets",
+   "Lock Screen Widgets",
+   "Watch Widgets"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0a229514c9a6fb6aba0fa7949757ea68242cb6e1992f51030cddcd680f9ba807",
+  "subtitle": "Widgets for Home, Lock, and Watch screens",
+  "tags": [
+   "widgets",
+   "home-screen",
+   "lock-screen",
+   "apple-watch",
+   "customization",
+   "utilities"
+  ]
+ },
  "com.woopss.faker2": {
   "category": "other",
   "date": "2026-10-21",
@@ -62064,6 +63873,55 @@
    "ttjb",
    "ipa",
    "premium"
+  ]
+ },
+ "com.workbymark.wildfulness": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Wildfulness: Meditate & Relax on iOS delivers a peaceful meditation experience inspired by natural environments and gentle mindfulness.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "60995601b0c40aa1cadb122bf7490cf4f1e1c0749b758846151a88270924b08d",
+  "subtitle": "Peaceful meditation inspired by nature",
+  "tags": [
+   "meditation",
+   "relax",
+   "nature",
+   "mindfulness",
+   "ios",
+   "wellness"
+  ]
+ },
+ "com.world.war.defence": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "WWII Defense is a real-time strategy tower defense game set in World War II. It combines historical strategy with real-time tactical decisions. Players command armies and build defenses to withstand enemy waves.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "60674e1ac6aea06d9f1cec5f24f97aedfc837613fd4c5f37f2c116272f0da5d3",
+  "subtitle": "WWII RTS Tower Defense Game",
+  "tags": [
+   "wwii",
+   "rts",
+   "tower defense",
+   "strategy",
+   "historical",
+   "army"
+  ]
+ },
+ "com.worthdoingbadly.WDBRemoveThreeAppLimit": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "This utility removes the three app limit for iOS versions 16.1.2 and lower.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9e61d3ce87ee37b2914f095e06d05dd1246a9837b2eccffb84697f7dd5ba79a4",
+  "subtitle": "Removes the three app limit on iOS",
+  "tags": [
+   "utilities",
+   "ios",
+   "limit",
+   "apps"
   ]
  },
  "com.wrngwrld.Chanyan": {
@@ -62177,6 +64035,23 @@
    "paid",
    "hd",
    "4k"
+  ]
+ },
+ "com.xeelafitness.xeelafitness": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Xeela is an app by @Sa1y0miii that lets you train, fuel, and transform. Requires iOS 15.0 or later. Current version 3.4.11.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6c2f96c645711227c12b1aca01cd1c54807fe6188e296b35fd45332046c6a47a",
+  "subtitle": "Train, Fuel, Transform",
+  "tags": [
+   "train",
+   "fuel",
+   "transform",
+   "ios15",
+   "version3.4.11",
+   "xeela"
   ]
  },
  "com.xiao.Def1nit3lyN0tAJa1lbr3akTool": {
@@ -62716,6 +64591,27 @@
    "network"
   ]
  },
+ "com.yoyoapps.weather": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Version 3.2.13 requires iOS 15.0 or later. The app is patched and the subscription is unlocked. It has been tweaked by @blatants.",
+  "features": [
+   "Patched",
+   "Subscription Unlocked",
+   "Tweaked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "de51d666d9fa30f8e318b1238413827c64331fdfa0681d7675255cdd96845c33",
+  "subtitle": "Weather Pro \u2013 subscription unlocked",
+  "tags": [
+   "weather",
+   "pro",
+   "subscription",
+   "unlocked",
+   "patched",
+   "ios15"
+  ]
+ },
  "com.ysgames.pixelautobattler": {
   "category": "games",
   "date": "2026-11-07",
@@ -63023,6 +64919,22 @@
    "ios"
   ]
  },
+ "com.zhangyue.wc4": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "World Conqueror 4 is an immersive and engaging game that allows you to experience the thrill of conquering the world right from your iOS device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "461035de84122310bbd286dd2b10befb5994a4ffe8e0ff609ee440cd7d8a8b37",
+  "subtitle": "Experience the thrill of conquering the world",
+  "tags": [
+   "strategy",
+   "conquer",
+   "world",
+   "war",
+   "game"
+  ]
+ },
  "com.zhiliaoapp.musically": {
   "category": "social",
   "date": "2026-11-09",
@@ -63221,19 +65133,19 @@
  },
  "com.zurac.BudgetBuddy": {
   "category": "utilities",
-  "date": "2026-11-09",
-  "description": "OldOS recreates a fully functional version of iOS 4 using SwiftUI.",
+  "date": "2026-11-10",
+  "description": "OldOS recreates a fully functional version of iOS 4 using SwiftUI. The app provides a complete implementation of the classic iPhone operating system interface and features as originally released in 2010.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "fcb69ade747466c26f213193fbd2a5bfbc591d4e9475f075b0f3753c5730b0ea",
-  "subtitle": "Recreation of iOS 4 built with SwiftUI",
+  "src_hash": "76c510bb9ac023f2e33c22ffd19b93dc064441e0571178f368f13afe5b5f74f2",
+  "subtitle": "iOS 4 recreation built with SwiftUI",
   "tags": [
    "ios4",
-   "swiftui",
    "recreation",
-   "legacy",
-   "simulation",
-   "open-source"
+   "swiftui",
+   "retro",
+   "emulator",
+   "nostalgia"
   ]
  },
  "com.zurac.OldOS": {
@@ -65548,6 +67460,57 @@
    "modified app"
   ]
  },
+ "cypwn.WDBFontOverwrite.1.10.7-1": {
+  "category": "developer",
+  "date": "2026-11-10",
+  "description": "Proof-of-concept app to overwrite fonts on iOS 16.1.2 and below using CVE-2022-46689.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2df78c38718e92e27c8f41d9d91721264d3cb19f2b35e0432e7585240e68d324",
+  "subtitle": "Font overwrite PoC for iOS 16.1.2",
+  "tags": [
+   "font",
+   "overwrite",
+   "cve-2022-46689",
+   "ios",
+   "proof-of-concept",
+   "exploit"
+  ]
+ },
+ "cypwn.WP-Loader_TS.1.0": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Loads wallpapers created with WP-Maker.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "45c7fb8751eb944130e50b9c30212479b60c7d7ed373dac853f420d651f18ea3",
+  "subtitle": "Load WP-Maker wallpapers",
+  "tags": [
+   "wallpaper",
+   "wp-maker",
+   "loader",
+   "customization",
+   "background",
+   "images"
+  ]
+ },
+ "cypwn.WP-Maker_TS.1.0": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WP-Maker_TS lets you create light and dark wallpapers for use with WP-Loader.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "182fcb7e7e5e9decdbdb0991b4315dfaf51661ecccc0c1f5ab513f99c4e2a180",
+  "subtitle": "Create Light & Dark wallpapers for WP-Loader",
+  "tags": [
+   "wallpaper",
+   "light",
+   "dark",
+   "wp-loader",
+   "maker",
+   "ts"
+  ]
+ },
  "cypwn.Wallcraft_Pro_2.8.2.8": {
   "category": "other",
   "date": "2026-11-09",
@@ -65565,6 +67528,116 @@
    "customization",
    "themes",
    "images"
+  ]
+ },
+ "cypwn.WallpaperSetter_TS.1.0.1": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WallpaperSetter_TS allows you to set separate wallpapers for Light Mode and Dark Mode on your device.",
+  "features": [
+   "Light & Dark Mode Wallpapers"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1114558261be3fa14d4abcfec5a80e6a7ecffdca91b3c18bcf0e1214b888a31a",
+  "subtitle": "Set Light and Dark Mode wallpapers",
+  "tags": [
+   "wallpaper",
+   "light mode",
+   "dark mode",
+   "customization",
+   "utilities",
+   "ios"
+  ]
+ },
+ "cypwn.WallpapersCentralPro_1.5.2.1.5.2": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Access thousands of wallpapers at your fingertips. This version includes pro features unlocked by clicking Buy on the lifetime subscription, then Cancel.",
+  "features": [
+   "Thousands of wallpapers",
+   "Pro features unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "50da94f3bd03e2df01f75cce2aeab5af13585259f9d628d1038056967866649e",
+  "subtitle": "Thousands of wallpapers at your fingertips",
+  "tags": [
+   "wallpapers",
+   "backgrounds",
+   "pro",
+   "images",
+   "personalization"
+  ]
+ },
+ "cypwn.Whitelist.1.1.0": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Whitelist is a jailed iOS application that removes blacklisting restrictions from enterprise-signed apps, allowing them to run on non-jailbroken devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c9e24cf0628741465b7ea59eb3a93b92c1911fe01f3b7389f9a08dc8015cfb0a",
+  "subtitle": "Un-blacklist enterprise-signed apps on jailed iOS",
+  "tags": [
+   "jailed",
+   "enterprise",
+   "unblacklist",
+   "ios",
+   "utility",
+   "apps"
+  ]
+ },
+ "cypwn.WiFiFoFumPro_TS.1.1.1": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "Wifi scanner. This Pro version includes advanced logging tools, with a live surveying map view that plots access points.",
+  "features": [
+   "Advanced Logging",
+   "Live Map View",
+   "Access Point Plotting"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8b11e2a31c490a6f7975e4978a64eab85c9e888fdb9dc6d2702e795cc07a1126",
+  "subtitle": "Pro WiFi scanner with live map",
+  "tags": [
+   "wifi",
+   "scanner",
+   "logging",
+   "map",
+   "survey",
+   "pro"
+  ]
+ },
+ "cypwn.WiFiScanner_TS.1.0": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "WiFi scanner that scans for available WiFi networks.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8ebfbc868d2fb63dfd89c847e2b1678592544a7e28c1506667b3f3628150d8e7",
+  "subtitle": "Scan and analyze WiFi networks",
+  "tags": [
+   "wifi",
+   "scanner",
+   "network",
+   "utility",
+   "tool",
+   "scan"
+  ]
+ },
+ "cypwn.WifiList_TS.1.0": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WifiList_TS allows users to view saved Wi-Fi passwords on their device and share them with others.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6a04f8ef116d13ed85a1f23f55d07a27b22768a9fed0b2086ad898489a6724f2",
+  "subtitle": "View and share Wi-Fi passwords",
+  "tags": [
+   "wifi",
+   "password",
+   "share",
+   "network",
+   "utility",
+   "tool"
   ]
  },
  "cypwn.cl1m4x.1.3": {
@@ -65708,21 +67781,21 @@
   ]
  },
  "dazz.camera.vintagecamera": {
-  "category": "games",
-  "date": "2026-10-20",
-  "description": "Play Dazz with full access to all features through the premium unlocked version.",
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "Dazz is a photo-video app. The source indicates it is injected with Pro features.",
   "features": [
-   "Premium Unlocked"
+   "Pro Unlocked"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "34d86b81aaf6494ca82affdcbc2e1adddca7b1c2a835403014e74b47d84a4337",
-  "subtitle": "Premium Unlocked game",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1f70ac61e562effd9571331ad6b0cad778333b73bc7fead18a6bb1ff16d6cf7c",
+  "subtitle": "Photo editor with Pro features",
   "tags": [
-   "dazz",
-   "game",
-   "premium",
-   "unlocked",
-   "kamohacks"
+   "photo",
+   "video",
+   "editor",
+   "pro",
+   "unlocked"
   ]
  },
  "de.BodyFast.BodyFast2": {
@@ -65887,6 +67960,41 @@
    "tracker",
    "fitness",
    "ride"
+  ]
+ },
+ "de.verbformen.app": {
+  "category": "utilities",
+  "date": "2026-11-10",
+  "description": "German Dictionary for Learners is a dedicated German dictionary app for language learners on iOS.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4529401f2cef149ef51ba50f5e47d082acdb294c57e98f1e9f1df64f9443c88c",
+  "subtitle": "German dictionary for language learners",
+  "tags": [
+   "german",
+   "dictionary",
+   "learner",
+   "language",
+   "ios"
+  ]
+ },
+ "de.wetteronline.WetterApppro": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "WeatherRadar provides weather radar data. This version is injected with premium features.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "20408f51285871083d8b7f69496c397fd36311e615c35fa553bc03dec97ebd68",
+  "subtitle": "Premium Weather Radar",
+  "tags": [
+   "weather",
+   "radar",
+   "premium",
+   "injected",
+   "app",
+   "testers"
   ]
  },
  "de.wiredframe.comicreader": {
@@ -66267,20 +68375,19 @@
   ]
  },
  "dev.kartpad.app": {
-  "category": "other",
-  "date": "2026-11-09",
-  "description": "KartPad builds on WiiCompiled, the original Mario Kart Wii static recompilation project created by patchzyy. WiiCompiled provides the foundation.",
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "KartPad builds on the original Mario Kart Wii static recompilation project. It provides Apple and Android integration, native controls, game chooser, game-data management, packaging, and releases. KartPad requires a legally obtained supported PAL RMCP01 revision 0 Mario Kart Wii image. Bring your own game data. Support for tvOS remains experimental.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "71efca7bc0d9c6757336be06b2ec124091a72263693d954ebd00728c0671994d",
-  "subtitle": "Mario Kart Wii static recompilation project",
+  "src_hash": "64c9071b47b04dacbbfeb11976dcdefca3496e68f1d91e3b3df6171c6d3c48ef",
+  "subtitle": "Mario Kart Wii static recompilation runtime for mobile",
   "tags": [
    "kartpad",
-   "wiicompiled",
-   "mario",
-   "kart",
+   "mario kart",
    "wii",
-   "recompilation"
+   "gaming",
+   "emulator"
   ]
  },
  "dev.leoestremadoyro.AnimeTracker": {
@@ -66867,6 +68974,23 @@
    "utilities",
    "loud",
    "wake"
+  ]
+ },
+ "dummyapp": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "This is a dummy app for SideStore so the MySign logo appears alongside IPAs. The actual IPA is PostBox.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c4c96e1e7dda7b13b4f21a032e039bcb8f429cae76d93a24d0e9d3c6fd4ac265",
+  "subtitle": "Dummy app for SideStore MySign logo",
+  "tags": [
+   "dummy",
+   "sidestore",
+   "mysign",
+   "placeholder",
+   "postbox",
+   "ipa"
   ]
  },
  "dylanoliver.cleaner": {
@@ -67738,6 +69862,27 @@
    "war",
    "game",
    "mod",
+   "unlimited",
+   "coins"
+  ]
+ },
+ "games.war.regions": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "War Regions is a tactical game version 1.10.1. The modified version provides unlimited coins, unlimited diamonds, and removes ads.",
+  "features": [
+   "Unlimited Coins",
+   "Unlimited Diamonds",
+   "No Ads"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "20a04ed836051d9c51f5ae1b1ed457fd19258db1e82a9abccb48215e27e6d57a",
+  "subtitle": "Tactical strategy game with unlimited resources",
+  "tags": [
+   "war",
+   "regions",
+   "tactical",
+   "game",
    "unlimited",
    "coins"
   ]
@@ -68640,6 +70785,23 @@
    "retro"
   ]
  },
+ "io.github.danielnoam.waypage": {
+  "category": "developer",
+  "date": "2026-11-10",
+  "description": "Save any web page to your phone and read it without an internet connection, whether on a plane or in a tunnel. The text remains intact while pictures include a small preview with a link to the full size. Videos keep a thumbnail that plays when you are back online, and every clip links back to the original source. Manage your saved items in a library featuring your current reading at the top, followed by collections and clips.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c20364bd505f2b32a37bb19b8764286be60f69a209a65ae0dabe032335b7307b",
+  "subtitle": "Save web pages for offline reading anywhere",
+  "tags": [
+   "offline",
+   "reading",
+   "web",
+   "save",
+   "articles",
+   "library"
+  ]
+ },
  "io.github.decryptu.pokerecomp": {
   "category": "games",
   "date": "2026-11-03",
@@ -69021,25 +71183,25 @@
  },
  "io.github.scripta": {
   "category": "developer",
-  "date": "2026-11-05",
-  "description": "Scripta is an open-source, local-first note-taking app for thinkers, writers, and developers. It uses a Markdown-first editor with a rendered reading view, stores notes in SQLite for instant startup and sub-millisecond search, works offline, and syncs across devices. No cloud required; data stays on your device.",
+  "date": "2026-11-10",
+  "description": "Scripta is an open-source, local-first note-taking application designed for thinkers, writers, and developers. Built to be lightweight, instant, and privacy-focused, Scripta gives you complete control over your notes with raw Markdown flexibility and a modern interface. Draft quick thoughts or organize complex projects while working offline. Features include a Markdown-first editor with intelligent toolbar helpers and a fluid rendered reading view, plus a local-first architecture powered by SQLite WAL for fast startup and instant search.",
   "features": [
-   "Open Source",
-   "Local First",
    "Markdown Editor",
+   "Local-First",
    "Offline Access",
-   "Fast Search"
+   "Instant Search",
+   "Open Source"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "6a90fc1be0038939c50c6860df71950d29f110e7c4b0fb816e5086bc2e0a1cc3",
-  "subtitle": "Open-source Markdown note app, local-first",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "984b5fd5e080456b1831f209d996da4d4beb08235859bd67576058b775916148",
+  "subtitle": "Minimal, fast, markdown-first note-taking app",
   "tags": [
    "markdown",
    "notes",
-   "open-source",
-   "offline",
+   "editor",
+   "local",
    "privacy",
-   "cross-platform"
+   "open-source"
   ]
  },
  "io.github.speedbreakerproject.SpeedBreaker": {
@@ -69182,20 +71344,15 @@
  },
  "io.github.wszqkzqk.pvz-portable": {
   "category": "games",
-  "date": "2026-11-04",
-  "description": "PvZ Portable is a community-driven reimplementation of Plants vs. Zombies Game of the Year Edition, designed to bring the classic experience to multiple platforms. This project focuses on engine modernization, cross-platform porting techniques, and educational study of game logic adaptation across hardware architectures. Please note that this application does not include copyrighted game assets such as images, music, or fonts. Users must supply their own main.pak and properties folder from a legally purchased copy of the game. This non-commercial project is independent and not affiliated with or endorsed by PopCap Games or Electronic Arts.",
-  "features": [
-   "Cross-platform support",
-   "Engine modernization",
-   "Educational purpose",
-   "Requires own game assets"
-  ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "313c637ec5bbaa4c02f4080075b6ba7afa0b0fb8b711840e8fab2c0cead6060e",
-  "subtitle": "Cross-platform Plants vs. Zombies engine reimplementation",
+  "date": "2026-11-10",
+  "description": "PvZ-Portable is a cross-platform, community-driven C++20 reimplementation of Plants vs. Zombies: Game of the Year Edition, built to bring an authentic recreation of the classic game to modern platforms. A WebAssembly build is also available to play directly in a browser. Important notice: game assets are required. This app does not contain copyrighted assets, graphics, audio, or fonts owned by PopCap Games or Electronic Arts. To play, you must supply main.pak and the properties folder from a legally purchased copy of Plants vs. Zombies GOTY Edition.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "88d2a88d01c7632d429877eec8dd59df06b17a9704a36ab55ad6b904297c6722",
+  "subtitle": "Cross-platform C++20 recreation of Plants vs. Zombies",
   "tags": [
+   "pvz",
    "strategy",
-   "port",
    "reimplementation",
    "classic",
    "game"
@@ -69452,6 +71609,23 @@
    "networking",
    "retro",
    "app"
+  ]
+ },
+ "io.metatec.iwatchfaces": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Watch Faces Gallery is a dedicated iOS app that allows iPhone users to browse and customize watch faces. The app provides a gallery of watch face options for personalization.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8b83fbfb984fe6e37cb21814ddb1ed6037809b6e2ffa22aee0d8d055d0a4bf4e",
+  "subtitle": "Browse and customize watch faces for iPhone",
+  "tags": [
+   "watch faces",
+   "customization",
+   "ios",
+   "gallery",
+   "browse",
+   "personalization"
   ]
  },
  "io.mindist.noise": {
@@ -70226,6 +72400,23 @@
    "port"
   ]
  },
+ "jp.co.drecom.wizardry.daphne": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Wizardry Variants Daphne IPA brings an innovative and captivating experience to the realm of mobile gaming.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0353fa67ebb6828cadf7c8636e600cbb15f9dd82e257fe875e90364aef5bc6b7",
+  "subtitle": "Wizardry Variants Daphne mobile experience",
+  "tags": [
+   "wizardry",
+   "variants",
+   "daphne",
+   "mobile",
+   "gaming",
+   "ipa"
+  ]
+ },
  "jp.co.gcgames.bc": {
   "category": "games",
   "date": "2026-10-15",
@@ -70992,6 +73183,26 @@
    "ttjb"
   ]
  },
+ "lo.cafe.winston": {
+  "category": "social",
+  "date": "2026-11-10",
+  "description": "Introducing Winston, a stunning and native Reddit client for iOS. This in-development, free, and open-source app and bot features a user-friendly interface designed for easy navigation. Stay connected with the Reddit community in a sleek and intuitive way while maintaining compliance with Reddit's Terms of Service for a seamless experience.",
+  "features": [
+   "Open Source",
+   "Free"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0f30efe431b7bd63e2979cbf690efb7657d4d4810e6e6aa6310a7efdf7797b86",
+  "subtitle": "A native and open-source Reddit client for iOS",
+  "tags": [
+   "reddit",
+   "client",
+   "social",
+   "community",
+   "open-source",
+   "native"
+  ]
+ },
  "local.agepad.device-de-probe": {
   "category": "entertainment",
   "date": "2026-10-19",
@@ -71173,6 +73384,23 @@
    "update",
    "appstore",
    "subscript"
+  ]
+ },
+ "maxime.maheo.simple-weather": {
+  "category": "lifestyle",
+  "date": "2026-11-10",
+  "description": "Weather & Rain Radar \u2013 Atmos is a comprehensive iOS weather application designed to provide users with accurate forecast",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "32e0823d87029cb4eeed53a4d040a072f74b615e50277b2e1d9d8d1dab4d1e75",
+  "subtitle": "Weather & Rain Radar",
+  "tags": [
+   "weather",
+   "radar",
+   "forecast",
+   "ios",
+   "app",
+   "atmos"
   ]
  },
  "me.cranci.AnimeGen": {
@@ -72846,6 +75074,27 @@
    "interactive"
   ]
  },
+ "net.whatsapp.WhatsApp": {
+  "category": "social",
+  "date": "2026-11-10",
+  "description": "WGoldPlus WhatsApp v26.30.78 includes integrated tweaks to enhance the messaging experience. This version features WGold 2.3 by alibusut, WATranslator 2.1 by n9ipa, WAFonts v2.0.0 by n9ipa, and WALoc. Manage your chats and communication with these added tool integrations.",
+  "features": [
+   "WGold 2.3 included",
+   "WATranslator 2.1 included",
+   "WAFonts v2.0.0 included",
+   "WALoc included"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "59431c85ebe84d4edc6d77be9e4ae4b649040e4fd677608db0c16e337732dd20",
+  "subtitle": "Modified WhatsApp client with built-in tweaks",
+  "tags": [
+   "whatsapp",
+   "chat",
+   "messaging",
+   "tweaks",
+   "social"
+  ]
+ },
  "net.whatsapp.WhatsAppSMB": {
   "category": "social",
   "date": "2026-11-09",
@@ -74081,18 +76330,18 @@
  },
  "org.moviepilot.app": {
   "category": "utilities",
-  "date": "2026-11-07",
-  "description": "MoviePilot is an iOS client featuring system native navigation, search, and shortcut panels. Business pages, pop-ups, and plugin interfaces reuse MoviePilot-Frontend. It supports iOS 26 and later with Liquid Glass, edge swipe to go back, card long-press menus, and foreground and background state restoration.",
+  "date": "2026-11-10",
+  "description": "iOS client for MoviePilot. Features native system navigation, search, and shortcut panels. Business pages, pop-ups, and plugin interfaces reuse MoviePilot-Frontend. Supports iOS 26+ Liquid Glass, swipe-to-go-back, card long-press menus, and foreground-background state restoration.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4eafadb9fe76702f9e981c8a93946f907b817d4fc9308a8891fb5c424ea2b2c2",
+  "src_hash": "ac511017dbed57c425d845f22380ce99b013fecac98cd8dab9064a2e0e3d8b17",
   "subtitle": "iOS client for MoviePilot",
   "tags": [
    "moviepilot",
    "client",
+   "streaming",
    "media",
-   "management",
-   "utilities"
+   "management"
   ]
  },
  "org.omarchy.flux.ios": {
@@ -75451,6 +77700,29 @@
    "utility"
   ]
  },
+ "sb.lao.Wayfurther": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Wayfurther is a modification for Niantic Wayfarer that adds iOS system dark mode, a compact review page, a standalone statistics page, OPR brainstorming integration, and a native nominations page. The app is not a product of Niantic, Inc. and has no relationship with Niantic, Inc.",
+  "features": [
+   "Dark Mode",
+   "Compact Review",
+   "Statistics Page",
+   "OPR Integration",
+   "Native Nominations"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0fa818a38efac75357201935230d7a91b57c8fbbc6e47157c49a7e12e27d0684",
+  "subtitle": "Niantic Wayfarer mod for iOS",
+  "tags": [
+   "wayfarer",
+   "mod",
+   "niantic",
+   "dark mode",
+   "statistics",
+   "review"
+  ]
+ },
  "sb.moe.kumone": {
   "category": "entertainment",
   "date": "2026-11-05",
@@ -76101,6 +78373,25 @@
    "music"
   ]
  },
+ "tech.calstephens.Window": {
+  "category": "other",
+  "date": "2026-11-10",
+  "description": "Window app with subscription features unlocked.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b085facf5f5cd585d7b2a92d6934dbf2835f5aeb7908d6cbb6a6f274f790f12f",
+  "subtitle": "Subscription unlocked version",
+  "tags": [
+   "window",
+   "subscription",
+   "unlocked",
+   "app",
+   "ipa",
+   "modified"
+  ]
+ },
  "tech.dangocat.lumiflow": {
   "category": "lifestyle",
   "date": "2026-10-29",
@@ -76115,6 +78406,23 @@
    "coach",
    "health",
    "wellness",
+   "ios"
+  ]
+ },
+ "tech.element6.rpg": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "Wanderland Angel Hunters RPG is an immersive role-playing game designed exclusively for iOS users, blending fantasy adventure.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5cbd8806e9963d95494f4ec805556c787cf3622f119c44e88b60b5572f336a7e",
+  "subtitle": "Immersive fantasy role-playing game for iOS",
+  "tags": [
+   "rpg",
+   "fantasy",
+   "adventure",
+   "role-playing",
+   "game",
    "ios"
   ]
  },
@@ -77221,6 +79529,26 @@
    "utility"
   ]
  },
+ "war.of.islands": {
+  "category": "games",
+  "date": "2026-11-10",
+  "description": "War of Rafts: Sea Battle Game is a maritime strategy game developed by AI Games FZ. Players engage in naval combat using rafts and ships across ocean environments. The game includes base building, resource management, and multiplayer battles. Version 0.53.08 (bundle ID: war.of.islands) offers modified gameplay with no advertisements and unlimited coins for unrestricted progression.",
+  "features": [
+   "No Ads",
+   "Unlimited Coins"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8af32c42af11c0df0769d67fa8e41918497ba6b29fa223e0b50c6efa76164c4d",
+  "subtitle": "Sea battle strategy game with unlimited resources",
+  "tags": [
+   "sea battle",
+   "strategy",
+   "naval combat",
+   "multiplayer",
+   "raft building",
+   "unlimited coins"
+  ]
+ },
  "webelinx.EscapeRoom.Free.Portrait.Game.free2": {
   "category": "games",
   "date": "2026-10-21",
@@ -77657,6 +79985,23 @@
    "browser",
    "reader",
    "comics"
+  ]
+ },
+ "xyz.skitty.WallpaperSetter": {
+  "category": "photo-video",
+  "date": "2026-11-10",
+  "description": "WPSetter helps you personalize your smartphone by changing wallpapers. The app provides access to wallpaper collections for device customization.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1003f0282ffb80d9ada35280e225cf35dd5d886ed3b957ebaca9bdfcdc845a99",
+  "subtitle": "Wallpaper personalization for iOS",
+  "tags": [
+   "wallpaper",
+   "personalization",
+   "customization",
+   "background",
+   "iphone",
+   "ios"
   ]
  },
  "xyz987612345": {
