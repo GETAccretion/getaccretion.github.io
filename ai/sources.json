@@ -244,6 +244,11 @@
   "real": true,
   "reason": "This is a legitimate GitHub raw JSON source specifically hosting the uYouEnhanced app for AltStore/SideStore."
  },
+ "https://raw.githubusercontent.com/Knoks1111/TwitchPlusK/main/update.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a raw GitHub JSON file acting as an AltStore app source for a specific app (TwitchPlusK)."
+ },
  "https://raw.githubusercontent.com/Leo7247/iAnyFeature/main/source.json": {
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
@@ -424,6 +429,11 @@
   "real": true,
   "reason": "This is a valid raw GitHub JSON URL hosting an AltStore/SideStore app source for tvOS applications."
  },
+ "https://raw.githubusercontent.com/Tiaoge-tou/GameCase/main/.github/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a raw GitHub URL pointing directly to an apps.json file for AltStore/SideStore, hosted by the developer."
+ },
  "https://raw.githubusercontent.com/Vaibhavsh0120/Expo-Go-Builds/main/apps.json": {
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
@@ -438,6 +448,11 @@
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
   "reason": "This is a valid GitHub raw JSON URL structured as an AltStore source template containing an app."
+ },
+ "https://raw.githubusercontent.com/akuuvfx/upscayl-ios/main/sidestore.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate GitHub raw JSON file serving as a SideStore source for the Upscayl Mobile app."
  },
  "https://raw.githubusercontent.com/apikusu/altstore/main/res/osu/index.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
@@ -494,10 +509,20 @@
   "real": true,
   "reason": "Valid AltStore app source JSON hosted directly on GitHub for the Animeko app."
  },
+ "https://raw.githubusercontent.com/bebound/AltGallery/master/apps/Asspp/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid raw GitHub URL pointing to an AltStore app source JSON file."
+ },
  "https://raw.githubusercontent.com/bebound/AltGallery/master/apps/BCD/apps.json": {
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
   "reason": "This is a raw GitHub URL hosting a valid AltStore/SideStore app source JSON file."
+ },
+ "https://raw.githubusercontent.com/bebound/AltGallery/master/apps/DLiPA/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid raw GitHub URL pointing to an apps.json file, which is the standard format for AltStore and SideStore repositories."
  },
  "https://raw.githubusercontent.com/bebound/AltGallery/master/apps/Doer/apps.json": {
   "model": "gemini:gemini-3.5-flash",
@@ -698,6 +723,11 @@
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
   "reason": "Valid GitHub raw JSON link hosting a personal AltStore app source."
+ },
+ "https://raw.githubusercontent.com/trikesh32/TikTokModIos/main/altstore/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": false,
+  "reason": "This is a single-app repository dedicated to a modded/pirated version of TikTok (TikTokModIos), not a legitimate developer or community AltStore source."
  },
  "https://raw.githubusercontent.com/truongkma/t-location/main/source.json": {
   "model": "gemini:gemini-3.5-flash-lite",
