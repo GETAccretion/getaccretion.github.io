@@ -1052,6 +1052,22 @@
    "app"
   ]
  },
+ "ai.zeemo.caption": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "Zeemo is a cutting-edge solution that revolutionizes the way you enhance your video content by providing AI-powered captions and subtitles.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "f06be799c55c237201eea10a2629d75508593a209cfcf357b6dd26c61863e34b",
+  "subtitle": "AI captions and subtitles for video content",
+  "tags": [
+   "zeemo",
+   "captions",
+   "subtitles",
+   "video",
+   "ai"
+  ]
+ },
  "alexgerrese.summarize": {
   "category": "lifestyle",
   "date": "2026-10-15",
@@ -1793,19 +1809,19 @@
  },
  "app.naviamp.ios": {
   "category": "entertainment",
-  "date": "2026-11-09",
-  "description": "Naviamp is an independent third\u2011party client for Navidrome music servers. It connects to your chosen Navidrome instance and plays the music stored there. The app is not affiliated with or endorsed by the Navidrome project. Naviamp is available for iOS and macOS through TestFlight beta, for macOS via the Mac App Store, for Windows via the Microsoft Store, and for Linux as a Flatpak, DEB, RPM, or portable ZIP.",
+  "date": "2026-11-11",
+  "description": "Naviamp is an independent third-party music player client that connects to your self-hosted music server. Your music stays on the server you choose, while Naviamp provides the player interface. Naviamp is not affiliated with or endorsed by the Navidrome project.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "3bb2d56a428338add899783505b50abd1eed1716c6f1631090251953fd3f1ef7",
-  "subtitle": "Third\u2011party Navidrome music player",
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "3045d55b2872654b987f18fe578c560f5c78dd513a35afe7bcfc0e10f7531de1",
+  "subtitle": "Independent music player client for Navidrome",
   "tags": [
-   "navidrome",
+   "naviamp",
    "music",
    "player",
-   "client",
-   "streaming",
-   "server"
+   "navidrome",
+   "audio",
+   "client"
   ]
  },
  "app.netfish.ios": {
@@ -2471,6 +2487,22 @@
    "ios"
   ]
  },
+ "app.zeniptv.mobile": {
+  "category": "entertainment",
+  "date": "2026-11-11",
+  "description": "Zen IPTV Player is a media streaming application designed to play IPTV content on iOS devices. Use this application to stream and play your IPTV media lists directly on your iPhone or iPad.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "585ce22a96e9c60e53d519b006801aac5df79a24b745e12826df10046acb127b",
+  "subtitle": "IPTV media streaming application for iOS",
+  "tags": [
+   "iptv",
+   "player",
+   "streaming",
+   "media",
+   "video"
+  ]
+ },
  "appcake2.iphonecake.com": {
   "category": "other",
   "date": "2026-10-15",
@@ -2685,6 +2717,25 @@
    "website-blocker",
    "app-blocker",
    "utility"
+  ]
+ },
+ "au.com.oddgames.trucksoffroad": {
+  "category": "other",
+  "date": "2026-11-11",
+  "description": "This application provides tweaks for Trucks Off Road using iGameGod. Hack features include infinite money and premium access. Sideloading is supported through FastSign, operated by CertFish.",
+  "features": [
+   "Infinite Money",
+   "Premium"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "8e2f27e92eb86bd7c20045d22461a17fa0e5b83dbec77b10a4b15d32643a1485",
+  "subtitle": "Tweaks and hack features for Trucks Off Road",
+  "tags": [
+   "trucks off road",
+   "tweaks",
+   "igamegod",
+   "hack",
+   "sideload"
   ]
  },
  "au.com.savageinteractive.procreate": {
@@ -3629,20 +3680,19 @@
  },
  "co.airapps.waterreminder": {
   "category": "other",
-  "date": "2026-11-10",
-  "description": "WaterAir is an app that has been modified to unlock subscription features. The original app functionality is not described in the source data.",
-  "features": [
-   "Subscription Unlocked"
-  ],
+  "date": "2026-11-11",
+  "description": "H2O is an iOS application designed to help users monitor two critical environmental elements. The app functions as a water and air quality tracker, providing tools to observe and record relevant metrics for personal awareness.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "6385c5d075da6dae96c2a29981a31eee155656c59da64648ddd09871bbd862cd",
-  "subtitle": "WaterAir with subscription unlocked",
+  "src_hash": "b01febc9cbf9df01f80557d7d17ca6d58cf15cbd04f1ef714491167332535f3c",
+  "subtitle": "Track water and air quality metrics",
   "tags": [
    "water",
    "air",
-   "subscription",
-   "unlocked",
-   "modified"
+   "tracker",
+   "quality",
+   "monitor",
+   "environment"
   ]
  },
  "co.allconnected.speedtest": {
@@ -3824,20 +3874,21 @@
   ]
  },
  "co.detail.duo": {
-  "category": "other",
-  "date": "2026-11-10",
-  "description": "This version of Detail has the subscription unlocked. No further details about the app's functionality are provided in the source.",
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "Detail is an AI video editor for iOS devices. This version includes the subscription unlocked modifier. Requires iOS 17.0 or later.",
   "features": [
    "Subscription Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4aa62341c5db0f773e6dbba9ef014c71119a32a3c0d367b18b70955c10cae368",
-  "subtitle": "Subscription unlocked version",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f200834d134cf7ce9dd70b6e73f6acea805cc578a62c461c820d4896587444da",
+  "subtitle": "AI Video Editor",
   "tags": [
+   "ai",
+   "video",
+   "editor",
    "detail",
-   "subscription",
-   "unlocked",
-   "modified"
+   "blatants"
   ]
  },
  "co.findship.FindShip-Lite": {
@@ -4282,6 +4333,23 @@
    "fishing",
    "wind",
    "aquatic"
+  ]
+ },
+ "co.zestapp.mobile": {
+  "category": "utilities",
+  "date": "2026-11-11",
+  "description": "Zest is a meal planner and helper application designed to assist users with organizing their meals. The app requires iOS 17.0 or later and is available on the App Store.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "935f54e416a7c46798a8cb8a978573880a29b6cf9d19b6b11343a68f3cd8a7da",
+  "subtitle": "Meal Planner and Helper",
+  "tags": [
+   "meal",
+   "planner",
+   "helper",
+   "food",
+   "organizer",
+   "utilities"
   ]
  },
  "com.100k31d.esse": {
@@ -7499,6 +7567,26 @@
    "comic"
   ]
  },
+ "com.actowise.piptube": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "YubePiP is a video player app for iOS that enables picture-in-picture playback. Designed for users who watch videos frequently and want to multitask without switching between apps. The app allows video content to continue playing in a floating window while using other applications.",
+  "features": [
+   "Picture-in-Picture",
+   "Background Playback"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "42513ea93b8211e363acc796f95cb9b90d0b8bb6a04fc3e5d24c05a7091bd82d",
+  "subtitle": "Video picture-in-picture player for iOS",
+  "tags": [
+   "pip",
+   "video player",
+   "multitask",
+   "youtube",
+   "background play",
+   "floating window"
+  ]
+ },
  "com.adambinsz.Steps": {
   "category": "lifestyle",
   "date": "2026-11-06",
@@ -8033,20 +8121,22 @@
  },
  "com.aheadsolutions.aHead": {
   "category": "lifestyle",
-  "date": "2026-10-18",
-  "description": "Ahead: Emotions Coach is an emotional coaching application. This version includes subscription unlocked features.",
+  "date": "2026-11-11",
+  "description": "Ahead is an emotions coach app designed to help you understand and manage your feelings. This version includes the subscription unlocked tweak, giving you full access to all coaching features and content without needing to pay for a subscription.",
   "features": [
-   "Subscription Unlocked"
+   "Subscription Unlocked",
+   "Emotions Coaching"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "8d9cdae0f0595ba6a5a311e629e51bdc30eb9bbcadd4d91ed9a8d397c1056c2c",
-  "subtitle": "Emotions Coach",
+  "src_hash": "745e9b901e62504a2308a320c5de48191903926a9eb3792f31c864a9d166a4cd",
+  "subtitle": "Emotions coach and guidance",
   "tags": [
    "emotions",
    "coach",
    "mental",
    "health",
-   "lifestyle"
+   "wellness",
+   "mindfulness"
   ]
  },
  "com.ahmedbafkir.dlipa": {
@@ -8514,6 +8604,23 @@
    "productivity",
    "schedule",
    "tasks"
+  ]
+ },
+ "com.akpublish.zombie": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Zombeast is a zombie shooter where players survive in a post-apocalyptic world.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "eed8098cdd314cb4c3ce18acf5bca3c5f5661fe45aa43aa6010948869cbf1d44",
+  "subtitle": "Post-apocalyptic zombie shooter",
+  "tags": [
+   "zombie",
+   "shooter",
+   "survival",
+   "post-apocalyptic",
+   "ios",
+   "game"
   ]
  },
  "com.akuma.chatgptv15": {
@@ -9163,21 +9270,20 @@
  },
  "com.andyworks.timer": {
   "category": "other",
-  "date": "2026-11-05",
-  "description": "SimpleTimer is a basic timer app. The IPA includes an unlocked subscription feature. The package has been tested and compiled by TTJB Team.",
+  "date": "2026-11-11",
+  "description": "Simpletimer is an application that comes with the subscription unlocked. It provides simple timing functionality for various daily needs.",
   "features": [
-   "Unlocked"
+   "Subscription Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "0814adca677f5626e59bc797200d9eb707571fea4368dec192d097217fd08a3b",
-  "subtitle": "Simple timer with unlocked subscription",
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "84a90e3efe69faf4eb344256233cf5e56869f216bea87146583e1e7b40c2f3e0",
+  "subtitle": "Timer application with unlocked subscription features",
   "tags": [
    "timer",
-   "simple",
-   "subscription",
-   "unlocked",
-   "ipa",
-   "ttjb"
+   "clock",
+   "countdown",
+   "utilities",
+   "stopwatch"
   ]
  },
  "com.andyworks.vibes": {
@@ -10252,23 +10358,22 @@
  },
  "com.arbelonson.ozen.Ozen": {
   "category": "utilities",
-  "date": "2026-11-03",
-  "description": "Ozen turns spoken words into large, steady captions on your phone. Built for someone with hearing loss, it features captions that hold still with speaker names, works completely privately with no account or server, and alerts you to important sounds like doorbells, smoke alarms, or your name with vibrations and screen flashes. You can also type replies to have the phone speak them out loud or display them in large text.",
+  "date": "2026-11-11",
+  "description": "Ozen converts spoken words into large, steady captions on your phone as people speak. Words stay in place on screen and identify who is speaking. Designed for privacy, the app operates entirely on the device with no account or server required. It provides vibration and screen-flash alerts for sounds such as doorbells, smoke alarms, or a called name. Users can also type replies to be spoken aloud by the phone or displayed in large text.",
   "features": [
-   "Steady captions",
-   "Private by design",
-   "Sound alerts",
-   "Talk back"
+   "No Account",
+   "Private"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "a607aa9fef9367a83fe8bcd9e67a20a4991dd129a26138c96aac432893733983",
-  "subtitle": "Live speech-to-text captions and sound alerts",
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "95b5acb9fd5d6196c695e05430cfa27c88ff03cf6b5e583cb31a2fd3cfd25278",
+  "subtitle": "Live speech captions and sound alerts for hearing loss",
   "tags": [
    "captions",
    "hearing",
    "transcription",
-   "accessibility",
-   "speech"
+   "speech",
+   "alerts",
+   "deaf"
   ]
  },
  "com.archery.go.bow.arrow.king.sports.game": {
@@ -10327,20 +10432,18 @@
   ]
  },
  "com.armengrewal.Pyxis": {
-  "category": "lifestyle",
-  "date": "2026-11-04",
-  "description": "Pyxis is a travel journal application for iOS designed to capture and record travel experiences. The app helps users document their journeys and preserve travel memories.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "8f2bca3d2d253cf1f64a94b127e7820283d17d6916ff6fa539ffc0b51deeccdf",
-  "subtitle": "Travel journal for capturing memories",
+  "category": "other",
+  "date": "2026-11-11",
+  "description": "Pyxis provides access to injected premium features.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "565f3d2c9e5fa82d1528fd12f249437eacdaf2195a88d8780d185bd0a722b22c",
+  "subtitle": "Pyxis app with premium features",
   "tags": [
-   "travel",
-   "journal",
-   "diary",
-   "memories",
-   "trip",
-   "notes"
+   "pyxis",
+   "premium"
   ]
  },
  "com.armsx2.ios": {
@@ -10788,6 +10891,23 @@
    "gps",
    "transit",
    "location"
+  ]
+ },
+ "com.auxbrain.zh2": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Zombie Highway 2 version 1.6.1 is available with a free in-app purchase tweak.",
+  "features": [
+   "Free iAP"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "7dc9fa2d2a34ee5c8c2958439006ede1760b9bccc7780ed3a3de19e9e2d364e9",
+  "subtitle": "Zombie Highway 2 version 1.6.1 tweak",
+  "tags": [
+   "zombie",
+   "highway",
+   "tweak",
+   "game"
   ]
  },
  "com.avalar.atwo.epl.as": {
@@ -14275,19 +14395,20 @@
  },
  "com.clarity.cozycouples": {
   "category": "lifestyle",
-  "date": "2026-10-24",
-  "description": "Cozy Couples is a relationship app designed to help partners connect. This version includes the subscription unlocked tweak. Manage your relationship features with the patched version 1.76.",
+  "date": "2026-11-11",
+  "description": "Cozy Couples is a relationship application designed for partners. This version includes the subscription unlocked tweak, providing access to all premium features and content within the app without requiring an active paid subscription.",
   "features": [
    "Subscription Unlocked"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "20b7f0a1fccdcebd44a04fd6ff78d6ad1ea4db57e4ddf0fd6d5fb933cc894bdc",
-  "subtitle": "Relationship App for couples",
+  "src_hash": "03570882b438a93f8bbecb4d46a3b5d8b90af3cdd0d52f2aa83acd1593839714",
+  "subtitle": "Relationship app with subscription unlocked",
   "tags": [
    "couples",
    "relationship",
-   "app",
-   "lifestyle"
+   "subscription",
+   "lifestyle",
+   "app"
   ]
  },
  "com.claushuang.FocusTomato": {
@@ -14470,6 +14591,23 @@
    "command",
    "conquer",
    "game"
+  ]
+ },
+ "com.coach.zing": {
+  "category": "other",
+  "date": "2026-11-11",
+  "description": "Zing is an application injected with premium features. It provides users with enhanced functionality directly through the app interface.",
+  "features": [
+   "Premium Injected"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "0abd447244ac49ddc1e2512890a615cebd01fb9ef964995f78c4009f56bfca8a",
+  "subtitle": "Zing iOS App",
+  "tags": [
+   "zing",
+   "premium",
+   "app",
+   "ipa"
   ]
  },
  "com.cocol.stickreate": {
@@ -17575,21 +17713,21 @@
   ]
  },
  "com.dopedevelopment.Panels": {
-  "category": "other",
-  "date": "2026-11-10",
-  "description": "SCRL is a modified application with subscription features unlocked. The original subscription requirements have been removed, providing full access to premium functionality without recurring payments.",
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "SCRL is a photo collage maker application. This version includes premium unlocked features.",
   "features": [
-   "Subscription Unlocked"
+   "Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "b9068e2cbcde9460ea4c3c895d290e332d90692ca9370de192d33203f6c701a3",
-  "subtitle": "Subscription unlocked version",
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "ec908ccc84231fa187f24e04b47bb8609ec5302133823a50864b00d91aa1d787",
+  "subtitle": "Photo Collage Maker",
   "tags": [
-   "subscription",
-   "unlocked",
-   "premium",
-   "modified",
-   "free"
+   "scrl",
+   "collage",
+   "photo",
+   "maker",
+   "editor"
   ]
  },
  "com.doubledaggerstudio.littlekittybigcity": {
@@ -19227,6 +19365,23 @@
    "special"
   ]
  },
+ "com.enixan.yukon.family.adventure": {
+  "category": "lifestyle",
+  "date": "2026-11-11",
+  "description": "The Yukon Family Adventure iOS app represents a unique blend of fun and education, drawing inspiration from the stunning wilderness.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "4c6ed7e707cb47c5b6d9ff4b1cc68f46f1edc85d74a5c1c254bb4356db6156d3",
+  "subtitle": "A unique blend of fun and education",
+  "tags": [
+   "yukon",
+   "family",
+   "adventure",
+   "education",
+   "wilderness",
+   "ios"
+  ]
+ },
  "com.enjoy.VideoShow": {
   "category": "other",
   "date": "2026-11-09",
@@ -19665,20 +19820,22 @@
   ]
  },
  "com.evolve.helm": {
-  "category": "other",
-  "date": "2026-11-10",
-  "description": "This version of Rest has the subscription unlocked via injection.",
+  "category": "lifestyle",
+  "date": "2026-11-11",
+  "description": "Rest is designed to help you build better sleep habits and fix your sleep schedule.",
   "features": [
    "Subscription Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "fd222e2da84dbbc867e30790c785734e6b739eb176d086b88550336c895c4247",
-  "subtitle": "Subscription unlocked version",
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "72f35c5e84905aa1b377a9ae6f9e96dd65fb59f61b0f33b0aa19e2ab06bc28d3",
+  "subtitle": "Improve and fix your sleep schedule",
   "tags": [
    "rest",
-   "subscription",
-   "unlocked",
-   "injected"
+   "sleep",
+   "habits",
+   "health",
+   "lifestyle",
+   "schedule"
   ]
  },
  "com.evolve.podcast": {
@@ -19736,22 +19893,19 @@
   ]
  },
  "com.example.HermesEnabler": {
-  "category": "utilities",
-  "date": "2026-11-10",
-  "description": "HermesEnabler allows you to enable Herm\u00e8s and Ultra watch faces on any Apple Watch. It includes display, sensor, and Siri tweaks powered by MobileGestalt changes, as well as automatic backups. This tool requires watchOS 27.0 through 27.3 beta 1.",
-  "features": [
-   "Automatic Backups"
-  ],
-  "model": "gemini:gemini-3.5-flash",
-  "src_hash": "6a175cf87e69b3d9a591bf3dffe45ce32aceab36f3c4687af3d9cd80fd28811a",
-  "subtitle": "Enable Hermes and Ultra watch faces on Apple Watch",
+  "category": "other",
+  "date": "2026-11-11",
+  "description": "Enable Herm\u00e8s and Ultra watch faces on any Apple Watch, along with display, sensor, and Siri tweaks. The app uses MobileGestalt changes and provides automatic backups. Compatibility requires watchOS versions 27.0 through 27.3 beta 1.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2185cc70147652605fe27bd1aa1d8283c2a17d80dbbcb5401c49bf006699da72",
+  "subtitle": "Enable Herm\u00e8s and Ultra watch faces on Apple Watch",
   "tags": [
-   "apple watch",
-   "watch faces",
-   "hermes",
-   "ultra",
-   "mobilegestalt",
-   "watchos"
+   "watchfaces",
+   "applewatch",
+   "tweaks",
+   "watchos",
+   "customization"
   ]
  },
  "com.example.Mirarr": {
@@ -20260,6 +20414,25 @@
    "casual",
    "mod",
    "freeze"
+  ]
+ },
+ "com.farlightgames.igame.ios": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "AFK Journey hack features by kamohacks. Includes increased attack power with high damage mode and instant skill activation to use abilities without delay.",
+  "features": [
+   "High Damage",
+   "Instant Skill"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f835cc067efcad8339fc97723c22aec9864ebfe678f42f67e2900fd241888f9c",
+  "subtitle": "Hack features for AFK Journey",
+  "tags": [
+   "afk journey",
+   "hack",
+   "rpg",
+   "strategy",
+   "mod"
   ]
  },
  "com.fathermade.catkingdom": {
@@ -20997,6 +21170,23 @@
    "kingdom"
   ]
  },
+ "com.flaregames.zombiegunship": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Zombie Gunship Survival is an immersive online game set in a post-apocalyptic world. The game allows the player to take on zombie gunship missions to defend against hordes of the undead in a dangerous environment.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "d42bf09f6f861ca61cf3acb6fcf5324e71ce90effde841683842ebbd026f8952",
+  "subtitle": "Immersive post-apocalyptic zombie survival game",
+  "tags": [
+   "zombie",
+   "survival",
+   "action",
+   "shooter",
+   "online",
+   "game"
+  ]
+ },
  "com.fleurbudget": {
   "category": "lifestyle",
   "date": "2026-10-24",
@@ -21320,6 +21510,24 @@
    "unlocked",
    "modified",
    "app"
+  ]
+ },
+ "com.flyingnayeem.yoga": {
+  "category": "lifestyle",
+  "date": "2026-11-11",
+  "description": "Practice yoga at home with a collection of poses and moves. This version includes subscription unlocked features. If subscriptions are not activated upon opening, simply restart the application. Requires iOS 13.0 or later.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "feece95a9741b785d365dc2087171f1d3335956cd8c499325516bd0844a4a5b7",
+  "subtitle": "Yoga poses and moves at home",
+  "tags": [
+   "yoga",
+   "fitness",
+   "home workout",
+   "poses",
+   "health"
   ]
  },
  "com.flyvoip.wifiapplite": {
@@ -22057,25 +22265,19 @@
  },
  "com.g8row.photosbackup": {
   "category": "photo-video",
-  "date": "2026-11-02",
-  "description": "Photos Backup is an experimental, fully on-device iPhone app that backs up selected photos, videos, and albums to Google Photos. It uses a single SwiftUI interface and completes Google account setup via an in-app web view using Google's EmbeddedSetup flow. The app captures the single-use OAuth token from the web view's cookie store and exchanges it for a Google Photos credential entirely on the device, without a desktop companion or hosted service. It relies on Google's private, undocumented Photos endpoints and is not affiliated with or endorsed by Google; the integration may stop working without notice.",
-  "features": [
-   "On-device backup",
-   "In-app OAuth flow",
-   "No desktop required",
-   "Experimental",
-   "SwiftUI"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "355e4c49ce414db57f966dd63e586bc81570d154d1b94594ac0d1edc413e98fa",
-  "subtitle": "On-device Google Photos backup",
+  "date": "2026-11-11",
+  "description": "Photos Backup is an experimental application designed to back up selected photos, videos, and albums from your device directly to Google Photos.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "f5e461e19f8e31816e64a3b379c0d0718e36915c395ea8bbb87ec0a83beb0322",
+  "subtitle": "Back up photos, videos, and albums to Google Photos",
   "tags": [
-   "photos",
    "backup",
-   "google photos",
-   "on-device",
-   "swiftui",
-   "experimental"
+   "photos",
+   "videos",
+   "google",
+   "albums",
+   "media"
   ]
  },
  "com.gageadiel.reference.gageref": {
@@ -23955,6 +24157,90 @@
    "sideload"
   ]
  },
+ "com.google.ios.youtube.music.ytmusicultimateplus.no.youmusicpip.patched.ipavault": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a modded version of YouTube Music. This application comes with built-in tweaks including Return-YouTube-Music-Dislikes, YTMABConfig, VolumeBoostYT, and Downlo.",
+  "features": [
+   "Return-YouTube-Music-Dislikes",
+   "YTMABConfig",
+   "VolumeBoostYT",
+   "Downlo"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "e924dd694dd5279019193d8af288a9a439ef89a4ba7f6e74f7a4a08b3ec2fbc9",
+  "subtitle": "Modded YouTube Music client with tweaks",
+  "tags": [
+   "music",
+   "streaming",
+   "audio",
+   "modded",
+   "player"
+  ]
+ },
+ "com.google.ios.youtube.music.ytmusicultimateplus.no.youmusicpip.patched.jacks.apps": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a modded version of YouTube Music that includes several tweaks. It comes with Return-YouTube-Music-Dislikes, YTMABConfig, VolumeBoostYT, and YTVolume features.",
+  "features": [
+   "Return-YouTube-Music-Dislikes",
+   "YTMABConfig",
+   "VolumeBoostYT",
+   "YTVolume"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "cf03554d47b7ff05cec1e153403f29dd4068f4360f38bbde125b2e517a376c4e",
+  "subtitle": "Modded version of YouTube Music",
+  "tags": [
+   "music",
+   "youtube",
+   "modded",
+   "audio",
+   "streaming"
+  ]
+ },
+ "com.google.ios.youtube.music.ytmusicultimateplus.patched.ipavault": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "YTMusicUltimate+ is a modified version of YouTube Music featuring built-in tweaks. This release includes Return-YouTube-Music-Dislikes, YTMABConfig, VolumeBoostYT, and YouMusicPi. Enjoy an altered playback experience with these integrated customizations.",
+  "features": [
+   "Return-YouTube-Music-Dislikes",
+   "YTMABConfig",
+   "VolumeBoostYT",
+   "YouMusicPi"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "299857ac43f5e17d6121c977b10018001382e12ed698c7b70b438d9c51d22a0f",
+  "subtitle": "Modded YouTube Music client with custom tweaks",
+  "tags": [
+   "music",
+   "streaming",
+   "modded",
+   "audio",
+   "youtube"
+  ]
+ },
+ "com.google.ios.youtube.music.ytmusicultimateplus.patched.jacks.apps": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a modded version of YouTube Music. This comes with the following tweaks: Return-YouTube-Music-Dislikes, YTMABConfig, VolumeBoostYT, YouMusicPi.",
+  "features": [
+   "Return-YouTube-Music-Dislikes",
+   "YTMABConfig",
+   "VolumeBoostYT",
+   "YouMusicPi"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "de6a9a7f3fab0036679a6aaf78d38177ee35e017710b7b4c995cc9d8dce08fcc",
+  "subtitle": "Modded version of YouTube Music",
+  "tags": [
+   "music",
+   "youtube",
+   "modded",
+   "audio",
+   "streaming"
+  ]
+ },
  "com.google.ios.youtube.sy.2.0.patched": {
   "category": "photo-video",
   "date": "2026-11-07",
@@ -24035,6 +24321,21 @@
    "video"
   ]
  },
+ "com.google.ios.youtube.youmod.2.0.0.ballermc.ios15": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "YouMod is a modded version of YouTube created by Tonwalter888. This application requires iOS 15 or later to run.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "f91c815cd9ad20bf5233e7851f89738cb61d86ddecd5b976882f3deff1bf4d7d",
+  "subtitle": "Modded version of YouTube",
+  "tags": [
+   "youtube",
+   "mod",
+   "video",
+   "streaming"
+  ]
+ },
  "com.google.ios.youtube.youmod.2.0.0.ballermc.ios16": {
   "category": "photo-video",
   "date": "2026-11-10",
@@ -24069,6 +24370,21 @@
    "custom"
   ]
  },
+ "com.google.ios.youtube.youmod.2.0.0.iosdecrypted": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a modded version of YouTube created by Tonwalter888. Sideloading and signing details mention FastSign operated by CertFish.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "034bf00e43e2cf3543d46c0b81d1b9ee8f7bf39a21329207272db664c90f4905",
+  "subtitle": "Modded version of YouTube",
+  "tags": [
+   "youtube",
+   "mod",
+   "video",
+   "streaming"
+  ]
+ },
  "com.google.ios.youtube.youmod.2.0.0.ipavault": {
   "category": "entertainment",
   "date": "2026-11-10",
@@ -24084,6 +24400,22 @@
    "sideload",
    "ipa",
    "tweaks"
+  ]
+ },
+ "com.google.ios.youtube.youmod.2.0.0.ipavault.ios16plus": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "YouMod is a modded version of YouTube created by Tonwalter888. This application runs on iOS 16 and above.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "3bf7d84acf948c9d283d4681ec1aeb9c32f302ce24172897287ca4c01c79c62d",
+  "subtitle": "Modded version of YouTube with bonus tweaks",
+  "tags": [
+   "youtube",
+   "mod",
+   "video",
+   "streaming",
+   "ios"
   ]
  },
  "com.google.ios.youtube.youmod.2.0.0.jayden": {
@@ -24120,6 +24452,28 @@
    "tweaks"
   ]
  },
+ "com.google.ios.youtube.youmod.bonus.tweaks.mrdrvt99.1.3.0": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a modded version of YouTube that includes several built-in tweaks. The application comes packaged with DontEatMyContent, Gonerino, IAmYouTube, iSponsorBlock, libcolorpicker, and YouC. Use FastSign to sideload the application easily.",
+  "features": [
+   "Includes DontEatMyContent",
+   "Includes Gonerino",
+   "Includes IAmYouTube",
+   "Includes iSponsorBlock",
+   "Includes YouC"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "464fe26d0f333f22524b6232c69485ec68fb210c737d273964646cdf7885d018",
+  "subtitle": "Modded version of YouTube with additional tweaks",
+  "tags": [
+   "youtube",
+   "mod",
+   "tweaks",
+   "video",
+   "sideload"
+  ]
+ },
  "com.google.ios.youtube.youpro.1.3.2.ipastar": {
   "category": "photo-video",
   "date": "2026-11-10",
@@ -24135,6 +24489,50 @@
    "streaming",
    "youpro",
    "client"
+  ]
+ },
+ "com.google.ios.youtube.youproextra.0.3.moe": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a modded version of YouTube that includes several built-in tweaks. It features DontEatMyContent, iSponsorBlock, sideloadFixerLol, YouChooseQuality, and YouGr. This application is designed to modify the standard YouTube experience with additional customization options and content management tools.",
+  "features": [
+   "DontEatMyContent",
+   "iSponsorBlock",
+   "sideloadFixerLol",
+   "YouChooseQuality",
+   "YouGr"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "b52a72d94143bc780f7bf0dc574e28339d41bacd119ec7442fd8681283918486",
+  "subtitle": "Modded YouTube app with built-in tweaks",
+  "tags": [
+   "youtube",
+   "mod",
+   "tweaks",
+   "video",
+   "streaming"
+  ]
+ },
+ "com.google.ios.youtube.youproextra.0.3.moe.21.24.3": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a modified version of YouTube downgraded to version 21.24.3. It includes integrated tweaks such as DontEatMyContent, iSponsorBlock, sideloadFixerLol, YouChooseQuality, and YouGroup. This application is designed for sideloading.",
+  "features": [
+   "DontEatMyContent",
+   "iSponsorBlock",
+   "sideloadFixerLol",
+   "YouChooseQuality"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "3c0a682c776dd48d5036e1245fe4aafde2ea7f837de3f70eba5744965e4c7f70",
+  "subtitle": "Modded YouTube client with built-in tweaks",
+  "tags": [
+   "youtube",
+   "modded",
+   "video",
+   "tweaks",
+   "player",
+   "media"
   ]
  },
  "com.google.ios.youtube.youproextra.0.3.moe.21.24.3.patched": {
@@ -24160,6 +24558,28 @@
    "ios"
   ]
  },
+ "com.google.ios.youtube.ytkace.1.1.4.bonus.iOSDecrypted": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a modded version of YouTube that includes several built-in tweaks. Features include YouPiP, Return YouTube Dislikes, DontEatMyContent, NoYTPremium, and YTABConfig. This application provides modified functionality for the standard YouTube experience on iOS devices.",
+  "features": [
+   "YouPiP",
+   "Return YouTube Dislikes",
+   "DontEatMyContent",
+   "NoYTPremium",
+   "YTABConfig"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "9cf8c445d1819c72644aba0814a61dfea87dae3eea4e87fc9b1601eb593e73ee",
+  "subtitle": "Modded version of YouTube with bonus tweaks",
+  "tags": [
+   "youtube",
+   "modded",
+   "tweaks",
+   "video",
+   "streaming"
+  ]
+ },
  "com.google.ios.youtube.ytkace.1.1.5": {
   "category": "photo-video",
   "date": "2026-11-10",
@@ -24175,6 +24595,27 @@
    "certfish",
    "fastsign",
    "github"
+  ]
+ },
+ "com.google.ios.youtube.ytkace.1.1.5.bonus.drifty": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "YTKACE is a modded version of YouTube that includes integrated tweaks and configurations to enhance viewing and app control. Built-in enhancements include YTUHD for high-resolution video playback, Return-YouTube-Dislikes to restore dislike counts, YTABConfig for advanced settings, YouQuality for video quality selection, DontEatMyContent, VolumeBoostYT, and various interface customizations.",
+  "features": [
+   "YTUHD",
+   "Return-YouTube-Dislikes",
+   "YouQuality",
+   "VolumeBoostYT"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "54e1d51e6cd8bdadef56d2d2361b19d187594fefda85abad69bde7da9716582b",
+  "subtitle": "Modded version of YouTube with additional tweaks",
+  "tags": [
+   "youtube",
+   "tweaks",
+   "mod",
+   "video",
+   "playback"
   ]
  },
  "com.google.ios.youtube.ytkace.1.1.5.bonus.ipavault.ios16": {
@@ -24200,6 +24641,73 @@
    "video"
   ]
  },
+ "com.google.ios.youtube.ytkace.1.1.5.bonus.moe.patched": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "YTKACE is a modded version of YouTube that includes integrated tweaks for enhanced playback and settings control. Built-in enhancements include YTClassicVideoQuality, YouMute, YTABConfig, YouQuality, YTKACE, DontEatMyContent, YTVideoOverlay, YouSpeed, YouGroupSettings, YouTubeNativeShare, YouPiP, YouChooseQuality, and YouLoop. This application provides alternative options for managing video quality, audio control, picture-in-picture mode, and group settings within the standard YouTube interface.",
+  "features": [
+   "YTClassicVideoQuality",
+   "YouMute",
+   "YouPiP",
+   "YouSpeed",
+   "YouLoop"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "bfc58dc8530d9f647b8ce539ac60224d000ba5a39601e62dba7441f997b8ba9c",
+  "subtitle": "Modded YouTube client with integrated tweaks",
+  "tags": [
+   "youtube",
+   "tweaks",
+   "video",
+   "modded",
+   "streaming"
+  ]
+ },
+ "com.google.ios.youtube.ytkace.1.1.5.bonus.mrdrvt99": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "YTKACE is a modded version of YouTube that includes integrated tweaks for enhanced playback and settings control. Built-in tweaks consist of DontEatMyContent, Gonerino, YouTubeNativeShare, YouTubeDislikesReturn, VolumeBoostYT, YouGetCaption, YouGroupSettings, YouChooseQuality, YouPiP, YouQuality, YTABConfig, and YTHoldForSpeed. Modify your video viewing experience with advanced configuration options and feature restorations.",
+  "features": [
+   "Picture in Picture",
+   "Return YouTube Dislikes",
+   "Volume Boost",
+   "Quality Selector",
+   "Speed Controls"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "14a1703e47025afea93942eeb6cbfab4766c5e2cb80bd66ee846105c873001e0",
+  "subtitle": "Modded YouTube app with custom tweaks",
+  "tags": [
+   "youtube",
+   "tweaks",
+   "mod",
+   "video",
+   "streaming",
+   "media"
+  ]
+ },
+ "com.google.ios.youtube.ytkace.1.1.5.bonus.mrdrvt99.ios16": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "Modded version of YouTube featuring integrated enhancements and tweaks. Includes DontEatMyContent, Gonerino, YouTubeNativeShare, YouTubeDislikesReturn, VolumeBoostYT, YouGetCaption, YouGroupSettings, YouChooseQuality, YouPiP, YouQuality, YTABConfig, YTHoldForSpeed and additional options.",
+  "features": [
+   "Picture in Picture",
+   "Return YouTube Dislikes",
+   "Volume Boost",
+   "Quality Selection",
+   "Speed Controls"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "f0cd41de2e311d5c642499099d34ae6970fb4ecdd7ed798261e0ac2039be3082",
+  "subtitle": "Modded YouTube client with integrated feature tweaks",
+  "tags": [
+   "youtube",
+   "modded",
+   "tweaks",
+   "pip",
+   "video"
+  ]
+ },
  "com.google.ios.youtube.ytkace.1.1.5.ios16": {
   "category": "photo-video",
   "date": "2026-11-10",
@@ -24215,6 +24723,62 @@
    "video",
    "player",
    "sideload"
+  ]
+ },
+ "com.google.ios.youtube.ytkace.1.1.6": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a modded version of YouTube featuring YTKACE tweaks. The source code is available on GitHub.",
+  "features": [
+   "YTKACE Tweaks"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "7c4c175cfc94751704082cc776c55231c33d94ef8b62728f9895fe3d17327fee",
+  "subtitle": "Modded version of YouTube",
+  "tags": [
+   "youtube",
+   "mod",
+   "tweaks",
+   "ytkace",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.ytkace.1.1.6.bonus.ipavault": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "YTKACE is a modded version of YouTube that includes a variety of built-in tweaks and enhancements. Features include YTABConfig, YTweaks, YouPIP, VolumeBoostYT, DontEatMyContent, ReturnYouTubeDislike, LowContrastMode, VideoOverlay, YouGetCaption, YouTubeNativeShare, PleaseDontStopTheMusic, YouQuality, YouChooseQuality, YTHoldForSpeed, YouGroupSettings, and OpenYouTubeInSafari.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "e539b57090299ef455d4ed21bcf11ef3faf6800f0daf765acd947055a5391e9a",
+  "subtitle": "Modded version of YouTube with additional tweaks",
+  "tags": [
+   "youtube",
+   "mod",
+   "tweaks",
+   "video",
+   "streaming"
+  ]
+ },
+ "com.google.ios.youtube.ytkace.1.1.6.bonus.ipavault.ios16": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "YTKACE is a modded version of YouTube that includes a variety of built-in tweaks and enhancements. Features include options to restore dislikes, boost volume, enable picture-in-picture, configure video quality settings, and access hidden preferences. This application is designed for iOS 16 and later.",
+  "features": [
+   "Picture-in-Picture",
+   "Return Dislikes",
+   "Volume Boost",
+   "Quality Settings",
+   "Advanced Config"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "ae8bbc0a1f0f0396e159653368f63bfd073a2f418bbc416d3351136306405b55",
+  "subtitle": "Modded YouTube client with integrated tweaks",
+  "tags": [
+   "youtube",
+   "tweaks",
+   "mod",
+   "video",
+   "pip"
   ]
  },
  "com.google.ios.youtube.ytkillerplus.cracked.bonus.itzzace0.5.7.6": {
@@ -24258,6 +24822,22 @@
    "sideload",
    "certfish",
    "fastsign"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.canpng.6.7.8": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTKillerPlus, available without the paywall. Please note that Sidestore is no longer supported.",
+  "features": [
+   "No Paywall"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "a5af1397d028aa21b42ef28dbdca1a304d2f9bc716dab5288a38e7f20849f201",
+  "subtitle": "Cracked version of YTKillerPlus without paywall",
+  "tags": [
+   "ytkillerplus",
+   "cracked",
+   "photo-video"
   ]
  },
  "com.google.ios.youtube.ytkillerplus.cracked.itzzace0.5.7.6": {
@@ -24321,6 +24901,58 @@
    "dev-cert"
   ]
  },
+ "com.google.ios.youtube.ytkillerplus.cracked.itzzace0.bonus.5.8.8": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTKillerPlus, available without the paywall and bundled with additional tweaks including DontEa. Please note that this version does not work with sidestore.",
+  "features": [
+   "No Paywall",
+   "Bonus Tweaks"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "b94965d707fbbf671f2adf87385f4419c61d9f48b413bf56e9b502642d2df615",
+  "subtitle": "Cracked version of YTKillerPlus without the paywall",
+  "tags": [
+   "youtube",
+   "ytkillerplus",
+   "cracked",
+   "tweaks"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.10.0": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTKillerPlus, available without the paywall.",
+  "features": [
+   "No Paywall"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "79e52dd167a22865bbe1dc5b3baf50388de5f3ec352b25752767845112acfc0d",
+  "subtitle": "Cracked version of YTKillerPlus without the paywall",
+  "tags": [
+   "ytkillerplus",
+   "cracked",
+   "youtube",
+   "no paywall"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.11.0": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTKillerPlus, available without the paywall.",
+  "features": [
+   "No Paywall"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "6532b6574d77883ff31b6f7318121e32bf11644e995c56a2ac29a4ac9a3196e5",
+  "subtitle": "Cracked version of YTKillerPlus without the paywall",
+  "tags": [
+   "ytkillerplus",
+   "cracked",
+   "video",
+   "streaming"
+  ]
+ },
  "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.13.0": {
   "category": "photo-video",
   "date": "2026-11-10",
@@ -24362,6 +24994,58 @@
    "no-paywall"
   ]
  },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.16.0": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTKillerPlus, available without the paywall.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "cefdb8b4edaac97fc3672fc7d9ebed954348d993f0d5025a623815276803e8f5",
+  "subtitle": "Cracked version of YTKillerPlus without the paywall",
+  "tags": [
+   "ytkillerplus",
+   "cracked",
+   "unlocked",
+   "photo-video"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.17.0": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTKillerPlus, available without the paywall.",
+  "features": [
+   "No Paywall"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "1ecc04b39c6fe39529c3261540dc4d7ee0b59b90d653faad93ae7e59f736de7b",
+  "subtitle": "Cracked version of YTKillerPlus without the paywall",
+  "tags": [
+   "ytkillerplus",
+   "cracked",
+   "streaming",
+   "video",
+   "tools"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.18.0": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTKillerPlus, available without the paywall.",
+  "features": [
+   "No Paywall"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "a176dd9503b7804ecc5aa67004c21f2fc137a5400d60bbb6eebf749233f09fcc",
+  "subtitle": "Cracked version of YTKillerPlus without the paywall",
+  "tags": [
+   "ytkillerplus",
+   "cracked",
+   "sideload",
+   "fastsign"
+  ]
+ },
  "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.19.0": {
   "category": "photo-video",
   "date": "2026-11-10",
@@ -24382,6 +25066,23 @@
    "youtubekillerplus"
   ]
  },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.20.0": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTKillerPlus, available without the paywall.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "4c94ed4af7299865c1e77bea98b63f3eaed35cfce729893577e085ff44ecc30d",
+  "subtitle": "Cracked version of YTKillerPlus without the paywall",
+  "tags": [
+   "ytkillerplus",
+   "cracked",
+   "unlocked",
+   "video"
+  ]
+ },
  "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.21.0": {
   "category": "photo-video",
   "date": "2026-11-10",
@@ -24399,6 +25100,95 @@
    "sideload",
    "video",
    "player"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.23.0": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTKillerPlus, available without the paywall. Please note that Sidestore is no longer supported for installation.",
+  "features": [
+   "No Paywall",
+   "Cracked Version"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "29f4abc1df7dee1a1c170fd683d594376a579a85ec7501c9d4fd170ff8a2050a",
+  "subtitle": "Cracked version of YTKillerPlus without the paywall",
+  "tags": [
+   "ytkillerplus",
+   "cracked",
+   "video",
+   "photo"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.9.4": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTKillerPlus, available without the paywall. Please note that Sidestore is not supported.",
+  "features": [
+   "No paywall"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "9167a9c4d03871c59aeadf0a0fd60d0b634949a0355b4f1d52b5ac913e14d09a",
+  "subtitle": "Cracked version of YTKillerPlus",
+  "tags": [
+   "ytkillerplus",
+   "cracked",
+   "sideload",
+   "utilities"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.9.9": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTKillerPlus, available without the paywall. FastSign is operated by CertFish, providing an easy way to sideload applications.",
+  "features": [
+   "No Paywall"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "a7485dffc6f6d531af7e17c9ee81d79fde3fa1349e152576ea9243093084a498",
+  "subtitle": "Cracked version without the paywall",
+  "tags": [
+   "ytkillerplus",
+   "cracked",
+   "sideload",
+   "utilities"
+  ]
+ },
+ "com.google.ios.youtube.ytkillerplus.cracked.lowiqentity.5.9.9.bonus": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "Cracked version of YTKillerPlus with the paywall removed. Includes built-in tweaks such as YouQuality, YouTubeDislikesReturn, and DontEatMyCont.",
+  "features": [
+   "No Paywall",
+   "YouQuality",
+   "YouTubeDislikesReturn",
+   "DontEatMyCont"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "70e74bbc2c76d06c71a3697f9f5cb129c83800bd3bee6142dd21cd07b80f5b31",
+  "subtitle": "Cracked version with removed paywall",
+  "tags": [
+   "ytkillerplus",
+   "youtube",
+   "tweaks",
+   "cracked",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.5.2.2.20.21.6": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTPlus, without the Patreon DRM. This version was cracked by Zarzel (shinewake).",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "579b9b9af11950615f7f8991a6f29f65a861a14e49e1e7233e8aa9fa24ab7fe8",
+  "subtitle": "Cracked version of YTPlus without Patreon DRM",
+  "tags": [
+   "ytplus",
+   "ytlite",
+   "cracked",
+   "sideload",
+   "video"
   ]
  },
  "com.google.ios.youtube.ytplus.cracked.5.2.2.21.16.2": {
@@ -24442,6 +25232,272 @@
    "sideload"
   ]
  },
+ "com.google.ios.youtube.ytplus.cracked.5.2.2.21.37.5": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTPlus, without the Patreon DRM. The application was cracked by Zarzel and shinewake, and updated to version 21.37.5.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "f735d5639cc51bd2bc87537a6873059b3169131f886d9b467c2656f66e9ec03c",
+  "subtitle": "Cracked version of YTPlus",
+  "tags": [
+   "ytplus",
+   "ytlite",
+   "cracked",
+   "drm free",
+   "youtube"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.5.2.2.21.38.2": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTPlus, with the Patreon DRM removed. The app has been updated to version 21.38.2.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "5900dc1bc154c3eba230a822295ff0318e18db60e5f345007fa043c8e63c898d",
+  "subtitle": "Cracked version of YTPlus",
+  "tags": [
+   "ytplus",
+   "ytlite",
+   "cracked",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.20.21.6.ipavault.bonus.tweaks": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTPlus, removing the Dan Account System DRM. It was cracked by Spy_G and includes bonus tweaks added by IPAVAult.",
+  "features": [
+   "No DRM",
+   "Bonus Tweaks"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "76af88bf5ec95026459f37304cfbefb31c5c007a0bc9736f4f43e7eb77b9ac3e",
+  "subtitle": "Cracked version of YTPlus with bonus tweaks",
+  "tags": [
+   "ytplus",
+   "tweaks",
+   "cracked",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.21.33.6.ipavault.bonus.tweaks": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTPlus, removing the Dan Account System DRM. Cracked by Spy_G, with bonus tweaks added by IPAVAult.",
+  "features": [
+   "No DRM",
+   "Bonus Tweaks"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "c39bfcac1fbd23758402d17b3eff575fde716837de32512e2d271a2e0a85bd38",
+  "subtitle": "Cracked version of YTPlus with bonus tweaks",
+  "tags": [
+   "ytplus",
+   "cracked",
+   "tweaks",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.21.43.5.spyg.bonus.tweaks": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "Cracked version of YTPlus, removing the Dan Account System DRM. This version includes bonus tweaks such as DontEatMyContent and YouGroup. Sideload easily using FastSign.",
+  "features": [
+   "No DRM",
+   "Bonus Tweaks"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "cd506765e268aadbdd159537011c9e9d726f6af6d4e9b92e479a833c4c859fc5",
+  "subtitle": "Cracked version of YTPlus with bonus tweaks",
+  "tags": [
+   "ytplus",
+   "tweaks",
+   "sideload",
+   "video",
+   "cracked"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.beta.1.21.38.2": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a cracked beta version of YTPlus, version 21.38.2, with the Dan Account System DRM removed. The app was cracked by itzzace0 and Epic0001. This is a beta build release.",
+  "features": [
+   "Cracked version",
+   "DRM removed"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "736bfe77622970f066c8ada2cecd4164df2f0c32679a814c5edc2aea9b2b73b6",
+  "subtitle": "Cracked version of YTPlus",
+  "tags": [
+   "ytplus",
+   "beta",
+   "cracked",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.beta.1.ios15": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTPlus, with the Dan Account System DRM removed. This release is a beta build and is designed for iOS 15 and higher.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "35a981df08332150dbb2518bb63a8ce21650fdab5cdd8aaf822fb24d1ac3b1b4",
+  "subtitle": "Cracked version of YTPlus for iOS 15 and later",
+  "tags": [
+   "ytplus",
+   "youtube",
+   "beta",
+   "ios",
+   "cracked"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.beta.1.ios16": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTPlus, removing the Dan Account System DRM. This is a beta build of YTPlus providing support for iOS 16 and later. Sideload the application easily.",
+  "features": [
+   "No DRM",
+   "iOS 16 Support",
+   "Beta Build"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "03db0bcb548743f724810f6a6f4167b3d6041014caeb0681de71b7f4017903da",
+  "subtitle": "Cracked version of YTPlus for iOS",
+  "tags": [
+   "ytplus",
+   "video",
+   "sideload",
+   "beta",
+   "ios"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.beta.2.21.33.6.spyg.ios16.bonus.tweaks": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a cracked beta version of YTPlus, modified to remove the Dan Account System DRM. The application is provided as a beta build, and users should expect bugs and glitches. It requires iOS 16 or later.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "40ff15d905ff755806dbe0c2ad2e2d552bbd8244f1d58c3481207a58c04a03a1",
+  "subtitle": "Cracked beta version of YTPlus for iOS 16 and later",
+  "tags": [
+   "ytplus",
+   "beta",
+   "ios16",
+   "cracked",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.beta.2.21.39.4.itzzace0.bonus.tweaks": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a cracked version of YTPlus, featuring bonus tweaks and built without the Dan Account System DRM. This release is a beta build of YTPlus version 21.39.4, originally cracked by itzzace0 and Epic0001.",
+  "features": [
+   "No DRM",
+   "Bonus Tweaks",
+   "Beta Build"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "7094c0be47c1cbcd2167821d4c2b17df0b55ed617fa72553b3198d52c490f9a8",
+  "subtitle": "Cracked version of YTPlus beta build",
+  "tags": [
+   "ytplus",
+   "beta",
+   "cracked",
+   "tweaks"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.beta.2.21.39.4.spyg.bonus.tweaks": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a cracked version of YTPlus, removed of the Dan Account System DRM and cracked by Spy_G. Please note that this is a beta build of YTPlus, specifically version 21.39.4, so users should expect bugs and glitches. Bonus tweaks are included in this release. This build is designed for sideloading.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "b7bd03f9aa466f0308a8865955ccc78b8575044087825124cef1108dc4bda0b7",
+  "subtitle": "Cracked version of YTPlus",
+  "tags": [
+   "ytplus",
+   "ytlite",
+   "cracked",
+   "beta",
+   "tweaks"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.beta.2.ios15": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a cracked version of YTPlus with the Dan Account System DRM removed. It was cracked by itzzace0 (Epic0001). This is a beta build of YTPlus supporting iOS 15 and later.",
+  "features": [
+   "DRM Removed",
+   "Beta Build"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fb54517867b71ba88284830de63b15da7d075d1d7a4b6442a40d8ef23624ab99",
+  "subtitle": "Cracked YouTube client beta for iOS 15+",
+  "tags": [
+   "youtube",
+   "cracked",
+   "beta",
+   "ios",
+   "video",
+   "player"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.beta.2.ios16": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "Cracked version of YTPlus without the Dan Account System DRM. This is a beta build of YTPlus providing iOS 16 plus support. Sideload easily using FastSign.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "ef5f4376bffb4de4f1d18ca715e10bf19acd38303ea204c6fea06b22cc9a6be7",
+  "subtitle": "Cracked version of YTPlus",
+  "tags": [
+   "ytplus",
+   "ytlite",
+   "cracked",
+   "beta",
+   "sideload",
+   "ios"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.beta.2.latest": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a cracked version of YTPlus, featuring the removal of the Dan Account System DRM. This release is a beta build of YTPlus, cracked by itzzace0 (Epic0001).",
+  "features": [
+   "Cracked Version",
+   "No DRM"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "5b63c03882a94eed383808a64cc0b42ebebed2d01a92c3f0dae479b50caf6568",
+  "subtitle": "Cracked version of YTPlus",
+  "tags": [
+   "ytplus",
+   "beta",
+   "cracked",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.ios14": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a cracked version of YTPlus that removes the Dan Account System DRM. The crack was performed by Spy_G. The app can be sideloaded using FastSign, which is operated by CertFish.",
+  "features": [
+   "No DRM",
+   "Cracked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e9cc3ab9abd5377066101bf655042417139dfdb54000987f146f982bd1adf70e",
+  "subtitle": "Cracked YTPlus without DRM",
+  "tags": [
+   "youtube",
+   "youtube-plus",
+   "cracked",
+   "drm-free",
+   "sideload",
+   "ios"
+  ]
+ },
  "com.google.ios.youtube.ytplus.cracked.6.0.ios15": {
   "category": "photo-video",
   "date": "2026-11-10",
@@ -24481,6 +25537,373 @@
    "ios",
    "sideload",
    "video"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.6.0.latest": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTPlus, removing the Dan Account System DRM. It was cracked by Spy_G. FastSign is operated by CertFish, offering an easy way to sideload applications.",
+  "features": [
+   "No DRM",
+   "Cracked Version"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "4c020cf60db93de2ea0b849a3df0d4b8782ebed4894ce0c2b0ec3270919858e4",
+  "subtitle": "Cracked version of YTPlus",
+  "tags": [
+   "ytplus",
+   "cracked",
+   "sideload",
+   "fastsign",
+   "drm"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.5.2.2.Mark02-2012.20.21.6": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTPlus, without the Patreon DRM. This was cracked by Zarzel and includes the YYouPiP tweak. It is downgraded to version 20.21.6.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "a12a2efac2efef8c5b8a5041643351ced96e8ea9be77541520cb0cf6c7e1aeb1",
+  "subtitle": "Cracked version of YTPlus without Patreon DRM",
+  "tags": [
+   "ytplus",
+   "ytlite",
+   "cracked",
+   "tweaks",
+   "sideload"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.5.2.2.iOSDecrypted.21.24.3": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "Cracked version of YTPlus without Patreon DRM, modified by Zarzel. Includes YouPiP and Re tweaks.",
+  "features": [
+   "No DRM",
+   "YouPiP included",
+   "Re tweaks included"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "f43f86b594518e8b9de4afa39725035a11251ba52d18f701ddae89deb4ceaea8",
+  "subtitle": "Cracked YouTube client with bonus tweaks",
+  "tags": [
+   "youtube",
+   "ytplus",
+   "tweaks",
+   "cracked",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.6.0.beta.1.ipvault": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a cracked version of YTPlus, removed of the Dan Account System DRM. This release is a beta build of YTPlus.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "c69fd8404f81760bcc5325322ba3e11c6022314e1040f9cf81c8517aadaef5f2",
+  "subtitle": "Cracked version of YTPlus without DRM",
+  "tags": [
+   "ytplus",
+   "beta",
+   "cracked",
+   "tweaks"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.6.0.beta.2.ipvault": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a beta build of the cracked version of YTPlus, removed of the Dan Account System DRM. Cracked by itzzace0.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "431bd9851ef507563e6628ab4c2abcb3716475e4a63bc915f276c3b6406d236d",
+  "subtitle": "Cracked version of YTPlus",
+  "tags": [
+   "ytplus",
+   "beta",
+   "cracked",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.mark02-2012.5.2.2.21.24.3": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTPlus, without the Patreon DRM. This was cracked by Zarzel (shinewake). This includes the following tweaks: YTLite, Yo. Downgraded to version 21.24.3.",
+  "features": [
+   "No Patreon DRM",
+   "Includes YTLite tweak",
+   "Includes Yo tweak"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "b3cd68890a4120310bff245f1cb4a85c2b0cdc28d88c1a0c99d324702caf22ea",
+  "subtitle": "Cracked version of YTPlus with bonus tweaks",
+  "tags": [
+   "ytplus",
+   "ytlite",
+   "cracked",
+   "youtube",
+   "tweaks"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.mark02-2012.5.2.2.21.33.6": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTPlus, without the Patreon DRM. This was cracked by Zarzel, also known as shinewake. This application includes the following tweaks: YTLite and Yo.",
+  "features": [
+   "YTPlus Cracked",
+   "Patreon DRM Removed",
+   "Includes YTLite",
+   "Includes Yo tweak"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "1b19e7071953be612571fc915fb27b07d3e0696a8b5cf6433bfb401014ac795a",
+  "subtitle": "Cracked version of YTPlus with bonus tweaks",
+  "tags": [
+   "ytplus",
+   "ytlite",
+   "cracked",
+   "youtube",
+   "tweaks"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.mark02-2012.5.2.2.21.36.6": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTPlus, without the Patreon DRM. This was cracked by Zarzel, also known as shinewake. This application includes the following tweaks: YTLite and Yo.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "121954649167778e90c8d257e2cdafcd302e5a1909ec18773bf8133dd4d2ec89",
+  "subtitle": "Cracked version of YTPlus with bonus tweaks",
+  "tags": [
+   "ytplus",
+   "ytlite",
+   "tweaks",
+   "video",
+   "youtube"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.mrdrvt99.5.2.2.21.24.3": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is the cracked version of YTPlus, without the Patreon DRM. This was cracked by Zarzel (shinewake). This includes the following tweaks: DontEatMyC. Downgraded to version 21.24.3.",
+  "features": [
+   "Cracked version",
+   "No Patreon DRM",
+   "Bonus tweaks"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "db53898486b27c0bd4ec293757740a06bceb08875fdd69de11ec4feb737fae2a",
+  "subtitle": "Cracked version of YTPlus without Patreon DRM",
+  "tags": [
+   "ytplus",
+   "ytlite",
+   "tweaks",
+   "cracked",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.mrdrvt99.6.0": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "Cracked YouTube build (version 6.0 by mrdrvt99) that includes eight tweaks: YouPiP for picture-in-picture playback, YTUHD for ultra-high-definition streaming, YTABConfig for ad-block configuration, YouQuality and YouChooseQuality for manual resolution selection, YouGetCaption for caption downloading, YTHoldForSpeed for playback speed control via long-press, and Return-Y for navigation improvements. Distributed via CertFish sideloading service.",
+  "features": [
+   "Picture-in-Picture",
+   "UHD Streaming",
+   "Ad-Block Config",
+   "Manual Quality Select",
+   "Caption Download"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "504e602e2d73e249974170d8e0517000e78cb9836527a89881c331f38e6cdee4",
+  "subtitle": "Modified YouTube with PiP, quality controls, and captions",
+  "tags": [
+   "youtube",
+   "modified",
+   "pip",
+   "uhd",
+   "adblock",
+   "sideload"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.mrdrvt99.6.0.beta.1": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a beta build of YTPlus containing YouPiP, YTUHD, and YTABConfig tweaks. Expect bugs and glitches as this is an early release version.",
+  "features": [
+   "YouPiP",
+   "YTUHD",
+   "YTABConfig"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "1cfffbc83454dde02ae3a4c9630756e963a7efaa6fb9e6858ed8ff91c8212ac8",
+  "subtitle": "Cracked beta build with bonus tweaks",
+  "tags": [
+   "ytplus",
+   "tweaks",
+   "beta",
+   "youtube"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.mrdrvt99.6.0.beta.1.ios16": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a beta build of YTPlus, cracked by itzzace0 (Epic0001). Users should expect bugs and glitches in this version. The app includes the following integrated tweaks: YouPiP, YTUHD, and YTABConfig. This build provides iOS 16+ support.",
+  "features": [
+   "YouPiP",
+   "YTUHD",
+   "YTABConfig"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "8822fa842569a19ae6066f18083632ee8d42673c9111b03376a256ebd9cf13ef",
+  "subtitle": "Cracked beta build with bonus tweaks",
+  "tags": [
+   "youtube",
+   "tweaks",
+   "beta",
+   "ios16",
+   "video"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.mrdrvt99.6.0.beta.2": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a beta build of YTPlus that includes integrated tweaks such as YouPiP, YTUHD, and YTABConfig. Please note that as a beta release, users may experience bugs and glitches.",
+  "features": [
+   "YouPiP",
+   "YTUHD",
+   "YTABConfig"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "829a9b9709f8525f3806e9f162b0a1c3f5e139805863d8fd83350a3a55f4f10e",
+  "subtitle": "Cracked beta build with custom video tweaks",
+  "tags": [
+   "youtube",
+   "beta",
+   "tweaks",
+   "video",
+   "player"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.mrdrvt99.6.0.beta.2.ios16": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a beta build of YTPlus cracked by itzzace0. It includes the YouPiP, YTABConfig, and YouQu tweaks. Expect bugs and glitches as this is a beta release.",
+  "features": [
+   "YouPiP",
+   "YTABConfig",
+   "YouQu"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "236ce01816c4a74a6fd4d15dfa37d5941d24905687fe1ba6b442d2f6c31ead4c",
+  "subtitle": "Cracked YouTube beta with bonus tweaks and iOS 16 support",
+  "tags": [
+   "youtube",
+   "tweaks",
+   "beta",
+   "cracked",
+   "ios16"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.mrdrvt99.6.0.ios14": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "YouTube client featuring YTLite, YouPiP, YouQuality, YouTubeDislikesReturn, DontEatMyContent, YTABConfig, YTVideoOverlay, YouGroupSettings, YouTubeNativeShare, YouGetCaption, YouChooseQuality, and YTHoldForSpeed. Includes additional tweaks such as YTUHD and YTN. Cracked by Epic0001 with support for iOS 14.",
+  "features": [
+   "YTLite included",
+   "YouPiP support",
+   "YouQuality",
+   "YTUHD"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "f9ad64560f09ac1d3bba9864cb32f468270b5018e9e30f5017ce1ee52fe678df",
+  "subtitle": "Cracked YouTube client with bonus tweaks",
+  "tags": [
+   "youtube",
+   "tweaks",
+   "cracked",
+   "video",
+   "media"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.mrdrvt99.6.0.ios15": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This application is a cracked version of YouTube featuring integrated tweaks for enhanced playback control and interface customization. It includes modifications such as background playback with picture-in-picture, quality selection tools, return of YouTube dislikes, native sharing options, caption downloading, and speed controls. The app supports iOS 15 and is packaged with multiple utility tweaks to modify the viewing experience.",
+  "features": [
+   "Picture-in-Picture",
+   "Quality Selection",
+   "Return YouTube Dislikes",
+   "Caption Downloader",
+   "Speed Control"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "357cc424fc715be57a5dbb38944a236c00f6338cb64b46657590f9cdeae05563",
+  "subtitle": "Cracked YouTube client with bonus video tweaks",
+  "tags": [
+   "youtube",
+   "tweaks",
+   "video",
+   "media",
+   "cracked"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.mrdrvt99.6.0.ios16": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "Cracked by Epic0001 with support for iOS 16. Includes YouPiP, YTABConfig, YouQuality, YouChooseQuality, YouGetCaption, YTHoldForSPeed, and Return-YouTube. FastSign is operated by CertFish for sideloading.",
+  "features": [
+   "YouPiP",
+   "YTABConfig",
+   "YouQuality",
+   "YouChooseQuality",
+   "Return-YouTube"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "475c322133cc209df3ab139068c07be5457ef76da54d1ec3fd82ac3bc7f30e4f",
+  "subtitle": "Cracked version with bonus tweaks",
+  "tags": [
+   "youtube",
+   "tweaks",
+   "cracked",
+   "ios16",
+   "sideload"
+  ]
+ },
+ "com.google.ios.youtube.ytplusytweaks.ios.sdk.14": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a modded version of YouTube that includes several built-in tweaks. Features include YouPiP, YTUHD, Return YouTube Dislikes, YouQuality, DontEatMyContent, YTABConfig, and YTIco. This application is built for iOS SDK 14.",
+  "features": [
+   "YouPiP",
+   "YTUHD",
+   "Return YouTube Dislikes",
+   "YouQuality",
+   "DontEatMyContent"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "b7c62544413eea752c336ec881b4e7e3d0603ae2bbfc68be1e73e33b3827a9b5",
+  "subtitle": "Modded version of YouTube with additional tweaks",
+  "tags": [
+   "youtube",
+   "mod",
+   "tweaks",
+   "video",
+   "streaming"
+  ]
+ },
+ "com.google.ios.youtube.ytplusytweaks.ios.sdk.16.5.latest": {
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "This is a modded version of YouTube that includes integrated tweaks for enhanced playback and interface options. Features include YouPiP, YTUHD, Return YouTube Dislikes, YouQuality, DontEatMyContent, YTABConfig, and YTIco. Sideload the application easily.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "358d7c0c024604ea41b686f3baf25b0e053238779866c62363b720f37e157465",
+  "subtitle": "Modded YouTube client with tweaks",
+  "tags": [
+   "youtube",
+   "mod",
+   "tweaks",
+   "video",
+   "streaming"
   ]
  },
  "com.google.ios.youtubeliteplus": {
@@ -25622,8 +27045,8 @@
  },
  "com.happymagenta.fromcore": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Tomb of the Mask is a pixel maze game. This tweak provides unlimited coins, unlimited energy, unlimited skip tickets, removes ads, and unlocks all masks.",
+  "date": "2026-11-11",
+  "description": "Navigate through a procedural vertical pixel maze. Explore tombs and collect power-ups in this retro-style arcade game. Includes unlimited coins, unlimited energy, unlimited skip tickets, all masks unlocked, and no ads removed.",
   "features": [
    "Unlimited Coins",
    "Unlimited Energy",
@@ -25631,16 +27054,15 @@
    "No Ads",
    "All Masks Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "1e8c63b4bf0289f298e642258cae6c6c51b3f57ad5c79bcbd94e1fe8a7169d49",
-  "subtitle": "Pixel maze with unlimited coins and masks",
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "49e610c9b0248e875282dda549584517251cf87a7ca3dbb9f8edeb1d550da489",
+  "subtitle": "Pixel maze arcade adventure",
   "tags": [
-   "tomb",
-   "mask",
+   "arcade",
    "maze",
    "pixel",
-   "unlimited",
-   "coins"
+   "retro",
+   "action"
   ]
  },
  "com.happymagenta.totm2": {
@@ -26154,18 +27576,24 @@
  },
  "com.hghub.huangguo": {
   "category": "entertainment",
-  "date": "2026-11-10",
-  "description": "HGhub \u662f\u4e00\u6b3e\u652f\u6301\u6a2a\u5c4f\u548c\u7ad6\u5c4f\u6a21\u5f0f\u7684\u5237\u5267\u5e94\u7528\u3002\u5e94\u7528\u63d0\u4f9b\u5185\u5bb9\u63a8\u8350\u6d41\u3001\u70ed\u95e8\u699c\u5355\u3001\u641c\u7d22\u529f\u80fd\u4ee5\u53ca\u9009\u96c6\u548c\u7eed\u64ad\u652f\u6301\u3002\u5b89\u88c5\u5305\u672a\u7ecf\u7b7e\u540d\uff0c\u9700\u81ea\u884c\u7b7e\u540d\u540e\u5b89\u88c5\u3002\u672c\u9879\u76ee\u57fa\u4e8e PolyForm Noncommercial 1.0.0 \u534f\u8bae\u53d1\u5e03\uff0c\u7981\u6b62\u7528\u4e8e\u4efb\u4f55\u5546\u4e1a\u7528\u9014\u3002",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash",
-  "src_hash": "613b0e72215f6a0bcb3cc72f4c77a653d249f47b5019323b2b3bdd923d886f09",
-  "subtitle": "\u6a2a\u7ad6\u5c4f\u5237\u5267\u5e94\u7528\uff0c\u652f\u6301\u63a8\u8350\u3001\u699c\u5355\u4e0e\u7eed\u64ad",
+  "date": "2026-11-11",
+  "description": "Browse and stream vertical and horizontal video series with support for recommended streams, leaderboards, search, and episode playback continuation. This app is compiled from open-source code with ad-hoc signing and get-task-allow enabled, making it compatible with sideloading tools like SideStore and AltStore. It fixes launch crash issues associated with fully unsigned packages after re-signing. Distributed under the PolyForm Noncommercial 1.0.0 license for non-commercial use only.",
+  "features": [
+   "Vertical and horizontal video",
+   "Recommended streams",
+   "Leaderboards and search",
+   "Episode playback continuation",
+   "SideStore and AltStore compati"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5a34c56eef644d9d0dd0139f7561c10a80f3528f50695b314d4196f398fdba08",
+  "subtitle": "Watch and browse vertical and horizontal video series",
   "tags": [
-   "hghub",
-   "\u5237\u5267",
-   "\u89c6\u9891",
-   "\u64ad\u653e\u5668",
-   "\u8ffd\u5267"
+   "streaming",
+   "video",
+   "series",
+   "entertainment",
+   "player"
   ]
  },
  "com.hhp.magicEraser": {
@@ -26658,6 +28086,28 @@
    "tweaks",
    "backups",
    "gestaltx"
+  ]
+ },
+ "com.huamu013.ZhihuMinusMinus": {
+  "category": "developer",
+  "date": "2026-11-11",
+  "description": "ZhihuMinusMinus is a lightweight third-party Zhihu client built with React Native and Expo. It features no advertisements and supports multi-account switching, guest mode, custom global theme colors, and a dark mode. Users can view the hot list, recommendations, answers, articles, thoughts, and the comment section. It also supports automatic updates from GitHub Releases.",
+  "features": [
+   "No Ads",
+   "Multi-account switching",
+   "Guest mode",
+   "Dark mode",
+   "Auto updates"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "112eb4e4a049271b073b5c2a5751e5feb7c8e1b8c5d80abb1fe4c19cad6d7c58",
+  "subtitle": "Lightweight third-party Zhihu client",
+  "tags": [
+   "zhihu",
+   "client",
+   "reader",
+   "social",
+   "forum"
   ]
  },
  "com.hubx.imagination": {
@@ -27174,22 +28624,21 @@
   ]
  },
  "com.iaftt.flightplusfree": {
-  "category": "other",
-  "date": "2026-11-10",
-  "description": "FlightTracker provides flight tracking with the subscription unlocked.",
+  "category": "utilities",
+  "date": "2026-11-11",
+  "description": "Track flights on your iOS device. This version includes a subscription unlock modifier.",
   "features": [
-   "Subscription Unlocked"
+   "Subscription Unlock"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "65f0be72b4f11abed263060de73bad589dd334a542a1766695296b71d16b3b14",
-  "subtitle": "Track flights with unlocked subscription",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "1014aeafd67b1a7c3345abbdf19e6623a63adf2d2ab1e1c459c26e12fd22e9e0",
+  "subtitle": "Track flights with subscription unlock",
   "tags": [
    "flight",
    "tracker",
-   "subscription",
-   "unlocked",
    "travel",
-   "tracking"
+   "aviation",
+   "airplane"
   ]
  },
  "com.ianclawson.DeltaPacEdition": {
@@ -27319,6 +28768,25 @@
    "gaming"
   ]
  },
+ "com.ideas67.courtsix": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Court Six is a modified version of the volleyball game featuring custom tweaks powered by iGameGod. This modified version includes options to add premium gems for instant unlocks and upgrades, add unlimited gold currency to accelerate progression, and freeze artificial intelligence opponents to control the rally.",
+  "features": [
+   "Add Gems",
+   "Add Gold",
+   "AI Freeze"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "87b4c81ed8ee2d4f9147d9e241fee67d08a77da4fd4ee4193dff4c5cb2ab026b",
+  "subtitle": "Volleyball game tweaks and hacks",
+  "tags": [
+   "volleyball",
+   "sports",
+   "game",
+   "tweaks"
+  ]
+ },
  "com.ideation.Peak": {
   "category": "other",
   "date": "2026-11-03",
@@ -27395,22 +28863,21 @@
   ]
  },
  "com.idevtal.Wallpapers": {
-  "category": "utilities",
-  "date": "2026-11-10",
-  "description": "Unblink is an iOS application with subscription features unlocked. The modified version provides access to premium functionality without requiring an active subscription.",
+  "category": "other",
+  "date": "2026-11-11",
+  "description": "ImgAI is an application that comes with subscription unlocked features. Use the app to generate and work with AI images.",
   "features": [
    "Subscription Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "6109471830a8e3d420fcac83c306373ccc77bddb7996286992feba2a73aa8cc7",
-  "subtitle": "Subscription features unlocked",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0cb2ce545f952dba8c8a1487fa2ff4cf5c43e27c1977472038be244cf8de02c0",
+  "subtitle": "AI image generation with subscription unlocked",
   "tags": [
-   "unblink",
-   "subscription",
-   "unlocked",
-   "premium",
-   "ios",
-   "utility"
+   "ai",
+   "images",
+   "graphics",
+   "art",
+   "subscription"
   ]
  },
  "com.idle.dog.hotel.tycoon": {
@@ -32066,6 +33533,23 @@
    "ios app"
   ]
  },
+ "com.ipaomtk.zipmaster.zip.rar.extractor.158076": {
+  "category": "utilities",
+  "date": "2026-11-11",
+  "description": "ZipMaster is an iOS utility app that extracts ZIP and RAR archives. It is distributed as an IPA installation file.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "386f3afdbcfda8c659aa083078fab0bf15483d342d9b161c99b142ffb3a98eb6",
+  "subtitle": "ZIP and RAR archive extractor for iOS",
+  "tags": [
+   "zip",
+   "rar",
+   "extractor",
+   "utility",
+   "archive",
+   "ios"
+  ]
+ },
  "com.iphonecake.appcakej": {
   "category": "games",
   "date": "2026-10-15",
@@ -33330,21 +34814,21 @@
   ]
  },
  "com.joytunes.Draw": {
-  "category": "other",
-  "date": "2026-11-10",
-  "description": "SimplyDraw is a drawing application. This version has the subscription feature unlocked.",
+  "category": "lifestyle",
+  "date": "2026-11-11",
+  "description": "SimplyDraw is an application designed to help users learn how to draw. This version is updated to 1.7.2 and requires iOS 15.2 or later. It includes the subscription unlocked modifier.",
   "features": [
    "Subscription Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "616f463aff272f655792806d749893111dde9bd448e9b18dc29b27831aff8ff7",
-  "subtitle": "Drawing app with subscription unlocked",
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "c1d691b2350ac84376547ec7a659973835226d285049a7f1b41e2d10825f2ff1",
+  "subtitle": "Learn to draw with SimplyDraw",
   "tags": [
-   "drawing",
+   "draw",
+   "learn",
    "art",
    "sketch",
-   "unlocked",
-   "subscription"
+   "drawing"
   ]
  },
  "com.joytunes.SimplyGuitar": {
@@ -36249,6 +37733,23 @@
    "education"
   ]
  },
+ "com.linked.scan.app": {
+  "category": "utilities",
+  "date": "2026-11-11",
+  "description": "Yellow T version 2.4. This is a previously deleted application from the AppStore. Please note that this app works exclusively through TrollStore. Created by GLESign.",
+  "features": [
+   "TrollStore required"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "7b9a1ee8dcfebde69174b86c5fd479f7176f1cac89be8c4e693b88e48c75d362",
+  "subtitle": "The Yellow Bank is with you again",
+  "tags": [
+   "yellow t",
+   "trollstore",
+   "banking",
+   "utilities"
+  ]
+ },
  "com.liquidcat.space": {
   "category": "games",
   "date": "2026-11-06",
@@ -36874,23 +38375,24 @@
  },
  "com.lumisound.ios": {
   "category": "entertainment",
-  "date": "2026-11-10",
-  "description": "Lumisound is an entertainment app written in Rust. It provides iOS installation via AltStore or Sideloadly, supports self-hosting the bridge, and can be built from source. The app includes a full Help & Feature Guide accessible from Settings \u2192 Help with usage tips for each feature.",
+  "date": "2026-11-11",
+  "description": "Lumisound is a full-featured iOS music player with 10-band EQ, 8D spatial audio, crossfade, gapless playback, AB repeat, sleep timer, lyrics, personal cloud library, and SoundCloud and YouTube streaming.",
   "features": [
-   "In-app help guide",
-   "Self-hosting bridge",
-   "Build from source"
+   "10-band EQ",
+   "8D spatial audio",
+   "Cloud library",
+   "Sleep timer"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4ab0650dfb7a5258337eb9a60ea0cc535abed718e9e5aa5fe0b21d5398074d89",
-  "subtitle": "Rust-based audio app with self-hosting bridge",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b72af78b10772078406a5435fd21b93dd1e0c1a22f5421e6e7fd1e75eb8432c5",
+  "subtitle": "Full-featured iOS music player with EQ and streaming",
   "tags": [
-   "rust",
+   "music",
+   "player",
    "audio",
-   "sideload",
-   "self-host",
-   "open-source",
-   "help-guide"
+   "streaming",
+   "equalizer",
+   "songs"
   ]
  },
  "com.lunch.cellstosingularity": {
@@ -39197,6 +40699,23 @@
    "testing"
   ]
  },
+ "com.mobirate.DeadAheadTactics": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Dead Ahead Zombie Warfare immerses you in a captivating narrative filled with adrenaline-fueled, action-packed gameplay. Fight through zombie hordes and survive the apocalypse.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "41f05b2e128421380612c65f6b33a1d74285ab035a6b4fe4e275db89b1a0a2f7",
+  "subtitle": "Action-packed zombie warfare strategy game",
+  "tags": [
+   "zombie",
+   "warfare",
+   "action",
+   "strategy",
+   "survival",
+   "game"
+  ]
+ },
  "com.mobirate.deadaheadgo": {
   "category": "games",
   "date": "2026-11-06",
@@ -39355,6 +40874,22 @@
    "pro",
    "app",
    "free"
+  ]
+ },
+ "com.mobndev.xZoom-pro": {
+  "category": "utilities",
+  "date": "2026-11-11",
+  "description": "The tools used to capture life fleeting moments are just as meaningful as the moments themselves. Enter xZoom, an application designed to assist with capturing memories and images effectively.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "1fb0ee62ff3354be5a145bac7a883afbeb367e18684e3486c527cb34ef658ad5",
+  "subtitle": "Capture life moments with enhanced tool",
+  "tags": [
+   "camera",
+   "capture",
+   "moments",
+   "tools",
+   "photo"
   ]
  },
  "com.moderngames.aerthlings": {
@@ -41096,19 +42631,19 @@
  },
  "com.neogamelab.neostation": {
   "category": "games",
-  "date": "2026-10-31",
-  "description": "NeoStation iOS is an independently maintained iOS and iPadOS fork of NeoStation. It includes embedded Dolphin, ARMSX2, RPCS3, Dusklight, and KartPad runtimes alongside RetroArch for running various console and arcade games.",
+  "date": "2026-11-11",
+  "description": "RewindBox brings your game library and embedded emulators into a single iOS and iPadOS application. It supports Libretro, MeloNX for Nintendo Switch, Dolphin, ARMSX2, and RPCS3. Games run directly within RewindBox using its integrated menus and controls, so separate installations of RetroArch or MeloNX are not required.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "85fff1c5657971bad00cbfd15f52d72795cb91b0ffbd46c55b0c760adbda1809",
-  "subtitle": "Multi-emulator frontend with Dolphin, RPCS3, RetroArch",
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "4147fa0fd0f091599d0b8584921f3848ea8b379e4bb92c5f298c1dad22465eeb",
+  "subtitle": "Game library and embedded emulators for iOS and iPadOS",
   "tags": [
    "emulator",
-   "retro",
+   "games",
+   "libretro",
    "dolphin",
-   "rpcs3",
-   "retroarch",
-   "ios"
+   "playstation",
+   "switch"
   ]
  },
  "com.neonplay.casualgolfclubtycoon": {
@@ -41772,6 +43307,29 @@
    "ios"
   ]
  },
+ "com.nightcode.luci": {
+  "category": "utilities",
+  "date": "2026-11-11",
+  "description": "YALA (Yet Another LuCI App) is an open-source mobile client for managing OpenWrt routers. It connects directly to your router using LuCI JSON-RPC, ubus, and standard OpenWrt system services, allowing you to monitor real-time bandwidth, manage connected devices, run network diagnostics, configure wireless radios, manage AdGuard Home DNS sinkhole, monitor VPN tunnels including WireGuard, OpenVPN, and Tailscale, control Smart Queue Management (SQM/QoS), inspect storage, and update packages directly from your mobile device.",
+  "features": [
+   "Open-source",
+   "Real-time bandwidth monitoring",
+   "VPN tunnel monitoring",
+   "Network diagnostics",
+   "Adaptive split views"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "add8fa09b8b2a0fc3179eb3d6183eb7b76fcac26f82bd513077d393e7cf524a9",
+  "subtitle": "Open-source mobile client for OpenWrt routers",
+  "tags": [
+   "openwrt",
+   "router",
+   "luci",
+   "network",
+   "utilities",
+   "management"
+  ]
+ },
  "com.niko.PocketWidgetsApp": {
   "category": "utilities",
   "date": "2026-10-28",
@@ -41997,6 +43555,23 @@
    "ios",
    "game",
    "strategy"
+  ]
+ },
+ "com.nlabsoft.zombiecrusher.s": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Zombie Fortress Trap Defense is a tower defense experience that challenges players to strategize and protect.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "32eeb1936005d78c981b73da6565f96ffb8b4148c0fc9a0a311ae2a4bd6eb39b",
+  "subtitle": "Tower defense strategy game",
+  "tags": [
+   "zombie",
+   "fortress",
+   "tower",
+   "defense",
+   "strategy",
+   "trap"
   ]
  },
  "com.noahgilmore.transparent-icons": {
@@ -42407,23 +43982,20 @@
   ]
  },
  "com.nuvio.media": {
-  "category": "entertainment",
-  "date": "2026-11-10",
-  "description": "This unofficial fork is not affiliated with or supported by the Nuvio team. Report bugs to this repository rather than upstream unless they occur on an official build. This version adds Live TV, which is not present in upstream Nuvio. Performance improvements include faster startup on Android by loading saved data in the background during the splash screen, and instant home screen loading where the last home screen is saved per profile and displayed on launch while fresh rows load.",
-  "features": [
-   "Live TV",
-   "Faster startup",
-   "Instant home"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "71864905d2a6e4e30bab8a0d0ffa1a7e024ac36e6e57df5240c702877e063b8a",
-  "subtitle": "An unofficial fork of Nuvio with Live TV and speed",
+  "category": "other",
+  "date": "2026-11-11",
+  "description": "Nuvio Enhanced version 0.4.2 by scholars lounge. Bundle ID: com.nuvio.media. App by tapframe. This custom variant includes experimental features.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "968ffd49f486fcf1681f49909fd897eb4a66906cdbf455d998c574e14869d9b7",
+  "subtitle": "Custom variant with experimental features",
   "tags": [
    "nuvio",
-   "livetv",
-   "streaming",
+   "enhanced",
+   "custom",
+   "experimental",
    "media",
-   "fork"
+   "variant"
   ]
  },
  "com.nuvio.media.nuvio": {
@@ -42514,6 +44086,27 @@
    "balance",
    "fake",
    "simulator"
+  ]
+ },
+ "com.obxsoftware.deadmeridian": {
+  "category": "other",
+  "date": "2026-11-11",
+  "description": "Dead Meridian tweaked version featuring Never Die to survive every encounter without losing health, Damage Max to deal maximum damage with every shot, Infinite Ammo to never run out of ammunition, and Premium Unlocked to access all premium content and features. Utilizes iGameGod tweaks.",
+  "features": [
+   "Never Die",
+   "Damage Max",
+   "Infinite Ammo",
+   "Premium Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8221950a020f12cd7019e2b91b5c2474b76862a528bd5b6440f6ee3aae4b30f8",
+  "subtitle": "Tweaks for Dead Meridian with hacked features",
+  "tags": [
+   "dead meridian",
+   "tweaks",
+   "igamegod",
+   "mod",
+   "game"
   ]
  },
  "com.obzena.procreate": {
@@ -43525,21 +45118,20 @@
  },
  "com.overdesigned.Cheatsheet": {
   "category": "utilities",
-  "date": "2026-10-15",
-  "description": "Cheatsheet is a sticky note widget app. This patched version includes the subscription unlocked.",
+  "date": "2026-11-11",
+  "description": "Cheatsheet is a sticky notes widget application for your device. This version includes the subscription unlocked feature.",
   "features": [
-   "Subscription Unlocked",
-   "Sticky Note Widget"
+   "Sticky Notes Widget",
+   "Subscription Unlocked"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "5e611483eb8a728dc51858aff2cd1521180315cd70012e0b7e72ac7d596e53a8",
-  "subtitle": "Sticky Note Widget",
+  "src_hash": "77b5ff93b06af03e004e0954b9c808965c5f740d56c14dd30070a8027ca406a2",
+  "subtitle": "Sticky Notes Widget",
   "tags": [
    "cheatsheet",
+   "sticky notes",
    "widget",
-   "sticky",
-   "notes",
-   "utility"
+   "notes"
   ]
  },
  "com.overdesigned.Cheatsheet.watchkitapp": {
@@ -43685,6 +45277,23 @@
    "pro",
    "unlocked",
    "effects"
+  ]
+ },
+ "com.pallo.passionTimerScoped": {
+  "category": "other",
+  "date": "2026-11-11",
+  "description": "YPT application package with added Satella functionality. This IPA has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Satella added"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "1950f25e2de6aef51c51f992d73f459d7ba13d9d0d6ae3d59d05326fe70c72d3",
+  "subtitle": "IPA compiled and tested by TTJB Team",
+  "tags": [
+   "ypt",
+   "ttjb",
+   "satella",
+   "ipa"
   ]
  },
  "com.pandaapp.igpp": {
@@ -44916,6 +46525,24 @@
    "mob"
   ]
  },
+ "com.pixite.Zinnia": {
+  "category": "lifestyle",
+  "date": "2026-11-11",
+  "description": "Zinnia is a planner and journal application. This version includes Pro features unlocked for users.",
+  "features": [
+   "Pro Unlocked"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "8dd4b4eba66852591957c5663b675197c6c63638397b7588a7528a410d0f0489",
+  "subtitle": "Planner and Journal app with Pro features",
+  "tags": [
+   "planner",
+   "journal",
+   "pro",
+   "unlocked",
+   "zinnia"
+  ]
+ },
  "com.pixite.assembly": {
   "category": "utilities",
   "date": "2026-10-15",
@@ -45505,6 +47132,25 @@
    "game",
    "mod",
    "ipa"
+  ]
+ },
+ "com.playmotional.survival": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Zombastic is a survival game where you face waves of zombies. This modified version includes special hack features to assist your gameplay. You can activate God Mode to become invincible to all enemy damage and use Enemy Freeze to stop all zombies in their tracks.",
+  "features": [
+   "God Mode",
+   "Enemy Freeze"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "be1bd1b7903d5980dee309ddba596f640ff7ee6e58865baa6a4220d320674f72",
+  "subtitle": "Time to Survive",
+  "tags": [
+   "zombie",
+   "survival",
+   "action",
+   "game",
+   "hack"
   ]
  },
  "com.playrion.airportmanager": {
@@ -51161,6 +52807,21 @@
    "ios"
   ]
  },
+ "com.sngict.zblast": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "If you are looking for a fun, fast-paced, and slightly spooky puzzle experience, Zombie Blast Link Match for iOS is exactly what you need.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "4171e708fbfdd5ab1d5cf2fa6595e0f017bcd2736201cee136b3e899325b9f3b",
+  "subtitle": "Spooky fast-paced puzzle experience",
+  "tags": [
+   "puzzle",
+   "zombie",
+   "match",
+   "game"
+  ]
+ },
  "com.sniper3d.game": {
   "category": "games",
   "date": "2026-11-06",
@@ -51196,23 +52857,19 @@
   ]
  },
  "com.snoregym.app": {
-  "category": "other",
-  "date": "2026-11-06",
-  "description": "SnoreGym version 1.3.1 is an app designed to help reduce snoring. This release is a patched tweak with premium features unlocked. The original source lists it as a premium unlocked tweak from @riftysIPAlibrary.",
-  "features": [
-   "Premium Unlocked",
-   "Patched"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ec5343217e6bc91e5fe7446ac8990245c2d63c032100f4cf38e1b55450fc4d9d",
-  "subtitle": "Reduce snoring with guided exercises",
+  "category": "lifestyle",
+  "date": "2026-11-11",
+  "description": "SnoreGym Reduce Your Snoring is an iOS app designed to help reduce snoring, which affects both the snorer and their loved ones.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "2283aadeed2ed785da2a9a8532a42ecd4291dc91449c92545a69f493a48c8e0a",
+  "subtitle": "Reduce Your Snoring",
   "tags": [
    "snoring",
-   "sleep",
    "health",
-   "premium",
-   "unlocked",
-   "patched"
+   "sleep",
+   "reduce",
+   "wellness"
   ]
  },
  "com.snow.city.survivor": {
@@ -52662,6 +54319,45 @@
    "vitrine"
   ]
  },
+ "com.spotify.client.ios.taurus.0.60.5.not.patched.9.1.90": {
+  "category": "entertainment",
+  "date": "2026-11-11",
+  "description": "Taurus is a modded version of Spotify that includes the SpotifyAudioProbe and spotifyglass tweaks. It works with SideStore and grants free premium features along with a liquid glass user interface.",
+  "features": [
+   "Free Premium",
+   "Liquid Glass UI"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "575e0beb89d58d7c0f49a49e03c7d488fe87081b5acefa9855050e2708ca90fd",
+  "subtitle": "Modded version of Spotify with tweaks",
+  "tags": [
+   "spotify",
+   "music",
+   "tweak",
+   "audio",
+   "mod"
+  ]
+ },
+ "com.spotify.client.ios.taurus.0.60.5.patched.9.1.90": {
+  "category": "entertainment",
+  "date": "2026-11-11",
+  "description": "Taurus is a modded version of Spotify featuring SpotifyAudioProbe and spotifyglass tweaks. This open-sourced tweak grants Free Premium and Liquid Glass UI. Please note that this version does not work with Sidestore.",
+  "features": [
+   "Free Premium",
+   "Liquid Glass UI"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "bf568ba44fd7a89fa951d3292f1e03a8aa11d8f64ed27271d78831d8d012a38f",
+  "subtitle": "Modded Spotify with Free Premium and Liquid Glass UI",
+  "tags": [
+   "spotify",
+   "music",
+   "mod",
+   "audio",
+   "streaming",
+   "tweak"
+  ]
+ },
  "com.spotify.client.ios.taurus.0.60.6.9.1.90": {
   "category": "entertainment",
   "date": "2026-11-09",
@@ -52681,6 +54377,48 @@
    "audio",
    "mod",
    "tweak"
+  ]
+ },
+ "com.spotify.client.ios.taurus.0.60.6.not.patched.9.1.90": {
+  "category": "entertainment",
+  "date": "2026-11-11",
+  "description": "Taurus is an open-sourced tweak for Spotify that grants free premium and a liquid glass ui. Included tweaks are SpotifyAudioProbe and spotifyglass. This version works with SideStore.",
+  "features": [
+   "Free Premium",
+   "Liquid Glass UI",
+   "SpotifyAudioProbe",
+   "spotifyglass",
+   "SideStore Compatible"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "286bc043ff72dc125df3b935b5f4d26c589584205d69f480f9b2ff2dc9c7d42a",
+  "subtitle": "Modded version of Spotify with tweaks",
+  "tags": [
+   "spotify",
+   "music",
+   "audio",
+   "mod",
+   "tweak",
+   "streaming"
+  ]
+ },
+ "com.spotify.client.ios.taurus.0.60.6.patched.9.1.90": {
+  "category": "entertainment",
+  "date": "2026-11-11",
+  "description": "Taurus is a modded version of Spotify featuring SpotifyAudioProbe and spotifyglass tweaks. It grants Free Premium and Liquid Glass UI. This app does not work with SideStore. FastSign is operated by CertFish.",
+  "features": [
+   "Free Premium",
+   "Liquid Glass UI"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "dac88c1aa07763e0def911e81122221c1d69dd367c255463a7c05e6f87be16d4",
+  "subtitle": "Modded version of Spotify with tweaks",
+  "tags": [
+   "spotify",
+   "tweak",
+   "music",
+   "audio",
+   "premium"
   ]
  },
  "com.spotify.client.ios.vitrine.1.0.0.beta.16.not.patched.9.1.90": {
@@ -52942,6 +54680,22 @@
    "action",
    "game",
    "ios"
+  ]
+ },
+ "com.squareenixmontreal.lcgo": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Lara Croft GO is a turn-based puzzle adventure set in a ruined world of an ancient civilization. Explore the ruins of a long-kept secret, discover dangerous hazards, and face deadly enemies as you guide Lara Croft through her journey.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9566b3585d130666ebec1ce66d0cf4bd135f58f8d691573ebd417eb996551475",
+  "subtitle": "Turn-based adventure in the Tomb Raider universe",
+  "tags": [
+   "lara croft",
+   "adventure",
+   "puzzle",
+   "turn based",
+   "strategy"
   ]
  },
  "com.ss.iphone.ugc.Ame": {
@@ -53417,6 +55171,22 @@
   "tags": [
    "dramabox",
    "drama"
+  ]
+ },
+ "com.storytaco.p33client": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "ZerowakeGATES is an action-packed iOS game that delivers fast-paced combat and visually stunning graphics, appealing to players seeking an engaging gaming experience.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "0390dc08fe1dde5a1ea6e80bbaafefcee2e07571cbffd37a2eb7cad9aa69a6d3",
+  "subtitle": "Action-packed iOS game with fast-paced combat",
+  "tags": [
+   "action",
+   "combat",
+   "game",
+   "ios",
+   "gaming"
   ]
  },
  "com.storytaco.pc01mclient": {
@@ -54788,6 +56558,23 @@
    "modified",
    "app",
    "build"
+  ]
+ },
+ "com.tapped.zsurvivor": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Z Survivor is a backpack shooter set in a post-apocalyptic world swarming with zombies. Players navigate this dangerous environment while managing their inventory and engaging in combat against hordes of the undead.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "a74dc9ed0e5c309ac2fab8dd40003b69ee70eeb27dccbc2006aa25682eabe505",
+  "subtitle": "Post-apocalyptic backpack shooter game",
+  "tags": [
+   "zombie",
+   "shooter",
+   "action",
+   "survival",
+   "game",
+   "backpack"
   ]
  },
  "com.tareq.chromasmith": {
@@ -62825,6 +64612,26 @@
    "streaming"
   ]
  },
+ "com.unknown.yallaludo": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "\u0648\u06d5\u0634\u0627\u0646\u06ce\u06a9\u06cc \u062a\u0627\u06cc\u0628\u06d5\u062a. \u06a9\u0631\u0627\u0646\u06d5\u0648\u06d5\u06cc \u0695\u06c6\u06cc\u0627\u06b5. \u0641\u062a\u062d 80 \u0626\u0627\u0633\u062a. \u062e\u06ce\u0631\u0627\u06a9\u0631\u062f\u0646\u06cc \u06cc\u0627\u0631\u06cc\u06cc\u06d5\u06a9\u06d5 \u0628\u06d5 10,000 \u062c\u0627\u0631. \u0686\u06d5\u0646\u062f\u06cc\u0646 \u062a\u0627\u06cc\u0628\u06d5\u062a\u0645\u06d5\u0646\u062f\u06cc \u062a\u0631.",
+  "features": [
+   "\u0648\u06d5\u0634\u0627\u0646\u06ce\u06a9\u06cc \u062a\u0627\u06cc\u0628\u06d5\u062a",
+   "\u06a9\u0631\u0627\u0646\u06d5\u0648\u06d5\u06cc \u0695\u06c6\u06cc\u0627\u06b5",
+   "\u0641\u062a\u062d 80 \u0626\u0627\u0633\u062a",
+   "\u062e\u06ce\u0631\u0627\u06a9\u0631\u062f\u0646\u06cc \u06cc\u0627\u0631\u06cc\u06cc\u06d5\u06a9\u06d5"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "f09840e7dd9275f6fc59b1fde4a0c74e894ff1f08307df3a3e022dc248f6244c",
+  "subtitle": "\u0648\u06d5\u0634\u0627\u0646\u06ce\u06a9\u06cc \u062a\u0627\u06cc\u0628\u06d5\u062a \u0628\u06c6 \u06cc\u0627\u0631\u06cc \u0644\u06d5\u062f\u0627",
+  "tags": [
+   "ludo",
+   "yalla",
+   "game",
+   "play"
+  ]
+ },
  "com.unknown.youcamaipro": {
   "category": "other",
   "date": "2026-11-10",
@@ -62884,6 +64691,71 @@
    "playback",
    "plus",
    "video"
+  ]
+ },
+ "com.unknown.yuka": {
+  "category": "other",
+  "date": "2026-11-11",
+  "description": "Yuka is an app developed by Karbin-Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "593c110acfdaa784f227f896caac03224d5df6cc6bc232e4143841b660d007e9",
+  "subtitle": "Yuka by Karbin-Store",
+  "tags": [
+   "yuka",
+   "karbin-store",
+   "app"
+  ]
+ },
+ "com.unknown.zombieapocalypse": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Zombie Apocalypse.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "beddd1e441962db967becab06df633ab84cea65d1c41ca424fd259e509a215a0",
+  "subtitle": "Zombie Apocalypse action game",
+  "tags": [
+   "zombie",
+   "apocalypse",
+   "action",
+   "game"
+  ]
+ },
+ "com.unknown.zombiehighway": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "The goal is survival, but it is not working. How far can you go? You live among a huge number of zombies that jump with great force. Steer to avoid the obstacles.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "2777a39b8892aa687ed8f465d72f705789f08a091f04154224e986fd92818b31",
+  "subtitle": "Survive against hordes of jumping zombies",
+  "tags": [
+   "zombie",
+   "survival",
+   "action",
+   "driving",
+   "game"
+  ]
+ },
+ "com.unknown.zombiehillracing": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Zombies are roaming the country and there is no escape. The survivors are few and you are one of them. Drive vehicles through the apocalypse with unlimited money, infinite gems, and endless fuel to stay alive.",
+  "features": [
+   "Unlimited money",
+   "Infinite gems",
+   "Unlimited fuel"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "63aeeee2e00a7bc3d8bab3e7574e6e6f5dfddf0a7e6fd42de39f2111891f406b",
+  "subtitle": "Drive through zombie hordes to survive",
+  "tags": [
+   "zombie",
+   "racing",
+   "survival",
+   "driving",
+   "action"
   ]
  },
  "com.unofficial.balatro": {
@@ -64659,22 +66531,22 @@
   ]
  },
  "com.wikiloc.wikiloc": {
-  "category": "other",
-  "date": "2026-11-10",
-  "description": "Wikiloc is a modified version of the outdoor navigation app with subscription features unlocked. The original app provides GPS trails for hiking, cycling, and other outdoor activities with offline maps and route tracking.",
+  "category": "lifestyle",
+  "date": "2026-11-11",
+  "description": "Wikiloc lets you discover and share outdoor trails from around the world. Access navigation features and route maps for hiking, running, cycling, and various other outdoor activities. Plan your next adventure using community-generated paths and waypoints. This version is updated to 3.30.2 and requires iOS 16.4 or later.",
   "features": [
-   "Subscription Unlocked"
+   "Patched"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "d51dfe1acdb9802834673d9df9685f82cb7dc774465e5724dabe4cb77f2ab604",
-  "subtitle": "Outdoor trails and navigation with subscription unlocked",
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "2d00196f2f0b9faadaf6c8a015bfc02e86e3230beab2691739e4d6361ba9be51",
+  "subtitle": "Trails of the World",
   "tags": [
-   "wikiloc",
-   "outdoor",
-   "navigation",
    "trails",
    "hiking",
-   "gps"
+   "maps",
+   "navigation",
+   "outdoors",
+   "routes"
   ]
  },
  "com.wildlifestudios.merge.animal.sanctuary": {
@@ -65179,6 +67051,23 @@
    "xeela"
   ]
  },
+ "com.xenios.jp": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "XeniOS is an experimental Apple-focused fork of Xenia, currently based on Xenia Edge. It serves as a fast-moving place to develop, test, and ship iOS and macOS work while carrying platform changes that benefit ARM64 Windows, Linux, and Android. Relevant improvements are intended to flow back upstream over time. Current focus includes macOS on Apple Silicon and Intel. Current published releases focus on iOS and macOS, while Windows or Linux builds require Xenia Edge or Xenia Canary.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "1486a34cda71ff619eb2daf2e0305efe9ee4a33e44f209dbb619071f58f97287",
+  "subtitle": "Experimental Apple-focused fork of Xenia",
+  "tags": [
+   "xenia",
+   "emulator",
+   "experimental",
+   "macos",
+   "ios",
+   "arm64"
+  ]
+ },
  "com.xiao.Def1nit3lyN0tAJa1lbr3akTool": {
   "category": "other",
   "date": "2026-10-20",
@@ -65526,6 +67415,26 @@
    "interface",
    "stability",
    "performance"
+  ]
+ },
+ "com.yazio.ios.YAZIO": {
+  "category": "lifestyle",
+  "date": "2026-11-11",
+  "description": "AI Calorie Tracker by Yazio. Updated to version 26.31.0 for iOS 16.0 and later. Patched with subscription modifier.",
+  "features": [
+   "AI Calorie Tracker",
+   "Subscription Modified"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "939defdcf997dad7d4b5c44f1802df59cb26e0a1c4aa664a6060d089d43d9323",
+  "subtitle": "AI Calorie Tracker",
+  "tags": [
+   "yazio",
+   "calorie",
+   "tracker",
+   "ai",
+   "health",
+   "fitness"
   ]
  },
  "com.yeeet.food": {
@@ -65945,6 +67854,29 @@
    "offline"
   ]
  },
+ "com.zanzibarr.zanzibarr": {
+  "category": "entertainment",
+  "date": "2026-11-11",
+  "description": "Zanzibarr turns Usenet into your personal streaming library. Point it at any .nzb file and video playback begins in seconds. There is no download queue, no waiting for the full file, and no disk space sacrificed. You can scrub to the final scene of a 4K remux instantly. The Rust engine maps every seek position to the exact Usenet segments that hold it, fetches only those segments, decodes yEnc on the fly, and serves the result through a lazy, range-aware local stream. Pause the player and the network goes quiet. Close the app and nothing is left behind on your disk.",
+  "features": [
+   "Instant playback",
+   "No download queue",
+   "No disk space used",
+   "On the fly decoding",
+   "Rust engine"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "4f30476cb41ac248ad919b0444d2cc94f3e873ffb92a3f879058fcd173adc127",
+  "subtitle": "Stream Usenet files instantly without downloading",
+  "tags": [
+   "usenet",
+   "streaming",
+   "nzb",
+   "video",
+   "player",
+   "media"
+  ]
+ },
  "com.zarz.mornye": {
   "category": "entertainment",
   "date": "2026-11-06",
@@ -66117,18 +68049,17 @@
  },
  "com.zhiliaoapp.musically": {
   "category": "social",
-  "date": "2026-11-09",
-  "description": "Unofficial region modification supporting Canada, France, Germany, Great Britain, United States, and Kazakhstan. Open Settings and privacy, then access the mod settings to change your region. Restart the application after changing your region. Installation via AltStore is currently experimental. This application is an independent modification by TikTokModIos contributors and is not affiliated with TikTok.",
+  "date": "2026-11-11",
+  "description": "This is a custom processed IPA file of TikTok with a custom tweak file injected by iOSDecrypted.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "91b468773a83828770670c4c7f406557320fdf418bbfb907a75650baab5e5115",
-  "subtitle": "Unofficial region modification for TikTok",
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "ef1c67693bf2fe54c797ff1d035e5c780dfbc6d4d382021e7ce8efc03096a119",
+  "subtitle": "Custom tweak file injected IPA file",
   "tags": [
-   "tiktok",
-   "region",
-   "mod",
    "social",
-   "unofficial"
+   "video",
+   "ipa",
+   "tweak"
   ]
  },
  "com.zhiliaoapp.musically1": {
@@ -66275,6 +68206,23 @@
    "strategy",
    "game",
    "defender"
+  ]
+ },
+ "com.zombie.gun.shooter": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Zombie Hunt: Apocalypse Games IPA is an iOS game installation package that allows players to install the game on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "205df128a6c12e17f27cc663124f65f2eeb91045508882bf9c57c659a7b24663",
+  "subtitle": "Zombie Hunt: Apocalypse Games for iOS",
+  "tags": [
+   "zombie",
+   "hunt",
+   "apocalypse",
+   "game",
+   "ios",
+   "installation"
   ]
  },
  "com.zrc.BudgetingBuddy": {
@@ -68820,6 +70768,24 @@
    "tool"
   ]
  },
+ "cypwn.YouCamPerfect_5.76.1.5.76.1": {
+  "category": "other",
+  "date": "2026-11-11",
+  "description": "This is a modified version of YouCam Perfect that has been altered to unlock premium features without authorization from the original developer. The modification was performed by a third party. Use of cracked software may violate terms of service and pose security risks.",
+  "features": [
+   "Premium unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "899d6e21d2c1801cf39f491bbe1aa83c7c62e8a4ca557cd6672136b763c43c1c",
+  "subtitle": "Modified photo editor with unlocked premium features",
+  "tags": [
+   "photo editor",
+   "modified",
+   "unlocked",
+   "premium",
+   "cracked"
+  ]
+ },
  "cypwn.YouTuber_TS.3.6": {
   "category": "photo-video",
   "date": "2026-11-10",
@@ -68835,6 +70801,23 @@
    "ringtone",
    "video",
    "converter"
+  ]
+ },
+ "cypwn.Zebra_TS.1.1.28": {
+  "category": "utilities",
+  "date": "2026-11-11",
+  "description": "Zebra package manager for your device.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "0afcc1fa3098b5068b7a2c58ffdac56e1efa650a172ba2761d17472704c8f0be",
+  "subtitle": "Zebra package manager",
+  "tags": [
+   "zebra",
+   "package",
+   "manager",
+   "utilities",
+   "cydia",
+   "jailbreak"
   ]
  },
  "cypwn.cl1m4x.1.3": {
@@ -68917,6 +70900,29 @@
    "mac",
    "windows",
    "linux"
+  ]
+ },
+ "cz.kolbi.wqfiles": {
+  "category": "utilities",
+  "date": "2026-11-11",
+  "description": "WQ Files is a file browser, app data manager and cache cleaner built on the worse_query sandbox technique. It accesses other apps and system containers without a jailbreak or kernel exploit. Manage app data sizes, back up and restore app data, clear caches and temporary files, and view crash logs. Browse, read, import, rename, delete and share files and folders as ZIP archives. Edit plists with support for booleans, numbers, text, dates and hex data, with saves in binary or XML format. View and edit files with the built-in hex viewer and editor.",
+  "features": [
+   "No Jailbreak Required",
+   "App Data Manager",
+   "Cache Cleaner",
+   "Plist Editor",
+   "Hex Viewer and Editor"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "0047190e249454aa584f3398804eb56b47b139dd8b45079eccdd4e43eeef9a68",
+  "subtitle": "File browser and cache cleaner for iOS",
+  "tags": [
+   "files",
+   "manager",
+   "cleaner",
+   "cache",
+   "browser",
+   "utility"
   ]
  },
  "dance.fitness.app": {
@@ -69172,6 +71178,27 @@
    "learner",
    "language",
    "ios"
+  ]
+ },
+ "de.vito0912.yaabsa": {
+  "category": "entertainment",
+  "date": "2026-11-11",
+  "description": "Yaabsa is an unofficial cross-platform application designed for Audiobookshelf. It provides unique functionality not commonly found in other clients, making your listening and reading experience seamless. Enjoy built-in support for Android Automotive, allowing you to access your media on the go. The app also includes basic ebook and pdf support with syncable annotations, as well as subtitle support featuring karaoke-style text highlighting.",
+  "features": [
+   "Android Automotive support",
+   "eBook and PDF support",
+   "Syncable annotations",
+   "Karaoke-style subtitles"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "9fee6d3ede81785e159efd381c9b8beb6990a045b6145133ff0d20fa8ac370b3",
+  "subtitle": "An unofficial cross-platform client for Audiobookshelf",
+  "tags": [
+   "audiobooks",
+   "audiobookshelf",
+   "ebooks",
+   "podcasts",
+   "reader"
   ]
  },
  "de.wetteronline.WetterApppro": {
@@ -69716,20 +71743,22 @@
   ]
  },
  "dev.naveed-gung.monolith": {
-  "category": "entertainment",
-  "date": "2026-10-30",
-  "description": "Monolith is a personal music player for iOS and Android. It lets you bring your own music, maintain a local collection, and listen with the screen locked.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "38062f5cad7b91f6cd9427301f79d51be9fb167e4d223adf70b84afc01ffceb1",
-  "subtitle": "Personal music player with local library",
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Monolith is a personal music player for iOS. Bring your own music, keep a local collection, and listen with the screen locked. Playback follows the displayed song order, and completed activity fades after five seconds. This app features a distinct visual identity for local music management without automatic cross-device synchronization.",
+  "features": [
+   "Local collection",
+   "Screen locked playback"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9248339f4cf072fec0add16f18e19c9e5725afc4e43f7f64e990756f8326d652",
+  "subtitle": "A personal local music player for iOS",
   "tags": [
    "music",
    "player",
-   "personal",
+   "audio",
    "local",
-   "offline",
-   "background"
+   "songs"
   ]
  },
  "dev.nori.music": {
@@ -70856,6 +72885,23 @@
    "mod"
   ]
  },
+ "games.my.zombie.shooter.fps": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Zombie Harbor is a first-person shooter designed for iPhone use. Enjoy offline gameplay in this action experience.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "5e342f3225e7490ebdcc967fa9d76a5729d5ab69f3523c666718022fa7ae6242",
+  "subtitle": "First-person shooter for iPhone",
+  "tags": [
+   "zombie",
+   "fps",
+   "shooter",
+   "offline",
+   "action",
+   "game"
+  ]
+ },
  "games.omicron.neonflight": {
   "category": "games",
   "date": "2026-10-31",
@@ -71289,6 +73335,24 @@
    "business",
    "game",
    "ios"
+  ]
+ },
+ "happy.paint.color.coloring.number": {
+  "category": "lifestyle",
+  "date": "2026-11-11",
+  "description": "Zen Color is a color by number app. This version is patched to remove ads.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "6ec1c84d84ed0960eb8333e780216ca2892a2f8bed06906d85de2c35c5483320",
+  "subtitle": "Color by number with no ads",
+  "tags": [
+   "zen",
+   "color",
+   "number",
+   "art",
+   "puzzle"
   ]
  },
  "hd.clear.status.app.clearstatus": {
@@ -72439,24 +74503,24 @@
  },
  "io.github.scripta": {
   "category": "developer",
-  "date": "2026-11-10",
-  "description": "Scripta is an open-source, local-first note-taking application designed for thinkers, writers, and developers. Built to be lightweight, instant, and privacy-focused, Scripta gives you complete control over your notes with raw Markdown flexibility and a modern interface. Draft quick thoughts or organize complex projects while working offline. Features include a Markdown-first editor with intelligent toolbar helpers and a fluid rendered reading view, plus a local-first architecture powered by SQLite WAL for fast startup and instant search.",
+  "date": "2026-11-11",
+  "description": "Scripta is an open-source Markdown notebook built for immediate writing and local storage. Notes open instantly, work offline, and stay entirely on your device. There are no accounts, no feeds, and no telemetry. Optional synchronization is self-hosted and under your control. Write in clean Markdown on any screen, then switch to a typeset reading view to review and study. All data is stored locally in SQLite without requiring an account, analytics, advertising, or Google Play Services.",
   "features": [
-   "Markdown Editor",
-   "Local-First",
-   "Offline Access",
-   "Instant Search",
-   "Open Source"
+   "Open-source",
+   "Works offline",
+   "Local storage",
+   "No account required",
+   "No ads"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "984b5fd5e080456b1831f209d996da4d4beb08235859bd67576058b775916148",
-  "subtitle": "Minimal, fast, markdown-first note-taking app",
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "e01858885e21165ffe8e89abc9c2970f198049810d35b58dd2fccfe4065f8b13",
+  "subtitle": "An open-source Markdown notebook with local storage",
   "tags": [
    "markdown",
    "notes",
+   "notebook",
    "editor",
-   "local",
-   "privacy",
+   "offline",
    "open-source"
   ]
  },
@@ -72995,6 +75059,26 @@
    "network"
   ]
  },
+ "io.nekohasekai.swipt": {
+  "category": "utilities",
+  "date": "2026-11-11",
+  "description": "Automate operations on this iPhone or iPad using JavaScript swiplets. Upstream provides nightly pre-release builds with daily updates. The app is unsigned and requires manual signing for installation. Licensed under AGPL-3.0.",
+  "features": [
+   "JavaScript automation",
+   "Nightly builds",
+   "Open source"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "bbf9e8409787bcf4743e8159391472155ce49640933ce2d9cfd79e23acf7af95",
+  "subtitle": "Automate your device using JavaScript swiplets",
+  "tags": [
+   "automation",
+   "javascript",
+   "swiplet",
+   "utilities",
+   "open source"
+  ]
+ },
  "io.paraga.money-manager": {
   "category": "utilities",
   "date": "2026-10-30",
@@ -73459,6 +75543,25 @@
    "app"
   ]
  },
+ "jb.zini.tevi": {
+  "category": "entertainment",
+  "date": "2026-11-11",
+  "description": "ZiniTeviPlusPlus is a modified movie application designed to remove advertisements and tracking. It eliminates the need to manually toggle disable tracking options. This version provides a streamlined viewing experience without promotional interruptions or data collection features.",
+  "features": [
+   "No Ads",
+   "No Tracking"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "395a554080436abf995b6ebdf83f511cc868f737f263c988410101a3eeb0bcb3",
+  "subtitle": "Modded movie app with ads and tracking removed",
+  "tags": [
+   "movies",
+   "streaming",
+   "modded",
+   "entertainment",
+   "video"
+  ]
+ },
  "jet.fighter.games": {
   "category": "games",
   "date": "2026-10-28",
@@ -73766,6 +75869,22 @@
    "repo"
   ]
  },
+ "jp.co.psoft.Zen-Brush": {
+  "category": "other",
+  "date": "2026-11-11",
+  "description": "A drawing app in Japanese style, allowing you to create unique artistic works.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "1a15cd9c83fc48d16dc016a17169e0869e8d10fe067d022d926bbba31366606d",
+  "subtitle": "Japanese style drawing app",
+  "tags": [
+   "drawing",
+   "art",
+   "japanese",
+   "paint",
+   "sketch"
+  ]
+ },
  "jp.colopl.mask": {
   "category": "games",
   "date": "2026-11-08",
@@ -73865,6 +75984,22 @@
    "game",
    "community",
    "ipa"
+  ]
+ },
+ "jp.kamasu.oread": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Zombie Infinity is an immersive and thrilling mobile game designed for zombie fans and casual gamers.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "0c8052f0c35e1b42de668908fe7f3288d08136d3ccb795a1b5bb894be210e7b6",
+  "subtitle": "Immersive and thrilling mobile zombie game",
+  "tags": [
+   "zombie",
+   "infinity",
+   "game",
+   "mobile",
+   "action"
   ]
  },
  "jp.konami.masterduel": {
@@ -74768,6 +76903,25 @@
    "jellyfin",
    "plex",
    "anilist"
+  ]
+ },
+ "me.danielgauthier.Jazzed": {
+  "category": "other",
+  "date": "2026-11-11",
+  "description": "Up Ahead brings countdown widgets to your iOS device. Keep track of important dates and events directly from your home screen. This version includes subscription unlocked features.",
+  "features": [
+   "Subscription Unlocked",
+   "Countdown Widgets"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "aa7bac06de0fe27c4d15f63ff3d654a048ec132a1cece1b0e61f5e3879d381d9",
+  "subtitle": "Countdown widgets for your iOS device",
+  "tags": [
+   "countdown",
+   "widgets",
+   "events",
+   "dates",
+   "tracker"
   ]
  },
  "me.eladga.finddiamonds": {
@@ -77626,18 +79780,17 @@
  },
  "org.moviepilot.app": {
   "category": "utilities",
-  "date": "2026-11-10",
-  "description": "iOS client for MoviePilot. Features native system navigation, search, and shortcut panels. Business pages, pop-ups, and plugin interfaces reuse MoviePilot-Frontend. Supports iOS 26+ Liquid Glass, swipe-to-go-back, card long-press menus, and foreground-background state restoration.",
+  "date": "2026-11-11",
+  "description": "MoviePilot is an iOS client featuring system native navigation, search, and shortcut panels. Business pages, popups, and plugin interfaces reuse MoviePilot-Frontend. It supports iOS 26+ Liquid Glass, edge swipe to go back, card long-press menus, and foreground and background state restoration.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "ac511017dbed57c425d845f22380ce99b013fecac98cd8dab9064a2e0e3d8b17",
+  "src_hash": "4eafadb9fe76702f9e981c8a93946f907b817d4fc9308a8891fb5c424ea2b2c2",
   "subtitle": "iOS client for MoviePilot",
   "tags": [
    "moviepilot",
    "client",
-   "streaming",
    "media",
-   "management"
+   "utilities"
   ]
  },
  "org.omarchy.flux.ios": {
@@ -79017,21 +81170,20 @@
   ]
  },
  "sato.tokyo.pixel-me": {
-  "category": "other",
-  "date": "2026-11-04",
-  "description": "PixelMe is an app that comes with premium features unlocked.",
-  "features": [
-   "Premium Unlocked"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "5209948ae3905a7d70261956e1f529e810b10f0428ddf3d373a5ea3774c09799",
-  "subtitle": "PixelMe \u2013 Premium Unlocked",
+  "category": "photo-video",
+  "date": "2026-11-11",
+  "description": "PixelMe is an AI pixel art camera app. Requires iOS 15.0 or later.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "4457736d7c1ec4cc5b4a7e9fc038d05fb221575502d6c2eddc303df4ab4f1044",
+  "subtitle": "AI Pixel Art Camera",
   "tags": [
    "pixelme",
-   "premium",
-   "unlocked",
-   "app",
-   "utility"
+   "pixel",
+   "art",
+   "camera",
+   "ai",
+   "photo"
   ]
  },
  "sb.lao.Wayfurther": {
@@ -79399,6 +81551,26 @@
    "maritime",
    "vessel",
    "captain"
+  ]
+ },
+ "sk.inlogic.hillzombieracingearntodie": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Zombie Hill Racing: Earn Climb is a driving game where you race through zombie hordes. This version includes unlimited fuel, unlimited gems, and the premium pass unlocked.",
+  "features": [
+   "Unlimited Fuel",
+   "Unlimited Gems",
+   "Premium Pass Unlocked"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "54e1c90a2fd8b85e7669909ce66071488173cbec7110e085ef1b1c2f45265981",
+  "subtitle": "Drive and climb in this zombie racing game",
+  "tags": [
+   "racing",
+   "zombie",
+   "climb",
+   "cars",
+   "action"
   ]
  },
  "sk.phx.terrarium": {
@@ -80053,6 +82225,24 @@
    "free"
   ]
  },
+ "trophy.hunter.hunting.games.sniper.shooting": {
+  "category": "games",
+  "date": "2026-11-11",
+  "description": "Trophy Hunter is a sniper game featuring an animal vitals ESP hack that stays always on, allowing you to see target weak points at all times. This version includes iGameGod tweaks.",
+  "features": [
+   "Animal Vitals ESP"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "e0a5124b277cb997a6e65dee7c4f12002d085c982eaa1878921a251528153f66",
+  "subtitle": "Sniper game with animal vitals ESP",
+  "tags": [
+   "trophy",
+   "hunter",
+   "sniper",
+   "game",
+   "esp"
+  ]
+ },
  "tv.onside.app": {
   "category": "entertainment",
   "date": "2026-11-01",
@@ -80365,21 +82555,21 @@
   ]
  },
  "uni.cbum": {
-  "category": "other",
-  "date": "2026-11-10",
-  "description": "This is an injected version of Stndrd with subscription features unlocked.",
+  "category": "lifestyle",
+  "date": "2026-11-11",
+  "description": "Access workout and fitness plans created by @blatants. This version requires iOS 15.6 or later. Includes the subscription unlocked modifier.",
   "features": [
    "Subscription Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ba7d278ee110649a822f4da401fa5149680c3af2805f9978438607172df23fec",
-  "subtitle": "Subscription unlocked version",
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "8dacd4543b9059851a59d564b7452ab3ab6bbc7c82d21b2f78030f6f336c60d1",
+  "subtitle": "Workout and fitness plans",
   "tags": [
-   "stndrd",
-   "subscription",
-   "unlocked",
-   "injected",
-   "modified"
+   "fitness",
+   "workout",
+   "training",
+   "health",
+   "plans"
   ]
  },
  "universeye.co.TuneTally": {
@@ -80788,6 +82978,22 @@
    "education",
    "language",
    "study"
+  ]
+ },
+ "vn.com.vng.zingalo2": {
+  "category": "utilities",
+  "date": "2026-11-11",
+  "description": "Zalo parallel app version that runs alongside the original app. This IPA file has been tested and compiled by the TTJB Team.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "3c589aa5ace4573e75d15ce472934e93b1eb0c403ab8c815b73e8800d93f698a",
+  "subtitle": "Parallel version of Zalo",
+  "tags": [
+   "zalo",
+   "parallel",
+   "clone",
+   "messenger",
+   "chat"
   ]
  },
  "vn.iosvn.muguet": {
@@ -81392,6 +83598,24 @@
    "injected",
    "ipa",
    "modded"
+  ]
+ },
+ "yuca.scanner": {
+  "category": "utilities",
+  "date": "2026-11-11",
+  "description": "Scan food and cosmetic products to check their health impact. Premium features are unlocked in this version. Requires minimum operating system version 15.5.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "dc67db632b61af0d81ba1504d8bd451cdcf69b96d53941ec97d8b9fbd7a3b367",
+  "subtitle": "Food and cosmetic scanner",
+  "tags": [
+   "scanner",
+   "food",
+   "cosmetics",
+   "health",
+   "checker"
   ]
  },
  "zachsim.one.Petty": {
