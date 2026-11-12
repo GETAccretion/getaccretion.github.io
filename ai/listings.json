@@ -1843,19 +1843,19 @@
  },
  "app.naviamp.ios": {
   "category": "entertainment",
-  "date": "2026-11-11",
-  "description": "Naviamp is an independent third-party music player client that connects to your self-hosted music server. Your music stays on the server you choose, while Naviamp provides the player interface. Naviamp is not affiliated with or endorsed by the Navidrome project.",
+  "date": "2026-11-12",
+  "description": "Naviamp is an independent third-party client for Navidrome music servers. It connects to your self-hosted Navidrome instance to stream your music library. The app is not affiliated with or endorsed by the Navidrome project. Beta builds for iOS are distributed via TestFlight. Also available on macOS, Windows, and Linux.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash",
-  "src_hash": "3045d55b2872654b987f18fe578c560f5c78dd513a35afe7bcfc0e10f7531de1",
-  "subtitle": "Independent music player client for Navidrome",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "250905c34cca92cb01a4bd70e03390acad2c7e3ba5cc8141637eb2ac69e65b89",
+  "subtitle": "Third-party Navidrome music client",
   "tags": [
-   "naviamp",
-   "music",
-   "player",
    "navidrome",
-   "audio",
-   "client"
+   "music",
+   "streaming",
+   "self-hosted",
+   "client",
+   "beta"
   ]
  },
  "app.netfish.ios": {
@@ -9252,18 +9252,18 @@
  },
  "com.aminewallah.colon3": {
   "category": "entertainment",
-  "date": "2026-11-01",
-  "description": "A native Soulseek client and music player for iOS. Search the Soulseek network, download straight to the phone, and play from a local library. No server or desktop client in between. Library features include albums and loose songs in a 2-column grid, A-Z side scrubber, Songs, Artists and Playlists views, favourites, multi-select, and import from Files or other apps. Playlists support your own with reorder, rename, and m3u8 import or export, plus Favorite Songs and Most Played. The player includes an Apple Music-style full screen with synced lyrics from lrc files or LRCLIB, queue editing, shuffle and repeat, playback speed, AirPlay, and a mini player.",
+  "date": "2026-11-12",
+  "description": "Colon3 is a native Soulseek client and music player for iPhone and iPad. Search the Soulseek network, download straight to the device, and play from a local library without any server or desktop client in between. Manage your library with albums and loose songs in a grid, an A-Z side scrubber, and views for songs, artists, and playlists. Features include favorites, multi-select, merging split albums without touching files, and importing from Files or other apps. Organize your playlists with reordering, renaming, m3u8 import and export, plus Favorite Songs and Most Played views.",
   "features": [
-   "Native Soulseek client",
+   "Native client",
    "Direct downloads",
-   "Synced lyrics",
+   "Local music player",
    "Playlist management",
-   "AirPlay support"
+   "File import"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "9e96e1b7089cef10aec4cb5953e21db768dba8cb1ce8055c36acaad83f775455",
-  "subtitle": "Native Soulseek client and music player for iOS",
+  "src_hash": "1f0010090caca622d0d21f6bcf9c9b269fbe60e4af7a2eaa1d4ec802055391ed",
+  "subtitle": "Native Soulseek client and music player",
   "tags": [
    "soulseek",
    "music",
@@ -22005,40 +22005,38 @@
  },
  "com.fouadraheb.watusi": {
   "category": "social",
-  "date": "2026-11-10",
-  "description": "Watusi is a modification for WhatsApp Messenger that enables a duplicated installation. The app uses a separate bundle identifier (com.fouadraheb.watusi) so it can run side by side with the official WhatsApp client on the same device. Developed by Fouad Raheb.",
-  "features": [
-   "Dual Install",
-   "Separate Bundle ID",
-   "WhatsApp Tweak"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "979aa023eaae5c9cc9208f9c568040ff911405e37afa48decd9f34010f80d192",
-  "subtitle": "WhatsApp tweak with dual-install support",
+  "date": "2026-11-12",
+  "description": "Watusi is an all-in-one tweak for WhatsApp Messenger. This is a duplicated application that can be installed alongside the original WhatsApp app.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "bea7c70841a38b469d72d48af8b4aec5bee6b4d733d4264f1cde057e13a2e8aa",
+  "subtitle": "All-in-one tweak for WhatsApp Messenger",
   "tags": [
+   "watusi",
    "whatsapp",
    "tweak",
-   "duplicate",
-   "messaging",
-   "mod",
-   "ios"
+   "messenger",
+   "duplicate"
   ]
  },
  "com.fouadraheb.watusiSMB": {
   "category": "social",
-  "date": "2026-11-10",
-  "description": "This is a duplicated app that can be installed alongside the original WhatsApp Business. Bundle ID: com.fouadraheb.watusiSMB. Watusi is an all-in-one tweak for WhatsApp Messenger.",
-  "features": [],
+  "date": "2026-11-12",
+  "description": "Watusi (Business Duplicate) is a standalone copy of WhatsApp Business that installs with a different bundle identifier (com.fouadraheb.watusiSMB). This lets you run two separate WhatsApp Business accounts on the same device without conflicts. The app is a modified version of WhatsApp Messenger built by Fouad Raheb.",
+  "features": [
+   "Dual Account",
+   "Separate Bundle ID"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "a0bfe3823b497c2e38bd6a7e6e66d8adb2f259108defe89adb3b09e760bc412b",
-  "subtitle": "Duplicate WhatsApp Business with tweaks",
+  "src_hash": "e5f453afda2e7639fad99cf9924850483dcc6a89bf83568e652eaf04043758b6",
+  "subtitle": "Run a second WhatsApp Business alongside the original",
   "tags": [
    "whatsapp",
    "business",
-   "duplicate",
-   "tweak",
-   "messenger",
-   "watusi"
+   "dual",
+   "clone",
+   "messaging",
+   "tweak"
   ]
  },
  "com.foundry63.tailor": {
@@ -28439,24 +28437,24 @@
   ]
  },
  "com.huami.gestultx": {
-  "category": "photo-video",
-  "date": "2026-11-10",
-  "description": "GestaltX is a MobileGestalt editor for iOS 27.x. It features region-code and sales-region tweaks, device presets, backups, and a typed field editor. Powered by worse_query. Requires iOS 27 for on-device MobileGestalt access and a common App Group when re-signing.",
+  "category": "utilities",
+  "date": "2026-11-12",
+  "description": "GestaltX is a MobileGestalt editor developed by huami. It allows users to adjust region codes, modify device presets, and manage configuration backups. The application supports 7 languages and is licensed under GPL-3.0. Requires iOS 26.0 or later.",
   "features": [
-   "Backups",
-   "Device Presets",
-   "Typed Field Editor"
+   "Open Source",
+   "7 Languages",
+   "Backup Configurations"
   ],
   "model": "gemini:gemini-3.5-flash",
-  "src_hash": "da155fddcbb19b69655918ad4719f9d02c9d459f1cfc16ca4793fb0160287df6",
-  "subtitle": "MobileGestalt editor for iOS 27.x",
+  "src_hash": "142d227eb0819d694e5ab586c52cbcdf7f991cb402714aed704ea8dc8a168b3f",
+  "subtitle": "MobileGestalt configuration editor",
   "tags": [
    "mobilegestalt",
    "editor",
-   "ios",
-   "tweaks",
-   "backups",
-   "gestaltx"
+   "configuration",
+   "backup",
+   "gestaltx",
+   "utilities"
   ]
  },
  "com.huamu013.ZhihuMinusMinus": {
@@ -30237,6 +30235,28 @@
    "games",
    "futuristic",
    "action"
+  ]
+ },
+ "com.ios151.insav": {
+  "category": "entertainment",
+  "date": "2026-11-12",
+  "description": "INSAV \u662f\u4e00\u6b3e\u57fa\u4e8e SwiftUI \u5f00\u53d1\u7684\u539f\u751f iOS \u5ba2\u6237\u7aef\uff0c\u9700\u8981 iOS 16 \u53ca\u4ee5\u4e0a\u7248\u672c\u3002\u5e94\u7528\u9002\u914d\u56db\u4e2a\u7ad9\u70b9\uff0c\u652f\u6301\u5185\u5bb9\u6d4f\u89c8\u4e0e\u641c\u7d22\u3002\u63d0\u4f9b\u539f\u751f\u53ca\u5916\u90e8\u64ad\u653e\u5668\u9009\u9879\uff0c\u652f\u6301\u6574\u90e8\u4e0b\u8f7d\u4ee5\u4f9b\u79bb\u7ebf\u89c2\u770b\u3002\u7cfb\u7edf\u652f\u6301\u7528\u6237\u767b\u5f55\u3001\u6536\u85cf\u4e0e\u8ba2\u9605\uff0c\u5e76\u5141\u8bb8\u6302\u8f7d\u5916\u90e8\u5b57\u5e55\u5e93\u3002",
+  "features": [
+   "\u79bb\u7ebf\u89c2\u770b",
+   "\u5916\u90e8\u64ad\u653e\u5668",
+   "\u6302\u8f7d\u5b57\u5e55",
+   "\u6536\u85cf\u8ba2\u9605"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "054dd81eca895d4fbe8ad5506089de5bf02552ff6a07dfa640ee914f5d51b212",
+  "subtitle": "\u7b2c\u4e09\u65b9\u539f\u751f iOS \u5ba2\u6237\u7aef",
+  "tags": [
+   "insav",
+   "swiftui",
+   "\u64ad\u653e\u5668",
+   "\u5b57\u5e55",
+   "\u79bb\u7ebf\u4e0b\u8f7d",
+   "\u7b2c\u4e09\u65b9\u5ba2\u6237\u7aef"
   ]
  },
  "com.ipaomtk.4k.wallpapers.widgets.plaw.152558": {
@@ -49276,21 +49296,22 @@
   ]
  },
  "com.readdle.CalendarsLite": {
-  "category": "utilities",
-  "date": "2026-10-24",
-  "description": "Calendars is a schedule planner app designed for iOS. Manage your schedule and events with this productivity tool.",
+  "category": "other",
+  "date": "2026-11-12",
+  "description": "Calendars is a calendar application. The subscription is unlocked.",
   "features": [
-   "Schedule Planner"
+   "Subscription Unlocked"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "383744bbb58558a94b1b6f50f63f4c308e1c3df95eed25cad91ef1e6d668422e",
-  "subtitle": "Schedule Planner",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "85a9d3a3c0b738bb89fa068cef4e184f7295829338c960aa43d9189ffa17472d",
+  "subtitle": "Calendar app with unlocked subscription",
   "tags": [
    "calendar",
+   "subscription",
+   "unlocked",
+   "productivity",
    "schedule",
-   "planner",
-   "events",
-   "productivity"
+   "planner"
   ]
  },
  "com.readdle.PDFExpert5": {
@@ -50019,24 +50040,20 @@
   ]
  },
  "com.reddit.Reddit": {
-  "category": "social",
-  "date": "2026-11-07",
-  "description": "RedditDeluxe is a Reddit client by scholars lounge. Version 2026.30.0 includes RedditFilter (MoeReddit) and redditColorComments for colored comment threads. Access the menu by holding three fingers on the screen.",
-  "features": [
-   "Three-finger menu gesture",
-   "RedditFilter (MoeReddit)",
-   "Colored comments"
-  ],
+  "category": "lifestyle",
+  "date": "2026-11-12",
+  "description": "Reddit++ is a Reddit client developed by Moe. Features are currently in development and marked as coming soon.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "2e9cfb5a9c9319af6e40c3bb42db7893cb07ccb970119c4cd8ad5495ed4c60bd",
-  "subtitle": "Reddit client with gesture menu and colored comments",
+  "src_hash": "4bebccb5ea0d59108f0478f8eb4182eb7e30db400e2977826ec5f74d936f33da",
+  "subtitle": "Reddit client by Moe",
   "tags": [
    "reddit",
    "client",
    "social",
-   "filter",
-   "comments",
-   "gesture"
+   "forum",
+   "community",
+   "third-party"
   ]
  },
  "com.redfalcon.basketballgoat.ios": {
@@ -52008,18 +52025,18 @@
  },
  "com.scottgames.fivenights3": {
   "category": "games",
-  "date": "2026-10-24",
-  "description": "Five Nights at Freddy's 3 is a point-and-click survival horror video game. It is the third installment in the series and takes place in a horror-themed attraction based on the restaurant chain featured in the first two games.",
+  "date": "2026-11-12",
+  "description": "Five Nights at Freddy's 3 is a point-and-click survival horror video game developed by Scott Cawthon. As the third installment in the Five Nights at Freddy's series, the game takes place in a horror-themed attraction based on the restaurant chain featured in the first two games.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "3436aa228b5c23115e40d3a8ac35bd6d8ebc9a95f9212c09ee97e9ae6e7593b3",
-  "subtitle": "Survival horror video game",
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "81bc6ee17d5dbb759b4404fbbab95edd79fd826fe1c898b89237e2f66100be61",
+  "subtitle": "Point-and-click survival horror game",
   "tags": [
+   "fnaf",
+   "fnaf3",
    "horror",
    "survival",
-   "arcade",
-   "strategy",
-   "action"
+   "game"
   ]
  },
  "com.scottgames.fnaf2": {
@@ -52040,20 +52057,20 @@
   ]
  },
  "com.scottgames.fnaf4": {
-  "category": "games",
-  "date": "2026-10-24",
-  "description": "Five Nights at Freddy's 4 is a point-and-click survival horror video game. As a child, you must defend yourself against Freddy Fazbear, Chica, Bonnie, Foxy, and other terrors that lurk in the shadows until 6 AM. Use a flashlight to ward off creatures at the doors, listen for breathing, and check the closet and bed to survive the night in this fourth installment of the series.",
+  "category": "other",
+  "date": "2026-11-12",
+  "description": "Five Nights at Freddy's 4 is a 2015 point-and-click survival horror video game developed and published by Scott Cawthon. It is the fourth installment in the Five Nights at Freddy's series.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "efc11b94257bd0e81496388f4baaf02ea847561d017e60ecf24f5219d108a478",
-  "subtitle": "The final chapter of the survival horror series",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2f5fdfe2b6a3b017f22957de702736de1deef046bbda714be94b26ffeb4f7b70",
+  "subtitle": "Fourth FNaF installment, point-and-click horror",
   "tags": [
+   "fnaf",
    "horror",
    "survival",
    "point-and-click",
-   "strategy",
-   "indie",
-   "scary"
+   "scott cawthon",
+   "sequel"
   ]
  },
  "com.scottgames.sisterlocation": {
@@ -55486,20 +55503,20 @@
   ]
  },
  "com.steelwoolstudios.fnafhw": {
-  "category": "games",
-  "date": "2026-10-24",
-  "description": "Five Nights at Freddy's: Help Wanted is a survival horror video game. It is the seventh main installment in the Five Nights at Freddy's series and the ninth game overall. The title presents itself as The Freddy Fazbear Virtual Experience.",
+  "category": "other",
+  "date": "2026-11-12",
+  "description": "Five Nights at Freddy's: Help Wanted is a 2019 virtual reality survival horror game developed by Steel Wool Studios and published by ScottGames. It is the seventh main entry in the series and presents itself as the Freddy Fazbear Virtual Experience.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "9481196982255134974c5b73dd8893649eb4017fa6af4b7a9c8ccf14dc17f8e7",
-  "subtitle": "Virtual reality survival horror experience",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "07dd5b03ddcc628182add9488a417e4b3580ae12837072d59c54acfea5c37f23",
+  "subtitle": "VR survival horror experience",
   "tags": [
+   "vr",
    "horror",
    "survival",
-   "vr",
-   "game",
+   "five nights",
    "freddy",
-   "action"
+   "help wanted"
   ]
  },
  "com.steer.tomjerryblast": {
@@ -68630,20 +68647,19 @@
   ]
  },
  "com.zerone.hidesktop": {
-  "category": "utilities",
-  "date": "2026-11-02",
-  "description": "HiWidget is an application that comes with the subscription unlocked feature.",
+  "category": "other",
+  "date": "2026-11-12",
+  "description": "iScreen is an app with subscription features unlocked.",
   "features": [
    "Subscription Unlocked"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d71e033c4126c9c3cfe0ee0f5c5102fdeb376f45328c8b6ad5e47d808f8edf16",
-  "subtitle": "Subscription Unlocked widget app",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "17d697e2580108851517eb5966c7580f07849fc0a57beba82eac70f35c43a978",
+  "subtitle": "Subscription unlocked screen tool",
   "tags": [
-   "widget",
+   "screen",
    "subscription",
-   "unlocked",
-   "tools"
+   "unlocked"
   ]
  },
  "com.zeus.EasyCopy": {
@@ -75110,18 +75126,22 @@
  },
  "io.github.normalllll.freepiv": {
   "category": "entertainment",
-  "date": "2026-10-25",
-  "description": "freepiv is an open-source, cross-platform Pixiv browser that also supports FANBOX and pixivision. Browse illustrations, manga, animated artwork, and read novels and articles. Follow creators, search works and users with filters, and revisit recent searches. Manage your library by following creators, bookmarking works, and browsing your account collections. Discover pixivision articles by category, tag, or keyword, explore popular content, and open featured works and creators directly within the application.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d19ea85f6b73deb255a3c8dfd9e32b70fd47e15b4f5777f8c3f8b6d849db49e6",
-  "subtitle": "An open-source, cross-platform Pixiv browser",
+  "date": "2026-11-12",
+  "description": "freepiv is an open-source Pixiv browser supporting FANBOX and pixivision. Browse illustrations, manga, animated artwork, and novels, or read articles on pixivision. Search for works and users, filter results, view rankings, and explore recommendations. Manage your library by following creators publicly or privately, bookmarking works with tags, tracking series updates, and keeping a local browsing history. The app supports multiple Pixiv accounts, profile editing, blocking tags or users, and downloading artwork.",
+  "features": [
+   "Open Source",
+   "Multi-Account Support",
+   "Artwork Downloads"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "59922d1a19a7c7f900d2ed35043cf142a1e4a50aa1542ffdb59b681e970fae75",
+  "subtitle": "Open-source Pixiv, FANBOX, and pixivision browser",
   "tags": [
    "pixiv",
    "manga",
-   "illustrations",
    "novels",
    "fanbox",
+   "pixivision",
    "browser"
   ]
  },
@@ -79327,38 +79347,39 @@
  "net.whatsapp.WhatsApp": {
   "category": "social",
   "date": "2026-11-12",
-  "description": "Watusi is an all-in-one tweak for WhatsApp Messenger. It uses the original WhatsApp bundle ID, so the original WhatsApp app must be removed before installing Watusi.",
-  "features": [],
+  "description": "Modified version of WhatsApp with premium features injected.",
+  "features": [
+   "Premium Unlocked"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "8f27aeb172d8e0f6becbef50f6af100bceafaefb711b9812eaf8c8c442968144",
-  "subtitle": "All-in-one WhatsApp tweak",
+  "src_hash": "1125b63f2c35702b7482a7fbbc3e30d8a73ba948c9e9bf0be8271e65df238576",
+  "subtitle": "WhatsApp with premium features injected",
   "tags": [
    "whatsapp",
-   "tweak",
-   "mod",
    "messaging",
-   "customization",
-   "utility"
+   "premium",
+   "mod",
+   "social",
+   "chat"
   ]
  },
  "net.whatsapp.WhatsAppSMB": {
   "category": "social",
   "date": "2026-11-12",
-  "description": "This version uses the original WhatsApp Business bundle ID. Watusi is an all-in-one tweak for WhatsApp Messenger.",
+  "description": "WABusiness is a messaging app designed for business communication. This version includes premium features.",
   "features": [
-   "All-in-one tweak",
-   "Original bundle ID"
+   "Premium Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "47a82443d0c398bb7f73d3656ee744110a497d5e0b2c738a54df48910fafb72e",
-  "subtitle": "WhatsApp Business tweak with original bundle ID",
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "e2f85bb0ce8327c6a331f5057f69a7a9b037bf4323a478823e8a458a72927292",
+  "subtitle": "Business messaging with premium features",
   "tags": [
-   "whatsapp",
+   "wabusiness",
    "business",
-   "tweak",
-   "messenger",
-   "bundle-id",
-   "watusi"
+   "messaging",
+   "social",
+   "chat",
+   "premium"
   ]
  },
  "net.wooga.junes-journey-hidden-object-mystery-game": {
@@ -79775,19 +79796,20 @@
   ]
  },
  "om.devjash-Capp-App": {
-  "category": "utilities",
-  "date": "2026-10-15",
-  "description": "A fake cash app designed for prank purposes.",
+  "category": "other",
+  "date": "2026-11-12",
+  "description": "Fake cash app prank.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "59a26dbbdbfe2982fc56c4920baf77a1cbdf3a61571f214cfd3ade7078db28d9",
-  "subtitle": "Fake cash app prank tool",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ac3f3c5457da406e2641d5d2b0949266cc6f785a6845b2abdf679c6b27765b89",
+  "subtitle": "Prank cash app for fun",
   "tags": [
    "prank",
    "fake",
    "cash",
    "app",
-   "utilities"
+   "fun",
+   "joke"
   ]
  },
  "one4studio.wallpaper.one4wall": {
@@ -80553,25 +80575,23 @@
  },
  "org.moonfin.app": {
   "category": "entertainment",
-  "date": "2026-11-01",
-  "description": "Moonfin is a cross-platform media client built with Flutter for Jellyfin, Emby, Plex and Silo servers. It delivers a modern and customizable experience across phones, tablets, desktop operating systems, TV platforms and web browsers. Connect to your servers to browse libraries, search content, manage favorites and view watched states, ratings and collections. Enjoy playback features including intro and credit skipping, trickplay, household PIN profiles, and offline downloads with progress sync. Silo connections support built-in requests and watch parties, while the Moonbase plugin enables settings sync, admin defaults, server messages, custom themes, and ratings from MDBList and TMDB.",
+  "date": "2026-11-12",
+  "description": "Moonfin is a media client for Jellyfin, Emby, Plex, and Silo servers built with Flutter. It provides a customizable experience across phones, tablets, desktop computers, smart TVs, and web browsers.\n\nFeatures include password or code sign-in, home screen navigation, library browsing, search, favorites, watched state tracking, ratings, and collections. It supports media playback with trickplay, skip intro and credits options, household profiles protected by PINs, and offline downloads with progress synchronization.",
   "features": [
-   "Cross-platform support",
-   "Playback controls",
-   "Offline downloads",
-   "Household profiles",
-   "Custom themes"
+   "Offline Downloads",
+   "Skip Intro and Credits",
+   "Household Profiles"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4891a676b29acab435ed02987c8a4ddb249006896b041067a3fa09cb5807bb99",
-  "subtitle": "Modern media client for Jellyfin, Emby, Plex and Silo",
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "0ff29e0b7f113724686af88cd17a5ed1cfc2e8f43e9b7eb77fef8a51bc91c86c",
+  "subtitle": "Media client for Jellyfin, Emby, Plex, and Silo servers",
   "tags": [
-   "media",
-   "streaming",
-   "client",
-   "flutter",
-   "entertainment",
-   "server"
+   "moonfin",
+   "jellyfin",
+   "emby",
+   "plex",
+   "silo",
+   "media"
   ]
  },
  "org.moviepilot.app": {
