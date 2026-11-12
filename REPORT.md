@@ -1,18 +1,18 @@
 # Source report
 
-Built 2026-11-11 19:51 UTC.
+Built 2026-11-12 07:37 UTC.
 
 | | |
 |---|---|
-| Apps in `source.json` | **4624** (5529 KB) |
-| Apps in `curated.json` | **736** (761 KB) |
-| Listings read | 34917 |
-| Apps listed by more than one source (newest kept) | 1809 |
-| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6958 |
+| Apps in `source.json` | **4616** (5513 KB) |
+| Apps in `curated.json` | **738** (763 KB) |
+| Listings read | 34914 |
+| Apps listed by more than one source (newest kept) | 1804 |
+| Listings skipped (http-only, no icon, no date, bad bundle ID) | 6979 |
 | Listings excluded (Patreon-only or AltStore PAL, cannot install here) | 58 |
-| Dead download links held back (retested every build) | 10338 |
+| Dead download links held back (retested every build) | 10372 |
 | Links on hold (whole host failing, kept for now) | 0 |
-| Sources | 188: 183 ok, 5 from cache, 0 failed |
+| Sources | 188: 184 ok, 4 from cache, 0 failed |
 
 ## Sources
 
@@ -20,29 +20,29 @@ Built 2026-11-11 19:51 UTC.
 
 | Source | Status | Listed | Used | Skipped | Latest release | List |
 |---|---|---:|---:|---:|---|---|
-| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3788 | 3515 | 4642 | 2026-11-11 | discovered |
-| [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1614 | 533 | 347 | 2026-11-11 | discovered |
-| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 440 | 331 | 6 | 2026-11-11 | discovered |
-| [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 113 | 13 | 2025-01-01 | curated |
-| [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 23 | 18 | 0 | 2026-11-11 | discovered |
+| [fastsign (organized)](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/fastsign.json) | ok | 3778 | 3500 | 4652 | 2026-11-11 | discovered |
+| [dsewerek's general apps](https://raw.githubusercontent.com/dsewerek/dsewerek-s-source/main/general.json) | ok | 1608 | 541 | 353 | 2026-11-12 | discovered |
+| [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json) | ok | 441 | 331 | 5 | 2026-11-12 | discovered |
+| [MySign IPA's](https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json) | cached | 239 | 118 | 13 | 2025-01-01 | curated |
+| [Laincat 工具箱](https://raw.githubusercontent.com/laincat/AltStore/main/apps.json) | ok | 25 | 20 | 0 | 2026-11-11 | discovered |
 | [Quark Source++](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource%2B%2B.json) | ok | 22 | 9 | 0 | 2021-11-18 | discovered |
-| [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9991 | 8 | 172 | 2026-11-11 | discovered |
-| [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 61 | 8 | 0 | 2026-11-11 | discovered |
+| [AltGallery](https://raw.githubusercontent.com/bebound/AltGallery/master/all-apps.json) | ok | 62 | 8 | 0 | 2026-11-12 | discovered |
 | [iDevPatcher](https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json) | ok | 20 | 7 | 1 | 2025-12-12 | discovered |
-| [CyPwn IPA Library](https://repos.gabrx.eu.org/cypwn.json) | ok | 200 | 4 | 7 | 2026-04-17 | curated |
+| [CyPwn IPA Library](https://repos.gabrx.eu.org/cypwn.json) | ok | 203 | 4 | 6 | 2026-07-23 | curated |
 | [RipeStore](https://bit.ly/RipeStore) | ok | 9 | 4 | 0 | 2025-12-17 | discovered |
 | [AltStore Complete](https://bit.ly/Altstore-complete) | ok | 8 | 4 | 0 | 2025-05-12 | discovered |
-| [Fouad's Source](https://source.fouadraheb.com) | ok | 7 | 4 | 0 | 2026-11-11 | curated |
 | [Quantum Source](https://bit.ly/Quantumsource) | ok | 35 | 3 | 3 | 2025-12-30 | discovered |
-| [Provenance Emulator](https://provenance-emu.com/apps.json) | ok | 4 | 3 | 0 | 2026-11-11 | discovered |
+| [Provenance Emulator](https://provenance-emu.com/apps.json) | ok | 4 | 3 | 0 | 2026-11-12 | discovered |
 | [afterhours](https://raw.githubusercontent.com/azamoviich/afterhours/main/apps.json) | ok | 3 | 3 | 0 | 2026-11-03 | discovered |
+| [AppTesters IPA Repo](https://repo.apptesters.org) | ok | 9998 | 2 | 172 | 2026-11-12 | discovered |
+| [WuXu's Library++](https://wuxu1.github.io/wuxu-complete-plus.json) | ok | 33 | 2 | 2 | 2026-11-11 | curated |
 | [Quantum Source++](https://quarksources.github.io/dist/quantumsource%2B%2B.min.json) | ok | 31 | 2 | 4 | 2025-05-20 | curated |
 | [FrizzleM's AltSource](https://raw.githubusercontent.com/FrizzleM/SideInstaller/main/frizzlem.json) | ok | 2 | 2 | 0 | 2026-11-09 | discovered |
 | [iAnyFeature's Source](https://raw.githubusercontent.com/Leo7247/iAnyFeature/main/source.json) | ok | 2 | 2 | 0 | 2026-10-18 | discovered |
 | [my github apps](https://raw.githubusercontent.com/yeeet7/altstore_source/main/source.json) | ok | 2 | 2 | 0 | 2025-07-14 | discovered |
+| [AppTesters IPA Repo](https://raw.githubusercontent.com/RipeStore/repos/main/apptesters.json) | ok | 9996 | 1 | 172 | 2026-11-12 | discovered |
 | [CyPwn IPA Library](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/CyPwn%20iPA%20Library/source.json) | ok | 193 | 1 | 6 | 2025-09-01 | discovered |
 | [OwO Source](https://repo.owo.network/) | ok | 170 | 1 | 0 | 2026-11-10 | curated |
-| [WuXu's Library++](https://wuxu1.github.io/wuxu-complete-plus.json) | ok | 33 | 1 | 2 | 2026-11-10 | curated |
 | [Expo Go SDKs](https://raw.githubusercontent.com/Vaibhavsh0120/Expo-Go-Builds/main/apps.json) | ok | 7 | 1 | 0 | 2026-11-01 | discovered |
 | [NexSideloading App Source](https://raw.githubusercontent.com/NexSideloading/app-source/main/repo.json) | ok | 6 | 1 | 1 | 2026-10-31 | discovered |
 | [Quark Source Testing](https://raw.githubusercontent.com/quarksources/quarksources.github.io/main/quarksource-testing.json) | ok | 4 | 1 | 1 | 2021-08-03 | discovered |
@@ -58,7 +58,7 @@ Built 2026-11-11 19:51 UTC.
 | [EPIC's source](https://raw.githubusercontent.com/Epyke/plezy-sidestore-source/master/apps.json) | ok | 1 | 1 | 0 | 2026-11-09 | discovered |
 | [FriesI23's Source](https://raw.githubusercontent.com/FriesI23/altstore-repo/master/_site/repo/source.json) | ok | 1 | 1 | 0 | 2026-11-02 | discovered |
 | [Accretion App](https://raw.githubusercontent.com/GETAccretion/accretion-app/main/app-repo.json) | ok | 1 | 1 | 0 | 2026-11-03 | curated |
-| [Lumisound](https://raw.githubusercontent.com/HollowHeavenXR/Lumisound/main/ios/altstore-source.json) | cached | 1 | 1 | 0 | 2026-11-08 | discovered |
+| [Lumisound](https://raw.githubusercontent.com/HollowHeavenXR/Lumisound/main/ios/altstore-source.json) | ok | 1 | 1 | 0 | 2026-11-12 | discovered |
 | [Jabberwocky's Apps](https://raw.githubusercontent.com/Jabberwocky7777/Pokedex-Tracker/main/apps.json) | ok | 1 | 1 | 0 | 2026-11-08 | discovered |
 | [Nightshift](https://raw.githubusercontent.com/Jannehy/nightshift-ios/main/altstore.json) | ok | 1 | 1 | 0 | 2026-10-02 | discovered |
 | [TwitchPlusK](https://raw.githubusercontent.com/Knoks1111/TwitchPlusK/main/update.json) | ok | 1 | 1 | 0 | 2026-11-08 | discovered |
@@ -89,15 +89,14 @@ Built 2026-11-11 19:51 UTC.
 | [TLocation Source](https://raw.githubusercontent.com/truongkma/t-location/main/source.json) | ok | 1 | 1 | 0 | 2026-08-18 | discovered |
 | [MindSpace](https://raw.githubusercontent.com/vkr1729/MindSpace-iOS/main/apps.json) | ok | 1 | 1 | 0 | 2026-08-31 | discovered |
 | [FileManager](https://raw.githubusercontent.com/xsxs18-dev/FileManager/main/altstore-source.json) | ok | 1 | 1 | 0 | 2026-10-28 | discovered |
-| [AppTesters IPA Repo](https://repo.apptesters.org) | ok | 9991 | 0 | 172 | 2026-11-11 | discovered |
 | [AppTesters IPA Repo](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/source.json) | ok | 4599 | 0 | 228 | 2025-09-05 | discovered |
 | [Neoncat-OG IPA Library](https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/apps_esign.json) | ok | 1988 | 0 | 0 | 2026-04-11 | curated |
 | [swaggyP36000 IPA Library](https://raw.githubusercontent.com/swaggyP36000/TrollStore-IPAs/main/apps_esign.json) | ok | 623 | 0 | 0 | 2023-12-27 | curated |
-| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 203 | 0 | 6 | 2026-07-23 | discovered |
+| [CyPwn IPA Library](https://ipa.cypwn.xyz/cypwn.json) | ok | 204 | 0 | 6 | 2026-08-28 | discovered |
 | [Altmaker by RipeStore](https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json) | cached | 152 | 0 | 4 | 2026-10-14 | discovered |
-| [Omni-Development IPA Repo](https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json) | ok | 90 | 0 | 26 | 2024-11-17 | discovered |
+| [Omni-Development IPA Repo](https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json) | ok | 83 | 0 | 33 | 2024-11-17 | discovered |
 | [Sidelix App Store](https://repos.gabrx.eu.org/nabzclan.json) | ok | 36 | 0 | 1276 | 2026-09-30 | curated |
-| [WuXu's Library](https://bit.ly/wuxuslibrary) | ok | 33 | 0 | 2 | 2026-11-10 | discovered |
+| [WuXu's Library](https://bit.ly/wuxuslibrary) | ok | 33 | 0 | 2 | 2026-11-11 | discovered |
 | [Quantum Source++](https://bit.ly/Quantumsource-plus) | ok | 31 | 0 | 4 | 2025-05-20 | discovered |
 | [SideStore Team Picks](https://community-apps.sidestore.io/sidecommunity.json) | ok | 23 | 0 | 0 | 2025-02-28 | curated |
 | [SideStore Team Picks](https://raw.githubusercontent.com/RipeStore/repos/main/sidestore-community.json) | ok | 23 | 0 | 0 | 2025-02-28 | discovered |
@@ -107,6 +106,7 @@ Built 2026-11-11 19:51 UTC.
 | [Panda App Ru++](https://raw.githubusercontent.com/vizunchik/AltStoreRus/master/apps.json) | ok | 9 | 0 | 9 | 2020-04-19 | curated |
 | [RandomSource](https://randomblock1.com/altstore/apps.json) | ok | 8 | 0 | 0 | 2022-03-06 | discovered |
 | [Burrito's AltStore](https://burritosoftware.github.io/altstore/channels/burritosource.json) | ok | 7 | 0 | 0 | 2020-02-19 | discovered |
+| [Fouad's Source](https://source.fouadraheb.com) | ok | 7 | 0 | 0 | 2026-11-11 | curated |
 | [Fouad's Source](https://altstore.fouadraheb.com) | ok | 6 | 0 | 0 | 2026-11-11 | curated |
 | [Sideloading Hub](https://raw.githubusercontent.com/SimoGHcoder/iosrepo/main/apps.json) | ok | 5 | 0 | 0 | 2026-11-11 | discovered |
 | [azu0609's alt repo](https://raw.githubusercontent.com/azu0609/repo/main/altstore_repo.json) | ok | 5 | 0 | 2 | 2025-01-08 | discovered |
@@ -167,7 +167,7 @@ Built 2026-11-11 19:51 UTC.
 | [lo.cafe Repository](https://raw.githubusercontent.com/lo-cafe/winston-altstore/main/apps.json) | ok | 1 | 0 | 0 | 2024-06-24 | curated |
 | [iSH](https://raw.githubusercontent.com/luh-99/SideStoreAndAltStore-Sources/main/iSH%20AltStore%20Repo/source.json) | ok | 1 | 0 | 0 | 2025-08-30 | discovered |
 | [LiveContainer](https://raw.githubusercontent.com/nquangdungg/LiveContainer-Extended/main/.github/apps.json) | ok | 1 | 0 | 0 | 2025-08-19 | discovered |
-| [TumoCompanion](https://raw.githubusercontent.com/squazaryu/TumoCompanion/main/apps.json) | ok | 1 | 0 | 0 | 2026-11-06 | discovered |
+| [TumoCompanion](https://raw.githubusercontent.com/squazaryu/TumoCompanion/main/apps.json) | ok | 1 | 0 | 0 | 2026-11-12 | discovered |
 | [TikTokModIos](https://raw.githubusercontent.com/trikesh32/TikTokModIos/main/altstore/source.json) | ok | 1 | 0 | 0 | 2026-11-08 | discovered |
 | [轻松签源](https://repos.gabrx.eu.org/esign.json) | ok | 1 | 0 | 0 | 2024-01-28 | curated |
 | [Taurine](https://taurine.app/altstore/taurinestore.json) | ok | 1 | 0 | 0 | 2023-08-23 | discovered |
@@ -212,7 +212,6 @@ Built 2026-11-11 19:51 UTC.
 ## Problems
 
 - `https://raw.githubusercontent.com/Gliddd4/gliddd4-repo/refs/heads/main/app.json`: cached (HTTPError: HTTP Error 404: Not Found)
-- `https://raw.githubusercontent.com/HollowHeavenXR/Lumisound/main/ios/altstore-source.json`: cached (HTTPError: HTTP Error 404: Not Found)
 - `https://raw.githubusercontent.com/RipeStore/repos/main/AltMaker.json`: cached (HTTPError: HTTP Error 404: Not Found)
 - `https://raw.githubusercontent.com/WSF-Team/WSF/main/repo/app-repo.json`: cached (HTTPError: HTTP Error 404: Not Found)
 - `https://raw.githubusercontent.com/codeboy2012/PwEevee/main/website/pweevee/apps.json`: cached (HTTPError: HTTP Error 404: Not Found)
@@ -221,28 +220,28 @@ Built 2026-11-11 19:51 UTC.
 
 | App | Version | Date | From |
 |---|---|---|---|
-| Ito | 1.4.1 | 2026-11-11 | raw.githubusercontent.com |
-| Floe Agent | 1.8.9 | 2026-11-11 | raw.githubusercontent.com |
-| Paper Comic | 1.4.5 | 2026-11-11 | raw.githubusercontent.com |
-| Manatan | 6.3.15 | 2026-11-11 | raw.githubusercontent.com |
-| Watusi | 26.44.72 | 2026-11-11 | source.fouadraheb.com |
-| Watusi Business | 26.44.72 | 2026-11-11 | source.fouadraheb.com |
-| Watusi · Duplicate | 26.44.72 | 2026-11-11 | source.fouadraheb.com |
-| Watusi Business · Duplicate | 26.44.72 | 2026-11-11 | source.fouadraheb.com |
-| RustRadar | 0.3.15 | 2026-11-11 | raw.githubusercontent.com |
-| Oni | 3.6.3 | 2026-11-11 | raw.githubusercontent.com |
-| Monolith | 1.5.2 | 2026-11-11 | raw.githubusercontent.com |
-| tangoAW2 | 0.9.12 | 2026-11-11 | raw.githubusercontent.com |
-| ICO | 0.11.4 | 2026-11-11 | raw.githubusercontent.com |
-| Bird Chaser | 1.187.2 | 2026-11-11 | raw.githubusercontent.com |
-| SunPad | 0.3.1 | 2026-11-11 | raw.githubusercontent.com |
-| Yet Another LuCI App | 2.8.10 | 2026-11-11 | raw.githubusercontent.com |
-| Duet | 1.0.1 | 2026-11-11 | raw.githubusercontent.com |
-| Robrix | 1.0.0 | 2026-11-11 | raw.githubusercontent.com |
-| Hand Mouse | 1.1.0 | 2026-11-11 | raw.githubusercontent.com |
-| Hand Tracker | 1.1.0 | 2026-11-11 | raw.githubusercontent.com |
-| Duolingo | 7.148.1 | 2026-11-11 | raw.githubusercontent.com |
-| VlogNow | 2.24.1 | 2026-11-11 | raw.githubusercontent.com |
-| Picsart | 30.9.6 | 2026-11-11 | raw.githubusercontent.com |
-| Facebook | 587.0.0 | 2026-11-11 | raw.githubusercontent.com |
-| TikTok | 47.7.0 | 2026-11-11 | raw.githubusercontent.com |
+| Lumisound | 2.0.0.31 | 2026-11-12 | raw.githubusercontent.com |
+| Comical (dev) | 0.9.0.17 | 2026-11-12 | raw.githubusercontent.com |
+| Ito | 1.5.0 | 2026-11-12 | raw.githubusercontent.com |
+| DSH Tether | 0.1.30 | 2026-11-12 | raw.githubusercontent.com |
+| ReadAware | 0.6.10 | 2026-11-12 | raw.githubusercontent.com |
+| gen1recomp | 0.8.58 | 2026-11-12 | raw.githubusercontent.com |
+| Floe Agent | 1.8.11 | 2026-11-12 | raw.githubusercontent.com |
+| RustRadar | 0.3.16 | 2026-11-12 | raw.githubusercontent.com |
+| TumoCompanion | 1.11.36 | 2026-11-12 | raw.githubusercontent.com |
+| Bird Chaser | 1.189.1 | 2026-11-12 | raw.githubusercontent.com |
+| nori | 0.8.3 | 2026-11-12 | raw.githubusercontent.com |
+| Hand Mouse | 1.1.0 | 2026-11-12 | raw.githubusercontent.com |
+| Hand Tracker | 1.1.0 | 2026-11-12 | raw.githubusercontent.com |
+| Nuvio | 0.6.12 | 2026-11-12 | raw.githubusercontent.com |
+| iScreen | 5.1.30 | 2026-11-12 | repo.apptesters.org |
+| Provenance Alpha | 3.4.0 | 2026-11-12 | provenance-emu.com |
+| iCube | 1.0.0-beta9-ios | 2026-11-12 | provenance-emu.com |
+| FreeYourMusic | 11.2.0 | 2026-11-12 | raw.githubusercontent.com |
+| HappyScale | 2026.9 | 2026-11-12 | raw.githubusercontent.com |
+| Calendars | 5.41.3 | 2026-11-12 | raw.githubusercontent.com |
+| Dropshare | 3.68 | 2026-11-12 | raw.githubusercontent.com |
+| Slopes | 2026.18 | 2026-11-12 | repo.apptesters.org |
+| Kazumi-Swift | 3.0.5 | 2026-11-12 | raw.githubusercontent.com |
+| freepiv | 0.3.0 | 2026-11-11 | raw.githubusercontent.com |
+| EspressU | 1.5 | 2026-11-11 | raw.githubusercontent.com |
