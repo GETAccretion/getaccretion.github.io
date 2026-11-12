@@ -30259,6 +30259,27 @@
    "\u7b2c\u4e09\u65b9\u5ba2\u6237\u7aef"
   ]
  },
+ "com.ios151.one": {
+  "category": "entertainment",
+  "date": "2026-11-12",
+  "description": "ONE is a third-party native iOS client built with SwiftUI for iOS 16 and above. It supports articles, movies, reading, radio, photo shoots, and comics. Features include system native player and external player support, downloading content to the Files app, bookmarking, and search functionality. This app requires iOS 16 or later.",
+  "features": [
+   "Native Player",
+   "Downloads",
+   "Bookmarks",
+   "Search"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ce6f9f38048e2893ed10feccc887f3e7befc2cd83fdf97a8442ebd5c2347a356",
+  "subtitle": "Third-party native client for ONE",
+  "tags": [
+   "client",
+   "reading",
+   "media",
+   "comics",
+   "native"
+  ]
+ },
  "com.ipaomtk.4k.wallpapers.widgets.plaw.152558": {
   "category": "other",
   "date": "2026-10-14",
@@ -38194,6 +38215,28 @@
    "trollstore",
    "banking",
    "utilities"
+  ]
+ },
+ "com.linkpass.kazumi": {
+  "category": "utilities",
+  "date": "2026-11-12",
+  "description": "Kazumi-Swift is an anime collection and online viewing client based on custom rules, featuring danmu support. Built with native SwiftUI, the interface uses iOS liquid glass material that adapts to system appearance and accessibility settings. It includes a built-in mpv playback core with Anime4K real-time super resolution, support for DanDanPlay danmu, Bangumi tracking binding, schedule, download capabilities, and WebDAV backup.",
+  "features": [
+   "Custom rules",
+   "Danmu support",
+   "Anime4K super resolution",
+   "Bangumi tracking",
+   "WebDAV backup"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f24bb41b0837ddc241387fb009a8b9a107ded9f20b54b699f4fea00e61a856b8",
+  "subtitle": "Anime client with custom rules and danmu",
+  "tags": [
+   "anime",
+   "video",
+   "player",
+   "danmu",
+   "streaming"
   ]
  },
  "com.liquidcat.space": {
@@ -48274,25 +48317,25 @@
  },
  "com.porksphere.comical": {
   "category": "entertainment",
-  "date": "2026-11-10",
-  "description": "Comical is a comic and manga reader with support for paged and long-strip reading modes. Organize your reading with a library, collections, and groups. Stay updated with a new-chapter feed and push notifications. Track your reading progress with AniList and MyAnimeList integration. Sync your data seamlessly between your phones and computer. Browse series through configurable registries and bridges, and run the frontend and backend as Docker containers if needed.",
+  "date": "2026-11-12",
+  "description": "Comical is a reader and tracker for comics and manga. It features both paged and long-strip reading modes, alongside library organization through collections and groups. Stay up to date with a new-chapter feed and push notifications. Track your reading progress with AniList and MyAnimeList integration. Sync your data seamlessly between phones and computers, or run the frontend and backend as Docker containers.",
   "features": [
    "Paged and long-strip readers",
    "Library and collections",
-   "New-chapter feed with notifica",
+   "New-chapter feed and notificat",
    "AniList and MyAnimeList tracki",
-   "Cross-device sync"
+   "Device synchronization"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "bd934e61aa6a786a78741ab22e9851a788bea82bdee61094dae42e6ca211d36d",
-  "subtitle": "Read and track your comics and manga",
+  "src_hash": "a0691ed7fef0d1c63d19623dbc167982c93c78ff518134d3553e65849cae76d0",
+  "subtitle": "Read and track your favorite manga and comics",
   "tags": [
-   "comics",
-   "manga",
    "reader",
+   "manga",
+   "comics",
    "tracker",
-   "sync",
-   "library"
+   "library",
+   "sync"
   ]
  },
  "com.powen.ModMyIPA": {
