@@ -1713,19 +1713,23 @@
  },
  "app.local.iPadn": {
   "category": "utilities",
-  "date": "2026-11-12",
-  "description": "Search, download, and install the apps you own on iPhone and iPad, including older versions and removed apps. Provides regional price comparison and native installation. Compatible with iPhone, iPad, Apple TV, and Mac apps. Available in 11 languages.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "7bbb215eccf1cef5f68e94b9be73b1236c26e5d466848215f9d030a445ade51f",
-  "subtitle": "Search, download, install owned iOS apps",
+  "date": "2026-11-13",
+  "description": "Search, download and install owned apps for iPhone, iPad, Apple TV and Mac. Access older app versions, find removed apps, compare regional prices and use native installation. Supports 11 languages.",
+  "features": [
+   "Native Install",
+   "Price Comparison",
+   "Older Versions"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "4c4465093329a9aeca84278eebab45ba4e5f71fc7d575574d398b45dde7758b5",
+  "subtitle": "Search, download and install your owned apps",
   "tags": [
-   "search",
+   "apps",
    "download",
    "install",
-   "ios",
-   "apps",
-   "languages"
+   "iphone",
+   "ipad",
+   "utilities"
   ]
  },
  "app.local.swipewipe-cleanup": {
@@ -6103,6 +6107,29 @@
    "restaurant"
   ]
  },
+ "com.NeverGames.Gridpunk": {
+  "category": "games",
+  "date": "2026-11-13",
+  "description": "Gridpunk is a PvP arena game. This version includes options for damage and defense multipliers to adjust hero stats, reward and currency multipliers, currency increase upon spending, unlocked monthly card subscription benefits, and an ad-free experience. Certain currency multipliers may not apply to all in-game currencies.",
+  "features": [
+   "Damage Multiplier",
+   "Defense Multiplier",
+   "Reward Multiplier",
+   "Monthly Card Unlocked",
+   "No Ads"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "660abbb1f3d8608271926d4a9047605a522b21cbe1c42adeca0b866625bcac1d",
+  "subtitle": "PvP arena action game with gameplay tweaks",
+  "tags": [
+   "gridpunk",
+   "pvp",
+   "arena",
+   "action",
+   "game",
+   "multiplayer"
+  ]
+ },
  "com.Neznayaka.R.E.P.O": {
   "category": "games",
   "date": "2026-11-04",
@@ -8211,20 +8238,21 @@
  "com.agent.super.extension.safari": {
   "category": "other",
   "date": "2026-11-13",
-  "description": "This modified version of superagent has the subscription unlocked. No official developer information is available.",
+  "description": "Super Agent is a Safari extension for iOS 17 and later. Version 4.6.0. Bundle ID com.agent.super.extension.safari. The extension is patched and uses a subscription model.",
   "features": [
-   "Subscription Unlocked"
+   "Patched",
+   "Subscription"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "5eed9f760a7bb231f6d10439094bdca9733a9759dba59b767e1a1f898f958655",
-  "subtitle": "Subscription unlocked version",
+  "src_hash": "bb72d478071712cf0d2ade1e01e5547b664b48c1f0f277d6cc40e63650d5db43",
+  "subtitle": "Safari extension for iOS 17+",
   "tags": [
-   "superagent",
+   "safari",
+   "extension",
+   "ios",
+   "patched",
    "subscription",
-   "unlocked",
-   "modified",
-   "injected",
-   "app"
+   "utility"
   ]
  },
  "com.agiletortoise.Drafts5": {
@@ -9159,20 +9187,20 @@
   ]
  },
  "com.altman.moviepilot": {
-  "category": "utilities",
-  "date": "2026-11-07",
-  "description": "MoviePilotLite is a Flutter cross-platform client for MoviePilot, connecting to the MoviePilot v2 API. Manage subscriptions, search, downloads, file organization, and system maintenance directly from your mobile device.",
+  "category": "other",
+  "date": "2026-11-13",
+  "description": "A cross\u2011platform Flutter client that connects to the MoviePilot v2 API. It lets you manage subscriptions, search, download, organize media, and perform system maintenance tasks from a mobile device.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "64e5b37d4d0bb150abdaedbbb13e2ca9cd76adff8a9a44cd35ca39be26553d18",
-  "subtitle": "Flutter client for MoviePilot",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4cc47eec3927e6eeafc167fb08fd65f534e55aedd1935230a1af426359ffd3ee",
+  "subtitle": "Flutter client for MoviePilot v2 API",
   "tags": [
    "moviepilot",
+   "flutter",
    "client",
-   "media",
-   "downloads",
-   "management",
-   "flutter"
+   "api",
+   "mobile",
+   "media"
   ]
  },
  "com.alyn.resamp.launcher": {
@@ -12801,20 +12829,19 @@
  "com.bpmhealth.boostfitness": {
   "category": "other",
   "date": "2026-11-13",
-  "description": "This version of Boostcamp has the subscription unlocked.",
+  "description": "Boostcamp is a modified application distributed through the AppTesters IPA repository. The package is described as injected with Pro features. No additional functionality details are provided in the source information.",
   "features": [
-   "Subscription Unlocked"
+   "Injected with Pro"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "c09cb34c5f13f85dcf7917ebc9492cc1b0aa55bf095079bcc714b46299decd66",
-  "subtitle": "Subscription unlocked version",
+  "src_hash": "d099bbc3ac86bb6b2e2fc4cd57847f5cd364ddea4ac6bc0205cead9a29da073d",
+  "subtitle": "Modified app from AppTesters IPA Repo",
   "tags": [
    "boostcamp",
-   "subscription",
-   "unlocked",
    "modified",
-   "ios",
-   "app"
+   "ipa",
+   "apptesters",
+   "pro"
   ]
  },
  "com.br.12min.mobile": {
@@ -17966,20 +17993,23 @@
   ]
  },
  "com.dopedevelopment.Panels": {
-  "category": "other",
+  "category": "photo-video",
   "date": "2026-11-13",
-  "description": "SCRL is an application with subscription features unlocked. Developer information is not available in the source data.",
+  "description": "SCRL is a photo collage maker application. This version 9.47 has premium features unlocked and is patched. Minimum OS requirements apply.",
   "features": [
-   "Subscription Unlocked"
+   "Premium Unlocked",
+   "Patched"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "b9068e2cbcde9460ea4c3c895d290e332d90692ca9370de192d33203f6c701a3",
-  "subtitle": "SCRL with subscription unlocked",
+  "src_hash": "ec908ccc84231fa187f24e04b47bb8609ec5302133823a50864b00d91aa1d787",
+  "subtitle": "Photo collage maker with premium features unlocked",
   "tags": [
-   "scrl",
-   "subscription",
+   "photo",
+   "collage",
+   "editor",
+   "premium",
    "unlocked",
-   "app"
+   "patched"
   ]
  },
  "com.doubledaggerstudio.littlekittybigcity": {
@@ -18310,20 +18340,22 @@
   ]
  },
  "com.dtd.aroundu": {
-  "category": "lifestyle",
-  "date": "2026-10-20",
-  "description": "Dtd Sounds Mood White Noise is a specialized iOS application created to help users relax, sleep better, and improve focus through calming sounds.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "ab8afae909edcdc019303e40e78f063a4ed42ccb18e684e892dbd49b94bb5475",
-  "subtitle": "Relax, sleep better, and improve focus",
+  "category": "other",
+  "date": "2026-11-13",
+  "description": "This version includes premium features that have been injected.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1430993c2c6f18f2283d89977d8e64b3f7cf9b01c4871afe7037a172fdb6a39a",
+  "subtitle": "Premium features unlocked",
   "tags": [
-   "sleep",
-   "relax",
-   "focus",
-   "white noise",
-   "mood",
-   "audio"
+   "premium",
+   "unlocked",
+   "sounds",
+   "audio",
+   "mod",
+   "injected"
   ]
  },
  "com.duanju.duanjuApp": {
@@ -19317,20 +19349,23 @@
   ]
  },
  "com.elevateapp.kamino.kamino": {
-  "category": "other",
+  "category": "lifestyle",
   "date": "2026-11-13",
-  "description": "Balance app version with subscription features unlocked. Provides access to premium subscription content.",
+  "description": "Balance Meditation and Sleep app. This version includes subscription unlocked features. Access meditation and sleep content with the patched version 1.207.0.",
   "features": [
-   "Subscription Unlocked"
+   "Subscription Unlocked",
+   "Patched Version"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "d1408e0518bdde55629595d5d0fe81e62595993716afc696dc7f2d20f7e1329c",
-  "subtitle": "Balance with subscription unlocked",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b34380cc4ef15d0406745b2c5152e4c3bf33f28c6c9d8d7ba4aecb2efd32fe60",
+  "subtitle": "Meditation and sleep with subscription unlocked",
   "tags": [
    "balance",
-   "subscription",
-   "unlocked",
-   "premium"
+   "meditation",
+   "sleep",
+   "lifestyle",
+   "relaxation",
+   "wellness"
   ]
  },
  "com.elf-audio.koala": {
@@ -22444,18 +22479,19 @@
  },
  "com.funkin.fnf": {
   "category": "games",
-  "date": "2026-10-25",
-  "description": "Friday Night Funkin' is a rhythm game made with HaxeFlixel.",
+  "date": "2026-11-13",
+  "description": "Friday Night Funkin' is a rhythm game developed by FunkinCrew using the HaxeFlixel framework.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2c45d6e11fd2ad6f5f4c4b624e5ac4ac5a44c213ab004e80b699d83716df0a88",
-  "subtitle": "A rhythm game made with HaxeFlixel",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4cbddffec4af4eda8746532888efcafaa17f6ef3d5214edbb6e97b50ef33a25d",
+  "subtitle": "Rhythm game built with HaxeFlixel",
   "tags": [
    "rhythm",
    "game",
-   "music",
-   "haxtime",
-   "indie"
+   "haxeflixel",
+   "funkincrew",
+   "indie",
+   "music"
   ]
  },
  "com.funlabsoft.iptv": {
@@ -28023,6 +28059,22 @@
    "utility"
   ]
  },
+ "com.her75.app": {
+  "category": "utilities",
+  "date": "2026-11-13",
+  "description": "Her 75 is a utility application developed by @Sa1y0miii. Requires iOS 15.1 or later. Current version 1.0.29. Includes restore purchases functionality.",
+  "features": [
+   "Restore Purchases"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bc938ce4fe0ea3d1a7ae23649520a00383fb89f6559043c9f7ed0d258fafe99b",
+  "subtitle": "Utility app for iOS 15.1+",
+  "tags": [
+   "utility",
+   "ios",
+   "restore purchases"
+  ]
+ },
  "com.hero.may.cry.adventure.game": {
   "category": "games",
   "date": "2026-11-05",
@@ -28143,24 +28195,19 @@
  },
  "com.hghub.huangguo": {
   "category": "entertainment",
-  "date": "2026-11-11",
-  "description": "Browse and stream vertical and horizontal video series with support for recommended streams, leaderboards, search, and episode playback continuation. This app is compiled from open-source code with ad-hoc signing and get-task-allow enabled, making it compatible with sideloading tools like SideStore and AltStore. It fixes launch crash issues associated with fully unsigned packages after re-signing. Distributed under the PolyForm Noncommercial 1.0.0 license for non-commercial use only.",
-  "features": [
-   "Vertical and horizontal video",
-   "Recommended streams",
-   "Leaderboards and search",
-   "Episode playback continuation",
-   "SideStore and AltStore compati"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "5a34c56eef644d9d0dd0139f7561c10a80f3528f50695b314d4196f398fdba08",
-  "subtitle": "Watch and browse vertical and horizontal video series",
+  "date": "2026-11-13",
+  "description": "HGhub \u662f\u4e00\u6b3e\u7ad6\u5c4f\u89c6\u9891\u64ad\u653e\u5ba2\u6237\u7aef\u3002\u652f\u6301\u63a8\u8350\u6d41\u3001\u9898\u6750\u5206\u7c7b\u3001\u699c\u5355\u3001\u641c\u7d22\u4ee5\u53ca\u9009\u96c6\u7eed\u64ad\u529f\u80fd\u3002\u5e94\u7528\u5185\u7f6e\u57fa\u4e8e WebGL2 \u4e0e Apple Metal \u7684\u591a\u6863\u4f4d\u5b9e\u65f6\u89c6\u9891\u8d85\u5206\u6280\u672f\uff0c\u5e76\u652f\u6301\u624b\u52bf\u7f29\u653e\u4e0e\u6a2a\u5c4f\u5168\u5c4f\u64ad\u653e\u3002\u672c\u5e94\u7528\u4ec5\u9650\u4e2a\u4eba\u5b66\u4e60\u4e0e\u975e\u5546\u4e1a\u7528\u9014\u4f7f\u7528\u3002",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "568c1cb4d70a4ca766166f3f07964a49205fc17314f850e1ebbc3ba8a19aff4c",
+  "subtitle": "\u7ad6\u5c4f\u89c6\u9891\u64ad\u653e\u5ba2\u6237\u7aef\u4e0e\u5b9e\u65f6\u89c6\u9891\u8d85\u5206",
   "tags": [
-   "streaming",
+   "hghub",
    "video",
-   "series",
-   "entertainment",
-   "player"
+   "player",
+   "superresolution",
+   "drama",
+   "ios"
   ]
  },
  "com.hhp.magicEraser": {
@@ -34247,6 +34294,23 @@
    "compiled"
   ]
  },
+ "com.ipopapp.filemanagerfree": {
+  "category": "utilities",
+  "date": "2026-11-13",
+  "description": "iFiles is a file manager explorer for iOS devices, providing comprehensive file management.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e11e8353cd9903583918ab90ee9031194c651342023a6fa7cd6a4fd039678ac4",
+  "subtitle": "File Manager Explorer for iOS",
+  "tags": [
+   "file",
+   "manager",
+   "explorer",
+   "ios",
+   "ipa",
+   "utility"
+  ]
+ },
  "com.ipopapp.imagesearchfree": {
   "category": "utilities",
   "date": "2026-10-27",
@@ -35070,23 +35134,18 @@
  "com.jbdotparty.Erosion": {
   "category": "utilities",
   "date": "2026-11-13",
-  "description": "A Simplified-Chinese localization of the Erosion MobileGestalt toolbox, featuring hardened write and backup paths for system configuration on iOS and iPadOS 27.x, alongside partial support for iOS and iPadOS 26.x. Requires at least one App Group entitlement when re-signing.",
-  "features": [
-   "Simplified-Chinese",
-   "Hardened write paths",
-   "System configuration backup",
-   "App Group entitlement support"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "25abdf14b4ddafcfb64ddcd3414bc58c1b90fe26afb1388a73aa0ce1dbfbe52d",
-  "subtitle": "Simplified-Chinese localization of Erosion MobileGestalt",
+  "description": "Erosion-CN is a Simplified Chinese localization of the Erosion MobileGestalt toolbox. It features hardened write and backup paths for system configuration on iOS and iPadOS 27.x, with partial support for iOS and iPadOS 26.x. Requires at least one App Group entitlement when re-signing.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "098b2b279162935b70c94adbafd337561640e79e8bd9a71ef5269e7f11d15411",
+  "subtitle": "Simplified Chinese MobileGestalt toolbox",
   "tags": [
    "erosion",
    "mobilegestalt",
-   "localization",
    "toolbox",
-   "backup",
-   "configuration"
+   "chinese",
+   "ios",
+   "ipados"
   ]
  },
  "com.jbdotparty.PancakeStore": {
@@ -38454,25 +38513,26 @@
   ]
  },
  "com.linkpass.kazumi": {
-  "category": "utilities",
-  "date": "2026-11-12",
-  "description": "Kazumi-Swift is an anime collection and online viewing client based on custom rules, featuring danmu support. Built with native SwiftUI, the interface uses iOS liquid glass material that adapts to system appearance and accessibility settings. It includes a built-in mpv playback core with Anime4K real-time super resolution, support for DanDanPlay danmu, Bangumi tracking binding, schedule, download capabilities, and WebDAV backup.",
+  "category": "entertainment",
+  "date": "2026-11-13",
+  "description": "Kazumi-Swift \u662f\u4e00\u6b3e\u57fa\u4e8e\u81ea\u5b9a\u4e49\u89c4\u5219\u7684\u756a\u5267\u91c7\u96c6\u4e0e\u5728\u7ebf\u89c2\u770b\u5ba2\u6237\u7aef\u3002\u754c\u9762\u91c7\u7528\u539f\u751f SwiftUI \u5b9e\u73b0\uff0c\u652f\u6301\u6db2\u6001\u73bb\u7483\u6750\u8d28\u6548\u679c\uff0c\u5e76\u968f\u7cfb\u7edf\u5916\u89c2\u4e0e\u8f85\u52a9\u529f\u80fd\u8bbe\u7f6e\u81ea\u52a8\u8c03\u6574\u3002\n\n\u5185\u7f6e mpv \u64ad\u653e\u5185\u6838\u4e0e Anime4K \u5b9e\u65f6\u8d85\u5206\u8fa8\u7387\u5904\u7406\u3002\u652f\u6301\u5f39\u5f39play \u5f39\u5e55\u670d\u52a1\u3001Bangumi \u8ffd\u756a\u7ed1\u5b9a\u3001\u756a\u5267\u65f6\u95f4\u8868\u67e5\u770b\u3001\u79bb\u7ebf\u4e0b\u8f7d\u4ee5\u53ca WebDAV \u4e91\u7aef\u5907\u4efd\u3002",
   "features": [
-   "Custom rules",
-   "Danmu support",
-   "Anime4K super resolution",
-   "Bangumi tracking",
-   "WebDAV backup"
+   "mpv \u5185\u6838",
+   "Anime4K",
+   "\u5f39\u5e55\u652f\u6301",
+   "Bangumi \u7ed1\u5b9a",
+   "WebDAV \u5907\u4efd"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "f24bb41b0837ddc241387fb009a8b9a107ded9f20b54b699f4fea00e61a856b8",
-  "subtitle": "Anime client with custom rules and danmu",
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "883bd9b9038f41ccffd0fe7c62fc76d44f0cc77fafc9534cf0de77a30b755701",
+  "subtitle": "\u57fa\u4e8e\u81ea\u5b9a\u4e49\u89c4\u5219\u7684\u756a\u5267\u91c7\u96c6\u4e0e\u5728\u7ebf\u64ad\u653e\u5ba2\u6237\u7aef",
   "tags": [
+   "kazumi",
    "anime",
-   "video",
-   "player",
-   "danmu",
-   "streaming"
+   "bangumi",
+   "swiftui",
+   "webdav",
+   "mpv"
   ]
  },
  "com.liquidcat.space": {
@@ -39101,17 +39161,24 @@
  "com.lumisound.ios": {
   "category": "entertainment",
   "date": "2026-11-13",
-  "description": "Lumisound is an audio application featuring a repository layout built with Rust. It includes a complete Help and Feature Guide accessible via Settings and Help, offering detailed usage tips for every function. Installation instructions are available for AltStore and Sideloadly, alongside options for self-hosting the bridge and building directly from the source code.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4ab0650dfb7a5258337eb9a60ea0cc535abed718e9e5aa5fe0b21d5398074d89",
-  "subtitle": "Rust-powered audio companion with in-app help",
+  "description": "Lumisound is an iOS music player featuring a 10-band equalizer, 8D spatial audio, crossfade, and gapless playback. It includes AB repeat, a sleep timer, lyrics display, personal cloud library integration, and streaming support for SoundCloud and YouTube.",
+  "features": [
+   "10-Band EQ",
+   "8D Audio",
+   "Crossfade",
+   "Sleep Timer",
+   "Cloud Library"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "b72af78b10772078406a5435fd21b93dd1e0c1a22f5421e6e7fd1e75eb8432c5",
+  "subtitle": "iOS music player with EQ, spatial audio, and streaming",
   "tags": [
+   "music",
+   "player",
+   "equalizer",
    "audio",
-   "rust",
-   "companion",
-   "guide",
-   "utility"
+   "streaming",
+   "lyrics"
   ]
  },
  "com.lunch.cellstosingularity": {
@@ -39305,6 +39372,23 @@
    "swiftui",
    "audio",
    "streaming"
+  ]
+ },
+ "com.mad.FlipClock": {
+  "category": "utilities",
+  "date": "2026-11-13",
+  "description": "Zen Flip Clock is a minimal flip\u2011clock style timer. It requires iOS 15.0 or later. Current version is 4.14.1.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cb26ca6fce5356aebd272f2ea300eca8fa8a36c2b60c28ce25ffdc2a062950b7",
+  "subtitle": "Minimal flip\u2011clock timer for iOS",
+  "tags": [
+   "timer",
+   "flip",
+   "clock",
+   "minimal",
+   "ios",
+   "utilities"
   ]
  },
  "com.madarsoft.fitness": {
@@ -41455,6 +41539,26 @@
    "strategy",
    "survival",
    "game"
+  ]
+ },
+ "com.mobirate.dacom": {
+  "category": "other",
+  "date": "2026-11-13",
+  "description": "Enforcers is a tweaked application featuring modifications for Dead Ahead: Enforcers. This version includes damage multipliers to boost squad offensive power, defense multipliers to strengthen unit resilience, and currency multipliers to accelerate resource accumulation. Enjoy uninterrupted gameplay with the removal of advertisements.",
+  "features": [
+   "Damage Multiplier",
+   "Defense Multiplier",
+   "Currency Multiplier",
+   "No ADS"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2ab46044feae9936ea84e760e7b6cefec50529c13eff2ce5dadbadf6c62a6c1d",
+  "subtitle": "Tweaked game version with multipliers and no ads",
+  "tags": [
+   "enforcers",
+   "dead ahead",
+   "tweaks",
+   "games"
   ]
  },
  "com.mobirate.deadaheadgo": {
@@ -49383,21 +49487,37 @@
    "player"
   ]
  },
+ "com.randomityguy.mbpqhaxe": {
+  "category": "games",
+  "date": "2026-11-13",
+  "description": "PlatinumQuest is a Haxe port of Marble Blast Gold, Ultra, Platinum, and PlatinumQuest. The marble physics code is taken from OpenMBU combined with custom collision detection code, and game logic is partially built from scratch and taken with permission from Marble Blast Web Port. The web browser version supports touch controls for mobile devices. Desktop ports are available for Windows, Mac, and Linux, with the Linux port supporting Steam Deck.",
+  "features": [],
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "d5d3c3bdabcfcc0d4b1122934bd41a53d52d7b26c7cfdf43c363197524181c48",
+  "subtitle": "A Haxe port of classic marble blast games",
+  "tags": [
+   "marble",
+   "platformer",
+   "physics",
+   "retro",
+   "arcade"
+  ]
+ },
  "com.randomityguy.mbuhaxe": {
   "category": "games",
-  "date": "2026-10-30",
-  "description": "MBHaxe is a Haxe port of Marble Blast Gold, Ultra, Platinum, and PlatinumQuest. Marble physics are taken from OpenMBU with custom collision detection. Game logic is partly original and partly used with permission from the Marble Blast Web Port. The web version supports touch controls for mobile devices. Builds exist for Windows, macOS, and Linux; the Linux build by boucymatt works on Steam Deck. On macOS the .app must be placed in /Applications or ~/Applications and Gatekeeper must be bypassed because the app is unsigned.",
+  "date": "2026-11-13",
+  "description": "MBHaxe is a Haxe port of Marble Blast Gold, Ultra, Platinum, and PlatinumQuest. The marble physics code was taken from OpenMBU. The project name is subject to change.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "564df91bc89068da1074f56f1c0b96087373e98e9e9f3bd661f2d1b6e242e529",
+  "src_hash": "c6a35f45836a1f7ddca3b5f8f19bf17cb0006c00008ed2f564a17c9f7d1bdf4a",
   "subtitle": "Haxe port of Marble Blast series",
   "tags": [
    "marble",
    "blast",
-   "haxe",
    "port",
-   "game",
-   "physics"
+   "haxe",
+   "physics",
+   "game"
   ]
  },
  "com.rarewire.TheAtlanticNewstand": {
@@ -54318,70 +54438,71 @@
   ]
  },
  "com.sparklechan.swiftysa": {
-  "category": "utilities",
-  "date": "2026-10-25",
-  "description": "Code, compile, and install iOS apps directly on your device. Supports iOS 15.0 through 17.0.",
+  "category": "developer",
+  "date": "2026-11-13",
+  "description": "Frida Code Manager allows you to code, compile, and install iOS applications directly on your device. Compatible with iOS 15.0 through 17.0.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "1b748b44888dba6c6b1f4c4b1a7e242b98078ec345ca46e15611bcf1a8f300ac",
-  "subtitle": "Code, compile, and install iOS apps",
-  "tags": [
-   "code",
-   "compiler",
-   "developer",
-   "ios",
-   "utilities"
-  ]
- },
- "com.sparklechan.swiftysa16": {
-  "category": "utilities",
-  "date": "2026-10-25",
-  "description": "Code, compile, and install iOS apps using an application on iOS 15.0 through 17.0.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d6fad2eab1d22c70e0d7d52200d98bcb6f9576fd70a434518a79c80488288823",
-  "subtitle": "Code, compile and install iOS apps directly",
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "eac7bce37a0624efe0241da8e90acdf98eca354d88a9983f6da0392742aaa0a2",
+  "subtitle": "Code, compile, and install iOS apps on your device",
   "tags": [
    "code",
    "compile",
    "install",
    "ios",
    "developer",
+   "apps"
+  ]
+ },
+ "com.sparklechan.swiftysa16": {
+  "category": "utilities",
+  "date": "2026-11-13",
+  "description": "Allows you to write, compile, and install iOS applications directly on devices running iOS 15.0 through 17.0. The app is in alpha status.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f74487492bdd3c042963b6ea4f108373be713dbbb8d861952d88a701594225cc",
+  "subtitle": "Code, compile, install iOS apps on device",
+  "tags": [
+   "code",
+   "compile",
+   "install",
+   "ios",
+   "frida",
    "manager"
   ]
  },
  "com.sparklechan.swiftyts": {
-  "category": "utilities",
-  "date": "2026-10-25",
-  "description": "Code, compile and install iOS apps directly on your device running iOS 15.0 through 17.0.",
+  "category": "developer",
+  "date": "2026-11-13",
+  "description": "Frida Code Manager lets you write, compile, and install iOS applications directly on your device. It supports iOS versions 15.0 through 17.0 and works with TrollStore for sideloading. The app provides an on-device development environment for iOS app creation.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "829151e1b1177743d0c16d7624d2d72526427289acab80752d42f71622d6d40e",
-  "subtitle": "Code, compile and install iOS apps",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8634d4f225eb0854d743685216b81897d328fd85f787e89ed044938e8a625225",
+  "subtitle": "Code, compile, and install iOS apps on device",
   "tags": [
    "code",
    "compile",
    "install",
    "ios",
    "trollstore",
-   "developer"
+   "development"
   ]
  },
  "com.sparklechan.swiftyts16": {
-  "category": "utilities",
-  "date": "2026-10-25",
-  "description": "Code, compile and install iOS apps directly on your device running iOS 15.0 through 17.0.",
+  "category": "developer",
+  "date": "2026-11-13",
+  "description": "Frida Code Manager allows you to code, compile, and install iOS applications directly on your iOS device. Supports iOS 15.0 to 17.0.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "886088e29acac2ad28f4693d4ddec316d34ef69bb0d4a6a0e7234096aaf9e78f",
-  "subtitle": "Code, compile and install iOS apps",
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "f903cd0a9fec35cd560d88f478ff830e417242c5be434bf1d4ff4efe7304932f",
+  "subtitle": "Code, compile, and install iOS apps on iOS 15.0 - 17.0",
   "tags": [
-   "ios",
+   "frida",
    "compiler",
-   "manager",
+   "trollstore",
+   "ios",
    "code",
-   "install",
-   "development"
+   "developer"
   ]
  },
  "com.sparklingsociety.zoolife2animaltycoonparkbuildingsimulationgame": {
@@ -57499,6 +57620,25 @@
    "backpack"
   ]
  },
+ "com.tapps.roguelike.rpg.cardguardians": {
+  "category": "games",
+  "date": "2026-11-13",
+  "description": "Card Guardians Deck builder IPA MOD is a thrilling new deck-building game. Build your deck and battle through challenges with unlimited currencies.",
+  "features": [
+   "Unlimited Currencies"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ba650085c5ddff5ac4f408903f2e57731fd1c4c0a28dda44be74a93824bfa9b1",
+  "subtitle": "Deck building game",
+  "tags": [
+   "card",
+   "guardians",
+   "deck",
+   "builder",
+   "game",
+   "mod"
+  ]
+ },
  "com.tareq.chromasmith": {
   "category": "photo-video",
   "date": "2026-10-24",
@@ -58287,21 +58427,21 @@
  },
  "com.tiaoge.gamecase": {
   "category": "utilities",
-  "date": "2026-11-09",
-  "description": "GameCase is a sideloading game container built for iOS game ports. Import a game IPA and its romfs datapack into the library, manage each game's own launcher settings in one place, and play without needing a jailbreak.",
+  "date": "2026-11-13",
+  "description": "GameCase is a sideload game container for iOS ported games. Import game IPA and romfs data packages into the game library. Manage each game's launcher settings in one place. Import and play immediately without jailbreak.",
   "features": [
    "No Jailbreak Required"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4ae57a241aa1339c5a696b0d8952ad49ebe8c09fc2265fc42396bf3f759537dc",
-  "subtitle": "Sideloading game container for iOS game ports",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c2cf606a3ae9959a19d967999d30619589a102c4f653869f000bf909e3f788e6",
+  "subtitle": "Sideload game container for iOS",
   "tags": [
-   "gamecase",
    "sideload",
-   "emulator",
+   "game",
    "container",
-   "ports",
-   "library"
+   "ipa",
+   "romfs",
+   "ios"
   ]
  },
  "com.tibith.badboxing2": {
@@ -66468,18 +66608,20 @@
  "com.videobrowser.ios": {
   "category": "other",
   "date": "2026-11-13",
-  "description": "VideoLite is an application that comes injected with Pro features.",
+  "description": "VideoLite is a video player application provided as a Pro version IPA. The package has been tested and compiled by the TTJB Team for distribution through their repository.",
   "features": [
-   "Pro Injected"
+   "Pro Version",
+   "Tested Build"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4bb3e027de624b31b78df6ddb44b13bea2a6f399ffe15fc80b9131d6d61432c2",
-  "subtitle": "VideoLite with Pro injected",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cd133855e7a143718f0f47696d124e6114feb718d377a5d708e99bcc381a47f5",
+  "subtitle": "Pro video player with tested IPA build",
   "tags": [
-   "videolite",
-   "pro",
    "video",
-   "utility"
+   "player",
+   "pro",
+   "ipa",
+   "ttjb"
   ]
  },
  "com.vigorapps.30DayFitness": {
@@ -68982,9 +69124,9 @@
   ]
  },
  "com.zhangfuhao.wqtoolkit": {
-  "category": "utilities",
+  "category": "developer",
   "date": "2026-11-13",
-  "description": "An iOS toolkit built on an App Group container-query primitive. Browse, clean and inspect your own app data containers without a jailbreak. Includes a file browser, cache scan, device info, a MobileGestalt cache panel and data lenses, with a bilingual user interface and native iPhone and iPad layouts.",
+  "description": "An iOS toolkit built on an App Group container-query primitive. Browse, clean and inspect your own app data containers without a jailbreak. Includes a file browser, cache scan, device info, a MobileGestalt cache panel and data lenses, with a bilingual UI and iPhone and iPad layouts.",
   "features": [
    "File browser",
    "Cache scan",
@@ -68992,16 +69134,15 @@
    "MobileGestalt cache panel",
    "Data lenses"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "93648dba7d40ecc6ed37f50628cc74a5509a99c16b98d166f307f0ba39f1fca0",
+  "model": "gemini:gemini-flash-lite-latest",
+  "src_hash": "e8ef928ddaadf650ce4a1002cc8fe9d037ff7e16129637f551f6b0ce789c6af2",
   "subtitle": "Inspect and clean app data containers",
   "tags": [
    "toolkit",
    "file browser",
-   "cache cleaner",
+   "cache",
    "device info",
-   "app group",
-   "utilities"
+   "jailbreak"
   ]
  },
  "com.zhangyue.rome": {
@@ -72061,20 +72202,21 @@
   ]
  },
  "de.firatcan.Song-Infos": {
-  "category": "entertainment",
-  "date": "2026-11-06",
-  "description": "If you\u2019re a true music enthusiast, understanding your listening habits is just as exciting as enjoying the music itself. Song Infos: You",
-  "features": [],
+  "category": "other",
+  "date": "2026-11-13",
+  "description": "SongInfos displays detailed information about songs. The version provided includes premium features unlocked.",
+  "features": [
+   "Premium Unlocked"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "62259f09e41ee40361fd6cb8e6b83c7b75e3ac06c4a974fc7aa6a0957125eec9",
-  "subtitle": "Track your music listening habits",
+  "src_hash": "8ddff4aadaff6de0a6ac88a1a4ff5e185de2cf6f7bc13b8ac93dbb8450fb19f5",
+  "subtitle": "SongInfos music info tool",
   "tags": [
-   "music",
-   "listening",
-   "habits",
    "song",
    "info",
-   "enthusiast"
+   "music",
+   "premium",
+   "tool"
   ]
  },
  "de.komoot.berlinbikeapp": {
@@ -75084,19 +75226,23 @@
   ]
  },
  "io.fadel.VidCap": {
-  "category": "photo-video",
-  "date": "2026-11-09",
-  "description": "VidCap is a video capturing app that allows users to capture multi-scene videos with one tap on iOS devices.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "abe23b63d7441ba476fd9ef70fd7a5ab8c1d0135e786e713d3c575333866c476",
-  "subtitle": "Capture multi-scene videos with one tap",
+  "category": "other",
+  "date": "2026-11-13",
+  "description": "VidCap provides AI-generated captions for videos. The tweak unlocks the subscription feature. Version 1.0.221 is patched.",
+  "features": [
+   "Subscription Unlocked",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2c085c1810d456c804ff2699fcf7f88ed0966da0427db639743afd40eea75ff8",
+  "subtitle": "AI captions for videos, subscription unlocked",
   "tags": [
+   "ai",
+   "captions",
    "video",
-   "capture",
-   "multiscene",
-   "camera",
-   "recording"
+   "subscription",
+   "unlocked",
+   "patched"
   ]
  },
  "io.github.accretionmods.thewandererplus": {
@@ -75551,18 +75697,23 @@
  },
  "io.github.saschb2b.cyberworldendless": {
   "category": "games",
-  "date": "2026-11-09",
-  "description": "Cyberworld requires your own unmodified Mega Man Battle Network 6: Cybeast Gregar USA ROM to play. Battle Network 5 Team Colonel USA and Battle Network 4 Red Sun USA are optional to include their areas, viruses, and features. Includes a player's guide, project page, discussions, and the ability to host a Net Square.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d8c25fe51045a4b3647d42b2723be4665fa390e7cf6d5b53dc4271bd5e0b5203",
-  "subtitle": "Fan-made crossover and guide for Battle Network fans",
+  "date": "2026-11-13",
+  "description": "Cyberworld is a player's guide and project page for Mega Man Battle Network 6: Cybeast Gregar (USA). It requires an unmodified ROM of that game to function. Optional ROMs for Battle Network 5: Team Colonel (USA) and Battle Network 4: Red Sun (USA) add extra areas, viruses, tournaments, and NetPass features. No Capcom data is included; the app does not work without the user's own ROM. It also offers a Net Square hosting feature and is aimed at developers. The project is hosted on itch.io with discussions and a donation link.",
+  "features": [
+   "Requires ROM",
+   "Net Square Host",
+   "Developer Tools"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "09718c4036337576f89496ac7d4914c2da7c5166a7aa5a7ee9c021daa2c3f431",
+  "subtitle": "Fan guide for Mega Man Battle Network ROMs",
   "tags": [
-   "cyberworld",
    "megaman",
-   "battlenetwork",
-   "rpg",
-   "rom"
+   "battle-network",
+   "rom",
+   "guide",
+   "fan-project",
+   "multiplayer"
   ]
  },
  "io.github.scripta": {
@@ -81166,25 +81317,25 @@
  },
  "org.reactjs.native.example.Musonic": {
   "category": "entertainment",
-  "date": "2026-11-01",
-  "description": "Musonic lets you play and manage your personal music library. Connect to the Musonic Server, Navidrome, or any Subsonic-compatible server to stream your tracks. Enjoy a full-screen player with synced lyrics, reorderable queues, offline downloads, and genre-based mixes. Set separate streaming quality for Wi-Fi and mobile data. The app is available for iOS, Android, and the web, supporting both English and French languages.",
+  "date": "2026-11-13",
+  "description": "Musonic is a music player for Android and web browser (including iPhone) that connects to your self-hosted Musonic Server, Navidrome, or any Subsonic-compatible server. The Android app offers a full-screen player with synced lyrics, a reorderable queue, Shuffle Magic, Magic Mixes by genre, a home screen based on listening history, offline downloads with Wi-Fi-first preference, separate streaming quality settings for Wi-Fi and mobile data, Android Auto (beta), and English and French languages. The server component lets you host your own music library.",
   "features": [
+   "Self-hosted server",
+   "Subsonic compatible",
    "Synced lyrics",
    "Offline downloads",
-   "Subsonic compatible",
-   "Queue management",
-   "Custom streaming quality"
+   "Android Auto beta"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "7887a0d07d276e3a467dce0c6880d0c5bf7e6ec4c0d0e601d4ae3e86529129f8",
-  "subtitle": "Stream and host your personal music library",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "aa1d8ff4f7920881c4635805ed34ca4eab5b0ba795db3fe4b4e0e57870bc8e13",
+  "subtitle": "Self-hosted music player with synced lyrics",
   "tags": [
-   "music",
-   "stream",
-   "player",
-   "server",
+   "music player",
+   "self hosted",
    "subsonic",
-   "audio"
+   "navidrome",
+   "offline playback",
+   "synced lyrics"
   ]
  },
  "org.reactjs.native.example.QuizardAI": {
