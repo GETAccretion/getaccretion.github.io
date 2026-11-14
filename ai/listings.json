@@ -1713,23 +1713,23 @@
  },
  "app.local.iPadn": {
   "category": "utilities",
-  "date": "2026-11-13",
-  "description": "Search, download and install owned apps for iPhone, iPad, Apple TV and Mac. Access older app versions, find removed apps, compare regional prices and use native installation. Supports 11 languages.",
+  "date": "2026-11-14",
+  "description": "Search, download and install the apps you own on iPhone and iPad, including older versions, removed apps, and regional price comparison. Perform native installs for iPhone, iPad, Apple TV, and Mac applications. Available in 11 languages.",
   "features": [
    "Native Install",
-   "Price Comparison",
-   "Older Versions"
+   "Older Versions",
+   "Regional Price Comparison",
+   "Multi-language Support"
   ],
-  "model": "gemini:gemini-3.5-flash",
-  "src_hash": "4c4465093329a9aeca84278eebab45ba4e5f71fc7d575574d398b45dde7758b5",
-  "subtitle": "Search, download and install your owned apps",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7bbb215eccf1cef5f68e94b9be73b1236c26e5d466848215f9d030a445ade51f",
+  "subtitle": "Search, download and install your iPhone and iPad apps",
   "tags": [
    "apps",
    "download",
-   "install",
-   "iphone",
-   "ipad",
-   "utilities"
+   "search",
+   "utilities",
+   "install"
   ]
  },
  "app.local.swipewipe-cleanup": {
@@ -8583,20 +8583,24 @@
   ]
  },
  "com.aigch.OpenParsec": {
-  "category": "other",
-  "date": "2026-11-01",
-  "description": "OpenParsec is an open-source Parsec client for iOS and iPadOS built with Swift and SwiftUI using the Parsec SDK. The project is in early development.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ca876e712a30f38244e19f3d49e245b257cc0b55df29ba9c423756473079abe2",
-  "subtitle": "Open-source Parsec client for iOS",
+  "category": "games",
+  "date": "2026-11-14",
+  "description": "OpenParsec is an open-source Parsec client for iOS and iPadOS written in Swift using SwiftUI and the Parsec SDK. This project is not affiliated with Parsec. It is compatible with iOS 14 and later. Due to Parsec SDK redistribution policies, this app is not distributed on the App Store and works with side-loading tools like AltStore, SideStore, LiveContainer, and TrollStore. Configure touch modes in the settings or stream menu with options for touchpad cursor movement or direct clicking.",
+  "features": [
+   "Open Source",
+   "SwiftUI",
+   "Touchpad Mode",
+   "Direct Touch Mode"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c6296fb4041268b141d66c137e02c8d3f7b051f03a76192e63ccdd61c831c50c",
+  "subtitle": "Open-source Parsec client for iOS and iPadOS",
   "tags": [
    "parsec",
+   "streaming",
    "client",
-   "open-source",
-   "swift",
-   "ios",
-   "ipados"
+   "gaming",
+   "remote"
   ]
  },
  "com.aigch.getMoreRam": {
@@ -18430,18 +18434,22 @@
  },
  "com.duplete.app": {
   "category": "photo-video",
-  "date": "2026-10-27",
-  "description": "Duplete helps you manage and delete similar photos on your mobile device. Clean up your photo library by removing duplicate and unwanted images to free up storage space.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "5b0cb256b21acfb4677b0c8fb6c847500c74d7e23d7c5994ff4ecae99d8f7690",
-  "subtitle": "Delete similar photos easily",
+  "date": "2026-11-14",
+  "description": "Duplete finds and removes similar or duplicate photos to free up storage. This version includes a subscription unlock tweak. Version 1.8.",
+  "features": [
+   "Subscription Unlocked",
+   "Duplicate Photo Removal"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cf03d8c2c72b262ca9215663262cafad010f9631058aef58ccf6a569933dcad6",
+  "subtitle": "Delete duplicate and similar photos",
   "tags": [
-   "photos",
-   "cleanup",
-   "duplicates",
+   "photo",
+   "duplicate",
+   "cleaner",
    "storage",
-   "manager"
+   "organizer",
+   "similar"
   ]
  },
  "com.duuro.moneyCoach": {
@@ -22479,19 +22487,19 @@
  },
  "com.funkin.fnf": {
   "category": "games",
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "description": "Friday Night Funkin' is a rhythm game developed by FunkinCrew using the HaxeFlixel framework.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4cbddffec4af4eda8746532888efcafaa17f6ef3d5214edbb6e97b50ef33a25d",
+  "src_hash": "04772ca1905fdb9c0c62387d84b8912243729e78e0e0af6a132cccb6eb64e971",
   "subtitle": "Rhythm game built with HaxeFlixel",
   "tags": [
    "rhythm",
    "game",
    "haxeflixel",
    "funkincrew",
-   "indie",
-   "music"
+   "music",
+   "indie"
   ]
  },
  "com.funlabsoft.iptv": {
@@ -35117,6 +35125,23 @@
    "adult"
   ]
  },
+ "com.javdb.avplay2": {
+  "category": "entertainment",
+  "date": "2026-11-14",
+  "description": "Adult-oriented media player app. Provides unsigned iOS installation packages that must be self-signed; source code and open-source license not provided by upstream repository.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b088f868d94a7598d8a66a2aa953db5e40ff84b57c564c63b160f0db566ca17b",
+  "subtitle": "Adult media player for iOS",
+  "tags": [
+   "adult",
+   "media",
+   "player",
+   "ios",
+   "unsigned",
+   "selfsign"
+  ]
+ },
  "com.javdb.com": {
   "category": "other",
   "date": "2026-10-28",
@@ -40230,22 +40255,23 @@
   ]
  },
  "com.meal.plan.ios": {
-  "category": "utilities",
-  "date": "2026-10-18",
-  "description": "Crouton is a recipe manager application with the Plus version unlocked. This patched version includes the Plus features and requires a minimum operating system version as specified by the system. Manage and organize your recipes efficiently with this utility app.",
+  "category": "other",
+  "date": "2026-11-14",
+  "description": "Crouton is a recipe manager application. The Plus features are unlocked in this version. Version 2025.6, patched.",
   "features": [
    "Plus Unlocked",
-   "Patched Version"
+   "Patched"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "346858a352c1cb131e5d55edca0fdc09672ca725455ce18482fd325e76675e34",
-  "subtitle": "Recipe Manager with Plus Unlocked",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "45423e02683b4bcee62537a6560413e5fd020d4451ed91dfe087108694ef0780",
+  "subtitle": "Recipe manager with Plus unlocked",
   "tags": [
-   "crouton",
    "recipe",
    "manager",
-   "utilities",
-   "plus"
+   "plus",
+   "unlocked",
+   "patched",
+   "2025"
   ]
  },
  "com.mechanist.poi.vn": {
@@ -51619,6 +51645,26 @@
    "gaming"
   ]
  },
+ "com.rockstargames.rdr": {
+  "category": "other",
+  "date": "2026-11-14",
+  "description": "RDR is an IPA package provided by TTJB IPA Repo. It is free to play and has been tested and compiled by the TTJB Team.",
+  "features": [
+   "Free",
+   "Tested IPA"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f3f8ba863df131e311cf2f51755d97084df9fab0ce14c82a3329cde67537267b",
+  "subtitle": "Free IPA game by TTJB Team",
+  "tags": [
+   "rdr",
+   "ipa",
+   "free",
+   "tested",
+   "ttjb",
+   "repo"
+  ]
+ },
  "com.rockwellventures.mesmerize": {
   "category": "lifestyle",
   "date": "2026-11-04",
@@ -52067,22 +52113,22 @@
  },
  "com.sablostudio.dig.tycoon.idle.game": {
   "category": "games",
-  "date": "2026-10-27",
-  "description": "Dig Tycoon - Idle Game is an idle game version 3.5. This patched version includes unlimited currencies, VIP unlocked, and no ads. Experience automated gameplay and manage your digging operations without interruptions.",
+  "date": "2026-11-14",
+  "description": "Manage your own mining operation in this idle game. Upgrade your digging equipment, expand your business, and grow your wealth. This version includes unlimited currencies, VIP status unlocked, and all advertisements removed.",
   "features": [
-   "Unlimited Currencies",
-   "VIP Unlocked",
+   "Unlimited currencies",
+   "VIP unlocked",
    "No Ads"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "5522f80f78ed923ee054b0c0cbd4f9450a432b186f08dcb3afdd16b3f4e62ffa",
-  "subtitle": "Idle game with unlimited currencies and VIP unlocked",
+  "src_hash": "fda3e9240b6d8d007776b652c07026c65adcd7d484a824af7be313de648889c0",
+  "subtitle": "Build and manage your mining tycoon empire",
   "tags": [
    "idle",
    "tycoon",
+   "mining",
    "simulation",
-   "game",
-   "dig"
+   "strategy"
   ]
  },
  "com.sadcity.traffic.racer.russian.village": {
@@ -53122,22 +53168,21 @@
   ]
  },
  "com.shapr3d.shapr": {
-  "category": "other",
-  "date": "2026-11-05",
-  "description": "This is a modified version of the Shapr3D 3D CAD application. The Pro subscription features have been injected, providing access to advanced modeling tools without a standard subscription. The app is distributed through a third-party IPA repository.",
+  "category": "utilities",
+  "date": "2026-11-14",
+  "description": "Shapr3D is a professional computer-aided design application. This version includes injected premium features.",
   "features": [
-   "Pro Unlocked"
+   "Premium Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "0111e4c38d805b0139cc61294ee4c1a1aa22d0fc9b71e955fa5cbeaba997d5af",
-  "subtitle": "Shapr3D with Pro features injected",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "83288021188d72866eef227abb681270777cf32180c1931acc0501d7206c7f7c",
+  "subtitle": "CAD modeling tool",
   "tags": [
-   "shapr3d",
    "cad",
    "3d",
    "modeling",
-   "pro",
-   "modified"
+   "design",
+   "professional"
   ]
  },
  "com.shervinkoushan.anytracker": {
@@ -68022,6 +68067,28 @@
    "apps"
   ]
  },
+ "com.wqguard.app": {
+  "category": "other",
+  "date": "2026-11-14",
+  "description": "WQGuard targets iOS 26.2+ and iOS 27.x with a zero-dependency engine that detects sandbox escapes using 100% physical read-only methods. It performs static Mach-O binary audits and provides multi-platform firmware CVE protection. The system operates without external dependencies and focuses on read-only detection and audit capabilities for security research and binary analysis.",
+  "features": [
+   "Zero Dependency",
+   "Sandbox Escape Detection",
+   "Mach-O Binary Audit",
+   "CVE Protection"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dc5e4b8662f698dfe6637fd8146b5f3849002f1f88f3152d246b48d8cc185037",
+  "subtitle": "Zero-dependency iOS sandbox escape detector and binary audi\u2026",
+  "tags": [
+   "security",
+   "sandbox",
+   "binary-audit",
+   "cve",
+   "ios",
+   "firmware"
+  ]
+ },
  "com.wrngwrld.Chanyan": {
   "category": "social",
   "date": "2026-11-12",
@@ -72069,25 +72136,19 @@
  },
  "cz.kolbi.wqfiles": {
   "category": "utilities",
-  "date": "2026-11-11",
-  "description": "WQ Files is a file browser, app data manager and cache cleaner built on the worse_query sandbox technique. It accesses other apps and system containers without a jailbreak or kernel exploit. Manage app data sizes, back up and restore app data, clear caches and temporary files, and view crash logs. Browse, read, import, rename, delete and share files and folders as ZIP archives. Edit plists with support for booleans, numbers, text, dates and hex data, with saves in binary or XML format. View and edit files with the built-in hex viewer and editor.",
-  "features": [
-   "No Jailbreak Required",
-   "App Data Manager",
-   "Cache Cleaner",
-   "Plist Editor",
-   "Hex Viewer and Editor"
-  ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "0047190e249454aa584f3398804eb56b47b139dd8b45079eccdd4e43eeef9a68",
-  "subtitle": "File browser and cache cleaner for iOS",
+  "date": "2026-11-14",
+  "description": "WQ Files is a file browser, app data manager, and cache cleaner for iOS 26 and 27. It uses the worse_query sandbox technique to browse other apps' containers, edit property lists, hex data, and SQLite databases. The app can back up, restore, or clear app data without requiring a jailbreak or kernel exploit.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b4f9499080aeb9721760b6f11ba60d78c4a4590752c67d0865fc0a556342ab1f",
+  "subtitle": "File browser & app data manager for iOS",
   "tags": [
-   "files",
-   "manager",
-   "cleaner",
-   "cache",
-   "browser",
-   "utility"
+   "file-browser",
+   "app-data",
+   "cache-cleaner",
+   "ios",
+   "plist",
+   "sqlite"
   ]
  },
  "dance.fitness.app": {
@@ -73045,12 +73106,17 @@
   ]
  },
  "dev.seedseeker.ios": {
-  "category": "utilities",
-  "date": "2026-11-05",
-  "description": "An extremely fast seed finder for Shattered Pixel Dungeon, written in Rust. Features rich queries for multiple requirements across melee and thrown weapons, armor, wands, and rings. Share your searches easily with short links. Scout today's UTC daily run, or choose a past or future date. Explore interactive fullscreen floors, the Imp Vault, reveal secrets, and find the Rat King.",
-  "features": [],
+  "category": "other",
+  "date": "2026-11-14",
+  "description": "An extremely fast seed finder for Shattered Pixel Dungeon written in Rust. It runs significantly faster than Java seed finders on benchmark queries. Perform rich queries with multiple requirements across melee and thrown weapons, armor, wands, and rings. Share your search using short links. Scout today's UTC daily run or choose a past or future date. Explore interactive fullscreen floors and the Imp Vault, reveal secrets, and find the Rat King.",
+  "features": [
+   "Rich queries",
+   "Share links",
+   "Daily scouting",
+   "Interactive maps"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "0abe218f4e861fb2b0beec9d4ddb6f248d7553697647067f5da27aa59c209df5",
+  "src_hash": "c00d241cbcaae2bb51ec8fbbef5863dfb089d3dff3954fa9c15bfa18ec63689e",
   "subtitle": "Fast seed finder for Shattered Pixel Dungeon",
   "tags": [
    "seed",
@@ -78938,6 +79004,21 @@
    "action"
   ]
  },
+ "net.alkass.shoof1": {
+  "category": "entertainment",
+  "date": "2026-11-14",
+  "description": "Shoof is an Arabic entertainment platform that has become popular in the Middle East.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "037c5fe2febefe83330b5ab082bdd6557d2c338d1b812d36291feb6151721b5a",
+  "subtitle": "Arabic entertainment platform",
+  "tags": [
+   "arabic",
+   "entertainment",
+   "platform",
+   "middle east"
+  ]
+ },
  "net.cecinestpasparis.yomu": {
   "category": "other",
   "date": "2026-11-10",
@@ -79891,18 +79972,12 @@
  },
  "net.yuandev.onexray": {
   "category": "utilities",
-  "date": "2026-11-02",
-  "description": "Bring your own servers or subscription to OneXray. Use the app across iPhone, iPad, Mac, Android, Windows, and Linux with light and dark themes and five interface languages. Organize your servers by importing share links, Xray JSON, and subscriptions. Group manual nodes and reorder them by dragging. Control your routing with Smart or Custom Routing, or use complete Raw and provider configurations, including Remnawave subscriptions. Install from the official store, complete setup and system permissions, and add your subscription, share links, or Xray JSON in the servers section.",
-  "features": [
-   "Multiplatform support",
-   "Custom routing",
-   "Subscription import",
-   "Light and dark themes",
-   "Node management"
-  ],
+  "date": "2026-11-14",
+  "description": "Bring your own servers or subscription. OneXray does not provide VPN access or proxy servers. Use it across your devices including iPhone, iPad, Mac, Android, Windows or Linux, featuring light and dark themes and five interface languages. Organize your servers by importing share links, Xray JSON, and subscriptions, and group manual nodes with drag-to-reorder support. Take control of routing by choosing Smart, Custom, Raw, or provider configurations, including Remnawave subscriptions. Complete setup and grant system permissions to get started, with outbound-interface selection required on Windows and Linux.",
+  "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "b61af5b78cd20081cb3db4b89ea1364d11fe78d99c0aa581d4f64e0ed515482d",
-  "subtitle": "Manage and organize your proxy and VPN servers",
+  "src_hash": "e8ec01a477505856888695d5631a82813cbe8ba626d098d6f281a60dd5b17fe5",
+  "subtitle": "Bring your own servers or subscription",
   "tags": [
    "vpn",
    "proxy",
