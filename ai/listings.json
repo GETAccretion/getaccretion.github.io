@@ -1714,18 +1714,24 @@
  "app.local.iPadn": {
   "category": "utilities",
   "date": "2026-11-14",
-  "description": "Search, download and install the apps you own on iPhone and iPad, including older versions, removed apps, and regional price comparison with native install. This application works with iPhone, iPad, Apple TV, and Mac apps, and is available in 11 languages.",
-  "features": [],
+  "description": "Search, download, and install apps you already own on iPhone and iPad, including historical versions and delisted applications. Compare regional prices and use native installation. Support is available for iPhone, iPad, Apple TV, and Mac apps. The application is provided in 11 languages.",
+  "features": [
+   "Regional price comparison",
+   "Historical versions",
+   "Delisted apps",
+   "Native installation",
+   "Multiple languages"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4c4465093329a9aeca84278eebab45ba4e5f71fc7d575574d398b45dde7758b5",
-  "subtitle": "Search, download and install your iPhone and iPad apps",
+  "src_hash": "dbd0cbeda8f8849035d3b0c5f432fae215b6f339c5879c8d9f18505e8e68db5f",
+  "subtitle": "Search and install apps on iPhone and iPad",
   "tags": [
    "apps",
+   "search",
    "download",
    "install",
-   "sideload",
-   "search",
-   "utility"
+   "history",
+   "prices"
   ]
  },
  "app.local.swipewipe-cleanup": {
@@ -2303,25 +2309,23 @@
  },
  "app.tatakai.me": {
   "category": "entertainment",
-  "date": "2026-11-07",
-  "description": "Tatakai combines anime discovery, streaming, manga reading, and community features in one app. Its extension-first design lets users choose content sources instead of relying on a single built-in provider. Users can host their own sources with Tatakai Extension Server, which includes setup tools, a built-in proxy, live logs, and one-click deployment buttons for Vercel, Cloudflare, Heroku, and Render. The extension server API is configured in Settings \u2192 Extension Hub \u2192 Extension Servers. The server component is maintained separately in the Snozxyx/TatakaiServer repository and included as a git submodule. New checkouts should use git clone --recurse-submodules to initialize the submodule auto\u2026",
+  "date": "2026-11-14",
+  "description": "Discover anime, manga, and novels with search, recommendations, and seasonal catalogs. Watch and read through your installed extensions. Track your library, progress, favorites, and continue-watching list. Join community discussions and watch rooms. Customize themes, layouts, profiles, and playback. Build your own extension with the extension guide, or host your sources with the independently maintained Tatakai Extension Server.",
   "features": [
-   "Extension-first design",
-   "Custom source hosting",
-   "Built-in proxy",
-   "Multi-platform deployment",
-   "Git submodule included"
+   "Search and recommendations",
+   "Track library and progress",
+   "Community discussions",
+   "Customizable themes"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "cc2c4b5c9b51fdadb976a3da912880049749e9e7925c69ddeb16c7ba54892e7b",
-  "subtitle": "Anime streaming, manga reading, and community with custom s\u2026",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9f2f2d141394b1ea39ff40893b6d1be534ce123ade2d22b5e3ad8fa183add579",
+  "subtitle": "Discover anime, manga, and novels",
   "tags": [
    "anime",
    "manga",
-   "streaming",
-   "extensions",
-   "self-hosted",
-   "community"
+   "novels",
+   "reader",
+   "tracker"
   ]
  },
  "app.teledark": {
@@ -20430,16 +20434,19 @@
  },
  "com.example.piliplus": {
   "category": "other",
-  "date": "2026-11-03",
-  "description": "The app is described as injected with nothing.",
+  "date": "2026-11-14",
+  "description": "Developed by bggRGjQaUbCoE using Flutter, this is a third-party client for Bilibili.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "d6863d7a44e911b93ed949cb2b278d19d5f6e85de791443d0bf536724f8d30ed",
-  "subtitle": "Injected with Nothing",
+  "src_hash": "6d3cbe1c648ed6fe5fa4b0e93f8d034af2ec39f2ba75fec65fd6add2f6861d27",
+  "subtitle": "Flutter-based Bilibili third-party client",
   "tags": [
-   "piliplus",
-   "injected",
-   "nothing"
+   "flutter",
+   "bilibili",
+   "third-party",
+   "client",
+   "android",
+   "ios"
   ]
  },
  "com.example.sqzd": {
@@ -58351,15 +58358,15 @@
  },
  "com.thebcd69.bcd": {
   "category": "games",
-  "date": "2026-11-13",
-  "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS with Steam and GOG built in. Powered by Wine, FEX and Metal via DXMT.",
+  "date": "2026-11-14",
+  "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS. Features built-in Steam and GOG integration, powered by Wine, FEX, and Metal via DXMT.",
   "features": [
-   "Controller friendly",
-   "Steam built in",
-   "GOG built in"
+   "Controller Friendly",
+   "Built-in Steam",
+   "Built-in GOG"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "508f083751382705843e0ab6b8a2a2aca5203ee43783aa9c282ad0c5e00e0a84",
+  "src_hash": "8c46bf388305af135a4b377645cc8bdf121ba4be805b4afdc823ef6b7f1b4387",
   "subtitle": "Run Windows games on iOS and iPadOS",
   "tags": [
    "launcher",
@@ -76639,21 +76646,23 @@
  },
  "io.nekohasekai.screensharing": {
   "category": "utilities",
-  "date": "2026-11-05",
-  "description": "Open Screen Sharing develops superior servers and clients based on the private protocol used by Apple VNC. The app is optimized for local networks and runs smoothly on public networks with Tailscale P2P. The App Store version excludes the Apple VNC server, which relies on background keep-alive mechanisms and a lockdown exploit, and direct file dragging from a remote Mac into other apps, which relies on a private API. Nightly builds are available by switching to the Nightly track in the settings of the macOS app.",
+  "date": "2026-11-14",
+  "description": "Screen Sharing is a remote desktop client designed for remote access. This App Store version excludes file dragging from a remote Mac into other iOS or iPadOS apps due to App Store restrictions. The application supports macOS, RDP, and Android connections. You can access nightly builds by switching to the Nightly track in the app settings of the macOS version.",
   "features": [
-   "Optimized for local networks",
-   "Tailscale P2P support"
+   "macOS support",
+   "RDP support",
+   "Android support",
+   "Nightly builds"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d34c83d58fcc9014bac23696d3c5d185bf77d19d0ab39c16ef28a35108602d8d",
-  "subtitle": "Apple VNC client and server for iOS and macOS",
+  "src_hash": "9772e2c77f11c957f503b62d1ad4010998539feed4808e09f831a342315ddeb9",
+  "subtitle": "A remote desktop client for your devices",
   "tags": [
-   "screen sharing",
-   "vnc",
    "remote desktop",
-   "apple",
-   "network"
+   "screen sharing",
+   "rdp client",
+   "mac",
+   "android"
   ]
  },
  "io.nekohasekai.swipt": {
@@ -82966,23 +82975,25 @@
  },
  "sb.moe.kumone-ios": {
   "category": "entertainment",
-  "date": "2026-11-05",
-  "description": "Kumone is a native NetEase Cloud Music client for iOS. It communicates directly with NetEase's real API with no third-party server required. Features include QR-code login and gray-track unlocking.",
+  "date": "2026-11-14",
+  "description": "Kumone is a native iOS client for NetEase Cloud Music that connects directly to NetEase's official API without third-party servers. It supports QR-code login, unblocks gray tracks, displays synced lyrics with translation, offers an immersive artwork-tinted now-playing screen, and provides playlist management. The app includes English and Simplified Chinese localizations.",
   "features": [
-   "Native client",
-   "Direct API access",
-   "QR-code login",
-   "Gray-track unlock"
+   "Direct API Access",
+   "QR Login",
+   "Gray Track Unblock",
+   "Synced Lyrics",
+   "Artwork Now Playing"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "20d83260740d2fb28dd6ee3163c2f3a113894e9bfa697e506512167976c6138c",
-  "subtitle": "Native NetEase Cloud Music client for iOS",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2c9410dcd9d039ee365556a8fb3fbbf56a3c05e05686743eb8406896c041b87f",
+  "subtitle": "Native NetEase Cloud Music client",
   "tags": [
-   "music",
    "netease",
-   "client",
-   "audio",
-   "streaming"
+   "cloud music",
+   "music player",
+   "chinese music",
+   "lyrics",
+   "playlist"
   ]
  },
  "scannerapp.free": {
