@@ -1714,22 +1714,18 @@
  "app.local.iPadn": {
   "category": "utilities",
   "date": "2026-11-14",
-  "description": "Search, download and install the apps you own on iPhone and iPad, including older versions, removed apps, and regional price comparison. Perform native installs for iPhone, iPad, Apple TV, and Mac applications. Available in 11 languages.",
-  "features": [
-   "Native Install",
-   "Older Versions",
-   "Regional Price Comparison",
-   "Multi-language Support"
-  ],
+  "description": "Search, download and install the apps you own on iPhone and iPad, including older versions, removed apps, and regional price comparison with native install. This application works with iPhone, iPad, Apple TV, and Mac apps, and is available in 11 languages.",
+  "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "7bbb215eccf1cef5f68e94b9be73b1236c26e5d466848215f9d030a445ade51f",
+  "src_hash": "4c4465093329a9aeca84278eebab45ba4e5f71fc7d575574d398b45dde7758b5",
   "subtitle": "Search, download and install your iPhone and iPad apps",
   "tags": [
    "apps",
    "download",
+   "install",
+   "sideload",
    "search",
-   "utilities",
-   "install"
+   "utility"
   ]
  },
  "app.local.swipewipe-cleanup": {
@@ -1847,17 +1843,22 @@
  },
  "app.naviamp.ios": {
   "category": "entertainment",
-  "date": "2026-11-12",
-  "description": "Naviamp is an independent third-party client for Navidrome music servers. It connects to your self-hosted Navidrome instance to stream your music library. The app is not affiliated with or endorsed by the Navidrome project. Beta builds for iOS are distributed via TestFlight. Also available on macOS, Windows, and Linux.",
-  "features": [],
+  "date": "2026-11-14",
+  "description": "Naviamp is an independent third-party client for Navidrome music servers. It connects to your chosen Navidrome instance to play your music library. The app is not affiliated with or endorsed by the Navidrome project. Available on iOS through TestFlight beta builds.",
+  "features": [
+   "Third-party client",
+   "Navidrome compatible",
+   "Independent",
+   "Beta via TestFlight"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "250905c34cca92cb01a4bd70e03390acad2c7e3ba5cc8141637eb2ac69e65b89",
+  "src_hash": "d4f0eaba0bb2f1f1c06e4756692fe9ae56a95be36000e34f3b490bec82011698",
   "subtitle": "Third-party Navidrome music client",
   "tags": [
    "navidrome",
    "music",
+   "player",
    "streaming",
-   "self-hosted",
    "client",
    "beta"
   ]
@@ -8583,24 +8584,20 @@
   ]
  },
  "com.aigch.OpenParsec": {
-  "category": "games",
+  "category": "other",
   "date": "2026-11-14",
-  "description": "OpenParsec is an open-source Parsec client for iOS and iPadOS written in Swift using SwiftUI and the Parsec SDK. This project is not affiliated with Parsec. It is compatible with iOS 14 and later. Due to Parsec SDK redistribution policies, this app is not distributed on the App Store and works with side-loading tools like AltStore, SideStore, LiveContainer, and TrollStore. Configure touch modes in the settings or stream menu with options for touchpad cursor movement or direct clicking.",
-  "features": [
-   "Open Source",
-   "SwiftUI",
-   "Touchpad Mode",
-   "Direct Touch Mode"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c6296fb4041268b141d66c137e02c8d3f7b051f03a76192e63ccdd61c831c50c",
-  "subtitle": "Open-source Parsec client for iOS and iPadOS",
+  "description": "OpenParsec is a simple, open-source Parsec client for iOS and iPadOS written in Swift using the SwiftUI framework and the Parsec SDK.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ca876e712a30f38244e19f3d49e245b257cc0b55df29ba9c423756473079abe2",
+  "subtitle": "Open-source Parsec client for iOS",
   "tags": [
    "parsec",
-   "streaming",
    "client",
-   "gaming",
-   "remote"
+   "open-source",
+   "swift",
+   "swiftui",
+   "ios"
   ]
  },
  "com.aigch.getMoreRam": {
@@ -9191,20 +9188,20 @@
   ]
  },
  "com.altman.moviepilot": {
-  "category": "other",
-  "date": "2026-11-13",
-  "description": "A cross\u2011platform Flutter client that connects to the MoviePilot v2 API. It lets you manage subscriptions, search, download, organize media, and perform system maintenance tasks from a mobile device.",
+  "category": "utilities",
+  "date": "2026-11-14",
+  "description": "MoviePilotLite is a cross-platform Flutter client based on MoviePilot. It connects to the MoviePilot v2 API, allowing you to complete common operations such as subscriptions, searches, downloads, organization, and system maintenance directly from your mobile phone.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4cc47eec3927e6eeafc167fb08fd65f534e55aedd1935230a1af426359ffd3ee",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "64e5b37d4d0bb150abdaedbbb13e2ca9cd76adff8a9a44cd35ca39be26553d18",
   "subtitle": "Flutter client for MoviePilot v2 API",
   "tags": [
    "moviepilot",
-   "flutter",
    "client",
-   "api",
-   "mobile",
-   "media"
+   "downloader",
+   "media",
+   "management",
+   "utilities"
   ]
  },
  "com.alyn.resamp.launcher": {
@@ -10625,19 +10622,18 @@
  },
  "com.armsx2.ios": {
   "category": "games",
-  "date": "2026-11-12",
-  "description": "A free and open-source PlayStation 2 (PS2) emulator based on PCSX2, with native ARM64 JIT recompilers. Play PS2 games on your phone, PC, or gaming handheld.",
+  "date": "2026-11-14",
+  "description": "ARMSX2 is a free and open-source PlayStation 2 emulator based on PCSX2, featuring native ARM64 JIT recompilers. Enjoy playing your favorite PS2 games directly on your phone, PC, or gaming handheld.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "9f5e1707676c63fb3d9abf5ceeda9f0c66c9ee9673d0866fdc96ccc7f0d2977e",
-  "subtitle": "Free PS2 emulator with ARM64 JIT",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9af5120cffc8a0eb838ece37212eccd6444a72dcef16f4497db0ab4396e9ade2",
+  "subtitle": "Play PlayStation 2 games on your devices",
   "tags": [
-   "ps2",
    "emulator",
-   "open-source",
-   "arm64",
-   "jit",
-   "mobile"
+   "ps2",
+   "gaming",
+   "pcsx2",
+   "arm64"
   ]
  },
  "com.armsx2.ios.nightly": {
@@ -24611,6 +24607,25 @@
    "tweaks"
   ]
  },
+ "com.google.ios.youtube.music.ultimate.enhanced": {
+  "category": "photo-video",
+  "date": "2026-11-14",
+  "description": "This is a modded version of YouTube Music featuring YTMusicUltimate tweaks and downloading capabilities. You can see more information about the mod online.",
+  "features": [
+   "YTMusicUltimate",
+   "Downloading"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "cf1bde143a1c67355c76ce0e9d839e4cf44bd45c68be3e4987c0c60df78fc027",
+  "subtitle": "Modded version of YouTube Music",
+  "tags": [
+   "youtube",
+   "music",
+   "mod",
+   "streaming",
+   "audio"
+  ]
+ },
  "com.google.ios.youtube.music.ytmusicultimate.mark02.2012": {
   "category": "photo-video",
   "date": "2026-11-10",
@@ -24906,6 +24921,28 @@
    "video"
   ]
  },
+ "com.google.ios.youtube.youmod.2.0.0.moe.patched": {
+  "category": "photo-video",
+  "date": "2026-11-14",
+  "description": "YouMod is a modded version of YouTube that includes several built-in tweaks. The application features DontEatMyContent, iSponsorBlock, sideloadFixerLol, YouChooseQuality, and YouGro. This version includes bonus tweaks by Moe and is patched for sideloading.",
+  "features": [
+   "DontEatMyContent",
+   "iSponsorBlock",
+   "sideloadFixerLol",
+   "YouChooseQuality",
+   "YouGro"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a8e921b7fe9144a5b81bec8d9bfcb26dcff29edbcc127e46bbee4f578e592674",
+  "subtitle": "Modded version of YouTube with additional tweaks",
+  "tags": [
+   "youtube",
+   "mod",
+   "tweaks",
+   "video",
+   "streaming"
+  ]
+ },
  "com.google.ios.youtube.youmod.2.0.0.mrdrvt99": {
   "category": "photo-video",
   "date": "2026-11-10",
@@ -24960,6 +24997,23 @@
    "streaming",
    "youpro",
    "client"
+  ]
+ },
+ "com.google.ios.youtube.youpro.1.3.4.ipastar": {
+  "category": "photo-video",
+  "date": "2026-11-14",
+  "description": "YouPro is a modified version of YouTube that includes YouPro enhancements. It is distributed via FastSign, a sideloading service operated by CertFish.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "98d3ee9723a3262d480932c81fcd988fd06e07f763a47a2f9dbeac24c849b575",
+  "subtitle": "Modded YouTube with YouPro features",
+  "tags": [
+   "youtube",
+   "mod",
+   "youpro",
+   "sideload",
+   "video",
+   "player"
   ]
  },
  "com.google.ios.youtube.youproextra.0.3.moe": {
@@ -25324,6 +25378,28 @@
    "pip",
    "video",
    "playback"
+  ]
+ },
+ "com.google.ios.youtube.ytkace.1.1.7.bonus.moe.patched": {
+  "category": "photo-video",
+  "date": "2026-11-14",
+  "description": "YTKACE is a modded version of YouTube that includes a variety of built-in tweaks for enhanced playback and control. Available tweaks include YTClassicVideoQuality, YouMute, YTABConfig, YouQuality, YTKACE, DontEatMyContent, YTVideoOverlay, YouSpeed, YouGroupSettings, YouTubeNativeShare, YouPiP, YouChooseQuality, YouLoop, YouTubeDislikesReturn, YTUHD, and the Open in YouTube Safari Extension.",
+  "features": [
+   "YouPiP",
+   "YouMute",
+   "YouSpeed",
+   "YouLoop",
+   "YTUHD"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d033d0d26f1eae15a4bafee06e5ebf4addabc178bf9f7fc77dd0186c6e39663c",
+  "subtitle": "Modded YouTube client with integrated tweaks",
+  "tags": [
+   "youtube",
+   "mod",
+   "video",
+   "streaming",
+   "tweaks"
   ]
  },
  "com.google.ios.youtube.ytkace.1.1.7.bonus.mrdrvt99": {
@@ -28203,19 +28279,25 @@
  },
  "com.hghub.huangguo": {
   "category": "entertainment",
-  "date": "2026-11-13",
-  "description": "HGhub \u662f\u4e00\u6b3e\u7ad6\u5c4f\u89c6\u9891\u64ad\u653e\u5ba2\u6237\u7aef\u3002\u652f\u6301\u63a8\u8350\u6d41\u3001\u9898\u6750\u5206\u7c7b\u3001\u699c\u5355\u3001\u641c\u7d22\u4ee5\u53ca\u9009\u96c6\u7eed\u64ad\u529f\u80fd\u3002\u5e94\u7528\u5185\u7f6e\u57fa\u4e8e WebGL2 \u4e0e Apple Metal \u7684\u591a\u6863\u4f4d\u5b9e\u65f6\u89c6\u9891\u8d85\u5206\u6280\u672f\uff0c\u5e76\u652f\u6301\u624b\u52bf\u7f29\u653e\u4e0e\u6a2a\u5c4f\u5168\u5c4f\u64ad\u653e\u3002\u672c\u5e94\u7528\u4ec5\u9650\u4e2a\u4eba\u5b66\u4e60\u4e0e\u975e\u5546\u4e1a\u7528\u9014\u4f7f\u7528\u3002",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash",
-  "src_hash": "568c1cb4d70a4ca766166f3f07964a49205fc17314f850e1ebbc3ba8a19aff4c",
-  "subtitle": "\u7ad6\u5c4f\u89c6\u9891\u64ad\u653e\u5ba2\u6237\u7aef\u4e0e\u5b9e\u65f6\u89c6\u9891\u8d85\u5206",
+  "date": "2026-11-14",
+  "description": "HGhubX is a third-party client built with Rust and Tauri 2. It offers immersive vertical playback and uses Fluent design for the interface. The upstream project provides only an unsigned iOS package; you must sign it with your own Apple ID or install via TrollStore. The source code is licensed under PolyForm Noncommercial 1.0.0, permitting personal learning and non-commercial use only. Commercial use is prohibited. Project source is available on GitHub.",
+  "features": [
+   "Rust + Tauri 2",
+   "Vertical playback",
+   "Fluent design",
+   "Self-sign required",
+   "Non-commercial license"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ad141ea826a6b8e47e433cb04ad5434f4d4a6d3c7d5669a45904831026a5fd00",
+  "subtitle": "Third-party client with vertical playback",
   "tags": [
-   "hghub",
-   "video",
-   "player",
-   "superresolution",
-   "drama",
-   "ios"
+   "third-party",
+   "video-player",
+   "rust",
+   "tauri",
+   "fluent-design",
+   "open-source"
   ]
  },
  "com.hhp.magicEraser": {
@@ -29315,6 +29397,21 @@
    "injected",
    "ios",
    "app"
+  ]
+ },
+ "com.icartatechnologies.spokenpages": {
+  "category": "other",
+  "date": "2026-11-14",
+  "description": "SpokenPages is an audio books application for iOS devices requiring iOS 15.0 or later. This version is 1.2.2. The app includes notes regarding purchase pages.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "72edef6c1e009b33659a1112a450add5eb0dd30c13eea9da30512d25635aef21",
+  "subtitle": "Audio Books application",
+  "tags": [
+   "audiobooks",
+   "books",
+   "spokenpages",
+   "audio"
   ]
  },
  "com.icecoldapps.fileconverter": {
@@ -37057,6 +37154,23 @@
    "hatch"
   ]
  },
+ "com.lacroix.dev.Life": {
+  "category": "utilities",
+  "date": "2026-11-14",
+  "description": "Time Left is a countdown app for iOS 17.0 and later. Current version 2026.13. Available on the App Store.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b0b756209d7695cad52e48efe6664a3fc95a427e007953b04a7a3902912cc06b",
+  "subtitle": "Countdown timer for iOS 17+",
+  "tags": [
+   "countdown",
+   "timer",
+   "utilities",
+   "ios",
+   "app",
+   "time"
+  ]
+ },
  "com.ladder.bootcamp": {
   "category": "other",
   "date": "2026-10-28",
@@ -39204,6 +39318,29 @@
    "audio",
    "streaming",
    "lyrics"
+  ]
+ },
+ "com.lumisound.ios.tv": {
+  "category": "entertainment",
+  "date": "2026-11-14",
+  "description": "Lumisound is a music player featuring the Lumisound engine with gapless playback, crossfade, DJ-style Smart Crossfade, speed, and pitch control. It includes LumiEQ with presets and Auto EQ, clean volume boost, Spatial Audio rooms with head tracking, reverb, night mode, and audio effects like Lo-Fi Tape, AM Radio, Vinyl Night, Underwater, Nightcore, and Slowed + Reverb. Additional playback tools include Music Haptics, Skip Silent Intros, and ReplayGain. Manage your library with a duplicate finder, library health checks, backups, and a 30-day Recently Deleted folder. Explore synced lyrics, smart playlists, stats, a yearly Rewind, and achievements. Personalize the Now Playing screen with over\u2026",
+  "features": [
+   "Gapless playback",
+   "Spatial Audio",
+   "Synced lyrics",
+   "Duplicate finder",
+   "Car Mode"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6d292095ab9e916c9181b59a2f16896b0618c0ba53c9d0764cfb7fadc2ee303b",
+  "subtitle": "Advanced audio engine and music player",
+  "tags": [
+   "music",
+   "player",
+   "audio",
+   "equalizer",
+   "playlists",
+   "songs"
   ]
  },
  "com.lunch.cellstosingularity": {
@@ -42460,6 +42597,39 @@
    "audio"
   ]
  },
+ "com.music.bitchord.1.0.2.9.not.patched": {
+  "category": "photo-video",
+  "date": "2026-11-14",
+  "description": "BitChord is a modern YouTube music client featuring clean aesthetics inspired by Apple Music. Developed by TubeVault.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "6cc5581af001a357fb62664bda44c83ccda3f3a55d4279640f4900e6e5ff2e4c",
+  "subtitle": "Modern YouTube music client with Apple Music style",
+  "tags": [
+   "youtube",
+   "music",
+   "client",
+   "apple music",
+   "tubevault",
+   "aesthetics"
+  ]
+ },
+ "com.music.bitchord.1.0.2.9.patched": {
+  "category": "photo-video",
+  "date": "2026-11-14",
+  "description": "BitChord is a modern YouTube music client designed with clean aesthetics inspired by Apple Music. Stream your favorite music and enjoy a streamlined listening experience with a familiar interface.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d9a46af22cf9c891e6f40ecf5777e9b1f002d13aca6c28c555dde663a7c9b39c",
+  "subtitle": "Modern YouTube music client with clean aesthetics",
+  "tags": [
+   "music",
+   "streaming",
+   "youtube",
+   "audio",
+   "client"
+  ]
+ },
  "com.musixmatch.lyrics": {
   "category": "entertainment",
   "date": "2026-10-31",
@@ -42712,6 +42882,28 @@
    "swiftui"
   ]
  },
+ "com.mxfia19.twitchunblock.0.1.49.ipavault": {
+  "category": "entertainment",
+  "date": "2026-11-14",
+  "description": "TwitchUnblock is an open-source Twitch client for tvOS that lets you watch VODs and live streams without a subscription at full quality. This tvOS build does not work on iOS. Source code available on GitHub.",
+  "features": [
+   "Open Source",
+   "No Subscription",
+   "Full Quality",
+   "tvOS Only"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f7c2ba133868757d880ec3e6725bd86c55cf5ec17622a8e85bad3b708e0ced59",
+  "subtitle": "Open-source Twitch client for tvOS",
+  "tags": [
+   "twitch",
+   "vods",
+   "livestream",
+   "tvos",
+   "open-source",
+   "client"
+  ]
+ },
  "com.mxfia19.twitchunblock.1.6.0": {
   "category": "entertainment",
   "date": "2026-11-08",
@@ -42785,6 +42977,27 @@
    "vods",
    "client",
    "open-source"
+  ]
+ },
+ "com.mxfia19.twitchunblock.1.7.1.ipavault": {
+  "category": "entertainment",
+  "date": "2026-11-14",
+  "description": "TwitchUnblock is an open-source Twitch client that lets you watch VODs and live streams without a subscription at full quality. The project source is available on GitHub.",
+  "features": [
+   "Open Source",
+   "No Subscription Required",
+   "Full Quality Streaming"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0261dd7bddcfbb507dfa7a0ed50688c546a0a7d78d5dadf1a1bffecdfcb9b50a",
+  "subtitle": "Open-source Twitch client for VODs and live streams",
+  "tags": [
+   "twitch",
+   "streaming",
+   "vods",
+   "open-source",
+   "client",
+   "video"
   ]
  },
  "com.my.bots": {
@@ -43562,19 +43775,23 @@
  },
  "com.neogamelab.neostation": {
   "category": "games",
-  "date": "2026-11-11",
-  "description": "RewindBox brings your game library and embedded emulators into a single iOS and iPadOS application. It supports Libretro, MeloNX for Nintendo Switch, Dolphin, ARMSX2, and RPCS3. Games run directly within RewindBox using its integrated menus and controls, so separate installations of RetroArch or MeloNX are not required.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash",
-  "src_hash": "4147fa0fd0f091599d0b8584921f3848ea8b379e4bb92c5f298c1dad22465eeb",
-  "subtitle": "Game library and embedded emulators for iOS and iPadOS",
+  "date": "2026-11-14",
+  "description": "RewindBox is an independently maintained iOS and iPadOS fork of NeoStation. It brings your game library and embedded emulators into one sideloaded app, supporting Libretro, Dolphin, ARMSX2, RPCS3 and more. Compatible games run inside RewindBox with its built-in menus and controls, so a separate emulator installation is not required. Version 0.0.11 includes PlayStation 3 updates with audio and exit corrections for Assassin\u2019s Creed, synchronization improvements for Black Ops II, and texture work. Pocket skins feature GameCube, Wii, and PS2 designs with Original variants, corrected touch areas, and restored input after in-game menus.",
+  "features": [
+   "Embedded emulators",
+   "Game library management",
+   "Pocket skins"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4a8a3fc1c948dbbcfa94496e90a3d383d9fbef9e3351e8ec64c136d56408fc7a",
+  "subtitle": "Game library and embedded emulators for iPhone and iPad",
   "tags": [
-   "emulator",
-   "games",
-   "libretro",
-   "dolphin",
-   "playstation",
-   "switch"
+   "emulators",
+   "gaming",
+   "retro",
+   "library",
+   "sideloaded",
+   "consoles"
   ]
  },
  "com.neonplay.casualgolfclubtycoon": {
@@ -53168,21 +53385,22 @@
   ]
  },
  "com.shapr3d.shapr": {
-  "category": "utilities",
+  "category": "other",
   "date": "2026-11-14",
-  "description": "Shapr3D is a professional computer-aided design application. This version includes injected premium features.",
+  "description": "This version includes the Pro features unlocked.",
   "features": [
-   "Premium Unlocked"
+   "Pro Unlocked"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "83288021188d72866eef227abb681270777cf32180c1931acc0501d7206c7f7c",
-  "subtitle": "CAD modeling tool",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "0111e4c38d805b0139cc61294ee4c1a1aa22d0fc9b71e955fa5cbeaba997d5af",
+  "subtitle": "Pro features unlocked",
   "tags": [
+   "shapr3d",
    "cad",
-   "3d",
-   "modeling",
-   "design",
-   "professional"
+   "pro",
+   "unlocked",
+   "ipa",
+   "repo"
   ]
  },
  "com.shervinkoushan.anytracker": {
@@ -55132,6 +55350,43 @@
    "certfish"
   ]
  },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.0.1.9.2.0": {
+  "category": "entertainment",
+  "date": "2026-11-14",
+  "description": "EeveeSpotifyReincarnated is a modified version of the Spotify application, featuring integrated tweaks for the platform.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "767413f835ad7a4ad523f5bc42d78ff9213f37854fbebffbd53f8c19836bb3f0",
+  "subtitle": "Modded version of Spotify",
+  "tags": [
+   "spotify",
+   "tweaks",
+   "mod",
+   "audio",
+   "music"
+  ]
+ },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.0.1.patched.9.2.0": {
+  "category": "entertainment",
+  "date": "2026-11-14",
+  "description": "EeveeSpotifyReincarnated is a patched, modded version of the Spotify app that includes the EeveeSpotify tweaks. It is not compatible with Sidestore or LiveContainer sideloading methods.",
+  "features": [
+   "Patched",
+   "Modded",
+   "EeveeSpotify Tweaks"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7136f77349096075a61da1cdb8e59fc860e96fad6f1d8f7c7fd6ee289ff1e6d7",
+  "subtitle": "Modded Spotify client with tweaks",
+  "tags": [
+   "spotify",
+   "modded",
+   "patched",
+   "tweaks",
+   "sideload",
+   "music"
+  ]
+ },
  "com.spotify.client.ios.eeveespotifyreincarnated.pixie.9.1.90": {
   "category": "entertainment",
   "date": "2026-11-09",
@@ -55147,6 +55402,23 @@
    "tweaks",
    "audio",
    "download"
+  ]
+ },
+ "com.spotify.client.ios.eeveespotifyreincarnated.pixie.9.1.98": {
+  "category": "entertainment",
+  "date": "2026-11-14",
+  "description": "This is a modded version of Spotify that includes EeveeSpotifyReincarnated v7.0.0 and Pixie Download Manager v1.4. The package contains the EeveeSpotify and SpotifyAudioProbe tweaks. Sideloading is facilitated via FastSign by CertFish.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ccec8e3065a33984e045e1c1b8ad6b6da7e1f08df7672f74a5be2328d9e6bf25",
+  "subtitle": "Modded Spotify with EeveeSpotify and Pixie",
+  "tags": [
+   "modded",
+   "spotify",
+   "eeveespotify",
+   "pixie",
+   "download-manager",
+   "sideload"
   ]
  },
  "com.spotify.client.ios.eeveespotifyreincarnated.pixie.not.patched.9.1.92": {
@@ -57189,6 +57461,26 @@
    "route",
    "ios18",
    "developer"
+  ]
+ },
+ "com.suversal.wrappin.selfsigned": {
+  "category": "other",
+  "date": "2026-11-14",
+  "description": "WrapPin Tunnel lets you change your device\u2019s location to any place you choose. It requires iOS 18 or later. Changing the location also changes the device\u2019s date and time unless you disable \u201cSet Time Zone Automatically\u201d in Settings > General > Date & Time. The developer provides a tutorial for enabling JIT without a computer and offers a paid developer certificate via contact. Additional links include a group chat, YouTube, TikTok, and a shop. The app is distributed through FastSign (CertFish) for sideloading.",
+  "features": [
+   "Change Location",
+   "iOS 18+"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cea3b0c6e28cbdd1927612b36452f3ad299aeb7c675686ee498f6f9d9610967c",
+  "subtitle": "Change device location on iOS 18+",
+  "tags": [
+   "location",
+   "spoof",
+   "ios18",
+   "jit",
+   "sideload",
+   "certificate"
   ]
  },
  "com.suwayomi.tachideskSorayomi": {
@@ -68068,25 +68360,26 @@
   ]
  },
  "com.wqguard.app": {
-  "category": "other",
+  "category": "developer",
   "date": "2026-11-14",
-  "description": "WQGuard targets iOS 26.2+ and iOS 27.x with a zero-dependency engine that detects sandbox escapes using 100% physical read-only methods. It performs static Mach-O binary audits and provides multi-platform firmware CVE protection. The system operates without external dependencies and focuses on read-only detection and audit capabilities for security research and binary analysis.",
+  "description": "WQGuard is a security analysis tool for iOS 26.2+ and iOS 27.x. It provides a zero-dependency, 100% physical read-only sandbox escape detection engine. The app performs Mach-O static binary auditing and offers multi-platform firmware CVE protection. Designed for security researchers and developers to analyze iOS system integrity and binary vulnerabilities.",
   "features": [
-   "Zero Dependency",
+   "Zero Dependencies",
    "Sandbox Escape Detection",
    "Mach-O Binary Audit",
-   "CVE Protection"
+   "Firmware CVE Protection",
+   "Read-Only Operation"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "dc5e4b8662f698dfe6637fd8146b5f3849002f1f88f3152d246b48d8cc185037",
-  "subtitle": "Zero-dependency iOS sandbox escape detector and binary audi\u2026",
+  "src_hash": "1f61ef2dd8ebb5be8d85477351354704668c5cf0ea423a7293ff7adbd950fab3",
+  "subtitle": "Zero-dependency iOS sandbox escape detection and binary aud\u2026",
   "tags": [
    "security",
-   "sandbox",
-   "binary-audit",
-   "cve",
    "ios",
-   "firmware"
+   "sandbox",
+   "binary-analysis",
+   "cve",
+   "mach-o"
   ]
  },
  "com.wrngwrld.Chanyan": {
@@ -72137,18 +72430,24 @@
  "cz.kolbi.wqfiles": {
   "category": "utilities",
   "date": "2026-11-14",
-  "description": "WQ Files is a file browser, app data manager, and cache cleaner for iOS 26 and 27. It uses the worse_query sandbox technique to browse other apps' containers, edit property lists, hex data, and SQLite databases. The app can back up, restore, or clear app data without requiring a jailbreak or kernel exploit.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "b4f9499080aeb9721760b6f11ba60d78c4a4590752c67d0865fc0a556342ab1f",
-  "subtitle": "File browser & app data manager for iOS",
+  "description": "WQ Files is a file browser, app data manager and cache cleaner for iOS 27, built on the worse_query sandbox technique. It accesses other apps and system containers without jailbreak or kernel exploits. View apps with data sizes, back up and restore data, clear data folders, and share backups as ZIP files. The cache cleaner handles temp sizes, search, and crash logs. Browse and edit files with the built-in plist editor, hex viewer and editor, text editor, image viewer, SQLite viewer, and SQLite query runner.",
+  "features": [
+   "File browser",
+   "App data manager",
+   "Cache cleaner",
+   "Plist editor",
+   "Hex viewer"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0047190e249454aa584f3398804eb56b47b139dd8b45079eccdd4e43eeef9a68",
+  "subtitle": "File browser and app data manager for iOS",
   "tags": [
-   "file-browser",
-   "app-data",
-   "cache-cleaner",
-   "ios",
-   "plist",
-   "sqlite"
+   "files",
+   "manager",
+   "cache",
+   "cleaner",
+   "editor",
+   "browser"
   ]
  },
  "dance.fitness.app": {
@@ -72350,6 +72649,23 @@
    "modded",
    "ipa",
    "app"
+  ]
+ },
+ "de.neptune": {
+  "category": "utilities",
+  "date": "2026-11-14",
+  "description": "Neptune IPA v6.2.2 is a versatile mobile application designed to enhance water utility management and consumer engagement.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d8ec54a34a9a74feb692f2037abb6e4784ebeb1f47095ed46ae79c3dfe8529df",
+  "subtitle": "Water utility management app",
+  "tags": [
+   "neptune",
+   "water",
+   "utility",
+   "management",
+   "consumer",
+   "engagement"
   ]
  },
  "de.pinauten.Fugu15": {
@@ -80819,23 +81135,24 @@
  },
  "org.floeagent.ios": {
   "category": "utilities",
-  "date": "2026-11-05",
-  "description": "Get started with an iOS setup guide offering four recommendations to prefill choices for models, search, voice and workspaces, while keeping every section editable. Continue setup while voice packs, models or environments download, then check progress later. Apple Intelligence is off by default for new users. Cloud model requests go directly to your chosen provider, while supported local models run inference on the device. Credentials stay in protected storage on your device, and files, uploads and remote actions follow task permissions with consequential actions confirmed under policy.",
+  "date": "2026-11-14",
+  "description": "Floe Agent provides on-device workspaces and a persistent Linux environment running on your hardware. Execute shell commands, Python, Node, packages, and local web services while retaining files and execution history with your tasks. The environment image is downloaded separately, and packages must support its architecture. Choose builds using release notes and channel status. Self-sign using Feather or AltStore, or copy the source URL manually.",
   "features": [
-   "Editable setup guide",
-   "Local model inference",
-   "Protected storage",
-   "Task permissions"
+   "Persistent Linux environment",
+   "Run shell commands and Python",
+   "Local web services",
+   "Self-signing support"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2d202e521c0ea6cc2f847d30be6bdfc08c2f68910613ab8cf7b4a61cf96a11cd",
-  "subtitle": "Setup guide and model management for iOS",
+  "src_hash": "fa222bcfe4d76c67a21d87d57b80f7f53af08f5e0dce07b8950e6805b4ded003",
+  "subtitle": "On-device AI workspaces and Linux environment",
   "tags": [
-   "ai",
-   "models",
-   "setup",
-   "utility",
-   "security"
+   "linux",
+   "development",
+   "workspace",
+   "python",
+   "terminal",
+   "agent"
   ]
  },
  "org.floeagent.iosbridge": {
