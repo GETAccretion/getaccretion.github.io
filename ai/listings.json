@@ -1712,24 +1712,26 @@
   ]
  },
  "app.local.iPadn": {
-  "category": "utilities",
+  "category": "other",
   "date": "2026-11-15",
-  "description": "Search, download, and install the apps you own on iPhone and iPad, including older versions, removed apps, and regional price comparison with native install. This application works with iPhone, iPad, Apple TV, and Mac apps, and is available in 11 languages.",
+  "description": "iPadn lets you search, download, and install apps you already own on iPhone and iPad. It includes access to historical versions and delisted apps, offers regional price comparison, and performs native installation. The app supports iPhone, iPad, Apple TV, and Mac applications and is available in 11 languages.",
   "features": [
-   "Native install",
-   "Older versions",
-   "11 languages",
-   "Cross-device support"
+   "Historical Versions",
+   "Delisted Apps",
+   "Regional Price Compare",
+   "Native Install",
+   "11 Languages"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4c4465093329a9aeca84278eebab45ba4e5f71fc7d575574d398b45dde7758b5",
-  "subtitle": "Search, download, and install apps you own",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dbd0cbeda8f8849035d3b0c5f432fae215b6f339c5879c8d9f18505e8e68db5f",
+  "subtitle": "Search, download & install owned apps with history versions",
   "tags": [
-   "sideload",
-   "apps",
-   "download",
-   "utilities",
-   "install"
+   "appmanager",
+   "historical",
+   "delisted",
+   "pricecompare",
+   "nativeinstall",
+   "multilanguage"
   ]
  },
  "app.local.swipewipe-cleanup": {
@@ -35002,22 +35004,21 @@
   ]
  },
  "com.j0shua.S5LBox": {
-  "category": "other",
-  "date": "2026-11-05",
-  "description": "Experience classic iPhone OS on your modern iPhone. S5LBox runs the real iPhone OS 3.1.3 operating system inside an app without requiring a jailbreak. Slide to unlock, explore the familiar Home screen, and use built-in applications. Import IPA files directly or via the Files app to install compatible early-era apps. Manage and browse guest files with full filesystem access available after guest jailbreak.",
+  "category": "utilities",
+  "date": "2026-11-15",
+  "description": "S5LBox brings the iPhone 3G and its original iPhone OS 3.1.3 to your iPhone or iPad. It is the real operating system running inside an app, not a theme or a recreation. Your device does not need to be jailbroken. Rediscover the classics by exploring the familiar Home screen, built-in apps, and compatible apps from the early days of iPhone. Bring your own apps by importing ipa files directly or putting them in the S5LBox IPAs folder in Files. Choose what to install one app at a time without closing the running machine. Explore your files by browsing, previewing, importing, and exporting guest files from Machine Settings, with full filesystem access available after guest jailbreak.",
   "features": [
    "No Jailbreak Required",
-   "IPA File Import",
+   "IPA Import Support",
    "Filesystem Access"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "6b4a88053c9e07fd9a34c528cb53f8f499ede7dbb2ff75d30054aec14035e6a1",
-  "subtitle": "Run classic iPhone OS 3.1.3 inside an app",
+  "src_hash": "7c59696cf89551ef7b80360a25a46036034fb70e98751d50d5c2bef1f16134a8",
+  "subtitle": "Run classic iPhone OS 3.1.3 on your modern iOS device",
   "tags": [
-   "iphoneos",
    "emulator",
    "classic",
-   "ipa",
+   "iphone",
    "retro",
    "virtual"
   ]
@@ -35820,23 +35821,22 @@
   ]
  },
  "com.joytunes.asla": {
-  "category": "lifestyle",
-  "date": "2026-11-09",
-  "description": "Simply Piano teaches piano through guided lessons and real-time feedback. Version 9.10.84 requires iOS 15.0 or later. This patched release includes subscription features unlocked.",
+  "category": "other",
+  "date": "2026-11-15",
+  "description": "This version of SimplyPiano has been modified to unlock subscription features without requiring a paid subscription.",
   "features": [
-   "Patched",
    "Subscription Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "c60eaae13c52ab6db13fbb1ce1a386ea3d0245856366b186f053eef04e6947e9",
-  "subtitle": "Learn piano fast with guided lessons",
+  "src_hash": "003fa8da571df93f869440ef08b5c35c32922c05a920659aa9aa683998e4417f",
+  "subtitle": "Learn piano with unlocked subscription features",
   "tags": [
    "piano",
    "learn",
    "music",
-   "lessons",
-   "education",
-   "subscription"
+   "subscription",
+   "unlocked",
+   "education"
   ]
  },
  "com.jps.gpspeedhud": {
@@ -36207,20 +36207,20 @@
   ]
  },
  "com.kdt.livecontainer": {
-  "category": "utilities",
-  "date": "2026-10-28",
-  "description": "LiveContainer lets you run iOS applications without installing them on your device.",
+  "category": "developer",
+  "date": "2026-11-15",
+  "description": "LiveContainer+SideStore is an app launcher that runs iOS apps without installing them. This build includes a built-in SideStore for refreshing apps.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "0090148116b95268d16717d815ef333d7ee9f863e7110d10d42bb48dd1186c7e",
+  "src_hash": "874bcfd22f51a50f2de8071f2554a122a9379698ce4456800ba81493b3f26795",
   "subtitle": "Run iOS apps without installing",
   "tags": [
+   "launcher",
    "ios",
-   "apps",
-   "run",
-   "install",
-   "utility",
-   "container"
+   "sidestore",
+   "livecontainer",
+   "refresh",
+   "noinstall"
   ]
  },
  "com.kdt.livecontainer212": {
@@ -39381,25 +39381,24 @@
  },
  "com.lumisound.ios": {
   "category": "entertainment",
-  "date": "2026-11-13",
-  "description": "Lumisound is an iOS music player featuring a 10-band equalizer, 8D spatial audio, crossfade, and gapless playback. It includes AB repeat, a sleep timer, lyrics display, personal cloud library integration, and streaming support for SoundCloud and YouTube.",
+  "date": "2026-11-15",
+  "description": "Lumisound is an advanced music player featuring the Lumisound engine with gapless playback, crossfade, Smart Crossfade, speed and pitch controls. Enjoy LumiEQ with presets and Auto EQ, clean volume boost, Spatial Audio with head tracking, reverb, and night mode. Apply audio effects like Lo-Fi Tape, AM Radio, Vinyl, Underwater, Nightcore, and Slowed plus Reverb. Additional tools include music haptics, skip silent intros, and ReplayGain. Manage your library with a duplicate finder, library health checks, backups, and synced lyrics. Customize the Now Playing screen with animated artwork, seeker styles, widgets, Live Activities, Siri shortcuts, focus filters, and car mode.",
   "features": [
-   "10-Band EQ",
-   "8D Audio",
-   "Crossfade",
-   "Sleep Timer",
-   "Cloud Library"
+   "Gapless playback",
+   "Spatial Audio",
+   "Duplicate finder",
+   "Synced lyrics",
+   "Custom widgets"
   ],
-  "model": "gemini:gemini-3.5-flash",
-  "src_hash": "b72af78b10772078406a5435fd21b93dd1e0c1a22f5421e6e7fd1e75eb8432c5",
-  "subtitle": "iOS music player with EQ, spatial audio, and streaming",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6d292095ab9e916c9181b59a2f16896b0618c0ba53c9d0764cfb7fadc2ee303b",
+  "subtitle": "Advanced audio engine and music player with effects",
   "tags": [
    "music",
    "player",
-   "equalizer",
    "audio",
-   "streaming",
-   "lyrics"
+   "equalizer",
+   "sound"
   ]
  },
  "com.lumisound.ios.tv": {
@@ -43352,26 +43351,26 @@
   ]
  },
  "com.naine.doer": {
-  "category": "other",
-  "date": "2026-10-20",
-  "description": "Doer is a native iOS app for browsing Linux.do. View latest topics, top posts, categories, and tags. Search content and read topic details with rendered HTML. Built with UIKit for a native interface.",
+  "category": "social",
+  "date": "2026-11-15",
+  "description": "Doer is a native Linux.do client built with UIKit. Browse the latest topics, top posts, categories, tags, and search results. Read topic details with rendered text, images, quotes, code, polls, spoilers, tables, and videos, and use the timeline jumper to navigate. Reply to topics, like posts, and use platform emojis. View and save multiple images, manage your profile, badges, bookmarks, drafts, browsing history, notifications, and private messages. Log in via web login, cookie reuse, and Cloudflare challenge handling. Share topic URLs and use the home-screen quick-launch widget.",
   "features": [
-   "Linux.do Browsing",
-   "Native UIKit",
-   "Topic Details",
-   "Search & Filter",
-   "Categories & Tags"
+   "Linux.do browsing",
+   "Topic detail",
+   "Replies and reactions",
+   "Image viewer",
+   "Account and profile"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "be7ae1dd911a3758504453f80c7164032d8e9cabc54cc9ede0e443a50a9944ac",
-  "subtitle": "Native Linux.do client for iOS",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "133ae5798c820386dbf3cf54891adbb2719d85b3ddad9c03506a098fdeac46e4",
+  "subtitle": "Native client for browsing and managing Linux.do",
   "tags": [
    "linuxdo",
-   "client",
-   "browsing",
    "forum",
-   "native",
-   "uikit"
+   "client",
+   "social",
+   "community",
+   "discourse"
   ]
  },
  "com.nakas.skate3": {
@@ -53417,17 +53416,17 @@
  },
  "com.shadowmario.psychengine10": {
   "category": "games",
-  "date": "2026-10-25",
-  "description": "Friday Night Funkin Psych Engine is an engine originally used on the Mind Games Mod, designed to fix issues present in the vanilla version while keeping the casual play aspect intact. It also serves as an easier alternative for new coders.",
+  "date": "2026-11-15",
+  "description": "Friday Night Funkin Engine originally used on Mind Games Mod, intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "325c8ec382f8524c412d8ca7c162dc5eea2974da1bb357e09070a821bc7a9886",
-  "subtitle": "An optimized and accessible game engine",
+  "src_hash": "ba0d68266bbb1bdaec0bb553759392865b5a8fe790bb9cdfd478ae4a5a8b4215",
+  "subtitle": "An optimized and user-friendly game engine",
   "tags": [
-   "fnf",
-   "psych engine",
    "rhythm",
+   "music",
    "mod",
+   "engine",
    "game"
   ]
  },
@@ -72591,18 +72590,24 @@
  "cz.kolbi.wqfiles": {
   "category": "utilities",
   "date": "2026-11-15",
-  "description": "WQ Files is a file browser, app data manager, and cache cleaner built using the worse_query sandbox technique. It accesses app and system containers without requiring a jailbreak or kernel exploit.\n\nCapabilities include:\n- App Data: View app sizes, back up and restore data, clear Documents, Library, and tmp folders, and share backups as ZIP files.\n- Cache Cleaner: View cache sizes, search apps, clean large caches over 50 MB, and clear crash logs.\n- File Manager: Browse, import, rename, delete, and edit files in place. Share folders as ZIP files.\n- Plist & Hex Editors: Edit plist files in binary or XML formats, and view or edit hex files of any size.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash",
-  "src_hash": "0047190e249454aa584f3398804eb56b47b139dd8b45079eccdd4e43eeef9a68",
-  "subtitle": "File browser, app data manager, and cache cleaner for iOS",
+  "description": "File browser, app data manager and cache cleaner for iOS 26 and 27, built on the worse_query sandbox technique. Browse other apps containers, edit plists, hex and SQLite databases, and back up, restore or clear app data without a jailbreak or kernel exploit.",
+  "features": [
+   "No Jailbreak Required",
+   "File Browser",
+   "Cache Cleaner",
+   "Database Editor",
+   "Backup and Restore"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b4f9499080aeb9721760b6f11ba60d78c4a4590752c67d0865fc0a556342ab1f",
+  "subtitle": "File browser and app data manager for iOS",
   "tags": [
-   "file manager",
-   "cache cleaner",
-   "plist editor",
-   "hex editor",
-   "app data",
-   "ios"
+   "files",
+   "manager",
+   "sandbox",
+   "database",
+   "cleaner",
+   "backup"
   ]
  },
  "dance.fitness.app": {
@@ -84468,21 +84473,21 @@
   ]
  },
  "uni.cbum": {
-  "category": "lifestyle",
-  "date": "2026-11-11",
-  "description": "Access workout and fitness plans created by @blatants. This version requires iOS 15.6 or later. Includes the subscription unlocked modifier.",
+  "category": "other",
+  "date": "2026-11-15",
+  "description": "Stndrd is an app with subscription features unlocked. The modified version provides access to premium subscription content without requiring a paid subscription.",
   "features": [
    "Subscription Unlocked"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "8dacd4543b9059851a59d564b7452ab3ab6bbc7c82d21b2f78030f6f336c60d1",
-  "subtitle": "Workout and fitness plans",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ba7d278ee110649a822f4da401fa5149680c3af2805f9978438607172df23fec",
+  "subtitle": "Subscription unlocked version",
   "tags": [
-   "fitness",
-   "workout",
-   "training",
-   "health",
-   "plans"
+   "stndrd",
+   "subscription",
+   "unlocked",
+   "premium",
+   "modified"
   ]
  },
  "universeye.co.TuneTally": {
