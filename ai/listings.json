@@ -1713,25 +1713,23 @@
  },
  "app.local.iPadn": {
   "category": "utilities",
-  "date": "2026-11-14",
-  "description": "Search, download, and install apps you already own on iPhone and iPad, including historical versions and delisted applications. Compare regional prices and use native installation. Support is available for iPhone, iPad, Apple TV, and Mac apps. The application is provided in 11 languages.",
+  "date": "2026-11-15",
+  "description": "Search, download, and install the apps you own on iPhone and iPad, including older versions, removed apps, and regional price comparison with native install. This application works with iPhone, iPad, Apple TV, and Mac apps, and is available in 11 languages.",
   "features": [
-   "Regional price comparison",
-   "Historical versions",
-   "Delisted apps",
-   "Native installation",
-   "Multiple languages"
+   "Native install",
+   "Older versions",
+   "11 languages",
+   "Cross-device support"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "dbd0cbeda8f8849035d3b0c5f432fae215b6f339c5879c8d9f18505e8e68db5f",
-  "subtitle": "Search and install apps on iPhone and iPad",
+  "src_hash": "4c4465093329a9aeca84278eebab45ba4e5f71fc7d575574d398b45dde7758b5",
+  "subtitle": "Search, download, and install apps you own",
   "tags": [
+   "sideload",
    "apps",
-   "search",
    "download",
-   "install",
-   "history",
-   "prices"
+   "utilities",
+   "install"
   ]
  },
  "app.local.swipewipe-cleanup": {
@@ -2890,6 +2888,24 @@
    "remover",
    "photo",
    "utility"
+  ]
+ },
+ "bbauman.app.PlayMaker": {
+  "category": "utilities",
+  "date": "2026-11-15",
+  "description": "PlaylistAI is an artificial intelligence powered playlist maker for iOS. Create custom playlists easily using AI generation features. This version includes subscription unlocked content.",
+  "features": [
+   "Subscription Unlocked"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7c6bf5bb474a93a479292ff0b09c0bc7c8189e6c4fe0219f5f480dba8768c4fc",
+  "subtitle": "AI Playlist Maker",
+  "tags": [
+   "playlist",
+   "ai",
+   "music",
+   "maker",
+   "audio"
   ]
  },
  "bechir.Fuji.Reciepe": {
@@ -10627,18 +10643,20 @@
  "com.armsx2.ios": {
   "category": "games",
   "date": "2026-11-15",
-  "description": "A free and open-source PlayStation 2 (PS2) emulator based on PCSX2, featuring native ARM64 JIT recompilers. It lets you play PS2 games on phones, PCs, or gaming handhelds.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "9f5e1707676c63fb3d9abf5ceeda9f0c66c9ee9673d0866fdc96ccc7f0d2977e",
-  "subtitle": "Free open-source PS2 emulator with ARM64 JIT",
+  "description": "ARMSX2 is a free and open-source PlayStation 2 emulator based on PCSX2, featuring native ARM64 JIT recompilers. Play your favorite PS2 games directly on your mobile phone, PC, or gaming handheld device.",
+  "features": [
+   "Free",
+   "Open Source"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9af5120cffc8a0eb838ece37212eccd6444a72dcef16f4497db0ab4396e9ade2",
+  "subtitle": "Play PlayStation 2 games with ARM64 JIT support",
   "tags": [
-   "ps2",
    "emulator",
-   "arm64",
-   "jit",
-   "open-source",
-   "free"
+   "playstation",
+   "ps2",
+   "gaming",
+   "arm64"
   ]
  },
  "com.armsx2.ios.nightly": {
@@ -13722,21 +13740,20 @@
  },
  "com.carlosribas.HoursTrackerLite": {
   "category": "utilities",
-  "date": "2026-10-29",
-  "description": "HoursTracker allows you to track your working hours and time spent on tasks. This version includes premium features unlocked.",
+  "date": "2026-11-15",
+  "description": "Hours Tracker is a time tracking application. This version includes premium features unlocked. Easily manage and log your time directly from your iOS device.",
   "features": [
    "Premium Unlocked"
   ],
-  "model": "gemini:gemini-3.5-flash",
-  "src_hash": "96df8ef12c7a6267c68d638aaeb50373f4bdfa4991a1b44a4e12aee17e4c2374",
-  "subtitle": "Time tracking application",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ecf71966cf4c2e4022e302c737c7d4568a38e19cce94c685a38c4c2ba1877f23",
+  "subtitle": "Track your hours with premium features unlocked",
   "tags": [
    "hourstracker",
-   "time",
+   "timetracking",
    "tracker",
-   "hours",
-   "work",
-   "utility"
+   "utilities",
+   "productivity"
   ]
  },
  "com.carxtech.sr": {
@@ -18363,6 +18380,22 @@
    "injected"
   ]
  },
+ "com.dtd.playlist": {
+  "category": "entertainment",
+  "date": "2026-11-15",
+  "description": "Dtd Playlist is a daily mood music application developed by @Sa1y0miii. Listen to curated daily tracks suited for your mood. Requires iOS 18.0 or later. This version is 2.7.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5fde61cce34dfb2359a5f721b36e899151192070c830fada2ad8d888cbd98792",
+  "subtitle": "Daily Mood Music",
+  "tags": [
+   "music",
+   "playlist",
+   "mood",
+   "daily",
+   "audio"
+  ]
+ },
  "com.duanju.duanjuApp": {
   "category": "utilities",
   "date": "2026-11-12",
@@ -18984,24 +19017,22 @@
  },
  "com.easygames.race": {
   "category": "games",
-  "date": "2026-11-04",
-  "description": "Race Master 3D: Car Racing modified version 3.16.0. Includes unlimited in-game cash, unlimited shields, unlimited nitro, and premium features unlocked. This is a tweaked build of the original racing game.",
+  "date": "2026-11-15",
+  "description": "Experience car racing action with Race Master 3D. This modified version includes unlimited cash, unlimited shields, unlimited nitro, and premium unlocked. Compete in high-speed races and upgrade your vehicles.",
   "features": [
    "Unlimited Cash",
    "Unlimited Shields",
    "Unlimited Nitro",
    "Premium Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "fe737ad77e940283a4dc5249cdee06113f2739f2365fa397847f37013d5311aa",
-  "subtitle": "Racing game with unlimited resources",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "84653174f24b45459b225858dfac11f563fa5a0ff13a0ab206d20c02a0352a64",
+  "subtitle": "Car racing game with unlimited cash and nitro",
   "tags": [
    "racing",
-   "car",
-   "tweak",
-   "unlimited",
-   "premium",
-   "3d"
+   "cars",
+   "game",
+   "speed"
   ]
  },
  "com.ebaykleinanzeigen.ebc": {
@@ -22282,20 +22313,19 @@
   ]
  },
  "com.frontpocketsoftware.happyscale": {
-  "category": "other",
+  "category": "lifestyle",
   "date": "2026-11-15",
-  "description": "HappyScale is an application featuring an injected subscription unlocked modification.",
-  "features": [
-   "Subscription Unlocked"
-  ],
+  "description": "\u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u0432\u0435\u0441\u0430 \u0438 \u043e\u0442\u0441\u043b\u0435\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430 \u043f\u043e\u0445\u0443\u0434\u0435\u043d\u0438\u044f \u0438\u043b\u0438 \u043d\u0430\u0431\u043e\u0440\u0430 \u043c\u0430\u0441\u0441\u044b, \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0449\u0435\u0435 \u0444\u0438\u043a\u0441\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b.",
+  "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "336823a502876dfb21a223b3ee30583540ee2dd6e987366c41232ce1d180588c",
-  "subtitle": "Subscription Unlocked",
+  "src_hash": "5f9cbb1fcb6698730ccb36d8106292089f8f5d584938acb0a4f18f91993b0ea9",
+  "subtitle": "Control weight and track your progress",
   "tags": [
-   "happyscale",
-   "subscription",
-   "unlocked",
-   "utility"
+   "weight",
+   "tracker",
+   "fitness",
+   "health",
+   "progress"
   ]
  },
  "com.frontrow.vlog": {
@@ -24261,6 +24291,51 @@
    "video",
    "mod",
    "media"
+  ]
+ },
+ "com.google.ios.youtube.cercube.6.6.0": {
+  "category": "photo-video",
+  "date": "2026-11-15",
+  "description": "Cercube is a modified version of YouTube that includes tools for offline playback, background audio, and ad blocking. Users can cache media, use Picture in Picture mode, block video and shorts ads, and set default playback quality for Wi-Fi and cellular connections. Additional options include automatically replaying videos, skipping sponsored segments, viewing dislike counts, and queueing videos. The app also allows users to reorder or hide tabs, select a custom startup page, and is available in 14 languages.",
+  "features": [
+   "Block ads",
+   "Background playback",
+   "Offline caching",
+   "Picture in Picture",
+   "Skip sponsors"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "acc38e1bd65917e340563de86163a70ac5528c89f79c68c856ffedb3d5d451ee",
+  "subtitle": "YouTube mod for offline playback and background audio",
+  "tags": [
+   "youtube",
+   "mod",
+   "media",
+   "playback",
+   "streaming",
+   "tools"
+  ]
+ },
+ "com.google.ios.youtube.cercube.6.6.0.legacy.support": {
+  "category": "photo-video",
+  "date": "2026-11-15",
+  "description": "Contains the Cercube mod for YouTube with support for devices running iOS 16 and below. Cache media for offline playback, use Picture in Picture from the YouTube player, keep video and audio playing in the background, block supported video, feed, and shorts ads, choose default playback quality separately for Wi-Fi and cellular data, reorder or hide tabs and select a startup page, automatically replay videos, skip sponsored segments automatically, show dislike counts on videos, add support for queuing videos, and available in 14 languages, including English, Spanish, and Arabic.",
+  "features": [
+   "Offline caching",
+   "Picture in Picture",
+   "Background playback",
+   "Ad blocker",
+   "Skip sponsors"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e74a9ab173848ff7856d5851e051d07f54dab33b58348a7a008de68c9a52f50b",
+  "subtitle": "YouTube mod with media caching and playback tweaks",
+  "tags": [
+   "youtube",
+   "mod",
+   "media",
+   "playback",
+   "cercube"
   ]
  },
  "com.google.ios.youtube.dltube.cracked.2.16.3.patched": {
@@ -34641,18 +34716,24 @@
  },
  "com.ishtiaqsyed.StatsForIOS": {
   "category": "utilities",
-  "date": "2026-11-13",
-  "description": "View your Mac system activity on iPhone over a local encrypted connection. This is a native, local-first system monitor that includes a lightweight Mac companion app and a mobile dashboard to help you track system performance.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "ddb6e3ece60a29d492f56b7a46dbac0913a2da7047253b6ab3e297c4c9fae053",
-  "subtitle": "Monitor your Mac system activity on iPhone",
+  "date": "2026-11-15",
+  "description": "View your Mac system activity on your iPhone over a local encrypted connection. Stats is a native, local-first system monitor featuring a lightweight Mac companion application and a mobile dashboard.",
+  "features": [
+   "Encrypted Connection",
+   "Local-First",
+   "Mac Companion",
+   "Mobile Dashboard"
+  ],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "83b7731276362d16f4814d375cf78fa4dacf1784988e06972d13f6598a838547",
+  "subtitle": "Mac system activity monitor for iPhone",
   "tags": [
-   "monitor",
    "mac",
    "system",
+   "monitor",
    "dashboard",
-   "performance"
+   "stats",
+   "activity"
   ]
  },
  "com.islamalimi": {
@@ -36757,17 +36838,18 @@
  "com.kodjodevf.mangayomi": {
   "category": "entertainment",
   "date": "2026-11-15",
-  "description": "Mangayomi is an open-source Flutter app for reading manga and novels and watching anime across multiple platforms.",
+  "description": "Mangayomi is a free and open source manga reader and anime streaming cross-platform app inspired by Tachiyomi and made with Flutter.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "efbd5d8e883fd337f4d64d73aa0320722d4b7ae37ff91f4bb5e7fcc7e62d32c4",
-  "subtitle": "Read manga and novels and watch anime",
+  "src_hash": "48b7547637b04aabe759859a68b1e7700cca4e84bf7f2e575f4b05d3bf0397a4",
+  "subtitle": "Open source manga reader and anime streaming app",
   "tags": [
    "manga",
    "anime",
-   "novels",
    "reader",
-   "open-source"
+   "streaming",
+   "flutter",
+   "open source"
   ]
  },
  "com.kommadot.casesimulator": {
@@ -38653,26 +38735,25 @@
   ]
  },
  "com.linkpass.kazumi": {
-  "category": "other",
+  "category": "entertainment",
   "date": "2026-11-15",
-  "description": "Kazumi-Swift is an anime collection and online viewing client based on custom rules, featuring danmu support. Developed with native SwiftUI, the interface uses liquid glass material that adapts to system appearance and accessibility settings. It includes a built-in mpv playback core with Anime4K real-time super resolution. It supports danmaku playback, Bangumi tracking integration, schedules, downloading, and WebDAV backup.",
+  "description": "Anime collection and online viewing client based on custom rules with danmaku support. Built with native SwiftUI featuring a liquid glass material interface that adapts to system appearance and accessibility settings. Includes a built-in mpv playback core with Anime4K real-time super resolution. Supports DanDanPlay danmaku, Bangumi tracking binding, schedules, downloads, and WebDAV backup.",
   "features": [
    "Custom rules",
-   "Danmu support",
+   "Danmaku support",
    "Anime4K super resolution",
-   "Bangumi integration",
+   "Bangumi tracking",
    "WebDAV backup"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "f24bb41b0837ddc241387fb009a8b9a107ded9f20b54b699f4fea00e61a856b8",
-  "subtitle": "Anime client with custom rules and danmu support",
+  "src_hash": "883bd9b9038f41ccffd0fe7c62fc76d44f0cc77fafc9534cf0de77a30b755701",
+  "subtitle": "Anime client with custom rules and danmaku support",
   "tags": [
    "anime",
+   "danmaku",
    "streaming",
-   "danmu",
-   "mpv",
-   "swiftui",
-   "video"
+   "video",
+   "player"
   ]
  },
  "com.liquidcat.space": {
@@ -42778,19 +42859,19 @@
  "com.mwm.procolor": {
   "category": "other",
   "date": "2026-11-15",
-  "description": "ColorPop includes a subscription unlock.",
+  "description": "Color Pop is an AI-powered coloring book app. This version includes subscription modifications.",
   "features": [
    "Subscription Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "cae30a91ae62c0ab42f2d3d16a8edd65f39d70bac72f4b9b172807ad26bf1b4e",
-  "subtitle": "ColorPop \u2013 Subscription Unlocked",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2c06a20bef7786aa3a287711d6cc05b9195159c4a6c6adba53ac051065b6bafc",
+  "subtitle": "AI coloring book for iOS",
   "tags": [
-   "colorpop",
-   "subscription",
-   "unlocked",
-   "app",
-   "ios"
+   "color",
+   "coloring",
+   "ai",
+   "book",
+   "art"
   ]
  },
  "com.mwm.sampler-app": {
@@ -43200,23 +43281,21 @@
   ]
  },
  "com.n3twork.tetris": {
-  "category": "other",
-  "date": "2026-11-07",
-  "description": "Tetris\u00ae version 7.7.9, patched build with no ads. Requires iOS 15.0 or later. Bundle identifier: c.",
+  "category": "games",
+  "date": "2026-11-15",
+  "description": "Tetris is a puzzle game. Version 7.3.3 includes a modification that removes ads.",
   "features": [
-   "No Ads",
-   "Patched"
+   "No Ads"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "332842fd377abb0f2b8ae62dde50b6340664d80cbe7136880c8094832ca4b6e3",
-  "subtitle": "Classic Tetris with no ads",
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "b2f1e7e290418b71f189ffe2ca6de77e9056974952b7f237bc2bcd3760198fe3",
+  "subtitle": "Ad-free Tetris puzzle game",
   "tags": [
    "tetris",
-   "no ads",
-   "patched",
-   "ios",
+   "puzzle",
    "game",
-   "tweak"
+   "ad-free",
+   "no-ads"
   ]
  },
  "com.na.istb": {
@@ -43570,22 +43649,23 @@
  },
  "com.ncs.gbox": {
   "category": "developer",
-  "date": "2026-10-28",
-  "description": "GBox is an application for signing and installing IPA files using a developer certificate. Features include signing applications and installation.",
+  "date": "2026-11-15",
+  "description": "GBox is an application designed for signing applications using a certificate, ensuring secure installation and management of IPA files directly on your device. This version is updated to 5.7.3 and created by GLESign.",
   "features": [
-   "App signing",
-   "IPA installation"
+   "IPA file management",
+   "Certificate signing",
+   "Secure installation"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "9c3fe0d493715528f209b345ed0378390aed8376b78d1cbad24e4aa302bd1605",
-  "subtitle": "Sign and install IPA files",
+  "src_hash": "3f515790366f495e137db8c9650ab450550e12b2d7e4af42ea9600dd0c3401dd",
+  "subtitle": "Sign and manage IPA files securely with certificates",
   "tags": [
    "gbox",
    "ipa",
    "signing",
-   "certfish",
-   "sideload",
-   "developer"
+   "certificate",
+   "developer",
+   "utility"
   ]
  },
  "com.nct.nhaccuatui": {
@@ -45148,19 +45228,24 @@
  },
  "com.nuvio.media": {
   "category": "other",
-  "date": "2026-11-11",
-  "description": "Nuvio Enhanced version 0.4.2 by scholars lounge. Bundle ID: com.nuvio.media. App by tapframe. This custom variant includes experimental features.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "968ffd49f486fcf1681f49909fd897eb4a66906cdbf455d998c574e14869d9b7",
-  "subtitle": "Custom variant with experimental features",
+  "date": "2026-11-15",
+  "description": "Nuvio is a media app that includes fixes and new features for iOS, grid views, details, streams, and sync. This update applies the Simkl More Like This source, logs mapped network conditions, and optimizes grid layouts to show 6 posters per row in landscape and 7 on tablets. iOS improvements include Dolby Vision RPU reshaping and Profile 5 frame conversion for Picture in Picture, toolbar fade extensions, header adjustments under native bars, native resolution MPV rendering, fixed hero trailers, and correct iPad settings navigation.",
+  "features": [
+   "Landscape grid layouts",
+   "Picture in Picture support",
+   "Dolby Vision support",
+   "Simkl integration",
+   "Stream sync"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "989ebe24cba22afc19e128a507ed778bda61101d43f265a71095b21efbf02a57",
+  "subtitle": "Media streaming and playback application",
   "tags": [
-   "nuvio",
-   "enhanced",
-   "custom",
-   "experimental",
    "media",
-   "variant"
+   "streaming",
+   "player",
+   "video",
+   "sync"
   ]
  },
  "com.nuvio.media.nuvio": {
@@ -55351,6 +55436,22 @@
    "certfish"
   ]
  },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.0.1.9.1.94.ios15only": {
+  "category": "entertainment",
+  "date": "2026-11-15",
+  "description": "EeveeSpotifyReincarnated is a modded version of Spotify. This application is compatible with iOS 15 only. It includes the EeveeSpotify tweak.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ff2ba6583d151d2d145aa932c802bca74930a186712f49ee08dfe801fdd179be",
+  "subtitle": "Modded version of Spotify for iOS 15",
+  "tags": [
+   "spotify",
+   "mod",
+   "music",
+   "audio",
+   "ios15"
+  ]
+ },
  "com.spotify.client.ios.eeveespotifyreincarnated.7.0.1.9.2.0": {
   "category": "entertainment",
   "date": "2026-11-14",
@@ -55365,6 +55466,26 @@
    "mod",
    "audio",
    "music"
+  ]
+ },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.0.1.patched.9.1.94.ios15only": {
+  "category": "entertainment",
+  "date": "2026-11-15",
+  "description": "Modded version of Spotify featuring EeveeSpotify tweaks. This application is compatible with iOS 15 only. Please note that this version does not work with Sidestore or LiveContainer.",
+  "features": [
+   "Patched version",
+   "iOS 15 only",
+   "EeveeSpotify tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "19232780241794aebba53f935e2e753ea56382abb160e749917edd06866834e0",
+  "subtitle": "Modded Spotify version for iOS 15",
+  "tags": [
+   "spotify",
+   "music",
+   "mod",
+   "audio",
+   "ios15"
   ]
  },
  "com.spotify.client.ios.eeveespotifyreincarnated.7.0.1.patched.9.2.0": {
@@ -55475,6 +55596,29 @@
    "patched",
    "ios",
    "sideload"
+  ]
+ },
+ "com.spotify.client.ios.shrubify.4.0.0.b42": {
+  "category": "entertainment",
+  "date": "2026-11-15",
+  "description": "Shrubify is a modded version of Spotify that brings a customizable player, personal listening statistics, smarter shortcuts, and a cleaner interface together in one familiar iOS app. This version includes EeveeSpotify tweaks.",
+  "features": [
+   "Customizable player",
+   "Listening statistics",
+   "Smarter shortcuts",
+   "Cleaner interface",
+   "EeveeSpotify tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "eab1a687853e6c307183921cce5548b80bba4d75acdcf9bfb99fb2b9455a6a07",
+  "subtitle": "Modded version of Spotify with extra features",
+  "tags": [
+   "spotify",
+   "music",
+   "player",
+   "statistics",
+   "shortcuts",
+   "audio"
   ]
  },
  "com.spotify.client.ios.spoti.pw.0.20.0.not.patched.9.1.84": {
@@ -55923,6 +56067,25 @@
    "music",
    "audio",
    "beta"
+  ]
+ },
+ "com.spotify.client.tvOS.9.1.98": {
+  "category": "entertainment",
+  "date": "2026-11-15",
+  "description": "Modded Spotify for Apple TV tvOS only. This application simply blocks advertisements on Apple TV for Spotify. This uses version 9.1.98 of Spotify for Apple TV. This is a tvOS build only, and iOS or iPadOS devices are not supported. The build is created by TubeVault and BallerMC.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e8428121d8c392c02c1160244cd5a83357ef9ed103d3d1d8669f114ed84c1151",
+  "subtitle": "Modded Spotify for Apple TV with ad blocking",
+  "tags": [
+   "spotify",
+   "tvos",
+   "apple tv",
+   "adblock",
+   "music",
+   "streaming"
   ]
  },
  "com.sprrrint.amble": {
@@ -57922,23 +58085,20 @@
   ]
  },
  "com.tapinfinity.HdjcXcode7": {
-  "category": "other",
-  "date": "2026-11-07",
-  "description": "foriOS is an injected iOS application with Pro features. Developer unknown.",
-  "features": [
-   "Injected Build",
-   "Pro Features"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "414578eb2964e22c322832e8970acc7f32724ee88f586308031d97807488fe42",
-  "subtitle": "Injected iOS app with Pro features",
+  "category": "developer",
+  "date": "2026-11-15",
+  "description": "Interactive tutorials for learning iOS programming on iPhone and iPad. Access development guides directly on your device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "e2bc08202a5f8de821bf7694631e1d8a77772d3560b2c900b8648c25ea4f60ee",
+  "subtitle": "Interactive tutorials for iOS programming",
   "tags": [
-   "injected",
-   "pro",
    "ios",
-   "modified",
-   "app",
-   "build"
+   "tutorials",
+   "programming",
+   "developer",
+   "iphone",
+   "ipad"
   ]
  },
  "com.tapped.zsurvivor": {
@@ -58352,20 +58512,20 @@
  },
  "com.thebcd69.bcd": {
   "category": "games",
-  "date": "2026-11-14",
-  "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS. Features built-in Steam and GOG integration, powered by Wine, FEX, and Metal via DXMT.",
+  "date": "2026-11-15",
+  "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS with Steam and GOG built in. Powered by Wine, FEX and Metal via DXMT.",
   "features": [
-   "Controller Friendly",
-   "Built-in Steam",
-   "Built-in GOG"
+   "Controller friendly",
+   "Steam built in",
+   "GOG built in"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "8c46bf388305af135a4b377645cc8bdf121ba4be805b4afdc823ef6b7f1b4387",
+  "src_hash": "508f083751382705843e0ab6b8a2a2aca5203ee43783aa9c282ad0c5e00e0a84",
   "subtitle": "Run Windows games on iOS and iPadOS",
   "tags": [
+   "games",
    "launcher",
    "windows",
-   "games",
    "steam",
    "gog",
    "emulator"
@@ -72431,23 +72591,18 @@
  "cz.kolbi.wqfiles": {
   "category": "utilities",
   "date": "2026-11-15",
-  "description": "File browser, app data manager and cache cleaner built on the worse_query sandbox technique. Browse other apps containers, edit plists, hex and SQLite databases, and back up, restore or clear app data without a jailbreak or kernel exploit.",
-  "features": [
-   "File browser",
-   "Cache cleaner",
-   "Database editor",
-   "Backup and restore"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "b4f9499080aeb9721760b6f11ba60d78c4a4590752c67d0865fc0a556342ab1f",
-  "subtitle": "File browser and app data manager for iOS",
+  "description": "WQ Files is a file browser, app data manager, and cache cleaner built using the worse_query sandbox technique. It accesses app and system containers without requiring a jailbreak or kernel exploit.\n\nCapabilities include:\n- App Data: View app sizes, back up and restore data, clear Documents, Library, and tmp folders, and share backups as ZIP files.\n- Cache Cleaner: View cache sizes, search apps, clean large caches over 50 MB, and clear crash logs.\n- File Manager: Browse, import, rename, delete, and edit files in place. Share folders as ZIP files.\n- Plist & Hex Editors: Edit plist files in binary or XML formats, and view or edit hex files of any size.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash",
+  "src_hash": "0047190e249454aa584f3398804eb56b47b139dd8b45079eccdd4e43eeef9a68",
+  "subtitle": "File browser, app data manager, and cache cleaner for iOS",
   "tags": [
-   "files",
-   "manager",
-   "browser",
-   "cleaner",
-   "database",
-   "sandbox"
+   "file manager",
+   "cache cleaner",
+   "plist editor",
+   "hex editor",
+   "app data",
+   "ios"
   ]
  },
  "dance.fitness.app": {
@@ -80290,17 +80445,24 @@
  },
  "net.yuandev.onexray": {
   "category": "utilities",
-  "date": "2026-11-14",
-  "description": "Bring your own servers or subscription. OneXray does not provide VPN access or proxy servers. Use it across your devices including iPhone, iPad, Mac, Android, Windows or Linux, featuring light and dark themes and five interface languages. Organize your servers by importing share links, Xray JSON, and subscriptions, and group manual nodes with drag-to-reorder support. Take control of routing by choosing Smart, Custom, Raw, or provider configurations, including Remnawave subscriptions. Complete setup and grant system permissions to get started, with outbound-interface selection required on Windows and Linux.",
-  "features": [],
+  "date": "2026-11-15",
+  "description": "OneXray is a client application that lets you bring your own servers or subscription. Note that OneXray does not provide VPN access or proxy servers. The app is available on iPhone, iPad, Mac, Android, Windows, and Linux, featuring light and dark themes as well as five interface languages. You can share links, Xray JSON, subscriptions, and manual groups, as well as perform server testing. It supports smart and custom routing, raw JSON, and complete provider configurations, including Remnawave.",
+  "features": [
+   "Cross-platform support",
+   "Smart and custom routing",
+   "Server testing",
+   "Multiple interface languages",
+   "Light and dark themes"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "e8ec01a477505856888695d5631a82813cbe8ba626d098d6f281a60dd5b17fe5",
+  "src_hash": "e5ae643cabc1f7fd719daf4a5cdb7d40a35b92f09d43ce1671ae1b21ebe1903d",
   "subtitle": "Bring your own servers or subscription",
   "tags": [
    "vpn",
    "proxy",
    "servers",
    "routing",
+   "client",
    "network"
   ]
  },
@@ -82968,25 +83130,23 @@
  },
  "sb.moe.kumone-ios": {
   "category": "entertainment",
-  "date": "2026-11-14",
-  "description": "Kumone is a native iOS client for NetEase Cloud Music that connects directly to NetEase's official API without third-party servers. It supports QR-code login, unblocks gray tracks, displays synced lyrics with translation, offers an immersive artwork-tinted now-playing screen, and provides playlist management. The app includes English and Simplified Chinese localizations.",
+  "date": "2026-11-15",
+  "description": "Kumone is a native NetEase Cloud Music client for iOS that talks directly to the real NetEase API with no third-party server. Features include QR-code login and gray-track unblocking.",
   "features": [
-   "Direct API Access",
-   "QR Login",
-   "Gray Track Unblock",
-   "Synced Lyrics",
-   "Artwork Now Playing"
+   "Native client",
+   "QR-code login",
+   "Gray-track unblock",
+   "Direct API access"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "2c9410dcd9d039ee365556a8fb3fbbf56a3c05e05686743eb8406896c041b87f",
-  "subtitle": "Native NetEase Cloud Music client",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "20d83260740d2fb28dd6ee3163c2f3a113894e9bfa697e506512167976c6138c",
+  "subtitle": "Native NetEase Cloud Music client for iOS",
   "tags": [
+   "music",
    "netease",
-   "cloud music",
-   "music player",
-   "chinese music",
-   "lyrics",
-   "playlist"
+   "client",
+   "audio",
+   "streaming"
   ]
  },
  "scannerapp.free": {
@@ -83693,22 +83853,19 @@
   ]
  },
  "tech.miidii.AlbumManager": {
-  "category": "other",
+  "category": "photo-video",
   "date": "2026-11-15",
-  "description": "KKPhoto is an app provided by an unknown developer. The source description states it is injected with unlocked all functions.",
-  "features": [
-   "Unlocked"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ef640e4a87a11b9799868ec0175ce4f350258b84398ff6c1abd68881d475d4a0",
-  "subtitle": "KKPhoto \u2013 Unlocked All Functions",
+  "description": "KK Photo on iOS delivers a flexible and user-friendly photo editing experience tailored for iPhone users who want fast yet polished results.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b08b67a1446dfae9f96cb012633fd8a1e5df76c91fc7384e478f3d0312d02d2a",
+  "subtitle": "Flexible and user-friendly photo editing for iPhone",
   "tags": [
    "photo",
-   "unlocked",
-   "functions",
-   "kkphoto",
-   "app",
-   "utility"
+   "editor",
+   "image",
+   "iphone",
+   "pictures"
   ]
  },
  "tech.miidii.MDBlank": {
