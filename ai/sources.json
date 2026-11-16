@@ -254,6 +254,11 @@
   "real": true,
   "reason": "This is a legitimate AltStore/SideStore app source hosted raw on GitHub, providing a JSON catalog of iOS apps."
  },
+ "https://raw.githubusercontent.com/LkTheCatice/dsh-phone-bridge/main/altstore/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate AltStore source hosted on GitHub, pointing to a raw JSON manifest for the DSH Helm (dsh-phone-bridge) app."
+ },
  "https://raw.githubusercontent.com/M4th12/RepoIPAs/main/source.json": {
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
@@ -298,6 +303,11 @@
   "model": "gemini:gemini-3.5-flash",
   "real": true,
   "reason": "Valid GitHub-hosted AltStore source JSON feed."
+ },
+ "https://raw.githubusercontent.com/RadhityaOG/IPA-Libary/main/repo.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "Valid GitHub raw JSON repository URL serving as an AltStore/SideStore app source containing a large library of IPAs."
  },
  "https://raw.githubusercontent.com/RajnishOne/qbitconnect-releases/main/altstore-pal.json": {
   "model": "gemini:gemini-3.5-flash-lite",
@@ -464,6 +474,26 @@
   "real": true,
   "reason": "The URL points to a valid JSON catalog hosted on GitHub for an AltStore app source."
  },
+ "https://raw.githubusercontent.com/atelierstore/Atelier/main/Packages/AtelierKit/Tests/SourceKitTests/Fixtures/altstore-classic.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate test fixture file containing an AltStore JSON source structure hosted in the official GitHub repository for AtelierStore."
+ },
+ "https://raw.githubusercontent.com/atelierstore/Atelier/main/Packages/AtelierKit/Tests/SourceKitTests/Fixtures/malformed.json": {
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "real": false,
+  "reason": "URL points to a test fixture file (malformed.json) in a GitHub repository's test directory, not a production AltStore/SideStore app source JSON catalogue."
+ },
+ "https://raw.githubusercontent.com/atelierstore/Atelier/main/Packages/AtelierKit/Tests/SourceKitTests/Fixtures/quantum.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": false,
+  "reason": "This is a test fixture file in a Swift package repository, not a genuine production AltStore source."
+ },
+ "https://raw.githubusercontent.com/atelierstore/Atelier/main/release/source-template.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid raw GitHub URL pointing to an AltStore/SideStore app source JSON template/release file."
+ },
  "https://raw.githubusercontent.com/auties00/artemis/refs/heads/main/source_pal.json": {
   "model": "gemini:gemini-3.5-flash",
   "real": true,
@@ -493,6 +523,11 @@
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
   "reason": "The URL points to a raw GitHub-hosted apps.json file that serves as an AltStore/iOS app source, containing a legitimate catalog of apps (AirCard-iOS)."
+ },
+ "https://raw.githubusercontent.com/bebound/AltGallery/master/apps/AltStore/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate raw GitHub URL pointing to an AltStore app source JSON file."
  },
  "https://raw.githubusercontent.com/bebound/AltGallery/master/apps/AniBaka/apps.json": {
   "model": "gemini:gemini-3.5-flash",
@@ -544,6 +579,11 @@
   "real": true,
   "reason": "This is a direct raw GitHub link to a valid AltStore JSON source containing the EhPanda app."
  },
+ "https://raw.githubusercontent.com/cartouche-app/Cartouche/main/app/sidestore-source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate raw GitHub JSON source file for the Cartouche app designed for AltStore and SideStore."
+ },
  "https://raw.githubusercontent.com/cbruegg/altstore-source/refs/heads/main/source.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
@@ -584,10 +624,20 @@
   "real": true,
   "reason": "This is a genuine AltStore source hosted on GitHub, containing a curated list of apps in the required JSON format."
  },
+ "https://raw.githubusercontent.com/faroukbmiled/RyukSign/main/app-repo.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a raw GitHub JSON file serving as a valid AltStore repository for the RyukSign app."
+ },
  "https://raw.githubusercontent.com/fuckmmw-afk/edge-eloquent/main/feather-source.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
   "reason": "The URL points to a JSON file hosted on GitHub that appears to be a legitimate AltStore/SideStore app source (catalog of iOS apps)."
+ },
+ "https://raw.githubusercontent.com/hertn/ChopPad-app/main/source.json": {
+  "model": "gemini:gemini-3.5-flash",
+  "real": true,
+  "reason": "Valid AltStore source hosted on GitHub for the ChopPad app."
  },
  "https://raw.githubusercontent.com/hesm4tt/framewise-ipa/main/framewise.json": {
   "model": "gemini:gemini-3.5-flash-lite",
@@ -608,6 +658,11 @@
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
   "reason": "The URL points to a raw JSON file (apps.json) that contains an app catalog with metadata, which matches the expected format of an AltStore/SideStore source."
+ },
+ "https://raw.githubusercontent.com/ipixeldev/iPixel-Files/main/source.json": {
+  "model": "gemini:gemini-3.5-flash",
+  "real": true,
+  "reason": "Valid GitHub-hosted JSON app source file for AltStore/SideStore."
  },
  "https://raw.githubusercontent.com/jorgepb96/scankit/main/source.json": {
   "model": "gemini:gemini-3.5-flash-lite",
@@ -704,10 +759,20 @@
   "real": true,
   "reason": "This is a valid AltStore/SideStore source hosted on GitHub raw."
  },
+ "https://raw.githubusercontent.com/rbc33/Fretline/main/docs/apps.json": {
+  "model": "gemini:gemini-3.5-flash",
+  "real": true,
+  "reason": "Official AltStore repository for the Fretline iOS app hosted on GitHub."
+ },
  "https://raw.githubusercontent.com/run2u006-hue/4WALLS-AltStore/main/source.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
   "reason": "The URL points to a raw JSON file on GitHub that appears to be a legitimate AltStore source catalogue (named 4Walls Source) containing at least one app entry."
+ },
+ "https://raw.githubusercontent.com/sithewok13-dev/OpenJKDF2-iOS/claude/openjkdf2-ios-build-2gcr9s/packaging/ios/altstore-source.json": {
+  "model": "gemini:gemini-3.5-flash",
+  "real": true,
+  "reason": "The URL points directly to a valid AltStore source JSON hosted on a GitHub repository for an open-source game port."
  },
  "https://raw.githubusercontent.com/squazaryu/TumoCompanion/main/apps.json": {
   "model": "gemini:gemini-3.5-flash-lite",
@@ -748,6 +813,26 @@
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
   "reason": "This is a direct raw GitHub link to a JSON app source file intended for AltStore, fitting the standard developer source structure."
+ },
+ "https://raw.githubusercontent.com/zKevinLy/aiostore/main/sources/nuvio.json": {
+  "model": "gemini:gemini-3.5-flash",
+  "real": true,
+  "reason": "Valid AltStore/SideStore JSON source hosted on GitHub Raw for the Nuvio app."
+ },
+ "https://raw.githubusercontent.com/zKevinLy/aiostore/main/sources/taurus.json": {
+  "model": "gemini:gemini-3.5-flash",
+  "real": true,
+  "reason": "Valid AltStore/SideStore app source JSON hosted on GitHub."
+ },
+ "https://raw.githubusercontent.com/zKevinLy/aiostore/main/sources/ytkace.json": {
+  "model": "gemini:gemini-3.5-flash",
+  "real": true,
+  "reason": "Valid AltStore/SideStore app source JSON hosted directly on GitHub."
+ },
+ "https://raw.githubusercontent.com/zKevinLy/aiostore/main/store.json": {
+  "model": "gemini:gemini-3.5-flash",
+  "real": true,
+  "reason": "Valid AltStore repository JSON hosted on GitHub."
  },
  "https://raw.githubusercontent.com/zenith-kamo/AltStore-PAL-LocalDevVPN/main/public/repo.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
