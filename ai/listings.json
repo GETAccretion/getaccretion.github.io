@@ -964,19 +964,22 @@
  },
  "ai.series.evergrove": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Evergrove Idle Grow Magic is an immersive idle fantasy game designed for iOS players. Experience idle gameplay mechanics set in a fantasy world where you grow magic.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "f6d30235f606bb1aa9f8f65df3f6f86285757d435e1feb5226906af55bca8fa1",
-  "subtitle": "Immersive idle fantasy game for iOS",
+  "date": "2026-11-18",
+  "description": "Evergrove is an idle fantasy game for iOS where you grow a magical grove through spells, nature, and strategic development. The game offers a calm, progression-based experience. This modified IPA version includes the iGameGod tweak. Join the Discord community for update notifications.",
+  "features": [
+   "IPA MOD",
+   "iGameGod Tweak"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "9d13507b2ff380b0fbcdae47fcf5436a2c2b6f227a4fe5d2e79c5916d461bbfe",
+  "subtitle": "Idle fantasy game with magic and strategy",
   "tags": [
-   "evergrove",
    "idle",
    "fantasy",
    "magic",
-   "game",
-   "ios"
+   "strategy",
+   "mod",
+   "tweak"
   ]
  },
  "ai.talkpal": {
@@ -2625,19 +2628,20 @@
   ]
  },
  "art.dreamerai.ios": {
-  "category": "photo-video",
-  "date": "2026-10-20",
-  "description": "Unlock new levels of inspiration and productivity with Dreamerland, an AI art generator designed for artists, designers, and creative individuals.",
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "Dreamerland is an AI-powered art generator designed for artists, designers, and creatives seeking inspiration and productivity. Featuring an intuitive interface and powerful AI algorithms, the application empowers users to explore digital art creation.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "7580103d4eaa4f6d26d84e72e444278469b30b12bad921ef1cffd43849eb80a8",
-  "subtitle": "AI Art Generator for artists and designers",
+  "src_hash": "9d7a2ded406b823cf94a5b1824732fec707a229d84fbd00a7a2a7d9b40d54797",
+  "subtitle": "AI-powered art generator for artists and designers",
   "tags": [
    "ai",
    "art",
    "generator",
    "design",
-   "creative"
+   "creative",
+   "digital"
   ]
  },
  "asia.zsoft.ztranslate": {
@@ -3395,19 +3399,20 @@
  },
  "cc.eras": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Eras of Wrestling IPA is an iOS game package that allows iPhone and iPad users to experience a detailed wrestling simulation. Manage your wrestling universe, book shows, and control matches on your mobile device.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Eras of Wrestling is a detailed wrestling management and simulation game for iPhone and iPad. This package includes the iGameGod tweak, allowing users to experience the wrestling simulation outside the traditional distribution model.",
+  "features": [
+   "iGameGod tweak included"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2ba42e830ddba0395bbcbf1a5610d695fb41ccf18951f7b6efa29f27d338b1a1",
-  "subtitle": "Detailed wrestling simulation game for iOS",
+  "src_hash": "b1586b5e40afa4ce711787f5c3ebf558ce432b3ca78aa14b2ee0aa0a689f40bd",
+  "subtitle": "Wrestling management and simulation game for iOS",
   "tags": [
    "wrestling",
    "simulation",
-   "manager",
+   "management",
    "game",
-   "sports",
-   "strategy"
+   "ios"
   ]
  },
  "cc.jasfun.wizard": {
@@ -4577,18 +4582,22 @@
  },
  "com.501.cuphero": {
   "category": "games",
-  "date": "2026-10-18",
-  "description": "Cup Heroes is an iOS game that captivates your senses and keeps you on the edge of your seat with its visual presentation.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "0f52a882144daf2aa1cabaf41e2cb1f27b1e279300da440e832735f41e41dd67",
-  "subtitle": "A thrilling iOS game",
+  "date": "2026-11-18",
+  "description": "Cup Heroes is a sports-themed iOS game featuring fast-paced matches and tournaments in a visually detailed universe. The release includes iGameGod tweaks for modified gameplay. Distributed as a modified IPA package.",
+  "features": [
+   "iGameGod Tweaks",
+   "Modded Version"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "89d096fbde5bf281925406be127770d72f4b5b95d059b4bea17db192a222ba88",
+  "subtitle": "Sports-themed competitive iOS game with tweaks",
   "tags": [
-   "cup",
-   "heroes",
-   "game",
-   "ios",
-   "arcade"
+   "sports",
+   "competitive",
+   "tournament",
+   "modified",
+   "tweaks",
+   "game"
   ]
  },
  "com.505games.terraria": {
@@ -5105,22 +5114,19 @@
   ]
  },
  "com.ClassDojo": {
-  "category": "other",
-  "date": "2026-11-17",
-  "description": "ClassDojo is a classroom communication platform connecting teachers, students, and parents. This modified version 18.54.0 requires iOS 18.0 or later. The subscription features are unlocked. Tweaked by @Sa1y0miii. Original app available on the App Store.",
+  "category": "utilities",
+  "date": "2026-11-18",
+  "description": "ClassDojo version 18.11.0 requires iOS 18.0 or later. This release includes an unlocked subscription feature.",
   "features": [
-   "Subscription unlocked"
+   "Subscription Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "fec1e6f01b478bb46f0a716e884436983a2022e1d19eef84f03ed9ae6ae4fc3f",
-  "subtitle": "Classroom communication with subscription unlocked",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "356c37c963e3ec35f9e2b3a5012f965b4e3051fec120eca40fba714cda00b21b",
+  "subtitle": "ClassDojo app version 18.11.0",
   "tags": [
    "classdojo",
-   "classroom",
-   "teacher",
-   "student",
-   "parent",
-   "communication"
+   "utilities",
+   "education"
   ]
  },
  "com.Clickandpressllc.GoodVibes": {
@@ -5267,19 +5273,19 @@
  },
  "com.DreamsStudio.CatLegendsIdleRPGs": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "Step into the shoes of a dedicated cat enthusiast and nurture a thriving cat-themed kingdom. Strategically expand your empire, recruit a diverse array of cat heroes, and navigate ever-evolving challenges in this enchanting idle RPG.",
+  "date": "2026-11-18",
+  "description": "Cat Legends - Idle RPG is an idle role\u2011playing game where you manage a cat\u2011themed kingdom, recruit cat heroes, and expand your empire through strategic upgrades. The game runs automatically while you are away, letting you progress offline.",
   "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "59f7f23fea1d3269d5502c33c7d2dae5c3deaebdd21ec50137f1743ba723e459",
-  "subtitle": "Build and manage your cat-themed kingdom",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "45cd66ef8ed941e2c87a0eb6ffd3e244016933a5ab3bc7276c4e9ff9d94355ca",
+  "subtitle": "Build a cat kingdom in this idle RPG",
   "tags": [
-   "cat",
-   "rpg",
    "idle",
+   "rpg",
+   "cat",
    "kingdom",
-   "strategy",
-   "heroes"
+   "heroes",
+   "strategy"
   ]
  },
  "com.EduAlexxis.MusicManager": {
@@ -5422,18 +5428,23 @@
  },
  "com.FirstPickStudios.Endless-Wander": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Endless Wander is a roguelike RPG for mobile devices, designed for players who enjoy challenging action gameplay and role-playing mechanics.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "e3110e66c3f8ac9ec0ec0ba70c3a6b2ef637f8fb3839b019c7693923f15dc663",
-  "subtitle": "Roguelike RPG action adventure",
+  "date": "2026-11-18",
+  "description": "Endless Wander is a roguelike role-playing game designed for iOS that combines procedural generation with classic role-playing elements to deliver a unique journey with every playthrough. This version includes the iGameGod tweak.",
+  "features": [
+   "Roguelike RPG",
+   "Procedural Generation",
+   "iGameGod Included"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3574c01178e7671f9f9e192c36ceca9685ebd2602ddf12616f3897cfc19c16a6",
+  "subtitle": "Roguelike RPG with procedural generation for iOS",
   "tags": [
+   "endless wander",
    "roguelike",
    "rpg",
-   "action",
-   "adventure",
-   "mobile"
+   "ios",
+   "game",
+   "igamegod"
   ]
  },
  "com.FreeDust.UnderDarkOffense": {
@@ -5774,17 +5785,18 @@
  },
  "com.Just2D.Drova.Mobile": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Drova: Forsaken Kin is a deep, story-driven action role-playing game. Experience an immersive adventure brought to mobile devices.",
+  "date": "2026-11-18",
+  "description": "Drova: Forsaken Kin is a story-driven action RPG with classic old-school gameplay, adapted for iOS. Distributed as an IPA file for installation outside the App Store. Includes the full game feature set.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "a228b29716d6e905a6e9f064a65cd77475b0cc081dfaf56f0e57fefc818b6165",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b9005565e3fe451c7d29e6f62c6ebede54aa446aac52d31d8a048fbb36dce98f",
   "subtitle": "Story-driven action RPG for iOS",
   "tags": [
    "rpg",
    "action",
    "story",
-   "game",
+   "ipa",
+   "classic",
    "mobile"
   ]
  },
@@ -6527,19 +6539,22 @@
   ]
  },
  "com.SmokeSpotGames.SkreetFigherzGame": {
-  "category": "games",
-  "date": "2026-10-20",
-  "description": "Dropcult offers immersive gameplay that invites iOS gamers to dive deep into its intricacies. Experience the rich tapestry of the game on your device.",
-  "features": [],
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "Dropcult offers immersive gameplay for iOS gamers, featuring game mechanics, insights, and iGameGod tweaks integration. Suitable for both seasoned players and newcomers.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c02af214e108db160fdfc9d284bfa67a0459c31e1ae0eb17214a57f9f039e701",
-  "subtitle": "Immersive gameplay experience for iOS",
+  "src_hash": "c3eea5b1ad8257a62a09b0c95ad91dd044428a59f96ed0a055e3eef7a846f9c1",
+  "subtitle": "Immersive gameplay guide and tweaks",
   "tags": [
    "dropcult",
-   "game",
-   "ios",
+   "tweaks",
+   "igamegod",
    "gaming",
-   "action"
+   "guide",
+   "ios"
   ]
  },
  "com.SmyrnaGames.MyPerfectCasino": {
@@ -6861,18 +6876,19 @@
  },
  "com.TandemApps.KingOfTheStreet": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Drag Sim King Of The Racing is an iOS racing game package that brings a focused drag racing experience.",
+  "date": "2026-11-18",
+  "description": "Drag Sim: King Of The Racing is an iOS racing game that delivers a focused drag racing simulation. Enjoy precision-based driving, vehicle tuning, and competitive gameplay centered around straight-line racing. The app is available for installation on iPhone via sideloading.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "1d7e0be8afcb957103a3935e8bc41009b1360cf4308a08faf613db1a0d0c4cc6",
-  "subtitle": "iOS drag racing game package",
+  "src_hash": "a5600a5bfe7cf39887025ac4c2c245fbefc69b779db8d548470e57cebcb8ccd2",
+  "subtitle": "Drag racing simulation for iPhone users",
   "tags": [
-   "racing",
    "drag",
-   "car",
-   "game",
-   "ios"
+   "racing",
+   "simulation",
+   "tuning",
+   "cars",
+   "game"
   ]
  },
  "com.Teaching.com.Reading": {
@@ -7033,19 +7049,24 @@
  },
  "com.TornadoBear.DinoKing": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Dino King \u2013 Jurassic Hunt is an action-packed mobile game that transports players back to the prehistoric era.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "f128f07503e0ece719ca8a3513366cf7d3b76e061cb3a06809b9a8b4022d7980",
-  "subtitle": "Prehistoric action game with dinosaurs",
+  "date": "2026-11-18",
+  "description": "Step into the prehistoric era in Dino King, an action-packed mobile game where dinosaurs roam freely and survival is the ultimate goal. This modified version features enhanced elements, unlimited resources, and smoother gameplay. Includes the iGameGod tweak.",
+  "features": [
+   "Unlimited resources",
+   "Enhanced features",
+   "Smoother gameplay",
+   "iGameGod included"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "289fd7c5485dfbf5afd9a4da0a421f4d21af422e48160f605011e70f17cf7459",
+  "subtitle": "Jurassic Hunt action game for iOS",
   "tags": [
    "dinosaur",
    "action",
-   "game",
-   "prehistoric",
+   "hunt",
    "jurassic",
-   "hunt"
+   "game",
+   "survival"
   ]
  },
  "com.ToweringTower.KnightLancer": {
@@ -7516,19 +7537,20 @@
  },
  "com.abi.cook.chill": {
   "category": "games",
-  "date": "2026-10-18",
-  "description": "Cookingdom IPA is the iOS installation package of the Cookingdom game that allows iPhone and iPad users to install and play the game on their devices.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Cookingdom is an iOS game installation package that allows iPhone and iPad users to install the application through sideloading methods. The package includes all necessary resources such as recipe systems, cooking mechanics, kitchen environments, and the user interface. This IPA file features integration with iGameGod.",
+  "features": [
+   "iGameGod"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "6cf4814715515ae18dc73c44328a7253bf3de45c123704fabf19c17146bbe86d",
+  "src_hash": "cef3c8d64d69918fe95904a9b0ba10e698221b451f610964d2b5678f88fcd97c",
   "subtitle": "Cookingdom iOS installation package",
   "tags": [
    "cookingdom",
    "game",
    "ipa",
    "ios",
-   "iphone",
-   "ipad"
+   "sideload"
   ]
  },
  "com.abi.legendofsurvivors": {
@@ -10506,20 +10528,21 @@
  },
  "com.appsoleut.car.driving.multiplayer": {
   "category": "other",
-  "date": "2026-11-16",
+  "date": "2026-11-18",
   "description": "Car Driving Multiplayer is a realistic driving simulation game designed to give players the thrill of open-world exploration, racing, and social interaction all in one app. Unlike ordinary racing titles, this game emphasizes realism, multiplayer interaction, and customizable driving experiences. This version includes tweaks via iGameGod.",
   "features": [
    "iGameGod Tweaks"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "5b1e962f99882ec8e91f3d28f97636b5a6bcfda5574cec9bd2474c5e2b65fb70",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "93fd9da57a5da01947dc559690720559871ec35b558dc6329b6601935e816cc2",
   "subtitle": "Realistic open-world driving simulation game",
   "tags": [
    "driving",
    "multiplayer",
    "simulation",
    "racing",
-   "cars"
+   "cars",
+   "open world"
   ]
  },
  "com.appwallet.videosplitter": {
@@ -10967,19 +10990,19 @@
  },
  "com.ates.DELTARUNE": {
   "category": "other",
-  "date": "2026-10-20",
-  "description": "This app provides Deltarune chapters 1 through 4.",
+  "date": "2026-11-18",
+  "description": "Deltarune chapters 1-4. Get notified when tweaks update via Discord.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ea376e78498d8cbe6c2841cfdc06ac849172808d46f7cd3fd402d940fd2fb042",
-  "subtitle": "Deltarune chapters 1\u20114",
+  "src_hash": "1c258a5a3aac29dc367c9edd382263c512bba31b8d87c36b4ab21ee0f4f3099a",
+  "subtitle": "Deltarune Chapters 1-4",
   "tags": [
    "deltarune",
    "chapter",
-   "1",
-   "2",
-   "3",
-   "4"
+   "game",
+   "tweak",
+   "discord",
+   "update"
   ]
  },
  "com.atesquik.uty": {
@@ -11468,18 +11491,17 @@
  },
  "com.bailing.lark.roll.dev": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Dicero! is a casual puzzle game built around dice mechanics and strategic thinking. The app is distributed as an iOS installation file.",
+  "date": "2026-11-18",
+  "description": "Dicero! is a casual puzzle game built around dice mechanics and strategic thinking. It is designed for players who enjoy quick-thinking challenges.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "392d1bc05f729726282917a8955938344f9fdc6e2ac68b4b53b9267a99f3024e",
-  "subtitle": "Casual puzzle game with dice mechanics and strategy",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "254fbd9ef07d28679f9f6ab02a5c2f0038ef035a29c1005fa2652c2d196e4964",
+  "subtitle": "A casual puzzle game built around dice mechanics.",
   "tags": [
-   "casual",
    "puzzle",
    "dice",
    "strategy",
-   "ios",
+   "casual",
    "game"
   ]
  },
@@ -12197,32 +12219,36 @@
  },
  "com.bigfishgames.cookingempireuniversalf2p": {
   "category": "games",
-  "date": "2026-10-18",
-  "description": "Cooking Craze Restaurant Game lets users experience the joys and challenges of running their very own restaurant.",
+  "date": "2026-11-18",
+  "description": "Cooking Craze Restaurant Game is a game that lets users experience the joys and challenges of running their very own restaurant. This iOS game blends fast-paced gameplay with strategy, allowing players to put their cooking skills to the test while managing a thriving diner. Explore unique features and challenges that make this game an engaging experience for management and strategy enthusiasts.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "100ab1961382d92c9f2f26c0ffbab63f634b8efaeb13c8ac6e87d457258027e4",
-  "subtitle": "Experience the joys and challenges of running a restaurant",
+  "src_hash": "6bade3cb2f6834e728356cf55ff3cd0850c6fe387eacb6d89f06597c854d37ab",
+  "subtitle": "Run your own restaurant and test your cooking skills",
   "tags": [
    "cooking",
    "restaurant",
-   "game",
    "management",
-   "simulation"
+   "strategy",
+   "diner",
+   "game"
   ]
  },
  "com.bigfishgames.mergetalesios": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "EverMerge is a captivating merge and match puzzle game designed specifically for iOS users. Combine elements to progress through the game.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "28f48f5ab3a8c319fddcdf8038b503c88d78352cd3b5b1cebee6f54797d0eb97",
+  "date": "2026-11-18",
+  "description": "EverMerge is a merge and match puzzle game for iOS users. It combines elements of fantasy, town building, and classic merge mechanics. The game features vibrant graphics and intuitive gameplay, and includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "dca2e891e2dc28bd19946a3398e94665970284cc80976e871d576bfc3610a687",
   "subtitle": "Merge and match puzzle game for iOS",
   "tags": [
-   "puzzle",
    "merge",
    "match",
+   "puzzle",
+   "fantasy",
    "game",
    "ios"
   ]
@@ -12329,24 +12355,22 @@
   ]
  },
  "com.bitalyze.app": {
-  "category": "other",
-  "date": "2026-11-17",
-  "description": "Bitalyze alerts you when installed tweaks receive updates. Requires iOS 15.1 or later. Version 1.5.4. Tweaked by @Sa1y0miii. Includes a restore option for purchases. Free update notifications available via Discord.",
+  "category": "utilities",
+  "date": "2026-11-18",
+  "description": "Bitalyze is a utility application requiring iOS 15.1 or later. Current version is 1.4.4. Available on the App Store. Includes a restore function as noted in the release information.",
   "features": [
-   "Tweak Update Alerts",
-   "Discord Notifications",
-   "Restore Purchases"
+   "Restore Option"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "247c6234c5ddda702249233edd126e33de3cee0e29ac495a5deffd76b9e8b7bb",
-  "subtitle": "Get notified when your tweaks update",
+  "src_hash": "89d2c49a10ae30f0fd6a890f3e09fe626c398c63b860e16029994367b8451a2e",
+  "subtitle": "Utility app for iOS 15.1 and later",
   "tags": [
-   "tweaks",
-   "updates",
-   "discord",
-   "notifications",
+   "utility",
    "ios",
-   "utility"
+   "restore",
+   "tool",
+   "app",
+   "update"
   ]
  },
  "com.bitmango.ap.lollipopmatch3": {
@@ -12733,20 +12757,20 @@
  },
  "com.boombitgames.DartsClub": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Darts Club brings the classic pub game of darts to your fingertips. Enjoy an engaging iOS gaming experience focused on the traditional sport of darts.",
+  "date": "2026-11-18",
+  "description": "Darts Club brings the classic pub game of darts to your fingertips with intuitive controls and stunning graphics. Enjoy competitive dart tossing from the comfort of your home or on the go. This version includes unlimited currencies.",
   "features": [
    "Unlimited Currencies"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "1c0766a0247edf2889ad96e6fab155b662f0450d3bbef2f26afaf80aac0c0e16",
-  "subtitle": "Pub darts game for iOS",
+  "src_hash": "260b721f77effcec4a4862e6837450e505c62274e4baee9c10abf5711b83d3e2",
+  "subtitle": "Play competitive dart tossing on your iOS device",
   "tags": [
    "darts",
    "sports",
-   "pub",
    "game",
-   "ios"
+   "pub",
+   "competitive"
   ]
  },
  "com.boomdrag.devtycoon2": {
@@ -13046,18 +13070,19 @@
  },
  "com.brewgames.dropaway": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Drop Away is a casual puzzle game on iOS that focuses on color matching and logical thinking. Designed for short and engaging play sessions, challenge yourself to solve color puzzles and test your logic skills.",
+  "date": "2026-11-18",
+  "description": "Drop Away is a casual puzzle game for iOS that focuses on color matching and logical thinking. Designed for short and engaging play sessions, the game challenges players to clear colored blocks by carefully planning each move. It provides a clean and relaxing gameplay experience that balances simplicity with strategy.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "ebc7a03121e0653e6f99d70da799a2b3e57e15a2b86bef79de2bc1b5af3dc2c7",
-  "subtitle": "A casual puzzle game of color matching and logic",
+  "src_hash": "7df12b42d0e92064d8d1ab4f9120a577421bbf40de8e354b8026dc523a4b665a",
+  "subtitle": "A casual color matching and logical puzzle game",
   "tags": [
    "puzzle",
    "color",
    "casual",
+   "strategy",
    "logic",
-   "game"
+   "blocks"
   ]
  },
  "com.brewlog.app": {
@@ -13196,22 +13221,24 @@
   ]
  },
  "com.budgestudios.BarbieDreamhouse": {
-  "category": "entertainment",
-  "date": "2026-10-20",
-  "description": "Experience Barbie Dreamhouse Adventures on iOS with premium features unlocked. Dive into the iconic Barbie franchise and explore the dreamhouse with enhanced gameplay options.",
+  "category": "games",
+  "date": "2026-11-18",
+  "description": "Modified version of Barbie Dreamhouse Adventures for iOS. Explore Barbie's luxurious Dreamhouse and embark on adventures in this premium unlocked edition. Includes iGameGod tweak support for enhanced gameplay. Get notifications for tweak updates via Discord community.",
   "features": [
-   "Unlocked"
+   "Premium Unlocked",
+   "iGameGod Tweaks",
+   "Modded Version"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "b619ea28d9afd878aaaaadd9580410e22c3c94f5dcf377f776acc29fd38707df",
-  "subtitle": "Barbie Dreamhouse Adventures MOD",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fa75831ceadae130b4735fbf2534daef2a761d84698a1c9bd558716a0e79d0f0",
+  "subtitle": "Barbie Dreamhouse Adventures mod with premium features",
   "tags": [
    "barbie",
    "dreamhouse",
-   "adventures",
+   "adventure",
    "mod",
    "premium",
-   "ios"
+   "game"
   ]
  },
  "com.budgestudios.HotWheelsUnlimited": {
@@ -15236,16 +15263,16 @@
  },
  "com.colossi.survival.samurai": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Daisho Survival of a Samurai is a captivating samurai survival game that transports players to the heart of feudal Japan.",
+  "date": "2026-11-18",
+  "description": "Daisho Survival of a Samurai is a survival game set in feudal Japan. Players use strategy and survival instincts in a cultural setting designed for history enthusiasts and gamers alike.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "604b71a0ff8ab8391b356ce335ccf4a8dcfeed26b628b7810a19df87070a70b3",
-  "subtitle": "A samurai survival game in feudal Japan",
+  "src_hash": "a43520d12f88efa3a92b24a834ca88850ea730d07509a4dd57c6f339b46cf2b1",
+  "subtitle": "Feudal Japan samurai survival game",
   "tags": [
    "samurai",
    "survival",
-   "action",
+   "strategy",
    "japan",
    "game"
   ]
@@ -15545,19 +15572,21 @@
   ]
  },
  "com.cooking.world.chef.craze.restaurant.fever": {
-  "category": "games",
-  "date": "2026-10-18",
-  "description": "Experience Cooking World, a cooking game featuring the aroma of simmering sauces and the sizzle of frying pans. Prepare various dishes and test your culinary skills in a kitchen environment.",
-  "features": [],
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "Step into a vibrant kitchen where you can take on exhilarating time-management challenges and intricate recipes. Experience culinary aspirations with the tap of a finger in this cooking game tailored for iOS enthusiasts.",
+  "features": [
+   "iGameGod"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "09be7f7c7be534b9cb1f297f4694d66d85b8d676a5eabf3e7733fc79e4149313",
-  "subtitle": "Cooking World Game",
+  "src_hash": "2f7a9db47da4493c05a50c56ab966528c24340400fea5a1aedc56a48b8694a1a",
+  "subtitle": "Step into a vibrant kitchen in this cooking game",
   "tags": [
    "cooking",
-   "game",
+   "games",
    "kitchen",
-   "food",
-   "chef"
+   "recipes",
+   "time-management"
   ]
  },
  "com.cookwell.app": {
@@ -15923,19 +15952,20 @@
   ]
  },
  "com.crunchyroll.eminenceinshadowrpg": {
-  "category": "games",
-  "date": "2026-10-21",
-  "description": "The Eminence in Shadow RPG IPA invites players to step into the shoes of a master tactician as you embark on an adventure.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "afb4557713f5be8c986b410eb08845524a991d03cc97cbb040e2a58abd585489",
-  "subtitle": "Step into the shoes of a master tactician",
+  "category": "entertainment",
+  "date": "2026-11-18",
+  "description": "The Eminence in Shadow RPG invites players to step into the shoes of a master tactician. Embark on an adventure that blends whimsical parody with rich storytelling. Designed with meticulous attention to detail, this RPG offers an immersive experience brimming with engaging gameplay.",
+  "features": [
+   "iGameGod"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6f00334e69ef866b483f368fc7d9c950cf855fa08c98facdadb6cf85f140e5c9",
+  "subtitle": "Step into the shoes of a master tactician in this RPG",
   "tags": [
    "rpg",
    "tactician",
    "adventure",
-   "shadow",
-   "eminence",
+   "storytelling",
    "game"
   ]
  },
@@ -16514,21 +16544,20 @@
   ]
  },
  "com.daerigame.demonicsect": {
-  "category": "other",
-  "date": "2026-10-20",
-  "description": "Demonicsect is a modified IPA collection tested and compiled by the TTJB Team. Access added modded functions and applications through this platform.",
-  "features": [
-   "Mods included"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "10d67560e3c07528fd3404d11840253a28476dcbdcd3c920906c18876da6a296",
-  "subtitle": "Modified IPA collection and tools",
+  "category": "games",
+  "date": "2026-11-18",
+  "description": "Demonic Tao is a 2D MMORPG for iOS featuring classic pixel\u2011art graphics and modern multiplayer online role\u2011playing mechanics. It runs natively on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dc9ee27af0983f1df0a0e2514268ce498ca7106322348aabe79f624905e52174",
+  "subtitle": "Classic 2D MMORPG for iOS",
   "tags": [
-   "demonicsect",
-   "ttjb",
-   "ipa",
-   "mods",
-   "tools"
+   "mmorpg",
+   "2d",
+   "ios",
+   "multiplayer",
+   "pixel",
+   "rpg"
   ]
  },
  "com.daerigame.dragon": {
@@ -16549,22 +16578,25 @@
   ]
  },
  "com.daerigame.elemental": {
-  "category": "other",
-  "date": "2026-10-21",
-  "description": "Elemental offers hack features for Echo of Elements. Features include unlimited diamonds that appear after making a purchase, and fast level progression achieved by beating PVE stages.",
+  "category": "games",
+  "date": "2026-11-18",
+  "description": "Elemental is a 2D retro-style open-world MMORPG featuring pixel-art fantasy gameplay, deep customization, multiplayer exploration, and elemental combat. This modified version includes integrated iGameGod tweaks.",
   "features": [
-   "Unlimited Diamonds",
-   "Fast Level Up"
+   "iGameGod",
+   "Open World",
+   "Multiplayer",
+   "Elemental Combat"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "5d1ec9cc374a3af0c86bd339e7a99d59a085a5a8ff169be365e9ccfce2c83053",
-  "subtitle": "Echo of Elements game modification",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ae2ef4a20a708047eb47c007ef9c2fc10fe6a207ec608f2c26e42ebd3b96f5ad",
+  "subtitle": "Retro pixel-art fantasy MMORPG adventure",
   "tags": [
-   "elemental",
-   "echo of elements",
-   "game mod",
-   "hack",
-   "diamonds"
+   "mmorpg",
+   "pixel",
+   "fantasy",
+   "retro",
+   "adventure",
+   "multiplayer"
   ]
  },
  "com.daerigame.volleygirls": {
@@ -17134,51 +17166,57 @@
  },
  "com.dencreak.dlcalculator": {
   "category": "utilities",
-  "date": "2026-10-18",
-  "description": "ClevCalc is a calculator app designed to provide advanced features and customization options compared to basic calculator apps.",
+  "date": "2026-11-18",
+  "description": "ClevCalc is a calculator app for iOS and Android that offers advanced features and customization options beyond basic calculations.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d3b532646e0ad8f47f77a88a7b215fc700b39ce54702d7820b47d6d333ede83f",
-  "subtitle": "Advanced calculator with customization options",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1d157f1ebbe3d5c3a8074afe711d5ad09d625b299cb4e45e504691f366c89dc9",
+  "subtitle": "Advanced calculator with customization",
   "tags": [
    "calculator",
-   "math",
-   "utilities",
-   "compute",
-   "tools"
+   "advanced",
+   "customizable",
+   "ios",
+   "android",
+   "utility"
   ]
  },
  "com.desertwarrior.joygame": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Desert Warrior RPG is an iOS game package for iPhone that lets players experience a desert-themed adventure.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "6e68d08bee5e25ab31d72974a812f4eab0695e6d66ceac55735b9e6207eea232",
-  "subtitle": "Desert-themed RPG for iPhone",
+  "date": "2026-11-18",
+  "description": "Desert Warrior RPG is an iOS game package designed for iPhone users who want to experience a desert-themed role-playing adventure through sideloading. It combines exploration, combat, and character progression in a world inspired by harsh landscapes and survival challenges that shape the player journey. The app includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2e65d987450433621be894be28c91e970b23dea57e53183160bea2bdad1c0d55",
+  "subtitle": "A desert-themed role-playing adventure game",
   "tags": [
-   "desert",
    "rpg",
+   "adventure",
+   "desert",
+   "combat",
    "game",
-   "iphone",
-   "ipa"
+   "ios"
   ]
  },
  "com.deus.myth": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Deus Myth Game is a groundbreaking adventure RPG designed exclusively for iOS devices, bringing mythological storytelling to your",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "02952fab24f92c4aa1eb221d5c7e87ab440599b4f9e27d35fed314e8c67bd07d",
-  "subtitle": "Adventure RPG with mythological storytelling",
+  "date": "2026-11-18",
+  "description": "Deus Myth is an adventure RPG designed for iOS devices that combines mythological storytelling, stunning visuals, and immersive gameplay. Dive into a realm where gods, legends, and heroes come to life through a unique blend of strategic combat and narrative-driven quests. This version includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e46bfd18ba2240ff23c70a73d6e6112f47bae41e261630cc13f94fc6157fdc70",
+  "subtitle": "An immersive mythological adventure RPG for iOS",
   "tags": [
-   "adventure",
    "rpg",
-   "mythological",
-   "ios",
-   "storytelling",
-   "groundbreaking"
+   "adventure",
+   "mythology",
+   "strategy",
+   "game",
+   "ios"
   ]
  },
  "com.deuscraft.TurboTeam": {
@@ -17803,21 +17841,19 @@
  },
  "com.dino.bus.out": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "Bus Out is a fast-paced action game for iPhone where players drive commandeered buses through city streets. Navigate crowded roads, dodge law enforcement, and complete dynamic missions in an unconventional sandbox experience. Includes iGameGod tweaks for modified gameplay.",
-  "features": [
-   "iGameGod Tweaks"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "20ad295d04f7575cc6a391dc0742b702e69ee1fb5d79d822a030ae2f57fd2f9a",
-  "subtitle": "Fast-paced bus driving action game",
+  "date": "2026-11-18",
+  "description": "Bus Out is a fast-paced action game for iPhone that blends chaotic driving, strategic escapes, and dynamic missions into an unconventional city sandbox experience. Instead of typical racing or simulator mechanics, Bus Out puts players behind the wheel of commandeered buses, tasking them with navigating crowded streets, dodging law enforcement, and completing missions in a dynamic urban environment.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b806cd922d467cc3bd4a38c8085f359592b7053f00657dd331f143075b6e522f",
+  "subtitle": "Action-packed city bus escape game",
   "tags": [
+   "bus",
    "action",
    "driving",
    "sandbox",
-   "bus",
-   "game",
-   "tweaks"
+   "escape",
+   "game"
   ]
  },
  "com.dino.weapon.backpack": {
@@ -17872,20 +17908,23 @@
   ]
  },
  "com.disney.emojimatch": {
-  "category": "games",
-  "date": "2026-10-21",
-  "description": "Disney Emoji Blitz IPA MOD iOS is a popular mobile game that brings together the magical world of Disney and the addictive gameplay of match-three puzzles.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "b51a2c81fe8d9ffff7bb1b7a23addc35ccdb2933dee02312a77ac19b74b1ca39",
-  "subtitle": "Disney Emoji Blitz game",
+  "category": "entertainment",
+  "date": "2026-11-18",
+  "description": "Disney Emoji Blitz is a match\u2011three puzzle game for iOS where players collect and play as Disney characters represented as emojis. This release is an IPA MOD version that includes the iGameGod tweak. Users can join a Discord server to receive notifications when tweaks are updated.",
+  "features": [
+   "Modded",
+   "iGameGod Tweak"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f1f48873f52a070a827ac6dbde3352c9e210d121286ea46516b530ab888f691b",
+  "subtitle": "Disney Emoji Blitz modded match\u20113 game",
   "tags": [
    "disney",
    "emoji",
    "blitz",
-   "puzzle",
-   "game",
-   "mod"
+   "match3",
+   "mod",
+   "tweak"
   ]
  },
  "com.distractionware.superhexagon": {
@@ -18218,18 +18257,21 @@
  },
  "com.dragon.escape.island.adventure": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Dragon Farm: Island Adventure is a gaming experience featuring vibrant landscapes and charming creatures. Build and manage your farm on an island adventure.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Dragon Farm: Island Adventure invites you to cultivate your very own dragon farm, nurture a diverse array of fantastical beasts, and explore lush islands brimming with secrets and surprises. Experience vibrant landscapes and charming creatures in this enchanting gaming adventure.",
+  "features": [
+   "iGameGod"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4965b4fbe5e0acd4cf8842389901dfcf2babf1dde009d759a7e82c39e3b29694",
-  "subtitle": "Explore vibrant landscapes and charming creatures",
+  "src_hash": "f1437c6e1c948c46865d887249ec2dae96c6576f6503f935098497315b8fe14b",
+  "subtitle": "Cultivate a dragon farm and explore lush islands",
   "tags": [
    "dragon",
    "farm",
-   "island",
    "adventure",
-   "game"
+   "island",
+   "game",
+   "tweaks"
   ]
  },
  "com.dragonplus.makeoverdream": {
@@ -18265,19 +18307,21 @@
   ]
  },
  "com.dream.dale": {
-  "category": "lifestyle",
-  "date": "2026-10-20",
-  "description": "Embark on a whimsical journey to Dreamdale Fairy Adventure, where enchantment and adventure await at every turn.",
-  "features": [],
+  "category": "entertainment",
+  "date": "2026-11-18",
+  "description": "Embark on a whimsical journey to Dreamdale Fairy Adventure, where enchantment and adventure await at every turn. In this captivating realm, vibrant ideas and childhood fantasies come to life, allowing you to immerse yourself in a magical fairy tale. Step foot into Dreamdale and experience a kaleidoscope of colors.",
+  "features": [
+   "iGameGod tweak included"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d5c816ab4b75d03ca362f9039986a059b2809be10cd2952ef378dbd8b48091d9",
-  "subtitle": "Embark on a whimsical fairy adventure",
+  "src_hash": "2d5fdc23144115d11a2c1b3a701e44a256275d56cfa17d5e47bc698aca7968a8",
+  "subtitle": "Embark on a whimsical fairy tale adventure",
   "tags": [
    "dreamdale",
-   "fairy",
    "adventure",
-   "journey",
-   "enchantment"
+   "fairy",
+   "game",
+   "magic"
   ]
  },
  "com.dream11.sportsguru": {
@@ -18741,18 +18785,21 @@
  },
  "com.ea.ios.fifamobile": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "EA SPORTS FC Mobile Soccer is a mobile soccer game that lets you use your iOS device to take your favorite teams and leagues to the next level.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "EA SPORTS FC Mobile Soccer is a mobile soccer game developed by Electronic Arts that lets you take your favorite teams and leagues to their next level. Use your iOS device to experience soccer gameplay with real teams and leagues. This version includes tweaks via iGameGod.",
+  "features": [
+   "iGameGod included"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "119ddb105357638ee1a57da264db01a28137e891c53934a7d7aff0fa2bf07153",
-  "subtitle": "Mobile soccer game with favorite teams and leagues",
+  "src_hash": "ec5721dd00aa7f9b4057b2a5ffb74d9ca219792d293d807961a4a30e62e395a0",
+  "subtitle": "Mobile soccer game featuring your favorite teams and leagues",
   "tags": [
    "soccer",
-   "sports",
    "football",
-   "game",
-   "mobile"
+   "sports",
+   "ea",
+   "mobile",
+   "game"
   ]
  },
  "com.ea.ios.fifaworld": {
@@ -18958,19 +19005,20 @@
   ]
  },
  "com.eastsidegames.doctorwho": {
-  "category": "games",
-  "date": "2026-10-20",
-  "description": "Step into the shoes of the Doctor and explore in this immersive gaming experience. Play the Doctor Who Lost in Time IPA MOD iOS app and enjoy the adventure.",
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "An immersive gaming experience where you play as the Doctor, explore various eras, and encounter familiar characters and foes. Includes the iGameGod tweak. Join the Discord server to receive notifications when tweaks update.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d63a12a898404a3e64875ecb6e0708977e295b3998ca823ec8e96b8d472a5fe3",
-  "subtitle": "Step into the shoes of the Doctor and explore",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "94ce6f300b3c9055bb3b5866bb9bd671b9c806d5b034cc0aa7876b82ca277b70",
+  "subtitle": "Travel through time as the Doctor",
   "tags": [
-   "doctor who",
-   "lost in time",
+   "doctor-who",
+   "time-travel",
    "game",
-   "adventure",
-   "explore"
+   "tweak",
+   "discord",
+   "igamegod"
   ]
  },
  "com.eastsidegames.dragrace": {
@@ -19220,19 +19268,24 @@
  },
  "com.edkongames.cgsg": {
   "category": "games",
-  "date": "2026-10-18",
-  "description": "Contra Guns is an action shooter game package for iPhone users. Engage in player versus player shooting battles directly on your iOS device.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "9b140dff3ea4b97a18bec33efa8d06a20fd5b058b38a33abd4e51c7566c3ca58",
-  "subtitle": "PVP Shooting Game for iOS",
+  "date": "2026-11-18",
+  "description": "Contra Guns is an iOS action shooter game package for sideloading that delivers competitive player-versus-player combat. The game combines classic arcade shooting mechanics with modern multiplayer features. Players engage in fast-paced shooting matches against other players. The IPA includes iGameGod tweak support for modified gameplay options.",
+  "features": [
+   "PVP Multiplayer",
+   "Arcade Shooting",
+   "Cheat Menu",
+   "Sideload IPA"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b9cdcf28b617436c268162a196c2cb467aac4b358b90c156dfe2f5dcd4f95985",
+  "subtitle": "Fast-Paced PVP Arcade Shooter",
   "tags": [
-   "contra",
-   "guns",
-   "shooter",
    "pvp",
+   "shooter",
+   "arcade",
+   "multiplayer",
    "action",
-   "game"
+   "ipa"
   ]
  },
  "com.edkongames.mobs": {
@@ -19343,22 +19396,21 @@
  },
  "com.efezgames.caseopener": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "CaseOpener is a modified version of the case opening game designed for collectors and enthusiasts. This version offers endless coins, allowing players to open virtual cases and unbox favorite items without limitations. Choose from a wide variety of cases.",
+  "date": "2026-11-18",
+  "description": "CaseOpener is a modified iOS game based on the original Case Opener. It provides unlimited coins, allowing players to open an unlimited number of virtual cases and unbox items without restrictions. The mod includes a variety of case types and is distributed via ipaomtk.com with the iGameGod tweak.",
   "features": [
-   "Endless Coins",
-   "Virtual Cases",
-   "Item Unboxing"
+   "Endless Coins"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "94ff3f1c00b6d74508741624e07ef8fa1aab8c8801c7c4a616914a89aa54fa93",
-  "subtitle": "Modified case opening game with endless coins",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1f3f16c28b46646de969972616e425e7f1c956fc1245a3656f061ae5e72df63e",
+  "subtitle": "Endless coins case opener mod",
   "tags": [
    "caseopener",
-   "collector",
-   "game",
    "mod",
-   "coins"
+   "ios",
+   "unlimitedcoins",
+   "game",
+   "tweak"
   ]
  },
  "com.efsoft.piximagine": {
@@ -19445,18 +19497,21 @@
  },
  "com.elementsadventurer.ios": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Elemental Adventurer is a game designed to captivate and entertain players of all ages. Experience the adventure and enjoy engaging gameplay suitable for everyone.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "84021c8e865df990752d693f19a49e9382053c5c90173436de0e5fc5e2588879",
-  "subtitle": "An incredible game designed for players of all ages",
+  "date": "2026-11-18",
+  "description": "Elemental Adventurer is an iOS game featuring elemental-themed gameplay. This version includes iGameGod tweaks for modified gameplay. The original game offers adventure mechanics with elemental powers and progression systems.",
+  "features": [
+   "iGameGod Tweaks",
+   "Modified Gameplay"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c2a218d667066d7d761ffbf0225fdca76937e3f5855cc4f45572d4c6f1b6edc7",
+  "subtitle": "Elemental adventure game with iGameGod tweaks",
   "tags": [
    "adventure",
+   "elemental",
    "game",
-   "action",
-   "entertainment",
-   "casual"
+   "tweaks",
+   "modded"
   ]
  },
  "com.elevateapp.elevate": {
@@ -19883,19 +19938,19 @@
  },
  "com.entizgames.deadwatch": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Dead Watcher is a suspense-driven horror game for iOS that focuses on survival and observation. The game delivers a tense atmospheric experience where players must navigate frightening scenarios while managing limited resources and avoiding threats.",
+  "date": "2026-11-18",
+  "description": "Dead Watcher is a suspense-driven horror game focusing on survival, observation, and psychological tension. Designed for iPhone and iPad. The IPA format allows manual installation for version management and compatibility. Related to iGameGod tweak. Updates announced via Discord.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "42d9098d78289d2eddaa3ec403989ce7c929521c8327264235fdd4da33ebdb8d",
-  "subtitle": "Suspense-driven horror survival game",
+  "src_hash": "b12596c7ecf97a346a4f8eaa4a18e0efa80cceef649dcc59688b2ddb0292d182",
+  "subtitle": "Suspense horror game with survival mechanics",
   "tags": [
    "horror",
    "survival",
-   "suspense",
-   "atmospheric",
-   "single-player",
-   "thriller"
+   "psychological",
+   "ipa",
+   "game",
+   "suspense"
   ]
  },
  "com.entropy.global": {
@@ -20429,18 +20484,18 @@
  },
  "com.example.cyport": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "CyPort contains no game files. You need your own legally bought copy of Cyberpunk 2077 for Mac, specifically GOG version 2.3.1. The app is built on your Mac from that copy. CyPort is an independent fan project and is not affiliated with or endorsed by CD PROJEKT RED. Cyberpunk 2077 is a trademark of CD PROJEKT S.A.",
+  "date": "2026-11-18",
+  "description": "CyPort helps you build your legally bought copy of Cyberpunk 2077 for Mac on your iOS device. The app contains no game files and requires version 2.3.1 from GOG. CyPort is an independent fan project and is not affiliated with or endorsed by CD PROJEKT RED.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "a4a431666c8cef9c8e204f369f21d0a42bb59b32fc8af1588d4a00534efa9d20",
+  "src_hash": "3a22373c5769bb27279c7ea4c271e25467e3aae4a9c1c8192f6c7dd956ca9a06",
   "subtitle": "Build your Mac game copy for iOS devices",
   "tags": [
    "cyport",
-   "mac",
-   "gog",
-   "builder",
-   "tool"
+   "cyberpunk",
+   "game",
+   "build",
+   "mac"
   ]
  },
  "com.example.kazumi": {
@@ -20541,22 +20596,25 @@
  },
  "com.example.openstrapEdge": {
   "category": "lifestyle",
-  "date": "2026-10-20",
-  "description": "A health app for your wearables. No subscription, no fees, private by default. Supported devices include WHOOP 4.0.",
+  "date": "2026-11-18",
+  "description": "Edge is a health app for wearables with no subscription, no fees, and private by default. Supports WHOOP 4.0, 5.0, and MG subject to firmware restrictions. Support for Oura Ring, Garmin, Pebble, Colmi, Ultrahuman, Mi Band and more is being built. WHOOP users should not reconnect to the official WHOOP app as it can install firmware updates automatically; uninstall or disable the WHOOP app to prevent updates.",
   "features": [
-   "No Subscription",
-   "No Fees",
-   "Private"
+   "No subscription",
+   "No fees",
+   "Private by default",
+   "WHOOP support",
+   "Multiple devices"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "b2936a2765477eb3e9c57ab0605ae904303d630b2c2ca4e223d3ca648da19ad0",
-  "subtitle": "A health app for your wearables",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7aa8b1d037b006335ea3ada1ed4c11ad7c4d47b027ce5dcf75349478906af29c",
+  "subtitle": "Health app for wearables, no subscription",
   "tags": [
    "health",
-   "wearable",
-   "fitness",
+   "wearables",
    "whoop",
-   "privacy"
+   "oura",
+   "garmin",
+   "fitness"
   ]
  },
  "com.example.piliplus": {
@@ -20769,19 +20827,19 @@
  },
  "com.fanqu.b8": {
   "category": "games",
-  "date": "2026-10-18",
-  "description": "Clash of Realms: Battle Decks delivers a fast-paced strategy experience for iOS. Engage in competitive card battles and build your battle decks.",
+  "date": "2026-11-18",
+  "description": "Clash of Realms: Battle Decks is a fast-paced strategy card game with tactical card deployment, real-time decision-making, and competitive multiplayer. It is designed for iPhone and combines deck-building with arena battles. The app includes iGameGod tweaks.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "8fee8a13dab9406c4bfed48d5d46f5a6f175e715fd7bc5bc2783c2a4cbbf35c9",
-  "subtitle": "A Competitive Strategy Card Game for iOS",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ba35b5d0a89d24aa88f5b61c9ca31c15ae57871fb06c0c862bc559984f16e08d",
+  "subtitle": "Fast-paced strategy card battles",
   "tags": [
    "strategy",
    "card",
-   "game",
-   "battle",
-   "deck",
-   "competitive"
+   "multiplayer",
+   "deckbuilding",
+   "ios",
+   "battle"
   ]
  },
  "com.fanqu.b9": {
@@ -20803,19 +20861,20 @@
  },
  "com.fansipan.epic.stickman.survival.rpg.idle.game": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Step into the shoes of a brave stickman warrior and explore a vast and mysterious world in this idle role-playing game. Take on the role of the stickman and progress through the adventure.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Step into the shoes of a brave stickman warrior and explore a vast and mysterious realm. Your journey is filled with challenges, quests, and the opportunity to unlock powerful upgrades and abilities. Suitable for both seasoned RPG enthusiasts and newcomers to the genre, this game offers an engaging idle experience where you can develop your warrior and progress through various trials.",
+  "features": [
+   "iGameGod"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c343fae76bb94964be328f549fa8cbb350d5c6ef23d73b708adaec97c8c425ba",
-  "subtitle": "An idle stickman RPG adventure game",
+  "src_hash": "be63a8fdbaec2e6ef895cc2e29d5bab024253734ce965840616b0b8fe57c9b0a",
+  "subtitle": "An idle stickman RPG adventure",
   "tags": [
    "stickman",
    "rpg",
    "idle",
    "game",
-   "adventure",
-   "epic"
+   "adventure"
   ]
  },
  "com.fansipan.guardian.war.rpg.pixel.hero.adventure.games": {
@@ -22534,16 +22593,19 @@
  },
  "com.funcell.eraevolution": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Era Evolution is a hybrid action-runner game available as an iOS installation file. Experience fast-paced runner mechanics combined with action gameplay.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Era Evolution is a hybrid action-runner game for iOS that combines fast-paced movement with long-term progression systems. Unlike traditional endless runners, this game focuses heavily on evolving through different eras, upgrading your abilities, and making strategic decisions during each run. Includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "5786e6ef4b488b62bd2710be0164069ee060dc8d695fc6108fe428038d1d01e5",
-  "subtitle": "A hybrid action-runner game for iOS",
+  "src_hash": "93d07e4440c213d7db2cab21674ae748ab0e3d50e8403a4322f256cce3cadda6",
+  "subtitle": "Hybrid action runner game",
   "tags": [
-   "action",
    "runner",
-   "hybrid",
+   "action",
+   "evolution",
+   "strategy",
    "game",
    "ios"
   ]
@@ -22602,20 +22664,21 @@
   ]
  },
  "com.fungames.epiccardgamebeta": {
-  "category": "other",
-  "date": "2026-11-16",
-  "description": "Castle Crush is a card-based battle game featuring vibrant graphics, engaging gameplay, and strategic depth. Navigate enchanted realms filled with mythical creatures and formidable warriors while mastering the intricacies of clash cards. This version includes the iGameGod tweak.",
+  "category": "games",
+  "date": "2026-11-18",
+  "description": "Castle Crush is a card-based battle game featuring vibrant graphics, engaging gameplay, and strategic depth. Navigate enchanted realms filled with mythical creatures and formidable warriors. Master the intricacies of clash cards to succeed in your battles. This version includes the iGameGod tweak.",
   "features": [
    "iGameGod tweak included"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "263fbe50e9f2fade1217929844c6f8354bac4d7d6024175d1f52496b670ac0f2",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "898fc353b687d4a6f60eea7973d8a4a62945e5fa5559d0c342278027fe660b91",
   "subtitle": "Card-based battle game with strategic depth",
   "tags": [
    "castle crush",
    "card game",
-   "battle",
    "strategy",
+   "battle",
+   "game",
    "tweaked"
   ]
  },
@@ -22990,22 +23053,23 @@
  },
  "com.gamegos.mobile.cafeland": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "Cafeland Restaurant Cooking is a popular restaurant simulation game that allows players to construct and manage their own eatery. This version begins with unlimited money and coins, allowing users to avoid the tedious task of earning coins to level up game progress. The app includes iGameGod tweaks.",
+  "date": "2026-11-18",
+  "description": "Cafeland is a popular restaurant simulation game that allows players to construct and manage their own restaurant. This version includes unlimited money and coins, allowing users to avoid the tedious task of earning coins to level up game progress. The app integrates with iGameGod for tweaks.",
   "features": [
    "Unlimited money",
-   "Unlimited coins"
+   "Unlimited coins",
+   "Restaurant simulation"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "32e6bbec30dcf38b105d5d044644f3bd0938b0a8c068ce1d10c77d921205f7bf",
-  "subtitle": "Restaurant simulation game with unlimited money and coins",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "525ab43916f966eab8095ad38f778d222d46ae4a9538b2050ac3c4a32f12475d",
+  "subtitle": "Build your dream restaurant with unlimited money and coins",
   "tags": [
    "cafeland",
    "restaurant",
    "cooking",
    "simulation",
    "game",
-   "strategy"
+   "tweaks"
   ]
  },
  "com.gamehivecorp.balls2": {
@@ -23188,18 +23252,19 @@
  },
  "com.gamifystudio.elementalbattle": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Element War Merge Games is a strategic merge and battle game designed for iPhone that combines merging mechanics with tactical combat. Players combine elements to build strength and engage in battles.",
+  "date": "2026-11-18",
+  "description": "Element War Merge Games is a strategic merge and battle game designed for iPhone that combines creative unit merging with real-time combat scenarios. As players navigate mystical arenas and confront unpredictable enemies, the game challenges them to think tactically about how their elements synergize and evolve.",
   "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "f54c311208fee09f6c5a2f6ee29c39ebd220b5bd0354de1b10ac2e1215b08a40",
-  "subtitle": "Strategic merge and battle game for iPhone",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "551590f685efcc3ebdde1b3b9ca347a7df35645473ff04fe41ad2ea01ecb50a0",
+  "subtitle": "Strategic element merging and real-time combat",
   "tags": [
    "strategy",
    "merge",
    "battle",
-   "elements",
-   "iphone"
+   "combat",
+   "iphone",
+   "games"
   ]
  },
  "com.gamigo.fatemobile": {
@@ -23253,16 +23318,12 @@
  },
  "com.gamoper.candysweetstory.ios": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "Candy Pop Story Match 3 is an engaging and colorful puzzle game designed exclusively for iOS devices. This enchanting game combines the classic mechanics of match-3 puzzles with a compelling story that keeps players hooked for hours. Featuring a rich palette of candy-themed visuals and smooth gameplay, it delivers a fun puzzle experience.",
-  "features": [
-   "Match-3 puzzles",
-   "Candy-themed visuals",
-   "Engaging story"
-  ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "6eaf9c1b7d2503ce6b7ae57e0644e27edda2466fc6bad6b232a9d819aa2c9438",
-  "subtitle": "Colorful match-3 puzzle game with a story",
+  "date": "2026-11-18",
+  "description": "Candy Pop Story Match 3 is a puzzle game designed for iOS devices. The game combines classic match-3 mechanics with a story and features candy-themed visuals and smooth gameplay.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4f054d221dc4387f73713920e89d10d2e765f3fe2b20fa4acb00230c4c6a41d6",
+  "subtitle": "Colorful match 3 puzzle game for iOS",
   "tags": [
    "puzzle",
    "match3",
@@ -23541,18 +23602,20 @@
  },
  "com.ghostshippublishing.deeprockgalacticsurvivor": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Deep Rock Galactic Survivor IPA MOD transforms the classic mining-and-combat universe into a survival experience.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Deep Rock Galactic Survivor transforms the classic mining and combat universe into a fast-paced survivor experience for iOS. Players enter dynamic caves filled with swarming enemies, rare minerals, and nonstop action. This version includes the iGameGod tweak for enhanced modifications during gameplay.",
+  "features": [
+   "iGameGod included"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "9db6f25fd22457ce27434993032e952a3585a4a7c08130ec5c29470a656b88fa",
-  "subtitle": "Mining and combat survival gameplay",
+  "src_hash": "eb1c3bda93d7c86611dfe0863e7d5b42b08e00a1faf24808e437ce87b81d487c",
+  "subtitle": "Mining and combat survivor experience",
   "tags": [
-   "survival",
+   "survivor",
    "mining",
    "combat",
    "action",
-   "game"
+   "caves"
   ]
  },
  "com.giants-software.fs16": {
@@ -23615,18 +23678,22 @@
  },
  "com.gibygames.digimerge": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Digi Merge is a number-based puzzle game for iOS. Players merge matching numbers to create higher values and progress through levels. The game features simple mechanics combined with strategic thinking.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "c12ae55e3d39c0b4c15852044655a4a64b7e69316e3cf9e84c471a712611c664",
-  "subtitle": "Number-based puzzle merging game",
+  "date": "2026-11-18",
+  "description": "Digi Merge is a number-based puzzle game for iPhone and iPad. This iOS installation package is designed for users who want to install the game outside the traditional App Store environment. The package includes tweaks such as iGameGod, IGVIPEnjoy, NOADS, and IGHelper.",
+  "features": [
+   "No Ads",
+   "iGameGod",
+   "IGVIPEnjoy",
+   "IGHelper"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "925e694ed83ee84e927cb2f1946761f2aef032f7e705f22ba2b14f9b065c5327",
+  "subtitle": "Number-based puzzle game iOS installation package",
   "tags": [
    "puzzle",
    "numbers",
-   "merge",
-   "strategy",
-   "casual",
+   "game",
+   "tweaks",
    "ios"
   ]
  },
@@ -27657,18 +27724,21 @@
  },
  "com.halfbrick.bluey": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "Blueys Quest for The Gold Pen is an iOS game designed for iPhone and iPad. Players enter a dynamic universe featuring vibrant adventures, clever puzzles, and engaging storylines where creativity, strategy, and quick thinking are rewarded.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "22f4078edae4be2b79fb1284c572d8fc78d04bf8c16db9a5664f4799bf9dd594",
-  "subtitle": "An exciting iOS adventure game with puzzles and stories",
+  "date": "2026-11-18",
+  "description": "Blueys Quest for The Gold Pen is an iOS game for iPhone and iPad that offers vibrant adventures, clever puzzles, and an engaging storyline. Players explore a dynamic universe where creativity, strategy, and quick thinking are rewarded.",
+  "features": [
+   "iGameGod"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "8fb0bbfdab7a661dd03335cd292f1dc8c1f4e494b046af1d98bcff6c4538bbf8",
+  "subtitle": "Vibrant adventure puzzle game for iOS",
   "tags": [
    "game",
    "adventure",
    "puzzle",
    "ios",
-   "iphone"
+   "blueys",
+   "goldpen"
   ]
  },
  "com.halfbrick.fruitninjaadventures": {
@@ -28419,6 +28489,23 @@
    "multiplayer"
   ]
  },
+ "com.hertniks.choppad": {
+  "category": "entertainment",
+  "date": "2026-11-18",
+  "description": "ChopPad is a pad sampler for iPhone and iPad with a hardware-inspired layout: one screen with keys, knobs, a data wheel, a fader, and 16 square pads across 8 banks. Load audio from your music library or record with the microphone, chop samples live on the pads, and create beats using built-in drum kits and a looping sequencer. The sequencer includes swing, note repeat, step editing, song mode, and 16 LEVELS functionality.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2eac073803366992626698283ffd9be348c9d95b4781cc5b6c685e1790d14246",
+  "subtitle": "Hardware-style pad sampler for iOS",
+  "tags": [
+   "sampler",
+   "pad",
+   "beats",
+   "music",
+   "sequencer",
+   "hardware"
+  ]
+ },
  "com.hevyapp.hevy": {
   "category": "other",
   "date": "2026-10-27",
@@ -28580,18 +28667,21 @@
  },
  "com.highbrow.games.dvb.apple": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Dragon Village Rumble is an action game featuring colorful characters and fast-paced gameplay for iOS players.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Dragon Village Rumble offers fast-paced action and a fantasy world filled with unique creatures. Engage in thrilling missions, upgrade dragons, and explore an adventure-packed world. Enjoy an energetic experience designed for players who love colorful characters and creature battles.",
+  "features": [
+   "Tweaks iGameGod"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "05f97acc9dccbf38beb13ff82f684ba1e27ab0f0f66b6465a15214123e98c7e2",
-  "subtitle": "Fast-paced action game with colorful characters",
+  "src_hash": "8d7c36f02aa40b8c1597a2de56027fdd67dc980e52520afc1653b8ab5916542c",
+  "subtitle": "Action-packed fantasy adventure with dragons",
   "tags": [
-   "action",
    "dragon",
-   "village",
-   "game",
-   "rumble"
+   "rumble",
+   "action",
+   "fantasy",
+   "adventure",
+   "game"
   ]
  },
  "com.highbrow.games.tki": {
@@ -29344,19 +29434,19 @@
   ]
  },
  "com.hwqgrhhjfd.idlefastfood": {
-  "category": "lifestyle",
-  "date": "2026-10-20",
-  "description": "Discover new craft beer brews and explore the ever-evolving world of craft beer. Find out about the latest beverages on the horizon that promise to tantalize your taste.",
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "Eatventure IPA is a tweak featuring iGameGod integration for craft beer enthusiasts and IPA fans. Get updates on tweaks and join the community for notifications.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "46293934b327cabc2ab745610787b6fcc61ffe256de386b5adba4a8001934c99",
-  "subtitle": "Craft beer information and discovery app",
+  "src_hash": "3baf5abaed7eeea7789602d777e5102846d8683e8b3069bc011fc7dc7cd6e2fa",
+  "subtitle": "Eatventure IPA tweak with iGameGod integration",
   "tags": [
+   "eatventure",
+   "ipa",
    "beer",
-   "craft",
-   "brew",
-   "drink",
-   "discover"
+   "tweak",
+   "igamegod"
   ]
  },
  "com.hwy.screenshot": {
@@ -30178,18 +30268,21 @@
  },
  "com.ilmfinity.evocreo2": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "EvoCreo 2 is a role-playing game package that allows iPhone users to experience a monster trainer RPG adventure.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Experience a classic monster-training adventure through sideloading. Explore a vast world, capture creatures, and build a powerful team to battle opponents and progress through a story-driven campaign.",
+  "features": [
+   "Tweaks: iGameGod"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "09f193ab01851333bf9615c7e21605d63b359ba093729ac604602d3c5811bdcb",
-  "subtitle": "Monster Trainer RPG for iOS",
+  "src_hash": "00d1be64c7063f0a48828ef1b561138288566ccf8a37fb45970923373dc5d954",
+  "subtitle": "Monster Trainer RPG adventure for iOS",
   "tags": [
+   "evocreo2",
    "rpg",
    "monster",
    "trainer",
-   "adventure",
-   "game"
+   "game",
+   "adventure"
   ]
  },
  "com.ilovepdf.www": {
@@ -31373,18 +31466,17 @@
  },
  "com.ipaomtk.carpet.bombing.2.159989": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "Carpet Bombing 2 is an iOS game package that lets players install the sequel to the popular aerial combat game on iPhone and iPad via sideloading. It offers enhanced bombing mechanics, improved visuals, and expanded gameplay features while keeping fast-paced action and smooth controls.",
+  "date": "2026-11-18",
+  "description": "Carpet Bombing 2 is an iOS aerial combat game that delivers enhanced bombing mechanics, improved visuals, and expanded gameplay features. Maintain fast-paced action and smooth gameplay while playing the sequel to the popular aerial combat game on your iPhone and iPad devices through sideloading.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "279978c36e981f0d7f4cfe400996499dbb0b0d9397d65c2c04968321e80ce61c",
-  "subtitle": "Aerial combat sequel with enhanced bombing",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b8e892c608cf791201ccf374a7a28c3c679584dc310c392fb2e12dccd65e2275",
+  "subtitle": "Aerial combat game sequel for iPhone and iPad",
   "tags": [
-   "carpet bombing",
-   "aerial combat",
-   "ios game",
-   "sideload",
-   "ipa",
+   "game",
+   "combat",
+   "aerial",
+   "action",
    "sequel"
   ]
  },
@@ -31494,17 +31586,17 @@
  },
  "com.ipaomtk.chartscan.ai.chart.analysis.152526": {
   "category": "other",
-  "date": "2026-11-16",
-  "description": "ChartScan is an iOS application package (IPA) for iPhone and iPad that lets users scan, analyze, and interpret charts directly from images or documents. The IPA format allows installation on compatible devices outside the traditional App Store.",
+  "date": "2026-11-18",
+  "description": "ChartScan is an iOS application that lets users scan charts from photos or documents and uses AI to analyze and interpret the data. The app is packaged as an IPA file for installation on iPhone and iPad outside the official App Store.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "69e23907cd796c774e028f43c184bf871164a26cbde2c065c30c682ba02718f2",
+  "src_hash": "cf38d1bfd584328116468c0da36e521987268136d440b2285c4779ca0dd49681",
   "subtitle": "Scan and analyze charts from images",
   "tags": [
    "chart",
+   "scan",
    "analysis",
    "ai",
-   "scan",
    "ipa",
    "ios"
   ]
@@ -31529,103 +31621,108 @@
   ]
  },
  "com.ipaomtk.chroma.hue.160082": {
-  "category": "games",
-  "date": "2026-10-15",
-  "description": "Chroma Hue is an iOS application package that allows users to install a powerful color editing game.",
+  "category": "photo-video",
+  "date": "2026-11-18",
+  "description": "Chroma Hue is an iOS application package that lets users install a powerful color editing and visual customization tool on iPhone and iPad via sideloading. It provides advanced color manipulation features, gradient tools, and creative design options while maintaining smooth performance.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c0ec04efe13a080f89574c13d2b0cc90e157eb45b8d73cf6eade54a42e0fafb5",
-  "subtitle": "A powerful color editing iOS game",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e469269db1f5d112c7facdde67c3fb6d214a93e6f174af43f52d3fda98fdc340",
+  "subtitle": "Advanced color editing and gradient tools",
   "tags": [
-   "chroma",
-   "hue",
    "color",
    "editing",
-   "game",
-   "ios"
+   "gradient",
+   "customization",
+   "sideload",
+   "ipa"
   ]
  },
  "com.ipaomtk.claw.quest.roguelike.rpg.152529": {
   "category": "games",
-  "date": "2026-10-18",
-  "description": "Claw Quest: Roguelike RPG is a fast-paced roguelike role-play iOS game.",
+  "date": "2026-11-18",
+  "description": "Claw Quest: Roguelike RPG is a fast-paced roguelike role-playing game designed for iPhone and iPad. The game uses the standard IPA format for iOS installation. Players explore procedurally generated content with permadeath mechanics typical of the roguelike genre.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "9670fe4c4bd91f088d4225989e119d51e60fba98741a403d5253e20b9e2407d1",
-  "subtitle": "Fast-paced roguelike role-play game",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "f30f0e3219413505147d1de4fc9d136bda9ea63a8b72edeaf09b5361fd60e980",
+  "subtitle": "Fast-paced roguelike RPG for iPhone and iPad",
   "tags": [
-   "claw quest",
    "roguelike",
    "rpg",
-   "role play",
-   "action",
-   "game"
+   "iphone",
+   "ipad",
+   "fast-paced",
+   "procedural"
   ]
  },
  "com.ipaomtk.climbah.bouldering.climb.ai.158887": {
   "category": "other",
-  "date": "2026-10-18",
-  "description": "Climbah: Bouldering & Climb AI is an iOS installation package designed for climbing enthusiasts. Use this application to access bouldering and climbing assistance powered by artificial intelligence on your mobile device.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "d6e56cde0804372f8ec0eb372ff1258428a7bf5248e547dc3b27bfe11b254291",
-  "subtitle": "Bouldering and climb AI for iOS",
+  "date": "2026-11-18",
+  "description": "An iOS installation package that installs an AI-powered climbing coach app on iPhone outside the App Store. It provides personalized training plans, technique analysis, and performance tracking for climbers of all levels.",
+  "features": [
+   "Personalized training plans",
+   "Technique analysis",
+   "Performance tracking"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "aa1c6cf2cc277ffc9a6a509117f4a4c8bb3a3a0576f570651ac157572f6e499a",
+  "subtitle": "AI climbing coach with training plans and analysis",
   "tags": [
    "climbing",
    "bouldering",
    "ai",
-   "sports",
-   "fitness",
-   "ipa"
+   "coach",
+   "training",
+   "tracking"
   ]
  },
  "com.ipaomtk.clipboard.manager.pastepal.160250": {
   "category": "utilities",
-  "date": "2026-10-18",
-  "description": "Clipboard Manager \u2013 PastePal is an iOS application package that allows users to manage their clipboard history.",
+  "date": "2026-11-18",
+  "description": "Clipboard Manager \u2013 PastePal is an iOS application package that lets users install an advanced clipboard management tool on iPhone and iPad via sideloading. It provides extended clipboard history, quick access to saved text, and enhanced productivity features.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "f1d1eb3b0465c8958fba3e7810b37dbcf5b4b6c885d43919255c6cc0cf7e51c4",
-  "subtitle": "Clipboard Manager application for iOS",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5c05e0c2d5980012ad243eaaf79f4831638a3f9048ffb88dbfae7ff9c1c5ec90",
+  "subtitle": "Advanced clipboard manager for iOS",
   "tags": [
    "clipboard",
    "manager",
    "pastepal",
-   "utility",
-   "ipa",
-   "ios"
+   "sideload",
+   "ios",
+   "productivity"
   ]
  },
  "com.ipaomtk.coin.flip.master.154579": {
-  "category": "games",
-  "date": "2026-10-18",
-  "description": "Coin Flip Master is an iOS casual simulation game package that allows iPhone users to enjoy flipping coins.",
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "Coin Flip Master is an iOS casual simulation game that lets you flip coins through sideloading. It combines luck-based gameplay with progression systems and visual feedback for a relaxing experience.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "0fe27131a677eefe1b4cbac89e285e13465f41fd77c6d0ce5988a3a58f1b2216",
-  "subtitle": "Casual coin-flipping simulation game",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "1d4c0fdf1d949362c5fa3178b3cd728882b572aaa4333875c5a4372bf6f3a0c1",
+  "subtitle": "Casual coin-flip simulation game",
   "tags": [
    "coin",
    "flip",
    "simulation",
    "casual",
+   "ios",
    "game"
   ]
  },
  "com.ipaomtk.color.by.number.coloring.games.158910": {
   "category": "games",
-  "date": "2026-10-18",
-  "description": "Color by Number: Coloring Games is the iOS installable version of a digital coloring app.",
+  "date": "2026-11-18",
+  "description": "Color by Number: Coloring Games IPA is the iOS installable version of a digital coloring app that transforms traditional paint-by-number artwork into an interactive mobile experience. In IPA format, it allows iPhone users to install and enjoy the full app with access to its extensive image library and intuitive interface.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "042f98f7866f85fd68b0e912cfdbcf9d11c9a398500ffb2ac6298259ef4f54d9",
-  "subtitle": "Digital coloring app for iOS",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "72ae17251ba12ee90a7b4abe4c3fabb8f12e2c40e960de91e5512a4a5b181d4e",
+  "subtitle": "Digital paint-by-number coloring app for iOS",
   "tags": [
    "coloring",
-   "games",
-   "color",
-   "number",
-   "digital",
+   "paint-by-number",
+   "ipa",
+   "ios",
+   "game",
    "art"
   ]
  },
@@ -31648,34 +31745,35 @@
  },
  "com.ipaomtk.compress.videos.resize.video.159011": {
   "category": "photo-video",
-  "date": "2026-10-18",
-  "description": "Compress Videos and Resize Video is an iOS application that allows users to compress video files and resize them according to their needs.",
+  "date": "2026-11-18",
+  "description": "Compress Videos & Resize Video is an iOS installation package (IPA) that provides a video optimization tool for iPhone. It enables users to compress and resize video files while maintaining visual quality, and it is installed outside the official App Store.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "7a401103d02e94152e79a27aa08e808c10221ebc8d9188e063b0b1b82d0ce117",
-  "subtitle": "Resize and compress your videos on iOS",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "338da3dde073ec8adc19cdb9315908f8106658bfe5bf0bfc85af43e0ca4115b2",
+  "subtitle": "Compress and resize videos on iPhone via IPA",
   "tags": [
-   "compress",
    "video",
+   "compress",
    "resize",
    "ipa",
-   "ios"
+   "ios",
+   "optimization"
   ]
  },
  "com.ipaomtk.cpu.dasher.mobile.master.tools.159875": {
   "category": "utilities",
-  "date": "2026-10-18",
-  "description": "CPU Dasher Mobile Master Tools is an iOS utility application package that provides users with device management tools.",
+  "date": "2026-11-18",
+  "description": "CPU Dasher Mobile Master Tools is an iOS utility app that provides detailed insight into device performance. It can be installed via sideloading outside the App Store and includes tools to monitor CPU activity and manage system resources.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4b0a60a681977cde082ebc4561227f2b5d98eb5162c4b5d8b309425a4d56769f",
-  "subtitle": "iOS utility application for mobile device management",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "2b0547f62d55e3a7ab3380f59f7f5e76452cd3daf3d341a9619453e7d23f1d7d",
+  "subtitle": "Advanced CPU monitoring & system resource toolkit",
   "tags": [
    "cpu",
-   "dasher",
-   "mobile",
-   "master",
-   "tools",
+   "monitor",
+   "system",
+   "resources",
+   "sideload",
    "utility"
   ]
  },
@@ -31749,53 +31847,55 @@
  },
  "com.ipaomtk.defengo.random.defense.156909": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "DefenGo : Random Defense is a strategy-focused tower defense game for iOS. Build and upgrade towers to defend against waves of enemies in randomized scenarios. Plan your defenses strategically as each playthrough presents different challenges and enemy paths.",
+  "date": "2026-11-18",
+  "description": "DefenGo: Random Defense is a strategy-focused tower defense game featuring random unit generation. Designed for iPhone and iPad, the IPA format enables manual installation for version management and compatibility. Includes iGameGod tweaks. Join the Discord community to receive notifications when tweaks update.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ced92607c66e4beeebe7a7acd8f8c28a795f25f4ec0df26be6a06d3ebdd8c23f",
-  "subtitle": "Strategy tower defense game",
+  "src_hash": "bd9821c3118d688db3fe7efcf8a56a3a4ef059750ce75e64f1b502895c0dc37c",
+  "subtitle": "Random unit tower defense strategy game",
   "tags": [
    "tower defense",
    "strategy",
-   "random",
-   "defense",
+   "random units",
+   "ipa",
    "game",
    "ios"
   ]
  },
  "com.ipaomtk.diamond.jewels.gfal.puzzle.151980": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Diamond Jewels GFAL Puzzle IPA is an iOS puzzle game package designed for iPhone users who want",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "0f102111e514ce2636bf67a3cf74186fe574c6e1ceaab34ce5c90b462f611789",
-  "subtitle": "iOS puzzle game package for iPhone",
+  "date": "2026-11-18",
+  "description": "Diamond Jewels GFAL Puzzle is an iOS puzzle game package designed for iPhone users who want to enjoy a colorful gem-matching experience. It delivers a blend of casual gameplay and strategic depth that keeps players engaged while offering a smooth and visually polished mobile gaming experience. This app is available as an IPA package for sideloaded installation and includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "55dcbc7df287ba86a08b1f6dca3939aeb36afcafe4e9ec3d4851f6b821a65ce9",
+  "subtitle": "Colorful gem-matching puzzle game for iPhone",
   "tags": [
-   "diamond",
-   "jewels",
-   "gfal",
    "puzzle",
-   "ios",
-   "iphone"
+   "gems",
+   "matching",
+   "casual",
+   "strategy",
+   "ios"
   ]
  },
  "com.ipaomtk.dietx.ai.calorie.tracker.152537": {
   "category": "lifestyle",
-  "date": "2026-10-20",
-  "description": "DietX AI: Calorie Tracker is an iOS application package (IPA) designed for iPhone and iPad. The app uses artificial intelligence to help users track calories and manage nutrition. Available as an IPA file for installation on iOS devices.",
+  "date": "2026-11-18",
+  "description": "DietX AI: Calorie Tracker is an application designed for iPhone and iPad users who want to monitor and track their daily calorie intake using artificial intelligence. Manage your nutrition and diet goals with AI-powered tracking tools on your iOS devices.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "f754acf6c35476710974a8b47c90a2a9d8beb71e346c5d85a156727a30d2377d",
-  "subtitle": "AI-powered calorie tracking for iOS",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "4615a10cc39eae8e5e00623e1a94256ccce42ad76a6036d8aaadf1d661cf97d8",
+  "subtitle": "Track daily calories using artificial intelligence",
   "tags": [
-   "calorie",
-   "tracker",
+   "diet",
+   "calorie tracker",
    "ai",
-   "nutrition",
    "health",
-   "ios"
+   "nutrition",
+   "fitness"
   ]
  },
  "com.ipaomtk.dino.merge.jurassic.zoo.159974": {
@@ -31817,301 +31917,336 @@
  },
  "com.ipaomtk.doki.doki.literature.club.155964": {
   "category": "entertainment",
-  "date": "2026-10-20",
-  "description": "Doki Doki Literature Club! is the iOS installation version of the well-known visual novel. Experience the narrative adventure directly on your Apple mobile device.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Doki Doki Literature Club! is a visual novel for iPhone and iPad that combines lighthearted storytelling with psychological elements to deliver an immersive narrative experience. This iOS installation version allows users to install the game manually. The app includes iGameGod tweaks.",
+  "features": [
+   "iGameGod tweaks"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "58a0261b265f06f0c59623ed856ab07ea6e42f01d62f6dafecfbd6f515f458d3",
-  "subtitle": "iOS installation version of the visual novel",
+  "src_hash": "52b7a5b483e353a1d34367af1b9a688471cbe5ebc69aade047547ad7c141b111",
+  "subtitle": "Visual novel experience for iOS devices",
   "tags": [
    "visual novel",
-   "literature",
-   "club",
-   "adventure",
-   "ios"
+   "game",
+   "story",
+   "ios",
+   "iphone",
+   "ipad"
   ]
  },
  "com.ipaomtk.domino.ocean.solitaire.tiles.158419": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Domino Ocean : Solitaire Tiles is a creative puzzle game available as an iOS installable version.",
+  "date": "2026-11-18",
+  "description": "Domino Ocean: Solitaire Tiles is a puzzle game that combines domino strategy with solitaire gameplay. The IPA version installs on iPhone through alternative methods. Updates announced via Discord.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "7501335147b1f1b439fd8195481dff3d3a87d5b6b3f41387e606c1e3b2cf2c82",
-  "subtitle": "A creative puzzle game for iOS",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "bd46b1e61401f6beff6bbacf59f5c189a3038bfbbdc8b380557253fd99ee6836",
+  "subtitle": "Domino solitaire puzzle game",
   "tags": [
    "domino",
-   "ocean",
    "solitaire",
-   "tiles",
    "puzzle",
-   "game"
+   "ipa",
+   "game",
+   "tiles"
   ]
  },
  "com.ipaomtk.dr.driving.151907": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Dr. Driving is a driving simulation game for iOS that focuses on realistic driving mechanics. Install the IPA package to experience the popular driving simulation on your mobile device.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "19ca57c8877fce3b44726665af8ab327394b2b274bbf7c9e0438b77dc48e952a",
-  "subtitle": "Real driving simulation game for iOS",
+  "date": "2026-11-18",
+  "description": "Dr. Driving is a driving simulation game focusing on realistic road behavior and vehicle control. Players complete mission-based challenges on iPhone and iPad. The app is distributed as an IPA installation package for iOS. Includes ModIAP tweaks for modified in-app purchases.",
+  "features": [
+   "ModIAP"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "ad35d6ec51c0f23f58f106a80bbf459005dd69e41e2a79ad50f33411539f7144",
+  "subtitle": "Realistic driving simulation with missions",
   "tags": [
    "driving",
    "simulation",
-   "car",
-   "game",
-   "ios",
-   "ipa"
+   "missions",
+   "realistic",
+   "ipa",
+   "modiap"
   ]
  },
  "com.ipaomtk.drag.sim.king.of.the.racing.2.154080": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Drag Sim: King Of The Racing 2 is an iOS racing simulation game package that allows iPhone users to experience drag racing.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Experience high-speed drag racing with realistic mechanics, detailed car customization, and competitive races focused on precision timing and performance upgrades. This iOS racing simulation game package allows iPhone users to experience drag racing through sideloading. Includes iGameGod tweaks.",
+  "features": [
+   "Realistic mechanics",
+   "Detailed car customization",
+   "Competitive races",
+   "Performance upgrades",
+   "iGameGod tweaks"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "09eeab23c3fe8a41ea1cf8a3749125e93f5aa4d9ba8d3ccd88ed99c206eee17c",
-  "subtitle": "iOS racing simulation game",
+  "src_hash": "d1362d4a6ec5d16f2aa28c7beff2dbdee53b97f5642c8d952448d8dad8ca38f0",
+  "subtitle": "High-speed drag racing simulation with car customization",
   "tags": [
    "racing",
-   "simulation",
    "drag",
-   "game",
-   "cars"
+   "simulation",
+   "cars",
+   "tuning",
+   "ipa"
   ]
  },
  "com.ipaomtk.dragon.fever.td.151893": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Dragon Fever TD is a fantasy-themed tower defense strategy game for iOS devices.",
+  "date": "2026-11-18",
+  "description": "Dragon Fever TD is an IPA installation package for a fantasy-themed tower defense strategy game compatible with iPhone and iPad. The IPA format is Apple's standard app package, enabling direct installation on supported devices.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "bc7c5cb9c266e60dc9096e677879bcb066447712690c204fbe389d7d9bc92dd0",
-  "subtitle": "Fantasy-themed tower defense strategy game",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "df4769ae8c3d5d445022c5d70b881733298e773b5a053c05562af0e93583849a",
+  "subtitle": "Fantasy tower defense strategy game for iOS",
   "tags": [
-   "tower defense",
-   "strategy",
+   "tower",
+   "defense",
    "fantasy",
-   "game",
+   "strategy",
+   "ipa",
    "ios"
   ]
  },
  "com.ipaomtk.dragonsky.idle.merge.153637": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "DragonSky : Idle & Merge is an iOS idle action game package that allows iPhone users to experience dragon action.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4743250f3037abf281f9645b5bf44cd34504f518c63b0d32751fa9fd81e54bbf",
-  "subtitle": "Idle action game for iOS",
+  "date": "2026-11-18",
+  "description": "DragonSky is an iOS idle action game where players control dragons in continuous aerial combat. The gameplay combines shooting, merging, and progression mechanics: dragons can be upgraded and combined to increase power. The package is distributed as an IPA for sideloading onto iPhone devices.",
+  "features": [
+   "iGameGod tweak"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b8ee27f5eb61f52fe0ad232d5eb5b6344a4d6d2bb97c98ec0bf0b9b62a001b3f",
+  "subtitle": "Idle dragon shooting & merge game",
   "tags": [
-   "dragonsky",
    "idle",
    "merge",
-   "action",
-   "game",
-   "ios"
+   "dragon",
+   "shooting",
+   "sideload",
+   "ipa"
   ]
  },
  "com.ipaomtk.draw.gestures.figure.drawing.152458": {
-  "category": "utilities",
-  "date": "2026-10-20",
-  "description": "Draw Gestures: Figure Drawing helps artists practice gesture drawing on iPhone. The app features timed sessions, pose references, and drawing tools to assist artists with figure practice.",
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "Draw Gestures: Figure Drawing is a creative art practice app designed to help users improve their figure drawing and sketching skills. Practice art anywhere on iPhone with timed sessions, pose references, and tools designed to improve anatomy.",
   "features": [
    "Timed sessions",
    "Pose references",
-   "Drawing tools"
+   "Anatomy tools"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "e95a87e01eb2265faeeb7a53ffdabc5f2a9a4dbed4146c72f723a2b1764f4956",
-  "subtitle": "Practice gesture drawing with timed sessions and poses",
+  "src_hash": "d0510e3de9e9f05803b03a2a08ecc0dac3db7d147f59ec92a0ccbb476e1641bc",
+  "subtitle": "Practice figure drawing and gesture sketches on iPhone",
   "tags": [
-   "drawing",
    "art",
-   "practice",
-   "poses",
-   "sketch"
+   "drawing",
+   "sketch",
+   "anatomy",
+   "practice"
   ]
  },
  "com.ipaomtk.drugs.com.medication.guide.159539": {
   "category": "utilities",
-  "date": "2026-10-20",
-  "description": "Drugs.com Medication Guide is the iOS installable version of a comprehensive medication reference.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4dce32750b08c1b5da72c8b3144def276c2077e1e999a3859534ad920b13c2dc",
-  "subtitle": "Comprehensive medication reference guide",
+  "date": "2026-11-18",
+  "description": "Drugs.com Medication Guide is an iOS installable version of a comprehensive medication reference app. It provides access to a medical database with drug details, usage instructions, side effects, and interaction warnings for prescription and over\u2011the\u2011counter medications.",
+  "features": [
+   "Drug details",
+   "Usage instructions",
+   "Side effects",
+   "Interaction warnings"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7aaef32c445e71dba9121f03c0c004248f737ad00ea08f6970f603faf2ff7c00",
+  "subtitle": "Comprehensive medication reference for iOS",
   "tags": [
    "medication",
-   "drugs",
    "guide",
-   "health",
+   "drugs",
    "reference",
-   "medical"
+   "health",
+   "ipa"
   ]
  },
  "com.ipaomtk.dungeon.deck.idle.rpg.game.159438": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Dungeon & Deck: Idle RPG Game is an iOS installable version of a hybrid game that blends idle RPG gameplay with deck building mechanics.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Experience a hybrid game that blends card-based strategy with idle RPG progression. Build your deck, engage in automated battles, and upgrade your characters. This iOS installable version delivers full gameplay features for your iPhone.",
+  "features": [
+   "Deck Building",
+   "Automated Battles",
+   "Character Upgrades"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c2cb385d203ba407dc49c3354eb2a54791b5a16148ae58b32ab28ab1f57ecfb8",
-  "subtitle": "Idle RPG and deck building hybrid game for iOS",
+  "src_hash": "aaebd7aa4df9edd23eab4fc4d44567b74cede5a7a76a9a27b6c447175d7a8de7",
+  "subtitle": "Idle RPG with card strategy and automated battles",
   "tags": [
    "rpg",
-   "idle",
-   "deck",
    "card",
-   "dungeon",
+   "strategy",
+   "idle",
    "game"
   ]
  },
  "com.ipaomtk.dungeons.and.bags.156920": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Dungeons and Bags is a role-playing game for iOS devices that blends dungeon exploration mechanics. Install the game to experience a creative adventure focused on dungeon crawling and item management.",
+  "date": "2026-11-18",
+  "description": "Dungeons and Bags is a creative role-playing game that blends dungeon exploration with inventory management and puzzle mechanics. This iOS installation file allows iPhone and iPad users to install the game manually for compatibility and version control.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "9fa21465d02d9b2644ac49df94bf7a76939404eb83597f82288c40ea5e4b59ee",
-  "subtitle": "A creative role-playing game in dungeons",
+  "src_hash": "7e6950c4294b264e93133d1059eb658e33c82feaad0ea330fef76d8a32e51a26",
+  "subtitle": "Role-playing game blending dungeons and inventory management",
   "tags": [
    "rpg",
    "dungeon",
-   "adventure",
-   "game",
-   "ios"
+   "puzzle",
+   "inventory",
+   "strategy",
+   "game"
   ]
  },
  "com.ipaomtk.efhub.26.156951": {
-  "category": "utilities",
-  "date": "2026-10-21",
-  "description": "eFHUB 26 is a football companion application designed to provide detailed player information for iOS users.",
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "eFHUB 26 is a football companion application designed to provide detailed player data, squad-building tools, and strategic insights for football gaming enthusiasts. This iOS app helps users manage their teams and analyze player statistics to improve their gaming strategy. It offers a structured way to access comprehensive database information directly on your iPhone and iPad.",
   "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "cd02d49ed96d23a22ea07063dc19964162e194ad2603b53a5791551a6a62aa75",
-  "subtitle": "Football companion application for iOS",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2a3c18a5aed31b31daa95d734b0d2386eba966f3ef16d7132b8c3da3a9f7c1fc",
+  "subtitle": "Football companion app with player data and squad tools",
   "tags": [
    "football",
+   "soccer",
    "companion",
-   "sports",
-   "player",
-   "database"
+   "database",
+   "squad",
+   "stats"
   ]
  },
  "com.ipaomtk.efootball.159785": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "eFootball is the iOS installable version of a football simulation game developed by Konami.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "c9c2e5bb1e4a254dbd872ee70e83266ba8bd10fa396f646e36dc647ba790034f",
-  "subtitle": "Football simulation game developed by Konami",
+  "date": "2026-11-18",
+  "description": "eFootball\u2122 is a football simulation game developed by Konami for iOS. It delivers realistic matches with licensed teams and competitive gameplay. The IPA version provides access to online modes, team management features, and regular content updates.",
+  "features": [
+   "Licensed Teams",
+   "Online Modes",
+   "Team Management",
+   "Regular Updates"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d55a8c6e8f9fc1482b68ba53d535b2e66323b8964d42194d52b039e03d34b80d",
+  "subtitle": "Football simulation with licensed teams",
   "tags": [
    "football",
-   "soccer",
    "simulation",
    "konami",
    "sports",
-   "game"
+   "multiplayer",
+   "management"
   ]
  },
  "com.ipaomtk.eight.warriors.159759": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Eight! Warriors is the iOS installable version of an idle RPG that combines simple controls with continuous action.",
+  "date": "2026-11-18",
+  "description": "Eight! Warriors is an idle RPG for iOS that combines simple controls with continuous progression and hero collection. Players build a team of warriors, engage in battles, upgrade characters, and manage their roster. The IPA version provides the full gameplay experience on iPhone. Includes integration with iGameGod tweaks. Join the Discord community for update notifications.",
   "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "ecf9ae514ad6ba643ecc07323eaf94988fae46b5af9ad55101a205129c32f2a1",
-  "subtitle": "Idle RPG with simple controls",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "14d28b3f48f65795211531883da13984a276959ee23825afaa59d50c3c279a49",
+  "subtitle": "Idle RPG with hero collection and battles",
   "tags": [
-   "rpg",
    "idle",
-   "game",
-   "strategy",
-   "action"
+   "rpg",
+   "hero",
+   "collection",
+   "battles",
+   "ipa"
   ]
  },
  "com.ipaomtk.end.of.winter.158402": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "End of Winter is a narrative-driven adventure game designed for iOS players. Experience an immersive story-focused journey directly on your mobile device.",
+  "date": "2026-11-18",
+  "description": "End of Winter is a narrative-driven adventure game focused on immersive storytelling and calm exploration. The IPA format allows installation on iPhone devices while preserving the original artistic vision and gameplay mechanics.",
   "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "f74720b57dd50dd049810742a081b94fb9526ed56b10dec65a387197722e5797",
-  "subtitle": "A narrative-driven adventure game for iOS",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "eacc99d78de039fa8abbce9b92af37ff112e3047afe3ac0ef1397a9e1fbe6154",
+  "subtitle": "Narrative adventure with calm exploration",
   "tags": [
-   "adventure",
    "narrative",
+   "adventure",
+   "exploration",
    "story",
-   "game",
-   "ios"
+   "immersive",
+   "calm"
   ]
  },
  "com.ipaomtk.enhance.it.ai.photo.editor.154158": {
   "category": "photo-video",
-  "date": "2026-10-21",
-  "description": "Enhance It \u2013 AI Photo Editor is a modern AI-powered photo editing application designed for iOS devices.",
+  "date": "2026-11-18",
+  "description": "Enhance It is an AI-powered photo editing application for iOS devices, allowing users to experience automatic image enhancement, intelligent corrections, and high-quality editing.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "468017ae0297e19d0c8e9a04a367a8dc71644c49e092b2c00912c84c385301a8",
-  "subtitle": "AI-powered photo editing application for iOS devices",
+  "src_hash": "891f476cc183673180d281af2f893199f8abdedd0edc31d27fe50bb80fd8cf28",
+  "subtitle": "Modern AI-powered photo editing application for iOS",
   "tags": [
+   "ai",
    "photo",
    "editor",
-   "ai",
    "enhancement",
+   "image",
    "ios"
   ]
  },
  "com.ipaomtk.enmity.160079": {
   "category": "social",
-  "date": "2026-10-21",
-  "description": "Enmity is an iOS application package that allows users to install an advanced third-party Discord client on their mobile device.",
+  "date": "2026-11-18",
+  "description": "Enmity is an iOS application package that allows users to install an advanced third-party Discord client on iPhone and iPad devices through sideloading. It provides enhanced customization options, improved interface flexibility, and extended functionality beyond the standard Discord app while maintaining compatibility with core messaging, voice, and community features.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "55c8b0dbc64c34a1e42cee09fcda441ff279c85797b1da277501e5844fa1f46d",
-  "subtitle": "Advanced third-party Discord client",
+  "src_hash": "09553e6881a14a0cade90da1aa11682106c53ceb14b38df6d873dc5744ca1962",
+  "subtitle": "Advanced third-party Discord client for iOS",
   "tags": [
    "discord",
    "client",
-   "chat",
+   "customization",
    "messaging",
-   "social",
-   "utility"
+   "voice",
+   "sideload"
   ]
  },
  "com.ipaomtk.evil.lands.epic.mmorpg.game.160133": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Evil Lands: Epic MMORPG game is an iOS game package.",
+  "date": "2026-11-18",
+  "description": "Evil Lands is an online fantasy role-playing game for iPhone and iPad that delivers open-world exploration, real-time battles, and multiplayer interaction. Experience a full-scale multiplayer adventure with smooth performance and flexibility through this iOS game package.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "6e3e5437eb4c7b8c4e1ba6dd931348287dedd3156051962e0680212091f06436",
-  "subtitle": "Epic MMORPG game",
+  "src_hash": "ae022a501bb3d91e43041d0c4ce43368cfa2044e8987682a35825cdbbf2d6fb4",
+  "subtitle": "Online fantasy role-playing game",
   "tags": [
-   "evil",
-   "lands",
+   "rpg",
    "mmorpg",
+   "fantasy",
+   "multiplayer",
    "game",
-   "ios"
+   "action"
   ]
  },
  "com.ipaomtk.exhausted.man.152830": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Exhausted Man is a humorous physics-based simulation game designed for iOS devices. Experience unique gameplay focused on movement and physics challenges as you navigate the life of an exhausted character.",
+  "date": "2026-11-18",
+  "description": "Exhausted Man is a humorous physics-based simulation game for iPhone and iPad. Players control an extremely tired character who struggles to complete everyday tasks.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "0c306da0920a1914973c6f6b27271c1dddcf6dd5ffafe317c0802fe2d2a2a618",
-  "subtitle": "Humorous physics-based simulation game",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "61003ff33118efe91c370545ff1797ed5f7b4fa1eca01cefabf72215e785e4ce",
+  "subtitle": "Humorous physics simulation game",
   "tags": [
-   "simulation",
    "physics",
-   "humorous",
+   "simulation",
+   "humor",
+   "ios",
    "game",
-   "ios"
+   "tired"
   ]
  },
  "com.ipaomtk.fairytale.quest.152626": {
@@ -35347,17 +35482,21 @@
  },
  "com.jamcity.pdt": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Disney Magic Match 3D is a game for your iOS device that combines the charm of Disney characters with match gameplay.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "e2e738a7f4746e9000b536b2a6305a66e9c74431b1aab063c4608762236b2c2a",
-  "subtitle": "Disney Magic Match 3D for iOS",
+  "date": "2026-11-18",
+  "description": "Disney Magic Match 3D is a match\u20113 puzzle game featuring Disney characters. The MOD version adds extra features and unlimited resources to enhance gameplay.",
+  "features": [
+   "Unlimited Resources",
+   "MOD Version"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7772c0e468d1d5ef6742e06f0d16d0e96e692750f6c714e7a44762890d77366c",
+  "subtitle": "Disney match\u20113 puzzle with unlimited resources",
   "tags": [
    "disney",
-   "match",
+   "match3",
    "puzzle",
-   "game",
+   "mod",
+   "unlimited",
    "ios"
   ]
  },
@@ -35396,20 +35535,25 @@
   ]
  },
  "com.jarustudios.ColorPalettes": {
-  "category": "utilities",
-  "date": "2026-10-18",
-  "description": "Color Palettes is a creative toolkit for designers on iPhone. Find and create color palettes easily.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "a6462eab79a1f13415e3e7431b06dd68bff7a46eebfde6dd3d0d09d767bd88d7",
-  "subtitle": "Find and create color palettes for designers",
+  "category": "photo-video",
+  "date": "2026-11-18",
+  "description": "Color Palettes is an iOS app for designers, artists, social media creators, and anyone who works with visual content. It provides tools to discover and build color palettes for creative projects. The app serves as a color inspiration toolkit for design tasks.",
+  "features": [
+   "Find color palettes",
+   "Create color palettes",
+   "Designed for designers",
+   "Color inspiration tool"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b86ad6d0bd5df5a5121ce2f0aeff8b7d92117b2ceed4e42c735996d0825ce945",
+  "subtitle": "Find and create color palettes for design",
   "tags": [
    "color",
    "palette",
    "design",
    "creative",
-   "toolkit",
-   "iphone"
+   "inspiration",
+   "tool"
   ]
  },
  "com.jarustudios.PauseCamera": {
@@ -35565,19 +35709,22 @@
  },
  "com.jbdotparty.Erosion": {
   "category": "utilities",
-  "date": "2026-11-13",
-  "description": "Erosion-CN is a Simplified Chinese localization of the Erosion MobileGestalt toolbox. It features hardened write and backup paths for system configuration on iOS and iPadOS 27.x, with partial support for iOS and iPadOS 26.x. Requires at least one App Group entitlement when re-signing.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash",
-  "src_hash": "098b2b279162935b70c94adbafd337561640e79e8bd9a71ef5269e7f11d15411",
-  "subtitle": "Simplified Chinese MobileGestalt toolbox",
+  "date": "2026-11-18",
+  "description": "Erosion-CN is the Simplified Chinese localized version of the MobileGestalt toolbox. It enhances write and backup processes for system configurations on iOS and iPadOS 27.x, with partial support for iOS and iPadOS 26.x. Re-signing requires at least one App Group permission.",
+  "features": [
+   "Simplified Chinese",
+   "System Configuration"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d64a110af25cb4d2106433ea26c1ae4bbb6ea8d0440884cadcd11bd8e5e211f9",
+  "subtitle": "MobileGestalt configuration toolbox",
   "tags": [
-   "erosion",
-   "mobilegestalt",
    "toolbox",
-   "chinese",
-   "ios",
-   "ipados"
+   "configuration",
+   "backup",
+   "system",
+   "mobilegestalt",
+   "utility"
   ]
  },
  "com.jbdotparty.PancakeStore": {
@@ -36189,18 +36336,18 @@
  },
  "com.kadka.battle.draw": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Draw Arena: Battle Tactics is a unique strategy game on iOS. Engage in tactical battles with a creative drawing mechanic for your combat strategies.",
+  "date": "2026-11-18",
+  "description": "Draw Arena: Battle Tactics is a unique strategy game on iOS that combines tactical combat with player-driven drawing mechanics. Rather than commanding fixed units in traditional ways, players draw paths, formations, and actions that directly influence how their forces behave in battle.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d1e3585ad500634077eb133d8c2bc0326861a62f469e8e099538c99c4f5b6e3f",
+  "src_hash": "223444bf08a2d6ac8829103cd17d349ea74da7d0d9da3910140ed46f31bd467f",
   "subtitle": "A creative twist on strategy combat",
   "tags": [
    "strategy",
-   "combat",
    "battle",
    "tactics",
    "drawing",
+   "combat",
    "game"
   ]
  },
@@ -37073,19 +37220,22 @@
   ]
  },
  "com.kommadot.casesimulator": {
-  "category": "games",
-  "date": "2026-11-16",
-  "description": "Case Chase Clicker: CSGO Skins is an iOS clicker-style game package that allows iPhone users to simulate the excitement of opening virtual weapon cases through sideloading. It features a progression system centered around collecting skins, upgrading income, and unlocking new content in a fast-paced and rewarding environment. The app includes integration with iGameGod.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "0b7c3097a8b4b45f5386498c3023608a650537fcff89d4539c55a959dd8667c9",
-  "subtitle": "Simulate opening virtual weapon cases and collect skins",
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "A clicker\u2011style iOS game that lets you simulate opening CS:GO weapon cases via sideloading. It includes a progression system for collecting skins, upgrading income, and unlocking new content. Includes the iGameGod tweak.",
+  "features": [
+   "iGameGod"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "51505268009262920e877297d2bc5d7f16e6b4ab18d4314533f018b94f09ddf1",
+  "subtitle": "Open CS:GO cases in a clicker game",
   "tags": [
+   "clicker",
    "csgo",
    "skins",
-   "clicker",
-   "game",
-   "case"
+   "case",
+   "sideload",
+   "progression"
   ]
  },
  "com.kongregate.mobile.adventurecapitalist": {
@@ -37449,18 +37599,19 @@
  },
  "com.kyuzan.eggrypto": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "EGGRYPTO Hatch is a mobile gaming title available for iOS users. This game offers a fascinating experience in the realm of mobile gaming.",
+  "date": "2026-11-18",
+  "description": "EGGRYPTO combines blockchain technology with casual gameplay. Players hatch digital eggs in a mobile game that introduces cryptocurrency concepts. The title blends entertainment with an entry point to crypto mechanics through its hatching system.",
   "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "215e146d2313278b825fd458b898df3c90c32fdd992e1ebc8c49a864d767b87d",
-  "subtitle": "Hatch and play in this mobile gaming title",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c111ac299bdb11178bd09416209733fd12ee5eacb925679aa36b13e2cac0d684",
+  "subtitle": "Blockchain game with digital egg hatching",
   "tags": [
-   "eggrypto",
+   "blockchain",
    "game",
-   "mobile",
-   "ios",
-   "hatch"
+   "crypto",
+   "egg",
+   "hatch",
+   "casual"
   ]
  },
  "com.lacroix.dev.Life": {
@@ -38081,18 +38232,20 @@
  },
  "com.leguas.gunstorm": {
   "category": "games",
-  "date": "2026-10-18",
-  "description": "Crazy Gunner Pixel Survivor is an action-packed pixel survival game for iOS devices.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Crazy Gunner: Pixel Survivor is an action-packed pixel shooter game designed for iPhone and iPad users who enjoy survival combat with arcade-style intensity. The installation package lets players experience the full game environment optimized for Apple devices. This version includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2098f5d916433f657732e00a6982ff4963aa0b8ea45f7a4c9cf6b8763185d13c",
-  "subtitle": "Action-packed pixel survivor game",
+  "src_hash": "1493d8852bc45c56b370580145647eafb44a4ea87d8166e61d130efda0ad581e",
+  "subtitle": "Action-packed pixel shooter game for iOS",
   "tags": [
-   "action",
    "pixel",
-   "survivor",
    "shooter",
-   "game"
+   "survival",
+   "action",
+   "arcade"
   ]
  },
  "com.leica-camera.camera": {
@@ -39919,21 +40072,23 @@
  },
  "com.madfingergames.deadtrigger2": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Dead Trigger 2 is a recently released game for iOS that provides an exciting and intense first-person shooter experience.",
+  "date": "2026-11-18",
+  "description": "Dead Trigger 2 is an intense first-person shooter game for iOS. This version includes a mod menu providing weapons, ammunition, and various upgrades for players.",
   "features": [
-   "First-person shooter",
-   "Recently released"
+   "MOD Menu",
+   "Weapons",
+   "Ammunition",
+   "Upgrades"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "fbf6a5b855bd02b98fdc2f5daf7ab84017fbaad00be46ca97cd15045d9999d2e",
-  "subtitle": "Intense first-person shooter for iOS",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "373c05ec16743e96f6ba0b98cb8d8a83ea2adb52caac38ea40378f69e03e26ed",
+  "subtitle": "First-person shooter game with a mod menu",
   "tags": [
-   "dead trigger 2",
-   "fps",
-   "ios",
    "shooter",
-   "action"
+   "action",
+   "zombie",
+   "game",
+   "fps"
   ]
  },
  "com.madfingergames.unkilled": {
@@ -40416,24 +40571,25 @@
   ]
  },
  "com.match.busters.free.ios": {
-  "category": "games",
-  "date": "2026-10-20",
-  "description": "Play Bloomville Bubble shooter version 1.6.0. This version includes modified features for coins that disable after matches, and boosters linked with stars and lives.",
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "Dream Master Travel Puzzle Game for iOS combines travel exploration with puzzle challenges. This modified version includes automatic win features, coin modification, star modification, unlimited lives with zero wait time, and booster options. Enjoy puzzle solving and travel themes with built-in game tweaks.",
   "features": [
-   "Coins Mod",
-   "Linked Boosters",
-   "Stars Integration",
-   "Lives Integration"
+   "Auto Win",
+   "Coins Hack",
+   "Stars Hack",
+   "Unlimited Lives",
+   "Booster"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "84cae72b693b3dffdd7f88875df2a52d26c742539c6e987527ebd673735c3895",
-  "subtitle": "Bloomville Bubble shooter puzzle game",
+  "src_hash": "e3ecee207a7ef06d79cb53231ec354221e469843af6ad87092eab1515bb4d56f",
+  "subtitle": "Travel puzzle game with coin and booster modifications",
   "tags": [
-   "bubble shooter",
    "puzzle",
-   "bloomville",
-   "match",
-   "arcade"
+   "travel",
+   "game",
+   "mod",
+   "ios"
   ]
  },
  "com.match.cheftreat.ios": {
@@ -40571,20 +40727,20 @@
  },
  "com.matthwlabs.cupola": {
   "category": "utilities",
-  "date": "2026-11-13",
-  "description": "Cupola is a native app designed for your self-hosted media stack and the box it runs on. It supports 19 services in a single interface, eliminating the need to use multiple web user interfaces that are often difficult to navigate on mobile devices. Cupola operates without the cloud, user accounts, or middlemen, ensuring direct connection and privacy for your home server management.",
+  "date": "2026-11-18",
+  "description": "Cupola is a native app for your self-hosted media stack and the box it runs on, supporting 19 services. There is no cloud, no account, and no middleman. The app speaks directly to the hosts you own, and your credentials live securely in the device keychain. Background search hands a request to the OS with your API key included. Designed to replace managing a dozen unusable web UIs on your phone with a single unified application.",
   "features": [
-   "No cloud",
-   "No account",
-   "No middleman",
-   "19 services"
+   "No Cloud",
+   "No Account",
+   "No Middleman",
+   "Keychain Storage"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "e6ab833b1b631b6a76b5e5398a26a579b6bcd85258df52b920c69535d9ece2fb",
-  "subtitle": "Control your entire self-hosted media stack",
+  "src_hash": "7f49e58c238b99c9c165714557c55d7f6b54e95fd3bb6dd85dbdb5738b754dc9",
+  "subtitle": "Control your self-hosted media stack from one native app",
   "tags": [
-   "server",
    "media",
+   "server",
    "selfhosted",
    "stack",
    "utilities"
@@ -41106,37 +41262,37 @@
  },
  "com.midasplayer.apps.candycrushjellysaga1": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "Candy Crush Jelly Saga is a game released by King that takes players on an enchanting journey through sugary landscapes where strategic thinking meets colourful visuals. The game features engaging mechanics, various modes, and delightful characters. This version includes tweaks via iGameGod.",
+  "date": "2026-11-18",
+  "description": "Candy Crush Jelly Saga is a match-3 puzzle game released by King. Players progress through sugary landscapes using strategic thinking and colorful visuals. The game features engaging mechanics, various modes, and delightful characters. It has built a community of dedicated fans. This version includes iGameGod tweaks.",
   "features": [
-   "iGameGod"
+   "iGameGod Tweaks"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "04813a1d7b687b6826520099f9fed7c21c14c9fb3cc657d64938ca4845ba9b79",
-  "subtitle": "Journey through sugary landscapes in Jelly Saga",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7a8209a4be586f2c1238d00ee346db02c21a812fea68bb0f9a37afd9ab1b13b0",
+  "subtitle": "Match-3 puzzle adventure with sweet challenges",
   "tags": [
-   "candy",
-   "crush",
-   "jelly",
-   "saga",
+   "match-3",
    "puzzle",
-   "game"
+   "candy",
+   "king",
+   "jelly",
+   "saga"
   ]
  },
  "com.midasplayer.apps.candycrushsaga": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "Candy Crush Saga is a puzzle game featuring colorful gameplay and constantly expanding levels. The app delivers a relaxing and addictive experience designed for iOS devices. This version includes iGameGod tweaks.",
+  "date": "2026-11-18",
+  "description": "Candy Crush Saga IPA is an iconic puzzle game for iOS offering endless entertainment through colorful gameplay and constantly expanding levels. The game delivers a relaxing and engaging experience that works across devices. This modified version includes iGameGod tweaks for added functionality.",
   "features": [
    "iGameGod Tweaks"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "9d18382dfea2117025d3e9688d8716e1e5d0c0ec06c37670b9e59c9e882387e1",
-  "subtitle": "Iconic puzzle game for iOS",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7a5149aefa87c01516d25725f593471b01ca72992f2d33b745cde7ce2ebc5796",
+  "subtitle": "Match colorful candies in this iconic puzzle game",
   "tags": [
    "puzzle",
+   "match",
    "candy",
-   "crush",
    "game",
    "ios"
   ]
@@ -41291,26 +41447,20 @@
   ]
  },
  "com.mikevillarroel.buildbox": {
-  "category": "utilities",
-  "date": "2026-11-17",
-  "description": "BuildBox lets you compile Swift projects directly on your iPhone using a GitHub Actions backend. After compilation you can sign the resulting app on\u2011device with your own certificate and install it, completing the full build\u2011sign\u2011install cycle in a single app. The app can also import any existing IPA to sign it, and inject .deb or .zip tweak packages before signing. It is distributed as an unsigned IPA and is free with an optional donate button.",
-  "features": [
-   "Compile Swift",
-   "Sign on-device",
-   "Import IPA",
-   "Inject tweaks",
-   "Free"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "8924ca93bcaf0ff17c39e5b51ac9209490e76297837698efa50671039524bc6b",
-  "subtitle": "Compile, sign, and install Swift apps on iPhone",
+  "category": "developer",
+  "date": "2026-11-18",
+  "description": "Compile Swift apps straight from your iPhone using a GitHub Actions backend, then sign them on-device with your own certificate and install them for the full development cycle.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6c6c15b16eaa4a0050fd4260b93e797ec205ddca686a28663d0dfab88f5b5258",
+  "subtitle": "Compile and sign Swift apps on your iPhone",
   "tags": [
    "swift",
-   "compile",
-   "sign",
-   "ipa",
-   "tweak",
-   "ios"
+   "compiler",
+   "github",
+   "sideload",
+   "signing",
+   "developer"
   ]
  },
  "com.mikevillarroel.layers": {
@@ -41605,19 +41755,20 @@
  },
  "com.minidragon.randomdungeon": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Introduction to Darkest Hero! Mobile gaming has evolved to offer players deeply immersive adventures.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Darkest Hero is a dark fantasy role-playing game for iOS that invites players into a world of shadows, dungeons, and fierce battles. Experience an immersive adventure designed for mobile devices.",
+  "features": [
+   "iGameGod"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "ab9c44b6a1848727d4fba9e6dfb348beb3ec8bed43468cb90484a5aa361c9952",
-  "subtitle": "Immersive mobile gaming adventure",
+  "src_hash": "956f7d46cd42a11290b1b65c20f59af827177d459377429294ba29a47161a05c",
+  "subtitle": "Dark fantasy RPG with shadows, dungeons, and battles",
   "tags": [
-   "darkest",
-   "hero",
-   "mobile",
-   "gaming",
-   "adventure",
-   "mod"
+   "rpg",
+   "dark fantasy",
+   "dungeon",
+   "action",
+   "game"
   ]
  },
  "com.minigamelab.bouncedefense": {
@@ -42111,20 +42262,20 @@
   ]
  },
  "com.mobirix.mbpdh": {
-  "category": "games",
-  "date": "2026-10-20",
-  "description": "Demon Hunter Idle is a dark fantasy role playing game for iOS devices. Dive into action and adventure as you battle demons in an idle gaming format.",
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "Demon Hunter Idle is an idle RPG for iOS set in a dark fantasy world overrun by demons. Players build a squad of hunters and collect powerful gear to battle demonic forces. The game combines idle mechanics with demon\u2011slaying action.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "80dc3d926203c55720f8a1f8c6c8087bd377a784222bd5dd97eb718ac40e7a78",
-  "subtitle": "Dark fantasy role playing game",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "277444d432687f4beb01c2fb2a658e6d3f34c27d390d31bb4b0fcaa90b7c47c3",
+  "subtitle": "Dark fantasy idle RPG",
   "tags": [
-   "rpg",
-   "idle",
-   "fantasy",
    "demon",
    "hunter",
-   "game"
+   "idle",
+   "rpg",
+   "dark",
+   "fantasy"
   ]
  },
  "com.mobirix.tdwt": {
@@ -42776,19 +42927,19 @@
  },
  "com.multicastgames.devour": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Devour Idle RPG is an iOS idle role\u2011playing game package that allows iPhone users to experience a progressive idle game. The app is distributed as an IPA file for sideloading.",
+  "date": "2026-11-18",
+  "description": "Devour Idle RPG is an iOS idle role\u2011playing game package that lets iPhone users play a progression\u2011focused RPG via sideloading. Players grow stronger by consuming enemies, evolving abilities, and advancing through increasingly challenging stages in a fast\u2011paced yet relaxed loop. The package includes iGameGod tweaks.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "236af1e32784960e6614aec02b78f7eaaff01d9187b0c55c1a963b34257a8bf6",
-  "subtitle": "Idle RPG for iPhone",
+  "src_hash": "d1f8c825e3778eb98c9970aabd9e921f85c6b9d9c50e064fe70ef7cf401ab102",
+  "subtitle": "Idle RPG with enemy consumption and evolution",
   "tags": [
    "idle",
    "rpg",
-   "iphone",
-   "ipa",
-   "game",
-   "offline"
+   "ios",
+   "sideload",
+   "progression",
+   "enemies"
   ]
  },
  "com.mumu.Speed": {
@@ -43111,20 +43262,20 @@
  },
  "com.mwm.procolor": {
   "category": "other",
-  "date": "2026-11-15",
-  "description": "Color Pop is an AI-powered coloring book app. This version includes subscription modifications.",
+  "date": "2026-11-18",
+  "description": "ColorPop is a modified version that unlocks the subscription features.",
   "features": [
    "Subscription Unlocked"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2c06a20bef7786aa3a287711d6cc05b9195159c4a6c6adba53ac051065b6bafc",
-  "subtitle": "AI coloring book for iOS",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "cae30a91ae62c0ab42f2d3d16a8edd65f39d70bac72f4b9b172807ad26bf1b4e",
+  "subtitle": "ColorPop - Subscription Unlocked",
   "tags": [
-   "color",
-   "coloring",
-   "ai",
-   "book",
-   "art"
+   "colorpop",
+   "subscription",
+   "unlocked",
+   "modified",
+   "app"
   ]
  },
  "com.mwm.sampler-app": {
@@ -44153,40 +44304,37 @@
  },
  "com.neptune.darkstar": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Darkstar Idle RPG is a mobile role-playing game designed for iOS devices. This version includes modified gameplay elements featuring a damage multiplier and a never die option, allowing players to progress through the game with enhanced combat capabilities.",
+  "date": "2026-11-18",
+  "description": "Darkstar Idle RPG is a role-playing game for iOS that blends conventional mechanics with idle features, allowing players to experience an adventure even while they are away. Features include a damage multiplier and never die capabilities.",
   "features": [
    "Damage Multiplier",
    "Never Die"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "19497db527b437dbb9070fed986b3b09c3bf8459ce029f2ae12a24bae1dc2864",
-  "subtitle": "Idle RPG with Damage Multiplier and Never Die features",
+  "src_hash": "c8e01f256fdc1c0fe426aff13301a4203058607a09c2d7c562534c7bdc8069bf",
+  "subtitle": "An idle role-playing adventure game for iOS",
   "tags": [
    "rpg",
    "idle",
    "game",
-   "action",
-   "strategy"
+   "adventure",
+   "ios"
   ]
  },
  "com.nero.erasee.remove.background": {
   "category": "photo-video",
-  "date": "2026-10-21",
-  "description": "Background Remover: BG Eraser is an intuitive, AI-powered iOS app that makes professional image background removal accessible and straightforward.",
-  "features": [
-   "AI-powered",
-   "Background removal",
-   "Intuitive interface"
-  ],
+  "date": "2026-11-18",
+  "description": "Background Remover: BG Eraser is an intuitive, AI-powered iOS app that makes professional-level background removal accessible to everyone. Whether you are crafting product shots for online stores, enhancing portraits for social media, or creating graphics for presentations, this tool lets you isolate subjects quickly and with remarkable accuracy.",
+  "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "72cc82672af9e4bf128ebf163c96eefd7de734fb3c405989992ecd102e6f4982",
-  "subtitle": "AI-powered background remover for iOS",
+  "src_hash": "18c9ed3c7fa44e8a0b5a85f7f4cf4b84a675d7d3e0fc4fda9e5e8421ec521ce6",
+  "subtitle": "AI-powered background removal tool for iOS",
   "tags": [
    "background",
-   "remover",
    "eraser",
+   "remover",
    "photo",
+   "editor",
    "ai"
   ]
  },
@@ -44243,21 +44391,20 @@
  },
  "com.netflix.NGP.BloonsTDSix": {
   "category": "entertainment",
-  "date": "2026-11-16",
-  "description": "Bloons TD 6 Netflix is a strategic tower defense game available for iOS. Engage in deep tactical gameplay as you build defenses and manage strategies. This version includes integration with iGameGod tweaks for enhanced control and customization options during gameplay. Experience the popular tower defense title optimized for mobile devices.",
+  "date": "2026-11-18",
+  "description": "Bloons TD 6 Netflix brings engaging tower defense gameplay and strategic depth to iOS through Netflix. This version includes iGameGod tweaks for enhanced control.",
   "features": [
    "iGameGod Tweaks"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "73de4567ebf9e960e5dc2725ad64eaf0777ef19f3c501be1b1e0d386a0316d5b",
-  "subtitle": "Strategic tower defense gameplay on iOS",
+  "src_hash": "b599dfa67acf4fb88babb90a535e32b84972a6f1ddafd13c80e16d04b4377c24",
+  "subtitle": "Bloons TD 6 Netflix version for iOS",
   "tags": [
    "bloons",
    "tower defense",
-   "strategy",
    "netflix",
-   "games",
-   "ios"
+   "strategy",
+   "game"
   ]
  },
  "com.netflix.NGP.DungeonBossNewFrontiers": {
@@ -45146,18 +45293,25 @@
  },
  "com.nomadgames.everybodyrpgpay": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Everybody\u2019s RPG is an innovative mobile game that blends traditional role-playing elements with casual and accessible gameplay.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Everybody's RPG is an innovative mobile game that blends traditional role-playing elements with casual, accessible gameplay. Embark on epic quests and battles without the complexity often associated with RPGs. Featuring a diverse cast of characters, each with customizable abilities and equipment, Everybody's RPG allows players to experience adventure seamlessly.",
+  "features": [
+   "Tweaks: iGameGod",
+   "Casual RPG gameplay",
+   "Epic quests and battles",
+   "Customizable abilities",
+   "Customizable equipment"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d2ce1fc72a76b3088b418b5564ede99c96bbf207ee93eb7cc7eb3c612db7bd24",
-  "subtitle": "Blends traditional RPG elements with casual gameplay",
+  "src_hash": "2e6d656e5890dd9ecf7fe4ba9ed5d452682864d958c149776d9aba814d389eeb",
+  "subtitle": "An innovative casual role-playing mobile game",
   "tags": [
    "rpg",
-   "roleplaying",
-   "casual",
    "game",
-   "mobile"
+   "casual",
+   "quest",
+   "battle",
+   "adventure"
   ]
  },
  "com.nomorerobots.nowhereprophet": {
@@ -45399,18 +45553,23 @@
  },
  "com.nspgames.dungeonslasher": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "DungeonSlasher is a captivating mobile game that takes you on a perilous journey through the depths of treacherous dungeons.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Embark on a perilous journey through the depths of treacherous dungeons in this captivating mobile game. Experience heart-pounding action, strategic combat, and uncover hidden treasures. Navigate through dangerous levels, face challenging encounters, and test your skills as you explore dark environments. Compatible with iGameGod tweaks.",
+  "features": [
+   "Action gameplay",
+   "Strategic combat",
+   "Hidden treasures"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "efa92850d0af08f43a7a689c3ea719aac9794d6d8590704e26d29d23c4434a84",
-  "subtitle": "Journey through treacherous dungeons",
+  "src_hash": "c1479156e5840ef32cd6a0ff381109ede1e6b777dfb0de2aed2b02fa78611cd2",
+  "subtitle": "Journey through treacherous dungeons in this mobile action\u2026",
   "tags": [
    "dungeon",
-   "slasher",
+   "action",
+   "combat",
    "game",
-   "mobile",
-   "action"
+   "adventure",
+   "mobile"
   ]
  },
  "com.nssurge.inc.surge-ios": {
@@ -46694,18 +46853,23 @@
   ]
  },
  "com.ovilex.drivingschoolsim": {
-  "category": "lifestyle",
-  "date": "2026-10-20",
-  "description": "Driving School Simulator offers an immersive and realistic experience for aspiring drivers and gaming enthusiasts alike.",
-  "features": [],
+  "category": "games",
+  "date": "2026-11-18",
+  "description": "Driving School Simulator offers an immersive experience for aspiring drivers and gaming enthusiasts. Navigate through bustling city streets, serene countryside roads, and challenging terrains while mastering the intricacies of vehicle operation. The game features a variety of cars and diverse environments for players to explore.",
+  "features": [
+   "Detailed graphics",
+   "Diverse environments",
+   "Variety of cars",
+   "Realistic vehicle operation"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "f00f70c23287eb66de41676c8364aa5fe6cd1aeb17775fccf5597cbe5791096c",
-  "subtitle": "Realistic driving simulator and experience",
+  "src_hash": "15cf73ea325e851176867ff1adf13af690fa71f7f2ee8b7e1df4bbb41f764a8c",
+  "subtitle": "Realistic driving simulator with detailed graphics",
   "tags": [
    "driving",
-   "school",
    "simulator",
-   "car",
+   "cars",
+   "vehicles",
    "game"
   ]
  },
@@ -46765,20 +46929,20 @@
   ]
  },
  "com.oxvgames.dicelords": {
-  "category": "games",
-  "date": "2026-10-20",
-  "description": "Dice Lords IPA MOD brings a unique mix of strategy, luck and tactical decision\u2011making for iOS players.",
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "Dice Lords combines strategy, luck and tactical decision-making for a fresh experience built around dice-based combat. The game features a creative battle system, colorful heroes and deep progression elements.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "48054b9ee494fee73caa39326c67858d59a06ea0801e3826763104c3729fc06a",
-  "subtitle": "Strategy dice game with luck and tactics",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "46a565a20ffd0ee8486033317df15ad3eb9dd8d6d9e1f5822d75b65937c6d71d",
+  "subtitle": "Strategy and tactical dice-based combat",
   "tags": [
    "dice",
    "lords",
    "strategy",
-   "luck",
+   "combat",
    "tactical",
-   "ios"
+   "heroes"
   ]
  },
  "com.paha.LoFiCam": {
@@ -47245,19 +47409,22 @@
  },
  "com.perblue.disneyheroes.ios": {
   "category": "entertainment",
-  "date": "2026-10-20",
-  "description": "In the constantly evolving world of mobile gaming, Disney Heroes Battle Mode offers a vibrant and engaging experience.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Disney Heroes Battle Mode is a collectible RPG featuring Disney characters in strategic team-based combat. Players build teams of heroes and villains from across Disney and Pixar franchises, engage in campaign missions, and compete in PvP arenas. The game includes character progression, gear collection, and guild cooperation. This version includes iGameGod tweaks for modified gameplay.",
+  "features": [
+   "Cheat Menu",
+   "Tweaked"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "b2104d3a13f8e1674bd0ae79e3b78c0c4d4c4ef38b20c2ebbf4a22a2a1b6af3e",
-  "subtitle": "Disney Heroes Battle Mode",
+  "src_hash": "276a4042cb548f6533afc6419f56725405710d17b6727f1025a7dcbf2caf39fd",
+  "subtitle": "Collectible RPG with Disney characters",
   "tags": [
    "disney",
-   "heroes",
-   "battle",
-   "mode",
-   "mobile",
-   "gaming"
+   "rpg",
+   "collectible",
+   "strategy",
+   "tweaked",
+   "igamegod"
   ]
  },
  "com.percent.ios.rollinghero": {
@@ -47743,18 +47910,21 @@
  },
  "com.pikpok.wtd.iosstore": {
   "category": "games",
-  "date": "2026-10-18",
-  "description": "Clusterduck introduces players to innovative mechanics and captivating themes. Hatch as many ducks as possible and watch new mutations develop. Discover strange and unusual duck variations as your flock grows.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Clusterduck is a unique game created by Thunkd that invites players into a quirky and colorful universe filled with charming ducks and addictive gameplay. Experience innovative mechanics and captivating themes in this engaging iOS title featuring vibrant graphics.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "ccc7051407f64bd8f620e715d3322c215e62a3fd242571498f716f8773e37d08",
-  "subtitle": "Hatch ducks and discover mutant varieties",
+  "src_hash": "d2e270e929bdc1a6214a19eeb78bad52c42277713eaa4fc4d7b5c7a4dc2e6361",
+  "subtitle": "Immerse yourself in a quirky universe filled with ducks",
   "tags": [
-   "duck",
-   "hatch",
-   "mutant",
-   "simulation",
-   "casual"
+   "clusterduck",
+   "thunkd",
+   "ducks",
+   "game",
+   "ios",
+   "tweaks"
   ]
  },
  "com.pinguido.scenic": {
@@ -48797,23 +48967,24 @@
  },
  "com.playsidestudios.candycritters": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "Candy Critters Idle Merge is a puzzle game for iOS devices. Combine the mechanics of idle gameplay with the fun of merging items in a colorful world filled with cute creatures and vibrant candies. Players merge candy critters. Tweaks include iGameGod.",
+  "date": "2026-11-18",
+  "description": "Candy Critters Idle Merge is a puzzle game for iOS devices. It combines idle gameplay mechanics with the mechanics of merging items. Players merge candy critters in a colorful world filled with cute creatures and vibrant candies. This version includes iGameGod tweaks.",
   "features": [
    "Idle gameplay",
    "Merge mechanics",
-   "Puzzle game",
-   "iGameGod included"
+   "Puzzle elements",
+   "iGameGod tweaks"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "38beef5a922ad4d9fb4541c5e7afd687cfa339fb1ef656e6869c33ef61326be1",
-  "subtitle": "Idle merge puzzle game with cute creatures",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "120ab874d3b87efaf772a51879ac5c4e19e2b736cdcdd6ed55a1a39bbd31bf33",
+  "subtitle": "Idle merge puzzle game with cute candy critters",
   "tags": [
-   "puzzle",
+   "candy",
+   "critters",
    "idle",
    "merge",
-   "game",
-   "ios"
+   "puzzle",
+   "game"
   ]
  },
  "com.playspare.store": {
@@ -49254,23 +49425,23 @@
  },
  "com.popve.dicevmonster": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Dice vs Monsters is an idle defense game for iOS. The modified version includes frozen gold and diamonds, and removes advertisements.",
+  "date": "2026-11-18",
+  "description": "Dice vs Monsters is an idle defense game where dice mechanics drive strategy and incremental progress. This modified IPA includes Freeze Gold, Freeze Diamonds, and No Ads tweaks via iGameGod. Designed for iOS.",
   "features": [
    "Freeze Gold",
    "Freeze Diamonds",
    "No Ads"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "428d1dacf73e3414c656a295d03de21c292d1317c49f4a3aa9884311f334d97f",
-  "subtitle": "Idle defense with frozen resources, no ads",
+  "src_hash": "adb8660cbd94978759e88d29fca7c4784097d349b7e435dbb75f8adf64f9dc5a",
+  "subtitle": "Idle dice defense with gold & diamond freeze",
   "tags": [
    "idle",
    "defense",
    "dice",
-   "monsters",
    "mod",
-   "noads"
+   "ios",
+   "game"
   ]
  },
  "com.porksphere.comical": {
@@ -50476,20 +50647,18 @@
   ]
  },
  "com.realmzer.cahighfps": {
-  "category": "utilities",
-  "date": "2026-10-15",
-  "description": "CA-High-FPS unlocks higher frames per second limits for selected applications. This utility tool modifies application frame rate caps based on your configuration.",
-  "features": [
-   "Unlock FPS"
-  ],
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "CA-High-FPS unlocks higher frame rates for specified applications. This tool allows users to run supported apps at increased frame rates.",
+  "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "038913d8ff94d778240b7d767f6d2d364f72effb06c39c0f888c2537cc7b7d99",
-  "subtitle": "Unlocks higher frames per second in applications",
+  "src_hash": "4587fcac90ab9a1c780dabc42306173c52c0c90ade4b42964a173be301179274",
+  "subtitle": "Unlocks higher frame rates for supported apps",
   "tags": [
    "fps",
    "unlock",
-   "performance",
-   "utility"
+   "frame rate",
+   "tweaks"
   ]
  },
  "com.realmzer.comdinohunter": {
@@ -51130,19 +51299,23 @@
  },
  "com.reefgames.fabletown": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Fable Town Merge Island magic is a captivating mobile game that combines the thrill of puzzle-solving with the charm of a whimsical fable setting. Merge items, explore the island, and progress through the game.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "ba9288168d55b0dc61dcf6bf3f1ee044c1985e5a73225ef5f7f7abc70ed50304",
-  "subtitle": "Combine puzzle-solving with whimsical fable elements",
+  "date": "2026-11-18",
+  "description": "Fable Town: Merge Island magic is a merge puzzle game set in a whimsical fantasy world. Players combine items to solve puzzles and progress through a story-driven adventure. The app includes iGameGod tweaks.",
+  "features": [
+   "Merge Puzzle",
+   "Fantasy Setting",
+   "iGameGod Tweaks"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3497a4396d42c681ed6dda54d80b04426fd2c541187e954447834f8fbc5a31df",
+  "subtitle": "Merge puzzle adventure in a fantasy world",
   "tags": [
-   "games",
-   "puzzle",
    "merge",
-   "island",
-   "magic",
-   "fable"
+   "puzzle",
+   "fantasy",
+   "game",
+   "adventure",
+   "tweaks"
   ]
  },
  "com.reezo.RezooPipCam": {
@@ -52045,19 +52218,19 @@
  },
  "com.rocketdigitals.aiinteriordesign": {
   "category": "other",
-  "date": "2026-10-20",
-  "description": "DecorAI is an iOS application that uses AI to provide interior design for iPhone, transforming spaces with smart visual technology.",
+  "date": "2026-11-18",
+  "description": "DecorAI is an iOS application built to help homeowners, renters, and design enthusiasts reimagine their living spaces using artificial intelligence. Transform rooms and visualize new styles using smart visual technology across multiple room types and lighting conditions.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "3692cf1cffc152634320baafa951cb88ba1e227af2f1fd6c2e7b338ec44f9ee3",
-  "subtitle": "AI interior design for iPhone",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "558a6af0d68f811bb0f836abe84eebcde5ebb6c74a722ae7067aefe8f340c262",
+  "subtitle": "AI Interior Design for iPhone",
   "tags": [
-   "ai",
    "interior",
    "design",
-   "iphone",
-   "visual",
-   "technology"
+   "ai",
+   "decor",
+   "home",
+   "room"
   ]
  },
  "com.rockstargames.bully": {
@@ -52423,18 +52596,19 @@
  },
  "com.rovio.dream": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Angry Birds Dream Blast is a colourful oasis of fun and strategy. This charming addition to the beloved Angry Birds series offers engaging puzzle gameplay focused on matching and popping bubbles to solve levels and help the characters.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Angry Birds Dream Blast features vibrant graphics and engaging puzzle mechanics set in the Angry Birds universe. This modified version includes iGameGod tweaks.",
+  "features": [
+   "iGameGod included"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "6acb11debf2ac01c296eebda633e04e3ce12d10cd9edf3c0af5b147d47bf5d91",
-  "subtitle": "A colourful oasis of fun and strategy",
+  "src_hash": "65279cd6056683ccc65c2cc5478d3d9b37e0cdb69d12287c7273f5eacc7bafbe",
+  "subtitle": "Angry birds puzzle game with tweaks",
   "tags": [
+   "angry birds",
    "puzzle",
+   "mod",
    "strategy",
-   "birds",
-   "match",
-   "bubbles",
    "game"
   ]
  },
@@ -52653,21 +52827,21 @@
  },
  "com.ryki.fps.zombie": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "Bulletstorm Zombie Waves is a mobile zombie shooter for iOS that combines classic shooter mechanics with modern mobile accessibility. The game offers thrilling gameplay and slick graphics suitable for casual players and enthusiasts. This version includes iGameGod tweaks.",
+  "date": "2026-11-18",
+  "description": "Bulletstorm Zombie Waves is an iOS game combining classic zombie shooter mechanics with mobile accessibility. The game features slick graphics and thrilling gameplay designed for both casual players and hardcore enthusiasts. This version includes iGameGod tweaks for modified gameplay. Join the Discord community for tweak updates.",
   "features": [
    "iGameGod Tweaks"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "0c3bfb7c99ac04e0de83541be1cffd3cac718884b70b2ec42fd978fea81c2725",
-  "subtitle": "Zombie shooter for iOS",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "7b72dbd31eb626b4a2c95ac6ebc5d0b1c29f7454fc66a5b843dc0de3c3660e2b",
+  "subtitle": "Zombie shooter with classic mechanics",
   "tags": [
    "zombie",
    "shooter",
    "action",
-   "game",
    "mobile",
-   "ios"
+   "game",
+   "tweaked"
   ]
  },
  "com.ryuk.ryukgram": {
@@ -54953,19 +55127,20 @@
  },
  "com.spaceapegames.carsuperstar": {
   "category": "other",
-  "date": "2026-10-15",
-  "description": "Chrome Valley Customs IPA MOD mobile application for iOS devices.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Chrome Valley Customs iOS app tweaks for car enthusiasts. Includes iGameGod integration.",
+  "features": [
+   "iGameGod"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "a2e346b2672a533123c4ee5f9f935ecc1fa98bb1061b701a099fd465301a6328",
-  "subtitle": "Chrome Valley Customs iOS application",
+  "src_hash": "8b509abedb67b078f2389927583f52a3b3b2fda6a6759ae9650c600a11d95570",
+  "subtitle": "Tweaks for Chrome Valley Customs",
   "tags": [
-   "chrome",
-   "valley",
+   "chrome valley",
    "customs",
-   "mobile",
-   "ios",
-   "app"
+   "tweaks",
+   "igamegod",
+   "ios"
   ]
  },
  "com.spacegab.slideshow": {
@@ -55796,6 +55971,87 @@
    "tweaks",
    "sideload",
    "music"
+  ]
+ },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.5.0.9.2.0": {
+  "category": "entertainment",
+  "date": "2026-11-18",
+  "description": "EeveeSpotifyReincarnated is a modified version of Spotify (v7.5.0) that includes the EeveeSpotify and SpotifyAudioProbe tweaks. This version is not patched. Developed by TubeVault. Requires sideloading via services like CertFish FastSign.",
+  "features": [
+   "Modded",
+   "EeveeSpotify",
+   "SpotifyAudioProbe",
+   "Not Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "323a0d868ed00f8d8e808705d02958d18d4ff6d80e146682b270ac20480fe2a2",
+  "subtitle": "Modded Spotify with EeveeSpotify tweaks",
+  "tags": [
+   "spotify",
+   "modded",
+   "music",
+   "tweaks",
+   "sideload",
+   "tubevault"
+  ]
+ },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.5.0.9.2.0.ios15only": {
+  "category": "entertainment",
+  "date": "2026-11-18",
+  "description": "Modded version of Spotify featuring EeveeSpotify and SpotifyAudioProbe tweaks. This application is compatible with iOS 15 only.",
+  "features": [
+   "EeveeSpotify tweak",
+   "SpotifyAudioProbe tweak"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d2fc84709648faafdf3c442ba17b8375bbb5b5287a92a0b828afdf0edd366b0c",
+  "subtitle": "Modded version of Spotify",
+  "tags": [
+   "spotify",
+   "modded",
+   "ios15",
+   "audio",
+   "music"
+  ]
+ },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.5.0.patched.9.2.0": {
+  "category": "entertainment",
+  "date": "2026-11-18",
+  "description": "Modded version of Spotify including EeveeSpotify and SpotifyAudioProbe tweaks. This patched build does not work with sidestore. Requires sideloading via external tools.",
+  "features": [
+   "Modded",
+   "EeveeSpotify tweak",
+   "SpotifyAudioProbe tweak",
+   "Patched"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dc6fea7dc1eebfe81f9bab51a5b935d4f0ae0595e96cdadcc311f6fe26968a92",
+  "subtitle": "Modded Spotify with EeveeSpotify tweaks",
+  "tags": [
+   "spotify",
+   "modded",
+   "tweaks",
+   "music",
+   "patched",
+   "eeveespotify"
+  ]
+ },
+ "com.spotify.client.ios.eeveespotifyreincarnated.7.5.0.patched.9.2.0.ios15only": {
+  "category": "entertainment",
+  "date": "2026-11-18",
+  "description": "This is a modded version of Spotify featuring EeveeSpotify and SpotifyAudioProbe tweaks. Please note that this application only works with iOS 15. This app does not work with sidestore.",
+  "features": [
+   "Patched version"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a85fc206a6e99f59194faafa9ad5cf1992a8906067476bbf1dc899dc9f65e508",
+  "subtitle": "Modded Spotify version for iOS 15 only",
+  "tags": [
+   "spotify",
+   "mod",
+   "music",
+   "audio",
+   "ios15"
   ]
  },
  "com.spotify.client.ios.eeveespotifyreincarnated.pixie.9.1.90": {
@@ -56925,19 +57181,20 @@
  },
  "com.stonehollow-workshop.Eterspire": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Experience Eterspire, a fantasy MMORPG for iOS. Enter a new virtual world and join other gamers in this exciting role-playing adventure.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "06c4f86bc927fea2bac7fc33e0bc28a7b9280a141e3cce5c50433e9ec32f5541",
+  "date": "2026-11-18",
+  "description": "Enter a captivating universe filled with enigmatic creatures, intricate quests, and vast landscapes in Eterspire, a fantasy MMORPG for iOS. Experience stunning graphics, rich lore, and engaging gameplay. This version includes the iGameGod tweak.",
+  "features": [
+   "iGameGod"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "06154cdf6d3e2632b88913b1a2718375e732ffdbe12ef10e53053688939b5450",
   "subtitle": "A fantasy MMORPG for iOS",
   "tags": [
    "mmorpg",
    "fantasy",
    "rpg",
    "game",
-   "adventure",
-   "online"
+   "ios"
   ]
  },
  "com.storm-heezen.BoomIt": {
@@ -57293,18 +57550,19 @@
  },
  "com.stratospheregames.dawnofages": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Dawn of Ages: total war battle is a medieval-era strategy game available for iPhone and iPad. Engage in tactical warfare and strategic combat set in the medieval period.",
+  "date": "2026-11-18",
+  "description": "Dawn of Ages is a medieval\u2011era strategy game for iPhone and iPad. It features large\u2011scale battles, army management, and city building, letting players command armies and develop empires in historic\u2011inspired warfare.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c71367389bc8f026810675058e26ab58f523fe658bbf53f27045150efd6cd77f",
-  "subtitle": "Medieval-era strategy game for iPhone and iPad",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "06b3de3ce60f32f43c95a140f8bcf4b2399eb8c813eab9ec1cedd729815ca9ab",
+  "subtitle": "Medieval strategy war game for iOS",
   "tags": [
-   "strategy",
    "medieval",
-   "battle",
+   "strategy",
    "war",
-   "tactics"
+   "battle",
+   "empire",
+   "city"
   ]
  },
  "com.stratospherix.filebrowserbiz": {
@@ -57820,19 +58078,21 @@
  },
  "com.superplaystudios.disneysolitairedreams": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Disney Solitaire offers a delightful escape into the enchanting realm of beloved characters and whimsical gameplay.",
-  "features": [],
+  "date": "2026-11-18",
+  "description": "Disney Solitaire is a mobile card game that lets you shuffle and play solitaire alongside beloved Disney heroes. The game features whimsical gameplay and offers hours of entertainment for both longtime Disney fans and new players.",
+  "features": [
+   "iGameGod"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "dd68325f44f97a44fcd1f888c8ea2b1159148aac5a2e72b60d9af23af00a5cd3",
+  "src_hash": "509dafcdcc21c380ad9889aefed917da2592abd910caef46db58e4f85d906e3e",
   "subtitle": "Play solitaire with Disney characters",
   "tags": [
    "disney",
    "solitaire",
    "card",
    "game",
-   "characters",
-   "gameplay"
+   "mobile",
+   "igamegod"
   ]
  },
  "com.surfrpt1.procraft": {
@@ -58071,23 +58331,21 @@
  },
  "com.sybogames.brim": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "Blades of Brim is an action-packed endless runner game featuring fast-paced combat, character progression, and varied environments. This version includes iGameGod tweaks for modified gameplay. The game is distributed as an IPA file for sideloading via CertFish FastSign service.",
+  "date": "2026-11-18",
+  "description": "Blades of Brim is an action-packed game featuring immersive gameplay, thrilling adventures and stunning graphics. This version includes iGameGod tweaks.",
   "features": [
-   "iGameGod Tweaks",
-   "Sideload IPA",
-   "Modded Gameplay"
+   "iGameGod Tweaks"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "8549e4816db14dd522995e96c7a5fd0ececc407e68c0e16cc2f75a2d964b0213",
-  "subtitle": "Action runner game with iGameGod tweaks",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8327e6d0757852ef6601078336c0325e70648a895eeca59a0df8b42054a5a8fa",
+  "subtitle": "Action-packed running game",
   "tags": [
+   "blades",
+   "brim",
    "action",
+   "game",
    "runner",
-   "endless",
-   "modded",
-   "ipa",
-   "sideload"
+   "tweaks"
   ]
  },
  "com.sybogames.subway.surfers.game": {
@@ -60098,32 +60356,41 @@
  },
  "com.tree.godown": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "In the ever-evolving landscape of mobile gaming, unique and engaging titles continuously capture the attention of players. DDDigger is one such game available for mobile devices.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "57250f05908458e2d329cdd32b3f1d13ef6c25c84fe10f7e5238812f8fa16918",
-  "subtitle": "Unique and engaging mobile gaming title",
+  "date": "2026-11-18",
+  "description": "DDDigger is an arcade-style digger game for iOS that combines strategy, skill, and fun for casual and dedicated gamers. This version includes the iGameGod tweak.",
+  "features": [
+   "Includes iGameGod"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d0ee2b5ec5aecea0a2fec360958ef398aee4be66954947684cb181e9092a30f1",
+  "subtitle": "An arcade-style digger game for iOS",
   "tags": [
+   "arcade",
+   "digger",
    "game",
-   "mobile",
-   "dddigger",
-   "gaming"
+   "strategy",
+   "ios",
+   "tweaks"
   ]
  },
  "com.tree.hybrid.farmerisback": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Duck Dice is a casual board game for iOS devices. Experience the gameplay of this digital board game edition.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "5e648b2e7c6f49e613290f5155f3eb4f9bf271609004bb8d5a359600f02c1a40",
-  "subtitle": "Casual board game for iOS",
+  "date": "2026-11-18",
+  "description": "Duck Dice is a casual board game available as an IPA file for sideloading on iPhone and iPad. The package includes iGameGod tweak integration for modified gameplay. Installation requires sideloading methods rather than direct App Store download.",
+  "features": [
+   "iGameGod Tweak",
+   "Sideload Install"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "52566ff6922a9e356254ec7601aa3b2f9ca5514ff5711a274a7e7a2dbe0956c2",
+  "subtitle": "Casual board game with iGameGod tweak support",
   "tags": [
-   "board",
-   "game",
+   "board game",
    "casual",
-   "dice"
+   "dice",
+   "sideload",
+   "ipa",
+   "tweak"
   ]
  },
  "com.tree.hybrid.geartank": {
@@ -60738,17 +61005,21 @@
  },
  "com.ugi.designfamilylife": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Design Family Life is a simulation game that combines home design, family management, and storytelling elements. Players engage in creating and customizing living spaces while managing family dynamics and progressing through narrative-driven content.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ef2da6c9ddc46f2a037d31bd99e61bffa8dd132cae22332a6675141d1d222ea0",
-  "subtitle": "Simulation game with home design and family management",
+  "date": "2026-11-18",
+  "description": "Design Family Life is a simulation game combining home design, family management, and storytelling. This version includes premium features, unlimited resources, and an ad-free experience for your iPhone or iPad without any in-app purchases.",
+  "features": [
+   "No Ads",
+   "Unlimited Resources",
+   "Premium Features"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8559f7b207faa8ec6cbb8ad8827b20df80cd577ff795fa681875be23b541861b",
+  "subtitle": "Home design, family management and simulation game",
   "tags": [
    "simulation",
    "home design",
-   "family management",
-   "storytelling",
+   "family",
+   "strategy",
    "game"
   ]
  },
@@ -61989,20 +62260,20 @@
  },
  "com.unknown.clarity": {
   "category": "utilities",
-  "date": "2026-10-18",
-  "description": "Unlock pro features within the app. To make a purchase, tap buy and then choose cancel.",
+  "date": "2026-11-18",
+  "description": "Clarity is an app that notifies you when any of your tweaks update. All features are open and unlocked.",
   "features": [
-   "Unlock",
-   "Pro Features"
+   "Unlocked"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "7a223ae5f53fb3d6bc2810f8ac3922a53aff0b8c14625fc785de1c310aa091d9",
-  "subtitle": "Unlock pro features",
+  "src_hash": "1427f7e9b50683cb2af34f981e9988c4be94194ba829b8912e12b5a144f73e6f",
+  "subtitle": "Get notified when your tweaks update",
   "tags": [
    "clarity",
-   "pro",
-   "unlock",
-   "karbin-store"
+   "tweaks",
+   "updates",
+   "utility",
+   "notifications"
   ]
  },
  "com.unknown.clashofclans": {
@@ -67446,6 +67717,26 @@
    "training"
   ]
  },
+ "com.vira.dust.atv.racing": {
+  "category": "games",
+  "date": "2026-11-18",
+  "description": "DUST: ATV Offroad Simulator is an offroad racing game featuring integrated tweaks powered by iGameGod. Maximize your in-game funds with the currency max feature and gain an advantage by freezing rival riders during races to halt their progress.",
+  "features": [
+   "Currency Max",
+   "Freeze Opponents"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "70e5ebadf668b4f9e96c63e6460e48e708ed1a66eab27b6c73932920cb1a5bb2",
+  "subtitle": "ATV offroad racing simulator with tweaks",
+  "tags": [
+   "atv",
+   "racing",
+   "offroad",
+   "simulator",
+   "game",
+   "dust"
+  ]
+ },
  "com.viraldevelopment.CalAI": {
   "category": "lifestyle",
   "date": "2026-10-15",
@@ -69428,18 +69719,23 @@
  },
  "com.yfactorysoft.CatCrunch": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "Cat Crunch is a colorful puzzle game for iPhone and iPad featuring a classic match-3 experience combined with cute cat themes. Enjoy calm and satisfying gameplay with strategic tile-matching challenges across hundreds of levels.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "03e0e9e8213f7bbb38042d831a2fd393c72a09d6c0f0ad7a813f9bbec68f5d7c",
+  "date": "2026-11-18",
+  "description": "Cat Crunch is a colorful puzzle game for iPhone and iPad featuring a classic match-3 experience combined with a cute cat theme. Enjoy a calm and satisfying gameplay flow while taking on strategic tile-matching challenges across hundreds of levels. Includes iGameGod tweaks integration.",
+  "features": [
+   "Match 3 Gameplay",
+   "Cute Cat Themes",
+   "Hundreds of Levels",
+   "iGameGod Tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b23130e134090aed1c295a0154411845aff7a2b75a97df2ec535e973bd763739",
   "subtitle": "Colorful match-3 puzzle game with cute cats",
   "tags": [
    "puzzle",
    "match3",
-   "cat",
+   "cats",
    "game",
-   "iphone"
+   "strategy"
   ]
  },
  "com.yima.MpjexM3U8": {
@@ -70484,18 +70780,21 @@
  },
  "crowd.champs.game": {
   "category": "games",
-  "date": "2026-10-18",
-  "description": "Crowd Champs: 3D Runner Game is an iOS title that combines fast-paced running action with strategy. Navigate through courses, manage your crowd, and experience engaging 3D runner gameplay.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "acfc622450c9ea58e759c482272df63a4b991bf7155420cbb26d96f9e94b005a",
-  "subtitle": "3D Runner Game for iPhone",
+  "date": "2026-11-18",
+  "description": "Crowd Champs is a 3D runner game for iOS that combines classic runner mechanics with crowd-control strategy across dozens of stages. Features vibrant 3D visuals. This version includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "713cfe771190dc22e956b1a14331148484396d99d5ca67a242f825803a42e857",
+  "subtitle": "3D runner with crowd-control strategy",
   "tags": [
-   "runner",
-   "3d",
+   "3d runner",
+   "crowd control",
    "strategy",
-   "game",
-   "action"
+   "arcade",
+   "ios games",
+   "tweaked"
   ]
  },
  "cypwn.AdGuardPro_TS.4.4.0": {
@@ -73445,24 +73744,24 @@
  },
  "dev.espressu.EspressU": {
   "category": "games",
-  "date": "2026-10-27",
-  "description": "EspressU is a Wii U emulator for iOS devices. It features a Metal renderer with a persistent shader cache and a built-in ARM64 recompiler for iOS 17.4 and later. Play using DualSense, Xbox, MFi controllers or the on-screen GamePad. Load games as .wua files, decrypted folders, or encrypted files using your own keys.txt, with support for importing updates and DLC. This app contains no firmware, keys, or games and requires your own legal dumps from your own Wii U. To use, zip the unsigned app into a Payload folder as an ipa and sign it with your own certificate, ensuring required entitlements are included.",
+  "date": "2026-11-18",
+  "description": "EspressU is a Wii U emulator featuring a Metal renderer with a persistent shader cache and frame generation for smoother gameplay. It includes a built-in JIT ARM64 recompiler for iOS 17.4 and later. Play using DualSense, Xbox, MFi controllers, or a customizable on-screen GamePad. Support includes .wua, .wux, .wud, .rpx files, decrypted folders, and update or DLC imports as .wua files. EspressU contains no firmware, keys, or games, and requires your own game dumps. Requires an iPhone or iPad on iOS or iPadOS 17.4 or later with Developer Mode turned on.",
   "features": [
    "Metal renderer",
-   "ARM64 recompiler",
+   "Frame generation",
+   "Built-in JIT",
    "Controller support",
-   "On-screen GamePad",
-   "DLC import"
+   "Update and DLC import"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "215bb19f6210dd1a072ff8236273e616961237512e99e9b4b03450cf3403a0d4",
-  "subtitle": "Wii U emulator for iOS",
+  "src_hash": "4964135aa3301a876fd7e0b25518d36854eb6c32a2e937ee8141102cc26a5981",
+  "subtitle": "Wii U emulator for iOS and iPadOS",
   "tags": [
    "emulator",
    "wiiu",
    "gaming",
    "metal",
-   "arm64"
+   "jit"
   ]
  },
  "dev.faizandurrani.moe.paperback.app": {
@@ -74029,6 +74328,23 @@
    "productivity"
   ]
  },
+ "dev.yg.dshremote": {
+  "category": "utilities",
+  "date": "2026-11-18",
+  "description": "Send commands from phone; they execute on the computer. View process, output, and approvals on the phone. Requires the dsh-phone-bridge plugin on the computer (see project README).",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e0baf20f5d5dabbb0dcc5432d60e40708095fe34a2fd981d37cb7824beab0ed2",
+  "subtitle": "Run commands on PC from phone",
+  "tags": [
+   "remote",
+   "command",
+   "bridge",
+   "phone",
+   "pc",
+   "automation"
+  ]
+ },
  "develop.pocket.survivor.expansion": {
   "category": "other",
   "date": "2026-11-03",
@@ -74349,22 +74665,22 @@
   ]
  },
  "es.socialpoint.dragoncity": {
-  "category": "games",
-  "date": "2026-10-20",
-  "description": "Dragon City is a game where you breed and battle dragons. Features include God Mode and one hit kill.",
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "Dragon City Breed and Battle IPA MOD offers iOS players an enhanced version of the popular dragon-building and strategy game. Manage floating islands, hatch eggs, and train powerful dragons with improved features and simplified progression. Includes the iGameGod tweak for an altered experience.",
   "features": [
-   "God Mode",
-   "OHK"
+   "iGameGod tweak included"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "08e8e1085ffce0f091c5d0d8983beb3f7a3f06fca0316d2f4a2a781a0834967c",
-  "subtitle": "Breed and battle dragons",
+  "src_hash": "e71e2f148b62ea948bee53d08bf3683ed19062031319624519df5cd355598643",
+  "subtitle": "Breed and battle dragons on floating islands",
   "tags": [
    "dragon",
-   "city",
-   "breed",
-   "battle",
-   "game"
+   "strategy",
+   "mod",
+   "game",
+   "ipa",
+   "breeding"
   ]
  },
  "eu.gowod": {
@@ -75033,19 +75349,20 @@
  },
  "games.rivvy.eternalherorpg": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Eternal Hero is a fantasy role-playing game that transports you to a world of magic, adventure, and heroism. Develop your character and explore a captivating fantasy world.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "bbb5e5414cff223307d8401981665fe4fc9eb7a4f7a6473cf90ae3337f07a691",
-  "subtitle": "A fantasy role-playing game of magic and adventure",
+  "date": "2026-11-18",
+  "description": "Eternal Hero is a fantasy role-playing game set in a world of magic, adventure, and heroism. Experience an immersive storyline, intricate gameplay mechanics, and stunning visuals in this captivating game developed by Luminous Realms. This version includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c2dffa7d4d7a008486e1b614d39ab4a4e0c9fa1b8dc9b1dca9eecbea7e68618a",
+  "subtitle": "Fantasy role-playing game",
   "tags": [
    "rpg",
    "fantasy",
-   "hero",
-   "magic",
    "adventure",
-   "game"
+   "magic",
+   "hero"
   ]
  },
  "games.rivvy.monstersurvivors": {
@@ -75084,19 +75401,21 @@
  },
  "games.synthez.zombie.survival.multiplayer": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Dead Impact is a survival MMORPG for iOS gamers seeking a thrilling combination of intense combat and survival gameplay. Enter a dangerous world where you must fight to stay alive, manage your resources, and navigate challenging environments. Experience action-packed multiplayer encounters and test your survival skills against various threats in this engaging mobile role-playing game.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "ba7001f93fa5164a3fd80e44fb791a635737be8c5be21cc471b83ec225eed25d",
-  "subtitle": "Survival MMORPG with intense combat",
+  "date": "2026-11-18",
+  "description": "Dead Impact is a survival MMORPG set in a post-apocalyptic world ravaged by a mysterious outbreak. Navigate a hazardous habitat filled with zombies, antagonistic factions, and scarce resources in this thrilling combination of intense combat and immersive role-playing. Features iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f4f41a9cbd2e10915a15c288a96e0c07128e13490b49e072a2afc231230d24e5",
+  "subtitle": "Post-apocalyptic survival MMORPG",
   "tags": [
    "survival",
    "mmorpg",
-   "combat",
+   "zombie",
    "action",
-   "multiplayer",
-   "rpg"
+   "rpg",
+   "combat"
   ]
  },
  "games.taplab.thejourney": {
@@ -75623,21 +75942,19 @@
  },
  "idle.castle.breaker": {
   "category": "games",
-  "date": "2026-11-16",
-  "description": "Castle Cracker delivers an energetic and entertaining action-strategy experience where players assault enemy strongholds, command quirky units, and crack open defenses with well-timed attacks. The game combines fast-paced combat with approachable strategy, making it a great fit for both casual play sessions and more tactical engagement. Includes iGameGod tweaks for your gameplay experience.",
-  "features": [
-   "iGameGod Tweaks"
-  ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "46679d990b45807aca54be7c344d3bfc2dc9c9a574b2c157bdfe4fad8a2582fa",
-  "subtitle": "Action-strategy fortress combat",
+  "date": "2026-11-18",
+  "description": "Castle Cracker is an action\u2011strategy game where players attack enemy strongholds, command units, and break defenses with timed attacks. It offers fast\u2011paced combat combined with accessible strategy for casual or tactical play.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5dd3f7663add5629f5416f7ec908373b7dd73c642b0e7b40d2ad5c3d57e3c878",
+  "subtitle": "Action\u2011strategy castle assault game",
   "tags": [
-   "strategy",
    "action",
+   "strategy",
    "castle",
    "combat",
-   "tactical",
-   "game"
+   "casual",
+   "tactical"
   ]
  },
  "idle.goblins.wood.tycoon": {
@@ -76792,22 +77109,22 @@
  },
  "io.heseri.plane": {
   "category": "games",
-  "date": "2026-10-21",
-  "description": "Epic Plane Evolution is an innovative game that takes players on an exciting journey. This iOS game features a freeze coins mode, a freeze diamonds mode, and no ads.",
+  "date": "2026-11-18",
+  "description": "Epic Plane Evolution takes players on a journey through the evolution of aircraft, allowing them to build and manage their own airline while discovering new planes and upgrades. Experience engaging gameplay and graphics as you progress through the evolution of flight.",
   "features": [
    "Freeze Coins",
    "Freeze Diamonds",
    "No Ads"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c7525adef7cbc316396a763266d766e0938169ba1d768a9a3f0d44ad0ea25d1e",
-  "subtitle": "An exciting journey in Epic Plane Evolution",
+  "src_hash": "f51264204d88e23e4af2cb413b5065f26a74a692ace97872292f974eb640cd97",
+  "subtitle": "Build and manage your own airline",
   "tags": [
-   "epic",
    "plane",
    "evolution",
-   "game",
-   "ios"
+   "airline",
+   "management",
+   "aircraft"
   ]
  },
  "io.hex36.TrollMods": {
@@ -77829,19 +78146,24 @@
   ]
  },
  "jp.co.bandainamcogames.BNGI0221": {
-  "category": "games",
-  "date": "2026-10-20",
-  "description": "Dragon Ball Z Dokkan Battle is a popular mobile game that captivates fans of the iconic anime series worldwide. Experience action-packed gameplay featuring your favorite characters from the universe.",
-  "features": [],
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "This application provides tweaks for Dragon Ball Z Dokkan Battle. It includes damage multiplier, defence multiplier, and HP multiplier features. It requires iGameGod for functionality.",
+  "features": [
+   "Damage Multiplier",
+   "Defence Multiplier",
+   "HP Multiplier"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "3ce5ff7c7e7a9db6f94ad252d75b8bc248cfba74cd340987a6fbe885c56117c4",
-  "subtitle": "Dragon Ball Z mobile game",
+  "src_hash": "ac3643e5b0dcf3f42bca8947849dee121d456ab44d687e4fabc9f0c03900df25",
+  "subtitle": "Tweaks for Dragon Ball Z Dokkan Battle",
   "tags": [
-   "dragon ball",
-   "anime",
-   "action",
-   "game",
-   "mobile"
+   "dokkan",
+   "battle",
+   "dragon",
+   "ball",
+   "tweaks",
+   "game"
   ]
  },
  "jp.co.capcom.mhpuzzle": {
@@ -78189,21 +78511,25 @@
  },
  "jp.konami.yugiohmobile": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "Yu Gi Oh Duel Links IPA MOD for iOS brings the iconic trading card game to life on your mobile device. Experience strategic duels and build your deck to challenge opponents.",
+  "date": "2026-11-18",
+  "description": "This is a modified IPA version of Yu-Gi-Oh Duel Links for iOS. The modification unlocks game features including unlimited gems, coins, and cards. It includes the iGameGod tweak. This is not the official release from Konami.",
   "features": [
-   "Unlocked"
+   "Unlocked",
+   "Unlimited Gems",
+   "Unlimited Coins",
+   "Unlimited Cards",
+   "iGameGod Tweak"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "ef01f46a3f520528d452a07b22c18bb923de4369ed8adcdf99c708d7caadd267",
-  "subtitle": "Bring the iconic trading card game to life on iOS",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "44e94a5c4cf4fcc14ec731c72d6bd16d8dca6dfe9d3510b891f4ec9ca465d8dc",
+  "subtitle": "Modified Yu-Gi-Oh card game with unlocked content",
   "tags": [
-   "card",
-   "game",
-   "duel",
-   "strategy",
-   "mobile",
-   "mod"
+   "yu-gi-oh",
+   "duel links",
+   "card game",
+   "modified",
+   "ipa",
+   "unlocked"
   ]
  },
  "jp.naver.line": {
@@ -79923,24 +80249,21 @@
   ]
  },
  "net.ekgames.fclasshero": {
-  "category": "games",
-  "date": "2026-10-21",
-  "description": "F Class Adventurer AFK RPG combines idle AFK mechanics with RPG progression and action-style combat.",
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "F Class Adventurer AFK RPG combines idle mechanics with RPG progression and action-style combat. Start as a weak, low-ranked F-class adventurer and experience rapid character development with frequent rewards for fast growth potential. The game includes iGameGod tweaks.",
   "features": [
-   "Idle AFK mechanics",
-   "RPG progression",
-   "Action-style combat"
+   "iGameGod"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "6374cd80f36ca05de167d664a90ad2c88a382542fcea15a6ebd3039dfbe8703f",
-  "subtitle": "Idle AFK RPG with action combat",
+  "src_hash": "67ae52d566068f00cc0d157eb9e68d04d0173de1a98e7bfefbd156a0b198fa28",
+  "subtitle": "Idle RPG action with fast character growth",
   "tags": [
    "rpg",
    "idle",
    "afk",
    "action",
-   "adventure",
-   "game"
+   "adventurer"
   ]
  },
  "net.ekgames.projectz": {
@@ -80013,19 +80336,21 @@
  },
  "net.gameduo.dfd": {
   "category": "games",
-  "date": "2026-10-20",
-  "description": "E.D.E.N The Last Line is a tactical action and strategy game designed for iOS players.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "56d3cd2ff3cbb4519e0d77e55c4d595732fdc80fb920677c5ebdde3573beb13c",
-  "subtitle": "Tactical action and strategy game",
+  "date": "2026-11-18",
+  "description": "E.D.E.N The Last Line is a tactical action and strategy game for iOS. Set in a bleak post-apocalyptic future, you play as a commander tasked with defending humanity's final line. The game combines thoughtful combat with narrative elements. This version includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "73d4b1a100f11d6c61308d9ae4208a108948da0c60edbdf792893b57724e097a",
+  "subtitle": "Tactical action strategy in post-apocalyptic world",
   "tags": [
    "tactical",
-   "action",
    "strategy",
-   "game",
-   "ios",
-   "eden"
+   "post-apocalyptic",
+   "action",
+   "narrative",
+   "ios"
   ]
  },
  "net.gameduo.nb2": {
@@ -80623,19 +80948,18 @@
  },
  "net.sourceloc.deb-to-ipa-app": {
   "category": "developer",
-  "date": "2026-10-20",
-  "description": "DebToIPA converts .deb packages into IPA files for iOS, provided the .deb contains a GUI application. Examples of supported packages include Filza, Apps Manager, and Sonic.",
+  "date": "2026-11-18",
+  "description": "Convert .deb files into IPA files, provided the deb file is an application with a GUI. Examples of supported applications include Filza, Apps Manager, Sonic, and similar packages.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "432d01f6813a2837250af075eca3eac6e6decc48bf41d26a27f1071c47fc1e62",
-  "subtitle": "Convert .deb files to IPA",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7d678b45dbca7a266892b921d4d82505a443fffbb40222e933d36679642cdb4d",
+  "subtitle": "Convert deb files into IPA files with a GUI",
   "tags": [
    "deb",
    "ipa",
-   "converter",
-   "ios",
-   "app",
-   "tool"
+   "convert",
+   "utility",
+   "app"
   ]
  },
  "net.sourceloc.evyrest": {
@@ -81402,12 +81726,12 @@
  },
  "org.chromium.chrome.ios.dev": {
   "category": "utilities",
-  "date": "2026-10-15",
-  "description": "Chromium is the open source version of Google's Chrome browser for iOS.",
+  "date": "2026-11-18",
+  "description": "Chromium is the open source version of Google's Chrome browser for iOS. Access the core browsing experience built on open source code. Get updates and notifications for tweaks by joining the Discord community.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "5797a57ad1f0b137dc33cc9ca2f691c1ddb2813b78b51fa188e4804c1c6ad0a9",
-  "subtitle": "Open source version of Chrome",
+  "src_hash": "1aa02fea72cc9d5941319e01ec49117af5104735261d098d50458b70962faf6c",
+  "subtitle": "Open source version of Chrome for iOS",
   "tags": [
    "browser",
    "chromium",
@@ -82641,19 +82965,19 @@
  },
  "p3.xyz.yyyue.esign2": {
   "category": "developer",
-  "date": "2026-10-21",
-  "description": "ESign IPA Signer is a powerful and user-friendly tool designed to streamline the process of code signing for iOS applications.",
+  "date": "2026-11-18",
+  "description": "Esign IPA Signer streamlines code signing for iOS apps. It helps developers sign IPA files before App Store submission or test distribution. Updates are announced on Discord.",
   "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "3158d95caf217a7739d11f0af660d792ed5b4c679f0575e49a8b4087b58c650c",
-  "subtitle": "iOS application code signing tool",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "73c99bf9838b3403e111abe3a8160c4e5d545372772efdd5eaab78cc891b8946",
+  "subtitle": "IPA code signing tool for iOS developers",
   "tags": [
-   "esign",
    "ipa",
-   "signer",
-   "ios",
+   "signing",
    "developer",
-   "signing"
+   "ios",
+   "esign",
+   "tool"
   ]
  },
  "p3.xyz.yyyue.esign502": {
@@ -83551,19 +83875,25 @@
   ]
  },
  "se.maginteractive.crozzle": {
-  "category": "games",
-  "date": "2026-10-18",
-  "description": "Challenge your vocabulary and creativity with Crozzle, a new era of crossword puzzle entertainment designed for word game enthusiasts.",
-  "features": [],
+  "category": "other",
+  "date": "2026-11-18",
+  "description": "Crozzle is a crossword puzzle game for iOS that challenges your vocabulary and creativity. Designed for iPhone and iPad, it combines classic crossword gameplay with modern aesthetics, smooth controls, and brain-stimulating mechanics.",
+  "features": [
+   "No Ads",
+   "iGameGod",
+   "IGVIPEnjoy",
+   "IGHelper"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "3b085eadb72a6684c13927ad40ad989cdd44773b5745d35fb032a1886fc0e895",
-  "subtitle": "A new era of crossword entertainment and puzzles",
+  "src_hash": "0593bffa1daaab57671cca5478a265e052dc8b2ad3426b94478afe867e135283",
+  "subtitle": "Modern crossword puzzles for iPhone and iPad",
   "tags": [
+   "crozzle",
    "crossword",
    "word",
    "puzzle",
    "game",
-   "vocabulary"
+   "ios"
   ]
  },
  "se.resenatverket.FlightRadar24-Free": {
