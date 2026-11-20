@@ -2,7 +2,8 @@ name: "Store: install reports digest"
 
 # Mondays (or on demand): a digest of last week's install reports, grouped by likely cause by an
 # OpenRouter model. Posted as the run summary and as one GitHub issue per week (only when there are
-# reports). Needs the OPENROUTER_API_KEY secret; without it the digest has the raw counts only.
+# reports). Needs a model key (GEMINI_API_KEY, OPENROUTER_API_KEY or AMD_TOKENLAB_API_KEY); without one the
+# digest has the raw counts only.
 on:
   schedule:
     - cron: "11 13 * * 1"
@@ -27,6 +28,7 @@ jobs:
         env:
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          AMD_TOKENLAB_API_KEY: ${{ secrets.AMD_TOKENLAB_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GH_TOKEN: ${{ github.token }}
         run: |

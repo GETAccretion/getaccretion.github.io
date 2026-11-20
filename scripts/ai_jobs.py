@@ -8,8 +8,8 @@
   images   --limit N   Gemini checks each app icon -> ai/images.json (nsfw icons get the placeholder)
   models               test the free models on ai/eval/listings.json and keep the best four in ai/models.json
 
-Keys: GEMINI_API_KEY, OPENROUTER_API_KEY; moderate also needs SUPABASE_ACCESS_TOKEN. Every job saves
-as it goes, so a timeout keeps the progress made.
+Keys: GEMINI_API_KEY, OPENROUTER_API_KEY, AMD_TOKENLAB_API_KEY; moderate also needs
+SUPABASE_ACCESS_TOKEN. Every job saves as it goes, so a timeout keeps the progress made.
 """
 
 import argparse
@@ -442,8 +442,15 @@ def get_json(url, headers=None):
 
 
 def free_models():
-    """Candidate model specs: free OpenRouter text models and Gemini flash/pro models"""
+    """Candidate model specs: Token Lab models, free OpenRouter text models, Gemini flash/pro models"""
     out = []
+    key = os.environ.get(llm.KEYS["tokenlab"], "").strip()
+    if key:
+        try:
+            listed = get_json(llm.TOKENLAB_MODELS_URL, {"Authorization": f"Bearer {key}"})["data"]
+            out += [f"tokenlab:{m['id']}" for m in listed]
+        except (urllib.error.URLError, ValueError, KeyError, TypeError) as e:
+            print(f"models: Token Lab list failed ({type(e).__name__})", file=sys.stderr)
     try:
         for m in get_json("https://openrouter.ai/api/v1/models")["data"]:
             price, arch = m.get("pricing", {}), m.get("architecture", {})
@@ -471,6 +478,21 @@ def free_models():
                     out.append(f"gemini:{name}")
         except (urllib.error.URLError, ValueError, KeyError) as e:
             print(f"models: Gemini list failed ({type(e).__name__})", file=sys.stderr)
+    return out
+
+
+def pick_new(found, room, turn):
+    """Up to `room` new candidates, one from each provider in turn. `turn` (the week number) moves
+    where each provider's list starts, so over the weeks every candidate gets tested."""
+    lists = {}
+    for spec in found:
+        lists.setdefault(spec.partition(":")[0], []).append(spec)
+    queues = [specs[turn % len(specs) :] + specs[: turn % len(specs)] for specs in lists.values()]
+    out = []
+    while len(out) < room and any(queues):
+        for queue in queues:
+            if queue and len(out) < room:
+                out.append(queue.pop(0))
     return out
 
 
@@ -504,7 +526,8 @@ def models():
     cfg = llm.config()
     current = [m for m in cfg["order"] if llm.usable(m)]
     found = [m for m in free_models() if m not in current and llm.usable(m)]
-    candidates = (current + found)[:8]
+    week = datetime.datetime.now(datetime.timezone.utc).isocalendar()[1]
+    candidates = current[:8] + pick_new(found, 8 - len(current), week)
     ranking = {spec: score(spec, items) for spec in candidates}
     ordered = sorted(ranking, key=lambda s: -ranking[s])
     save("ai/models_ranking.json", {"date": today(), "scores": ranking})

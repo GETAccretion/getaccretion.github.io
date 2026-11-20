@@ -1,11 +1,13 @@
-"""One door to the free language models (Google Gemini and OpenRouter ":free" models).
+"""One door to the free language models (Google Gemini, OpenRouter ":free" models, AMD Token Lab).
 
 ask() tries the models in ai/models.json in order and returns the first usable answer, or None.
 Up to 3 neighbouring OpenRouter models go out as ONE request (OpenRouter's "models" fallback list
 tries them in order). A model that answers 429 (rate limited), 503 (busy) or 404 (gone) is skipped
 for the rest of the run; when a grouped request fails, all of its models are. Providers without a
-key (GEMINI_API_KEY, OPENROUTER_API_KEY) are skipped. Only free models are ever called: OpenRouter
-ids must end in ":free". llm.last_model names the model that answered.
+key (GEMINI_API_KEY, OPENROUTER_API_KEY, AMD_TOKENLAB_API_KEY) are skipped. Only free models are
+ever called: OpenRouter ids must end in ":free"; a Token Lab key carries a fixed free allowance, and
+when Token Lab refuses the key (401, 402, 403: ended or used up) all of its models are skipped for
+the rest of the run. llm.last_model names the model that answered.
 embed() gives free Gemini embeddings; ask_image() asks the Gemini models about one image.
 """
 
@@ -22,8 +24,11 @@ from common import path
 
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{}:generateContent"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-KEYS = {"gemini": "GEMINI_API_KEY", "openrouter": "OPENROUTER_API_KEY"}
+TOKENLAB_URL = "https://api.tokenlab.amd.com/v1/chat/completions"
+TOKENLAB_MODELS_URL = "https://api.tokenlab.amd.com/v1/models"
+KEYS = {"gemini": "GEMINI_API_KEY", "openrouter": "OPENROUTER_API_KEY", "tokenlab": "AMD_TOKENLAB_API_KEY"}
 BUSY_CODES = (404, 429, 503)
+KEY_CODES = (401, 402, 403)  # Token Lab: the key ended or its allowance is used up
 GROUP_MAX = 3  # most OpenRouter models one request may list
 
 last_model = None  # "provider:model" that answered the latest ask(), None when none did
@@ -77,7 +82,12 @@ def call(spec, system, user, max_tokens):
         "max_tokens": max_tokens,
         "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
     }
-    data = post(OPENROUTER_URL, {"Authorization": f"Bearer {key}"}, body)
+    url = OPENROUTER_URL
+    if provider == "tokenlab":
+        url = TOKENLAB_URL
+        # answer directly: reasoning text would count against max_tokens
+        body["chat_template_kwargs"] = {"enable_thinking": False}
+    data = post(url, {"Authorization": f"Bearer {key}"}, body)
     return (data["choices"][0]["message"]["content"] or "").strip()
 
 
@@ -144,6 +154,9 @@ def ask(task, system, user, schema=None, max_tokens=800):
     specs = [spec for spec in order if spec not in busy and usable(spec)]
     i = 0
     while i < len(specs):
+        if specs[i] in busy:  # its provider refused the key earlier in this call
+            i += 1
+            continue
         group = specs[i : i + 1]
         if group[0].startswith("openrouter:"):
             while (
@@ -165,6 +178,8 @@ def ask(task, system, user, schema=None, max_tokens=800):
                 except urllib.error.HTTPError as e:
                     if e.code in BUSY_CODES:
                         busy.update(group)
+                    elif e.code in KEY_CODES and group[0].startswith("tokenlab:"):
+                        busy.update(spec for spec in order if spec.startswith("tokenlab:"))
                     print(f"llm[{task}]: {', '.join(group)} answered {e.code}", file=sys.stderr)
                     group = []
                     break
