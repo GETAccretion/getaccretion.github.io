@@ -30,6 +30,7 @@ class RouterTest(unittest.TestCase):
         llm.busy.clear()
         mock.patch.object(llm, "config", return_value=ORDER).start()
         mock.patch.dict(os.environ, KEYS).start()
+        mock.patch.object(llm, "TOKENLAB_GAP", 0).start()
 
     def tearDown(self):
         mock.patch.stopall()
@@ -163,6 +164,60 @@ class RouterTest(unittest.TestCase):
         self.assertEqual(group.call_count, 2)
 
 
+class PacingTest(unittest.TestCase):
+    def setUp(self):
+        self.now = 100.0
+        self.slept = []
+
+        def sleep(seconds):
+            self.slept.append(round(seconds, 3))
+            self.now += seconds
+
+        mock.patch.object(llm.time, "monotonic", lambda: self.now).start()
+        mock.patch.object(llm.time, "sleep", sleep).start()
+        mock.patch.object(llm, "tokenlab_next", 0.0).start()
+
+    def tearDown(self):
+        mock.patch.stopall()
+
+    def test_token_lab_requests_keep_their_distance(self):
+        def fake_post(*_):
+            self.now += 1.0  # the request itself takes a second
+            return {"ok": True}
+
+        with mock.patch.object(llm, "post", fake_post):
+            for _ in range(3):
+                llm.post_tokenlab({}, {})
+        self.assertEqual(self.slept, [2.2, 2.2])  # nothing before the first, then the rest of the gap
+
+    def test_a_token_lab_429_gets_one_retry_after_the_named_pause(self):
+        answers = [
+            urllib.error.HTTPError("https://x.example", 429, "busy", {"Retry-After": "1"}, None),
+            {"ok": 1},
+        ]
+
+        def fake_post(*_):
+            answer = answers.pop(0)
+            if isinstance(answer, Exception):
+                raise answer
+            return answer
+
+        with mock.patch.object(llm, "post", fake_post):
+            self.assertEqual(llm.post_tokenlab({}, {}), {"ok": 1})
+        self.assertEqual(self.slept, [1.0, 2.2])  # the named pause, then the rest of the gap
+        with (
+            mock.patch.object(llm, "post", side_effect=[http(429), http(429)]),
+            self.assertRaises(urllib.error.HTTPError),
+        ):
+            llm.post_tokenlab({}, {})
+        with (
+            mock.patch.object(llm, "post", side_effect=http(500)) as post,
+            self.assertRaises(urllib.error.HTTPError),
+        ):
+            llm.post_tokenlab({}, {})
+        self.assertEqual(post.call_count, 1)
+
+
 class CandidatesTest(unittest.TestCase):
     def test_new_candidates_come_from_each_provider_in_turn(self):
         found = ["tokenlab:T1", "tokenlab:T2", "tokenlab:T3", "openrouter:o1:free", "gemini:g9"]
@@ -174,6 +229,15 @@ class CandidatesTest(unittest.TestCase):
         self.assertEqual(sorted(ai_jobs.pick_new(found, 9, 2)), sorted(found))
         self.assertEqual(ai_jobs.pick_new(found, 0, 0), [])
         self.assertEqual(ai_jobs.pick_new([], 4, 0), [])
+
+    def test_every_new_token_lab_model_is_tested_beside_the_usual_eight(self):
+        current = ["gemini:g1", "openrouter:a/b:free"]
+        found = [f"tokenlab:T{i}" for i in range(10)] + [f"openrouter:o{i}:free" for i in range(9)]
+        chosen = ai_jobs.choose(current, found, 0)
+        self.assertEqual(chosen[:2], current)
+        self.assertEqual(chosen[2:10], [f"tokenlab:T{i}" for i in range(8)])
+        self.assertEqual(chosen[10:], [f"openrouter:o{i}:free" for i in range(6)])
+        self.assertEqual(ai_jobs.choose(current, [], 0), current)
 
     def test_token_lab_models_are_listed_only_with_its_key(self):
         asked = []

@@ -49,6 +49,7 @@ DOMAIN_RE = re.compile(
     r"\b[a-z0-9-]+\.(?:com|net|org|io|app|xyz|me|co|top|site|cc|to|ws|dev)\b", re.IGNORECASE
 )
 MARGIN = 0.1  # a model must beat the current first by this much (of a 0 to 1 score) to replace it
+TOKENLAB_ROOM = 8  # most new Token Lab models one models run tests
 
 
 def today():
@@ -496,6 +497,15 @@ def pick_new(found, room, turn):
     return out
 
 
+def choose(current, found, turn):
+    """The models to test: the current order, every new Token Lab model (its limit is per minute, not
+    per day, so testing them all only takes time) and, for the room left of 8, new models from the
+    other providers."""
+    lab = [spec for spec in found if spec.startswith("tokenlab:")][:TOKENLAB_ROOM]
+    rest = [spec for spec in found if not spec.startswith("tokenlab:")]
+    return current[:8] + lab + pick_new(rest, 8 - len(current), turn)
+
+
 def score(spec, items):
     """0 to 1: per item, 1 point for valid JSON, 1 for the right category, 1 for no domain left"""
     points = 0
@@ -527,7 +537,7 @@ def models():
     current = [m for m in cfg["order"] if llm.usable(m)]
     found = [m for m in free_models() if m not in current and llm.usable(m)]
     week = datetime.datetime.now(datetime.timezone.utc).isocalendar()[1]
-    candidates = current[:8] + pick_new(found, 8 - len(current), week)
+    candidates = choose(current, found, week)
     ranking = {spec: score(spec, items) for spec in candidates}
     ordered = sorted(ranking, key=lambda s: -ranking[s])
     save("ai/models_ranking.json", {"date": today(), "scores": ranking})
