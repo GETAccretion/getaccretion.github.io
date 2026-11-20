@@ -50,6 +50,7 @@ DOMAIN_RE = re.compile(
 )
 MARGIN = 0.1  # a model must beat the current first by this much (of a 0 to 1 score) to replace it
 TOKENLAB_ROOM = 8  # most new Token Lab models one models run tests
+GIVE_UP = 3  # a model with no usable answer for its first items is not asked the rest
 
 
 def today():
@@ -507,13 +508,16 @@ def choose(current, found, turn):
 
 
 def score(spec, items):
-    """0 to 1: per item, 1 point for valid JSON, 1 for the right category, 1 for no domain left"""
+    """0 to 1: per item, 1 point for valid JSON, 1 for the right category, 1 for no domain left.
+    A model that gives nothing for the first GIVE_UP items is not asked the rest."""
     points = 0
     llm.busy.clear()
     real_config = llm.config
     llm.config = lambda: {"order": [spec], "moderation": ""}
     try:
-        for item in items:
+        for done, item in enumerate(items):
+            if done >= GIVE_UP and not points:
+                break
             app = {
                 "name": item["name"],
                 "developerName": "",
@@ -527,6 +531,17 @@ def score(spec, items):
     finally:
         llm.config = real_config
     return round(points / (3 * len(items)), 3)
+
+
+def best_four(ordered):
+    """The new order: the four best, with the best Gemini model in the last place when none of the
+    four is one (ask_image() only uses the Gemini models of the order)"""
+    order = ordered[:4]
+    if not any(spec.startswith("gemini:") for spec in order):
+        gemini = next((spec for spec in ordered if spec.startswith("gemini:")), None)
+        if gemini:
+            order[-1] = gemini
+    return order
 
 
 def models():
@@ -550,7 +565,7 @@ def models():
         and ordered[0] != first
         and ranking[ordered[0]] >= ranking[first] + MARGIN
     ):
-        cfg["order"] = ordered[:4]
+        cfg["order"] = best_four(ordered)
         save("ai/models.json", cfg)
         print(f"models: new order {cfg['order']}")
         print("CHANGED")
