@@ -7,7 +7,8 @@ for the rest of the run; when a grouped request fails, all of its models are. Pr
 key (GEMINI_API_KEY, OPENROUTER_API_KEY, AMD_TOKENLAB_API_KEY) are skipped. Only free models are
 ever called: OpenRouter ids must end in ":free"; a Token Lab key carries a fixed free allowance, and
 when Token Lab refuses the key (401, 402, 403: ended or used up) all of its models are skipped for
-the rest of the run. llm.last_model names the model that answered.
+the rest of the run. Token Lab requests are spaced to stay under its 20 a minute, and a 429 from it
+gets one retry. llm.last_model names the model that answered.
 embed() gives free Gemini embeddings; ask_image() asks the Gemini models about one image.
 """
 
@@ -29,6 +30,9 @@ TOKENLAB_MODELS_URL = "https://api.tokenlab.amd.com/v1/models"
 KEYS = {"gemini": "GEMINI_API_KEY", "openrouter": "OPENROUTER_API_KEY", "tokenlab": "AMD_TOKENLAB_API_KEY"}
 BUSY_CODES = (404, 429, 503)
 KEY_CODES = (401, 402, 403)  # Token Lab: the key ended or its allowance is used up
+TOKENLAB_GAP = 3.2  # seconds between Token Lab requests (its limit: 20 a minute per key)
+TOKENLAB_RETRY_MAX = 10  # longest pause before the one retry after a Token Lab 429
+tokenlab_next = 0.0  # time.monotonic() before which no Token Lab request goes out
 GROUP_MAX = 3  # most OpenRouter models one request may list
 
 last_model = None  # "provider:model" that answered the latest ask(), None when none did
@@ -82,13 +86,35 @@ def call(spec, system, user, max_tokens):
         "max_tokens": max_tokens,
         "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
     }
-    url = OPENROUTER_URL
     if provider == "tokenlab":
-        url = TOKENLAB_URL
         # answer directly: reasoning text would count against max_tokens
         body["chat_template_kwargs"] = {"enable_thinking": False}
-    data = post(url, {"Authorization": f"Bearer {key}"}, body)
+        data = post_tokenlab({"Authorization": f"Bearer {key}"}, body)
+    else:
+        data = post(OPENROUTER_URL, {"Authorization": f"Bearer {key}"}, body)
     return (data["choices"][0]["message"]["content"] or "").strip()
+
+
+def post_tokenlab(headers, body):
+    """One Token Lab request, kept under its 20 requests a minute: at least TOKENLAB_GAP seconds
+    after the previous one. A 429 (its shared capacity is full) gets one more try after the pause
+    the answer names."""
+    global tokenlab_next
+    for attempt in range(2):
+        wait = tokenlab_next - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
+        tokenlab_next = time.monotonic() + TOKENLAB_GAP
+        try:
+            return post(TOKENLAB_URL, headers, body)
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or attempt:
+                raise
+            try:
+                pause = float((e.headers or {}).get("Retry-After") or 2)
+            except ValueError:
+                pause = 2
+            time.sleep(min(max(pause, 0), TOKENLAB_RETRY_MAX))
 
 
 def call_group(specs, system, user, max_tokens):
