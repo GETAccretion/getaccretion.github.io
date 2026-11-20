@@ -78,6 +78,66 @@ class RouterTest(unittest.TestCase):
         ):
             self.assertIsNone(llm.ask("t", "s", "u"))
 
+    def test_token_lab_goes_out_alone_to_its_own_address(self):
+        cfg = {"order": ["tokenlab:Big-1", "openrouter:a/b:free"], "moderation": ""}
+        sent = []
+
+        def fake_post(url, headers, body):
+            sent.append((url, headers, body))
+            return {"choices": [{"message": {"content": "hello"}}]}
+
+        with (
+            mock.patch.object(llm, "config", return_value=cfg),
+            mock.patch.dict(os.environ, {"AMD_TOKENLAB_API_KEY": "z"}),
+            mock.patch.object(llm, "post", fake_post),
+        ):
+            self.assertEqual(llm.ask("t", "s", "u"), "hello")
+        url, headers, body = sent[0]
+        self.assertEqual(url, llm.TOKENLAB_URL)
+        self.assertEqual(headers, {"Authorization": "Bearer z"})
+        self.assertEqual(body["model"], "Big-1")
+        self.assertNotIn("models", body)
+        self.assertEqual(llm.last_model, "tokenlab:Big-1")
+
+    def test_token_lab_is_skipped_without_its_key(self):
+        cfg = {"order": ["tokenlab:Big-1", "gemini:g1"], "moderation": ""}
+        seen = []
+        with (
+            mock.patch.object(llm, "config", return_value=cfg),
+            mock.patch.dict(os.environ, {"AMD_TOKENLAB_API_KEY": ""}),
+            mock.patch.object(llm, "call", lambda spec, *_: seen.append(spec) or "ok"),
+        ):
+            llm.ask("t", "s", "u")
+        self.assertEqual(seen, ["gemini:g1"])
+
+    def test_a_refused_token_lab_key_skips_all_its_models_for_the_run(self):
+        cfg = {"order": ["tokenlab:Big-1", "tokenlab:Big-2", "gemini:g1"], "moderation": ""}
+        seen = []
+
+        def fake(spec, *_):
+            seen.append(spec)
+            if spec.startswith("tokenlab:"):
+                raise http(401)
+            return "hello"
+
+        with (
+            mock.patch.object(llm, "config", return_value=cfg),
+            mock.patch.dict(os.environ, {"AMD_TOKENLAB_API_KEY": "z"}),
+            mock.patch.object(llm, "call", fake),
+        ):
+            self.assertEqual(llm.ask("t", "s", "u"), "hello")
+            self.assertEqual(llm.ask("t", "s", "u"), "hello")
+        self.assertEqual(seen, ["tokenlab:Big-1", "gemini:g1", "gemini:g1"])
+        self.assertEqual(llm.busy, {"tokenlab:Big-1", "tokenlab:Big-2"})
+
+    def test_a_refused_key_elsewhere_skips_nothing(self):
+        with (
+            mock.patch.object(llm, "call", side_effect=http(403)),
+            mock.patch.object(llm, "call_group", side_effect=http(401)),
+        ):
+            self.assertIsNone(llm.ask("t", "s", "u"))
+        self.assertEqual(llm.busy, set())
+
     def test_schema_rejects_a_bad_category_then_retries_once(self):
         replies = iter(['{"subtitle": "s", "category": "nonsense"}', "```json\n" + GOOD + "\n```"])
         prompts = []
@@ -101,6 +161,37 @@ class RouterTest(unittest.TestCase):
         # gemini: 2 tries; group: 2 tries, then 2 more for the remaining model alone
         self.assertEqual(call.call_count, 2 + 2)
         self.assertEqual(group.call_count, 2)
+
+
+class CandidatesTest(unittest.TestCase):
+    def test_new_candidates_come_from_each_provider_in_turn(self):
+        found = ["tokenlab:T1", "tokenlab:T2", "tokenlab:T3", "openrouter:o1:free", "gemini:g9"]
+        self.assertEqual(
+            ai_jobs.pick_new(found, 4, 0), ["tokenlab:T1", "openrouter:o1:free", "gemini:g9", "tokenlab:T2"]
+        )
+        self.assertEqual(ai_jobs.pick_new(found, 2, 1), ["tokenlab:T2", "openrouter:o1:free"])
+        self.assertEqual(ai_jobs.pick_new(found, 9, 2)[0], "tokenlab:T3")
+        self.assertEqual(sorted(ai_jobs.pick_new(found, 9, 2)), sorted(found))
+        self.assertEqual(ai_jobs.pick_new(found, 0, 0), [])
+        self.assertEqual(ai_jobs.pick_new([], 4, 0), [])
+
+    def test_token_lab_models_are_listed_only_with_its_key(self):
+        asked = []
+
+        def fake_get(url, headers=None):
+            asked.append((url, headers))
+            if url == llm.TOKENLAB_MODELS_URL:
+                return {"data": [{"id": "Big-1"}, {"id": "Small-2"}]}
+            raise urllib.error.URLError("offline")
+
+        with mock.patch.object(ai_jobs, "get_json", fake_get):
+            with mock.patch.dict(os.environ, {"AMD_TOKENLAB_API_KEY": "z", "GEMINI_API_KEY": ""}):
+                self.assertEqual(ai_jobs.free_models(), ["tokenlab:Big-1", "tokenlab:Small-2"])
+            self.assertEqual(asked[0], (llm.TOKENLAB_MODELS_URL, {"Authorization": "Bearer z"}))
+            asked.clear()
+            with mock.patch.dict(os.environ, {"AMD_TOKENLAB_API_KEY": "", "GEMINI_API_KEY": ""}):
+                self.assertEqual(ai_jobs.free_models(), [])
+            self.assertNotIn(llm.TOKENLAB_MODELS_URL, [url for url, _ in asked])
 
 
 class GroupTest(unittest.TestCase):

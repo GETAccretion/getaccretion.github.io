@@ -5,7 +5,8 @@ model (scripts/llm.py) to group them by likely cause, and prints Markdown (the w
 job summary and a GitHub issue). Only the report fields go to the model: app version, iOS version,
 install mode, stage, the app's bundle ID and the diagnostic text. Never the reporter's account ID.
 
-Needs SUPABASE_ACCESS_TOKEN, and GEMINI_API_KEY or OPENROUTER_API_KEY (the models are in ai/models.json).
+Needs SUPABASE_ACCESS_TOKEN, and GEMINI_API_KEY, OPENROUTER_API_KEY or AMD_TOKENLAB_API_KEY (the models
+are in ai/models.json).
 """
 
 import json
@@ -31,7 +32,7 @@ Plain words, no speculation beyond the evidence, under 250 words."""
 
 def ask(reports):
     text = llm.ask("digest", PROMPT, json.dumps(reports, ensure_ascii=False)[:60000], max_tokens=900)
-    return text or "_No AI key worked (GEMINI_API_KEY, OPENROUTER_API_KEY), so no summary. Raw counts below._"
+    return text or "_No model key worked, so no summary. Raw counts below._"
 
 
 def main():

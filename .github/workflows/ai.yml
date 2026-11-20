@@ -7,8 +7,8 @@ name: "Store: AI jobs"
 #   similar   daily           free Gemini embeddings -> ai/similar.json (Similar apps shelf), ai/duplicates.json
 #   images    daily           Gemini checks app icons -> ai/images.json (nsfw icons get the placeholder)
 #   models    Mondays         test the free models and keep the best four; opens an issue on a change
-# Results are committed under ai/. Needs GEMINI_API_KEY and/or OPENROUTER_API_KEY, and for moderate
-# SUPABASE_ACCESS_TOKEN.
+# Results are committed under ai/. Needs GEMINI_API_KEY, OPENROUTER_API_KEY and/or AMD_TOKENLAB_API_KEY,
+# and for moderate SUPABASE_ACCESS_TOKEN.
 on:
   schedule:
     - cron: "17 */3 * * *"
@@ -81,6 +81,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          AMD_TOKENLAB_API_KEY: ${{ secrets.AMD_TOKENLAB_API_KEY }}
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
           JOB: ${{ steps.pick.outputs.job }}
           LIMIT: ${{ inputs.limit }}
