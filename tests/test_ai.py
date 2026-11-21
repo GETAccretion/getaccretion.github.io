@@ -239,6 +239,27 @@ class CandidatesTest(unittest.TestCase):
         self.assertEqual(chosen[10:], [f"openrouter:o{i}:free" for i in range(6)])
         self.assertEqual(ai_jobs.choose(current, [], 0), current)
 
+    def test_a_model_that_answers_nothing_is_dropped_after_three_items(self):
+        items = [
+            {"name": f"App {i}", "description": "A game.", "expected_category": "games"} for i in range(20)
+        ]
+        good = {"subtitle": "s", "description": "d", "features": [], "category": "games", "tags": []}
+        with mock.patch.object(llm, "ask", return_value=None) as ask:
+            self.assertEqual(ai_jobs.score("tokenlab:Dead", items), 0)
+        self.assertEqual(ask.call_count, ai_jobs.GIVE_UP)
+        with mock.patch.object(llm, "ask", side_effect=[None, None, good] + [None] * 17) as ask:
+            self.assertEqual(ai_jobs.score("tokenlab:Slow-start", items), round(3 / 60, 3))
+        self.assertEqual(ask.call_count, 20)
+
+    def test_a_new_order_always_keeps_a_gemini_model(self):
+        ranked = ["tokenlab:a", "tokenlab:b", "tokenlab:c", "openrouter:o:free", "gemini:g2", "gemini:g1"]
+        self.assertEqual(ai_jobs.best_four(ranked), ["tokenlab:a", "tokenlab:b", "tokenlab:c", "gemini:g2"])
+        mixed = ["tokenlab:a", "gemini:g1", "tokenlab:b", "tokenlab:c", "gemini:g2"]
+        self.assertEqual(ai_jobs.best_four(mixed), mixed[:4])
+        self.assertEqual(
+            ai_jobs.best_four(["tokenlab:a", "openrouter:o:free"]), ["tokenlab:a", "openrouter:o:free"]
+        )
+
     def test_token_lab_models_are_listed_only_with_its_key(self):
         asked = []
 
