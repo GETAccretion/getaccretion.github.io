@@ -1849,21 +1849,22 @@
  },
  "app.monelyze.ToDo": {
   "category": "other",
-  "date": "2026-11-08",
-  "description": "A to\u2011do list app from Monelyze Inc. Version 5.2.2. Premium features unlocked. Bundle ID: app.monelyze.ToDo.",
+  "date": "2026-11-21",
+  "description": "ToDo is a task management tweak for iOS 17.0 and later. The version 7.3.2 includes premium unlocked features and is patched. Developed by riftysIPAlibrary.",
   "features": [
-   "Premium Unlocked"
+   "Premium Unlocked",
+   "Patched"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "85e61ed9f71ceaa2fde0ec5b7f3d7377e597eccc06aec56d87a69e7dc056ef62",
-  "subtitle": "Premium unlocked to\u2011do list",
+  "src_hash": "9667459295d4541e810fd0b90267d0d5f7aaf816479358b1db173ff23c486653",
+  "subtitle": "ToDo task manager with premium features unlocked",
   "tags": [
    "todo",
-   "list",
-   "premium",
-   "monelyze",
-   "productivity",
-   "tasks"
+   "task",
+   "manager",
+   "ios",
+   "tweak",
+   "patched"
   ]
  },
  "app.naviamp.ios": {
@@ -5470,18 +5471,21 @@
  },
  "com.FreeDust.UnderDarkOffense": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "UnderGuild: Offense is a dark fantasy strategy RPG designed for iOS players who enjoy thought",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "dcf1458952fe9878f8d270ca6479df7fadef6309e72c8d394daab5bdc0933420",
+  "date": "2026-11-21",
+  "description": "UnderGuild: Offense is a dark fantasy strategy RPG for iOS players. Experience thoughtful combat, long-term progression, and a grim underground world filled with danger and mystery. Command a guild operating beneath the surface, where every battle, decision, and upgrade influences survival.",
+  "features": [
+   "iGameGod"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5f85b189c68638ead31c9946e6d0ab5e70145e63df73941c7d31dc432ffc9711",
   "subtitle": "Dark fantasy strategy RPG for iOS",
   "tags": [
-   "dark",
-   "fantasy",
    "strategy",
    "rpg",
-   "ios"
+   "fantasy",
+   "combat",
+   "guild",
+   "offline"
   ]
  },
  "com.GCenter.com.universe.invaders.alien.war.attack.V2": {
@@ -5591,19 +5595,20 @@
  },
  "com.GREMORYGames.TaimaninSquad": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "Taimanin Squad IPA is the iOS application package file of the Taimanin Squad game, allowing iPhone users to install and play the game on iOS devices.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "2876b4df25fe3f19eb89c5df00064c6aa8dce643e634d81abcbbc309394ea424",
-  "subtitle": "Taimanin Squad game IPA for iOS",
+  "date": "2026-11-21",
+  "description": "Taimanin Squad IPA is the iOS application package file for the Taimanin Squad game, allowing iPhone and iPad users to install the game outside the traditional App Store distribution system. This version includes the iGameGod tweak.",
+  "features": [
+   "iGameGod tweak included"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e077b662271ffdd2358324fb2f772638fdaca5542a2482beadc57b0496360596",
+  "subtitle": "Install and manage Taimanin Squad IPA on iOS",
   "tags": [
    "taimanin",
    "squad",
-   "game",
    "ipa",
-   "ios",
-   "anime"
+   "game",
+   "ios"
   ]
  },
  "com.Gcenter.DefenseLegend.TowerDefense.TD.survivor.V5.Pro": {
@@ -6167,19 +6172,19 @@
  },
  "com.Nanali.TinyCafe.ios": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Tiny Cafe is a mobile game where you run your own cozy cafe. Experience the thrill of managing a small restaurant business on your device.",
+  "date": "2026-11-21",
+  "description": "Tiny Cafe is a mobile simulation game where players manage a cafe, prepare drinks and dishes, and serve virtual customers. The app includes integration with iGameGod tweaks. Updates can be tracked via a Discord community.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "2ccfc44bd413f3313a8e4efc11af5a15fc28301b294e4955d61a2c71f8aa289f",
-  "subtitle": "Run your own cozy mobile cafe",
+  "src_hash": "21d97db9d716b4be1697a390479755867b33c41efef67430176dea9269f6d70b",
+  "subtitle": "Run your own cozy cafe simulation",
   "tags": [
-   "tiny",
    "cafe",
-   "mobile",
+   "simulation",
    "game",
-   "cozy",
-   "restaurant"
+   "mobile",
+   "restaurant",
+   "management"
   ]
  },
  "com.NeverGames.Gridpunk": {
@@ -6535,19 +6540,23 @@
  },
  "com.SimpleBitStudios.VikingHeroTD": {
   "category": "games",
-  "date": "2026-11-09",
-  "description": "Viking Hero TD is a roguelike real-time strategy game that combines three genres.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "a19514e1f5f11cbce76380209d8fcebdeadd79eb4af2c68d385400973be45998",
-  "subtitle": "Roguelike RTS hybrid strategy",
+  "date": "2026-11-21",
+  "description": "Viking Hero TD is a hybrid strategy experience on iOS that combines tower defense, roguelike progression, and real-time strategy into a single mobile game. Players engage in wave-based defense while making evolving tactical decisions throughout their playthrough.",
+  "features": [
+   "Tower Defense",
+   "Roguelike Progression",
+   "Real-Time Strategy"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "10db876ee4d1867137a18e00c5d070e009ae9752833b818f8d534106fb4b9f84",
+  "subtitle": "Roguelike RTS and tower defense hybrid experience",
   "tags": [
-   "viking",
-   "hero",
-   "td",
+   "strategy",
+   "tower defense",
    "roguelike",
    "rts",
-   "strategy"
+   "viking",
+   "game"
   ]
  },
  "com.SixThree.POV": {
@@ -6967,18 +6976,19 @@
  },
  "com.TeamSparta.WiggleDefender": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "Wiggle Defender is a fast-paced tower defense strategy game for iOS.",
+  "date": "2026-11-21",
+  "description": "Wiggle Defender is a tower defense strategy game that combines roguelike elements with real-time combat decisions. The IPA version allows installation on iPhone through alternative methods while maintaining the complete gameplay experience. The game features strategic tower placement and dynamic enemy waves requiring tactical adaptation.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "1c4884aa952f8a8a83c68ffef930c597d5f2296d582a7a28212f0b26aa3dffe7",
-  "subtitle": "Fast-paced tower defense strategy game",
+  "src_hash": "76360d7ab545da42d69460e8fc62b4bff427684392d8e6f03418c1f0eb23c57d",
+  "subtitle": "Fast-paced tower defense with roguelike mechanics",
   "tags": [
    "tower defense",
    "strategy",
+   "roguelike",
+   "ipa",
    "game",
-   "ios",
-   "fast-paced"
+   "ios"
   ]
  },
  "com.TeamSparta.battleshipgo": {
@@ -7019,19 +7029,20 @@
  },
  "com.TechTreeGames.TheTower": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "The Tower IPA is an innovative take on the popular genre of tower defense games. The Tower IPA combines classic tower building gameplay.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "cd1ff40419102e1bb3f6ad0d2be1e6f102ab68029a02cd2430e1b09db645bf13",
-  "subtitle": "Innovative tower defense game",
+  "date": "2026-11-21",
+  "description": "The Tower is an innovative take on the popular genre of tower defense games. It combines classic tower building gameplay with idle clicker mechanics in an easy to understand, yet captivating format that also offers endless replay-ability. Choose from a wide variety of towers, heroes, and strategies.",
+  "features": [
+   "iGameGod"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "54dcae5baf3456624d7e2d1c90b637dcb70d8040c7bf42a9f7c45aa7de997ecd",
+  "subtitle": "An innovative tower defense and idle clicker game",
   "tags": [
-   "tower",
-   "defense",
+   "tower defense",
+   "idle",
    "strategy",
-   "game",
-   "ipa",
-   "innovative"
+   "clicker",
+   "game"
   ]
  },
  "com.TetianaKolomiichuk.Reel-Templates": {
@@ -7320,20 +7331,20 @@
   ]
  },
  "com.WOFProduction.WheelofFaithArena": {
-  "category": "games",
-  "date": "2026-11-10",
-  "description": "Wheel of Faith - Arena is a high-intensity iOS action game built around competitive arena battles where reflexes and timing determine victory. Players engage in fast-paced combat matches against opponents in various arena environments.",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "WOF \u2013 Arena is a high\u2011intensity iOS action game centered on competitive arena battles where reflexes, timing, and smart decisions determine victory. Designed for mobile players, it offers short, adrenaline\u2011filled matches that are rewarding without being overwhelming. The app includes the iGameGod tweak.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "521a30b54cf46fe81b36fe0798ae07a452ced5b69ce682997227b276d1e74f63",
-  "subtitle": "High-intensity arena action battles",
+  "src_hash": "599b1f5359a9fd4ba2059acaf71570d3a1862d3c1a5df3e04a22ce2a417261f7",
+  "subtitle": "Fast\u2011paced arena battles for iOS",
   "tags": [
    "action",
    "arena",
    "battle",
-   "competitive",
-   "reflexes",
-   "timing"
+   "ios",
+   "game",
+   "tweak"
   ]
  },
  "com.WandaSoftware.TruckersofEurope3": {
@@ -7734,18 +7745,19 @@
  "com.abishkking.sixpack": {
   "category": "lifestyle",
   "date": "2026-11-21",
-  "description": "Six Pack in 30 Days is designed to help you build core strength and achieve a defined midsection through a structured workout routine. If you are tired of struggling with ineffective workout routines and diet plans, this application provides a targeted solution to guide your fitness progress over a month-long program.",
-  "features": [],
+  "description": "SixPackAbsAbsWorkout is a mobile application designed for fitness routines focused on abdominal muscles. The app includes in-app purchases injected.",
+  "features": [
+   "IAP Injected"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "358e016de2e16d111b50b1cf4704c6ba9ee78be0672e80bc08c868f3febf5add",
-  "subtitle": "Achieve your six pack abs in 30 days",
+  "src_hash": "227d4c09ab0d18bfd2d0d0cb9c8a8316d63285e0179af3f60639af747c64c4a6",
+  "subtitle": "Six Pack Abs Workout App",
   "tags": [
-   "abs",
-   "workout",
    "fitness",
-   "health",
-   "core",
-   "exercise"
+   "workout",
+   "abs",
+   "exercise",
+   "health"
   ]
  },
  "com.abishkking.stretching": {
@@ -8360,22 +8372,23 @@
   ]
  },
  "com.agent.super.extension.safari": {
-  "category": "other",
+  "category": "utilities",
   "date": "2026-11-21",
-  "description": "This version of Superagent has the subscription unlocked.",
+  "description": "Super Agent is a Safari extension for iOS 17 and later. Current version 4.6.0. Bundle identifier: com.agent.super.extension.safari. This is a patched release with subscription modifier. Developed by @blatants.",
   "features": [
-   "Subscription Unlocked"
+   "Patched",
+   "Subscription Modified"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "5eed9f760a7bb231f6d10439094bdca9733a9759dba59b767e1a1f898f958655",
-  "subtitle": "Subscription unlocked version",
+  "src_hash": "bb72d478071712cf0d2ade1e01e5547b664b48c1f0f277d6cc40e63650d5db43",
+  "subtitle": "Safari extension for automated tasks",
   "tags": [
-   "superagent",
-   "subscription",
-   "unlocked",
-   "modified",
-   "app",
-   "ios"
+   "safari",
+   "extension",
+   "automation",
+   "productivity",
+   "ios17",
+   "patched"
   ]
  },
  "com.agiletortoise.Drafts5": {
@@ -9688,25 +9701,25 @@
  },
  "com.aniwings.app": {
   "category": "entertainment",
-  "date": "2026-10-21",
-  "description": "AniWings is a modern anime streaming client designed for iOS, Android, Android TV, and Desktop. Discover anime, browse seasonal releases, follow airing schedules, manage your library, track episodes, use multiple providers, install provider extensions, download supported episodes, and watch through an interface designed specifically for mobile devices, televisions, and desktop PCs. No mandatory account is required and there is no intrusive advertising.",
+  "date": "2026-11-21",
+  "description": "AniWings is an anime streaming client that works on Android phones, tablets, iOS (iPhone and iPad), Android TV, Google TV, Amazon Fire TV, NVIDIA Shield TV, and desktop (Windows and Linux). It lets users discover anime, browse seasonal releases, follow airing schedules, manage a personal library, track episodes, switch between multiple streaming providers, install provider extensions, and download supported episodes for offline viewing. No mandatory account creation is required and the app contains no intrusive advertising.",
   "features": [
-   "No Mandatory Sign-up",
-   "No Intrusive Advertising",
+   "No Sign-up",
+   "No Ads",
    "Multiple Providers",
-   "Download Supported Episodes",
-   "Cross-Device Support"
+   "Download Episodes",
+   "Cross-Platform"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "82ac00577bdd17a3e935f5716260fbaae9b5a2337be40c36092a56b5efc6a686",
-  "subtitle": "Modern anime streaming client for all your devices",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "190cd664173d2f2fed5470e3d3e454c2e177ae98489d0fd3c63e3fadbff93837",
+  "subtitle": "Modern anime streaming client for all devices",
   "tags": [
    "anime",
    "streaming",
-   "shows",
-   "episodes",
-   "media",
-   "video"
+   "client",
+   "multiplatform",
+   "no-ads",
+   "offline"
   ]
  },
  "com.annavilmas.globeplanet.iOS": {
@@ -10758,23 +10771,17 @@
  "com.armsx2.ios": {
   "category": "games",
   "date": "2026-11-21",
-  "description": "ARMSX2 is a free and open-source PlayStation 2 emulator based on PCSX2. It features native ARM64 JIT recompilers for running PS2 games on phones, PCs, and gaming handhelds.",
-  "features": [
-   "Free",
-   "Open Source",
-   "ARM64 JIT",
-   "Cross-platform"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "9f5e1707676c63fb3d9abf5ceeda9f0c66c9ee9673d0866fdc96ccc7f0d2977e",
-  "subtitle": "Open-source PS2 emulator with ARM64 JIT",
+  "description": "ARMSX2 is a free and open-source PlayStation 2 emulator based on PCSX2, featuring native ARM64 JIT recompilers. Enjoy playing your favorite PS2 games directly on your mobile phone, PC, or gaming handheld device.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "9af5120cffc8a0eb838ece37212eccd6444a72dcef16f4497db0ab4396e9ade2",
+  "subtitle": "Play PS2 games with ARM64 JIT support",
   "tags": [
    "ps2",
    "emulator",
-   "arm64",
-   "open-source",
+   "gaming",
    "pcsx2",
-   "gaming"
+   "arm64"
   ]
  },
  "com.armsx2.ios.nightly": {
@@ -11660,19 +11667,19 @@
  },
  "com.barnstormgames.chasewtus": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "The Chase World Tour IPA for iOS has captured the attention of trivia lovers and game enthusiasts alike. Based on the popular televis",
+  "date": "2026-11-21",
+  "description": "Based on the popular television quiz show, the game recreates the excitement and challenge of facing the iconic Chasers in a fast-paced and interactive format tailored for mobile devices. Suitable for casual players and die-hard fans.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "cfa359eebac72a600d4ce3645b6a57a1f925e9e923317a1ab6c7d33a2ef5c601",
-  "subtitle": "Trivia game based on a popular TV show",
+  "src_hash": "91178e8b826b0564247bb5fe5379d755d15711bc2012fc3644d8421d2fac96b6",
+  "subtitle": "Quiz game based on TV show The Chase",
   "tags": [
+   "quiz",
    "trivia",
-   "game",
    "tv",
-   "world",
-   "tour",
-   "ios"
+   "show",
+   "game",
+   "chase"
   ]
  },
  "com.basenji.mood": {
@@ -13252,19 +13259,21 @@
  },
  "com.bubble.buster.rescue": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "Wool Crush \u2013 Escape Traffic Jam is an arcade puzzle game for iOS. The game spins everyday traffic frustration into a fun and addictive challenge. Players solve puzzles to clear gridlock and progress through levels.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "eed1d8fbf4edf701979e3509890df22c23e6e79945e938a0d0c0f582bd0c1afe",
-  "subtitle": "Arcade puzzle: escape traffic jams",
+  "date": "2026-11-21",
+  "description": "Wool Crush is an arcade puzzle game for iOS that combines match-and-merge mechanics with grid-based merging and wool characters.",
+  "features": [
+   "Match-and-merge mechanics",
+   "Grid-based puzzles"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a15bd88bd5b58fb7edc6db479d40df8223d84f7c1184d3cf56ab8aa95416344b",
+  "subtitle": "An arcade puzzle game with wool characters",
   "tags": [
-   "arcade",
    "puzzle",
-   "traffic",
-   "jam",
-   "fun",
-   "addictive"
+   "arcade",
+   "match",
+   "merge",
+   "game"
   ]
  },
  "com.buburo.webink": {
@@ -13361,23 +13370,21 @@
  },
  "com.burbn.barcelona": {
   "category": "social",
-  "date": "2026-11-10",
-  "description": "Modified Threads app version 441.0.0 that includes ThreadSaver by @swiftLeopard and OpeninThreadsSafariExtension. Extension fixes provided by @erupts0. Published by @compiledipas.",
+  "date": "2026-11-21",
+  "description": "This version of Threads includes premium features unlocked.",
   "features": [
-   "ThreadSaver included",
-   "Safari extension included",
-   "Extension fixes"
+   "Premium Unlocked"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "899948e16b3cb31e1ea8db72271cbde01c4d0419b31e72dce36fce9870c78ad0",
-  "subtitle": "ThreadSaver with Safari extension",
+  "src_hash": "d339affda29a03985460d0334937a2d828011ff14b957521699b7ab077545f49",
+  "subtitle": "Social messaging with premium features",
   "tags": [
    "threads",
-   "threadsaver",
-   "safari",
-   "extension",
    "social",
-   "meta"
+   "messaging",
+   "premium",
+   "unlocked",
+   "app"
   ]
  },
  "com.burbn.instagram": {
@@ -13485,6 +13492,26 @@
    "traffic",
    "networking",
    "tool"
+  ]
+ },
+ "com.bytenpixels.irispro": {
+  "category": "photo-video",
+  "date": "2026-11-21",
+  "description": "Iris Pro is a manual camera application with no AI processing. It requires iOS 17.0 or later. Current version is 1.1.4.",
+  "features": [
+   "Manual Camera",
+   "Zero AI"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "3be789ebce65364d92582530ad3fe83b015e7fd0d057b67334351ff30e53c21c",
+  "subtitle": "Manual camera, zero AI, iOS 17+",
+  "tags": [
+   "manual",
+   "camera",
+   "zeroai",
+   "ios17",
+   "photography",
+   "irispro"
   ]
  },
  "com.bytes-and-pixels.food-buddy": {
@@ -14670,19 +14697,20 @@
   ]
  },
  "com.chromanoir.Zeit": {
-  "category": "utilities",
+  "category": "photo-video",
   "date": "2026-11-21",
-  "description": "Halide app with subscription unlocked.",
-  "features": [
-   "Unlocked"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "510df75c54432a3e341c5cef1aa71cb8c71600b6d4cb5522ae09c8be70293774",
-  "subtitle": "Halide application",
+  "description": "Halide Mark II version 2.17.3 is a professional-grade camera application for iPhone offering advanced photography controls.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "97f227ad976aeaaf89426d44cfab0c88dcb7fd6b7302698d0dfa3e34f946ec35",
+  "subtitle": "Professional camera app for iPhone",
   "tags": [
+   "camera",
+   "photography",
+   "professional",
+   "iphone",
    "halide",
-   "unlocked",
-   "subscription"
+   "mark ii"
   ]
  },
  "com.chucklefish.inmost": {
@@ -14937,19 +14965,19 @@
  },
  "com.clickteam.ultimatecustomnight": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Ultimate Custom Night is a point-and-click survival horror video game created by Scott Cawthon. It is the second official spin-off of the Five Nights at Freddy's series, following FNaF World, and the eighth game overall.",
+  "date": "2026-11-21",
+  "description": "Ultimate Custom Night IPA MOD iOS is an intense horror game that will keep you on the edge of your seat. Whether you\u2019re a seasoned gamer",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "5ed8d810f9c38673958c1194844d8275eedb2647690f8836e14b7a56f3790cf2",
-  "subtitle": "Point-and-click survival horror game",
+  "src_hash": "d6aaa2a87661770d4645d266f39e5a2e170bd6ce5b4e34ee4ab1cdb9cf2d7e2c",
+  "subtitle": "Intense horror survival game for iOS",
   "tags": [
-   "survival horror",
-   "point and click",
-   "five nights at freddys",
-   "scott cawthon",
-   "spin off",
-   "horror game"
+   "ultimate",
+   "custom",
+   "night",
+   "horror",
+   "game",
+   "ios"
   ]
  },
  "com.cloud-compiler": {
@@ -15192,19 +15220,20 @@
  },
  "com.codigames.idle.theme.park.tycoon": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "Idle Theme Park is a captivating mobile game that invites you to build and manage your very own theme park.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Build and manage your very own theme park in this idle mobile game. Tap your way to success by gradually expanding your park and attracting more visitors to generate revenue. Enjoy charming visuals and engaging gameplay as you develop your park. This version includes the iGameGod tweak.",
+  "features": [
+   "iGameGod included"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "eb48529c3063e61d8ac4c9d40a2d97be6b119ace9dedabde070646bc99e8e380",
+  "src_hash": "436f17ed8ae84c8e1d222eba3e56238711d5ba99069c8b7471453dd8c3d61c44",
   "subtitle": "Build and manage your very own theme park",
   "tags": [
    "theme park",
    "idle",
    "management",
    "game",
-   "simulation",
-   "mobile"
+   "simulation"
   ]
  },
  "com.codigames.idle.tv.empire.tycoon": {
@@ -15517,19 +15546,19 @@
  },
  "com.contactposter.wallpaper.app": {
   "category": "photo-video",
-  "date": "2026-11-10",
-  "description": "Glass Wallpapers OS 26 \u2013 4K is an iOS installable wallpaper customization app. It provides high-resolution glass-style wallpapers for device personalization.",
+  "date": "2026-11-21",
+  "description": "Glass Wallpapers OS 26 is a wallpaper customization app designed to transform the visual appearance of your iPhone using high-resolution backgrounds and modern glass-style effects. This iOS installable version is provided in IPA format for alternative installation methods.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "244641b4e4a801d45fb49a7828a9870f7e2a1eb470ed4eb23128079f99fe1960",
-  "subtitle": "4K glass wallpaper customization",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3ba144bba90e6b7ebc11d19f451880d5694e8148e74839fa79c0aeaa2ba21007",
+  "subtitle": "High-resolution backgrounds and modern glass-style effects",
   "tags": [
-   "wallpaper",
+   "wallpapers",
+   "backgrounds",
    "customization",
-   "4k",
    "glass",
-   "ios",
-   "personalization"
+   "4k",
+   "ios"
   ]
  },
  "com.contentarcade.LogoMaker": {
@@ -16601,18 +16630,22 @@
  },
  "com.daerigame.babysasin": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Tiny Reaper: Reborn is the revamped edition of the popular mobile roguelike game originally known as Tiny Reaper. Designed for iOS.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Tiny Reaper Reborn is the revamped edition of the mobile roguelike originally known as Tiny Reaper. Built for iOS, it places players in a dark quirky universe as a tiny grim reaper battling through procedurally generated dungeons.",
+  "features": [
+   "Revamped Edition",
+   "Procedural Dungeons",
+   "Roguelike Gameplay"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ef987289da36228f00a16f6d0b138152894438f6e3e69be38fcc01c93d8a9a37",
-  "subtitle": "Revamped roguelike adventure for iOS",
+  "src_hash": "af362aecd376b5b2ac7ace4f37e21095cd36daeb944c5d076ecf2b948579718a",
+  "subtitle": "Revamped roguelike with procedural dungeons",
   "tags": [
    "roguelike",
-   "mobile",
-   "game",
-   "tiny reaper",
-   "reborn",
+   "dungeon",
+   "procedural",
+   "grim reaper",
+   "revamped",
    "ios"
   ]
  },
@@ -16674,19 +16707,20 @@
  },
  "com.daerigame.volleygirls": {
   "category": "games",
-  "date": "2026-11-09",
-  "description": "Volley Girls: High School Story is a narrative-driven game combining high school storytelling with volleyball themes. The app is distributed as an IPA file from a third-party source.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "aabae87461608ced8a2b94e5ce9e37fa6868010e1e0cc7597ce76b4d0c47b60d",
-  "subtitle": "High school volleyball story game",
+  "date": "2026-11-21",
+  "description": "Volley Girls: High School Story brings a vibrant mix of high school storytelling, character interaction, and volleyball competition to iOS. Experience sports action combined with narrative gameplay designed for mobile devices. This version includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8e2bc96daebfa545cc66875cb43103032fa73a220bc0b9c1d6018446bf49b856",
+  "subtitle": "High school storytelling and volleyball competition",
   "tags": [
    "volleyball",
-   "high-school",
+   "sports",
    "story",
-   "simulation",
-   "visual-novel",
-   "anime"
+   "game",
+   "high school"
   ]
  },
  "com.dailymotion.dailymotion": {
@@ -17060,20 +17094,21 @@
   ]
  },
  "com.deepgames.release.becamethedevil": {
-  "category": "utilities",
-  "date": "2026-11-07",
-  "description": "The Demonized iOS, also known as The Demonized IPA App, emerged as an alternative to the official Apple App Store for installing iOS applications.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "69b9f742afa64a5d0fa7fba41dd5c27ceabce9f920acf2f778a3db50378bfb0f",
-  "subtitle": "Third-party iOS app installer alternative",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "The Demonized is an alternative to the official Apple App Store that provides access to unauthorized applications and bypasses Apple guidelines. The app includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "915d8fd22beb20887a928f89d448cfa61a8b47c21fdbaee1be353eb7bf6e7c41",
+  "subtitle": "Alternative app marketplace for iOS",
   "tags": [
+   "demonized",
    "ipa",
-   "installer",
-   "alternative",
-   "app-store",
-   "ios",
-   "third-party"
+   "tweak",
+   "igamegod",
+   "marketplace"
   ]
  },
  "com.deepseek.chat": {
@@ -18158,19 +18193,19 @@
  },
  "com.doghowlgames.thronefall": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Thronefall A Little Kingdom IPA is an engaging strategy game that has captivated iOS users with its unique blend of kingdom building.",
+  "date": "2026-11-21",
+  "description": "Thronefall is a strategy game combining kingdom building and tower defense mechanics. Featuring pixel art graphics and intuitive controls, players assume the role of a young ruler managing their realm. The game blends resource management with defensive tactics against incoming threats.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "5bf89183ede4dee7a0313ef8920990fb9b159b37758da46b2a4bd0fc56a91e0e",
-  "subtitle": "Engaging strategy kingdom builder",
+  "src_hash": "185ff8dde7fcb31f35dd541e7a25ee0d63f6d279feeb953f5e8aadc65079ddf2",
+  "subtitle": "Kingdom building meets tower defense",
   "tags": [
    "strategy",
-   "kingdom",
-   "building",
-   "ios",
-   "game",
-   "thronefall"
+   "kingdom-building",
+   "tower-defense",
+   "pixel-art",
+   "single-player",
+   "offline"
   ]
  },
  "com.dong.hexwarriors": {
@@ -18246,19 +18281,19 @@
  },
  "com.douglas.upflix": {
   "category": "entertainment",
-  "date": "2026-11-08",
-  "description": "Upflix is a movie and TV show streaming platform. The service provides access to a library of films and television series for on-demand viewing.",
+  "date": "2026-11-21",
+  "description": "Upflix is a movie and TV show streaming platform.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "3a2caad1cbc3609517f3d33848826a1bbd6b2fb068bbf7144627d2b1023faf98",
+  "src_hash": "3b5f68ec0e87d56bc228f2ced4723193a351a8631bb5c000444d2deb6c9cb4e3",
   "subtitle": "Movie and TV show streaming platform",
   "tags": [
+   "movie",
+   "tv",
    "streaming",
-   "movies",
-   "tv shows",
+   "upflix",
    "entertainment",
-   "video",
-   "watch"
+   "platform"
   ]
  },
  "com.downloader.omniForPyload": {
@@ -18775,22 +18810,20 @@
   ]
  },
  "com.dynamicapps.Vocab-Builder": {
-  "category": "utilities",
-  "date": "2026-11-10",
-  "description": "WordPal is a modified IPA version with premium features added. The package has been tested and compiled by TTJB Team. Original app functionality includes word-related tools; this build unlocks premium tier access.",
-  "features": [
-   "Premium Unlocked"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "27118d61234cbc0d5ff277581ee91b75df70411e5b0bf55564a7f6b00e9b4828",
-  "subtitle": "Premium word tool with unlocked features",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "WordPal is a vocabulary builder designed specifically for iOS users who want to learn new words efficiently and enjoyably. The app blends technology, interactive learning, and gamification to create an engaging experience. Unlike traditional flashcard methods, this app adapts to your learning pace and focuses on retention.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8bc85527190d5da3a009c7d2686db4376b3587781d214bc3fa4ada1b7ad73f37",
+  "subtitle": "Vocabulary builder designed for iOS users",
   "tags": [
-   "word",
-   "premium",
-   "ipa",
-   "modified",
-   "tools",
-   "ttjb"
+   "vocabulary",
+   "learning",
+   "words",
+   "flashcard",
+   "education",
+   "ios"
   ]
  },
  "com.dynamicdust.CharlieTheSteak": {
@@ -19054,19 +19087,21 @@
  },
  "com.earlymorningstudio.trident": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Vampire\u2019s Fall 2 is an immersive RPG adventure now available on iOS devices, captivating players with its rich narrative and retro style.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Vampire\u2019s Fall 2 is a retro\u2011styled RPG for iOS. It continues the story of its predecessor, placing the player in a dark vampire world where decisions affect the outcome and exploration yields rewards. The game includes iGameGod tweaks.",
+  "features": [
+   "iGameGod"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "caec3a0dcdc2842ea3dba30f26d1922f4be654e2aa80478145d0be080969896e",
-  "subtitle": "Immersive RPG adventure with retro style",
+  "src_hash": "a63fbab5312ed60713c3c560aa43218f232b564dc839d47c71353ba55b8332ce",
+  "subtitle": "Retro RPG adventure with choices",
   "tags": [
    "rpg",
-   "adventure",
-   "retro",
-   "ios",
    "vampire",
-   "fall"
+   "retro",
+   "choices",
+   "exploration",
+   "mobile"
   ]
  },
  "com.eastmoon.gk2live": {
@@ -19159,20 +19194,21 @@
   ]
  },
  "com.eastsidegames.trailerparkboys": {
-  "category": "games",
-  "date": "2026-11-08",
-  "description": "Trailer Park Boys Greasy Money is a mobile game based on the TV series. Build and manage your own trailer park empire with characters from the show.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "7ae5473775e5a70e2bc19c541e8abe089fac2cf4e26f1ecf2155a9a8935c45f8",
-  "subtitle": "Trailer Park Boys mobile game",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "Join your favorite characters on their misadventures and try to build the ultimate trailer in Trailer Park Boys Greasy Money. This mobile game lets you experience the hilarious and chaotic world of the Sunnyvale Trailer Park. Includes tweaks support for iGameGod.",
+  "features": [
+   "iGameGod support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "83ad311383363375d2c6d606b339cffc96ef4fa8007c94b13cc3673916fef9ce",
+  "subtitle": "Immerse in the chaotic world of Sunnyvale Trailer Park",
   "tags": [
    "trailer park boys",
    "greasy money",
-   "mobile game",
-   "simulation",
-   "tv series",
-   "empire builder"
+   "game",
+   "sunnyvale",
+   "mobile game"
   ]
  },
  "com.easybrain.brain.game": {
@@ -19447,21 +19483,21 @@
  },
  "com.eeenmachine.tinytowers": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Tiny Tower is a tap idle evolution game. This version includes VIP enabled and unlimited currencies, meaning currencies will increase instead of decrease when used. Buy your upgrades and progress through the game with modified resources.",
+  "date": "2026-11-21",
+  "description": "Tiny Tower marries the concepts of tower management and idle evolution, offering an addictive blend of strategy and creativity. Experience this charming game on your iOS device.",
   "features": [
-   "VIP Enabled",
-   "Unlimited Currencies"
+   "Tweaks: iGameGod"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2dcb9cffd89420172defe95a6292bd272c8c908b2e53e70d536a4286a809925f",
-  "subtitle": "Tap Idle Evolution game with VIP and unlimited currencies",
+  "src_hash": "94570ed666dcf9033601fe995ac9157c241336b69c68b24f4e710fe1286fdae6",
+  "subtitle": "Idle tower management and evolution game",
   "tags": [
-   "tiny tower",
+   "tower",
    "idle",
    "evolution",
-   "tap",
-   "game"
+   "strategy",
+   "game",
+   "management"
   ]
  },
  "com.efehelvaci.Daily-Affirmation": {
@@ -20159,19 +20195,20 @@
  },
  "com.epixelgames.townguardians": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Town Guardians is an immersive mobile game designed specifically for iOS devices, blending strategic gameplay with captivating visuals and challenging levels. Players build and upgrade defenses, manage resources, and protect their town from waves of enemies.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Town Guardians is an iOS mobile game where players protect a town through strategic gameplay and storytelling. It combines resource management, tower defense, and RPG mechanics with vivid graphics and smooth controls. The game includes iGameGod tweak support.",
+  "features": [
+   "iGameGod Tweak"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4d07eb955dd81a431982b82ba356977a74b5d6ff4b8da7012a4a4c7f6a48b394",
-  "subtitle": "Strategic town defense game for iOS",
+  "src_hash": "4effbcf659ba133f8167f159c4c93525d8b72c155f0da96399579a5d1f8657e8",
+  "subtitle": "Strategic tower defense RPG with resource management",
   "tags": [
-   "town guardians",
+   "tower defense",
+   "rpg",
    "strategy",
-   "mobile game",
-   "ios",
-   "immersive",
-   "defense"
+   "resource management",
+   "single player"
   ]
  },
  "com.erenberkay.Subtracky-Subscription-Tracker": {
@@ -20600,18 +20637,24 @@
  },
  "com.example.kazumi": {
   "category": "entertainment",
-  "date": "2026-10-28",
-  "description": "Kazumi is an anime collection app based on custom rules, supporting online streaming, danmaku, and real-time super-resolution. This is an unsigned iOS build that requires self-signing for installation. The source code is available under the GPL-3.0 open source license.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Kazumi is an anime collection and online streaming application developed with Flutter. It allows you to build custom collection rules using up to five lines of XPath-based selectors, with support for rule import and sharing. Enjoy real-time super resolution powered by Anime4K. Additional features include anime directory and search, episode playback, Danmaku comments, favorites list, watch history, playback speed control, multiple video source support, and customizable color schemes.",
+  "features": [
+   "Custom Rules",
+   "Real-Time Super Resolution",
+   "Danmaku Support",
+   "Multiple Video Sources",
+   "Watch History"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "0271478cea0488253e2dcac9f7e73dfe2f8db654b288d154427c9e56ece240ca",
-  "subtitle": "Custom rule anime streaming and collection app",
+  "src_hash": "af4d20ace7b00c7711ff8abc2ef5717466a9632ae320430663870b38154a7e8b",
+  "subtitle": "Anime collection and streaming app built with Flutter",
   "tags": [
    "anime",
    "streaming",
-   "danmaku",
+   "flutter",
    "video",
-   "collection"
+   "player"
   ]
  },
  "com.example.laststatsMobile": {
@@ -21110,19 +21153,22 @@
  },
  "com.fatmerge.global": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "Tasty Travels is a casual game designed exclusively for iOS devices. It combines elements of time management with vibrant gameplay.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "50b2b98405d092bb98aaf8ff6c653f67add26ad4c39c4e1e73cd1f777ebdf74b",
-  "subtitle": "Casual time-management game for iOS",
+  "date": "2026-11-21",
+  "description": "Tasty Travels is a casual game for iOS combining time management and restaurant simulation elements. Experience the culinary world with colorful graphics and intuitive controls in a food-themed challenge suitable for players of all ages.",
+  "features": [
+   "NetworkPrewarm",
+   "iGameGod"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5f8f99adf7098bb31cd510e7ec5f50707a77b193b24ef3629eef1e706661e4e3",
+  "subtitle": "An engaging casual time management and restaurant simulation",
   "tags": [
    "casual",
    "game",
-   "ios",
-   "time-management",
-   "travel",
-   "cooking"
+   "simulation",
+   "restaurant",
+   "cooking",
+   "time management"
   ]
  },
  "com.fatsecret.caloriecounter": {
@@ -21487,22 +21533,22 @@
  },
  "com.financeillustrated.TradingGame": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Trading Game is a stock simulator. The tweak provides Pro Unlocked features. Version 4.80. Patched.",
+  "date": "2026-11-21",
+  "description": "Trading Game is a stock market simulator. Version 4.6.8 includes a pro unlocked tweak and is patched. Developed by an unknown developer.",
   "features": [
    "Pro Unlocked",
    "Patched"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "eec248be2cb3b1b225ae7db8ba379bf9be50744d85a71ccf372f2b88ec5d60e0",
+  "src_hash": "4d153d789d8310943342961db0a20b456eb1b3b94743d86ec5895169ba66d71d",
   "subtitle": "Stock market simulator with pro features",
   "tags": [
    "trading",
    "stock",
    "simulator",
+   "game",
    "pro",
-   "unlocked",
-   "patched"
+   "unlocked"
   ]
  },
  "com.finch.finch": {
@@ -22868,18 +22914,21 @@
  },
  "com.funplus.ts": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Tiles Survive! is a mobile survival strategy game where players navigate tile-based environments. The game challenges you to survive using strategic planning and resource management across procedurally generated levels.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "072701051401054f46559f410763b0140edcc1d4b6d612f647cbfbd890325da1",
-  "subtitle": "Survival strategy game on tiles",
+  "date": "2026-11-21",
+  "description": "Tiles Survive! is an iOS installation package for the mobile survival strategy game. This IPA file allows iPhone and iPad users to install the game through sideloading methods, containing the full game structure including graphics and gameplay mechanics. Sideloading provides an alternative to downloading directly from the App Store.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "03013a2431a0bf7acc8c3de0219962117c93c605da527d28f1e6c74e673422bf",
+  "subtitle": "Survival strategy game IPA for iOS",
   "tags": [
+   "tiles survive",
    "survival",
    "strategy",
-   "tiles",
-   "mobile",
-   "game"
+   "ipa",
+   "game",
+   "sideload"
   ]
  },
  "com.fut.market.alert": {
@@ -23208,19 +23257,20 @@
  },
  "com.gamehivecorp.taptitans2": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "Tap Titans 2 \u2013 Hero Legends is a popular mobile game developed by Game Hive Corporation. Available as an IPA for iOS.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "f1f1e18ce5e51bc88488b277beaab6c90f020d998d673de7213934a7c7fb27d4",
-  "subtitle": "Tap Titans 2 \u2013 Hero Legends",
+  "date": "2026-11-21",
+  "description": "Tap Titans 2 is a popular mobile game developed by Game Hive Corporation that offers an immersive experience for iOS users. This version includes tweaks with iGameGod integration, providing an enhanced gaming experience.",
+  "features": [
+   "iGameGod tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "749c6468e2d43b8083b507e48d0be17f21529d0b80e3ed1ad5b9daa2ca0b376a",
+  "subtitle": "Tap Titans 2 Hero Legends IPA iOS",
   "tags": [
    "tap titans 2",
    "hero legends",
-   "mobile game",
    "game hive",
-   "ipa",
-   "ios"
+   "ios game",
+   "igamegod"
   ]
  },
  "com.gameinsight.airportcity": {
@@ -27091,6 +27141,27 @@
    "video"
   ]
  },
+ "com.google.tvos.youtube": {
+  "category": "photo-video",
+  "date": "2026-11-21",
+  "description": "MuTube enhances YouTube on Apple TV using TizenTube Cobalt userscripts. This mod removes advertisements and adds support for additional features such as SponsorBlock. This build is specifically designed for tvOS and does not work on iOS devices.",
+  "features": [
+   "No Ads",
+   "SponsorBlock Support",
+   "tvOS Optimized"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c53b6264afdd1f94ced40e9437b4fd865d76826d224ba46b5c59d38f3925eb22",
+  "subtitle": "Enhance YouTube on Apple TV with ad-blocking and mods",
+  "tags": [
+   "mutube",
+   "youtube",
+   "tvos",
+   "sponsorblock",
+   "mod",
+   "streaming"
+  ]
+ },
  "com.google.tvos.youtube.4.54.01": {
   "category": "photo-video",
   "date": "2026-11-08",
@@ -27374,19 +27445,20 @@
   ]
  },
  "com.graz.upscaler": {
-  "category": "other",
-  "date": "2026-11-08",
-  "description": "This version includes premium features injected into the app.",
-  "features": [
-   "Premium Unlocked"
-  ],
+  "category": "photo-video",
+  "date": "2026-11-21",
+  "description": "UScale enhances image quality and upscales images. Requires iOS 16.0 or later. Current version 2.1.5. Developed by @Sa1y0miii. Available on the App Store.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4aca28561d9f9365ab635e92fc8d920d42215bb9d08c13d0ef30dc6bd4ccd857",
-  "subtitle": "Premium features unlocked",
+  "src_hash": "154c1c77a8f60a1e7d972211dcaec8e62a38cf4f85dba48f66130988d91e3fe4",
+  "subtitle": "Enhance and upscale image quality",
   "tags": [
-   "premium",
-   "unlocked",
-   "upscale"
+   "upscale",
+   "enhance",
+   "image",
+   "photo",
+   "quality",
+   "ios"
   ]
  },
  "com.gree.shadow": {
@@ -28028,18 +28100,23 @@
  },
  "com.hammerandchisel.discord.testflight": {
   "category": "social",
-  "date": "2026-10-15",
-  "description": "Bunny is a client modification for Discord, available through TestFlight builds.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c34f3341116a0ab7bfbd3fa6098f3d6a887784d5ffcb89ab71f32bee97052787",
-  "subtitle": "A client mod for Discord",
+  "date": "2026-11-21",
+  "description": "This is a modified Discord TestFlight build (version 356.0) with Unbound 1.8.1 injected. Based on Discord's official TestFlight beta and alpha releases. Expect instability and breakage. Source code and documentation available at github.com/ra1ncord/RainTweak. Join the Discord server for update notifications.",
+  "features": [
+   "Unbound 1.8.1",
+   "TestFlight build",
+   "Beta/alpha base"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "de738933c3b7214379d26ceb3d3271cabc2f039be2e4cc942e108c3d393a9f6b",
+  "subtitle": "Modded Discord TestFlight with Unbound tweak injected",
   "tags": [
    "discord",
-   "client",
-   "mod",
+   "unbound",
    "testflight",
-   "chat"
+   "modded",
+   "tweak",
+   "beta"
   ]
  },
  "com.hammerandchisel.discord2": {
@@ -28912,17 +28989,20 @@
  },
  "com.highbrow.games.tki": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "Step into the age of ancient war and heroism with Three Kingdoms All-Star Idle IPA MOD, the ultimate idle RPG strategy game for iOS.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Step into the age of ancient war and heroism with Three Kingdoms All-Star Idle, an idle RPG strategy game for iOS. Inspired by the legendary Chinese Three Kingdoms saga, this game lets players recruit famous generals, form powerful armies, and conquer rival factions. This modified version includes unlimited gold and unlocked content.",
+  "features": [
+   "Unlimited gold",
+   "Unlocked content"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "e1a79e7e32fa7b474cc4c3af8b09671fa4908d42a286d07a472b7cadd86f70ac",
-  "subtitle": "Idle RPG strategy game set in ancient war",
+  "src_hash": "cd551fba9eec2c12a900f14e17fe95363bc34de43f1cee541ebb904b13fc05aa",
+  "subtitle": "Idle RPG strategy game set in ancient China",
   "tags": [
    "rpg",
    "strategy",
    "idle",
-   "three kingdoms",
+   "action",
    "game"
   ]
  },
@@ -29825,20 +29905,22 @@
   ]
  },
  "com.i.dfr": {
-  "category": "other",
-  "date": "2026-11-08",
-  "description": "Tower Defense Rumble IPA MOD is an exciting strategy experience on iOS.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "76afb9d4bf759d47885d88ba86425c126691b6f0e0b9608813a606aabf8fa83f",
-  "subtitle": "Strategy tower defense mod for iOS",
+  "category": "games",
+  "date": "2026-11-21",
+  "description": "Tower Defense Rumble is a strategy experience for iOS focused on tactical battles, enemy waves, and stronghold protection. The game delivers fast action and resource management. This modified version includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "54a7ccf1b707813e1c4963398d83d6a5ed10c81ab7aa4326e7813001d5ca89f4",
+  "subtitle": "Tactical strategy battles and enemy wave defense",
   "tags": [
-   "tower",
-   "defense",
    "strategy",
-   "ios",
+   "defense",
+   "tactical",
+   "action",
    "mod",
-   "ipa"
+   "games"
   ]
  },
  "com.iPwners.Plonkan": {
@@ -30252,22 +30334,19 @@
  },
  "com.idleif.abyssrium": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "Tap Tap Fish AbyssRium is a simulation where you grow coral and attract fish. This release is a modified IPA for iOS.",
-  "features": [
-   "Modded",
-   "IPA"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "903f1dfdc4e9031d12b9af47fc9f8ed9a6a78e552a3d975b3b9792fdb732e358",
-  "subtitle": "Relaxing fish simulation game",
+  "date": "2026-11-21",
+  "description": "Experience an enchanting underwater adventure with Tap Tap Fish AbyssRium. Create and nurture your own virtual aquarium in this immersive mobile game. This modified version includes the iGameGod tweak.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "eb0ef82dec41ad274e71ae5645a5e3f48d66332296af5117b0e9e3e49444098a",
+  "subtitle": "An underwater adventure to create and nurture your aquarium",
   "tags": [
    "tap",
    "fish",
    "abyssrium",
-   "ios",
-   "mod",
-   "ipa"
+   "aquarium",
+   "game",
+   "mod"
   ]
  },
  "com.idlesurvivor.game": {
@@ -30618,19 +30697,20 @@
  },
  "com.imangi.templerun2": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "Temple Run 2 IPA MOD is the sequel to the popular endless running game Temple Run. Developed by Imangi Studio.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Temple Run 2 is the sequel to the original endless running game developed by Imangi Studios. Released in 2013, players navigate obstacles, collect coins, and unlock characters across varied environments. This version includes iGameGod tweaks for modified gameplay.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4af2617acec4c73577b8224726245ea2818976ac67d5f3a93e48cbd369c3d9fb",
-  "subtitle": "Endless runner sequel from Imangi Studios",
+  "src_hash": "8dc36ebb23a179ce4d772ca9890d8750468202e7b2ec85835befcfc8af9a9721",
+  "subtitle": "Endless runner with iGameGod tweaks",
   "tags": [
-   "temple run",
    "endless runner",
-   "ipa",
-   "mod",
-   "imangi",
-   "sequel"
+   "temple run",
+   "imangi studios",
+   "mobile game",
+   "action"
   ]
  },
  "com.impactbluestudios.sailyseas": {
@@ -34600,70 +34680,68 @@
  },
  "com.ipaomtk.teamspeak.3.155429": {
   "category": "social",
-  "date": "2026-11-07",
-  "description": "TeamSpeak 3 is a voice communication application for iOS. The IPA package allows installation on iOS devices for real-time voice chat with low latency. Used by gamers and communities for group communication.",
+  "date": "2026-11-21",
+  "description": "TeamSpeak 3 IPA is an iOS installation package that lets users install and run the TeamSpeak 3 voice communication app on iPhone outside the App Store, providing a low-latency voice chat system used in gaming, business, and community environments.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "3eb96107659829850a193fdd52050ee73c33b38081c970af7c01435ba46c0651",
-  "subtitle": "TeamSpeak 3 voice communication for iOS",
+  "src_hash": "0c8d3643e81a5aafafb5d12b82c18a33e161a6cbcc50169cc2711dabc6b02d28",
+  "subtitle": "Low-latency voice chat for iOS",
   "tags": [
-   "voice",
-   "chat",
-   "team",
-   "voip",
-   "gaming",
-   "communication"
+   "teamspeak",
+   "voice chat",
+   "ipa",
+   "ios",
+   "communication",
+   "gaming"
   ]
  },
  "com.ipaomtk.theme.park.island.159776": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "Theme Park Island is a simulation and management game focused on building and operating a theme park. Players design attractions, manage resources, and expand their island park.",
+  "date": "2026-11-21",
+  "description": "Theme Park Island is an iOS simulation and management game focused on building and running a custom amusement park. It gives iPhone users access to full gameplay features, including construction, upgrades, and park management systems. The game combines creativity with strategy.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "347223b691639279b912783ea283a0f5c0d2e91626453fd8ab39255dd7e5dad9",
-  "subtitle": "Simulation and management game about building theme parks",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "08fe4939b8a480faa0074ef22f7947b8fa70147b6340ba482e66501d24b8d69b",
+  "subtitle": "Build and manage your own custom amusement park",
   "tags": [
    "simulation",
    "management",
-   "building",
-   "theme park",
-   "tycoon",
-   "strategy"
+   "amusement park",
+   "strategy",
+   "builder"
   ]
  },
  "com.ipaomtk.thera.ai.mental.health.journal.157090": {
-  "category": "utilities",
-  "date": "2026-11-07",
-  "description": "Thera AI Mental Health Journal is an iOS app for mental wellness and journaling.",
+  "category": "lifestyle",
+  "date": "2026-11-21",
+  "description": "Thera AI Mental Health Journal is a mental wellness and journaling application designed to help users track emotions, manage anxiety, and improve self-awareness through structured writing and mood tracking. The application provides tools for iPhone and iPad users to maintain a daily journal, monitor emotional patterns, and support personal mental health goals.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "0cf22652dd77c337f0ac1ad2f4738eaa21d9586f19c1a7e30563a69adbabf36b",
-  "subtitle": "AI mental health journal for iOS",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3f45f70d58c72682f1a2a86065b22797ab3d7fd413c5f3fe594caa9ff0343ff9",
+  "subtitle": "Track emotions and manage anxiety with structured writing",
   "tags": [
-   "mental",
-   "health",
+   "mental health",
    "journal",
+   "mood tracker",
    "wellness",
-   "ios",
-   "ipa"
+   "anxiety"
   ]
  },
  "com.ipaomtk.thief.puzzle.brain.games.156613": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "Thief Puzzle: Brain Games is a popular casual puzzle game for iOS.",
+  "date": "2026-11-21",
+  "description": "Thief Puzzle: Brain Games is a casual puzzle game for iOS that challenges players to solve creative scenarios using logic and timing. The IPA file lets users install the game manually on iPhone and iPad, providing flexibility in version management and compatibility.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "580f724cb0f3b1ebfb0ff5270cc174733337d61202b856b3e629b12f514b8750",
-  "subtitle": "Casual puzzle game with brain teasers",
+  "src_hash": "ca6963c995899d852d4720eb9bdfb38bc4c8ea11eb71b2569039a41bbd8a1046",
+  "subtitle": "Casual puzzle game with logic challenges",
   "tags": [
    "puzzle",
    "brain",
-   "casual",
-   "game",
-   "thief",
-   "logic"
+   "games",
+   "ipa",
+   "ios",
+   "casual"
   ]
  },
  "com.ipaomtk.thomas.friends.minis.159328": {
@@ -34701,37 +34779,42 @@
   ]
  },
  "com.ipaomtk.to.stories.159558": {
-  "category": "other",
-  "date": "2026-11-08",
-  "description": "To Stories is the iOS installable version of a storytelling and content creation app designed to help users create and share stories.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "e747820973ac8eb17ee795a77f30dfd7f6cf086891de26868d4c5c346d83ed41",
-  "subtitle": "Storytelling and content creation app",
+  "category": "lifestyle",
+  "date": "2026-11-21",
+  "description": "To Stories is a storytelling and content creation app designed to help users turn ideas into visually structured stories. The app focuses on simplicity, enabling users to access all features including templates, editing tools, and export options.",
+  "features": [
+   "Templates",
+   "Editing tools",
+   "Export options"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "1b97348fe04775a5193b98d1d28f7cc1516b72c84e08a8034554b37935d8efa6",
+  "subtitle": "Turn ideas into visually structured stories",
   "tags": [
-   "storytelling",
+   "stories",
    "content creation",
-   "ios",
-   "story",
-   "creative",
-   "share"
+   "storytelling",
+   "templates",
+   "editor"
   ]
  },
  "com.ipaomtk.tor.browser.onion.tor.vpn.152798": {
   "category": "utilities",
-  "date": "2026-11-08",
-  "description": "TOR Browser: Onion TOR VPN is an iOS utility app package that enables iPhone users to browse through the TOR network using onion routing. The app is distributed as an IPA package for installation on iOS devices.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "5cf5b55bc18df1212a5cc27e363d5b720ee525fe4bc06a0ec69123c67f81d250",
-  "subtitle": "TOR browser with onion routing for iPhone",
+  "date": "2026-11-21",
+  "description": "TOR Browser Onion TOR VPN is an iOS utility app package that enables iPhone users to browse the internet anonymously through sideloading. It combines TOR network routing with VPN-style encryption to protect your identity, mask your IP address, and provide access to both standard websites and hidden onion services.",
+  "features": [
+   "3BodSyPlus"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5dec17231395523cecbf1813512728f2ef74ee4c7e94afd7145cf677f51cc13c",
+  "subtitle": "Browse anonymously with TOR routing and VPN encryption",
   "tags": [
    "tor",
-   "onion",
-   "vpn",
    "browser",
+   "vpn",
+   "onion",
    "privacy",
-   "network"
+   "utility"
   ]
  },
  "com.ipaomtk.total.city.smash.nuclear.war.159318": {
@@ -34752,53 +34835,66 @@
   ]
  },
  "com.ipaomtk.transit.king.truck.simulator.158902": {
-  "category": "other",
-  "date": "2026-11-08",
-  "description": "Transit King: Truck Simulator IPA is the iOS installable version of a transport management simulation.",
+  "category": "games",
+  "date": "2026-11-21",
+  "description": "Transit King: Truck Simulator is a transport management simulation game focused on building and expanding a logistics empire. Manage your fleet control systems and experience the full game on your iOS device.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "1668cb3db11947816247dbbfde61711116c5dc42955ab31be375f2efcc0368c8",
-  "subtitle": "Transport management simulator for iOS",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2122a80831fe903500b6fd7ced7f1180c97f2317e589c1fa7f852d445fff0b06",
+  "subtitle": "Build and expand your logistics empire",
   "tags": [
-   "transit",
-   "king",
+   "simulation",
    "truck",
-   "simulator",
+   "management",
    "transport",
-   "management"
+   "logistics",
+   "game"
   ]
  },
  "com.ipaomtk.transitions.video.effects.154291": {
   "category": "photo-video",
-  "date": "2026-11-08",
-  "description": "Transitions: Video Effects IPA is a creative iOS application designed to enhance video content.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Transitions: Video Effects is an iOS app that adds professional-grade transitions, motion effects, and visual enhancements to video projects. It is distributed as an IPA file, giving users flexible installation and more control over app access and updates compared with the standard App Store version.",
+  "features": [
+   "Professional transitions",
+   "Motion effects",
+   "Visual enhancements",
+   "IPA installation",
+   "Update control"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "694be4c70b25f124fb20a924ecff6931dbc99b3e904eb16f9864b7b6b4018ad0",
-  "subtitle": "Creative video transitions for iOS",
+  "src_hash": "af7da50fd6790cdbd3b175dd8428b6ca31a7883f43509c5c7a248cad66cef2d7",
+  "subtitle": "Professional video transitions and effects",
   "tags": [
    "transitions",
    "video",
    "effects",
    "ipa",
-   "creative",
+   "editing",
    "ios"
   ]
  },
  "com.ipaomtk.translator.go.ai.translate.154043": {
   "category": "utilities",
-  "date": "2026-11-08",
-  "description": "Translator GO: AI Translate IPA is an iOS utility app package that allows iPhone users to trans",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Translator GO: AI Translate is an iOS utility app package that lets iPhone users translate text, voice, and images through sideloading. It uses artificial intelligence to deliver fast, context\u2011aware translations for everyday communication and travel.",
+  "features": [
+   "Text Translation",
+   "Voice Translation",
+   "Image Translation",
+   "AI-Powered",
+   "Sideload Installation"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4e025203b820c60fa9dc1b9f54a934c4489484fce694d28ae7ff44d4e1812a0f",
-  "subtitle": "AI translation utility for iPhone",
+  "src_hash": "f7a614a7a514ab72ea70e2da4b13503ae1d71854e96c502aaacc23bd27c9a6eb",
+  "subtitle": "AI translation for text, voice, images",
   "tags": [
    "translator",
    "ai",
-   "translate",
-   "ios",
-   "utility"
+   "text",
+   "voice",
+   "image",
+   "sideload"
   ]
  },
  "com.ipaomtk.trollmisaka.158829": {
@@ -34820,87 +34916,97 @@
  },
  "com.ipaomtk.tweeload.twitter.video.saver.151722": {
   "category": "social",
-  "date": "2026-11-08",
-  "description": "Tweeload is an iOS application that lets you download and save videos from Twitter directly to your device. The app provides a simple way to keep video content from the social platform for offline viewing or sharing.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Tweeload \u2013 Twitter Video Saver is an iOS installation package (IPA) for the Tweeload app. It enables iPhone and iPad users to install the app through sideloading methods rather than the App Store. The IPA includes core functionality such as media detection and link processing for downloading videos from Twitter.",
+  "features": [
+   "Media Detection",
+   "Link Processing",
+   "Sideload Installation"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "1b8ee21727082eac2142c99c5d63afc1a86dd1f02a2ddd139726aaf364938dfc",
-  "subtitle": "Save Twitter videos to your device",
+  "src_hash": "1f818048ea8d2cb6b89d7d053cf5ff14a6afcead0bc9d2b7d410541075d717c6",
+  "subtitle": "Save Twitter videos via sideloaded IPA",
   "tags": [
    "twitter",
    "video",
    "downloader",
-   "saver",
-   "social",
-   "media"
+   "sideload",
+   "ipa",
+   "social"
   ]
  },
  "com.ipaomtk.twip.video.player.for.twitter.153293": {
-  "category": "photo-video",
-  "date": "2026-11-08",
-  "description": "Twip Video Player for Twitter is an iOS video utility app package that allows iPhone users to play Twitter videos. The app functions as a dedicated video player for Twitter content on iOS devices.",
-  "features": [],
+  "category": "social",
+  "date": "2026-11-21",
+  "description": "Twip Video Player for Twitter is an iOS video utility that lets users watch Twitter videos in high quality through sideloading. It provides a streamlined viewing experience without requiring account login. Includes ad blocking functionality.",
+  "features": [
+   "No Ads"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "0af3d956461eaf85c4fc20f3681d677b5e79dd1f3dd0c1fe16fa75411a82de50",
-  "subtitle": "Video player for Twitter content on iPhone",
+  "src_hash": "3943449479a04ac26753f3d92a49f49d8bc8693a25a1510f329f6613bb42cb62",
+  "subtitle": "Watch Twitter videos without logging in",
   "tags": [
    "twitter",
    "video",
    "player",
-   "iphone",
-   "ios",
+   "sideload",
+   "no-ads",
    "utility"
   ]
  },
  "com.ipaomtk.unagent.154294": {
   "category": "utilities",
-  "date": "2026-11-08",
-  "description": "Unagent is an iOS utility application focused on improving user privacy, device control, and system-level functionality.",
+  "date": "2026-11-21",
+  "description": "Unagent is an iOS utility application focused on improving user privacy, device control, and system-level customization. It allows users to manage how apps and services interact with their device, delivering greater flexibility compared to standard App Store limitations.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "3a18134d9502a360075b4ac17647f3f0690cbaf95df57805b4c9eb7bf8cb7ff2",
-  "subtitle": "Privacy and device control utility",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "6b166cf389ac7f07be86e0de28e4997a2e8e527c374d6c19f561751098f8a850",
+  "subtitle": "Improve privacy and device control",
   "tags": [
    "privacy",
-   "device-control",
-   "system-level",
    "utility",
-   "ios",
-   "unagent"
+   "device",
+   "control",
+   "customization",
+   "ipa"
   ]
  },
  "com.ipaomtk.undead.slayer.offline.premium.157910": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Undead Slayer: Offline Premium is an iOS installation file for a fast-paced hack-and-slash game. Enjoy action gameplay on your mobile device without requiring an active internet connection.",
+  "date": "2026-11-21",
+  "description": "Undead Slayer: Offline Premium is an action role-playing game for iOS where you battle waves of enemies as a warrior in a stylized ancient world. This offline hack-and-slash experience features fast-paced combat and manual installation support for iPhone and iPad devices using the IPA format.",
   "features": [
-   "Offline play"
+   "Offline play",
+   "Hack-and-slash combat"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "3d160fec2fb89130eec268e6a4590d5d45db86f6ab9f402524d1f520d139a414",
-  "subtitle": "Fast-paced hack-and-slash iOS game",
+  "src_hash": "5086bfbe62ff6f51ee5a20fca4e29fbd15a164584ea917e39e086116eed658e8",
+  "subtitle": "Hack-and-slash RPG set in an ancient setting",
   "tags": [
+   "rpg",
    "action",
    "offline",
-   "hack and slash",
-   "game",
-   "undead slayer"
+   "slayer",
+   "undead",
+   "game"
   ]
  },
  "com.ipaomtk.urban.heat.fps.151400": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Urban Heat: FPS is an iOS installation package that allows iPhone and iPad users to install the game. The app is distributed as an IPA file for sideloading onto iOS devices.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "a113fbce961854297bc6c7de6a7673b269c5f8a6d4c4284aa8149d81d8870fe2",
-  "subtitle": "First-person shooter game for iOS",
+  "date": "2026-11-21",
+  "description": "Urban Heat: FPS IPA is the iOS installation package for iPhone and iPad users to install the game through sideloading methods instead of using the App Store. The IPA file contains all essential components such as multiplayer systems, shooting mechanics, character models, and weapons. This package includes the iGameGod tweak.",
+  "features": [
+   "iGameGod included"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "7d57296051e7de48287c1e5dad3546ebebfd0c8728b3f1076493051ce3357871",
+  "subtitle": "Urban Heat FPS iOS installation package",
   "tags": [
+   "urban heat",
    "fps",
-   "shooter",
-   "action",
    "ipa",
-   "sideload"
+   "game",
+   "shooter"
   ]
  },
  "com.ipaomtk.us.citizenship.test.2025.pro.154689": {
@@ -34922,69 +35028,75 @@
  },
  "com.ipaomtk.video.captions.auto.subtitles.158041": {
   "category": "photo-video",
-  "date": "2026-11-09",
-  "description": "Video Captions: Auto Subtitles is an iOS video editing utility that automatically generates captions and subtitles for video content. The app processes video files to create timed text overlays.",
+  "date": "2026-11-21",
+  "description": "Video Captions: Auto Subtitles is a video editing utility designed to automatically generate subtitles using speech recognition technology. The installation file allows manual setup on iPhone and iPad, giving users flexibility in managing versions and compatibility for their video editing needs.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "6e7020c6abb252fccafdd2619d914390b640259c2fe22750a999b179a14e9468",
-  "subtitle": "Auto-generate subtitles for videos",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "fb79e24c4acf5f0217d670f52cee1476e67baccbb9d4daa48241fb90d9df1333",
+  "subtitle": "Automatically generate subtitles using speech recognition",
   "tags": [
-   "captions",
    "subtitles",
-   "video editing",
-   "auto caption",
-   "video utility",
-   "text overlay"
+   "video",
+   "editor",
+   "captions",
+   "speech"
   ]
  },
  "com.ipaomtk.video.editor.c2.b7.159420": {
   "category": "photo-video",
-  "date": "2026-11-09",
-  "description": "Video Editor IPA is an iOS installation package that allows users to install a versatile video editing application on their devices.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Video Editor is an iOS installation package that provides a video editing application for iPhone devices. The app offers tools for trimming, cutting, enhancing, and exporting high-quality videos directly from a mobile device.",
+  "features": [
+   "Trim and cut videos",
+   "Enhance video quality",
+   "Export high-quality videos"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "accc09a1ad99eca07e82a97781551745736c1d2503cf3fb37db908b841158191",
-  "subtitle": "Versatile video editing application for iOS",
+  "src_hash": "931ff9a847f6983c7a7c9ff1457336306c037481419bf52dabce7f9bd063c26f",
+  "subtitle": "Versatile video editing tools for iPhone",
   "tags": [
-   "video",
-   "editor",
-   "editing",
-   "ios",
-   "ipa"
+   "video editor",
+   "trim",
+   "cut",
+   "enhance",
+   "export",
+   "iphone"
   ]
  },
  "com.ipaomtk.videogame.guardians.153128": {
   "category": "games",
-  "date": "2026-11-09",
-  "description": "Videogame Guardians is an iOS game package that lets iPhone users play a dynamic action game.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "f4fda274720dd407a9c3b5bccf3159952ad5ccc2d67cddeb04beb0fcd725387a",
-  "subtitle": "Dynamic action game for iPhone",
+  "date": "2026-11-21",
+  "description": "Experience a dynamic action RPG through sideloading where you protect your base by controlling powerful guardians inspired by classic gaming themes. Progress through increasingly challenging levels with integrated tweaks including iGameGod.",
+  "features": [
+   "iGameGod included"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "d5fa6427ee5eb95cb3a9a90c00775c2e6b24c3122d644d21643364b09110cffa",
+  "subtitle": "Action RPG iOS game featuring classic gaming themes",
   "tags": [
-   "videogame guardians",
-   "ios",
+   "rpg",
    "action",
+   "guardians",
    "game",
-   "iphone",
-   "ipa"
+   "sideload",
+   "ios"
   ]
  },
  "com.ipaomtk.vocabulary.builder.by.atlas.159509": {
   "category": "lifestyle",
-  "date": "2026-11-09",
-  "description": "Vocabulary Builder by Atlas is an iOS installable version of a language learning application designed to help users build and improve their vocabulary.",
+  "date": "2026-11-21",
+  "description": "Vocabulary Builder by Atlas is a language learning app designed to help users improve their vocabulary through structured lessons and smart repetition techniques. The app provides access to the full experience, including word collections, quizzes, and personalized learning features.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "675301877f45a03e3d1a0e6b623e9e81422ffb9e43764e820c550199bc9b2352",
-  "subtitle": "Language learning app",
+  "src_hash": "50f740c600bc5f1988097ecf2b3d5cab58ebd42607c93832b0f65379c590c68f",
+  "subtitle": "Improve your vocabulary with structured lessons",
   "tags": [
    "vocabulary",
    "language",
    "learning",
-   "education",
-   "atlas",
-   "ipa"
+   "lessons",
+   "words",
+   "quizzes"
   ]
  },
  "com.ipaomtk.voicemod.157101": {
@@ -35006,90 +35118,89 @@
  },
  "com.ipaomtk.weathershot.instaweather.157078": {
   "category": "photo-video",
-  "date": "2026-11-10",
-  "description": "Weathershot \u2013 Instaweather is a creative weather-based photo editing application for iOS. The app allows users to incorporate weather information into their photos.",
+  "date": "2026-11-21",
+  "description": "Weathershot is a creative weather-based photo editing app that combines real-time weather data with your images. Instead of functioning as a traditional forecast app, it focuses on turning everyday photos into visually engaging content by adding weather overlays to your pictures.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ff6e66e26fc292b05d1e27701f86e32397b0847431b54d191629098aed839e0c",
-  "subtitle": "Weather-based photo editing app",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "fb088d792f725107002fadb7f8dae3752cc06dd73f1fdfba2003ee83549e9aee",
+  "subtitle": "Weather photo editor with real-time data overlays",
   "tags": [
    "weather",
    "photo",
-   "editing",
-   "creative",
-   "instagram",
-   "filter"
+   "editor",
+   "overlay",
+   "forecast",
+   "camera"
   ]
  },
  "com.ipaomtk.wednesdays.mobile.152926": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "Wednesday Mobile is a story-driven horror adventure game packaged in IPA format for iOS devices. Experience a dark narrative and atmospheric horror gameplay tailored for mobile platforms.",
-  "features": [
-   "Story-driven",
-   "Horror adventure"
-  ],
+  "date": "2026-11-21",
+  "description": "Wednesdays Mobile is a story-driven horror adventure game for iOS devices. Experience a complete and emotionally intense gameplay experience that focuses on psychological storytelling, exploration, and narrative discovery.",
+  "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "579eac360d5474e9070ae86924ecb46e8fc798e359799c97c297e660368654c0",
-  "subtitle": "A story-driven horror adventure game for iOS",
+  "src_hash": "18049c15aa19182ab3b86d108da709871bee43d9ff05d079d3dce2e9a1c3f108",
+  "subtitle": "Story-driven horror adventure game for iOS",
   "tags": [
    "horror",
    "adventure",
    "story",
    "mobile",
-   "ipa",
    "game"
   ]
  },
  "com.ipaomtk.weekend.warriors.mma.152053": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "Weekend Warriors MMA is an iOS game package that brings a full mixed martial arts simulation experience.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Weekend Warriors MMA is a mixed martial arts simulation game for iOS. Players manage a fighter's career, engage in real-time combat, and experience dynamic storytelling that evolves based on player decisions. The game is distributed as an IPA package for sideloading on iPhone.",
+  "features": [
+   "Career Management",
+   "Real-Time Combat",
+   "Dynamic Storytelling"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "1ceb8ad43e3ff78c2e6a54a32fce681714f292f0cd0cf92524d23a2688bf9560",
-  "subtitle": "Mixed martial arts simulation game",
+  "src_hash": "ed44156556efd6d633ec7ae74e469c732dcd2c9c5a0efd8a10f432011c412e04",
+  "subtitle": "MMA simulation with career mode and real-time combat",
   "tags": [
    "mma",
-   "mixed martial arts",
+   "fighting",
    "simulation",
-   "game",
-   "ios",
-   "ipa"
+   "career",
+   "sports",
+   "action"
   ]
  },
  "com.ipaomtk.west.survivor.155041": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "West Survivor is an iOS survival action game package that allows iPhone users to experience life in a harsh environment. Face the challenges of the western frontier, manage resources, and survive against various dangers in this action-packed mobile gaming experience designed for Apple devices.",
+  "date": "2026-11-21",
+  "description": "West Survivor is an iOS survival action game that lets you experience life in a harsh Wild West environment. The gameplay combines exploration, resource management, and combat into an immersive survival experience for iPhone users.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "b451622711d6f873452f22dd0a0c86ed3e49d352f8c43c754e4b086cf4d09a4f",
-  "subtitle": "An iOS survival action game set in the wild west",
+  "src_hash": "74e38776eaab85ac05cbae40ac7ac2ef4e9b2980d49ac641087c01d75d38dda6",
+  "subtitle": "Wild West survival action and resource management",
   "tags": [
    "survival",
    "action",
-   "western",
-   "game",
-   "iphone",
-   "ios"
+   "west",
+   "adventure",
+   "game"
   ]
  },
  "com.ipaomtk.whisper.castle.merge.story.151925": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "Whisper Castle: Merge & Story is a relaxing merge puzzle game for iOS. Combine items to restore a mysterious castle and uncover its story through puzzle gameplay.",
+  "date": "2026-11-21",
+  "description": "Whisper Castle: Merge and Story is a relaxing merge puzzle and narrative-driven game designed for iPhone and iPad users. Combine items through puzzle gameplay while progressing through an engaging story within the castle setting.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "6cbb6f74f8c14a4c9c3decb6cf0af1f0f58ceabe698fc581a07ebe88fd74abb1",
-  "subtitle": "Relaxing merge puzzle adventure",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "60dc21ceaa68560efe2b20588614d48eaff07cd43a41a3579b7352534d62c2d0",
+  "subtitle": "Relaxing merge puzzle and narrative-driven game",
   "tags": [
    "merge",
    "puzzle",
-   "relaxing",
-   "castle",
    "story",
-   "ios"
+   "castle",
+   "game",
+   "ipad"
   ]
  },
  "com.ipaomtk.yacyn.tv.159878": {
@@ -35256,20 +35367,18 @@
  },
  "com.iqraapp.Iqra": {
   "category": "other",
-  "date": "2026-11-07",
-  "description": "Tarteel by @kamohacks offers premium features unlocked. To activate premium, sign in with any account and tap the three\u2011line menu.",
-  "features": [
-   "Premium Unlocked"
-  ],
+  "date": "2026-11-21",
+  "description": "Tarteel is an iOS app designed to help users memorize the Quran. It provides tools to assist with the memorization process, supporting a traditional practice in the Muslim community.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "512893dea9864181d436c8964613840db2ec8046918c49c6cd3f758e391cc60e",
-  "subtitle": "Premium features unlocked",
+  "src_hash": "2570b14b031be4995473eafc32c8a057fa93d71c3072ff532f11e1e1ff9d4fbd",
+  "subtitle": "Quran memorization aid",
   "tags": [
-   "tarteel",
-   "premium",
-   "unlocked",
-   "signin",
-   "account",
+   "quran",
+   "memorization",
+   "islamic",
+   "education",
+   "learning",
    "app"
   ]
  },
@@ -35978,19 +36087,18 @@
  },
  "com.jarustudios.VideoLooper": {
   "category": "photo-video",
-  "date": "2026-11-09",
-  "description": "Video Looper is an iOS application designed for replaying videos. It allows users to loop video playback continuously.",
+  "date": "2026-11-21",
+  "description": "Video Looper \u2013 Replay Videos is a specialized iOS app for precise, continuous video replay on iPhone. It focuses solely on looping videos smoothly and reliably, without broad editing features.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "9d7a7b5fa634e0e85ff835a1f08d6eca86c570156244c4e8692347a5d73364b6",
-  "subtitle": "Loop and replay videos on iOS",
+  "src_hash": "ac1a0d73b21e9100da7fa7a15e3bc19be9cfe596dbdb328f2ab1f526862cc209",
+  "subtitle": "Loop videos continuously on iPhone",
   "tags": [
    "video",
    "loop",
    "replay",
    "ios",
-   "player",
-   "media"
+   "iphone"
   ]
  },
  "com.jarustudios.VideoToPhoto": {
@@ -36203,19 +36311,19 @@
  },
  "com.jeyluta.camera7pro": {
   "category": "photo-video",
-  "date": "2026-11-08",
-  "description": "Timestamp Camera Pro on iOS is designed for users who need precise visual records of when photos or videos were captured.",
+  "date": "2026-11-21",
+  "description": "Timestamp Camera Pro on iOS overlays timestamps onto photos and videos during capture, useful for documenting work progress, travel moments, or daily activities.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4ff38a3bbf743bb943411c29e162172c44a301812c412116f25dfec261189236",
+  "src_hash": "cc0f34d1916e5f7b3af26031581b8b756f627db65a55eb19af77b1507d2b7afc",
   "subtitle": "Add timestamps to photos and videos",
   "tags": [
    "timestamp",
    "camera",
    "photo",
    "video",
-   "date",
-   "time"
+   "overlay",
+   "documentation"
   ]
  },
  "com.jif.LANreader.3": {
@@ -36598,19 +36706,19 @@
  },
  "com.jsbak.Warship": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "Warship Craft is an immersive mobile game for iOS that brings naval warfare and ship building to your device.",
+  "date": "2026-11-21",
+  "description": "Warship Craft is a mobile game for iOS that combines naval warfare, strategy, customization, and ship building. Players can design and construct custom ships and participate in tactical combat and multiplayer battles. The app features a sleek interface and fluid controls.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "56d1a375ad8a75b78eef318c71f00da664f1b7024a85524753b3e1e7d32ad909",
-  "subtitle": "Naval warfare and ship building game",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "77f586a20d363a8adc24653644f386e9c373ddd9a975101f77f75a5f73ac1316",
+  "subtitle": "Build ships and engage in naval warfare",
   "tags": [
+   "warship",
    "naval",
-   "warfare",
-   "ship",
-   "building",
-   "game",
-   "immersive"
+   "strategy",
+   "battle",
+   "craft",
+   "game"
   ]
  },
  "com.juananzzz.resonus": {
@@ -36880,22 +36988,23 @@
   ]
  },
  "com.karolsmolak.WL-analysis": {
-  "category": "games",
-  "date": "2026-11-10",
-  "description": "WL Analysis is a barbell path tracker designed for athletes and coaches. This innovative tool utilizes advanced tracking to help you monitor and analyze your barbell lifts.",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "WL Analysis is a barbell path tracker designed for athletes and coaches. This tool provides real-time analysis of your barbell path during lifts to offer insights into your form and efficiency. By capturing and visualizing your movements, the app helps identify areas for improvement. This version includes SatellaJailed tweaks and Pro Unlocked features at version 1.4.6.",
   "features": [
-   "Pro Unlocked"
+   "Pro Unlocked",
+   "SatellaJailed"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "6c2b10c3e48f650f69d8daf5429031bc8cbc2c9592c862e97296fe4f1a9011f3",
+  "src_hash": "03732086d68a66e931dc3febb46c863f0bb0678d9a02e70ad83915cb2a88c720",
   "subtitle": "Barbell path tracker for athletes and coaches",
   "tags": [
    "barbell",
    "tracker",
-   "athlete",
+   "fitness",
+   "lifting",
    "coach",
-   "analysis",
-   "fitness"
+   "analysis"
   ]
  },
  "com.karteto.application": {
@@ -37418,19 +37527,21 @@
  },
  "com.kiragan.blastjam": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "This is Blast! is a puzzle game that combines strategy with rapid-fire action.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "39e85d7fb54bc4441f51da9a0a01dc8e566f36eb5c7665d83a2e20d56ca29f6b",
-  "subtitle": "Puzzle game blending strategy and fast action",
+  "date": "2026-11-21",
+  "description": "This is Blast! is a puzzle game for iOS that combines strategy with rapid-fire action. This version includes the iGameGod tweak and a debugger for advanced functionality.",
+  "features": [
+   "Debugger",
+   "iGameGod Integration"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "224eef2e2bdff11da8c27e20c9196df8140e378e4ba7f76637d4080c1cd9f85e",
+  "subtitle": "A puzzle game combining strategy and rapid-fire action",
   "tags": [
    "puzzle",
    "strategy",
    "action",
-   "ios",
-   "game",
-   "blast"
+   "debugger",
+   "tweaks"
   ]
  },
  "com.kiwert.mineadventure": {
@@ -37710,18 +37821,20 @@
  },
  "com.kongsoftware.project04tkgs.gl": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "Three Kingdoms: Grand Strategy on iOS brings large-scale historical strategy gameplay to iPhone, immersing players in the legendary era.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Three Kingdoms Grand Strategy on iOS brings large-scale historical strategy gameplay to iPhone, immersing players in the legendary era of the Three Kingdoms. Inspired by ancient Chinese warfare and political conflict, the game challenges players to build cities, command armies, and outmaneuver rival factions. On iPhone, the experience blends empire management with real-time decision-making.",
+  "features": [
+   "iGameGod"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "1c2d1a1de65cbe8493723fc11d9fbdc6294d1eb506fefba65e70a7b3339b54f2",
+  "src_hash": "d88ca8dae2dc1d45388b732903a8a6c64a49d32a70d14a4874f21d782bea10fe",
   "subtitle": "Large-scale historical strategy gameplay",
   "tags": [
    "strategy",
-   "historical",
    "three kingdoms",
-   "simulation",
-   "war"
+   "warfare",
+   "empire",
+   "simulation"
   ]
  },
  "com.koofei.matchmansion": {
@@ -38350,20 +38463,19 @@
   ]
  },
  "com.ldw.vf3": {
-  "category": "games",
-  "date": "2026-11-09",
-  "description": "Virtual Families 3 is an immersive simulation game that allows you to create and nurture your own virtual family and guide them through life.",
+  "category": "lifestyle",
+  "date": "2026-11-21",
+  "description": "Virtual Families 3 is an immersive simulation game that allows you to create and nurture your own virtual family, guiding them through the ups and downs of everyday life. Whether you are a seasoned virtual family enthusiast or a newcomer to the series, this game provides a comprehensive simulation experience for iOS devices.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "cdb500082501c1081f72f044614056a5192da632cda13b60c719d8078d3c1f01",
+  "src_hash": "34b754c4c342ec5e41edbcadc1c2ccb219fdd54df7f689e75cde0bdde049229e",
   "subtitle": "Create and nurture your own virtual family",
   "tags": [
    "simulation",
    "family",
    "virtual",
-   "game",
    "life",
-   "ios"
+   "game"
   ]
  },
  "com.leapfitness.Sleeptracker": {
@@ -38659,20 +38771,18 @@
   ]
  },
  "com.lema.TumblrApp": {
-  "category": "social",
-  "date": "2026-11-08",
-  "description": "TumblrBear is a modified Tumblr client that includes Bear for Tumblr by Michael Lema. Last updated on April 13, 2023. The app carries a warning status indicator.",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "Tumblr injected with Bear for Tumblr by Michael Lema. Get pinged when any of your tweaks update. Free on Discord.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "d0c9dabb4b8e9ae8b672b82d6380f25af37de278f329cb5303d259fbd5c2e4e1",
-  "subtitle": "Tumblr client with Bear for Tumblr injected",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "fa45ab19c68310a37b2f54b6db1e52aa798530625ad9a368b3aec1d070faba9b",
+  "subtitle": "Tumblr with Bear tweaks",
   "tags": [
    "tumblr",
-   "bear",
-   "client",
+   "tweaks",
    "social",
-   "modified",
-   "injected"
+   "bear"
   ]
  },
  "com.leminlimez.Cluckabunga": {
@@ -39502,25 +39612,25 @@
   ]
  },
  "com.linkpass.kazumi": {
-  "category": "utilities",
+  "category": "other",
   "date": "2026-11-21",
-  "description": "Kazumi-Swift is an anime collection and online viewing client based on custom rules, featuring danmu support. Developed with native SwiftUI, the interface uses liquid glass material that adapts to system appearance and accessibility settings. It features a built-in mpv playback core with Anime4K real-time super resolution, support for dan dan play danmu, Bangumi tracking binding, schedule, downloads, and WebDAV backup.",
+  "description": "Custom rule-based anime collection and online viewing client with bullet comments. Built natively with SwiftUI, featuring a liquid glass interface that adapts to system appearance and accessibility settings. Includes a built-in mpv playback core with Anime4K real-time super resolution, support for danmaku, Bangumi tracking binding, schedules, downloads, and WebDAV backup.",
   "features": [
    "Custom rules",
-   "Danmu support",
+   "Danmaku support",
    "Anime4K super resolution",
    "Bangumi tracking",
    "WebDAV backup"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "f24bb41b0837ddc241387fb009a8b9a107ded9f20b54b699f4fea00e61a856b8",
-  "subtitle": "Anime client with custom rules and danmu support",
+  "src_hash": "883bd9b9038f41ccffd0fe7c62fc76d44f0cc77fafc9534cf0de77a30b755701",
+  "subtitle": "Anime client with custom rules and playback",
   "tags": [
    "anime",
-   "video",
    "player",
+   "danmaku",
    "streaming",
-   "danmu"
+   "swiftui"
   ]
  },
  "com.liquidcat.space": {
@@ -40046,21 +40156,19 @@
  },
  "com.ludia.tmnt": {
   "category": "games",
-  "date": "2026-11-19",
-  "description": "Ninja Turtles Legends is a mobile game adaptation set in the universe of the Ninja Turtles, combining nostalgia and modern gaming technology. This iOS game provides a full journey into the franchise universe and includes the iGameGod tweak.",
-  "features": [
-   "iGameGod included"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "7c1cfc304ab32521755f0a8d42e9992c30c909291190afaaec1ae2f1b3e0ccc3",
-  "subtitle": "Ninja Turtles Legends IPA for iOS",
+  "date": "2026-11-21",
+  "description": "Ninja Turtles Legends IPA for iOS combines nostalgic characters with modern gaming technology. The app is distributed as an IPA package for installation on iOS devices.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "4af8059769e151ddf0980bb72702ac4946c65cb08e3d9cd89ca26623a84b3666",
+  "subtitle": "Ninja Turtles Legends game for iOS",
   "tags": [
    "ninja turtles",
    "legends",
-   "ipa",
-   "ios",
    "game",
-   "igamegod"
+   "ios",
+   "ipa",
+   "nostalgia"
   ]
  },
  "com.ludu.fls": {
@@ -40328,20 +40436,20 @@
   ]
  },
  "com.mac.utility.media.hub": {
-  "category": "photo-video",
-  "date": "2026-11-09",
-  "description": "VidHub is a video library and player application for iOS. It is designed for users who want complete control over their video content.",
+  "category": "utilities",
+  "date": "2026-11-21",
+  "description": "VidHub is designed for users who want complete control over their personal video collections without relying on streaming platforms. The app focuses on organization, playback quality, and ease of access for your video files on iPhone.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "137eecc8123accd5e104a7aee21c908e4985d4beb3a7ea4a4ba21b983e2a04f5",
-  "subtitle": "Video Library & Player for iOS",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "dbca3022b94fc954be24780953696635d7efebcc8b3086de894568fc7c6e5c96",
+  "subtitle": "Video Library and Player for iOS",
   "tags": [
    "video",
-   "library",
    "player",
-   "ios",
+   "library",
    "media",
-   "control"
+   "utilities",
+   "ios"
   ]
  },
  "com.macpaw.iosgemini": {
@@ -40496,19 +40604,21 @@
  },
  "com.madfingergames.unkilled": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Unkilled is an online zombie shooting game offering an immersive and thrilling experience as players fight against the undead.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "UNKILLED is an online zombie shooting game that combines role\u2011playing and first\u2011person shooter mechanics. It features hordes of zombie enemies. The app includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "83a81d11ebae2365e61231099410a9a0a1dc9c9c3b63f6bccceda40b5d0174ed",
-  "subtitle": "Online zombie shooting game",
+  "src_hash": "85b15672e6cff001a5ea8ffd154f7188117619c5859cc26efb3c7a46aa497d13",
+  "subtitle": "Online zombie shooter with RPG elements",
   "tags": [
    "zombie",
-   "shooting",
+   "shooter",
    "online",
-   "action",
-   "survival",
-   "multiplayer"
+   "rpg",
+   "fps",
+   "game"
   ]
  },
  "com.madfut.madfut25": {
@@ -40529,18 +40639,20 @@
  },
  "com.madhead.tos.zh": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Tower of Saviors iOS is here to provide you with hours of entertainment and adventure.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Tower of Saviors is a mobile game known for its unique gameplay, captivating storyline, and stunning graphics. This version includes the iGameGod tweak support. Experience hours of entertainment and adventure in this popular global game.",
+  "features": [
+   "iGameGod tweak"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "474670c67603d979688f64eac6f2e631d5f0e3a046b280301ad28be5c9dba7f6",
-  "subtitle": "An exhilarating gaming experience and adventure",
+  "src_hash": "4c6af8fbd04febc38f46328f28997841c0626eaeb5b9eee887acfcb3296b1554",
+  "subtitle": "An exhilarating mobile game with unique gameplay",
   "tags": [
-   "tower",
-   "saviors",
+   "tower of saviors",
    "game",
    "adventure",
-   "ios"
+   "mobile",
+   "igamegod"
   ]
  },
  "com.maf.BackpackRush": {
@@ -40579,18 +40691,20 @@
  },
  "com.magicv.AirBrush": {
   "category": "photo-video",
-  "date": "2026-11-17",
-  "description": "AirBrush provides iPhone and iPad users with a professional photography and retouching experience designed to deliver polished edits without requiring complex skills. The app is widely known for its ability to enhance selfies, reshape details, refine lighting, and elevate image quality with AI-powered tools.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Airbrush is a face photo editor that gives you access to advanced editing tools. All premium editing features are unlocked for your photo editing needs.",
+  "features": [
+   "All advanced editing tools unl"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "00b3df98e48ac1f0dc01106137d123634d49b4058f6cf1de9990c3e1b2d3a5b2",
-  "subtitle": "Professional photography and retouching for iOS",
+  "src_hash": "c405c9b0648c3081eaf5647e729fe6f730f9cc204cdf1e49847cee052eade243",
+  "subtitle": "Face photo editor with advanced editing tools",
   "tags": [
-   "photography",
-   "retouching",
-   "selfie",
-   "editing",
-   "ai"
+   "airbrush",
+   "photo editor",
+   "face editor",
+   "premium",
+   "editing tools"
   ]
  },
  "com.magmic.NYTCrosswords09": {
@@ -41256,25 +41370,23 @@
   ]
  },
  "com.md3music.md3music": {
-  "category": "utilities",
+  "category": "entertainment",
   "date": "2026-11-21",
-  "description": "MD3Music is a music player built with Flutter and based on the Kugou Music API. It features an embedded Rust API server, allowing you to use the app without requiring an external server. The player offers both Material Design 3 and Apple Music style playback pages, supports line by line lyrics, and provides multiple audio output capabilities.",
+  "description": "MD3Music is a music player built on the Kugou Music API using Flutter. It features an embedded Rust API server, allowing it to function without any external servers. The app offers playback pages styled after Material Design 3 and Apple Music, supports word-by-word lyrics, and provides multiple audio output capabilities.",
   "features": [
    "Embedded Rust API server",
-   "MD3 and Apple Music styles",
-   "Line by line lyrics",
-   "Multiple audio outputs",
-   "Kugou API integration"
+   "Material Design 3 and Apple Mu",
+   "Word-by-word lyrics",
+   "Multiple audio output capabili"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "e4d44a0b8ac79f5803d28b4bf58e40dae6b0d9e626f09bce8efdef9b3432535c",
-  "subtitle": "Flutter music player with Kugou API and Rust server",
+  "src_hash": "c2ca91ceaaa3ab31dc6babcac65c3ad03314e7f9e144f174db8d7263190798e4",
+  "subtitle": "Flutter music player with embedded Rust API",
   "tags": [
    "music",
    "player",
    "flutter",
    "audio",
-   "rust",
    "lyrics"
   ]
  },
@@ -41372,19 +41484,20 @@
  },
  "com.megagames.valkyrie": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Valkyrie Heart on iOS delivers a deeply engaging action RPG experience built around dynamic battles, evocative wor",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "b45501d5b12a278e2d96829f7b9128af7ee86fefad68853ed75f60e57f02217a",
-  "subtitle": "Action RPG with dynamic battles",
+  "date": "2026-11-21",
+  "description": "Valkyrie Heart on iOS delivers an action RPG experience built around dynamic battles, worldbuilding, and progression. The game features high-impact combat and storytelling that makes exploration rewarding, with responsive controls and animations on iPhone.",
+  "features": [
+   "iGameGod"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ac4954c774971e37e5e31f8e85137b5edd7e12222ca02c8467ebd1962b1cf88f",
+  "subtitle": "Action RPG with dynamic battles and deep progression",
   "tags": [
-   "action",
    "rpg",
+   "action",
    "valkyrie",
-   "ios",
-   "dynamic",
-   "battles"
+   "game",
+   "iphone"
   ]
  },
  "com.meitu.mtxx": {
@@ -41451,23 +41564,18 @@
  "com.mengangs.Cloudn": {
   "category": "utilities",
   "date": "2026-11-21",
-  "description": "Paste share links to browse and download cloud storage files and short videos at high speed. All parsing runs locally on the device with no server involved and no data collected.",
-  "features": [
-   "Local Parsing",
-   "No Server",
-   "No Data Collection",
-   "High Speed Download"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "80d5398a5c3f8a8a8d56191524a37595efd2e0d500a6ee15e24e4f512ed1ac8d",
-  "subtitle": "Local cloud link parser and downloader",
+  "description": "Paste sharing links to browse and download cloud drive files and short videos at high speed. All parsing is completed locally on your phone. The app operates without a server and does not collect any user data.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f2d95a70cdcd09fb2c2b7b09a42a8329f6652a6f5a5a54bdda21481c971c99e9",
+  "subtitle": "Download cloud files and short videos locally",
   "tags": [
+   "download",
    "cloud",
-   "downloader",
-   "parser",
-   "local",
-   "privacy",
-   "video"
+   "video",
+   "files",
+   "links",
+   "local"
   ]
  },
  "com.merekdavis.vellum": {
@@ -42171,19 +42279,21 @@
  },
  "com.miniclip.drone1": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "War Drone is a 3D action shooter game for iOS. The package allows iPhone users to play a shooting game with three-dimensional graphics.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "1d45d2e27a44ab659e0c484b5e9e33c9d1905754e28b2b87746080699e0e5d87",
-  "subtitle": "3D action shooter game for iPhone",
+  "date": "2026-11-21",
+  "description": "War Drone: 3D Shooting Games is an action shooter game for iPhone that delivers drone-based combat experiences. Players control armed drones, engaging in modern warfare with 3D shooting mechanics and strategic aerial gameplay.",
+  "features": [
+   "iGameGod included"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b4e855837d91c0357be3e20208ae7b3cf1fc475ec760af6cb88d399b105e2146",
+  "subtitle": "Drone-based combat iOS action shooter game",
   "tags": [
-   "3d",
-   "shooter",
+   "drone",
+   "shooting",
    "action",
+   "warfare",
    "game",
-   "ios",
-   "iphone"
+   "ipa"
   ]
  },
  "com.miniclip.ghostinvasion": {
@@ -42760,19 +42870,21 @@
  },
  "com.mobirix.valkyrieidle": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Valkyrie Idle is an idle game that offers an engaging experience without requiring constant attention.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "d40d24921338efbf43738739eeaca90744d44a5869442c658a9d97f0d94da49d",
-  "subtitle": "Engaging idle game, no constant attention needed",
+  "date": "2026-11-21",
+  "description": "Valkyrie Idle is an idle game for iOS that combines strategy, resource management, and mythology. Players immerse themselves in a world of Valhalla, experiencing an engaging gameplay style without the need for constant attention. This release includes the iGameGod tweak.",
+  "features": [
+   "iGameGod"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "018d3a0b3a797f6c220af0184bed88c7e190a10c1715b83cf3489951139e09e3",
+  "subtitle": "An idle strategy game set in the world of Valhalla",
   "tags": [
-   "idle",
-   "game",
    "valkyrie",
-   "ipa",
-   "casual",
-   "offline"
+   "idle",
+   "strategy",
+   "mythology",
+   "valhalla",
+   "games"
   ]
  },
  "com.mobisystems.OxfordDictionaryOfEnglishFree": {
@@ -43832,6 +43944,26 @@
    "swiftui"
   ]
  },
+ "com.mxfia19.twitchunblock": {
+  "category": "entertainment",
+  "date": "2026-11-21",
+  "description": "TwitchUnblock is an open-source Twitch client designed for tvOS that lets you watch live streams and VODs at full quality without a subscription. Note that this build is strictly for tvOS and does not work on iOS devices.",
+  "features": [
+   "Open-source",
+   "Full quality streams",
+   "Watch VODs"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "c029269df32a2ab61d3bc8e86d6b4fbea85cf5a567ce900ee4cb132aa9543b4b",
+  "subtitle": "Open-source Twitch client for tvOS",
+  "tags": [
+   "twitch",
+   "streaming",
+   "vods",
+   "tvos",
+   "open-source"
+  ]
+ },
  "com.mxfia19.twitchunblock.0.1.49.ipavault": {
   "category": "entertainment",
   "date": "2026-11-14",
@@ -44838,19 +44970,21 @@
  },
  "com.netease.yysls": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "Where Winds Meet is an ambitious open-world action RPG inspired by classic Chinese wuxia culture, blending open-world exploration with martial arts combat.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "0910a040d7c1c6dee8637c070e23de5c2eb6f6034b78a84ad3c0c3f4a5248e44",
-  "subtitle": "An open-world action RPG inspired by wuxia culture",
+  "date": "2026-11-21",
+  "description": "Where Winds Meet is an open-world action RPG inspired by Chinese wuxia culture. The game blends martial arts philosophy, historical storytelling, and modern game design into a cinematic mobile experience. It emphasizes freedom of movement and exploration. The iGameGod tweak is available for this title. Updates are announced via Discord.",
+  "features": [
+   "iGameGod Tweak"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5ef7b4ded117481759f684199b64dbc427736cb65d33489e50b3a8d679420bb4",
+  "subtitle": "Open-world wuxia action RPG for iOS",
   "tags": [
-   "action",
-   "rpg",
-   "open world",
+   "open-world",
+   "action-rpg",
    "wuxia",
-   "martial arts",
-   "game"
+   "martial-arts",
+   "chinese-culture",
+   "mobile-gaming"
   ]
  },
  "com.netflix.NGP.BloonsTDSix": {
@@ -45659,19 +45793,19 @@
  },
  "com.nlabsoft.defense.tinywarriors": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Tiny Warriors Rush Idle TD is a tower defense game designed for iOS devices. It innovatively combines idle gameplay elements.",
+  "date": "2026-11-21",
+  "description": "Tiny Warriors Rush Idle TD is a tower defense game for iOS that combines idle gameplay with classic tower defense strategy. It features crisp visuals and a streamlined interface. The game includes the iGameGod tweak.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "cc851133f0ca197c68acbb790cc910640cf448acdde62febe37d097f3e0fd34d",
-  "subtitle": "Tower defense with idle gameplay",
+  "src_hash": "45c911820793ca5cf86e8f2135414017d7621c8a9ca71dea55a1ab2f63cedb50",
+  "subtitle": "Idle tower defense with iGameGod tweak",
   "tags": [
    "tower",
    "defense",
    "idle",
    "ios",
    "game",
-   "strategy"
+   "igamegod"
   ]
  },
  "com.nlabsoft.zombiecrusher.s": {
@@ -45692,20 +45826,23 @@
   ]
  },
  "com.noahgilmore.transparent-icons": {
-  "category": "other",
-  "date": "2026-11-08",
-  "description": "Transparent Icons lets you generate transparent app icons to customize your iOS home screen. The app provides a simple interface to create icons with no background.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "05e533ddc372f68f424a19af709e600553a72b70b043ff2c78b382d4da278eb0",
-  "subtitle": "Create transparent app icons for your home screen",
+  "category": "utilities",
+  "date": "2026-11-21",
+  "description": "Transparent App Icons provides update notifications for your tweaks. Join the community on Discord to receive alerts when any of your tweaks receive updates.",
+  "features": [
+   "Free",
+   "Update Alerts"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "09438b1a5c7375bb582c31964a59db27b6cc89eec56f39538dcb57cd068d3e2e",
+  "subtitle": "Get notified when app tweaks update",
   "tags": [
-   "transparent",
    "icons",
-   "customization",
-   "home-screen",
-   "ios",
-   "app"
+   "tweaks",
+   "updates",
+   "transparent",
+   "discord",
+   "notifications"
   ]
  },
  "com.nobodyshot.POLYWAR": {
@@ -46295,18 +46432,18 @@
  },
  "com.odysseyteam.taurine": {
   "category": "developer",
-  "date": "2026-11-07",
-  "description": "Taurine is a jailbreak tool for iOS versions 14.0 through 14.8.1. It uses the Procursus bootstrap and Libhooker substrate.",
+  "date": "2026-11-21",
+  "description": "Taurine is a jailbreak tool designed for iOS versions 14.0 through 14.8.1. The application utilizes Procursus and Libhooker.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "6b20b5af8c5684e2164433ea6a5d31a7dd520141126291aa1836b78fb1ecf307",
-  "subtitle": "Jailbreak for iOS 14.0\u201314.8.1",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "da31593d1a6ff99457a0cd3a5c87e338b66ce699b17b68cfb4486a6b99ad8240",
+  "subtitle": "iOS 14.0-14.8.1 jailbreak utility",
   "tags": [
    "jailbreak",
    "ios",
    "procursus",
    "libhooker",
-   "tool",
+   "taurine",
    "developer"
   ]
  },
@@ -47224,39 +47361,44 @@
   ]
  },
  "com.outfit7.mytalkingtomfriends": {
-  "category": "games",
-  "date": "2026-11-08",
-  "description": "Experience My Talking Tom Friends with infinite coins and no ads. Play with your favorite talking characters and enjoy modified gameplay on your iOS device.",
+  "category": "entertainment",
+  "date": "2026-11-21",
+  "description": "Experience My Talking Tom Friends on iOS, blending charming graphics and engaging gameplay with a cast of lovable characters in vibrant settings. This modified version includes infinite coins and no ads, alongside built-in tweaks such as iGameGod, IGHelper, and IGVIPEnjoy.",
   "features": [
+   "No Ads",
    "Infinite Coin",
-   "No Ads"
+   "iGameGod",
+   "IGHelper",
+   "IGVIPEnjoy"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "dfdf458f654af2f80cb704abd3fd91ba77aa5170e437376b4157c7da3d2fdb67",
-  "subtitle": "My Talking Tom Friends IPA MOD",
+  "src_hash": "5b9aba372902a3d56b2458ad1f3076d8c7ccd9229907b409fd3f822f843f8f66",
+  "subtitle": "Interactive entertainment with lovable characters",
   "tags": [
    "tom",
    "friends",
-   "ipa",
    "mod",
-   "game"
+   "game",
+   "ios"
   ]
  },
  "com.outfit7neo.onehelsing": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Vampirio Defend & Survive is a mobile tower defense and survival game.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "e796af33d6dec8e32fb466e1cb1c5d735773e556c52c3e8646068d053385a097",
-  "subtitle": "Tower defense survival game",
+  "date": "2026-11-21",
+  "description": "Vampirio Defend and Survive is a tower defense and survival game designed for iOS devices. Enter a dark, dystopian world where vampiric creatures threaten humanity and balance strategy, rapid reflexes, and resource management to overcome challenges. This version includes the iGameGod tweak.",
+  "features": [
+   "iGameGod tweak"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "5935f5d575b78534ae9a6f08e070d0044bfe944dd3d18616dfbdf1fc15637acf",
+  "subtitle": "Defend and survive in a dark dystopian world",
   "tags": [
-   "tower",
-   "defense",
-   "survival",
    "vampirio",
-   "mobile",
-   "game"
+   "tower defense",
+   "survival",
+   "strategy",
+   "ios",
+   "igamegod"
   ]
  },
  "com.overdesigned.Cheatsheet": {
@@ -47865,19 +48007,22 @@
  },
  "com.peoplefun.wordcross": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "Wordscapes is a word puzzle game where players swipe letters to form words and fill crossword grids. This version is an IPA compiled and tested by TTJB Team, featuring IGG functionality.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Wordscapes MOD IPA is a modified version of the original word puzzle game. It includes iGameGod tweaks for enhanced gameplay. Join the Discord server for update notifications on tweaks.",
+  "features": [
+   "iGameGod Tweaks",
+   "Modified Version"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "9e6a05d8d4b4d169c9dc5ee7626515988c618863bde01a380b5eca90b7b90b24",
-  "subtitle": "Word puzzle game with crossword challenges",
+  "src_hash": "1d8042004da0ea3e70c29a58d4fd874c27c47fe49988523b1e684245a7ed2c76",
+  "subtitle": "Modified Wordscapes with iGameGod tweaks",
   "tags": [
    "wordscapes",
-   "word game",
-   "puzzle",
+   "mod",
    "ipa",
-   "ttjb",
-   "igg"
+   "word puzzle",
+   "igamegod",
+   "tweaks"
   ]
  },
  "com.peoplefun.wordsearch": {
@@ -48851,18 +48996,23 @@
  },
  "com.pixonic.wwr": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "War Robots Multiplayer Battles is a cutting-edge mobile game that offers an immersive and action-packed experience.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "28846d0a1ab8bf7e0a54617c1614aec40f0bee7dedf14250eff3e510d9e8a71c",
-  "subtitle": "Multiplayer robot battle game",
+  "date": "2026-11-21",
+  "description": "Enter the thrilling world of War Robots multiplayer battles. This mobile game offers an immersive and action-packed experience where you command a fleet of powerful robotic warriors and engage in intense, strategic battles against players from around the globe. Whether you are a seasoned strategist or a newcomer, experience multiplayer robot combat with included tweaks like iGameGod, IGHelper, NOADS, and IGVIPEnjoy.",
+  "features": [
+   "No Ads",
+   "iGameGod",
+   "IGHelper",
+   "IGVIPEnjoy"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ae61c07027579c1b47bafeb222244a5fdefd23e87fcad9514087ff0c3dbb886e",
+  "subtitle": "Command a fleet of powerful robotic warriors",
   "tags": [
+   "robot",
    "multiplayer",
-   "battle",
-   "robots",
+   "battles",
    "action",
-   "mobile",
+   "strategy",
    "game"
   ]
  },
@@ -49347,19 +49497,19 @@
   ]
  },
  "com.playmotional.defense": {
-  "category": "games",
-  "date": "2026-11-08",
-  "description": "Get ready to test your strategic skills in Tower King: Defense Game IPA MOD, an epic tower defense experience that combines tactical pla",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "Tower King is a tower defense game where you play as a king defending a kingdom from waves of monsters, dragons, and dark warlords. The MOD version includes the iGameGod tweak.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "73b3d230c14e9b8801920c7d8176d9f520e9e9e23b042fed5eed412ef7261c0b",
-  "subtitle": "Strategic tower defense game",
+  "src_hash": "4dc86a9d2a34f2f33a023c016d71341064869d9220e01ab2ac8fc21d78ec7a0d",
+  "subtitle": "Epic tower defense with hero management",
   "tags": [
    "tower",
    "defense",
    "strategy",
-   "game",
    "mod",
+   "game",
    "ipa"
   ]
  },
@@ -49534,19 +49684,19 @@
   ]
  },
  "com.playstrom.hero.tower": {
-  "category": "other",
-  "date": "2026-11-07",
-  "description": "TDS \u2013 Tower Destiny Survive IPA MOD puts you in the role of a defender protecting your tower from invaders.",
+  "category": "games",
+  "date": "2026-11-21",
+  "description": "Assume the role of a brave defender tasked with protecting your tower from the onslaught of invading forces. Use a diverse arsenal of towers, upgrades, and powerful abilities at your disposal. Carefully plan your defenses and adapt to the ever-changing battlefield.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "b60491da9e3af639baade2ddcb9cdb8539ca4608f4a18b0eda34edfe94d2523a",
-  "subtitle": "Tower Destiny Survive MOD",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "838e2f49bbe6d25512f874545225c767c5fedafa63edb8a850f2fcd5af208435",
+  "subtitle": "Defend your tower from invading forces",
   "tags": [
    "tower",
    "defense",
+   "strategy",
    "survive",
-   "mod",
-   "ipa",
+   "action",
    "game"
   ]
  },
@@ -50659,19 +50809,19 @@
  },
  "com.quvideo.XiaoYing": {
   "category": "photo-video",
-  "date": "2026-11-09",
-  "description": "VivaVideo is a popular iOS video editing application designed for users who want to create engaging videos directly on their devices.",
+  "date": "2026-11-21",
+  "description": "VivaVideo is a popular iOS video editing application designed for users who want to create engaging videos directly on their iPhone or iPad without complex tools. The app focuses on simplicity while still offering creative features that allow users to turn everyday clips into polished videos. VivaVideo is widely used for social media content creation.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "6f54e86937b03982ee6a8e400fbc6af5ff4272180631972b295e5c4a31bcacc2",
-  "subtitle": "Video editing app for iOS",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b38a03acbba8e198dedbdbcf85392c3dc2721af4fe591781fdea9236848880ee",
+  "subtitle": "Video editing application for iPhone and iPad",
   "tags": [
    "video",
+   "editor",
    "editing",
-   "ios",
-   "creator",
-   "maker",
-   "editor"
+   "clips",
+   "social",
+   "media"
   ]
  },
  "com.qxgame.gmerge": {
@@ -50725,6 +50875,29 @@
    "nomad",
    "game",
    "ios"
+  ]
+ },
+ "com.ragequitgames.tomorrow": {
+  "category": "utilities",
+  "date": "2026-11-21",
+  "description": "Tomorrow is a tweak for MMO Nuclear Quest that provides in-game modifications. Features include God Mode for invulnerability to enemy damage, One Hit Kill to defeat enemies instantly, Instant Harvest for resource gathering without wait times, Freeze NPCs to immobilize enemies, No Recoil for perfect accuracy, ESP, and Aimbot. The tweak is distributed via a certificate and includes links to a Discord server for update notifications.",
+  "features": [
+   "God Mode",
+   "One Hit Kill",
+   "Instant Harvest",
+   "Freeze NPCs",
+   "No Recoil"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c4918bddb56370bf8ed201a67ed4f2d7f28e9da9d5ac1f876d128cdcbca9f970",
+  "subtitle": "Game tweak for MMO Nuclear Quest with cheat features",
+  "tags": [
+   "game cheat",
+   "tweak",
+   "mmorpg",
+   "hack",
+   "ios",
+   "godmode"
   ]
  },
  "com.rainvis.weather": {
@@ -53552,18 +53725,23 @@
  },
  "com.samfinaco.tos": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Train of Hope Survival is an immersive iOS game set in a post-apocalyptic world where survival depends on player choices.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "98908e10b3c51aeff0feee59c8211ea81863f7cd4fd82f81c4030dc522ce3106",
-  "subtitle": "Post-apocalyptic survival train adventure",
+  "date": "2026-11-21",
+  "description": "Train of Hope Survival is an iOS game set in a post-apocalyptic world where survival requires strategy, quick thinking, and resource management. Available for iPhone and iPad, the game combines action, exploration, and survival mechanics in a thrilling adventure. Players must manage a train, gather resources, and fight threats. This version includes integrated tweaks such as iGameGod, IGHelper, IGVIPEnjoy, and NOADS.",
+  "features": [
+   "No Ads",
+   "iGameGod",
+   "IGHelper",
+   "IGVIPEnjoy"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "0065928931a99a36d3c0c91a791372ac67ca6d5471c87a9e403177689de4110b",
+  "subtitle": "Post-apocalyptic train survival game",
   "tags": [
-   "train",
-   "hope",
    "survival",
-   "post-apocalyptic",
-   "ios",
+   "strategy",
+   "action",
+   "adventure",
+   "train",
    "game"
   ]
  },
@@ -54416,20 +54594,20 @@
   ]
  },
  "com.shadowmario.psychengine063": {
-  "category": "games",
-  "date": "2026-11-19",
-  "description": "Friday Night Funkin Psych Engine 0.6.3 is an engine originally used on the Mind Games Mod. It is intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. The software also aims to be an easier alternative for newbie coders.",
+  "category": "utilities",
+  "date": "2026-11-21",
+  "description": "Friday Night Funkin Engine originally used on Mind Games Mod. Intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "ad46f49d5d687178bbac2895f026b04c05f5bbe9f7f568dc17fdc3f097cd14f0",
+  "src_hash": "0a736b9cc723af953a80c1070f8e8e222dd565d24fc4afacf43ed7546e0c1f96",
   "subtitle": "An alternative engine for rhythm gaming",
   "tags": [
-   "fnf",
-   "engine",
    "rhythm",
+   "engine",
    "mod",
    "gaming",
-   "casual"
+   "music",
+   "coding"
   ]
  },
  "com.shadowmario.psychengine073": {
@@ -55940,19 +56118,20 @@
   ]
  },
  "com.sparklingsocietysims.townville": {
-  "category": "other",
-  "date": "2026-11-08",
-  "description": "Town Village combines town building with farming. Players construct houses and expand their village.",
+  "category": "lifestyle",
+  "date": "2026-11-21",
+  "description": "Town Village is a unique mixture of town constructing and farming. Build your dream village including houses, farms, factories, network homes, and a seashore trading port. Manage farm and village productions in your cartoon farm town, and sell items to further expand and amplify your settlement.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "85b5bb6f1ba6ef92d5557b76f935c3f7972bbf60dc9a8848e66cf149ee409a5a",
-  "subtitle": "Build and farm your dream village",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "561831b686d02b229eaa66f9e7725002cc799efbebc5e0076f4a80a2ae36aebc",
+  "subtitle": "Build your dream town and farm",
   "tags": [
    "town",
    "village",
    "farming",
    "building",
-   "simulation"
+   "management",
+   "strategy"
   ]
  },
  "com.spcomes.hellotown": {
@@ -56075,19 +56254,23 @@
  },
  "com.spotify.client": {
   "category": "entertainment",
-  "date": "2026-11-06",
-  "description": "This is a modified Spotify build created by @compiledipas. The developer states it is intended to troll friends. Users of this build are asked to send a screenshot of the settings page.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "3d0e84a1c35028bda9934c7d3807b15b494955cf475e67626f69bffc6f3f0b67",
-  "subtitle": "Modified Spotify build for trolling friends",
+  "date": "2026-11-21",
+  "description": "Open-sourced fork of chroma.pw with built-in Spotify Premium. The redesigned user interface requires iOS 26, while the legacy user interface supports iOS 16.1 and later.",
+  "features": [
+   "Open Source",
+   "Built-in Spotify Premium",
+   "Redesigned UI",
+   "Legacy UI Support"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2b73cf2ce065014c7d70b5cc4ffb89c0e5e16c803c589737d69c901e7c4b4e40",
+  "subtitle": "Open-source chroma.pw fork with Spotify Premium",
   "tags": [
    "spotify",
-   "modified",
-   "troll",
-   "build",
-   "ipa",
-   "music"
+   "music",
+   "chroma",
+   "open source",
+   "client"
   ]
  },
  "com.spotify.client.ios.chroma.pw.0.50.0.beta.not.patched.9.1.78": {
@@ -57591,19 +57774,19 @@
   ]
  },
  "com.steer.tomjerryblast": {
-  "category": "games",
-  "date": "2026-11-08",
-  "description": "Tom and Jerry Blast is a puzzle-based mobile game inspired by the classic cartoon duo.",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "Tom and Jerry Blast is a puzzle-based mobile game inspired by the classic cartoon duo. It captures their playful rivalry in a relaxing yet engaging puzzle experience. The IPA version allows flexible installation on iOS devices.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "250615e5d1f21f7795d5acc95f61074767e5891036f55556967f344de33c9f16",
-  "subtitle": "Puzzle adventure with Tom and Jerry",
+  "src_hash": "426475e8d8fb1c5869bab8f913aa57ab6cfb3bd4951cb7f9df8e50c1470dc9fe",
+  "subtitle": "Puzzle game featuring Tom and Jerry",
   "tags": [
    "tom",
    "jerry",
-   "blast",
    "puzzle",
-   "mobile",
+   "ipa",
+   "ios",
    "game"
   ]
  },
@@ -59603,20 +59786,21 @@
   ]
  },
  "com.tenada.ios": {
-  "category": "photo-video",
-  "date": "2026-11-07",
-  "description": "TENADA Graphic Design Editor IPA MOD is more than just a graphic design editor \u2013 it\u2019s a gateway to a world of creative possibilities.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4656ad37540d008cc1b994abf3c5d88f71cef468cc8b77cf4f0784b6ef1e9a27",
-  "subtitle": "Graphic design editor unlocking creative possibilities",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "TENADA is a graphic design editor equipped with a robust set of tools and features to help you create social media graphics with precision and efficiency. This modified version includes SatellaJailed tweaks.",
+  "features": [
+   "SatellaJailed"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "b85f069bdaacbe2f6aed2efca65e6a922d8f2e68292ccf68cab06dc488e280cf",
+  "subtitle": "Graphic Design Editor",
   "tags": [
-   "graphic",
-   "design",
+   "tenada",
+   "graphic design",
    "editor",
-   "ipa",
-   "mod",
-   "creative"
+   "tweaks",
+   "satellajailed"
   ]
  },
  "com.tencent.rmcn": {
@@ -59731,19 +59915,19 @@
  "com.thebcd69.bcd": {
   "category": "games",
   "date": "2026-11-21",
-  "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS. Features built-in Steam and GOG integration, powered by Wine, FEX, and Metal via DXMT.",
+  "description": "A fast, controller-friendly launcher that runs Windows games on iOS and iPadOS. Features built-in Steam and GOG support. Powered by Wine, FEX, and Metal via DXMT.",
   "features": [
    "Controller Friendly",
    "Built-in Steam",
    "Built-in GOG"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "8c46bf388305af135a4b377645cc8bdf121ba4be805b4afdc823ef6b7f1b4387",
+  "src_hash": "508f083751382705843e0ab6b8a2a2aca5203ee43783aa9c282ad0c5e00e0a84",
   "subtitle": "Run Windows games on iOS and iPadOS",
   "tags": [
+   "games",
    "launcher",
    "windows",
-   "games",
    "steam",
    "gog",
    "emulator"
@@ -60032,19 +60216,21 @@
  },
  "com.thp020.stickman.casual.war.game": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "Warventure: Stickman Clash IPA MOD brings an energetic and action-driven experience.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "630ffa701466f253851448fa873e20be00635dcc0ab0903115ae0ecd9108e97a",
-  "subtitle": "Stickman action clash adventure",
+  "date": "2026-11-21",
+  "description": "Warventure: Stickman Clash brings an energetic and action-driven experience for iOS players who enjoy fast battles, quick reflex gameplay, and the fun of stickman combat. This version of the game enhances the classic stickman formula by introducing more depth, more challenges, and a wider range of combat features.",
+  "features": [
+   "iGameGod"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "beaf938dc8a66d5f524fefb6c30468b45d87e64ed152afd02ce83b2bebe26603",
+  "subtitle": "Action-driven stickman combat with fast battles",
   "tags": [
    "warventure",
    "stickman",
    "clash",
    "action",
-   "mod",
-   "ipa"
+   "battles",
+   "games"
   ]
  },
  "com.threeKM.packMonsterIdle.app": {
@@ -60386,19 +60572,22 @@
  },
  "com.tile.match.blockpuzzle": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "A match puzzle game that offers hours of fun and brain\u2011stimulating challenges.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "b5ca3c1c1f5fa553c0b82ccc2e22f046ba499e80f205b554c0741b0defb88fa3",
-  "subtitle": "Tile Family Match Puzzle Game",
+  "date": "2026-11-21",
+  "description": "Tile Family Match Puzzle Game is a mobile puzzle game offering brain-stimulating challenges and an immersive gaming experience for players of all ages. This modified version includes iGameGod tweaks.",
+  "features": [
+   "Match Puzzle Game",
+   "Brain-stimulating Challenges",
+   "iGameGod Tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ed613884df83486442469c92195007b57efe3b1a20238555c2c4f76e8e76cba9",
+  "subtitle": "Match puzzle game",
   "tags": [
-   "tile",
-   "family",
-   "match",
    "puzzle",
+   "match",
+   "tile",
    "game",
-   "brain"
+   "family"
   ]
  },
  "com.tiltingpoint.cypher": {
@@ -60601,19 +60790,21 @@
  },
  "com.tocaboca.tocalifeworld": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Toca Boca World is one of the most beloved sandbox-style creativity games available on iOS",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ad8dffd75891f61d09ce1452e4d8623ac507847dcd6b94d91a2605dbb1ae3d28",
-  "subtitle": "Sandbox creativity game for iOS",
+  "date": "2026-11-21",
+  "description": "Toca Boca World is a sandbox-style creativity game designed for role-playing, imagination, and self-expression. Build your own stories inside a playful digital universe without traditional scores or competition. This version includes tweak additions such as IGHelper, NOADS, and IGVIPEnjoy.",
+  "features": [
+   "No Ads"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "bdb094a9f2615fe99d343db7392590625685b981c12c957889cad8015937b574",
+  "subtitle": "Build stories in a playful sandbox digital universe",
   "tags": [
    "toca",
-   "boca",
    "world",
    "sandbox",
    "creativity",
-   "ios"
+   "roleplay",
+   "game"
   ]
  },
  "com.todoist.ios": {
@@ -60653,18 +60844,18 @@
  },
  "com.tokoinc.tokotutor": {
   "category": "lifestyle",
-  "date": "2026-11-08",
-  "description": "Toko is an iOS app that lets you practice speaking English with AI. It provides the installation package for the Toko language learning service.",
+  "date": "2026-11-21",
+  "description": "Toko is a language learning application designed to help users speak English with AI. This iOS installation package allows iPhone and iPad users to install the app through sideloading methods, providing the full application structure for language practice.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "9395bdf1e671717a8f6ffa7e3dfb87100d225aba2bcd8ca2f8a544f927898a05",
-  "subtitle": "AI-powered English speaking practice",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f80c914ab1b6180f3aa3aa2ff822f10f1c8db161b3c1d375a04b777ec792e2d9",
+  "subtitle": "Speak English with AI",
   "tags": [
+   "toko",
    "english",
+   "ai",
    "language",
    "learning",
-   "ai",
-   "speak",
    "ipa"
   ]
  },
@@ -61175,23 +61366,21 @@
  },
  "com.tripledot.triple.tile.match.pair.game.three.master.object": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Triple Tile is a tile-matching puzzle game where you tap to match three identical tiles and clear them from the board. Complete levels by removing all tiles before time runs out. The game features various tile designs and increasing difficulty across multiple stages. Play offline without an internet connection.",
+  "date": "2026-11-21",
+  "description": "Triple Tile is a match-3 puzzle game packaged as an IPA for iPhone and iPad. The IPA format allows direct installation on compatible iOS devices. This version includes the iGameGod tweak. The game tasks players with matching three identical tiles to clear the board across multiple levels.",
   "features": [
-   "Offline Play",
-   "Multiple Levels",
-   "Tile Matching"
+   "iGameGod tweak included"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "492572f6f0b99c2db8f8d0d2677550a3f9d43cefc3c3a377fcee12037397ffc9",
-  "subtitle": "Match three tiles to clear the board",
+  "src_hash": "6317e2901402916f3cd5c2e8700282de9aa19c2d1e4117fd95327bf1106d19a9",
+  "subtitle": "Tile-matching puzzle game for iOS",
   "tags": [
    "puzzle",
-   "tile matching",
-   "casual",
-   "offline",
-   "brain training",
-   "match 3"
+   "tile-matching",
+   "match-3",
+   "ipa",
+   "ios",
+   "game"
   ]
  },
  "com.tripleglazedstudios.Weather": {
@@ -61224,6 +61413,25 @@
    "\u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435",
    "\u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430",
    "\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u0438"
+  ]
+ },
+ "com.trivela.madfut": {
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "MADFUT 26 brings football management and card collecting to iOS with a MOD version.",
+  "features": [
+   "MOD"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "b105f9b27ef7c34fc9ad6a0fb65c328214d0ba73c0997e9508b831321f0e6557",
+  "subtitle": "Football management and card collecting",
+  "tags": [
+   "football",
+   "management",
+   "cards",
+   "mod",
+   "ios",
+   "game"
   ]
  },
  "com.trst.storek": {
@@ -61567,20 +61775,19 @@
   ]
  },
  "com.ubercab.UberEats": {
-  "category": "other",
-  "date": "2026-11-08",
-  "description": "Uber Eats is a food delivery service for iOS 14.x. This version has been decrypted to remove the minimum iOS version restriction shown in the App Store. Last updated on October 26, 2022.",
+  "category": "utilities",
+  "date": "2026-11-21",
+  "description": "Uber Eats decrypted for iOS 14.x. Designed for users who encounter the minimum iOS requirement banner in the App Store.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "fae1856501c25e3050139a8f63fcc7497d71f2a52ae19b72c246e26c2da3aa2d",
-  "subtitle": "Food delivery app for iOS 14",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "8f70cb05515615f31d83646009ad9ffc1ae076f9f7476ed7849c8b587af4bf13",
+  "subtitle": "Decrypted Uber Eats app for older iOS versions",
   "tags": [
-   "uber",
-   "eats",
-   "food",
+   "ubereats",
    "delivery",
-   "ios",
-   "decrypted"
+   "food",
+   "decrypted",
+   "ios14"
   ]
  },
  "com.ubisoft.csi.HiddenCrimes": {
@@ -61746,24 +61953,23 @@
   ]
  },
  "com.uldineogames.magic-swipe": {
-  "category": "games",
-  "date": "2026-11-10",
-  "description": "Wizard Tower Defense Idle Game with unlimited gold, unlimited gems, and no skill cooldown for iOS.",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "Wizard Tower Defense Idle Game blends tower defense mechanics with an idle gameplay style. Experience enchanting graphics, immersive sound effects, and magical characters.",
   "features": [
    "Unlimited Gold",
    "Unlimited Gems",
    "No Skill Cooldown"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "89776f04fc9f5605645491d48f1425b5f5e553dcd03241c6113b7d4b085e14d1",
-  "subtitle": "Wizard Tower Defense Idle Game MOD",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "ac3ca5d0f9353a7733a33de5126007a4c6968a5565a9f88767b5f0f70912e954",
+  "subtitle": "Idle tower defense with magical characters",
   "tags": [
-   "wizard",
-   "tower",
-   "defense",
+   "tower defense",
    "idle",
-   "mod",
-   "ios"
+   "strategy",
+   "magic",
+   "game"
   ]
  },
  "com.ulisesolave.Fitia": {
@@ -61877,20 +62083,24 @@
   ]
  },
  "com.undeadslayer.athree.epl.as": {
-  "category": "other",
-  "date": "2026-11-08",
-  "description": "Undead Slayer: Offline Action is an iOS game that delivers fast-paced hack-and-slash combat offline.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ecee6a072a501470b81b1ee77e78fdda235add527108caaac90e4eee04e685f0",
+  "category": "games",
+  "date": "2026-11-21",
+  "description": "Undead Slayer is an offline action game featuring hack-and-slash combat in a post-apocalyptic world overrun by zombies and dark creatures. Players fight to survive through increasingly difficult stages. This version includes iGameGod tweaks.",
+  "features": [
+   "Offline mode",
+   "Action combat",
+   "iGameGod included"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "56ec85a3b32ef19be7b6264739bf224e97fa7a814182e3402ec98f650d507ec0",
   "subtitle": "Offline action hack-and-slash game",
   "tags": [
    "undead",
    "slayer",
-   "offline",
    "action",
-   "ios",
-   "game"
+   "offline",
+   "game",
+   "zombie"
   ]
  },
  "com.underdecodedhd.gen2recomped": {
@@ -62017,18 +62227,19 @@
  "com.unicostudio.braintest4": {
   "category": "games",
   "date": "2026-11-21",
-  "description": "Brain Test 4: Tricky Friends is a captivating puzzle game that challenges your problem-solving skills and pushes your cognitive abilities to the limit.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "58a109a32913084f683b7ac9c094edd83ecb1a2f6663d19acef8552924bedfa9",
-  "subtitle": "Tricky puzzle game challenging your mind",
+  "description": "BrainTest4 is a puzzle game featuring injected in-app purchases. Solve challenging riddles and test your mental skills with this brain teaser.",
+  "features": [
+   "Injected with IAP"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2c8af38a6f59be53748c26f93fbca14603fe4296f747ead7d28048919694c238",
+  "subtitle": "Brain training puzzle game",
   "tags": [
+   "braintest",
    "puzzle",
+   "games",
    "brain",
-   "tricky",
-   "friends",
-   "game",
-   "mind"
+   "riddles"
   ]
  },
  "com.unicostudio.minerfighters": {
@@ -62695,20 +62906,16 @@
   ]
  },
  "com.unknown.bunny": {
-  "category": "utilities",
+  "category": "other",
   "date": "2026-11-21",
-  "description": "Bunny sends notifications when any of your installed tweaks receive an update. The app is free and includes a Discord community for support.",
+  "description": "Bunny is an app developed by Karbin-Store.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "079ca792ea1715f9351716b291c4b5ae592d269329c535b16bd4bee99a625e04",
-  "subtitle": "Tweak update notifier for jailbreak",
+  "src_hash": "b44dedf6a5680ddc1ee88008833f6e068a9cb862130846ce7da244f1600f6264",
+  "subtitle": "App by Karbin-Store",
   "tags": [
-   "tweak",
-   "update",
-   "notifier",
-   "jailbreak",
-   "discord",
-   "utility"
+   "bunny",
+   "karbin-store"
   ]
  },
  "com.unknown.camai": {
@@ -67326,23 +67533,22 @@
   ]
  },
  "com.unknown.wallicoolwallpapershd": {
-  "category": "photo-video",
-  "date": "2026-11-10",
-  "description": "Walli Cool WallpapersHD provides a premium unlocked version with a collection of high-quality wallpapers. Users can select and set wallpapers in the best possible way.",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "Customize your home screen with a large selection of high definition wallpapers. This unlocked version gives you access to premium visual content to personalize your device display.",
   "features": [
-   "Premium Unlocked",
-   "High-Quality Wallpapers"
+   "Unlocked",
+   "Premium Content"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "1b54b07550f58a5278722bfe9b205275b9c06733e947438c65853db27fb2bbe9",
-  "subtitle": "Premium unlocked HD wallpapers",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "e496e7894a16045f200e90c4140075601f02ddf2ad4ca5305ad8b006da2a8a8d",
+  "subtitle": "High definition wallpapers for your device",
   "tags": [
    "wallpapers",
    "hd",
-   "premium",
-   "unlocked",
    "backgrounds",
-   "cool"
+   "personalization",
+   "screen"
   ]
  },
  "com.unknown.wallpapers": {
@@ -67428,19 +67634,19 @@
   ]
  },
  "com.unknown.womenlose": {
-  "category": "other",
-  "date": "2026-11-10",
-  "description": "The app lets you drop your bag through the program.",
+  "category": "lifestyle",
+  "date": "2026-11-21",
+  "description": "Tweaks: LeapHealthUnlocker. \u06a9\u06ce\u0634\u06cc \u062e\u06c6\u062a \u062f\u0627\u0628\u06d5\u0632\u06ce\u0646\u06d5 \u0644\u06d5\u0695\u06ce \u0626\u06d5\u0645 \u0628\u06d5\u0631\u0646\u0627\u0645\u06d5\u0648\u06d5.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "7c1b3eb343b6e53da31e8ada2e4e65bcb6556f5dabe6b1c791998a1d313c0e94",
-  "subtitle": "Drop your bag via this app",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "39008a3c59174c5608b6b2dcc7c995886085bdc7b9b0de32b50c62d79c214b84",
+  "subtitle": "Lose weight with this app",
   "tags": [
-   "women",
+   "health",
+   "fitness",
    "weight",
    "loss",
-   "bag",
-   "app"
+   "tweaks"
   ]
  },
  "com.unknown.worldrobotboxing": {
@@ -67695,20 +67901,20 @@
   ]
  },
  "com.unstuckstudy": {
-  "category": "other",
-  "date": "2026-11-08",
-  "description": "Unstuck is an AI virtual notepad that organizes thoughts and stimulates clarity and creativity.",
+  "category": "utilities",
+  "date": "2026-11-21",
+  "description": "Unstuck AI is a virtual notepad designed to organize your thoughts and stimulate clarity and creativity. Effective note-taking is a crucial skill for students, professionals, and anyone looking to harness their ideas efficiently amidst the demands of modern life.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "9fff01511d1ba2836605c7de5c5fbdaa857456a6310b9f89563620cccc0c5657",
-  "subtitle": "AI-powered virtual notepad for clarity and creativity",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2f8d272a6f7f6147128e9dfdeec47789e6681152380e63c348f19664f8826e18",
+  "subtitle": "Virtual notepad for thoughts and ideas",
   "tags": [
-   "ai",
+   "notes",
    "notepad",
-   "organize",
-   "thoughts",
-   "clarity",
-   "creativity"
+   "ai",
+   "organization",
+   "productivity",
+   "writing"
   ]
  },
  "com.untitledinbrackets.untitled-ios": {
@@ -68641,20 +68847,20 @@
   ]
  },
  "com.vjsjlqvlmp.wearewarriors": {
-  "category": "games",
-  "date": "2026-11-10",
-  "description": "This highly immersive game takes you on a journey through a mystical world filled with danger and excitement.",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "We Are Warriors is an immersive game that places players in a mystical world full of danger and excitement. The app includes gameplay mechanics and tips for progressing. An IPA file is available for iOS installation. Updates are announced via a Discord community.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "d03da1af8affeab41f35b512f23f43a588a1742289cc05ea5aa74cede05ceef4",
-  "subtitle": "Immersive journey through a mystical world",
+  "src_hash": "dea20b8beef2455cddd3344315eca98b7b1f74ab9f23ef9db23c3f3e81f0e309",
+  "subtitle": "Immersive mystical warrior adventure game",
   "tags": [
+   "game",
+   "ipa",
+   "ios",
+   "warriors",
    "immersive",
-   "mystical",
-   "adventure",
-   "danger",
-   "excitement",
-   "journey"
+   "mystical"
   ]
  },
  "com.vk.vkclient": {
@@ -68869,20 +69075,26 @@
   ]
  },
  "com.vpnsatoshi.vpnsatoshiapp": {
-  "category": "other",
-  "date": "2026-11-09",
-  "description": "VPNSatoshi was previously available through binnichtaktiv's iPA Library. The app has been deprecated and removed from the repository. Last updated on March 27, 2024. Current status shows as unavailable.",
-  "features": [],
+  "category": "utilities",
+  "date": "2026-11-21",
+  "description": "VPN Satoshi is a VPN for iOS that provides a fast, secure, and private internet experience without restrictions. It protects your identity and allows access to blocked content, streaming platforms, and geo\u2011restricted websites.",
+  "features": [
+   "Fast",
+   "Secure",
+   "Private",
+   "No Restrictions",
+   "Unblocks Content"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "eb4e2cdc8f62909967ce5e0b8703b5a10d91665143ebff2bbdd98c4d24c1348e",
-  "subtitle": "Deprecated VPN app, removed from repository",
+  "src_hash": "0f82afee9147e0ba3874a49eb5558fe3e66c6af9a2b0975e47ac871dd70edfb7",
+  "subtitle": "Fast, secure VPN for iOS",
   "tags": [
    "vpn",
-   "deprecated",
-   "removed",
-   "satoshi",
-   "ipa",
-   "library"
+   "ios",
+   "privacy",
+   "security",
+   "unblock",
+   "streaming"
   ]
  },
  "com.vqw.aelh": {
@@ -69045,39 +69257,36 @@
   ]
  },
  "com.wasteland.heart": {
-  "category": "other",
-  "date": "2026-11-10",
-  "description": "The world of Wasteland Life Survival Idle IPA is a stark contrast to the comforts of the pre-apocalyptic era. Gone are the luxuries and",
+  "category": "lifestyle",
+  "date": "2026-11-21",
+  "description": "Welcome to the world of Wasteland Life Survival Idle, a stark contrast to the comforts of the pre-apocalyptic era. Gone are the luxuries and conveniences we once took for granted. In their place, a harsh, unforgiving landscape filled with dangers and challenges awaits. From roaming bands of scavengers to mutated creatures, the wasteland presents continuous survival trials. Manage your resources, face constant threats, and navigate the difficulties of a world left behind in this idle survival experience.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "88de2a68ccada07440465f485ce42ce15fbd727bb9b731f4e472251b3ab02b88",
-  "subtitle": "Survival idle in a post-apocalyptic world",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3bbfe6f8f9a9b343c1e7a84bc32ad913c31d264b7225530b1759c2ed14666020",
+  "subtitle": "Survive the harsh post-apocalyptic landscape",
   "tags": [
-   "wasteland",
-   "life",
    "survival",
    "idle",
-   "pre-apocalyptic",
-   "world"
+   "wasteland",
+   "post-apocalyptic",
+   "simulation"
   ]
  },
  "com.waterminder.waterminder": {
-  "category": "other",
-  "date": "2026-11-10",
-  "description": "WaterMinder is a water tracking application. This version has been injected with premium features.",
-  "features": [
-   "Premium Unlocked"
-  ],
+  "category": "lifestyle",
+  "date": "2026-11-21",
+  "description": "WaterMinder helps you monitor daily water consumption to meet hydration targets. The app provides a comprehensive solution for tracking intake and staying on top of hydration goals for better health and well-being.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "c1c9f6faa21d65fb6dc36dc2518644cdfb20f93467a54bc634262b077a06e094",
-  "subtitle": "Water tracking with premium unlocked",
+  "src_hash": "e15d601ac7d1701776e28df93a9765bf150cddab77e9c5b803e3621e12c432ad",
+  "subtitle": "Track daily water intake and hydration goals",
   "tags": [
    "water",
-   "tracking",
-   "health",
    "hydration",
-   "premium",
-   "unlocked"
+   "tracker",
+   "health",
+   "wellness",
+   "intake"
   ]
  },
  "com.waterminder.waterminder.watchkitapp": {
@@ -69405,19 +69614,19 @@
  },
  "com.whitedot.udsios": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Undead Siege is a strategy and survival game for iOS.",
+  "date": "2026-11-21",
+  "description": "Undead Siege is a strategy and survival game for iOS players. Blend the intense atmosphere of a zombie apocalypse with tactical gameplay that challenges you to protect your stronghold against endless waves of undead foes. The game features engaging mechanics for players seeking thrilling survival experiences.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "fea16c9088ade319b1603eb74b0b11775034bf69551dbc75a0424c1e863612a5",
-  "subtitle": "Strategy survival game for iOS",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2d84e4d07f20dc7659aca3fe3cd52bbc1eab1ee69c8e57f415fea89ed59e4978",
+  "subtitle": "Defend your stronghold against waves of undead foes",
   "tags": [
    "strategy",
    "survival",
-   "ios",
-   "game",
+   "zombie",
    "undead",
-   "siege"
+   "action",
+   "tactical"
   ]
  },
  "com.widget-kid": {
@@ -69755,18 +69964,18 @@
  },
  "com.woodout.puzzle.game": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "Woodout! is a mobile game for iOS devices.",
+  "date": "2026-11-21",
+  "description": "Woodout! is an iOS game offering a unique and captivating experience designed to hook players from the first tap. Developed for mobile gamers, this release delivers engaging gameplay for your device.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "cc2ac3e101b6e986397f6cfa9665996cbe012b4b0ae26acfaa77b6fbe029a41f",
-  "subtitle": "Latest mobile gaming sensation",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2ecf2edbc6144d3178e8b3bbb0982cb995925dad1c424a7808fd4a2031712503",
+  "subtitle": "A unique and captivating mobile gaming sensation",
   "tags": [
-   "woodout",
-   "ios",
    "game",
+   "woodout",
+   "puzzle",
    "mobile",
-   "ipa"
+   "ios"
   ]
  },
  "com.woodsign.Widgy": {
@@ -70291,23 +70500,24 @@
  "com.xycz.simple-live": {
   "category": "entertainment",
   "date": "2026-11-21",
-  "description": "Simple Live is an open source multi-platform live streaming aggregation player developed using Flutter. It supports live broadcasts and bullet comments from platforms such as Huya, Douyu, Bilibili, Douyin, and Kuaishou, and includes built-in public IPTV live sources. It supports following, tags, history, and bullet comment blocking words. Configurations can be imported and exported, and synchronized via room service, local network, or WebDAV.",
+  "description": "Simple Live is an open source multi platform live streaming aggregation player developed using Flutter. It supports live broadcasts and barrage from platforms such as Huya, Douyu, Bilibili, Douyin, and Kuaishou, and includes built in public IPTV live sources. Features include following, tags, history, and barrage blocking words. Configurations can be imported and exported, and data can be synchronized through room service, local network, or WebDAV.",
   "features": [
-   "Open source",
-   "Multi-platform",
-   "IPTV sources",
-   "Sync support",
-   "Config import export"
+   "Open Source",
+   "Multi Platform",
+   "IPTV Support",
+   "Config Import Export",
+   "Data Sync"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "79a08f02c06274c741eab4717104afc7cbcca9fe5a04fdc64699acdafc984349",
-  "subtitle": "Open source multi-platform live streaming aggregation player",
+  "src_hash": "c8b66ee6344a673f68bf3da876e0a7c510130dd87eb8a90f31c80d55cd37e9fd",
+  "subtitle": "Open source live streaming aggregation player",
   "tags": [
    "live",
    "streaming",
    "player",
    "iptv",
-   "flutter"
+   "flutter",
+   "aggregation"
   ]
  },
  "com.yadux.Speak4Me": {
@@ -71192,23 +71402,21 @@
  },
  "com.zilliongames.collectionidle": {
   "category": "games",
-  "date": "2026-11-06",
-  "description": "Switching Heroes is an idle RPG game featuring adjustable damage, defense, and loot or reward multipliers. Players can customize their combat and resource gathering experience using the included hack features. Remember to turn off multipliers when spending in the game.",
+  "date": "2026-11-21",
+  "description": "Enter the thrilling world of Switching Heroes, where action meets strategy and timing is everything. Lead a team of powerful heroes through intense battles, switching between them in real time to adapt to enemies and unleash devastating combos. This version includes iGameGod tweaks.",
   "features": [
-   "Damage Multiplier",
-   "Defense Multiplier",
-   "Loot and Reward Multiplier"
+   "iGameGod Tweaks"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "873c66e735d9eea2d32e39240f1526f60e47d6531f3ad861854bcb841de21a21",
-  "subtitle": "Idle RPG with hack features",
+  "src_hash": "4df54917fca450a9342036f8c925076e13a3520386ecccf265f308f5044dafa7",
+  "subtitle": "Action RPG with real time hero switching",
   "tags": [
-   "idle",
    "rpg",
-   "heroes",
+   "action",
    "strategy",
-   "adventure",
-   "action"
+   "heroes",
+   "battles",
+   "game"
   ]
  },
  "com.zilliongames.hunteridle": {
@@ -74889,25 +75097,25 @@
  },
  "dev.nori.music": {
   "category": "entertainment",
-  "date": "2026-11-02",
-  "description": "nori is an active development music app designed for efficient playback and precise sound. It decodes music ahead of time and allows the CPU to sleep between bursts to save power. Enjoy gapless albums, beat-matched AutoMix transitions, a built-in equalizer with AutoEQ curves, and customizable sound profiles for each output. The app fetches synchronized lyrics from your server and eleven online services simultaneously. You can also control one device from another or host a jam session that guests can join using a link or QR code.",
+  "date": "2026-11-21",
+  "description": "Nori is a music player designed for efficient battery use by sleeping the CPU between audio bursts. It features gapless albums, AutoMix transitions on the beat, an equalizer with AutoEQ curves, and independent sound profiles for each output. Retrieve lyrics from your server and eleven online services simultaneously, timed word by word when available. Control one device from another or host a listening jam where guests join via link or QR code.",
   "features": [
-   "Gapless playback",
+   "Gapless albums",
    "AutoMix transitions",
    "Equalizer with AutoEQ",
-   "Synchronized lyrics",
-   "Host jam sessions"
+   "Synced lyrics",
+   "Remote and jam control"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d7abe43d4a89e296ae21b746d37e2f3f7c45cee016a5b92c056d0d3c65d9f050",
-  "subtitle": "Music player with streaming and social playback features",
+  "src_hash": "a06558b62eae590e82a5a98c91d862d02d952d6abb53a6c2089ffc94074a0bb2",
+  "subtitle": "Music player with server sync and gapless playback",
   "tags": [
    "music",
    "player",
-   "lyrics",
    "audio",
+   "lyrics",
    "equalizer",
-   "streaming"
+   "automix"
   ]
  },
  "dev.objcmsgsend.Climax": {
@@ -75692,19 +75900,19 @@
  },
  "fantasy.survival.game.rpg": {
   "category": "games",
-  "date": "2026-11-19",
-  "description": "Grim Soul is a survival craft RPG. The tweak includes iGameGod integration.",
+  "date": "2026-11-21",
+  "description": "Grim Soul is a post\u2011apocalyptic survival magic RPG for iOS. The game places you in a desolate world where choices affect survival. It includes the iGameGod tweak for modifications.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "c2f2daa29efae10d03dd0f9564a529d48460e0a20cf2d38968d266a4119a9179",
-  "subtitle": "Survival craft RPG with iGameGod tweaks",
+  "src_hash": "4d4cfbd8166f9767db6e883ebda8a97833b4e016e94edc2f38979e9bed7bf0e0",
+  "subtitle": "Post\u2011apocalyptic survival magic RPG",
   "tags": [
-   "grim soul",
+   "grim",
+   "soul",
    "survival",
-   "craft",
    "rpg",
-   "igamegod",
-   "tweak"
+   "postapocalyptic",
+   "magic"
   ]
  },
  "fi.twomenandadog.zombiecatchers": {
@@ -77907,6 +78115,23 @@
    "remote"
   ]
  },
+ "io.github.vrcmteam.vrcm": {
+  "category": "developer",
+  "date": "2026-11-21",
+  "description": "VRCM is a cross-platform VRChat companion focused on social connection and convenience. Explore your social circles, remember time spent together, and move smoothly from shared links to worlds, interactions, and real-world meetups. Get pinged when any of your tweaks update.",
+  "features": [],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "a3e1a6a98f32075ed47004d4c13e79a12dd6bc8896692516fcc2226178ed89d2",
+  "subtitle": "A VRChat companion for social connection and convenience",
+  "tags": [
+   "vrchat",
+   "companion",
+   "social",
+   "worlds",
+   "meetups",
+   "cross-platform"
+  ]
+ },
  "io.github.wszqkzqk.pvz-portable": {
   "category": "games",
   "date": "2026-11-10",
@@ -78289,22 +78514,24 @@
  "io.nekohasekai.screensharing": {
   "category": "utilities",
   "date": "2026-11-21",
-  "description": "Screen Sharing allows you to connect and share screens across multiple platforms. Support includes macOS with RDP, iOS, and Android. The iOS App Store version excludes file dragging from remote Macs into other iOS apps due to platform restrictions. You can access nightly builds directly from the macOS app settings, and the project is continuously updated with support for additional platforms.",
+  "description": "Open Screen Sharing is a free and open-source remote desktop client optimized for Mac screen sharing and public networks. It provides first-class support for standard VNC and RDP protocols.",
   "features": [
-   "macOS support",
-   "RDP support",
-   "Android support"
+   "Open Source",
+   "Mac Screen Sharing",
+   "VNC Support",
+   "RDP Support",
+   "Public Network Optimized"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "55d17cc43c83badf02285fb26f75c718f9dad7e2141c53e640bb353463dc44a2",
-  "subtitle": "Share and control screens across your devices",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "835d023e7fb906ad0c532e87a68b794c65034450cb6e83735894dec740f56336",
+  "subtitle": "Free open-source remote desktop client",
   "tags": [
-   "screen sharing",
+   "remote desktop",
+   "vnc",
    "rdp",
-   "macos",
-   "android",
-   "remote",
-   "utilities"
+   "screen sharing",
+   "open source",
+   "mac"
   ]
  },
  "io.nekohasekai.swipt": {
@@ -78877,22 +79104,26 @@
   ]
  },
  "jp.co.bandainamcoent.BNEI0334": {
-  "category": "games",
+  "category": "other",
   "date": "2026-11-21",
-  "description": "Dragon Ball Legends brings characters and battles from the Dragon Ball universe to your mobile device. Developed by Bandai Namco Entertainment, this action-packed game features characters and combat from the popular series. This version includes the iGameGod tweak.",
+  "description": "DB LEGENDS is a tweak for Dragon Ball Legends that adds gameplay modifications. Features include one hit kill, zero ki cost, removed character swap cooldown, removed vanish cooldown, and automatic challenge completion. The tweak is distributed via a third-party source and requires a certificate for installation. Additional links provide access to a shop, social channels, and a Discord server for update notifications.",
   "features": [
-   "iGameGod Tweak"
+   "One Hit Kill",
+   "No Ki Cost",
+   "No Swap Cooldown",
+   "No Vanish Cooldown",
+   "Auto Complete Challenges"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "7145eee2e457422505230c9e259e434c0e67ba2b2e5f262ed181c40226a2ac2a",
-  "subtitle": "Action-packed Dragon Ball mobile game",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "dc4e092e45c406de7768cdc0840579835b70dbbd533f77dcd9dff67cfe59af63",
+  "subtitle": "Dragon Ball Legends hack with multiple cheats",
   "tags": [
-   "dragon ball",
-   "legends",
-   "anime",
-   "action",
-   "game",
-   "battles"
+   "dragon ball legends",
+   "hack",
+   "cheat",
+   "tweak",
+   "game mod",
+   "ios"
   ]
  },
  "jp.co.bandainamcoent.BNEI0379": {
@@ -78989,21 +79220,19 @@
  },
  "jp.co.bandainamcogames.BNGI0221": {
   "category": "games",
-  "date": "2026-11-19",
-  "description": "Dragon Ball Z Dokkan Battle is a mobile game developed by Akatsuki Inc. and published by Bandai Namco Entertainment. It features characters and battles from the Dragon Ball Z anime series. This version includes iGameGod tweaks for modified gameplay. Update notifications are available via a Discord community.",
-  "features": [
-   "iGameGod Tweaks"
-  ],
+  "date": "2026-11-21",
+  "description": "Dragon Ball Z Dokkan Battle is a wildly popular mobile game that has captivated fans of the iconic anime series worldwide.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "34f3a0d80ec34b8116378fbcae02ed7589e81ef2b8d874ebc67300c971a77331",
-  "subtitle": "Dragon Ball Z anime mobile game with tweaks",
+  "src_hash": "3ce5ff7c7e7a9db6f94ad252d75b8bc248cfba74cd340987a6fbe885c56117c4",
+  "subtitle": "Popular anime-based mobile game",
   "tags": [
-   "dragon ball",
-   "dokkan battle",
+   "dragon",
+   "ball",
+   "dokkan",
+   "battle",
    "anime",
-   "mobile game",
-   "tweaks",
-   "modded"
+   "ios"
   ]
  },
  "jp.co.capcom.mhpuzzle": {
@@ -79042,19 +79271,20 @@
  },
  "jp.co.drecom.wizardry.daphne": {
   "category": "other",
-  "date": "2026-11-10",
-  "description": "Wizardry Variants Daphne IPA brings an innovative and captivating experience to the realm of mobile gaming.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Wizardry Variants Daphne brings a refreshing twist to classic role-playing games. This release includes the iGameGod tweak. Get pinged when any of your tweaks update by joining the community on Discord.",
+  "features": [
+   "iGameGod included"
+  ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "0353fa67ebb6828cadf7c8636e600cbb15f9dd82e257fe875e90364aef5bc6b7",
-  "subtitle": "Wizardry Variants Daphne mobile experience",
+  "src_hash": "df15c943496cd67d0d69a1c4a952ef54e354239101fb2dcdb92c8e0e8aaf3453",
+  "subtitle": "Tweaks and updates for Wizardry Variants Daphne",
   "tags": [
    "wizardry",
-   "variants",
-   "daphne",
-   "mobile",
-   "gaming",
-   "ipa"
+   "rpg",
+   "tweaks",
+   "igamegod",
+   "mobile"
   ]
  },
  "jp.co.gcgames.bc": {
@@ -79132,23 +79362,22 @@
   ]
  },
  "jp.co.ponos.battlecatsen": {
-  "category": "other",
-  "date": "2026-11-07",
-  "description": "The app includes mods. The IPA has been tested and compiled by TTJB Team.",
+  "category": "games",
+  "date": "2026-11-21",
+  "description": "Play The Battle Cats iOS app featuring unique gameplay, captivating mechanics, and charming visuals with cute and fierce feline characters. This version includes iGameGod tweaks.",
   "features": [
-   "Mods",
-   "Tested"
+   "iGameGod Tweaks"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4265b9d3a7b81ef215a4eb1b37f06bc79b477c9fb4abed51ce6b15146815e032",
-  "subtitle": "Modded IPA by TTJB Team",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "08337c457b5dc7ab9853c6834b59b6c9662d8c51ae3cc42b608c63288a4f80db",
+  "subtitle": "Adorable feline character battle game",
   "tags": [
-   "thebattlecats",
-   "mods",
-   "ipa",
-   "ttjb",
-   "tested",
-   "repo"
+   "battle",
+   "cats",
+   "game",
+   "feline",
+   "strategy",
+   "mod"
   ]
  },
  "jp.co.psoft.Zen-Brush": {
@@ -79186,19 +79415,19 @@
  },
  "jp.colopl.mask": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Tsukuyomi is an action-RPG game for iOS featuring mythological themes and intense gameplay. Players take on the role of a divine hunter in this immersive experience.",
+  "date": "2026-11-21",
+  "description": "Tsukuyomi: The Divine Hunter is an immersive action-RPG game on iOS drawing from Japanese mythology. Players become the legendary hunter Tsukuyomi in a deep atmospheric narrative. The game features mythological themes and intense gameplay across an epic journey. Available as an IPA for iOS devices.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "c9c169e8ab5a203485aeb58e573844b7b3b9ca27c3f5749d95c518db93f15db3",
-  "subtitle": "Immersive action-RPG with mythological themes",
+  "src_hash": "6e146e4f759cf1b7ce82103ae9ac75eef520990e4aee87194dba792f4d76cdc4",
+  "subtitle": "Action-RPG inspired by Japanese folklore",
   "tags": [
    "action-rpg",
-   "mythology",
+   "japanese-folklore",
+   "mythological",
+   "atmospheric",
    "hunter",
-   "immersive",
-   "ios",
-   "game"
+   "tsukuyomi"
   ]
  },
  "jp.colopl.wcat": {
@@ -79288,19 +79517,18 @@
  },
  "jp.goodsmile.touhoulostwordglobal": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Touhou LostWord is a mobile game that has gained a significant following among gamers.",
+  "date": "2026-11-21",
+  "description": "Touhou LostWord is a mobile role-playing game featuring characters and lore from the Touhou Project series. The game combines traditional RPG mechanics with the established universe of the franchise on iOS platforms.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "9a3eca91091c62d8161fca4bae0f81fa2c6ca5eaadd9bee9565a1207fa119ec9",
-  "subtitle": "Mobile game with a large community following",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "277fc6c9dfc405ea0fdd617fb27c552661a056c200130e22372192b26ce8fed6",
+  "subtitle": "An RPG based on the Touhou Project franchise for iOS",
   "tags": [
    "touhou",
-   "lostword",
-   "mobile",
+   "rpg",
    "game",
-   "community",
-   "ipa"
+   "mobile",
+   "ios"
   ]
  },
  "jp.kamasu.oread": {
@@ -80142,19 +80370,24 @@
  },
  "maxime.maheo.simple-weather": {
   "category": "lifestyle",
-  "date": "2026-11-10",
-  "description": "Weather & Rain Radar \u2013 Atmos is a comprehensive iOS weather application designed to provide users with accurate forecast",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Weather & Rain Radar \u2013 Atmos is a comprehensive iOS weather application that provides accurate forecasts, real-time radar imagery, and detailed weather analytics. The app combines visually appealing interfaces with reliable meteorological data to deliver insights on temperature, precipitation, and storm tracking.",
+  "features": [
+   "Real-time radar",
+   "Storm tracking",
+   "Accurate forecasts",
+   "Detailed analytics"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "32e0823d87029cb4eeed53a4d040a072f74b615e50277b2e1d9d8d1dab4d1e75",
-  "subtitle": "Weather & Rain Radar",
+  "src_hash": "135d66b7f8aa1bea77e80df726e68bcdecd447f5626e4dd95de820173ec5f8c6",
+  "subtitle": "Accurate forecasts with real-time radar and storm tracking",
   "tags": [
    "weather",
    "radar",
    "forecast",
-   "ios",
-   "app",
-   "atmos"
+   "storm",
+   "temperature",
+   "precipitation"
   ]
  },
  "me.cranci.AnimeGen": {
@@ -80793,18 +81026,18 @@
  },
  "mobi.blackbears.ios.towerlands": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Towerlands is a tower defense game that has captivated mobile gamers worldwide. As an iOS user, you can experience this exciting strategy gameplay.",
+  "date": "2026-11-21",
+  "description": "Towerlands is a tower defense game for mobile devices. Defend your realm against hordes of invading enemies in a strategic experience.",
   "features": [],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "e5593cd1769d725205f6e623bcbd387e8569ac1bbccce95e82b732618b2942c0",
-  "subtitle": "Tower defense game for iOS",
+  "src_hash": "03af14e62a047713dfec4dca094e5e8fbb07627803a6614f5a67ae605ec61fd3",
+  "subtitle": "Defend your realm against invading enemies",
   "tags": [
    "towerlands",
    "tower defense",
    "strategy",
-   "games",
-   "ios"
+   "game",
+   "td"
   ]
  },
  "mobi.digitalminds.itunerfree": {
@@ -81271,20 +81504,20 @@
   ]
  },
  "net.gameduo.sg2": {
-  "category": "games",
-  "date": "2026-11-08",
-  "description": "Three Kingdoms Tempest is a strategy game based on the historical Three Kingdoms period of ancient China. It brings the epic tales and conflicts of that era to iOS devices. Players engage in strategic gameplay inspired by the historical events and figures from the Three Kingdoms.",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "Three Kingdoms Tempest is a strategy game set in ancient China\u2019s Three Kingdoms era. Players use tactics and heroes to shape the fate of kingdoms. Includes iGameGod tweak.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "99ee515219705297dcc9d738b36d0a54c6a59992b7672475ce9541a4151ac552",
-  "subtitle": "Strategy game set in Three Kingdoms era",
+  "src_hash": "b1cad88440cff0c0dea10ac556fd458fb9b1eee74b7caf21c81315f4962f9dee",
+  "subtitle": "Epic Three Kingdoms strategy game",
   "tags": [
    "strategy",
-   "three kingdoms",
-   "china",
-   "historical",
-   "war",
-   "tactics"
+   "three",
+   "kingdoms",
+   "ios",
+   "game",
+   "tweak"
   ]
  },
  "net.gameduo.smd": {
@@ -81625,19 +81858,20 @@
  },
  "net.peakgames.toonblast": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Toon Blast is a captivating puzzle game that offers hours of entertainment.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "9e592d1efee4313531e7799dafb765addbba21c20e43f93f9769cc425da28574",
-  "subtitle": "Puzzle adventure with colorful characters",
+  "date": "2026-11-21",
+  "description": "Dive into the world of Toon Blast iOS and enjoy a captivating game that will keep you entertained for hours on end. Explore gameplay, features, tips, and updates designed for iPhone users.",
+  "features": [
+   "iGameGod"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "50c0d4c4650614adb6c2b18fc2786490d768ca8aecb4b53ab0e56497788a7f51",
+  "subtitle": "A captivating puzzle game for your iPhone",
   "tags": [
+   "toon blast",
    "puzzle",
    "game",
-   "toon",
-   "blast",
-   "mobile",
-   "ios"
+   "ios",
+   "iphone"
   ]
  },
  "net.pixeltouch.filters": {
@@ -81678,22 +81912,22 @@
  },
  "net.playq.treasureparty4": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Treasure Party is a puzzle game that combines fun and strategy. Test your puzzle solving skills with coins, lives, and moves included in this modified version for iOS devices.",
+  "date": "2026-11-21",
+  "description": "Treasure Party Puzzle is a puzzle game for iOS featuring captivating gameplay, charming graphics, and exciting challenges. It combines fun and strategy for puzzle enthusiasts. This version includes modified features such as unlimited coins, lives, and moves.",
   "features": [
-   "Coins included",
-   "Lives included",
-   "Moves included"
+   "Coins",
+   "Lives",
+   "Moves"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "19a5098a2ace643c6a2debebd9863acd0b29bdd36a60e808d94ea9a5f0428bb8",
-  "subtitle": "Puzzle fun combining strategy and entertainment",
+  "src_hash": "9d65ea1e10ab7635da777425f00c8e434268b77e64ff6b598449ca1633cc057d",
+  "subtitle": "Puzzle fun with strategy and charming graphics",
   "tags": [
    "puzzle",
    "strategy",
-   "fun",
    "game",
-   "ios"
+   "treasure",
+   "party"
   ]
  },
  "net.quochuywdm.collanote496": {
@@ -81715,19 +81949,21 @@
  },
  "net.room6.horizon": {
   "category": "games",
-  "date": "2026-11-07",
-  "description": "Rogue with the Dead: Idle RPG is an engaging blend of roguelike dungeon crawling and idle gameplay.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "5984a02bd4c78e96b238ab18b15f3a543252b8983a1077f5a03a5515a02207a1",
-  "subtitle": "Idle RPG roguelike dungeon crawler",
+  "date": "2026-11-21",
+  "description": "Rogue with the Dead is an idle RPG combining roguelike dungeon crawling and idle progression for iPhone and iPad. Lead an army of soldiers, mages, and archers through endless waves of enemies with auto-combat mechanics. This version includes iGameGod tweaks.",
+  "features": [
+   "iGameGod Tweaks"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "2565d69e07a5d45d59d261d16de4637da722f428ad64c1c037fa147788eb0eae",
+  "subtitle": "Idle RPG with roguelike dungeon crawling",
   "tags": [
-   "idle",
    "rpg",
+   "idle",
    "roguelike",
-   "dungeon",
-   "crawler",
-   "game"
+   "strategy",
+   "game",
+   "ios"
   ]
  },
  "net.shinyfrog.bear-iOS": {
@@ -82009,18 +82245,20 @@
  },
  "net.wooga.tropicats-tropical-cats-puzzle-paradise": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Tropicats is a match-3 puzzle game for iOS featuring colorful tropical themes and adorable cat characters.",
-  "features": [],
+  "date": "2026-11-21",
+  "description": "Tropicats is a match 3 puzzle game for iOS featuring tropical themes and cat characters. It includes vibrant island settings, power-ups, and an intuitive interface. The version includes iGameGod tweaks.",
+  "features": [
+   "iGameGod"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "45a142f367fc433f0dd74deff277cc44d24a65cdafa9b13419fbca5aa96ec2bd",
-  "subtitle": "Match-3 puzzle with tropical cats",
+  "src_hash": "b560fff6cdf2b148898197acacfb38ca5711ad5e25cfc8b452be9247c4495af3",
+  "subtitle": "Tropical match-3 puzzle with cats",
   "tags": [
    "tropicats",
-   "match-3",
+   "match3",
    "puzzle",
-   "tropical",
    "cats",
+   "tropical",
    "ios"
   ]
  },
@@ -83434,6 +83672,27 @@
    "frontend"
   ]
  },
+ "org.provenance-emu.provenance.alpha": {
+  "category": "games",
+  "date": "2026-11-21",
+  "description": "Access alpha builds of Provenance from the develop branch. These builds include the latest features and bug fixes, though they may contain bugs. You can install this app alongside the stable version to test new features without losing your stable installation. Supports over 60 retro gaming systems including NES, SNES, N64, Genesis, PlayStation, GBA, and many more.",
+  "features": [
+   "60+ systems supported",
+   "Latest features",
+   "Install alongside stable",
+   "Develop branch builds"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "f7c67dc13f52376409c83a8a8099239ded5288f4aafe874a0d3155052573ab63",
+  "subtitle": "Alpha builds of the Provenance retro gaming emulator",
+  "tags": [
+   "emulator",
+   "retro",
+   "games",
+   "alpha",
+   "console"
+  ]
+ },
  "org.quiche.Browser": {
   "category": "utilities",
   "date": "2026-11-20",
@@ -84008,23 +84267,23 @@
   ]
  },
  "phone.location.tracker": {
-  "category": "utilities",
-  "date": "2026-11-10",
-  "description": "Phone Tracker - Family Locator version 2.0.5, patched release with subscription unlocked. Provided by riftysIPAlibrary.",
+  "category": "other",
+  "date": "2026-11-21",
+  "description": "Phone Tracker - Family Locator. Tweak: Subscription Unlocked. Version 2.5.2. Patched.",
   "features": [
    "Subscription Unlocked",
    "Patched"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "bd0961de7bedbd7c5a034663e961fc99f5c11d8880d7b0fb3b496a4065c2d548",
-  "subtitle": "Family location tracking with subscription unlocked",
+  "src_hash": "ea5fd8ce74c48dbeba17cc44412695e4d84b6344ed4a0c2fe295099a26e7ffbc",
+  "subtitle": "Family locator with subscription unlocked",
   "tags": [
-   "phone tracker",
-   "family locator",
-   "subscription unlocked",
-   "patched",
-   "ios tweak",
-   "location"
+   "phone",
+   "tracker",
+   "family",
+   "locator",
+   "subscription",
+   "unlocked"
   ]
  },
  "photofix.photo.enhancer": {
@@ -85881,45 +86140,60 @@
  },
  "tv.twitch": {
   "category": "entertainment",
-  "date": "2026-11-09",
-  "description": "Twitch for iOS featuring customizable chat, extra emotes, and ad blocking.",
+  "date": "2026-11-21",
+  "description": "Twitch version 30.6 modified with Tweach 2.4 and TwitchControl 0.0.6. Features modifications cracked by achu, with Tweach developed by dvntms and TwitchControl developed by zeroxdeadbeef.",
   "features": [
-   "Ad Blocking",
-   "Customizable Chat",
-   "Extra Emotes"
+   "Tweach v2.4",
+   "TwitchControl v0.0.6"
   ],
   "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "82608e87d7742ffd36ab84564ad9e32be0b49581f4e2bf2026ecef3a25abf788",
-  "subtitle": "Customizable Twitch client with extra emotes and ad blocking",
+  "src_hash": "9f6b45e7597d6d9c866d09a020a3d991f989e00b87d787919a7ca04bc1a56237",
+  "subtitle": "Tweaked Twitch client with added controls",
+  "tags": [
+   "twitch",
+   "streaming",
+   "tweach",
+   "twitchcontrol",
+   "video"
+  ]
+ },
+ "tv.twitch.32.0.twitchcontrol.0.0.7.zerodeadbeef": {
+  "category": "entertainment",
+  "date": "2026-11-21",
+  "description": "TwitchControl is a modified version of the Twitch app that includes additional control features. Developed by TubeVault, version 0.0.7 by ZeroDeadBeef. The app can be sideloaded using FastSign operated by CertFish.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "39e936bd9b3adb285e5469790e3bd772ba37ced7b37467bc2561b74368d76881",
+  "subtitle": "Modded Twitch client with added controls",
+  "tags": [
+   "twitch",
+   "mod",
+   "control",
+   "sideload",
+   "certfish",
+   "tubevault"
+  ]
+ },
+ "tv.twitch.twitch": {
+  "category": "entertainment",
+  "date": "2026-11-21",
+  "description": "TwitchPlusK is a tweak for the official Twitch iOS app. It keeps the native app and adds a fully customizable chat, 7TV, BTTV, and FFZ emotes, ad blocking, Channel Points Auto Claim, OLED mode and more. Available in English and French from the Settings menu. Reveal deleted messages, view timeout durations or permanent ban labels, and access third-party emotes through a dedicated emote picker. Block stream ads using proxy, local VAFT, or combined methods.",
+  "features": [
+   "Ad Block",
+   "OLED Mode",
+   "Custom Chat",
+   "7TV BTTV FFZ Emotes",
+   "Auto Claim Points"
+  ],
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "3f04079beba649689fb6fb5db3b43a7c4f0e8e277d0518d98402b17ae757048d",
+  "subtitle": "A tweak for the official Twitch iOS app",
   "tags": [
    "twitch",
    "streaming",
    "chat",
    "emotes",
-   "video"
-  ]
- },
- "tv.twitch.twitch": {
-  "category": "entertainment",
-  "date": "2026-11-08",
-  "description": "TwitchPlusK is a tweak for the official Twitch iOS app. It adds a fully customizable chat, 7TV, BTTV, and FFZ emotes, adblock, Channel Points Auto Claim, OLED mode, and more. Available in English and French from the settings menu. Manage chat features including replying to messages, viewing threads, and customizing deleted-message display. Use 7TV, BTTV, and FFZ emotes with support for animated and Zero-Width emotes, search, favorites management, and PC import. Block stream ads using a proxy, local VAFT method, or a combination of both.",
-  "features": [
-   "Ad Block",
-   "Custom Chat",
-   "Emote Support",
-   "OLED Mode",
-   "Auto Claim"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "34478be77fc9ab1979372eac09c98a1f7ac634c489c47b4a99e2697f302af463",
-  "subtitle": "A tweak for Twitch with adblock and custom chat",
-  "tags": [
-   "twitch",
-   "tweak",
-   "emotes",
-   "adblock",
-   "streaming",
-   "chat"
+   "adblock"
   ]
  },
  "tw.tyche.voicetube": {
@@ -85943,19 +86217,19 @@
  },
  "tycoon.building.simulator.games.aldagames.com": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Transport Tycoon Empire: City on iOS delivers a detailed simulation experience that focuses on building and managing a transport network.",
+  "date": "2026-11-21",
+  "description": "Transport Tycoon Empire: City on iOS delivers a detailed simulation experience that focuses on building, optimizing, and expanding a modern transportation network within a growing city. From the first session, the game communicates a clear sense of scale, placing players in control of interconnected systems rather than isolated tasks.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "0b02ba2aa3c39cb314d4103968c3b5e98c704f338bf2f8fc306241410c73f398",
-  "subtitle": "Build and manage a transport empire",
+  "model": "gemini:gemini-3.5-flash-lite",
+  "src_hash": "413b0c1c08ffb13159f1faf64e3587732cd6c0c36ec6b2e050fae2b7542b2ab7",
+  "subtitle": "Build and expand a modern transportation network",
   "tags": [
    "transport",
    "tycoon",
    "empire",
-   "city",
    "simulation",
-   "ios"
+   "city",
+   "strategy"
   ]
  },
  "uclort.com.AppInfo": {
