@@ -1,9 +1,9 @@
 {
  "moderation": "openrouter:nvidia/nemotron-3.5-content-safety:free",
  "order": [
+  "tokenlab:DeepSeek-V4-Flash",
   "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "gemini:gemini-3.5-flash-lite",
-  "gemini:gemini-3.5-flash",
-  "gemini:gemini-flash-lite-latest"
+  "tokenlab:MiniCPM5-2B",
+  "tokenlab:DeepSeek-V4.1-Flash"
  ]
 }
