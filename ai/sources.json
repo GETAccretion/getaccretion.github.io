@@ -179,6 +179,16 @@
   "real": true,
   "reason": "This is a valid GitHub raw JSON URL hosting an AltStore app repository (A29 Repository) with listed apps."
  },
+ "https://raw.githubusercontent.com/Absenti/iBuilder/main/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid raw GitHub JSON file formatted as an AltStore app source."
+ },
+ "https://raw.githubusercontent.com/Aprexer/LeafPulse/main/apps.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a direct GitHub raw link to an apps.json file which is the standard format for AltStore and SideStore sources."
+ },
  "https://raw.githubusercontent.com/Astear17/iDevicePatcher/main/repo.json": {
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
@@ -208,6 +218,11 @@
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
   "reason": "This is a legitimate developer app source hosted on GitHub, serving a specific app (Plezy) for AltStore and SideStore."
+ },
+ "https://raw.githubusercontent.com/FRr688/FXseekMobile/main/dist/altstore.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid raw GitHub JSON file configured as an AltStore app source for FXseekMobile."
  },
  "https://raw.githubusercontent.com/FriesI23/altstore-repo/master/_site/repo/source.json": {
   "model": "gemini:gemini-3.5-flash-lite",
@@ -284,6 +299,11 @@
   "real": true,
   "reason": "Official AltStore source hosted on GitHub for the Cemu iOS emulator port."
  },
+ "https://raw.githubusercontent.com/Muhammad-Favel/FlowDownload-Releases/main/source.json": {
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "real": true,
+  "reason": "Legitimate developer-hosted source.json on GitHub raw domain, typical pattern for AltStore/SideStore distribution."
+ },
  "https://raw.githubusercontent.com/NexSideloading/NexStore/main/app-repo.json": {
   "model": "gemini:gemini-3.5-flash",
   "real": true,
@@ -293,6 +313,11 @@
   "model": "gemini:gemini-3.5-flash",
   "real": true,
   "reason": "Valid GitHub hosted JSON repository formatted as a native AltStore/SideStore app source."
+ },
+ "https://raw.githubusercontent.com/Nxssim93/hermes-mobile/main/docs/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a valid GitHub raw JSON URL hosting an AltStore source file for an individual developer's iOS app."
  },
  "https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json": {
   "model": "gemini:gemini-3.5-flash",
@@ -448,6 +473,11 @@
   "model": "gemini:gemini-3.5-flash-lite",
   "real": true,
   "reason": "This is a legitimate GitHub raw JSON file acting as an AltStore source for custom Expo Go SDK builds."
+ },
+ "https://raw.githubusercontent.com/Visxoz/Lily-ios/main/docs/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This URL points to a raw JSON file hosted on GitHub, which is the standard hosting method for legitimate AltStore and SideStore app sources."
  },
  "https://raw.githubusercontent.com/WSF-Team/WSF/main/repo/app-repo.json": {
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -764,6 +794,11 @@
   "real": true,
   "reason": "Official AltStore repository for the Fretline iOS app hosted on GitHub."
  },
+ "https://raw.githubusercontent.com/reefbarman/iPlay5/main/altstore-source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a direct raw GitHub link hosting an altstore-source.json file for the iPlay5 app, which conforms to the valid AltStore source structure."
+ },
  "https://raw.githubusercontent.com/run2u006-hue/4WALLS-AltStore/main/source.json": {
   "model": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
   "real": true,
@@ -773,6 +808,11 @@
   "model": "gemini:gemini-3.5-flash",
   "real": true,
   "reason": "The URL points directly to a valid AltStore source JSON hosted on a GitHub repository for an open-source game port."
+ },
+ "https://raw.githubusercontent.com/spananide/spanani-store/develop/source/source.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a legitimate AltStore source hosted on GitHub raw, with a valid JSON source file path and multiple apps listed."
  },
  "https://raw.githubusercontent.com/squazaryu/TumoCompanion/main/apps.json": {
   "model": "gemini:gemini-3.5-flash-lite",
@@ -818,6 +858,11 @@
   "model": "gemini:gemini-3.5-flash",
   "real": true,
   "reason": "Valid AltStore/SideStore JSON source hosted on GitHub Raw for the Nuvio app."
+ },
+ "https://raw.githubusercontent.com/zKevinLy/aiostore/main/sources/spotube.json": {
+  "model": "gemini:gemini-3.5-flash-lite",
+  "real": true,
+  "reason": "This is a direct raw GitHub link to a JSON app source file specifically tailored for AltStore/SideStore, hosted by the developer zKevinLy for Spotube."
  },
  "https://raw.githubusercontent.com/zKevinLy/aiostore/main/sources/taurus.json": {
   "model": "gemini:gemini-3.5-flash",
