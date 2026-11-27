@@ -308,20 +308,19 @@
   ]
  },
  "GetzemaniCruz.sumee.lite": {
-  "category": "utilities",
-  "date": "2026-11-21",
-  "description": "SUMEE Lite is a refactored fork of the original SUMEE codebase, designed with a smaller project size and improved maintainability. Inspired by the PS Vita interface and the Frutiger Aero design language, this stylized iOS launcher features a modular structure with split files and streamlined English to Spanish translation tasks. The core architecture and app logic are manually authored, focusing on decomposition into reusable views, managers, and feature modules while keeping the original behavior and design identity.",
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "SUMEE! Lite is a refactored Lite fork of the original SUMEE! codebase. The work focused on reducing project size. FastSign is operated by CertFish. The easy way to sideload.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "d809380486daacb2347124f1f7ad25bfd500f7f92954eecf430b79f86f3e4fc8",
-  "subtitle": "Nostalgic iOS launcher and frontend",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "3662cfaec3938f84140bdd3296397d874e575ddfd9a9a1016206b4b3067d8cad",
+  "subtitle": "Lite version of SUMEE app with reduced project size",
   "tags": [
-   "launcher",
-   "interface",
-   "frontend",
-   "modular",
-   "utility",
-   "design"
+   "sideload",
+   "lite",
+   "reduced",
+   "fastsign",
+   "certfish"
   ]
  },
  "HUTAR.PaintingAR": {
@@ -1859,21 +1858,22 @@
  },
  "app.monelyze.ToDo": {
   "category": "other",
-  "date": "2026-11-08",
-  "description": "A to\u2011do list app from Monelyze Inc. Version 5.2.2. Premium features unlocked. Bundle ID: app.monelyze.ToDo.",
+  "date": "2026-11-27",
+  "description": "ToDo is a tweak for iOS 17.0 and later. It offers a premium unlocked version (7.3.2) that has been patched for installation. The package is provided by @riftysIPAlibrary.",
   "features": [
-   "Premium Unlocked"
+   "Premium Unlocked",
+   "Patched"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "85e61ed9f71ceaa2fde0ec5b7f3d7377e597eccc06aec56d87a69e7dc056ef62",
-  "subtitle": "Premium unlocked to\u2011do list",
+  "src_hash": "9667459295d4541e810fd0b90267d0d5f7aaf816479358b1db173ff23c486653",
+  "subtitle": "Premium unlocked ToDo tweak for iOS 17+",
   "tags": [
    "todo",
-   "list",
+   "tweak",
    "premium",
-   "monelyze",
-   "productivity",
-   "tasks"
+   "unlocked",
+   "patched",
+   "ios"
   ]
  },
  "app.naviamp.ios": {
@@ -2393,6 +2393,23 @@
    "ipa",
    "repo",
    "apptesters"
+  ]
+ },
+ "app.tv.trybox.ios": {
+  "category": "entertainment",
+  "date": "2026-11-27",
+  "description": "TryBox lets you watch and download movies and TV series in 4K resolution.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "18379cc6820ee3087e0ef09ad5608fbfe7c436166dd38932f36a0e5977c722f0",
+  "subtitle": "Watch and download movies and series in 4K",
+  "tags": [
+   "movies",
+   "series",
+   "4k",
+   "watch",
+   "download",
+   "streaming"
   ]
  },
  "app.underdogs.ulyssvoice": {
@@ -4434,20 +4451,20 @@
   ]
  },
  "co.zestapp.mobile": {
-  "category": "utilities",
-  "date": "2026-11-11",
-  "description": "Zest is a meal planner and helper application designed to assist users with organizing their meals. The app requires iOS 17.0 or later and is available on the App Store.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "935f54e416a7c46798a8cb8a978573880a29b6cf9d19b6b11343a68f3cd8a7da",
-  "subtitle": "Meal Planner and Helper",
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "Zest is an application with premium features injected. Developer information is not available.",
+  "features": [
+   "Premium Unlocked"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "581d2aae8ccda7891d6a1960ef05d3670fd3bf721e65f2a54593202d9d767d23",
+  "subtitle": "Premium features unlocked",
   "tags": [
-   "meal",
-   "planner",
-   "helper",
-   "food",
-   "organizer",
-   "utilities"
+   "zest",
+   "premium",
+   "unlocked",
+   "modified"
   ]
  },
  "com.100k31d.esse": {
@@ -6914,21 +6931,19 @@
  },
  "com.TeamSparta.StarTD": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Star Defense Alliance TD is a strategic tower defense game set in a sci-fi universe. Players defend their territory against incoming waves of alien invaders by utilizing an array of strategic defenses and features managed through iGameGod tweaks.",
-  "features": [
-   "iGameGod Tweaks"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "47cc88645215122bfeb95150c23a78121c0887485750afe0c8f1cbd406fd9c96",
-  "subtitle": "Defend your territory against alien invaders",
+  "date": "2026-11-27",
+  "description": "Star Defense Alliance TD is a tower defense game for mobile devices. It focuses on strategic placement of defensive towers to protect against waves of enemies. The game offers a classic tower defense experience with a space theme.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "d09754721852d6437dd942d010962245511c39af41c15c3e66494c06ae999487",
+  "subtitle": "Tower Defense Strategy Game",
   "tags": [
    "tower defense",
    "strategy",
-   "sci-fi",
-   "alien",
-   "defense",
-   "game"
+   "space",
+   "mobile",
+   "game",
+   "alliance"
   ]
  },
  "com.TeamSparta.WiggleDefender": {
@@ -9606,20 +9621,17 @@
  },
  "com.aniplex.resu": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Resident Evil Survival Unit brings the legendary Resident Evil universe to iOS with immersive survival gameplay, enhanced freedom and no restrictions. Experience the tension, atmosphere and action of a true survival game on your mobile device. This modified version features included tweaks with iGameGod.",
-  "features": [
-   "iGameGod Tweaks"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "ca820c192b7e895d417e3311c872d4c763be63bbe431f9c08c1f223d7ed162c7",
-  "subtitle": "Immersive survival gameplay in the Resident Evil universe",
+  "date": "2026-11-27",
+  "description": "Resident Evil Survival Unit brings the legendary Resident Evil universe to iOS in an immersive way. This is the IPA MOD version from ipaomtk.com. The app offers an immersive experience for fans of the franchise.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "e34cd41c163f9873a96dcdd7262fbe2fc911c32240c0cb394d0fe33d6794eb90",
+  "subtitle": "Resident Evil Survival Unit on iOS",
   "tags": [
-   "survival",
    "resident evil",
-   "game",
-   "action",
-   "ios"
+   "survival",
+   "ios",
+   "immersive"
   ]
  },
  "com.aniwings.app": {
@@ -12473,20 +12485,20 @@
   ]
  },
  "com.blacktower.forextestapp": {
-  "category": "other",
-  "date": "2026-11-21",
-  "description": "STINU Position Size is a tool designed for both experienced traders and beginners. It helps users make informed decisions about position sizes, supporting a disciplined and strategic trading approach.",
+  "category": "utilities",
+  "date": "2026-11-27",
+  "description": "STINU Position Size is a tool designed for both seasoned traders and those starting their investment journey. It helps calculate position sizing for trading. The app provides a straightforward utility for managing trade calculations. The tool is intended to support investment decision-making by offering position size calculations.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "e4100008755bae89418c6e00120ea524ba41617f2961a744957ebbe13369b54a",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "bad443721a9c870cd293417455a3d3e9e5cb2a97da701c245e0e70dedfec3f8b",
   "subtitle": "Position size calculator for traders",
   "tags": [
    "trading",
-   "position size",
-   "investment",
-   "tool",
-   "discipline",
-   "strategy"
+   "position",
+   "size",
+   "calculator",
+   "investing",
+   "finance"
   ]
  },
  "com.blake.femalefitness": {
@@ -13314,23 +13326,20 @@
  },
  "com.burbn.barcelona": {
   "category": "social",
-  "date": "2026-11-10",
-  "description": "Modified Threads app version 441.0.0 that includes ThreadSaver by @swiftLeopard and OpeninThreadsSafariExtension. Extension fixes provided by @erupts0. Published by @compiledipas.",
+  "date": "2026-11-27",
+  "description": "Threads is a social networking app that allows users to share text-based posts, follow other users, and engage in conversations. The app is injected with premium features.",
   "features": [
-   "ThreadSaver included",
-   "Safari extension included",
-   "Extension fixes"
+   "Premium"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "899948e16b3cb31e1ea8db72271cbde01c4d0419b31e72dce36fce9870c78ad0",
-  "subtitle": "ThreadSaver with Safari extension",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "d339affda29a03985460d0334937a2d828011ff14b957521699b7ab077545f49",
+  "subtitle": "Premium Social Threads App",
   "tags": [
-   "threads",
-   "threadsaver",
-   "safari",
-   "extension",
    "social",
-   "meta"
+   "threads",
+   "posts",
+   "follow",
+   "premium"
   ]
  },
  "com.burbn.instagram": {
@@ -13902,19 +13911,18 @@
  },
  "com.casual.basketball": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Basketball Star Rising v1.6.0 offers an immersive basketball experience with intuitive controls, vibrant graphics, and engaging gameplay for casual players and dedicated fans.",
+  "date": "2026-11-27",
+  "description": "Basketball Star Rising is a mobile sports game for iOS. Version 1.6.0 offers a basketball simulation experience.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "f537f3a67918d5826abffeb578b1e0ad18d8fc9da403ddc305f4036a49e5c010",
-  "subtitle": "Immersive basketball sports game",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "cfbf648776fb07ee6332d5ce58a2736078bbe1e6b04ed8a3a1db87492dcdbd25",
+  "subtitle": "Basketball simulation game for iOS",
   "tags": [
    "basketball",
    "sports",
    "game",
-   "simulation",
-   "mobile",
-   "ios"
+   "ios",
+   "simulation"
   ]
  },
  "com.ccgame.craftclash": {
@@ -14921,19 +14929,19 @@
  },
  "com.clickteam.ultimatecustomnight": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Ultimate Custom Night is a point-and-click survival horror video game created by Scott Cawthon. It is the second official spin-off of the Five Nights at Freddy's series, following FNaF World, and the eighth game overall.",
+  "date": "2026-11-27",
+  "description": "Ultimate Custom Night is an intense horror game that keeps you on the edge of your seat. It challenges both seasoned gamers and newcomers with customizable nights.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "5ed8d810f9c38673958c1194844d8275eedb2647690f8836e14b7a56f3790cf2",
-  "subtitle": "Point-and-click survival horror game",
+  "src_hash": "d6aaa2a87661770d4645d266f39e5a2e170bd6ce5b4e34ee4ab1cdb9cf2d7e2c",
+  "subtitle": "Intense horror survival game",
   "tags": [
-   "survival horror",
-   "point and click",
-   "five nights at freddys",
-   "scott cawthon",
-   "spin off",
-   "horror game"
+   "horror",
+   "game",
+   "intense",
+   "custom",
+   "night",
+   "survival"
   ]
  },
  "com.cloud-compiler": {
@@ -18660,18 +18668,18 @@
  },
  "com.dxx.firenow": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Survivor.io is a strategic survival game where players must explore, build, and survive the elements of a hostile open world. Players must scavenge for resources and create items to build bases and fortifications, while fending off enemies from all sides. Play solo or work together with others to survive.",
+  "date": "2026-11-27",
+  "description": "Survivor.io is a strategic survival game where players must explore, build, and survive the elements of a hostile open world.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "ab1e185342c97e867bad9f8261ecb81e58653519945914569f5b92d21404bc4e",
-  "subtitle": "A strategic survival game in a hostile open world",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "decf0201e7a2d2a4c48d75c5badc041f6117507cb04c22c1c3cf7e7c5e64db57",
+  "subtitle": "Survive the hostile open world",
   "tags": [
    "survival",
    "strategy",
-   "open world",
-   "crafting",
-   "action"
+   "open-world",
+   "explore",
+   "build"
   ]
  },
  "com.dylancompanjen.musio": {
@@ -19057,21 +19065,17 @@
  },
  "com.eastsidegames.squishmallows": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Squishmallows Match is a memory puzzle game featuring the Squishmallows plush characters. It offers simple match\u2011two mechanics, colorful graphics, and a soothing soundtrack. The app runs on iOS devices and includes the iGameGod tweak.",
-  "features": [
-   "iGameGod"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4f3506a17383f5be83d27f4f2ff275557f16b2f942ea406f8692e5bcd415ac48",
-  "subtitle": "Match Squishmallows in a cute memory puzzle",
+  "date": "2026-11-27",
+  "description": "Squishmallows Match is a puzzle game for iOS featuring Squishmallows plush toys. Players match colorful characters in levels. The app is available exclusively on iOS.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "4bd9d8e2194a3c8df2104003739943461deb0cd437d66848f871fc9f0e72f8cf",
+  "subtitle": "Match and collect Squishmallows plushies",
   "tags": [
    "squishmallows",
    "puzzle",
    "match",
-   "memory",
-   "kids",
-   "casual"
+   "ios"
   ]
  },
  "com.eastsidegames.trailerparkboys": {
@@ -19442,20 +19446,18 @@
  },
  "com.eightstudio.spiritking": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Spirit King Quest delivers a rich and engaging adventure RPG experience that combines action, exploration, and character progression into a cohesive journey. Explore a world full of mystical realms, diverse enemies, and thought-provoking quests with responsive and intuitive controls.",
-  "features": [
-   "iGameGod Tweaks"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "7f5a4682e4cdbf8799d16c80c064bc26c2c0ae35a88d364a44b0f00e599139d5",
-  "subtitle": "An adventure RPG experience on iOS",
+  "date": "2026-11-27",
+  "description": "Spirit King Quest on iOS delivers a rich and engaging adventure RPG experience that combines action and exploration.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "8f4d7857e14603a3b1cf49ae3d5e38d078f210077bfe1abbbf821095d7e1d277",
+  "subtitle": "Adventure RPG with action and exploration",
   "tags": [
-   "rpg",
    "adventure",
+   "rpg",
    "action",
-   "quest",
-   "game"
+   "exploration",
+   "ios"
   ]
  },
  "com.eightythree.SafetyPhoto": {
@@ -20762,22 +20764,20 @@
   ]
  },
  "com.f5game.ss": {
-  "category": "games",
-  "date": "2026-11-21",
-  "description": "Spirit Summoners IPA is an iOS application package that lets users install the Spirit Summoners game via sideloading. The IPA includes character models, battle mechanics, environment assets, and system configuration. It also references the iGameGod tweak.",
-  "features": [
-   "iGameGod Tweak"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4d93e06fffc150cc20439f7e48c6c0b4ce58311ddc72a192f3c2a5156345aa08",
-  "subtitle": "Spirit Summoners IPA for sideloading",
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "Spirit Summoners IPA is the iOS application package that allows iPhone and iPad users to install the Spirit Summoners app.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "10da9fb1def0b53c109bc3d425ca2a2b3188e0a4ab1fa3ef4614f968a811f585",
+  "subtitle": "Install Spirit Summoners on iPhone and iPad",
   "tags": [
-   "spirit summoners",
+   "spirit",
+   "summoners",
    "ipa",
-   "sideload",
-   "game",
    "ios",
-   "tweak"
+   "iphone",
+   "ipad"
   ]
  },
  "com.facebook.Facebook": {
@@ -21400,22 +21400,22 @@
  },
  "com.financeillustrated.TradingGame": {
   "category": "games",
-  "date": "2026-11-08",
-  "description": "Trading Game is a stock simulator. The tweak provides Pro Unlocked features. Version 4.80. Patched.",
+  "date": "2026-11-27",
+  "description": "Trading Game is a stock market simulator game. This version 4.6.8 includes the Pro Unlocked tweak and is patched. It is distributed by riftysIPAlibrary.",
   "features": [
    "Pro Unlocked",
    "Patched"
   ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "eec248be2cb3b1b225ae7db8ba379bf9be50744d85a71ccf372f2b88ec5d60e0",
-  "subtitle": "Stock market simulator with pro features",
+  "src_hash": "4d153d789d8310943342961db0a20b456eb1b3b94743d86ec5895169ba66d71d",
+  "subtitle": "Stock market simulator with Pro features unlocked",
   "tags": [
    "trading",
    "stock",
    "simulator",
+   "game",
    "pro",
-   "unlocked",
-   "patched"
+   "unlocked"
   ]
  },
  "com.finch.finch": {
@@ -22267,36 +22267,33 @@
  },
  "com.fouadraheb.watusi": {
   "category": "social",
-  "date": "2026-11-13",
-  "description": "WhatsApp is a widely popular messaging iOS app that has revolutionized the way we communicate with each other.",
+  "date": "2026-11-27",
+  "description": "Watusi is an all-in-one tweak for WhatsApp Messenger. It is a duplicated app that can be installed alongside the original WhatsApp (Bundle ID com.fouadraheb.watusi).",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "ef4edb853ad569089f2c3327d28bcd95c2b51419fe35ef93944fa9cf6ccc9f6b",
-  "subtitle": "Popular messaging app for iOS",
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "bea7c70841a38b469d72d48af8b4aec5bee6b4d733d4264f1cde057e13a2e8aa",
+  "subtitle": "WhatsApp Tweak",
   "tags": [
-   "messaging",
-   "chat",
-   "communication",
-   "ios",
-   "ipa",
-   "whatsapp"
+   "whatsapp",
+   "duplicate",
+   "tweak"
   ]
  },
  "com.fouadraheb.watusiSMB": {
   "category": "social",
-  "date": "2026-11-13",
-  "description": "WhatsApp Business IPA is a powerful messaging platform that allows businesses to connect and engage with their customers in a conven",
+  "date": "2026-11-27",
+  "description": "Watusi is a duplicate version of WhatsApp Business that can be installed alongside the original app. It serves as an all-in-one tweak for WhatsApp Messenger. Bundle ID: com.fouadraheb.watusiSMB.",
   "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "b9bbd57ed2458096929de515f5cc139da00a393c8885867b99b6c9ce15018fe9",
-  "subtitle": "WhatsApp Business messaging for companies",
+  "src_hash": "e5f453afda2e7639fad99cf9924850483dcc6a89bf83568e652eaf04043758b6",
+  "subtitle": "Duplicate WhatsApp Business tweak",
   "tags": [
    "whatsapp",
    "business",
-   "messaging",
-   "ipa",
-   "communication",
-   "social"
+   "duplicate",
+   "tweak",
+   "fouadraheb",
+   "install"
   ]
  },
  "com.foundry63.tailor": {
@@ -23381,19 +23378,19 @@
  },
  "com.gangame.sushibar": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Sushi Bar Idle is a mobile game that blends sushi-making with idle mechanics. Developed by a team of game designers, it lets players run a sushi bar and progress automatically. The IPA includes iGameGod tweaks.",
+  "date": "2026-11-27",
+  "description": "Sushi Bar Idle is a mobile game where you manage a sushi bar. The game focuses on idle gameplay, allowing you to grow your restaurant over time. It is described as captivating and addictive. The source does not provide details on specific mechanics, features, or monetization.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "bd938f599420214f8f17480865eb54875079cb1f3fc6ad163243032c7a029f45",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "bf179d764dab3361f63a426e78a257199f1caba84958cb65cfa0cb46eff33145",
   "subtitle": "Idle sushi restaurant management game",
   "tags": [
    "idle",
    "sushi",
-   "game",
-   "simulation",
+   "restaurant",
    "management",
-   "ios"
+   "mobile",
+   "game"
   ]
  },
  "com.garena.gamecenter": {
@@ -24457,19 +24454,18 @@
  },
  "com.google.ios.youtube": {
   "category": "photo-video",
-  "date": "2026-11-10",
-  "description": "YTLite + Tweaks is a modified version of YouTube enhanced with YTLite by developer dayanch96. The app provides an alternative YouTube viewing experience with additional tweaks and modifications built on top of the YTLite foundation.",
-  "features": [],
+  "date": "2026-11-27",
+  "description": "YouTubeOLED is a YouTube client that includes Premium features.",
+  "features": [
+   "Premium"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "7ed6943040f7e121f51247d119537b8bbd1c5d4a812cb6366fc9e183966cddfd",
-  "subtitle": "Modified YouTube client with YTLite enhancements",
+  "src_hash": "32741aa72afb11ba3ef772942c7ef5b7982d37ff4039c6e1073d8ec2ee8229aa",
+  "subtitle": "YouTube client with Premium features",
   "tags": [
    "youtube",
-   "modified",
-   "ytlite",
-   "video",
-   "player",
-   "tweaks"
+   "oled",
+   "premium"
   ]
  },
  "com.google.ios.youtube.asjtube.1.4.0": {
@@ -24971,6 +24967,48 @@
    "mod",
    "modded",
    "sideload"
+  ]
+ },
+ "com.google.ios.youtube.music.ytmusicultimateplus.last.fm.patched.ipavault": {
+  "category": "photo-video",
+  "date": "2026-11-27",
+  "description": "This is a modded version of YouTube Music. It includes tweaks such as Return-YouTube-Music-Dislikes, YTMABConfig, VolumeBoostYT, YouMusicPiP, and a new downloading mod. FastSign is operated by CertFish. For sideloading, use the provided URL.",
+  "features": [
+   "No Ads",
+   "Cheat Menu",
+   "Unlocked"
+  ],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "5481c337ca3d4164ac2b5f3bd4a0868e05bf2db9148162a38776af17997eaef8",
+  "subtitle": "YTMusicUltimate+ Modded YouTube Music",
+  "tags": [
+   "ytmusic",
+   "modded",
+   "patch",
+   "sideload",
+   "fastsign",
+   "certfish"
+  ]
+ },
+ "com.google.ios.youtube.music.ytmusicultimateplus.no.youmusicpip.no.last.fm.patched.ipavault": {
+  "category": "photo-video",
+  "date": "2026-11-27",
+  "description": "This is a modded version of YouTube Music with several tweaks. It includes Return YouTube Music Dislikes, YTMABConfig, VolumeBoostYT, and a new downloading mod by Mark02-2012. FastSign is operated by CertFish.",
+  "features": [
+   "No Ads",
+   "Unlocked",
+   "FastSign"
+  ],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "16a7c2d8024f143bc91d15266a3218b3c2e65df7866ef2a865c251bd3ae81f54",
+  "subtitle": "YMusicUltimate+ Patched",
+  "tags": [
+   "ytmusic",
+   "modded",
+   "ytma",
+   "volume",
+   "fastsign",
+   "certfish"
   ]
  },
  "com.google.ios.youtube.music.ytmusicultimateplus.no.youmusicpip.patched.ipavault": {
@@ -25672,6 +25710,29 @@
    "sideload"
   ]
  },
+ "com.google.ios.youtube.ytkace.1.1.7.bonus.iOSDecrypted": {
+  "category": "photo-video",
+  "date": "2026-11-27",
+  "description": "YTKACE is a modded version of YouTube with several tweaks. Available tweaks include YouPiP, Return YouTube Dislikes, DontEatMyContent, NoYTPremium, YTABConfig, YTUHD, YTVideoOverlay, and Open In YouTube Safari Extension. Source code is available on GitHub. FastSign is operated by CertFish.",
+  "features": [
+   "NoYTPremium",
+   "YouGroupSettings",
+   "YouPiP",
+   "YTABConfig",
+   "YTVideoOverlay"
+  ],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "92a1e10ba2c828b3c24ffc2f13bf9313edc5436f97dbc13b5b638c4ff7ba2e37",
+  "subtitle": "YTKACE (1.1.7) - YouTube Tweaks",
+  "tags": [
+   "youtube",
+   "tweaks",
+   "modded",
+   "unescrypted",
+   "sideload",
+   "certfish"
+  ]
+ },
  "com.google.ios.youtube.ytkace.1.1.7.bonus.ipavault": {
   "category": "photo-video",
   "date": "2026-11-13",
@@ -26353,6 +26414,27 @@
    "video"
   ]
  },
+ "com.google.ios.youtube.ytplus.cracked.6.0.beta.1.21.39.4": {
+  "category": "photo-video",
+  "date": "2026-11-27",
+  "description": "This is a cracked version of YTPlus (6.0 BETA 1, v21.39.4) with the Dan Account System DRM removed. Cracked by itzzace0 (Epic0001). This is a beta build of YTPlus.",
+  "features": [
+   "Cracked",
+   "No DRM",
+   "Beta"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "5070199da19b05ada9680f09998c7aafb1891bfd61cac95b6398db039251628b",
+  "subtitle": "Cracked YouTube Plus beta without DRM",
+  "tags": [
+   "youtube",
+   "cracked",
+   "beta",
+   "youtube plus",
+   "modded",
+   "video"
+  ]
+ },
  "com.google.ios.youtube.ytplus.cracked.6.0.beta.1.ios15": {
   "category": "photo-video",
   "date": "2026-11-11",
@@ -26611,6 +26693,25 @@
    "video"
   ]
  },
+ "com.google.ios.youtube.ytplus.cracked.bonus.6.0.beta.1.ipavault": {
+  "category": "photo-video",
+  "date": "2026-11-27",
+  "description": "This is the cracked version of YTPlus without the Dan Account System DRM. It is a beta build and may have bugs or glitches. Bonus tweaks added by IPAVault include YTABConfig, YTweaks, YouPIP, VolumeBoostYT, DontEatMyContent, ReturnYouTubeDislike, LowContrastMode, VideoOverlay, YouGetCaption, YouSpeed, YouQuality, YouChooseQuality, and YTUHD. FastSign is operated by CertFish.",
+  "features": [
+   "No Ads",
+   "Cheat Menu",
+   "Unlocked"
+  ],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "b71d7f1e48ae561bd997d9816e2a0682e4a298d436fe826c3aadf1f6b3f4a04a",
+  "subtitle": "YTPlus Lets You Browse Video",
+  "tags": [
+   "ytplus",
+   "cracked",
+   "bonus",
+   "tweaks"
+  ]
+ },
  "com.google.ios.youtube.ytplus.cracked.bonus.6.0.beta.1.ipvault": {
   "category": "photo-video",
   "date": "2026-11-11",
@@ -26626,6 +26727,26 @@
    "tweaks"
   ]
  },
+ "com.google.ios.youtube.ytplus.cracked.bonus.6.0.beta.2.ipavault": {
+  "category": "photo-video",
+  "date": "2026-11-27",
+  "description": "This is the cracked version of YTPlus without the Dan Account System DRM. It is a beta build so expect bugs and glitches. Bonus tweaks added by IPAVault include YTABConfig, YTweaks, YouPIP, VolumeBoostYT, DontEatMyContent, ReturnYouTubeDislike, LowContrastMode, VideoOverlay, YouGetCaption, YouSpeed, YouQuality, YouChooseQuality, YTUHD, and OpenInYouTube Safari Extension. FastSign is operated by CertFish.",
+  "features": [
+   "No Ads",
+   "Bonus Tweaks",
+   "Beta Build"
+  ],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "f4d2587da48c9109f72f38e4cf7e8286356cf029c7c9a883c14fac8e30742873",
+  "subtitle": "YTPlus Cracked + Bonus Tweaks (6.0 Beta 2)",
+  "tags": [
+   "ytplus",
+   "cracked",
+   "tweaks",
+   "beta",
+   "ipavault"
+  ]
+ },
  "com.google.ios.youtube.ytplus.cracked.bonus.6.0.beta.2.ipvault": {
   "category": "photo-video",
   "date": "2026-11-11",
@@ -26639,6 +26760,25 @@
    "beta",
    "cracked",
    "video"
+  ]
+ },
+ "com.google.ios.youtube.ytplus.cracked.bonus.6.0.iosdecrypted": {
+  "category": "photo-video",
+  "date": "2026-11-27",
+  "description": "This is the cracked version of YTPlus without the Dan Account System DRM. Bonus tweaks include YouPiP, Return YouTube Dislikes, DontEatMyContent, NoYTPremium, YTABConfig, YTUHD, YTVideoOverlay, and Open In YouTube Safari Extension. The IPA was made by iOSDecrypted. FastSign is operated by CertFish.",
+  "features": [
+   "No Ads",
+   "Cheat Menu",
+   "Unlocked"
+  ],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "2e8edddb41594ee7169c4bb11b28271e530eaae75ca84b7df8e57e420b482620",
+  "subtitle": "YTPlus Lite Tweaks",
+  "tags": [
+   "yt",
+   "tweaks",
+   "cracked",
+   "bonus"
   ]
  },
  "com.google.ios.youtube.ytplus.cracked.bonus.mark02-2012.5.2.2.21.24.3": {
@@ -26995,6 +27135,27 @@
    "video"
   ]
  },
+ "com.google.tvos.youtube": {
+  "category": "photo-video",
+  "date": "2026-11-27",
+  "description": "MuTube enhances YouTube on Apple TV using TizenTube Cobalt's userscript. It removes ads and adds support for SponsorBlock. This build is for tvOS only and does not work on iOS. Update notifications are available via Discord.",
+  "features": [
+   "Ad-free",
+   "SponsorBlock",
+   "tvOS only"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c53b6264afdd1f94ced40e9437b4fd865d76826d224ba46b5c59d38f3925eb22",
+  "subtitle": "YouTube ad-free with SponsorBlock on Apple TV",
+  "tags": [
+   "youtube",
+   "apple tv",
+   "ad-free",
+   "sponsorblock",
+   "tvos",
+   "mod"
+  ]
+ },
  "com.google.tvos.youtube.4.54.01": {
   "category": "photo-video",
   "date": "2026-11-08",
@@ -27285,17 +27446,14 @@
  },
  "com.graz.upscaler": {
   "category": "other",
-  "date": "2026-11-08",
-  "description": "This version includes premium features injected into the app.",
-  "features": [
-   "Premium Unlocked"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "4aca28561d9f9365ab635e92fc8d920d42215bb9d08c13d0ef30dc6bd4ccd857",
-  "subtitle": "Premium features unlocked",
+  "date": "2026-11-27",
+  "description": "UScale helps enhance image quality and upscale. Min.iOS version 16.0 or higher is required. App version is 2.1.5. Note: description text may be incomplete.",
+  "features": [],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "154c1c77a8f60a1e7d972211dcaec8e62a38cf4f85dba48f66130988d91e3fe4",
+  "subtitle": "Enhance Image Quality",
   "tags": [
-   "premium",
-   "unlocked",
+   "image",
    "upscale"
   ]
  },
@@ -29248,25 +29406,26 @@
   ]
  },
  "com.huamu013.ZhihuMinusMinus": {
-  "category": "developer",
-  "date": "2026-11-11",
-  "description": "ZhihuMinusMinus is a lightweight third-party Zhihu client built with React Native and Expo. It features no advertisements and supports multi-account switching, guest mode, custom global theme colors, and a dark mode. Users can view the hot list, recommendations, answers, articles, thoughts, and the comment section. It also supports automatic updates from GitHub Releases.",
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "\u57fa\u4e8e React Native (Expo) \u6784\u5efa\u7684\u8f7b\u91cf\u7ea7\u7b2c\u4e09\u65b9\u77e5\u4e4e\u5ba2\u6237\u7aef\uff0c\u65e0\u5e7f\u544a\uff0c\u652f\u6301\u591a\u8d26\u53f7\u5207\u6362\u3001\u6e38\u5ba2\u6a21\u5f0f\u3001\u5168\u5c40\u4e3b\u9898\u8272\u81ea\u5b9a\u4e49\u4e0e\u6df1\u8272\u6a21\u5f0f\uff0c\u53ef\u67e5\u770b\u70ed\u699c\u3001\u63a8\u8350\u3001\u56de\u7b54\u3001\u6587\u7ae0\u3001\u60f3\u6cd5\u4e0e\u8bc4\u8bba\u533a\uff0c\u5e76\u652f\u6301\u4ece GitHub Releases \u81ea\u52a8\u66f4\u65b0\u3002",
   "features": [
    "No Ads",
-   "Multi-account switching",
-   "Guest mode",
-   "Dark mode",
-   "Auto updates"
+   "\u591a\u8d26\u53f7\u5207\u6362",
+   "\u6e38\u5ba2\u6a21\u5f0f",
+   "\u81ea\u5b9a\u4e49\u4e3b\u9898",
+   "\u81ea\u52a8\u66f4\u65b0"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "112eb4e4a049271b073b5c2a5751e5feb7c8e1b8c5d80abb1fe4c19cad6d7c58",
-  "subtitle": "Lightweight third-party Zhihu client",
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "f7ae60886a4d90782126a9cf05d31ee810306ef2eb82ce65f2af330c9a17c550",
+  "subtitle": "\u8f7b\u91cf\u7ea7\u77e5\u4e4e\u5ba2\u6237\u7aef",
   "tags": [
-   "zhihu",
-   "client",
-   "reader",
-   "social",
-   "forum"
+   "\u77e5\u4e4e",
+   "\u5ba2\u6237\u7aef",
+   "\u8f7b\u91cf\u7ea7",
+   "\u591a\u8d26\u53f7",
+   "\u4e3b\u9898",
+   "\u81ea\u52a8\u66f4\u65b0"
   ]
  },
  "com.hubx.imagination": {
@@ -29612,23 +29771,19 @@
  },
  "com.hyperdotstudios.swampattack2": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Defend your swamp in a humorous setting in Swamp Attack 2. This mobile adventure builds upon its predecessor with new features, improved graphics, and exciting gameplay elements. Face off against monsters and protect your territory.",
-  "features": [
-   "Gold",
-   "Ammo",
-   "Monster ATK"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "a0922925f01156a16523e436d6de5dcd6ac17db9ba549ab2ffeaca06ada75d37",
-  "subtitle": "Defend your swamp in this action adventure game",
+  "date": "2026-11-27",
+  "description": "Swamp Attack 2 is a mobile game that takes players on an adventurous journey through a swamp filled with monsters. Players can engage in combat, manage ammunition, and upgrade their attack power. The game offers an action-packed experience with a focus on survival and monster battles.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "652d73ec2048fa537c31055a2026180985f3b37d92de6b56b10500948207336a",
+  "subtitle": "Wild Adventure Through a Monster-Filled Swamp",
   "tags": [
-   "swamp attack",
-   "action",
+   "swamp",
    "monster",
-   "defense",
    "adventure",
-   "game"
+   "combat",
+   "action",
+   "mobile"
   ]
  },
  "com.hyperixa.IPSW": {
@@ -34089,94 +34244,84 @@
  },
  "com.ipaomtk.spirit.detective.159751": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Spirit Detective is an iOS mystery adventure game that blends investigation mechanics with supernatural storytelling. Experience the full game on your iPhone, featuring case-based missions, puzzles, and narrative progression as you play the role of a detective.",
+  "date": "2026-11-27",
+  "description": "Spirit Detective IPA is the iOS installable version of a mystery adventure game that blends investigation. It is available for installation on iOS devices.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2b728d5e5d0469bf20beabf63f49f413bae5eecab41dbe62f76369990ac9ef6d",
-  "subtitle": "A mystery adventure game with supernatural storytelling",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "a8a323066518ce31ff2b67053cd1f37057c3bc0d3da612e458cee203407698f4",
+  "subtitle": "Mystery adventure investigation game for iOS",
   "tags": [
-   "detective",
    "mystery",
    "adventure",
-   "puzzle",
    "investigation",
+   "ios",
    "game"
   ]
  },
  "com.ipaomtk.star.overlord.155689": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Star-Overlord IPA is the iOS installation file for the sci-fi strategy RPG Star-Overlord. It allows iPhone and iPad users to install and experience the game outside of the default App Store ecosystem. The IPA format provides flexibility in managing app versions and is designed for users who prefer sideloading or testing applications on their Apple devices.",
+  "date": "2026-11-27",
+  "description": "Star-Overlord IPA is the iOS installation file of the sci-fi strategy RPG Star-Overlord, allowing iPhone and iPad users to install and play the game. The game is a strategy role-playing game set in a science fiction universe.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "949abbbc880e01bbca179cbbc302ed8d2e2861b3267e8abccb17a1a03b96555e",
-  "subtitle": "Sci-fi strategy RPG iOS installation file",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "e50dc1959ce1ee3ab9ed662712a386ba99c280bef808ecf2f71490c44747af5d",
+  "subtitle": "Sci-fi strategy RPG for iPhone",
   "tags": [
-   "star-overlord",
-   "ipa",
    "rpg",
    "strategy",
-   "sideload",
-   "ios"
+   "sci-fi",
+   "ios",
+   "ipa",
+   "star-overlord"
   ]
  },
  "com.ipaomtk.star.vpn.super.fast.proxy.160090": {
   "category": "utilities",
-  "date": "2026-11-21",
-  "description": "Star VPN \u2013 Super Fast Proxy is an iOS application package (IPA) that installs a virtual private network tool on iPhone and iPad via sideloading. It provides secure internet access, improved online privacy, and routes traffic through proxy servers.",
-  "features": [
-   "Secure Access",
-   "Privacy Protection",
-   "Traffic Routing",
-   "Sideload Install"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "a0b2df9e45b2c17fafd7fe32691da596beb66670596169fae6dca621c1ad80d7",
-  "subtitle": "Fast VPN proxy for iOS sideloading",
+  "date": "2026-11-27",
+  "description": "Star VPN \u2013 Super Fast Proxy is an iOS application package that enables users to connect through a virtual private network for secure and private browsing.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "9b29a401c9be1fce9b48f97fd6f2e2034b8b8d7438e01e16646e56d226f7de33",
+  "subtitle": "Fast and secure VPN proxy for iOS",
   "tags": [
    "vpn",
    "proxy",
-   "privacy",
-   "sideload",
-   "ios",
-   "security"
+   "secure",
+   "private",
+   "browsing",
+   "ios"
   ]
  },
  "com.ipaomtk.status.magic.159862": {
   "category": "utilities",
-  "date": "2026-11-21",
-  "description": "Status Magic is a customization utility designed to change and personalize the status bar on iPhone. The application provides access to features that allow users to modify carrier text, add custom messages, and adjust visual indicators. It gives you control over the appearance of your device's status bar.",
+  "date": "2026-11-27",
+  "description": "Status Magic is a customization utility for iOS that allows users to change and personalize their device's status bar.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "5b1bad8247f1c3212788509c0dc94139c84bb0c3eda4e1b7dac3479f2d2231f5",
-  "subtitle": "Customize and personalize your iPhone status bar",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "3f8a18a1e117921e37fd67749cb49b80fb744f0bae392cf336f9cf47f3dc41ac",
+  "subtitle": "Customize Your iPhone Status Bar",
   "tags": [
    "status bar",
-   "customization",
-   "utility",
-   "iphone",
-   "personalize"
+   "customize",
+   "personalize",
+   "ios",
+   "utility"
   ]
  },
  "com.ipaomtk.stepinator.step.counter.159550": {
-  "category": "utilities",
-  "date": "2026-11-21",
-  "description": "Stepinator is a lightweight fitness tracking app designed to monitor daily steps and physical activity directly on your iPhone. It provides access to all core features, including step counting, activity tracking, and progress monitoring.",
-  "features": [
-   "Step counting",
-   "Activity tracking",
-   "Progress monitoring"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "980b4f3b4d5a518915d3e4d5f8b8586a89600c55019f04e7d674af5fdffad204",
-  "subtitle": "Track your daily steps and physical activity",
+  "category": "lifestyle",
+  "date": "2026-11-27",
+  "description": "Stepinator \u2013 Step Counter is the iOS installable version of a lightweight fitness tracking app. It counts steps taken by the user.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "35cb1603da884d4cc8c454b357f15f1ceb1096809634f7beb2b3502250852857",
+  "subtitle": "Lightweight step counter for iOS",
   "tags": [
-   "fitness",
    "step counter",
-   "activity",
-   "tracker",
-   "health"
+   "fitness",
+   "tracking",
+   "health",
+   "ios"
   ]
  },
  "com.ipaomtk.stickman.survivor.idle.rpg.156602": {
@@ -34198,19 +34343,18 @@
  },
  "com.ipaomtk.super.fowlst.159977": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Super Fowlst is an iOS game package that allows players to install the quirky and action-packed arcade game on iPhone and iPad devices through sideloading. It delivers the full gameplay experience outside the App Store while preserving its original mechanics, humor, and fluid performance.",
-  "features": [
-   "iGameGod"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "8763532bf81e447819fa9f2381bb1202652de2d956e2e2d1003282bef35ca574",
-  "subtitle": "Action-packed arcade game for iPhone and iPad",
+  "date": "2026-11-27",
+  "description": "Super Fowlst IPA is an iOS game package that allows players to install the quirky and action-packed game. The source text does not provide further details about gameplay or features.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "d5ccf712521b1b097cf86842a94d7cd12a0c1a94222c1cac9bfb4360145ccc14",
+  "subtitle": "Quirky action game for iOS",
   "tags": [
-   "arcade",
-   "action",
+   "ios",
    "game",
-   "sideload"
+   "action",
+   "quirky",
+   "install"
   ]
  },
  "com.ipaomtk.super.stylist.fashion.makeover.157661": {
@@ -34235,41 +34379,34 @@
  },
  "com.ipaomtk.superlook.ai.video.photo.154274": {
   "category": "photo-video",
-  "date": "2026-11-21",
-  "description": "Superlook is an advanced iOS application designed to enhance and transform both photos and videos using artificial intelligence, offering users creative editing tools through an IPA installation format.",
+  "date": "2026-11-27",
+  "description": "Superlook: AI Video & Photo is an iOS app designed to enhance and transform videos and photos using AI technology.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "783a6d04baaffc2db3e8099d88c8b9a77c3116869c148622f4959c7a13cb977e",
-  "subtitle": "AI video and photo enhancement application",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "6977575e08b81ab8bc801b437166b93e1e8cdf057b11c997240a51dc48e2f21d",
+  "subtitle": "Advanced AI video and photo enhancement",
   "tags": [
    "ai",
    "video",
    "photo",
-   "editor",
-   "enhancer"
+   "enhance",
+   "transform"
   ]
  },
  "com.ipaomtk.switchedon.reaction.training.157088": {
-  "category": "other",
-  "date": "2026-11-21",
-  "description": "SwitchedOn \u2013 Reaction Training is a cognitive training application that uses structured exercises to improve reaction time, focus, and mental agility. The app is distributed as an iOS installation file (IPA) for manual installation on iPhone and iPad, allowing flexibility in version management and device compatibility.",
-  "features": [
-   "Reaction time training",
-   "Focus exercises",
-   "Mental agility drills",
-   "Structured workouts",
-   "Manual IPA install"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "42768e17452648f26ce223c523d49b64e1e872be7fe280b28cb37628b9a39e5d",
-  "subtitle": "Cognitive training for faster reactions",
+  "category": "utilities",
+  "date": "2026-11-27",
+  "description": "SwitchedOn \u2013 Reaction Training is an iOS app designed for cognitive training. The IPA file is the installation package for this application. The app focuses on reaction training to improve cognitive abilities.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "56efd5d077e7d93be7e6eb29f6f71d5cf105e39cd91c6df9165356727bd1ea2e",
+  "subtitle": "Cognitive Training App for iOS",
   "tags": [
-   "reaction",
-   "training",
    "cognitive",
-   "focus",
-   "mental",
-   "agility"
+   "training",
+   "reaction",
+   "ios",
+   "app"
   ]
  },
  "com.ipaomtk.tapekit.lab.of.top.widgets.gif.152873": {
@@ -35847,6 +35984,29 @@
    "football"
   ]
  },
+ "com.jeetraj.tdrive": {
+  "category": "utilities",
+  "date": "2026-11-27",
+  "description": "TDrive turns your private Telegram storage into a drive you can browse, search, preview, share and mount. It includes an AI assistant, automatic photo backup and client-side encryption. Requires Telegram API credentials from my.telegram.org.",
+  "features": [
+   "AI assistant",
+   "Automatic photo backup",
+   "Client-side encryption",
+   "Browse and search",
+   "Preview and share"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "8668a637f3d390397b61017c80163d81c07b64f04fc680cf5419209bf5f38e84",
+  "subtitle": "Turn Telegram Storage into a Personal Drive",
+  "tags": [
+   "telegram",
+   "drive",
+   "storage",
+   "browse",
+   "search",
+   "backup"
+  ]
+ },
  "com.jerkgram.ios": {
   "category": "social",
   "date": "2026-10-28",
@@ -37084,20 +37244,19 @@
  },
  "com.kingsgroup.ss": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "State of Survival Zombie War is a mobile game set in a post-apocalyptic landscape overrun by the undead. Build and defend your base, forge alliances, and fight against the relentless zombie horde. This version includes the iGameGod tweak.",
-  "features": [
-   "iGameGod included"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "2b18a97ad12fba58373e60d0f4804e8ecc8ea4ce4c010b7b3acba8fcd859054f",
-  "subtitle": "Fight for survival in a post-apocalyptic zombie war",
+  "date": "2026-11-27",
+  "description": "State of Survival is a mobile strategy game set in a post-apocalyptic world overrun by zombies. Players must build and manage a settlement, gather resources, train troops, and fight to survive against the undead horde.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "09b5e11a6e26447da50c2606520d9a5f9d023aa2918bb41e9126c9fd3464be99",
+  "subtitle": "Post-apocalyptic zombie survival strategy game",
   "tags": [
-   "survival",
    "zombie",
+   "survival",
    "strategy",
-   "game",
-   "action"
+   "post-apocalyptic",
+   "building",
+   "combat"
   ]
  },
  "com.kingsoft.office.g.wpsoffice": {
@@ -41609,19 +41768,23 @@
  },
  "com.mikevillarroel.tendiemaker": {
   "category": "photo-video",
-  "date": "2026-11-07",
-  "description": "Turn your videos into live wallpapers right on your iPhone. Includes a built-in gallery of community tendies. Ships as an unsigned IPA.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "394652e9d0f523e3441ef80deed9987a7a0f8b6cf725f4a4abf3df7f1211e998",
-  "subtitle": "Turn videos into live wallpapers",
+  "date": "2026-11-27",
+  "description": "TendieMaker turns your videos into .tendie live wallpapers right on your iPhone. It includes a built-in gallery of community tendies. The app ships as an unsigned IPA, which you can sign with BuildBox, ESign, SideStore, or AltStore. It is free to use with a donate button.",
+  "features": [
+   "Video to live wallpaper conver",
+   "Community gallery",
+   "Free with donate button"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "c8d4397818d74c3d792fa5f183f197fce4670e2a662db85706e78f1656a70b5f",
+  "subtitle": "Turn videos into live wallpapers on iPhone",
   "tags": [
-   "tendiemaker",
    "live wallpaper",
    "video",
-   "wallpaper",
+   "tendie",
    "ipa",
-   "ios"
+   "iphone",
+   "gallery"
   ]
  },
  "com.mileways.app": {
@@ -43431,17 +43594,26 @@
   ]
  },
  "com.mxfia19.TwitchUnblock": {
-  "category": "other",
-  "date": "2026-11-08",
-  "description": "TwitchUnblock is an app by @ipavault. No further details provided.",
-  "features": [],
+  "category": "entertainment",
+  "date": "2026-11-27",
+  "description": "Open-source app for iPhone, iPad, and Apple TV. Watch every live stream and VOD at full quality without a subscription. Ad segments recognized by the app are cut before playback; subscribers and Turbo users see no ads. Choose live sources: Bulgaria relay (test), official Twitch, or your own source or proxy. Sign in with Twitch if you want. Built with AI coding assistants and human-reviewed. Bug reports can be submitted via Discord.",
+  "features": [
+   "No Subscription",
+   "Ad Removal",
+   "Custom Sources",
+   "Open Source",
+   "Apple TV Support"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "8ef2a11cfe533b7617e44685ee9028b9279976b1995fd556e6409d5c904e5c2d",
-  "subtitle": "TwitchUnblock by @ipavault",
+  "src_hash": "16a4db2609d63515e8604db5604e629463ad56238d1409d45fb975d5fb792641",
+  "subtitle": "Watch Twitch without subscription, full quality",
   "tags": [
    "twitch",
-   "unblock",
-   "app"
+   "streaming",
+   "open-source",
+   "ad-free",
+   "vod",
+   "live"
   ]
  },
  "com.mxfia19.TwitchUnblock.test": {
@@ -43481,6 +43653,28 @@
    "open-source",
    "sideload",
    "swiftui"
+  ]
+ },
+ "com.mxfia19.twitchunblock": {
+  "category": "entertainment",
+  "date": "2026-11-27",
+  "description": "TwitchUnblock is an open-source Twitch client for tvOS that lets you watch VODs and live streams without a subscription at full quality. It does not work on iOS.",
+  "features": [
+   "Open Source",
+   "No Subscription",
+   "Full Quality",
+   "tvOS Only"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "c029269df32a2ab61d3bc8e86d6b4fbea85cf5a567ce900ee4cb132aa9543b4b",
+  "subtitle": "Open-source Twitch client for tvOS",
+  "tags": [
+   "twitch",
+   "tvos",
+   "vod",
+   "live",
+   "stream",
+   "open-source"
   ]
  },
  "com.mxfia19.twitchunblock.0.1.49.ipavault": {
@@ -44644,18 +44838,21 @@
  },
  "com.netmarble.stonkey": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "StoneAge: Idle Adventure transports players to a prehistoric world where survival, exploration, and evolution intersect in an idle RPG experience tailored for iPhone. The game blends strategic hero management, automated combat, and thoughtful progression.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "ecf2caa73c8c80c984ccefc2f056b309a19bbb6df1fe491c4c33d67fc8b2bc86",
-  "subtitle": "A prehistoric idle RPG journey",
+  "date": "2026-11-27",
+  "description": "StoneAge: Idle Adventure is a role-playing game set in a prehistoric world. The game features idle gameplay mechanics, allowing progression without constant input. Players embark on an adventure through an imaginative prehistoric setting.",
+  "features": [
+   "Idle gameplay",
+   "Prehistoric theme"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "f82d922800ab88028f9cbe14b2c54d228df9c8528f8297ed05a34378661732d5",
+  "subtitle": "Idle RPG set in a prehistoric world.",
   "tags": [
-   "rpg",
    "idle",
+   "rpg",
    "prehistoric",
    "adventure",
-   "strategy"
+   "game"
   ]
  },
  "com.netskao.downgradeapp": {
@@ -46144,25 +46341,25 @@
  },
  "com.omrajput.wyrmios": {
   "category": "games",
-  "date": "2026-11-10",
-  "description": "Play and manage Snakey Rain with the native loadout controller. Access public or personal logins, character editors, and compatible skin, tag, and accessory editors. Choose from 14 modes with live settings and use the adjustable arena panel. Character patterns maintain palette, colour-wheel, and Wyrm bead colours across previews, with customizable panel text, border, and fill colours. Settings are shared with Android, and credentials and private bot tag codes are stored securely in your device Keychain.",
+  "date": "2026-11-27",
+  "description": "This is the iPhone version of Wyrm. Same account, skins, and friends across Android, Windows, and Mac. Log in and your settings follow you. It plays on real slither.io servers with a fast engine, staying smooth even during crowds. Features include skins you build bead by bead, team play, global chat, a live leaderboard, Trails, assist mode, and many controls for personalization.",
   "features": [
-   "Native Snakey Rain controller",
-   "Character and skin editors",
-   "14 game modes",
-   "Adjustable arena panel",
-   "Keychain credential storage"
+   "Fast Engine",
+   "Global Chat",
+   "Live Leaderboard",
+   "Trails",
+   "Assist Mode"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "b9be61d9e29e61ddf12994b83ece9930315066f18b95f04df9f2e1159de14164",
-  "subtitle": "Snakey Rain controller and editors",
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "f4a38d6ee6dcaab512e61e83b1b7bdaaa475af50216c0f017c7dbfc80cade0b5",
+  "subtitle": "Wyrm on iPhone",
   "tags": [
-   "snakey rain",
-   "controller",
-   "loadout",
-   "editor",
-   "game",
-   "utility"
+   "slither",
+   "games",
+   "mobile",
+   "social",
+   "leaderboard",
+   "trails"
   ]
  },
  "com.ondi.fortias.saga": {
@@ -48360,21 +48557,18 @@
  },
  "com.pixio.apple.mtd": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Summoner is a unique mobile game combining strategy, role-playing, and collection elements. Assemble a powerful team of legendary creatures known as Summoners and battle through a vast fantasy world. Experience a captivating storyline and visual design as you build your collection and progress through the game.",
-  "features": [
-   "iGameGod Tweaks"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "a74675bd02bcfc445e07a0f1d97a4e8238c39a6b0af7b57009653463b5dea043",
-  "subtitle": "Embark on a fantasy strategy and role-playing journey",
+  "date": "2026-11-27",
+  "description": "Summoners Greed is a mobile game that combines strategy, role-playing, and collection. Players engage in gameplay that involves strategic decision-making, character development, and collecting various elements.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "1acb2a7537e3752050006d78ba6a043aa1fc0ce7c6fd8fe2eeda45a58d75b32b",
+  "subtitle": "Strategy, RPG, and collection mobile game",
   "tags": [
-   "summoner",
    "strategy",
    "rpg",
-   "fantasy",
-   "game",
-   "battle"
+   "collection",
+   "mobile",
+   "game"
   ]
  },
  "com.pixio.ios.idle.mafia.war": {
@@ -48395,21 +48589,23 @@
   ]
  },
  "com.pixite.Zinnia": {
-  "category": "lifestyle",
-  "date": "2026-11-11",
-  "description": "Zinnia is a planner and journal application. This version includes Pro features unlocked for users.",
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "Zinnia is a planner and journal application. This version (1.48) includes a Pro Unlocked tweak and is patched. Minimum OS version not specified.",
   "features": [
-   "Pro Unlocked"
+   "Pro Unlocked",
+   "Patched"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "8dd4b4eba66852591957c5663b675197c6c63638397b7588a7528a410d0f0489",
-  "subtitle": "Planner and Journal app with Pro features",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "010915c0f844cd6db7e8c0b63891338af0d4f3c555a523e3f5255085819c7801",
+  "subtitle": "Planner & Journal with Pro features",
   "tags": [
    "planner",
    "journal",
    "pro",
    "unlocked",
-   "zinnia"
+   "patched",
+   "ipa"
   ]
  },
  "com.pixite.assembly": {
@@ -49302,19 +49498,22 @@
  },
  "com.plusminusone.phone.storage.cleaner.free.up": {
   "category": "utilities",
-  "date": "2026-11-21",
-  "description": "Manage and free up limited storage space on your iPhone and iPad. A cluttered device can lead to slow performance, failed app updates, and an inability to capture new photos. Storage Cleaner helps you handle storage management beyond basic iOS tools to keep your device running smoothly.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "1fda638236951b5fcab8caf491843c404b68b48a8264bfb1647104545248e7d1",
-  "subtitle": "Free up space on your iPhone and iPad",
+  "date": "2026-11-27",
+  "description": "Storage Cleaner helps free up storage space on iPhones and iPads. The app is designed for devices that serve as central hubs for work, communication, and entertainment, where storage can become cluttered. It assists in managing and cleaning up unnecessary files to optimize device capacity.",
+  "features": [
+   "Free up storage space",
+   "For iPhone and iPad"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "d07b05a4b0c75c993fdc0174a4e4ee059bfb47df6ec50289bc7ebd895b2c745a",
+  "subtitle": "Free up iPhone and iPad storage space.",
   "tags": [
    "storage",
    "cleaner",
-   "memory",
-   "device",
-   "files",
-   "management"
+   "iphone",
+   "ipad",
+   "free up space",
+   "optimize"
   ]
  },
  "com.pocketchamps.game": {
@@ -50356,6 +50555,28 @@
    "nomad",
    "crafting",
    "ios"
+  ]
+ },
+ "com.ragequitgames.tomorrow": {
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "An MMO nuclear quest tweak with no ads. It provides God Mode, One Hit Kill, Instant Harvest, Freeze NPCs, No Recoil, ESP, and Aimbot features. Buy your own certificate or use the Apple ID with paid games. Join group chats on YouTube and TikTok.",
+  "features": [
+   "No Ads",
+   "God Mode",
+   "One Hit Kill",
+   "Instant Harvest",
+   "Freeze NPCs"
+  ],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "c4918bddb56370bf8ed201a67ed4f2d7f28e9da9d5ac1f876d128cdcbca9f970",
+  "subtitle": "MMO Nuclear Quest",
+  "tags": [
+   "hack",
+   "mmo",
+   "nuclear",
+   "quest",
+   "tweaks"
   ]
  },
  "com.rainvis.weather": {
@@ -54902,20 +55123,26 @@
   ]
  },
  "com.snow.city.survivor": {
-  "category": "other",
-  "date": "2026-11-21",
-  "description": "Stone Age Survival: Craft Game is an open-world survival simulator that drops players into a prehistoric environment where instincts, strategy, and resourcefulness determine success. On iPhone, the experience feels deep and engaging, with intuitive controls and smooth performance that make survival mechanics feel rewarding rather than overwhelming.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "d48c65bb1f6c5bf55ae3612d433e3b731941d680c1d687f12d8f6f61b1f9a50f",
-  "subtitle": "Open\u2011world prehistoric survival craft game",
+  "category": "games",
+  "date": "2026-11-27",
+  "description": "Stone Age Survival is an open-world survival simulator. Players are placed in a prehistoric environment where they must gather resources, craft tools, and build shelters to survive. The game focuses on exploration and crafting mechanics.",
+  "features": [
+   "Open World",
+   "Crafting",
+   "Resource Gathering",
+   "Building",
+   "Survival"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "a364760d9c2609fd3aa7040c4c44257e028f3d14856eb73f580d4a351227b738",
+  "subtitle": "Open-World Survival Simulator",
   "tags": [
-   "stone age",
    "survival",
-   "craft",
-   "open world",
+   "crafting",
+   "open-world",
    "prehistoric",
-   "simulator"
+   "simulator",
+   "ios"
   ]
  },
  "com.snowcorp.epik": {
@@ -55653,19 +55880,19 @@
  },
  "com.spotify.client": {
   "category": "entertainment",
-  "date": "2026-11-06",
-  "description": "This is a modified Spotify build created by @compiledipas. The developer states it is intended to troll friends. Users of this build are asked to send a screenshot of the settings page.",
+  "date": "2026-11-27",
+  "description": "Taurus is an open-source fork of chroma.pw with built-in Spotify Premium. It offers a redesigned user interface that requires iOS 26, while the legacy UI supports iOS 16.1 and later.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "3d0e84a1c35028bda9934c7d3807b15b494955cf475e67626f69bffc6f3f0b67",
-  "subtitle": "Modified Spotify build for trolling friends",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "2b73cf2ce065014c7d70b5cc4ffb89c0e5e16c803c589737d69c901e7c4b4e40",
+  "subtitle": "Open-source Spotify client with premium features",
   "tags": [
    "spotify",
-   "modified",
-   "troll",
-   "build",
-   "ipa",
-   "music"
+   "music",
+   "premium",
+   "open-source",
+   "ios",
+   "client"
   ]
  },
  "com.spotify.client.ios.chroma.pw.0.50.0.beta.not.patched.9.1.78": {
@@ -57251,41 +57478,42 @@
  },
  "com.stickpage.stickwar": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Play Stick War Legacy on iOS with the modded version featuring unlimited money. Command your stick figure army in strategic battles, manage your units, and conquer enemy territories in this popular mobile game.",
+  "date": "2026-11-27",
+  "description": "StickWarLegacy is an action strategy game. This version includes a hack for in-app purchases: tap buy and then cancel. The IPA was tested and compiled by TTJB Team.",
   "features": [
-   "Unlimited Money",
-   "Modded Game"
+   "In-app purchase hack (tap buy,",
+   "Tested by TTJB Team"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "01f49babd06df0154bd57854bed6ba880c2e0fb2f555d9b255d129ec2f50b5d1",
-  "subtitle": "Stick War Legacy with unlimited money",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "be76dee0c6bd3c61d169d273e4d4cbe0aaf3727e3114b905fcc8160d303dbb36",
+  "subtitle": "In-app purchase hack via cancel method",
   "tags": [
-   "stick",
-   "war",
-   "legacy",
+   "stickman",
    "strategy",
-   "mod",
-   "games"
+   "war",
+   "hack",
+   "iap",
+   "action"
   ]
  },
  "com.sticksports.stickcricketclash": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Stick Cricket Clash is a cricket-based game designed for iOS users, offering a dynamic and engaging way to experience cricket without lengthy matches or complex rules. This modified version includes specific tweaks such as currency freeze, score manipulation to win all matches, and ads reward features.",
+  "date": "2026-11-27",
+  "description": "Stick Cricket Clash is a cricket-based game for iOS. The version available includes features for currency freeze, score to win all matches, and ads reward. This version offers the ability to win matches and manage in-game currency. No additional details about gameplay modes or content are provided.",
   "features": [
    "Currency Freeze",
-   "Win All Match",
+   "Score to Win All Matches",
    "Ads Reward"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "fe2cb4e1927e81ffded94d35adfefa77240cbac39550956ed4e423ad8407b427",
-  "subtitle": "Cricket-based iOS game with currency freeze and score tweaks",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "5585ed0e530804c4e237f31e9a6274416100197a801d70468878c03db298c9b3",
+  "subtitle": "Cricket match game with win-all and currency options",
   "tags": [
    "cricket",
    "sports",
-   "game",
-   "tweaked",
+   "match",
+   "currency",
+   "win",
    "ios"
   ]
  },
@@ -57884,19 +58112,19 @@
  },
  "com.stremio.pal": {
   "category": "entertainment",
-  "date": "2026-11-21",
-  "description": "Provides the official Stremio IPA version 2.1.2 (build 2.1.2b27) downloaded directly from the Stremio CDN.",
+  "date": "2026-11-27",
+  "description": "Stremio is a streaming media organizer that lets you browse and organize movies, TV shows, and other video content. This app version is 2.1.3 (2.1.3b28) and is sourced from the official Stremio CDN.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "89f743c2fa89c81c3ef3cb7e8ff176f25350247e17c14b3e75960c157ab47d25",
-  "subtitle": "Official Stremio IPA from CDN",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "37ea77568d84ae41aae783073bf6a1b8a0aff2378e18dbe2500114fcdd3c5b68",
+  "subtitle": "Streaming media organizer for iOS",
   "tags": [
    "stremio",
-   "media",
    "streaming",
+   "movies",
+   "tv",
    "video",
-   "player",
-   "ios"
+   "organizer"
   ]
  },
  "com.stremiox.app.native": {
@@ -58368,27 +58596,14 @@
   ]
  },
  "com.suversal.wrappin": {
-  "category": "utilities",
-  "date": "2026-11-10",
-  "description": "WrapPin sets a fixed location or moves along a walking or driving route on an iPhone running iOS 18 or newer, without a jailbreak and without installing a MITM root certificate. It uses the iOS developer location simulation service. The app interface is available in English and Simplified Chinese and follows the system language. Use WrapPin only on devices you own and control. Do not use it to deceive other people, fabricate evidence, bypass security restrictions, or break the rules of third-party services.",
-  "features": [
-   "No jailbreak required",
-   "No MITM certificate",
-   "iOS developer service",
-   "Walking and driving routes",
-   "English and Chinese"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "88bfb190fe409154eeca28fdcccb66063f5683bfe52a305fb3666e5bfdb01b62",
-  "subtitle": "Simulate location on iOS 18 or newer",
-  "tags": [
-   "location",
-   "simulator",
-   "gps",
-   "route",
-   "ios18",
-   "developer"
-  ]
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "WrapPin sets a fixed location or moves along a walking or driving route on an iPhone running iOS 18 or newer, without a jailbreak and without installing a MITM root certificate. It uses the iOS developer location simulation service. The app interface is available in English and Simplified Chinese and follows the system language. Use WrapPin only on devices you own and control. Do not use it to deceive other people, fabricate evidence, bypass security restrictions, or break the rules of third-party services. This guide uses the free route: iLoader + SideStore + LocalDevVPN + WrapPin.",
+  "features": [],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "fc46881de9df7dfdcf22d025729bda9ec5e2449f60a00f2d46b2545024e060bb",
+  "subtitle": "WrapPin - Free Route Simulator",
+  "tags": []
  },
  "com.suversal.wrappin.selfsigned": {
   "category": "other",
@@ -58561,23 +58776,19 @@
  },
  "com.sybogames.subway.surfers.game": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Subway City is a modified version of Subway Surfers City featuring iGameGod tweaks. The game challenges players to navigate urban environments while dodging obstacles and collecting items during an endless runner experience. Includes access to cheat functions through the iGameGod modification.",
-  "features": [
-   "iGameGod Tweaks",
-   "Cheat Menu",
-   "MOD Version"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "c785f4a99f3a7ffc8d6b53e5e6665f9162320c1186ada4d32ec45e1815df2859",
-  "subtitle": "Endless runner with iGameGod tweaks",
+  "date": "2026-11-27",
+  "description": "Subway City is an endless runner game set in a city environment. Players navigate a character through subway tracks and city streets, avoiding obstacles and collecting items. The game offers a fast-paced, arcade-style experience.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "09dbbd4782dbf638543a22b53d633f96519cd366c21bfc67f1df15b66ce3049b",
+  "subtitle": "Endless runner game with city-themed levels.",
   "tags": [
-   "subway surfers",
-   "endless runner",
-   "mod",
-   "igamegod",
-   "cheats",
-   "action"
+   "runner",
+   "city",
+   "endless",
+   "subway",
+   "arcade",
+   "mobile"
   ]
  },
  "com.sybogames.subwaysurfers.plus": {
@@ -60978,6 +61189,22 @@
    "cheats",
    "gaming",
    "utilities"
+  ]
+ },
+ "com.twindesk.ios": {
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "TwinDesk lets your iPhone or iPad and a Mac, Windows PC, or Linux computer become one desk. Files, clipboard, notifications, sound, camera and remote control sync over Wi-Fi, USB or Bluetooth. The desktop app on the computer is required.",
+  "features": [],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "1ef6047287486f0baf6adc63ba4c7f967c27436747415d1411a5a3ee8be5a418",
+  "subtitle": "Mirror Your Computer Screen",
+  "tags": [
+   "mirror",
+   "screen",
+   "files",
+   "sync",
+   "desk"
   ]
  },
  "com.twitchyfinger.itunes.minilegend": {
@@ -65825,24 +66052,22 @@
   ]
  },
  "com.unknown.splitview": {
-  "category": "other",
-  "date": "2026-11-21",
-  "description": "Split View lets you open more than one web page in the same window at the same time. It also notifies you when any of your tweaks receive an update. A free Discord community is available for support and announcements.",
+  "category": "utilities",
+  "date": "2026-11-27",
+  "description": "Split View allows you to open more than one web browser page at the same time.",
   "features": [
-   "Multi\u2011window browsing",
-   "Update alerts",
-   "Discord community"
+   "Split view"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "aace15ef136fef2b3e1cb2651257913905731b82f903634d018f493ed20af469",
-  "subtitle": "Run multiple web pages side by side",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "e6988b47d4faad9649b6948460586f36e2a9e030217924307a95aae518c39554",
+  "subtitle": "Web browser with split view for multiple pages",
   "tags": [
+   "browser",
    "split",
    "view",
-   "multitask",
-   "browser",
-   "tweaks",
-   "discord"
+   "web",
+   "pages",
+   "multitask"
   ]
  },
  "com.unknown.spotc": {
@@ -65917,21 +66142,20 @@
  },
  "com.unknown.storemanagersimualtor": {
   "category": "utilities",
-  "date": "2026-11-21",
-  "description": "Store Manager Simulator is a utility app developed by Karbin-Store. It features the BabylonCheatEngine hack feature which can be turned on directly from the menu. Users can also get pinged whenever any of their tweaks receive an update.",
+  "date": "2026-11-27",
+  "description": "Store Manager Simulator lets you run your own store, handle inventory, manage staff, and grow your business. The game includes a hack feature that can be turned on from the menu.",
   "features": [
-   "Cheat Menu"
+   "Hack Feature"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "26cbfdbfef3c21ba5086752e0f9481f42520fb02ed8c0418492924b14572a5ab",
-  "subtitle": "Store manager simulator with tweak updates",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "128906e8edddca745048d25b7143c47d1e6691a2c819953845ccd8c917c68bb4",
+  "subtitle": "Manage and grow your own store",
   "tags": [
    "store",
    "manager",
    "simulator",
-   "tweaks",
-   "cheat",
-   "utility"
+   "business",
+   "hack"
   ]
  },
  "com.unknown.storyfont": {
@@ -67940,21 +68164,17 @@
  },
  "com.videobrowser.ios": {
   "category": "other",
-  "date": "2026-11-13",
-  "description": "VideoLite is a video player application provided as a Pro version IPA. The package has been tested and compiled by the TTJB Team for distribution through their repository.",
-  "features": [
-   "Pro Version",
-   "Tested Build"
-  ],
+  "date": "2026-11-27",
+  "description": "VideoLite is an app that has been injected with Pro features.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "cd133855e7a143718f0f47696d124e6114feb718d377a5d708e99bcc381a47f5",
-  "subtitle": "Pro video player with tested IPA build",
+  "src_hash": "4bb3e027de624b31b78df6ddb44b13bea2a6f399ffe15fc80b9131d6d61432c2",
+  "subtitle": "VideoLite - Injected with Pro",
   "tags": [
    "video",
-   "player",
+   "lite",
    "pro",
-   "ipa",
-   "ttjb"
+   "injected"
   ]
  },
  "com.vigorapps.30DayFitness": {
@@ -70373,18 +70593,19 @@
   ]
  },
  "com.yuroyami.syncplay.iosApp": {
-  "category": "other",
-  "date": "2026-11-07",
-  "description": "Synkplay is a Syncplay client for iOS and Android. It lets you watch media in sync with friends over the internet. The app connects to the official Syncplay server network so everyone sees the same playback position.",
+  "category": "entertainment",
+  "date": "2026-11-27",
+  "description": "Synkplay is a mobile client app for Syncplay, allowing you to watch videos in sync with friends. It is compatible with the official Syncplay for PC. The app is fully written in Kotlin and Compose multiplatform.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "a93976992ad489a3d72ecd985602283b30eb7c3496fb517363c797e895908a7c",
-  "subtitle": "Syncplay client for watching with friends",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "975a64383ba8c171dc5f3e8338e3e4307e520cb1a672c562ee8085b29611fc1d",
+  "subtitle": "Watch videos in sync with friends",
   "tags": [
    "syncplay",
-   "watch together",
-   "media sync",
-   "remote viewing",
+   "video",
+   "sync",
+   "friends",
+   "watch",
    "client"
   ]
  },
@@ -70447,25 +70668,21 @@
  },
  "com.zanzibarr.zanzibarr": {
   "category": "entertainment",
-  "date": "2026-11-11",
-  "description": "Zanzibarr turns Usenet into your personal streaming library. Point it at any .nzb file and video playback begins in seconds. There is no download queue, no waiting for the full file, and no disk space sacrificed. You can scrub to the final scene of a 4K remux instantly. The Rust engine maps every seek position to the exact Usenet segments that hold it, fetches only those segments, decodes yEnc on the fly, and serves the result through a lazy, range-aware local stream. Pause the player and the network goes quiet. Close the app and nothing is left behind on your disk.",
+  "date": "2026-11-27",
+  "description": "Zanzibarr turns Usenet into your personal streaming library. Point it at any .nzb and the video starts playing in seconds with no download queue or waiting for the full file. Scrub to the final scene of a 4K remux before the first act would have finished downloading. New in v2.0: search everywhere at once across multiple Newznab indexers and Prowlarr/NZBHydra2 endpoints with automatic Easynews web search and cross-source deduplication. Keep the season going with a natural-order play queue, watched-episode badges and a ten-second Up next card. Accounts and languages are remembered with multiple switchable NNTP profiles, multiple enabled indexer profiles, and preferred audio language carried\u2026",
   "features": [
-   "Instant playback",
-   "No download queue",
-   "No disk space used",
-   "On the fly decoding",
-   "Rust engine"
+   "No Ads"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "4f30476cb41ac248ad919b0444d2cc94f3e873ffb92a3f879058fcd173adc127",
-  "subtitle": "Stream Usenet files instantly without downloading",
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "4ac040a93ae5a8003f4d9a7da58266ab3e9decec1c9dccde1053d38c5c12ffdb",
+  "subtitle": "Personal streaming library for Usenet",
   "tags": [
-   "usenet",
-   "streaming",
    "nzb",
-   "video",
-   "player",
-   "media"
+   "streaming",
+   "usenet",
+   "download",
+   "search",
+   "v2.0"
   ]
  },
  "com.zarz.mornye": {
@@ -75777,24 +75994,24 @@
  },
  "games.resourcer.hex": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "States Builder is a strategy game where you construct an economic empire. The modified version provides unlimited coins, infinite diamonds, the ability to purchase tiles anytime, and free in\u2011app purchases.",
+  "date": "2026-11-27",
+  "description": "States Builder is a game where players build and manage states. The modified version includes coins that don't decrease, infinite diamonds, the ability to always purchase tiles, and free in-app purchases. The game is available for iOS.",
   "features": [
-   "Unlimited Coins",
-   "Infinite Diamonds",
-   "Unlimited Tile Purchases",
+   "Coins don't decrease",
+   "Infinite diamonds",
+   "Always purchase tiles",
    "Free IAP"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "c6455989133426bf2e9aa52ffccae2ac99f7234de59d16e638f4b94d40512bb3",
-  "subtitle": "Build your economic empire in a strategy game",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "8d7af4c027ba08ca3a5a74615377c75360307358a3bddf88be678484b4df36d9",
+  "subtitle": "Build states with unlimited resources and purchases",
   "tags": [
-   "strategy",
-   "empire",
-   "building",
+   "states",
+   "builder",
    "mod",
-   "unlimited",
-   "free"
+   "coins",
+   "diamonds",
+   "iap"
   ]
  },
  "games.rivvy.eternalherorpg": {
@@ -76956,20 +77173,22 @@
   ]
  },
  "io.github.danielnoam.waypage": {
-  "category": "developer",
-  "date": "2026-11-10",
-  "description": "Save any web page to your phone and read it without an internet connection, whether on a plane or in a tunnel. The text remains intact while pictures include a small preview with a link to the full size. Videos keep a thumbnail that plays when you are back online, and every clip links back to the original source. Manage your saved items in a library featuring your current reading at the top, followed by collections and clips.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "c20364bd505f2b32a37bb19b8764286be60f69a209a65ae0dabe032335b7307b",
-  "subtitle": "Save web pages for offline reading anywhere",
+  "category": "photo-video",
+  "date": "2026-11-27",
+  "description": "Waypage lets you save web pages to your phone for offline reading. Text stays whole, images show a small preview with a link to the full size, and videos display a thumbnail that plays when you're back online. Every clip links back to the original. It uses plain HTML, CSS and JS with no build step or dependencies. The same files work in a browser and, wrapped by Capacitor, as an Android and iOS app. Sections show the computer on the left and the phone on the right. Continue reading at the top, then move to Collections, then Clips.",
+  "features": [
+   "No Build Step"
+  ],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "51d5cb54560af314638bcf91e2d0ba1d4d2072e069faf593a9b9e2fc351793e2",
+  "subtitle": "Save Web Pages Without Internet",
   "tags": [
-   "offline",
-   "reading",
    "web",
-   "save",
-   "articles",
-   "library"
+   "offline",
+   "saving",
+   "reading",
+   "viewing",
+   "storage"
   ]
  },
  "io.github.decryptu.pokerecomp": {
@@ -77549,6 +77768,16 @@
    "remote"
   ]
  },
+ "io.github.vrcmteam.vrcm": {
+  "category": "developer",
+  "date": "2026-11-27",
+  "description": "VRCM is a cross-platform VRChat companion focused on social connection and convenience. Explore your social circles, remember time spent together, and move smoothly from shared links to worlds, interactions, and real-world meetups. Get pinged when any of your tweaks update.",
+  "features": [],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "a3e1a6a98f32075ed47004d4c13e79a12dd6bc8896692516fcc2226178ed89d2",
+  "subtitle": "VRChat Companion",
+  "tags": []
+ },
  "io.github.wszqkzqk.pvz-portable": {
   "category": "games",
   "date": "2026-11-10",
@@ -78065,20 +78294,19 @@
  },
  "io.state.fight": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "State.io iOS is a mobile game featuring strategy gameplay. This modded version includes iGameGod tweaks.",
-  "features": [
-   "iGameGod Tweaks"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "79bdb9e44527a7a05cdaa3b0eb656de3a5d121b20c5be1864836bc14ea124c8e",
-  "subtitle": "State.io IPA MOD for iOS",
+  "date": "2026-11-27",
+  "description": "State.io is a strategy game where you expand your territory by attacking neighboring states. The goal is to conquer the entire map. The game offers innovative gameplay and stunning visuals.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "d66980b44f35a8b0d64deec597324c4ba49410020a8fe597677d02077a272cad",
+  "subtitle": "Conquer the Map in State.io",
   "tags": [
    "strategy",
-   "game",
-   "mod",
-   "state",
-   "mobile"
+   "territory",
+   "conquer",
+   "map",
+   "mobile",
+   "game"
   ]
  },
  "io.supercent.burgersimulator": {
@@ -78133,21 +78361,19 @@
   ]
  },
  "io.supervlabs.catchandtame.gl": {
-  "category": "entertainment",
-  "date": "2026-11-21",
-  "description": "Step into the shoes of a budding supervillain and build your criminal empire. Recruit a team of dastardly henchmen and unleash your nefarious schemes upon an unsuspecting world. This adventure game includes iGameGod tweaks.",
-  "features": [
-   "iGameGod Tweaks"
-  ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4e8682b8a04ea6e25b9ae97a9e1c3c9cbca619ff1e5acb3df005677eeb59fe99",
-  "subtitle": "Build your criminal empire and recruit henchmen",
+  "category": "games",
+  "date": "2026-11-27",
+  "description": "Supervillain Wanted is a thrilling adventure game. It puts you in the role of a supervillain on a quest. The game offers an exciting experience for players seeking action and adventure.",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "1bfc03b849943d7d1f65654726d322183a5b4427e1c9dabf5dc43c3c0ce321e3",
+  "subtitle": "Supervillain Wanted Adventure Game",
   "tags": [
    "supervillain",
    "adventure",
-   "strategy",
    "game",
-   "criminal"
+   "action",
+   "quest"
   ]
  },
  "io.uros.triprank": {
@@ -80563,6 +80789,24 @@
    "v1.3"
   ]
  },
+ "mumu.pduola.WQManager": {
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "WQManager is an open source iOS data management tool for app backup and cache cleanup. It allows backing up an app's data directory into a verifiable backup and restoring it to the original app. It also lets you clean only the selected app's cache and temporary directories. All operations are local with no accounts, statistics, or cloud access.",
+  "features": [
+   "Open Source"
+  ],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "474ed772b0140aa2e2da325dc481eddf7d5d9990f63c71387db0a7623ccb18b3",
+  "subtitle": "Data Backup and Cache Cleaner",
+  "tags": [
+   "backup",
+   "cleanup",
+   "data",
+   "ios",
+   "app"
+  ]
+ },
  "myndarc.newFitnessApp": {
   "category": "lifestyle",
   "date": "2026-10-15",
@@ -81548,39 +81792,37 @@
  },
  "net.whatsapp.WhatsApp": {
   "category": "social",
-  "date": "2026-11-13",
-  "description": "WGoldPlus WhatsApp version 26.30.78, a modified build by @compiledipas. Includes the following tweaks: WGold 2.3 by @alibusut, WATranslator 2.1 by @n9ipa, WAFonts v2.0.0 by @n9ipa, and WALoc.",
-  "features": [],
+  "date": "2026-11-27",
+  "description": "WhatsApp is a messaging application. This version is injected with premium features.",
+  "features": [
+   "Premium"
+  ],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "59431c85ebe84d4edc6d77be9e4ae4b649040e4fd677608db0c16e337732dd20",
-  "subtitle": "Modified WhatsApp with translation and font tweaks",
+  "src_hash": "1125b63f2c35702b7482a7fbbc3e30d8a73ba948c9e9bf0be8271e65df238576",
+  "subtitle": "Premium messaging app",
   "tags": [
    "whatsapp",
-   "modified",
-   "tweaks",
-   "translation",
-   "fonts",
-   "location"
+   "messaging",
+   "social",
+   "premium"
   ]
  },
  "net.whatsapp.WhatsAppSMB": {
   "category": "social",
-  "date": "2026-11-13",
-  "description": "WhatsApp Business modification including WGold 2.3 by @alibusut, WATranslator 2.1 by @n9ipa, and WAFonts v2.0.0. Utilizes WhatsAppSMB version 26.30.78.",
+  "date": "2026-11-27",
+  "description": "WABusiness is a modified version of WhatsApp Business. The source states it is injected with premium features. No additional details about specific features, developer, or functionality are provided in the source text.",
   "features": [
-   "WGold Tweaks",
-   "WATranslator",
-   "WAFonts"
+   "Premium"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "3f3a6b945337ad78f8d32d5726fc510eb2af709ba4eb7841f60b3f08236637df",
-  "subtitle": "Modified WhatsApp Business with integrated tweaks",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "e2f85bb0ce8327c6a331f5057f69a7a9b037bf4323a478823e8a458a72927292",
+  "subtitle": "WhatsApp Business with premium features",
   "tags": [
    "whatsapp",
    "business",
-   "messenger",
-   "chat",
-   "social"
+   "messaging",
+   "premium",
+   "modified"
   ]
  },
  "net.wooga.junes-journey-hidden-object-mystery-game": {
@@ -83382,6 +83624,29 @@
    "subscription"
   ]
  },
+ "org.spotube.spotube.Spotube": {
+  "category": "entertainment",
+  "date": "2026-11-27",
+  "description": "Spotube is a cross-platform, extensible open-source music streaming platform. It lets you bring your own music metadata, playlists, and audio sources through community plugins. The app includes time-synced lyricstons, downloadable tracks, and does not collect telemetry or user data.",
+  "features": [
+   "Open-source",
+   "Extensible via plugins",
+   "Time-synced lyrics",
+   "Downloadable tracks",
+   "No telemetry or user data coll"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "b87ed5b0329ee93cccb02bd356248cde1b5bee0c5cc98a504a761ee50a787c68",
+  "subtitle": "Open-source music streaming with plugins and lyrics",
+  "tags": [
+   "music",
+   "streaming",
+   "open-source",
+   "plugins",
+   "lyrics",
+   "download"
+  ]
+ },
  "org.tethercam.app": {
   "category": "photo-video",
   "date": "2026-11-07",
@@ -83564,17 +83829,19 @@
  },
  "oss.krtirtho.spotube.stable": {
   "category": "utilities",
-  "date": "2026-11-21",
-  "description": "Spotube-iOS is an open source music client.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "270dd094edbe024ea4ee16bc081db2d6ef4c5f48604e2a0902effb0f576238ac",
-  "subtitle": "Open source music client",
+  "date": "2026-11-27",
+  "description": "Spotube-iOS is an open source music client for iOS. It provides a way to listen to music. The app is developed by Spotube-iOS x CyPwn.",
+  "features": [
+   "Open Source"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "e2371d5d0a9ad42045a895bb15a6e9a425a36979ec02261f9ebd7b2cad296c9a",
+  "subtitle": "Open source music client for iOS",
   "tags": [
    "music",
    "client",
-   "open source",
-   "audio"
+   "ios",
+   "open-source"
   ]
  },
  "overlook.fing": {
@@ -85467,25 +85734,25 @@
  },
  "tower.defense.survival.arena": {
   "category": "games",
-  "date": "2026-11-21",
-  "description": "Survival Arena is a tower defense game featuring strategic gameplay and engaging challenges. This modified version includes integrated tweaks via iGameGod. Enjoy free purchases, free chest buying in the shop, free chip conversion, infinite coins, character unlocks, infinite level up cards, visual unlocks for all cards, and diamonds that do not decrease during gameplay.",
+  "date": "2026-11-27",
+  "description": "Survival Arena is a tower defense game where you defend against waves of enemies. The app includes modified features: free purchases, free chest buys in the shop, free chip conversion, infinite coins, and unlocked characters.",
   "features": [
    "Free Purchases",
+   "Free Chest Buy in Shop",
+   "Free Chip Convert",
    "Infinite Coins",
-   "Unlock Character",
-   "Infinite Level Up Card",
-   "Diamond Don't Decreased"
+   "Unlock Character"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "4f8d38516129135263b40d7fc7b676903c8675949562f053e76c89824ce780fa",
-  "subtitle": "Tower defense game with modified features",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "99286af993e9849818111d3d874aed6dacaa87def1a53891e63b4bb0a312b8e3",
+  "subtitle": "Tower Defense Survival Game with Free Purchases",
   "tags": [
+   "tower defense",
    "survival",
-   "arena",
-   "tower",
-   "defense",
-   "strategy",
-   "game"
+   "mod",
+   "coins",
+   "chest",
+   "characters"
   ]
  },
  "train.railroad.climb.simulator": {
@@ -85588,45 +85855,63 @@
  },
  "tv.twitch": {
   "category": "entertainment",
-  "date": "2026-11-09",
-  "description": "Twitch for iOS featuring customizable chat, extra emotes, and ad blocking.",
+  "date": "2026-11-27",
+  "description": "With Twitch Fox you get ad-free streams, the ability to download clips, and plenty more tweak options in Twitch settings. Experience the games you love like never before. Watch live streams and chat with devoted gamers around the world. Catch the action as it happens. Access all the content you care about from frenetic Overwatch matches to soothing Bob Ross art demos. With millions of unique streamers every day, if it\u2019s worth watching, it\u2019s live on Twitch right now. Watch live videos of your favorite games from titles like Minecraft and League of Legends to indie gems. Connect with other gamers in real time with full-featured live chat. Go live with a touch and share your passion. Be part o\u2026",
   "features": [
-   "Ad Blocking",
-   "Customizable Chat",
-   "Extra Emotes"
+   "No Ads",
+   "Download Clips",
+   "Full Chat",
+   "Go Live",
+   "Live Shows"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "82608e87d7742ffd36ab84564ad9e32be0b49581f4e2bf2026ecef3a25abf788",
-  "subtitle": "Customizable Twitch client with extra emotes and ad blocking",
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "29bd4b027d66816ce8e32a161013d15d70ccdf3abe01668e15163a347f0ee3b3",
+  "subtitle": "Ad-Free Twitch for iPhone",
   "tags": [
    "twitch",
-   "streaming",
+   "gaming",
    "chat",
-   "emotes",
-   "video"
+   "streams",
+   "live",
+   "games"
+  ]
+ },
+ "tv.twitch.32.0.twitchcontrol.0.0.7.zerodeadbeef": {
+  "category": "entertainment",
+  "date": "2026-11-27",
+  "description": "This is a modded version of Twitch that includes TwitchControl. It can be sideloaded using CertFish's FastSign service.",
+  "features": [],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "39e936bd9b3adb285e5469790e3bd772ba37ced7b37467bc2561b74368d76881",
+  "subtitle": "Modded Twitch with TwitchControl",
+  "tags": [
+   "twitch",
+   "mod",
+   "twitchcontrol",
+   "sideload",
+   "certfish",
+   "fastsign"
   ]
  },
  "tv.twitch.twitch": {
   "category": "entertainment",
-  "date": "2026-11-08",
-  "description": "TwitchPlusK is a tweak for the official Twitch iOS app. It adds a fully customizable chat, 7TV, BTTV, and FFZ emotes, adblock, Channel Points Auto Claim, OLED mode, and more. Available in English and French from the settings menu. Manage chat features including replying to messages, viewing threads, and customizing deleted-message display. Use 7TV, BTTV, and FFZ emotes with support for animated and Zero-Width emotes, search, favorites management, and PC import. Block stream ads using a proxy, local VAFT method, or a combination of both.",
+  "date": "2026-11-27",
+  "description": "TwitchPlusK is a tweak for the official Twitch iOS app. It keeps the native app and adds a fully customizable chat, 7TV/BTTV/FFZ emotes, adblock, Channel Points Auto Claim, OLED mode and more. Available in ENGLISH and FRENCH from the Settings menu.\n\nChat and emotes:\n- Reveal deleted messages and view timeout durations or permanent ban labels.\n- Access 7TV, BTTV, and FFZ emotes through a dedicated emote picker.\n- Search emotes, manage favorites, and import favorites from PC.\n\nAd blocking:\n- Proxy - block stream ads through a default or custom proxy.\n- Local (VAFT) - block stream ads without a video proxy.\n- Proxy + Local (VAFT) - combine a stream relay with local ad blocking.\n- Use a separat\u2026",
   "features": [
-   "Ad Block",
-   "Custom Chat",
-   "Emote Support",
-   "OLED Mode",
-   "Auto Claim"
+   "No Ads",
+   "Cheat Menu",
+   "Unlocked"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "34478be77fc9ab1979372eac09c98a1f7ac634c489c47b4a99e2697f302af463",
-  "subtitle": "A tweak for Twitch with adblock and custom chat",
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "3f04079beba649689fb6fb5db3b43a7c4f0e8e277d0518d98402b17ae757048d",
+  "subtitle": "Twitch Chat + Ad Blocking",
   "tags": [
    "twitch",
-   "tweak",
+   "chat",
    "emotes",
    "adblock",
-   "streaming",
-   "chat"
+   "oled",
+   "customizable"
   ]
  },
  "tw.tyche.voicetube": {
@@ -85854,23 +86139,18 @@
   ]
  },
  "uni.cbum": {
-  "category": "lifestyle",
-  "date": "2026-11-21",
-  "description": "Stndrd provides workout and fitness plans. Version 4.1.50 requires iOS 15.6 or later. This patched version includes subscription features unlocked. Bundle identifier: uni.cbum.",
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "Stndrd is an app with a subscription unlock feature. The subscription is already unlocked.",
   "features": [
-   "Subscription Unlocked",
-   "Patched"
+   "Subscription Unlocked"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "8dacd4543b9059851a59d564b7452ab3ab6bbc7c82d21b2f78030f6f336c60d1",
-  "subtitle": "Workout & fitness plans with subscription unlocked",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "ba7d278ee110649a822f4da401fa5149680c3af2805f9978438607172df23fec",
+  "subtitle": "Standard app with subscription unlocked",
   "tags": [
-   "workout",
-   "fitness",
-   "plans",
    "subscription",
-   "unlocked",
-   "health"
+   "unlocked"
   ]
  },
  "universeye.co.TuneTally": {
