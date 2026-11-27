@@ -1173,24 +1173,25 @@
  },
  "app.anich": {
   "category": "entertainment",
-  "date": "2026-11-17",
-  "description": "AniCh is an online anime streaming application that supports super-resolution, multiple platforms, multiple anime sources, and multiple bullet screens in high definition without ads. It provides anime indexing and search, variable speed playback, watch history, anime tracking management, bullet screen filtering and reporting, episode comments, and offline caching.",
+  "date": "2026-11-27",
+  "description": "AniCh is a multi-platform anime danmaku application. It supports multiple anime sources, super-resolution, danmaku filtering, follow management, and offline caching. The iOS installation package provided here is unsigned and requires self-signing.",
   "features": [
-   "High Definition",
-   "No Ads",
-   "Variable Speed Playback",
-   "Offline Caching",
-   "Watch History"
+   "Multiple anime sources",
+   "Super-resolution",
+   "Danmaku filtering",
+   "Follow management",
+   "Offline caching"
   ],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "e1b0b7a9ecbec462d2dcbc29f92988b0b595947ed29257991ec1bcb48da2db7e",
-  "subtitle": "Online anime streaming app with multiple sources",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "0209213dae7cae31981e52879067bd8cef62910a3cbbf9d180b2fcfded8dbdfc",
+  "subtitle": "Multi-platform anime danmaku app with multiple sources",
   "tags": [
    "anime",
-   "streaming",
+   "danmaku",
    "video",
-   "player",
-   "offline"
+   "offline",
+   "filter",
+   "follow"
   ]
  },
  "app.aplusai": {
@@ -1347,25 +1348,25 @@
  },
  "app.concat.editor": {
   "category": "photo-video",
-  "date": "2026-11-21",
-  "description": "Concat is a free, open-source video editor for iOS, macOS, Windows, Linux, and Android. It includes auto-captions, voice isolation, text-to-speech, background removal, animations and keyframes, effects and titles, multi-track cutting, and 4K export. No watermark, no account, no subscription, and no upload required. All processing runs locally on your device; AI models for captions, voices, and cutout download once from Settings and work offline afterward. Your footage never leaves your disk. Suitable for TikTok, Reels, Shorts, YouTube videos, tutorials, screen recordings, podcast clips, and memes. Also provides a built-in MCP server for AI agents and a JSON-RPC API for scripted video editin\u2026",
+  "date": "2026-11-27",
+  "description": "Concat is a free open source video editor for macOS Windows Linux and Android. It provides auto captions voice isolation text to speech background removal animations effects titles multi track cutting and 4k export. No watermark account subscription or upload. The AI models download once from settings and work offline. Runs on your machine. Suitable for TikTok Reels Shorts YouTube tutorials screen recordings podcast clips and memes. Also includes a built in MCP server for AI agents and a JSON RPC API for scripts.",
   "features": [
-   "No Watermark",
-   "No Account",
-   "No Subscription",
+   "No Ads",
+   "Unlocked",
    "Offline AI",
-   "Open Source"
+   "No Upload",
+   "MCP Server"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "e074ee88996d22c24aedc123d52ae01e45c7a51b43e1e2e2672aaa48a6cb0ffb",
-  "subtitle": "Free open-source video editor, offline AI tools",
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "93641598d915ed49120c258ec1ecdde0f57c0a129a8359567ffaa250a7f0026f",
+  "subtitle": "Concat Video Editor",
   "tags": [
-   "video editor",
-   "open source",
-   "offline",
-   "auto captions",
-   "4k export",
-   "no watermark"
+   "video",
+   "editor",
+   "ai",
+   "tutorial",
+   "music",
+   "apps"
   ]
  },
  "app.cranberry.cure": {
@@ -5679,20 +5680,24 @@
   ]
  },
  "com.InputStreamPlayer": {
-  "category": "utilities",
-  "date": "2026-11-10",
-  "description": "InputStream Player allows you to play your own playlists of live TV, movies, and series on iPhone, iPad, Apple TV, Mac, and Android or Google TV. The application ships with no playlists, credentials, or third-party keys, and is intended solely for content you are entitled to access. Verifiable releases, documentation, and sample playlists are supported.",
-  "features": [],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "a618eb193880dd63983d437c610926252d41c8a7da4643d800a23bcd97c55fad",
-  "subtitle": "Play your own live TV, movies and series playlists",
+  "category": "entertainment",
+  "date": "2026-11-27",
+  "description": "ISPlayer is a player for your own playlists of live TV, movies and series on iPhone, iPad, Apple TV, Mac and Android/Google TV. It ships no playlists, credentials or third-party keys. It is meant for content you are entitled to access. This repository is for distribution only: verifiable releases, documentation, sample playlists and issues.",
+  "features": [
+   "No Ads",
+   "No Playlists",
+   "No Credentials"
+  ],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "4d280c8b45d2d515481e1813ca189d4be1b85d07b016dcbe484562e007fdc4ed",
+  "subtitle": "ISPlayer InputStream Player",
   "tags": [
+   "input",
+   "stream",
    "player",
-   "playlist",
-   "livetv",
-   "movies",
-   "series",
-   "streaming"
+   "live",
+   "tv",
+   "movies"
   ]
  },
  "com.InvisibleIsland.InvisibleIsland": {
@@ -20389,19 +20394,24 @@
  },
  "com.exaltedpixels.LensLinkCamera": {
   "category": "photo-video",
-  "date": "2026-10-28",
-  "description": "LensLink Camera turns your iPhone or iPad into a high-quality camera source for OBS Studio. Connect your device to use it directly inside OBS for streaming or recording.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "e05430c66fe05a661735ff1e5f9802b08646561cf9ad7c07b1a743147a86e5a4",
-  "subtitle": "Use iPhone as OBS Studio camera",
+  "date": "2026-11-27",
+  "description": "LensLink Camera lets your iPhone or iPad act as a camera inside OBS Studio. Connect via Wi-Fi or USB. No virtual cameras, RTMP server, or monthly subscription. Uses two parts: an OBS plugin and the app.",
+  "features": [
+   "OBS Plugin",
+   "iOS Camera",
+   "USB/Wi-Fi Connect",
+   "No Ads"
+  ],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "b2d82140e8f2e82f339e5efb6918a85ef895d8d959dadcd1f5fcb65cca4dead2",
+  "subtitle": "OBS Camera Extension",
   "tags": [
    "obs",
    "camera",
-   "streaming",
-   "video",
-   "ipad",
-   "iphone"
+   "lenslink",
+   "ios",
+   "iphone",
+   "usb"
   ]
  },
  "com.example.FlowDownload": {
@@ -20499,41 +20509,41 @@
  },
  "com.example.cyport": {
   "category": "games",
-  "date": "2026-11-18",
-  "description": "CyPort helps you build your legally bought copy of Cyberpunk 2077 for Mac on your iOS device. The app contains no game files and requires version 2.3.1 from GOG. CyPort is an independent fan project and is not affiliated with or endorsed by CD PROJEKT RED.",
+  "date": "2026-11-27",
+  "description": "CyPort does not include any game files. You must own a legal copy of Cyberpunk 2077 for Mac from GOG (version 2.3.1). The application builds the port on your Mac from that copy. CyPort is an independent fan project and is not affiliated with or endorsed by CD PROJEKT RED. Cyberpunk 2077 is a trademark of CD PROJEKT S.A.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "3a22373c5769bb27279c7ea4c271e25467e3aae4a9c1c8192f6c7dd956ca9a06",
-  "subtitle": "Build your Mac game copy for iOS devices",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "fd57d3e32626759aade7309a34c90764b31c7ada10f1c2a60cbd97bc6b1e5813",
+  "subtitle": "Fan port builder for Cyberpunk 2077 on Mac",
   "tags": [
-   "cyport",
    "cyberpunk",
-   "game",
-   "build",
-   "mac"
+   "port",
+   "mac",
+   "fan",
+   "project",
+   "gog"
   ]
  },
  "com.example.kazumi": {
   "category": "entertainment",
-  "date": "2026-11-26",
-  "description": "Kazumi is a Flutter-based anime collection and online viewing app. It uses up to five XPath-based selectors to build custom rules for scraping content. Rules can be imported and shared. It supports Anime4K real-time super-resolution. Other features include anime catalog and search, episode playback, danmaku comments, a follow list, history, speed control, multiple video sources, and color schemes.",
+  "date": "2026-11-27",
+  "description": "\u57fa\u4e8e\u81ea\u5b9a\u4e49\u89c4\u5219\u7684\u756a\u5267\u91c7\u96c6 App\uff0c\u652f\u6301\u6d41\u5a92\u4f53\u5728\u7ebf\u89c2\u770b\u3001\u5f39\u5e55\u4e0e\u5b9e\u65f6\u8d85\u5206\u8fa8\u7387\u3002\u652f\u6301\u591a\u5e73\u53f0\uff0c\u6b64\u5904\u4e3a\u672a\u7b7e\u540d iOS \u6784\u5efa\uff0c\u9700\u81ea\u884c\u7b7e\u540d\u5b89\u88c5\u3002\u5f00\u6e90\u534f\u8bae\uff1aGPL-3.0",
   "features": [
-   "Custom XPath rules",
-   "Rule import and share",
-   "Anime4K super-resolution",
-   "Danmaku comments",
-   "Multiple video sources"
+   "\u81ea\u5b9a\u89c4\u5219",
+   "\u6d41\u5a92\u4f53\u64ad\u653e",
+   "\u5f39\u5e55\u652f\u6301",
+   "\u5b9e\u65f6\u8d85\u5206"
   ],
-  "model": "tokenlab:DeepSeek-V4-Flash",
-  "src_hash": "af4d20ace7b00c7711ff8abc2ef5717466a9632ae320430663870b38154a7e8b",
-  "subtitle": "Anime aggregator and player with custom XPath rules.",
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "0271478cea0488253e2dcac9f7e73dfe2f8db654b288d154427c9e56ece240ca",
+  "subtitle": "Kazumi - \u81ea\u5b9a\u4e49\u756a\u5267\u91c7\u96c6",
   "tags": [
-   "anime",
-   "xpath",
-   "video",
-   "player",
-   "rules",
-   "danmaku"
+   "\u756a\u5267",
+   "\u91c7\u96c6",
+   "\u64ad\u653e",
+   "\u5f39\u5e55",
+   "\u8d85\u5206",
+   "\u591a\u5e73\u53f0"
   ]
  },
  "com.example.laststatsMobile": {
@@ -22252,17 +22262,16 @@
  },
  "com.fouadraheb.regram": {
   "category": "social",
-  "date": "2026-11-06",
-  "description": "Regram for Instagram is a duplicate version of Instagram developed by Fouad Raheb. This is an uncracked release provided by scholars lounge, carrying version 443.0 with Regram version 6.0 under bundle identifier com.fouadraheb.regram.",
+  "date": "2026-11-27",
+  "description": "A duplicated app to install with original Instagram. Available only to Patreon subscribers. Connect your Patreon account from inside Regram Settings. Access settings by long-pressing on Home tab bar button or from Instagram settings.",
   "features": [],
-  "model": "gemini:gemini-3.5-flash-lite",
-  "src_hash": "cd82fea42630d8c5f73f6682701ca61840e45e17085681355299a31c99340b5f",
-  "subtitle": "Duplicate app for Instagram",
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "90aef72cfdd3fdb5e03f8fc701238c9618d7f8efc8bcd779230e9d3b4730adaf",
+  "subtitle": "Regram Duplicate",
   "tags": [
+   "patreon",
    "instagram",
-   "regram",
-   "social",
-   "duplicate"
+   "social"
   ]
  },
  "com.fouadraheb.watusi": {
@@ -36267,23 +36276,17 @@
  },
  "com.jonathan859.remsound": {
   "category": "entertainment",
-  "date": "2026-11-04",
-  "description": "Native companion for RemSound on iPhone, iPad, and Mac. Receives audio from RemSound computers and sends microphone input back. Built VoiceOver-first with low-latency playback and end-to-end encryption matching the Windows app. Implements RemSound v3.x wire protocol (header version 1) and server group protocol (header version 2). Protocol last reviewed against RemSound 6.1 and server-v2.16.",
-  "features": [
-   "VoiceOver-first",
-   "Low-latency playback",
-   "End-to-end encryption"
-  ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "40809fb2038ce707d800169b268ae0faa256f133fc7359dc65b0249645dc2bc0",
-  "subtitle": "Voice-over-IP companion for RemSound",
+  "date": "2026-11-27",
+  "description": "A native iOS and macOS companion for RemSound. It lets you hear what RemSound computers are sending and send your own microphone back. Built VoiceOver-first with low-latency playback and the same end-to-end encryption as the Windows app. Supports RemSound v3.x wire protocol and server group protocol. The protocol is reviewed against RemSound 6.1 and server-v2.16.",
+  "features": [],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "1c4de36eb06d738a704914d9b6546a19bebd8233a350dd9093694b6440e640bb",
+  "subtitle": "Listen to RemSound Computer Audio",
   "tags": [
-   "voice",
-   "audio",
    "remsound",
-   "accessibility",
-   "encryption",
-   "protocol"
+   "audio",
+   "voiceover",
+   "encryption"
   ]
  },
  "com.jonbui.videoplayer": {
@@ -41006,21 +41009,19 @@
  },
  "com.maxty.gofitness": {
   "category": "other",
-  "date": "2026-11-26",
-  "description": "ProFit is a fitness application that provides subscription features unlocked for users.",
-  "features": [
-   "Subscription Unlocked"
-  ],
+  "date": "2026-11-27",
+  "description": "ProFit is an app described as \"Injected with Pro\" in its source listing. No further details about functionality or features are provided.",
+  "features": [],
   "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "7f58399521f76876b71054edfd045a9bfee94da95b25b41c07c6ff6fb1b1f8d5",
-  "subtitle": "Fitness app with subscription unlocked",
+  "src_hash": "e760fc13ad40fe09bce5f870aa38393961cfd4c6218e09b4d16361fdd90cc2db",
+  "subtitle": "ProFit \u2013 Injected with Pro",
   "tags": [
    "profit",
+   "pro",
+   "injected",
    "fitness",
-   "subscription",
-   "unlocked",
-   "health",
-   "workout"
+   "app",
+   "utility"
   ]
  },
  "com.mayaiptv.client": {
@@ -41953,24 +41954,25 @@
  },
  "com.minh-ton.Reynard": {
   "category": "utilities",
-  "date": "2026-11-04",
-  "description": "Reynard is a Gecko-based web browser for iOS 13 and later. Unlike other iOS browsers that must use Apple's WebKit engine, Reynard uses the same Gecko engine that powers Firefox on desktop and Android. It supports Firefox add\u2011ons, including more capable ad\u2011blocking extensions, and provides privacy features such as Enhanced Tracking Protection and DNS over HTTPS. The app works on iOS 14 and the latest iOS versions.",
+  "date": "2026-11-27",
+  "description": "Reynard is a Gecko-based web browser for iOS 13+. It uses the Gecko engine, the same as Firefox desktop and Android. It supports Firefox add-ons, including ad-blocking extensions and privacy features like Enhanced Tracking Protection and DNS over HTTPS. The project is open for contributions and feedback from developers.",
   "features": [
-   "Firefox add\u2011ons",
-   "Ad\u2011blocking extensions",
-   "Enhanced Tracking Protection",
-   "DNS over HTTPS"
+   "No Ads",
+   "Privacy",
+   "Unlocked",
+   "Support",
+   "No Prior Experience"
   ],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "3cec98161f369ceb33bd4d5d618d8f642108f23bc01b8cc56bc762e888624089",
-  "subtitle": "Gecko-based browser with Firefox add\u2011on support",
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "b7158c1a5cd2456af7e578856f513d7e1396c317b4d4a11008106bad63766135",
+  "subtitle": "Gecko Browser for iOS",
   "tags": [
    "browser",
    "gecko",
-   "firefox",
    "privacy",
-   "adblock",
-   "ios"
+   "ad-blocking",
+   "ios",
+   "firefox"
   ]
  },
  "com.miniclip.8ballpoolmult": {
@@ -42688,24 +42690,25 @@
  },
  "com.modu.reader": {
   "category": "utilities",
-  "date": "2026-11-26",
-  "description": "Modu is a reading app available for Android, iOS, macOS, Windows, Linux and native HarmonyOS. Local reading works without an AI account; online tools are optional. Starting from version 1.3.11, Linux packages include x64 and ARM64 DEBs for Debian 13 and an AppImage for Arch Linux x64. The app offers a flexible library, comfortable typography, scan-to-text reading, AI, translation, listening and sync. It keeps everyday reading tools close to the page. For PDFs and scanned books, it preserves the original layout while removing empty margins. Panel reading, rotation, zoom and image enhancement help on smaller screens. On-device OCR turns scanned pages into text that can be reflowed, selected,\u2026",
+  "date": "2026-11-27",
+  "description": "Modu is a reading app available for Android, iOS, macOS, Windows, Linux and native HarmonyOS. Local reading needs no AI account; online tools are optional. A flexible library, comfortable typography, scan-to-text reading, AI, translation, listening and sync keep everyday reading tools close to the page. For PDFs and scanned books, keep the original layout while removing empty margins; panel reading, rotation, zoom and image enhancement help you see details on smaller screens. On-device OCR turns scanned pages into text you can reflow, select, translate and annotaterevise. Lightweight OCR models run locally and work offline after download. Linux downloads and guides: x64 and ARM64 DEBs for D\u2026",
   "features": [
+   "Cross-platform",
    "Local OCR offline",
-   "Panel reading",
-   "Image enhancement",
-   "Sync",
-   "AI tools"
+   "PDF margin removal",
+   "Optional online tools",
+   "No AI account needed"
   ],
-  "model": "tokenlab:DeepSeek-V4-Flash",
-  "src_hash": "1456ad0fe5ae55844e53e37e904e8e515adea72140116400d1da453a5746cd59",
-  "subtitle": "Local reading app with OCR and PDF tools for multiple platf\u2026",
+  "model": "tokenlab:DeepSeek-V4.1-Flash",
+  "src_hash": "e7c0235c4199f159d8d37dc5e22bbd86661f79f0cb4626814ded48df45d9e23b",
+  "subtitle": "Cross-platform reading app with local OCR and PDF tools",
   "tags": [
    "reader",
    "ocr",
    "pdf",
-   "scan",
-   "reading"
+   "translation",
+   "offline",
+   "linux"
   ]
  },
  "com.mody.ramchecker": {
@@ -53926,20 +53929,19 @@
   ]
  },
  "com.selabs.speak-v2": {
-  "category": "lifestyle",
-  "date": "2026-11-26",
-  "description": "Speak is a mobile application that makes learning a new language IPA easier and engaging.",
-  "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "0948485e4c376c3dac52a4b8181aec6c123ead0e5d1af5a35a08f258166d0551",
-  "subtitle": "Learn IPA language easily",
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "Speak is an app to learn Spanish and French. It offers a subscription that is unlocked. The version is 4.11.0 and is patched.",
+  "features": [
+   "Unlocked"
+  ],
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "9de0fe28e8b4ae9010966663928310a8742aa780fcc9a30473e6c421f9e45996",
+  "subtitle": "Learn Spanish and French",
   "tags": [
-   "language",
-   "learning",
-   "ipa",
-   "speak",
-   "mobile",
-   "app"
+   "spanish",
+   "french",
+   "learn"
   ]
  },
  "com.selxo.mangatan": {
@@ -69199,22 +69201,22 @@
   ]
  },
  "com.wikiloc.wikiloc": {
-  "category": "lifestyle",
-  "date": "2026-11-11",
-  "description": "Wikiloc lets you discover and share outdoor trails from around the world. Access navigation features and route maps for hiking, running, cycling, and various other outdoor activities. Plan your next adventure using community-generated paths and waypoints. This version is updated to 3.30.2 and requires iOS 16.4 or later.",
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "Wikiloc app with subscription unlocked.",
   "features": [
-   "Patched"
+   "Subscription Unlocked"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "2d00196f2f0b9faadaf6c8a015bfc02e86e3230beab2691739e4d6361ba9be51",
-  "subtitle": "Trails of the World",
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "d51dfe1acdb9802834673d9df9685f82cb7dc774465e5724dabe4cb77f2ab604",
+  "subtitle": "Wikiloc with subscription unlocked",
   "tags": [
-   "trails",
-   "hiking",
+   "wikiloc",
+   "subscription",
+   "unlocked",
+   "travel",
    "maps",
-   "navigation",
-   "outdoors",
-   "routes"
+   "gps"
   ]
  },
  "com.wildlifestudios.merge.animal.sanctuary": {
@@ -70669,20 +70671,18 @@
  "com.zanzibarr.zanzibarr": {
   "category": "entertainment",
   "date": "2026-11-27",
-  "description": "Zanzibarr turns Usenet into your personal streaming library. Point it at any .nzb and the video starts playing in seconds with no download queue or waiting for the full file. Scrub to the final scene of a 4K remux before the first act would have finished downloading. New in v2.0: search everywhere at once across multiple Newznab indexers and Prowlarr/NZBHydra2 endpoints with automatic Easynews web search and cross-source deduplication. Keep the season going with a natural-order play queue, watched-episode badges and a ten-second Up next card. Accounts and languages are remembered with multiple switchable NNTP profiles, multiple enabled indexer profiles, and preferred audio language carried\u2026",
+  "description": "Zanzibarr turns Usenet into a personal streaming library. Point it at any .nzb and video starts playing in seconds with no download queue, no waiting for the full file, and no disk space sacrificed. You can scrub to the final scene of a 4K remux before first act would have finished downloading. It feels like magic but is really a disciplined engine. New in v2.1: Native Samsung Tizen and LG webOS TV support with separate packages for Tizen 6.0, Tizen 10/2026, and webOS 26 Re:New+.",
   "features": [
    "No Ads"
   ],
   "model": "tokenlab:MiniCPM5-2B",
-  "src_hash": "4ac040a93ae5a8003f4d9a7da58266ab3e9decec1c9dccde1053d38c5c12ffdb",
-  "subtitle": "Personal streaming library for Usenet",
+  "src_hash": "381e1116d2516fa7c259f63c11cad05802ed1cbae5cfd29f49abd95dded40b70",
+  "subtitle": "Stream Zanzibarr files",
   "tags": [
-   "nzb",
-   "streaming",
    "usenet",
-   "download",
-   "search",
-   "v2.0"
+   "streaming",
+   "nzb",
+   "videos"
   ]
  },
  "com.zarz.mornye": {
@@ -75709,20 +75709,13 @@
  },
  "fr.moblo": {
   "category": "other",
-  "date": "2026-10-30",
-  "description": "Moblo is a design-focused application for iOS that enables users to create custom furniture projects in 3D. The app provides tools for modeling and visualizing furniture pieces directly on mobile devices.",
+  "date": "2026-11-27",
+  "description": "Moblo helps you design DIY projects in 3D using augmented reality. It brings woodworking ideas to life with a digital platform.",
   "features": [],
-  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
-  "src_hash": "bd75470ebed4dc8b317bc963503d21853f123efdd4dd4b205e85b570e6e8c890",
-  "subtitle": "Create custom 3D furniture designs",
-  "tags": [
-   "3d",
-   "furniture",
-   "modeling",
-   "design",
-   "custom",
-   "projects"
-  ]
+  "model": "tokenlab:MiniCPM5-2B",
+  "src_hash": "2e0666b78908eb92713b9e530c83303853e1b3651dde8117e42c4c00bd5cad88",
+  "subtitle": "3D Woodworking with AR",
+  "tags": []
  },
  "fr.orvidia.shefu": {
   "category": "utilities",
@@ -78159,13 +78152,25 @@
  },
  "io.nekohasekai.screensharing": {
   "category": "utilities",
-  "date": "2026-11-26",
-  "description": "Open Screen Sharing is a free and open-source remote desktop client optimized for Mac screen sharing and public networks, while also offering first-class support for standard VNC and RDP.",
-  "features": [],
-  "model": "tokenlab:MiniCPM5-2B",
-  "src_hash": "301a368988185456672217e4d3d0d4e63d895fa32d857135df9ee90663f8be99",
-  "subtitle": "Open Screen Sharing",
-  "tags": []
+  "date": "2026-11-27",
+  "description": "Screen Sharing enables remote screen access across iOS, Android, and macOS. The app includes RDP protocol support. Nightly builds are available for macOS via the app settings. Published on the iOS App Store and Google Play. Homebrew distribution is also provided. Future plans include F-Droid publication and potential Linux and Windows support.",
+  "features": [
+   "Cross-platform",
+   "RDP Support",
+   "Nightly Builds",
+   "Homebrew"
+  ],
+  "model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "src_hash": "a9badb612c7db6c95eed7585a135f70767e81d5dfe55c4ed126ebb7bbbbed0c2",
+  "subtitle": "Cross-platform screen sharing with RDP support",
+  "tags": [
+   "screen sharing",
+   "remote desktop",
+   "rdp",
+   "cross-platform",
+   "macos",
+   "ios"
+  ]
  },
  "io.nekohasekai.swipt": {
   "category": "utilities",
