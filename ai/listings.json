@@ -8695,6 +8695,27 @@
    "developer"
   ]
  },
+ "com.aigch.nmsl": {
+  "category": "utilities",
+  "date": "2026-11-27",
+  "description": "Get More Ram is a SideSign wrapper app that lets you enable the \"Increased Memory Limit\" feature for sideloaded apps without using Xcode. To use it, sideload this app, sign in with the account used to sign the target app, go to App IDs, tap Refresh, select the app, tap \"Add Increased Memory Limit\", then reinstall the app from SideStore or AltStore.",
+  "features": [
+   "No Xcode Required",
+   "Enable Increased Memory Limit",
+   "Works with SideStore/AltStore"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "37dbdaa9271a56d6b94d27c7668ee1c8f292091e112d47575492f10a396a182e",
+  "subtitle": "Enable Increased Memory Limit for Sideloaded Apps",
+  "tags": [
+   "memory",
+   "sideload",
+   "ram",
+   "altstore",
+   "sidestore",
+   "increased"
+  ]
+ },
  "com.aiporn.aichat": {
   "category": "utilities",
   "date": "2026-10-14",
@@ -15663,6 +15684,28 @@
    "home",
    "recipes",
    "utilities"
+  ]
+ },
+ "com.coolapk.desktop": {
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "CoolapkDesktop is an unofficial third-party client for the Coolapk platform, built with Tauri 2, Vue 3, and Rust. It supports browsing feeds, searching, favoriting, and direct messaging.",
+  "features": [
+   "Browse Feeds",
+   "Search",
+   "Favorite",
+   "Direct Messaging"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "2bf976e830917a541328bd91da979b9019111e4fc2dbff0b010450067daadf3f",
+  "subtitle": "Third-party Coolapk client for desktop",
+  "tags": [
+   "coolapk",
+   "client",
+   "desktop",
+   "tauri",
+   "vue",
+   "rust"
   ]
  },
  "com.coolstar.taurine": {
@@ -22904,19 +22947,24 @@
  },
  "com.g8row.photosbackup": {
   "category": "photo-video",
-  "date": "2026-11-11",
-  "description": "Photos Backup is an experimental application designed to back up selected photos, videos, and albums from your device directly to Google Photos.",
-  "features": [],
-  "model": "gemini:gemini-3.5-flash",
-  "src_hash": "f5e461e19f8e31816e64a3b379c0d0718e36915c395ea8bbb87ec0a83beb0322",
-  "subtitle": "Back up photos, videos, and albums to Google Photos",
+  "date": "2026-11-27",
+  "description": "Photos Backup is an experimental iPhone app that backs up selected photos, videos, and albums to Google Photos. All processing is on-device: Google account setup happens in an in-app web view, and the authentication flow is completed entirely on the phone. No desktop companion or hosted service is required.\n\nThe app uses Google's private, undocumented Photos endpoints and an Android-style authentication flow. It is not affiliated with or endorsed by Google, and the integration may stop working without notice. Use it at your own risk.\n\nFeatures: Connect a Google account through Google's EmbeddedSetup flow in an in-app web view. Capture the single-use oauth_token from the web view's cookie st\u2026",
+  "features": [
+   "On-device processing",
+   "In-app web view for account se",
+   "No desktop companion required",
+   "No hosted service"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "355e4c49ce414db57f966dd63e586bc81570d154d1b94594ac0d1edc413e98fa",
+  "subtitle": "On-device backup of photos and videos to Google Photos",
   "tags": [
    "backup",
+   "google photos",
    "photos",
    "videos",
-   "google",
    "albums",
-   "media"
+   "on-device"
   ]
  },
  "com.gageadiel.reference.gageref": {
@@ -39490,6 +39538,29 @@
    "arcade"
   ]
  },
+ "com.liuliuya.PiliNative": {
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "LiLite is a native third-party Bilibili client built from scratch with SwiftUI/UIKit. It supports dual playback engines (mpv and AVPlayer), danmaku (bullet comments), picture-in-picture, and offline caching. The app is adapted for iOS 26 Liquid Glass design.",
+  "features": [
+   "Dual playback engines",
+   "Danmaku support",
+   "Picture-in-Picture",
+   "Offline cache",
+   "iOS 26 Liquid Glass"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "be1c419e3f107b4d6da89adc4837d61e6e3d0e546ff5c360185b10f7207acd02",
+  "subtitle": "Native third-party Bilibili client with mpv/AVPlayer, danma\u2026",
+  "tags": [
+   "bilibili",
+   "video",
+   "danmaku",
+   "mpv",
+   "avplayer",
+   "offline"
+  ]
+ },
  "com.livingcodelabs.bakerbusiness3": {
   "category": "games",
   "date": "2026-10-15",
@@ -39633,6 +39704,28 @@
    "native",
    "customization",
    "quality-of-life"
+  ]
+ },
+ "com.local.STV": {
+  "category": "utilities",
+  "date": "2026-11-27",
+  "description": "i\u77ed\u5267 is a cross-platform playback and reading framework for iOS/iPadOS 16.0+. The app does not include any built-in sources for videos, books, comics, or channels. It supports importing content via plugins, TVBox configurations, local novels, and Telegram channels. Features include video playback, comic reading, and audiobook-style novel listening.",
+  "features": [
+   "Plugin support",
+   "TVBox config import",
+   "Local novel import",
+   "Telegram channel import"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "e9e61f2e02bf45e451174d67ddbb68f0485bd6c3186a9d170f89c4cd6593e5a7",
+  "subtitle": "Plugin-based player and reader for iOS",
+  "tags": [
+   "player",
+   "reader",
+   "video",
+   "comic",
+   "novel",
+   "plugin"
   ]
  },
  "com.local.pokedextracker": {
@@ -50841,6 +50934,23 @@
    "ipa",
    "mod",
    "ios"
+  ]
+ },
+ "com.rayc.cilicili": {
+  "category": "entertainment",
+  "date": "2026-11-27",
+  "description": "cilicili \u662f\u4f7f\u7528 SwiftUI \u5f00\u53d1\u7684\u7b2c\u4e09\u65b9 iOS \u5ba2\u6237\u7aef\u5b9e\u9a8c\u9879\u76ee\uff0c\u4e13\u6ce8\u4e8e\u63d0\u4f9b\u66f4\u8f7b\u91cf\u7684 B \u7ad9\u6d4f\u89c8\u3001\u52a8\u6001\u3001\u89c6\u9891\u64ad\u653e\u548c\u5f39\u5e55\u4f53\u9a8c\u3002",
+  "features": [],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "66895f97bac4be42d65291664d2431e9c0fe1a8ed582a63fe41495bd812fd677",
+  "subtitle": "SwiftUI B\u7ad9\u5ba2\u6237\u7aef\u5b9e\u9a8c\u9879\u76ee",
+  "tags": [
+   "b\u7ad9",
+   "swiftui",
+   "\u89c6\u9891",
+   "\u5f39\u5e55",
+   "\u52a8\u6001",
+   "\u5ba2\u6237\u7aef"
   ]
  },
  "com.rbc33.fretline": {
@@ -74414,6 +74524,29 @@
    "sync"
   ]
  },
+ "dev.huichen.atlas": {
+  "category": "utilities",
+  "date": "2026-11-27",
+  "description": "Account Atlas records which websites and apps are registered or bound to each email or phone number. It supports card view, relationship graphs, privacy masking, and optional end-to-end encrypted synchronization. Data is stored locally by default.",
+  "features": [
+   "Card View",
+   "Relationship Graph",
+   "Privacy Masking",
+   "End-to-End Encrypted Sync",
+   "Local Storage"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "e77cf8ce60783abceb94d9e3d98bca54a33806a17fb395a144f75ef9b4233e5a",
+  "subtitle": "Track accounts and passwords for emails and phones",
+  "tags": [
+   "accounts",
+   "emails",
+   "phones",
+   "passwords",
+   "privacy",
+   "sync"
+  ]
+ },
  "dev.ibuilder.app": {
   "category": "utilities",
   "date": "2026-11-25",
@@ -74537,23 +74670,24 @@
  },
  "dev.jotalac.git-writer": {
   "category": "utilities",
-  "date": "2026-10-26",
-  "description": "GitWriter is a minimalistic, cross-platform note-taking app that uses Git repositories to keep your Markdown notes version-controlled and synchronized across devices. It supports Linux, macOS, Windows, Android, and iOS. The app includes built-in spell checking that verifies misspellings against the selected spell check language in the app settings, which defaults to the app language.",
+  "date": "2026-11-27",
+  "description": "GitWriter is a minimalistic, cross-platform note-taking app that uses Git repositories to keep your Markdown notes version-controlled and synchronized across devices. Supports Linux, macOS, Windows, Android, and iOS. It uses JGit and libgit2 for Git integration, Coil 3 and FileKit for image and file handling, jetbrains-markdown and multiplatform-markdown-renderer for Markdown parsing and rendering, and cryptography-kotlin for cryptography.",
   "features": [
-   "Git integration",
-   "Markdown support",
+   "Git version control",
    "Cross-platform",
-   "Spell checking"
+   "Markdown support",
+   "Encryption"
   ],
-  "model": "gemini:gemini-flash-lite-latest",
-  "src_hash": "f61f5f2729290328fc6d8a2a59974b64bb6025a8b1929a7d379008b4dd85794e",
-  "subtitle": "Minimalistic cross-platform Git note-taking app",
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "7114e3aa31337fefb2591a21ab2531cbb7f43641f62c22a538922fc186948383",
+  "subtitle": "Minimalistic Git-powered Markdown notes, cross-platform",
   "tags": [
    "notes",
-   "git",
    "markdown",
+   "git",
    "sync",
-   "version control"
+   "cross-platform",
+   "minimalist"
   ]
  },
  "dev.kartpad.app": {
@@ -74834,6 +74968,29 @@
    "messaging",
    "social",
    "independent"
+  ]
+ },
+ "dev.reloc.ios": {
+  "category": "utilities",
+  "date": "2026-11-27",
+  "description": "Reloc connects to the system's com.apple.carkit.service via a local loopback, acting as an iAP2 / MFi-v3 / NMEA peripheral to send real-time coordinates. Requires an external proxy pointing to 10.7.0.1 on the local loopback and an imported pairing file. Supports iPhone with iOS 17.0 or later.",
+  "features": [
+   "Local loopback connection",
+   "iAP2 / MFi-v3 / NMEA periphera",
+   "Real-time coordinate injection",
+   "Requires external proxy",
+   "Requires pairing file"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "c2c2e7bc27d1c72329338e2ab6c565962d1784a5ff7ce6361bb6c3973af8e5e5",
+  "subtitle": "CarKit location injection via local loopback",
+  "tags": [
+   "carkit",
+   "location",
+   "iap2",
+   "mfi",
+   "nmea",
+   "ios"
   ]
  },
  "dev.saeed.tourplanner": {
@@ -80413,6 +80570,51 @@
    "touch",
    "ipad",
    "engine"
+  ]
+ },
+ "me.rrmm.douduo": {
+  "category": "other",
+  "date": "2026-11-27",
+  "description": "DouDuo is a free, open-source third-party Douyin client. It is not an official app. The client is built with native SwiftUI and supports iPhone Duo foldable screens, iPad, and regular iPhone. The installation package is an unsigned IPA, requiring your own certificate to sign. It is provided for personal learning and communication only.",
+  "features": [
+   "Open Source",
+   "Free",
+   "Native SwiftUI",
+   "Supports Foldable iPhone Duo",
+   "iPad Support"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "e53c93e0f446f8b103c720c9b5b94a4070abec97cf8c2a27a3ef6433927a3683",
+  "subtitle": "Open-source third-party Douyin client for iOS",
+  "tags": [
+   "douyin",
+   "client",
+   "swiftui",
+   "open-source",
+   "ipad",
+   "unsigned"
+  ]
+ },
+ "me.rrmm.hongguo": {
+  "category": "entertainment",
+  "date": "2026-11-27",
+  "description": "GuoDuo is an open-source, free, unofficial client for Red Fruit short dramas. Built with native SwiftUI, it supports iPhone Duo foldable screens, iPad, and regular iPhones. The installation package is an unsigned IPA and requires signing with your own certificate. For personal learning and communication only.",
+  "features": [
+   "Open-source",
+   "Free",
+   "Native SwiftUI",
+   "Supports iPhone Duo foldable s"
+  ],
+  "model": "tokenlab:DeepSeek-V4-Flash",
+  "src_hash": "0d3b6de4dfeaa8a5c24b136ed42d3120bd3446b20e663fc3e35d1c21c4c1533f",
+  "subtitle": "Open-source free Red Fruit short drama client",
+  "tags": [
+   "short drama",
+   "client",
+   "swiftui",
+   "open-source",
+   "free",
+   "red fruit"
   ]
  },
  "me.soongyu.mugunghwautil": {
